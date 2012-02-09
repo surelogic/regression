@@ -29,4 +29,12 @@ public class TestBorrowed {
 	public void badMethod(@Borrowed int x) {}
 	
 	public void goodMethod(@Borrowed Object o) {}
+	
+	
+	
+	public void ar_badMethod1(@Borrowed(allowReturn=true) int x) {} // primitive
+	
+	public void ar_badMethod2(@Borrowed(allowReturn=true) Object o) {} // not final
+	
+	public void ar_goodmethod(final @Borrowed(allowReturn=true) Object o) {}
 }
