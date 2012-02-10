@@ -29,7 +29,7 @@ import com.surelogic.Region;
 import com.surelogic.RegionLock;
 
 @Region("HeadRegion")
-@RegionLock("Lock is lock protects HeadRegion"/*is CONSISTENT*/)
+@RegionLock("Lock is lock protects HeadRegion"/*is INCONSISTENT*/)
 public class ConcurrentQueueNonBlockingImpl<V> implements ConcurrentQueue<V> {
     // This implementation of ConcurrentQueue uses a non-blocking algorithm (TBD).
     // For now, this is the same as the blocking impl.
@@ -57,7 +57,7 @@ public class ConcurrentQueueNonBlockingImpl<V> implements ConcurrentQueue<V> {
     @InRegion("HeadRegion")
     int count = 0 ;
 
-    @Borrowed("this"/*is CONSISTENT*/)
+    @Borrowed("this"/*is INCONSISTENT*/)
     public ConcurrentQueueNonBlockingImpl(){
 
     }
