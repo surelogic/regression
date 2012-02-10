@@ -29,7 +29,7 @@ import com.surelogic.Region;
 import com.surelogic.RegionLock;
 
 @Region("EntryRegion")
-@RegionLock("Lock is lock protects EntryRegion"/*is CONSISTENT*/)
+@RegionLock("Lock is lock protects EntryRegion"/*is INCONSISTENT*/)
 public class ConcurrentQueueBlockingImpl<V> implements ConcurrentQueue<V> {
 	// This implementation of ConcurrentQueue uses a single lock, which must be
 	// acquired to update the list. Every operation on this class updates the
@@ -68,7 +68,7 @@ public class ConcurrentQueueBlockingImpl<V> implements ConcurrentQueue<V> {
 	@InRegion("EntryRegion")
 	int count = 0;
 
-    @Borrowed("this"/*is CONSISTENT*/ )
+    @Borrowed("this"/*is INCONSISTENT*/ )
     public ConcurrentQueueBlockingImpl(){
 
     }
