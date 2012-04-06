@@ -31,6 +31,7 @@ import com.sun.grizzly.util.ByteBufferFactory.ByteBufferType;
 import com.surelogic.Borrowed;
 import com.surelogic.InRegion;
 import com.surelogic.Region;
+import com.surelogic.RegionEffects;
 import com.surelogic.RegionLock;
 import com.surelogic.RequiresLock;
 import com.surelogic.UniqueInRegion;
@@ -344,6 +345,8 @@ public class DefaultPipeline extends LinkedList<Callable>
      * minus the current waiting threads is lower than zero.
      */
     @Override
+    @RegionEffects("reads Instance")
+    @Borrowed("this")
     public boolean isEmpty() {
         return  (size() - getWaitingThread() <= 0);
     }
@@ -354,6 +357,8 @@ public class DefaultPipeline extends LinkedList<Callable>
      * Return the number of waiting threads.
      * @return number of waiting threads
      */
+    @Borrowed("this")
+    @RegionEffects("reads Instance")
     public synchronized int getWaitingThread(){
         return waitingThreads;
     }

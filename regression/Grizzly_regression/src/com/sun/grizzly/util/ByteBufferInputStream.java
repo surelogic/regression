@@ -32,6 +32,8 @@ import java.nio.channels.Selector;
 import java.nio.channels.ReadableByteChannel;
 import java.nio.channels.SocketChannel;
 
+import com.surelogic.Borrowed;
+
 /**
  * This class implement IO stream operations on top of a <code>ByteBuffer</code>. 
  * Under the hood, this class use a temporary Selector pool for reading
@@ -178,7 +180,7 @@ public class ByteBufferInputStream extends InputStream {
      * @param length 
      */
     @Override
-    public int read(byte[] b, int offset, int length) throws IOException {
+    public int read(@Borrowed byte[] b, int offset, int length) throws IOException {
         if (!byteBuffer.hasRemaining()) {
             int eof = 0;
             for (int i=0; i < readTry; i++) {

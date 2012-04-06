@@ -43,6 +43,9 @@ import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 
+import com.surelogic.Borrowed;
+import com.surelogic.RegionEffects;
+
 
 /**
  * A version of Hashtable that supports mostly-concurrent reading, but
@@ -888,6 +891,8 @@ public class ConcurrentReaderHashMap
     public Iterator iterator() {
       return new KeyIterator();
     }
+    @RegionEffects("reads Instance")
+    @Borrowed("this")
     public int size() {
       return ConcurrentReaderHashMap.this.size();
     }
@@ -923,6 +928,8 @@ public class ConcurrentReaderHashMap
     public Iterator iterator() {
       return new ValueIterator();
     }
+    @RegionEffects("reads Instance")
+    @Borrowed("this")
     public int size() {
       return ConcurrentReaderHashMap.this.size();
     }
@@ -968,6 +975,8 @@ public class ConcurrentReaderHashMap
         return false;
       return ConcurrentReaderHashMap.this.findAndRemoveEntry((Map.Entry)o);
     }
+    @RegionEffects("reads Instance")
+    @Borrowed("this")
     public int size() {
       return ConcurrentReaderHashMap.this.size();
     }

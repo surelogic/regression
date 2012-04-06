@@ -24,6 +24,9 @@
 package EDU.oswego.cs.dl.util.concurrent;
 import java.util.*;
 
+import com.surelogic.Borrowed;
+import com.surelogic.RegionEffects;
+
 /**
  * This class implements a variant of java.util.ArrayList in which
  * all mutative operations (add, set, and so on) are implemented
@@ -144,6 +147,8 @@ public class CopyOnWriteArrayList implements List, Cloneable, java.io.Serializab
    *
    * @return  the number of components in this list.
    */
+  @RegionEffects("reads Instance")
+  @Borrowed("this")
   public int size() {
     return array().length;
   }
@@ -366,6 +371,8 @@ public class CopyOnWriteArrayList implements List, Cloneable, java.io.Serializab
    * @exception IndexOutOfBoundsException index is out of range (index
    * 		  &lt; 0 || index &gt;= size()).
    */
+  @Borrowed("this")
+  @RegionEffects("reads Instance")
   public Object get(int index) {
     Object[] elementData = array();
     rangeCheck(index, elementData.length);
@@ -681,6 +688,8 @@ public class CopyOnWriteArrayList implements List, Cloneable, java.io.Serializab
    * Removes all of the elements from this list. 
    *
    */
+  @RegionEffects("writes this:Instance")
+  @Borrowed("this")
   public synchronized void clear() {
     array_ = new Object[0];
   }
@@ -1079,6 +1088,8 @@ public class CopyOnWriteArrayList implements List, Cloneable, java.io.Serializab
       }
     }
 
+    @Borrowed("this")
+    @RegionEffects("reads Instance")
     public Object get(int index) {
       synchronized(l) {
         rangeCheck(index);
@@ -1087,6 +1098,8 @@ public class CopyOnWriteArrayList implements List, Cloneable, java.io.Serializab
       }
     }
 
+    @RegionEffects("reads Instance")
+    @Borrowed("this")
     public int size() {
       synchronized(l) {
         checkForComodification();

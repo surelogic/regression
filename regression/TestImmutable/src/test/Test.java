@@ -18,9 +18,16 @@ public class Test {
   // BAD: not-final and Immutable
   protected Point bad2 = new Point(1, 2);
   
-  // BAD: final and Mutable
-  protected final Object bad3 = new Object();
+  // GOOD: final and references and immutable implementation
+  protected final Object good3a = new Object();
+  
+  // BAD: final and references a mutable type
+  protected final NotImmutable bad3b = new NotImmutable();
   
   // BAD: non-final and mutable
   protected Object bad4 = null;
+}
+
+class NotImmutable {
+	
 }

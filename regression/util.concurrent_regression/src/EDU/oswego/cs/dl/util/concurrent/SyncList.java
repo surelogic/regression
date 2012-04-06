@@ -14,6 +14,9 @@
 package EDU.oswego.cs.dl.util.concurrent;
 import java.util.*;
 
+import com.surelogic.Borrowed;
+import com.surelogic.RegionEffects;
+
 /**
  * SyncLists wrap Sync-based control around java.util.Lists.
  * They support the following additional reader operations over
@@ -80,6 +83,8 @@ public class SyncList extends SyncCollection implements List {
     }
   }
 
+  @Borrowed("this")
+  @RegionEffects("reads Instance")
   public Object get(int index) {
     boolean wasInterrupted = beforeRead();
     try {

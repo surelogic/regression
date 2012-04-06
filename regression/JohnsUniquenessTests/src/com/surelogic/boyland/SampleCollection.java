@@ -227,7 +227,6 @@ public class SampleCollection implements Iterable<String> {
 		@Override
         @Borrowed("this")
 		@RegionEffects("none")
-		@Assume("@RegionEffects(none) for new(*) in UnsupportedOperationException")
 		public void remove() {
 			throw new UnsupportedOperationException("iteration not started");
 		}

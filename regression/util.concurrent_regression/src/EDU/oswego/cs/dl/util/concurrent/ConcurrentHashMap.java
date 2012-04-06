@@ -38,6 +38,9 @@ import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 
+import com.surelogic.Borrowed;
+import com.surelogic.RegionEffects;
+
 
 /**
  * A version of Hashtable supporting 
@@ -865,6 +868,8 @@ public class ConcurrentHashMap
     public Iterator iterator() {
       return new KeyIterator();
     }
+    @RegionEffects("reads Instance")
+    @Borrowed("this")
     public int size() {
       return ConcurrentHashMap.this.size();
     }
@@ -900,6 +905,8 @@ public class ConcurrentHashMap
     public Iterator iterator() {
       return new ValueIterator();
     }
+    @RegionEffects("reads Instance")
+    @Borrowed("this")
     public int size() {
       return ConcurrentHashMap.this.size();
     }
@@ -946,6 +953,8 @@ public class ConcurrentHashMap
       Map.Entry e = (Map.Entry)o;
       return ConcurrentHashMap.this.remove(e.getKey(), e.getValue()) != null;
     }
+    @RegionEffects("reads Instance")
+    @Borrowed("this")
     public int size() {
       return ConcurrentHashMap.this.size();
     }

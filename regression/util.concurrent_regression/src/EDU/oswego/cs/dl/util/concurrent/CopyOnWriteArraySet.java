@@ -14,6 +14,9 @@
 package EDU.oswego.cs.dl.util.concurrent;
 import java.util.*;
 
+import com.surelogic.Borrowed;
+import com.surelogic.RegionEffects;
+
 /**
  * This class implements a java.util.Set that uses a
  * CopyOnWriteArrayList for all of its operations.
@@ -85,6 +88,8 @@ public class CopyOnWriteArraySet extends AbstractSet implements Cloneable, java.
   }
 
 
+  @Borrowed("this")
+  @RegionEffects("reads Instance")
   public int      size()                    { return al.size(); }
   public boolean  isEmpty()                 { return al.isEmpty(); }
   public boolean  contains(Object o)        { return al.contains(o); }

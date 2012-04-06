@@ -13,7 +13,7 @@ public enum TestImmutable {
 	},
 	
 	D(3, 3) {
-		private final Object s = new Object();
+		private final Object s = new NotImmutable();
 	},
 	
 	E(4, 4) {
@@ -51,4 +51,8 @@ class OtherImmutable {
 	public int getV() {
 		return v;
 	}
+}
+
+class NotImmutable {
+	
 }

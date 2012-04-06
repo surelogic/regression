@@ -14,6 +14,9 @@
 package EDU.oswego.cs.dl.util.concurrent;
 import java.util.*;
 
+import com.surelogic.Borrowed;
+import com.surelogic.RegionEffects;
+
 /**
  * SyncCollections wrap Sync-based control around java.util.Collections.
  * They are similar in operation to those provided
@@ -279,6 +282,8 @@ public class SyncCollection implements Collection {
 
 
 
+  @Borrowed("this")
+  @RegionEffects("reads Instance")
   public int size() {
     boolean wasInterrupted = beforeRead();
     try {
