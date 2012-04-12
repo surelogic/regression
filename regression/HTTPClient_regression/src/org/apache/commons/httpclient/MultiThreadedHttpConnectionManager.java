@@ -78,7 +78,7 @@ import com.surelogic.Regions;
 @RegionLocks({
 	@RegionLock("RTCS is REFERENCE_TO_CONNECTION_SOURCE protects ThreadRegion"/*is CONSISTENT*/),
 	@RegionLock("ACM is ALL_CONNECTION_MANAGERS protects ConnectionsRegion"/*is UNASSOCIATED*/),
-	@RegionLock("Lock is this protects Region"/*is CONSISTENT*/)
+	@RegionLock("Lock is this protects Region"/*is INCONSISTENT*/)
 	})
 public class MultiThreadedHttpConnectionManager implements HttpConnectionManager {
 
