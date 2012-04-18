@@ -5,4 +5,9 @@ public class Log {
 		// TODO Auto-generated method stub
 	}
 
+	public void info(String string) {
+		// TODO Auto-generated method stub
+		
+	}
+
 }
