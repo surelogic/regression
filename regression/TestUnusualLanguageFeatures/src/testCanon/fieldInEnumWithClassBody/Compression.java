@@ -35,6 +35,8 @@ final class Compression {
               (conf.get(CONF_LZO_CLASS) == null ? System
                   .getProperty(CONF_LZO_CLASS) : null);
           String clazz = (extClazz != null) ? extClazz : defaultClazz;
+          // => this.defaultClazz;
+          // No static methods allowed
           try {
             LOG.info("Trying to load Lzo codec class: " + clazz);
             codec =
