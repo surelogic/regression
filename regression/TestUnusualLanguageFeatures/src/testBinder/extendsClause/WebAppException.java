@@ -6,4 +6,8 @@ public class WebAppException extends RuntimeException {
 		// TODO Auto-generated constructor stub
 	}
 
+	public WebAppException(Exception e) {
+		// TODO Auto-generated constructor stub
+	}
+
 }

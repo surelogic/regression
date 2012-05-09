@@ -1,5 +1,5 @@
 package testBinder.extendsClause;
 
-public class SubView {
+public interface SubView {
 
 }
