@@ -174,7 +174,6 @@ public class SampleCollection implements Iterable<String> {
 		@Override
         @Borrowed("this")
 		@RegionEffects("writes this:Instance")
-		@Assume("@RegionEffects(none) for new(*) in IllegalStateException")
 		public void remove() {
 			if (i < 0) throw new IllegalStateException("iteration not started");
 			SampleCollection o = outer;
