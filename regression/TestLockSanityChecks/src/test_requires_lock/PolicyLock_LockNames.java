@@ -70,8 +70,8 @@ public class PolicyLock_LockNames {
   /**
    * BAD: parameter exists; lock exists; but param is non-final
    */
-  @RequiresLock("p:Exists" /* is UNASSOCIATED: parameter is non-final */)
-  public void bad_param_nonfinal(PolicyLock_LockNames p) {}
+  @RequiresLock("p:Exists" /* is CONSISTENT: parameter is non-final, but not changed */)
+  public void good_param_nonfinal(PolicyLock_LockNames p) {}
   
   /**
    * GOOD: parameter exists; lock exists; param is final

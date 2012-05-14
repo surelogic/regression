@@ -95,7 +95,7 @@ public class StateLock {
   /**
    * BAD: parameter exists; lock exists; but param is non-final
    */
-  @ReturnsLock("p:Exists" /*is UNASSOCIATED: parameter is non-final*/)
+  @ReturnsLock("p:Exists" /*is CONSISTENT: parameter is non-final, but unchanged*/)
   public Object getLock_param_nonfinal(StateLock p) {
     return p;
   }
