@@ -667,7 +667,7 @@ public class Test {
 
   public void uniqueActual_uniqueWriteField() {
     try {
-      uniqueArgument(this.uniqueWriteField); // GOOD
+      uniqueArgument(this.uniqueWriteField); // BAD
     } finally {
       this.uniqueWriteField = null;
     }
