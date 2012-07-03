@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="JSure Maven setup" default="maven-setup" xmlns:artifact="antlib:org.apache.maven.artifact.ant">
+        <!--
+	<property name="maven.home" value="/usr/share/maven"/>
+	<property name="maven-ant-tasks-jar" value="/Users/edwin/work/workspace-3.6.2/git/jsure/jsure-tests/lib/maven-ant-tasks-2.1.3.jar"/>
+        -->
+	<echo message="maven = ${maven.home}"/>
+	<echo message="maven tasks = ${maven-ant-tasks-jar}"/>
+	<echo message="build dir = ${buildfile.dir}"/>
+
+	<path id="maven-ant-tasks.classpath" path="${maven-ant-tasks-jar}" />
+	<typedef resource="org/apache/maven/artifact/ant/antlib.xml"
+	           uri="antlib:org.apache.maven.artifact.ant"
+	           classpathref="maven-ant-tasks.classpath" />
+	
+	<target name="maven-setup">
+		<!-- Fail if maven isn't available -->
+		<available property="maven-exists" value="${maven.home}" file="${maven.home}" />
+
+		<fail unless="maven-exists" message="Maven is required to use this project to run regression tests" />
+
+		<artifact:mvn pom="${buildfile.dir}${fs}pom.xml" mavenHome="${maven.home}">
+			<arg value="compile"/>
+		</artifact:mvn>
+	</target>
+</project>
+

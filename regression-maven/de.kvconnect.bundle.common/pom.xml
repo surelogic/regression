@@ -1,0 +1,540 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+
+	<artifactId>de.kvconnect.bundle.common</artifactId>
+	<groupId>de.kvconnect</groupId>
+	<version>2.0.1-SNAPSHOT</version>
+	<packaging>bundle</packaging>
+	<name>KV-CONNECT Common</name>
+
+	<organization>
+		<name>KV Telematik ARGE</name>
+		<url>http://www.kv-telematik.de/</url>
+	</organization>
+
+	<prerequisites>
+		<maven>3.0.3</maven>
+	</prerequisites>
+
+	<properties>
+		<!-- Immer Encoding angeben, ist besser so: man weiss woran man ist und 
+			Tools wie Checkstyle und PMD beschweren sich nicht -->
+		<project.build.sourceEncoding>Cp1252</project.build.sourceEncoding>
+
+		<base.url>http://svn.kvwl.de</base.url>
+		<svn.root.url>${base.url}/kvconnect</svn.root.url>
+		<codequality.root.url>${base.url}/common/codequality/kv-connect</codequality.root.url>
+		<nexus.root.url>${base.url}:8080/nexus</nexus.root.url>
+
+		<maven.build.timestamp.format>yyyyMMdd-HHmm</maven.build.timestamp.format>
+		<BuildTime>${maven.build.timestamp}</BuildTime>
+		<timestamp.buildYear>yyyy</timestamp.buildYear>
+		<checkstyle.failsOnError>false</checkstyle.failsOnError>
+	</properties>
+
+	<scm>
+		<connection>scm:svn:${svn.root.url}</connection>
+		<developerConnection>scm:svn:${svn.root.url}</developerConnection>
+		<url>${svn.root.url}</url>
+	</scm>
+
+	<profiles>
+
+		<!-- This profile will be activated only on Jenkins. It contains the time 
+			consuming mojos for code quality, javadoc, etc. -->
+		<profile>
+			<id>jenkins</id>
+			<activation>
+				<property>
+					<name>BUILD_NUMBER</name>
+				</property>
+			</activation>
+
+			<properties>
+				<!-- !!! später auf 'true' !!! -->
+				<checkstyle.failsOnError>false</checkstyle.failsOnError>
+			</properties>
+
+
+			<distributionManagement>
+				<repository>
+					<id>ext.release</id>
+					<name>KVWL External Nexus - Releases</name>
+					<url>${nexus.root.url}/content/repositories/releases</url>
+				</repository>
+
+				<snapshotRepository>
+					<id>ext.snapshot</id>
+					<name>KVWL External Nexus - Snapshots</name>
+					<url>${nexus.root.url}/content/repositories/snapshots</url>
+				</snapshotRepository>
+			</distributionManagement>
+
+			<build>
+				<plugins>
+
+
+					<!-- Generates source jar -->
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-source-plugin</artifactId>
+						<version>2.1.2</version>
+						<executions>
+							<execution>
+								<id>attach-sources</id>
+								<phase>verify</phase>
+								<inherited>true</inherited>
+								<goals>
+									<goal>jar-no-fork</goal>
+								</goals>
+							</execution>
+						</executions>
+					</plugin>
+
+
+					<!-- Maven Dependencies -->
+
+					<!-- http://maven.apache.org/plugins/maven-project-info-reports-plugin/index.html -->
+
+					<!-- In jeden CI- und Release-Job trägt man dann einen neuen Maven-Buildschritt 
+						mit dem Goal „project-info-reports:dependencies“ an. Unter Archive Project 
+						Artifacts muss dann noch „**/target/site/*.html, **/target/site/css/*.css“ 
+						hinzugefügt werden. -->
+					<!-- Unter „Artefakte des letzten erfolgreichen Builds“ erscheint dann 
+						die neue dependencies.html, in der man eine tabellarische und hierarchische 
+						Übersicht über alle verwendeten Bibliotheken bekommt. -->
+					<plugin>
+						<artifactId>maven-project-info-reports-plugin</artifactId>
+						<version>2.4</version>
+						<executions>
+							<execution>
+								<id>maven-dependencies</id>
+								<phase>package</phase>
+								<goals>
+									<goal>dependencies</goal>
+								</goals>
+								<inherited>true</inherited>
+								<configuration>
+									<!-- Die beiden Properties verhindern, dass ständig im Internet 
+										gesucht wird bzw. zeitaufwendige Berechnungen durchgeführt werden und sparen 
+										somit etwa 2/3 der Zeit. Damit benötigt dieser Report nur noch etwa 10 Sekunden. -->
+									<dependencyDetailsEnabled>false</dependencyDetailsEnabled>
+									<dependencyLocationsEnabled>false</dependencyLocationsEnabled>
+								</configuration>
+							</execution>
+						</executions>
+					</plugin>
+
+					<!-- Generates Javadoc jar -->
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-javadoc-plugin</artifactId>
+						<version>2.8.1</version>
+						<executions>
+							<execution>
+								<id>javadoc</id>
+								<phase>package</phase>
+								<goals>
+									<goal>jar</goal>
+								</goals>
+								<inherited>true</inherited>
+								<configuration>
+								</configuration>
+							</execution>
+						</executions>
+					</plugin>
+
+					<plugin>
+						<groupId>org.codehaus.mojo</groupId>
+						<artifactId>buildnumber-maven-plugin</artifactId>
+						<version>1.0</version>
+						<executions>
+							<execution>
+								<phase>validate</phase>
+								<goals>
+									<goal>create</goal>
+								</goals>
+							</execution>
+						</executions>
+						<configuration>
+							<useLastCommittedRevision>true</useLastCommittedRevision>
+						</configuration>
+					</plugin>
+				</plugins>
+
+			</build>
+		</profile>
+
+		<profile>
+			<id>Tagging</id>
+			<activation>
+				<property>
+					<name>BUILD_NUMBER</name>
+				</property>
+			</activation>
+
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-scm-plugin</artifactId>
+						<version>1.4</version>
+						<executions>
+							<execution>
+								<id>tag</id>
+								<goals>
+									<goal>tag</goal>
+								</goals>
+								<phase>verify</phase>
+								<configuration>
+									<connectionUrl>scm:svn:${svn.root.url}/trunk/${project.artifactId}</connectionUrl>
+									<tag>${svn.tag.target}</tag>
+									<tagBase>${svn.root.url}/tags</tagBase>
+									<username>${svn.username}</username>
+									<password>${svn.password}</password>
+								</configuration>
+							</execution>
+						</executions>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+	</profiles>
+
+
+	<build>
+
+		<!-- http://maven.apache.org/plugins/maven-resources-plugin/examples/filter.html -->
+		<resources>
+			<resource>
+				<directory>src/main/resources</directory>
+				<filtering>true</filtering>
+				<includes>
+					<include>**/RELEASENOTES.*</include>
+				</includes>
+			</resource>
+			<resource>
+				<directory>src/main/resources</directory>
+				<filtering>false</filtering>
+				<excludes>
+					<exclude>**/RELEASENOTES.*</exclude>
+				</excludes>
+			</resource>
+		</resources>
+
+
+		<plugins>
+
+			<plugin>
+				<groupId>org.apache.felix</groupId>
+				<artifactId>maven-bundle-plugin</artifactId>
+				<configuration>
+					<instructions>
+						<Export-Package>${project.artifactId}*,org.apache.commons.configuration*</Export-Package>
+						<DynamicImport-Package>*</DynamicImport-Package>
+					</instructions>
+				</configuration>
+			</plugin>
+
+		</plugins>
+
+
+		<!-- Verwendete Plugin-Versionen festschreiben -->
+		<pluginManagement>
+			<plugins>
+
+				<!-- Java 1.6 -->
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-compiler-plugin</artifactId>
+					<version>2.3.2</version>
+					<configuration>
+						<source>1.6</source>
+						<target>1.6</target>
+					</configuration>
+					<inherited>true</inherited>
+				</plugin>
+
+
+				<!-- Bundle tool -->
+				<plugin>
+					<groupId>org.apache.felix</groupId>
+					<artifactId>maven-bundle-plugin</artifactId>
+					<version>2.3.6</version>
+					<extensions>true</extensions>
+					<configuration>
+						<instructions>
+							<Bundle-Name>${project.name}</Bundle-Name>
+							<Symbolic-Name>${project.artifactId}</Symbolic-Name>
+
+							<!-- nur direkte Dependencies beruecksichtigen -->
+							<Embed-Transitive>false</Embed-Transitive>
+
+							<!-- Versionsnummer an die Jar-Datei hängen (z.B. artifactId-version.jar) -->
+							<Embed-StripVersion>false</Embed-StripVersion>
+							<!-- keine groupId als Unterverzeichnis fuer die Jar-Datei hinzufuegen -->
+							<Embed-StripGroup>true</Embed-StripGroup>
+							<!-- Unterverzeichnis (z.B. libs) fuer die hinzugefuegten Dateien -->
+							<Embed-Directory>libs</Embed-Directory>
+
+							<!-- Service API wird automatisch inlined -->
+							<Embed-Dependency>*;scope=compile|runtime;inline=true</Embed-Dependency>
+
+							<Import-Package>*;resolution:=optional</Import-Package>
+						</instructions>
+						<archive>
+							<manifestEntries>
+								<Build-Number>${buildNumber}</Build-Number>
+								<Build-Location>${basedir}</Build-Location>
+								<Build-Machine>${env.HOSTNAME}</Build-Machine>
+							</manifestEntries>
+						</archive>
+					</configuration>
+				</plugin>
+
+
+				<plugin>
+					<groupId>org.apache.felix</groupId>
+					<artifactId>maven-ipojo-plugin</artifactId>
+					<version>1.8.0</version>
+					<inherited>true</inherited>
+					<executions>
+						<execution>
+							<goals>
+								<goal>ipojo-bundle</goal>
+							</goals>
+							<configuration>
+								<metadata>src/main/resources/ipojo</metadata>
+							</configuration>
+						</execution>
+					</executions>
+				</plugin>
+
+
+
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-ejb-plugin</artifactId>
+					<version>2.3</version>
+				</plugin>
+				<plugin>
+					<artifactId>maven-assembly-plugin</artifactId>
+					<version>2.3</version>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-ear-plugin</artifactId>
+					<version>2.7</version>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-dependency-plugin</artifactId>
+					<version>2.4</version>
+					<configuration>
+						<outputType>graphml</outputType>
+						<outputFile>${project.build.directory}/${project.artifactId}-dependencies.graphml</outputFile>
+					</configuration>
+				</plugin>
+				<plugin>
+					<groupId>org.codehaus.mojo</groupId>
+					<artifactId>versions-maven-plugin</artifactId>
+					<version>1.3.1</version>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-surefire-plugin</artifactId>
+					<version>2.12</version>
+				</plugin>
+				<plugin>
+					<artifactId>maven-deploy-plugin</artifactId>
+					<version>2.7</version>
+				</plugin>
+
+				<!--This plugin's configuration is used to store Eclipse m2e settings 
+					only. It has no influence on the Maven build itself. -->
+				<plugin>
+					<groupId>org.eclipse.m2e</groupId>
+					<artifactId>lifecycle-mapping</artifactId>
+					<version>1.0.0</version>
+					<configuration>
+						<lifecycleMappingMetadata>
+							<pluginExecutions>
+								<pluginExecution>
+									<pluginExecutionFilter>
+										<groupId>de.kvconnect</groupId>
+										<artifactId>
+											de.kvconnect.tools.plugin.releasecheck
+										</artifactId>
+										<versionRange>
+											[1.0.0,)
+										</versionRange>
+										<goals>
+											<goal>check</goal>
+										</goals>
+									</pluginExecutionFilter>
+									<action>
+										<ignore />
+									</action>
+								</pluginExecution>
+								<pluginExecution>
+									<pluginExecutionFilter>
+										<groupId>de.kvconnect</groupId>
+										<artifactId>
+											de.kvconnect.tools.plugin.timestamp
+										</artifactId>
+										<versionRange>
+											[1.0.0,)
+										</versionRange>
+										<goals>
+											<goal>create</goal>
+										</goals>
+									</pluginExecutionFilter>
+									<action>
+										<ignore></ignore>
+									</action>
+								</pluginExecution>
+								<pluginExecution>
+									<pluginExecutionFilter>
+										<groupId>
+											org.codehaus.mojo
+										</groupId>
+										<artifactId>
+											versions-maven-plugin
+										</artifactId>
+										<versionRange>
+											[1.0,2)
+										</versionRange>
+										<goals>
+											<goal>display-dependency-updates</goal>
+											<goal>display-property-updates</goal>
+											<goal>display-plugin-updates</goal>
+										</goals>
+									</pluginExecutionFilter>
+									<action>
+										<ignore></ignore>
+									</action>
+								</pluginExecution>
+								<pluginExecution>
+									<pluginExecutionFilter>
+										<groupId>
+											org.apache.maven.plugins
+										</groupId>
+										<artifactId>
+											maven-ear-plugin
+										</artifactId>
+										<versionRange>
+											[2.6,)
+										</versionRange>
+										<goals>
+											<goal>
+												generate-application-xml
+											</goal>
+										</goals>
+									</pluginExecutionFilter>
+									<action>
+										<ignore></ignore>
+									</action>
+								</pluginExecution>
+								<pluginExecution>
+									<pluginExecutionFilter>
+										<groupId>
+											org.zeroturnaround
+										</groupId>
+										<artifactId>
+											jrebel-maven-plugin
+										</artifactId>
+										<versionRange>
+											[1.1.1,)
+										</versionRange>
+										<goals>
+											<goal>generate</goal>
+										</goals>
+									</pluginExecutionFilter>
+									<action>
+										<ignore></ignore>
+									</action>
+								</pluginExecution>
+							</pluginExecutions>
+						</lifecycleMappingMetadata>
+					</configuration>
+				</plugin>
+			</plugins>
+
+		</pluginManagement>
+
+
+
+	</build>
+
+
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>[4,5)</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.james</groupId>
+			<artifactId>apache-mailet</artifactId>
+			<version>[2.4,2.5)</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>commons-collections</groupId>
+			<artifactId>commons-collections</artifactId>
+			<version>[3.2,3.3)</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>commons-lang</groupId>
+			<artifactId>commons-lang</artifactId>
+			<version>[2,3)</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>[2.1,2.2)</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>commons-codec</groupId>
+			<artifactId>commons-codec</artifactId>
+			<version>[1.6,1.7)</version>
+			<scope>provided</scope>
+		</dependency>
+		<!-- Apache Commons Configuration included und exportiert, da diese Library 
+			nicht in Felix deployed werden kann -> zu viele Dependencies -->
+		<dependency>
+			<groupId>commons-configuration</groupId>
+			<artifactId>commons-configuration</artifactId>
+			<version>1.8</version>
+		</dependency>
+		<dependency>
+			<groupId>org.osgi</groupId>
+			<artifactId>org.osgi.core</artifactId>
+			<version>[4.2,4.3)</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.felix</groupId>
+			<artifactId>org.apache.felix.eventadmin</artifactId>
+			<version>[1.2,1.3)</version>
+			<scope>provided</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>1.6.4</version>
+			<scope>provided</scope>
+		</dependency>
+	</dependencies>
+
+
+
+</project>

@@ -1,0 +1,165 @@
+#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#  project:      ${project.name}
+#  groupId:      ${project.groupId}
+#  artifactId:   ${project.artifactId}
+#  version:      ${project.version}
+#  build.time:   ${BuildTime}
+#  java.version: ${java.version}
+#  
+#  $Id: RELEASENOTES.txt 5585 2012-06-14 14:12:20Z thomas.hartmann $
+#
+#  Copyright (c) 2010-${buildYear} KV Telematik ARGE
+#
+#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+2.0.1 - 13.06.2012
+---------------------------------------------------------------------------------------------------
+    - IconProvider hinzugefuegt
+    - Methode blindString() hinzugefuegt 
+    - SleepUtils Klasse hinzugefuegt
+    - generateCertificate Methode ohne Aussteller (cn) hinzugefügt (es wird immer Hostname und IP-Adresse genommen)
+
+2.0.0 - 15.05.2012
+---------------------------------------------------------------------------------------------------
+    - Server Klassen in extra Bundle verschoben
+
+1.25.0 - 07.03.2012
+---------------------------------------------------------------------------------------------------
+	- StammdatenDTO um das Feld 'email' erweitert
+
+1.24.0 - 22.02.2012
+---------------------------------------------------------------------------------------------------
+	- MassenclientPropertyNames nun deprecated
+
+1.23.0 - 21.02.2012
+---------------------------------------------------------------------------------------------------
+	- PropertyNames nun deprecated
+
+1.22.1 - 21.02.2012
+---------------------------------------------------------------------------------------------------
+    - ConcatInputStream-Klassen bugfixed
+    - Checkstyle Warnings behoben
+    
+1.22.0 - 10.02.2012
+---------------------------------------------------------------------------------------------------
+    - org.codehaus.jackson Jar entfernt
+
+1.21.0 - 08.02.2012
+---------------------------------------------------------------------------------------------------
+    - Update auf svn.kvwl.de 
+
+1.20.0 - 01.02.2012
+---------------------------------------------------------------------------------------------------
+    - Concat- und SplitterInputStream Methoden refactored
+    - Datentyp von uid von Long nach String geändert
+
+1.19.1 - 01.02.2012
+---------------------------------------------------------------------------------------------------
+    - Concat- und SplitterInputStream Methoden refactored 
+
+1.19.0 - 20.01.2012
+---------------------------------------------------------------------------------------------------
+	- Methode zum lesen von Properties aus einer Datei in den ConfigUtils eingefügt
+
+1.18.0 - 18.01.2012
+---------------------------------------------------------------------------------------------------
+	- Neue DTO für die Zertifikatsanfrage (CSR)	
+1.17.0 - 18.01.2012
+---------------------------------------------------------------------------------------------------
+	- Neue Propertynames fuer Mailreaper
+
+1.16.0 - 18.01.2012
+---------------------------------------------------------------------------------------------------
+	- Neue Hilfsmethode zum sicheren Bestimmen einer Message-ID
+	
+1.15.0 - 17.01.2012
+---------------------------------------------------------------------------------------------------
+	- Neue Hilfsmethoden um SequenceInputStreams zu verarbeiten
+	- log4j durch slf4j ersetzt
+	
+1.14.0 - 22.12.2011
+---------------------------------------------------------------------------------------------------
+	- Neuer Propertyname
+	- Checkstyleconfig angepasst
+
+1.13.0 - 20.12.2011
+---------------------------------------------------------------------------------------------------
+	- Neuer Propertyname: keystore.csr.autoRequestIfNotPresent
+
+1.12.0 - 16.12.2011 
+---------------------------------------------------------------------------------------------------
+	!!! Von 2.0.0-SNAPSHOT runterversioniert, major release war unnoetig
+    - deprecated Methode (getRecipients) entfernt
+    - SHA256 Hash als Utility Methode in PasswordUtil
+    - Neue Hilfsmethode zum Auslesen der Header einer Mail
+    - Neue Hilfsmethode zum Auslesen der Header einer Mail als Property Objekt
+
+1.7.0 - 02.11.2011 
+---------------------------------------------------------------------------------------------------
+	- Neue Properties fuer TLS Ports am Mailadapter
+
+1.6.1 - 31.10.2011
+---------------------------------------------------------------------------------------------------
+    - Löschen der BCC Recipients gefixed
+
+1.6.0 - 31.10.2011
+---------------------------------------------------------------------------------------------------
+	- Datentyp der UID auf long veraendert 
+	 
+1.5.0 - 20.10.2011
+---------------------------------------------------------------------------------------------------
+    - Dateiname des Benutzer KeyStores global definiert
+    - KeyStore aus dem Classpath einlesen 
+    - Erweiterung der Stammdaten um UID
+    
+1.4.3 - 20.10.2011
+---------------------------------------------------------------------------------------------------
+    - Property 'mailadapter.authentication.enabled' hinzugefügt
+
+1.4.2 - 19.10.2011
+---------------------------------------------------------------------------------------------------
+    - Extrahieren des local-parts aus der E-Mail Adresse korrigiert
+      (Umstellung auf 'apache-mailet')
+
+1.4.1 - 18.10.2011
+---------------------------------------------------------------------------------------------------
+    - FIX: Mail Recipient korrekt aufgelöst
+    
+1.4.0 - 11.10.2011
+---------------------------------------------------------------------------------------------------
+	- MailUtils#extractLocalParts zur korrekten Behandlung von Adressen mit Klartextnamen bewegt 
+	  wie z.B. 'Mark Schaefer <mark@kvwl.de>' 
+	- Neue Methode MailUtils#getRecipients zum Extrahieren aller Empfaenger (nur local parts)
+	
+1.3.0 - 07.10.2011
+---------------------------------------------------------------------------------------------------
+	- Keystore Funktionen erweitert
+	
+1.2.1 - 06.10.2011
+---------------------------------------------------------------------------------------------------
+	- Laenge des Schluessels (KeyPair) auf 2024 Bit festgelegt
+	
+1.2.0 - 19.09.2011
+---------------------------------------------------------------------------------------------------
+	- Neue Funktionen aus anderen Bundles integriert
+
+1.1.0 - 14.09.2011
+---------------------------------------------------------------------------------------------------
+    - Util-Methode fuer die Generierung eines X509Certificate implementiert
+    - Applikation Properties fuer Mailadapter (SSL) hinzugefügt
+
+1.0.2 - 08.09.2011
+---------------------------------------------------------------------------------------------------
+    - Applikation Properties hinzugefügt: product.distribution.name und build... Properties 
+    
+1.0.1 - 05.09.2011
+---------------------------------------------------------------------------------------------------
+    - Global-Settings Version von 1.0.0 auf 1.0.1 gesetzt
+    - Package-Versionen über maven-bundle-plugin setzten
+
+1.0.0 - 22.08.2011
+---------------------------------------------------------------------------------------------------
+    - Initialversion
+
+
