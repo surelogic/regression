@@ -1,0 +1,1 @@
+Just run JSure on the three projects together
