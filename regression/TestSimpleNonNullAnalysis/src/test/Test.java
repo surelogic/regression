@@ -36,6 +36,18 @@ public class Test {
     forceRead(o); // @NonNull
   }
   
+  public void transferComponentSource(final Object p) {
+  	try {
+  		try {
+  			forceRead(p); // @Nullable
+  		} catch (final Exception e) {
+  			forceRead(e); // @NonNull
+  		}
+  	} catch (final Throwable t) {
+  		forceRead(t); // @NonNull
+  	}
+  }
+  
   public void transferConcat(final String s1, final String s2) {
     Object o;
     o = s1 + s2; // @Nullable / @Nullable
