@@ -6,8 +6,6 @@ import com.surelogic.Unique;
 @SuppressWarnings("unused")
 public class TestDifferentMessagesOnAbruptAndNormal {
   private @Unique(allowRead=true) Object u;
-  private @Unique(allowRead=true) Object v;
-  private @Unique(allowRead=true) Object w;
   
   
   
