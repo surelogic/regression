@@ -22,6 +22,7 @@
 		<artifact:mvn pom="${buildfile.dir}${fs}pom.xml" mavenHome="${maven.home}">
 			<arg value="compile"/>
 		</artifact:mvn>
+		<echo message="Done, despite ugly exception trace"/>
 	</target>
 </project>
 
