@@ -32,9 +32,7 @@ public class Test {
    * region is static.
    * read effect.
    */
-  // XXX: Bug 1053, binder doesn't handle this yet; Should be CONSISTENT but we get UNBOUND
-  // XXX: @RegionEffects("reads C:StaticRegion" /* is CONSISTENT */)
-  @RegionEffects("reads C:StaticRegion" /* is UNBOUND */)
+  @RegionEffects("reads C:StaticRegion" /* is CONSISTENT */)
   public Test(boolean read, int a, int b) {}
 
   /**
@@ -111,9 +109,7 @@ public class Test {
    * region is static.
    * write effect.
    */
-  // XXX: Bug 1053, binder doesn't handle this yet; Should be CONSISTENT but we get UNBOUND
-  // XXX: @RegionEffects("reads C:StaticRegion" /* is CONSISTENT */)
-  @RegionEffects("reads C:StaticRegion" /* is UNBOUND */)
+  @RegionEffects("reads C:StaticRegion" /* is CONSISTENT */)
   public Test(Object write, int a, int b) {}
 
   /**
@@ -189,9 +185,7 @@ public class Test {
    * region is static.
    * read effect.
    */
-  // XXX: Bug 1053, binder doesn't handle this yet; Should be CONSISTENT but we get UNBOUND
-  // XXX: @RegionEffects("reads C:StaticRegion" /* is CONSISTENT */)
-  @RegionEffects("reads C:StaticRegion" /* is UNBOUND */)
+  @RegionEffects("reads C:StaticRegion" /* is CONSISTENT */)
   public void good_read_unqualifiedClassName() {}
 
   /**
@@ -262,9 +256,7 @@ public class Test {
    * region is static.
    * write effect.
    */
-  // XXX: Bug 1053, binder doesn't handle this yet; Should be CONSISTENT but we get UNBOUND
-  // XXX: @RegionEffects("reads C:StaticRegion" /* is CONSISTENT */)
-  @RegionEffects("reads C:StaticRegion" /* is UNBOUND */)
+  @RegionEffects("reads C:StaticRegion" /* is CONSISTENT */)
   public void good_write_unqualifiedClassName() {}
 
   /**
@@ -335,9 +327,7 @@ public class Test {
    * region is static.
    * read effect.
    */
-  // XXX: Bug 1053, binder doesn't handle this yet; Should be CONSISTENT but we get UNBOUND
-  // XXX: @RegionEffects("reads C:StaticRegion" /* is CONSISTENT */)
-  @RegionEffects("reads C:StaticRegion" /* is UNBOUND */)
+  @RegionEffects("reads C:StaticRegion" /* is CONSISTENT */)
   public static void good_static_read_unqualifiedClassName() {}
 
   /**
@@ -408,9 +398,7 @@ public class Test {
    * region is static.
    * write effect.
    */
-  // XXX: Bug 1053, binder doesn't handle this yet; Should be CONSISTENT but we get UNBOUND
-  // XXX: @RegionEffects("reads C:StaticRegion" /* is CONSISTENT */)
-  @RegionEffects("reads C:StaticRegion" /* is UNBOUND */)
+  @RegionEffects("reads C:StaticRegion" /* is CONSISTENT */)
   public static void good_static_write_unqualifiedClassName() {}
 
   /**
