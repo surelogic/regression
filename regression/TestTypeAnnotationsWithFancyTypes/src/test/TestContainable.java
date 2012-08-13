@@ -44,7 +44,7 @@ public final class TestContainable {
   @Containable
   public static class Test02b {
     @Unique
-    final CClass[] value; // BAD
+    final CClass[] value; // GOOD!  (used to be bad)
     
     @Unique("return")
     public Test02b(@Unique CClass[] v) {
