@@ -1,5 +1,6 @@
 package test;
 
+import com.surelogic.AnnotationBounds;
 import com.surelogic.Containable;
 import com.surelogic.Immutable;
 import com.surelogic.RegionEffects;
@@ -7,7 +8,8 @@ import com.surelogic.RegionLock;
 import com.surelogic.ThreadSafe;
 import com.surelogic.Unique;
 
-@ThreadSafe(whenThreadSafe="A", whenImmutable="D", whenContainable="F")
+@ThreadSafe
+@AnnotationBounds(threadSafe="A", immutable="D", containable="F")
 @RegionLock("L is this protects Instance")
 @SuppressWarnings("unused")
 public class TestThreadSafe<A, B extends OtherTS, C, D, E extends OtherI, F, G extends OtherC> {

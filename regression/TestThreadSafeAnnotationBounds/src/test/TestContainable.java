@@ -1,10 +1,12 @@
 package test;
 
+import com.surelogic.AnnotationBounds;
 import com.surelogic.Containable;
 import com.surelogic.RegionEffects;
 import com.surelogic.Unique;
 
-@Containable(whenContainable="A")
+@Containable
+@AnnotationBounds(containable="A")
 public class TestContainable<A, B extends Other, C> {
   // primitive
   private int f1; // good

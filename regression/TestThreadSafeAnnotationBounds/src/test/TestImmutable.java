@@ -1,10 +1,12 @@
 package test;
 
+import com.surelogic.AnnotationBounds;
 import com.surelogic.Immutable;
 import com.surelogic.RegionEffects;
 import com.surelogic.Unique;
 
-@Immutable(whenImmutable="A")
+@Immutable
+@AnnotationBounds(immutable="A")
 public class TestImmutable<A, B extends Other2, C> {
   // primitive
   @SuppressWarnings("unused")
