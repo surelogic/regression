@@ -6,8 +6,6 @@ import com.surelogic.RegionEffects;
 import com.surelogic.Regions;
 
 @Regions({
-  @Region("public static Static"),
-  
   @Region("public Public extends Static"),
   @Region("protected Protected extends Public"),
   @Region("Default extends Protected"),
