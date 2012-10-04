@@ -8,6 +8,12 @@ import com.surelogic.*;
 public class TestLockStuff {
 	final Object p = null;
 	
+	@UniqueInRegion("Stuff")
+	Object q;
+	
+	@UniqueInRegion("Instance into Stuff")
+	final Object r = new Object();
+	
 	@RequiresLock("L,P")
 	void test() {
 		
