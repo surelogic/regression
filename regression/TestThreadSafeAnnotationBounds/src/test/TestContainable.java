@@ -17,7 +17,7 @@ public class TestContainable<A, B extends Other, C> {
   private Other f2; // good
   
   @Unique
-  private Other[] f3; // good
+  private Other[] f3; // was good, but is now bad
   
   @Unique
   private Other[][] f4; // bad
@@ -28,7 +28,7 @@ public class TestContainable<A, B extends Other, C> {
   private A f5; // good
   
   @Unique
-  private A[] f6; // good
+  private A[] f6; // was good, but is now bad
   
   @Unique
   private A[][] f7; // bad
@@ -39,7 +39,7 @@ public class TestContainable<A, B extends Other, C> {
   private B f8; // good
   
   @Unique
-  private B[] f9; // good
+  private B[] f9; // was good, but is now bad
   
   @Unique
   private B[][] f10; // bad

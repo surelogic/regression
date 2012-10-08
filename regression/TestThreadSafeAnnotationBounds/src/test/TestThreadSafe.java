@@ -78,7 +78,7 @@ public class TestThreadSafe<A, B extends OtherTS, C, D, E extends OtherI, F, G e
   private OtherC f23; // good
   
   @Unique
-  private OtherC[] f24; // Good
+  private OtherC[] f24; // was good, but is now bad
   
   @Unique
   private OtherC[][] f25; // bad
@@ -89,7 +89,7 @@ public class TestThreadSafe<A, B extends OtherTS, C, D, E extends OtherI, F, G e
   private F f26; // good
   
   @Unique
-  private F[] f27; // good
+  private F[] f27; // was good, but is now bad
   
   @Unique
   private F[][] f28; // bad
@@ -100,7 +100,7 @@ public class TestThreadSafe<A, B extends OtherTS, C, D, E extends OtherI, F, G e
   private G f29; // good
   
   @Unique
-  private G[] f30; // good
+  private G[] f30; // was good, but is now bad
   
   @Unique
   private G[][] f31; // bad

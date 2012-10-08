@@ -19,11 +19,11 @@ public class Test<T> {
   
   
   private C<T> good1;
-  private C<T[]> good2;
+  private C<T[]> good2;  // used to be good, but now is bad: only primitive types are allowed
   private C<T[][]> bad1;
   
   private C<Good> good10;
-  private C<Good[]> good11;
+  private C<Good[]> good11; // used to be good, but now is bad: only primitive types are allowed
   private C<Good[][]> bad10;
   
   public C<int[]> good100() { return null; }
