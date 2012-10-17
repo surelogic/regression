@@ -8,6 +8,12 @@ public class Test {
 		CopyOnWriteArrayList<E> list;
 		return null;
 	}
+
+	public Object method2() {
+		// Should assure with E satisfying the @ReferenceObject constraint
+		CopyOnWriteArrayList<? extends Enum> list;
+		return null;
+	}
 }
 
 // Implicitly @ReferenceObject
