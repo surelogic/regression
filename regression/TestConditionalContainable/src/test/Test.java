@@ -52,6 +52,7 @@ class C2<T> {
   }
 }
 
+// Parameterizations of C3 should not appear under the AnnotationsBounds drops.
 @Containable
 // T is implicitly thread safe
 class C3<T> {
@@ -60,9 +61,14 @@ class C3<T> {
     super();
   }
   
-  private Other<T> testField = null; // Other<T> should be okay; the field is not containble though
+  /* Other<T> is a good type, and should show up under the AnnotationBound
+   * promise for Other.  This field is bad though because the type is not
+   * containable.
+   */
+  private Other<T> testField = null; // Other<T> should be okay; the field is not containable though
 }
 
+//Parameterizations of C4 should not appear under the AnnotationsBounds drops.
 @Containable(allowReferenceObject=true)
 // T is implicitly thread safe || reference object
 class C4<T> {
@@ -71,7 +77,11 @@ class C4<T> {
     super();
   }
   
-  private Other2<T> testField2 = null; // Other2<T> should be okay; the field is not containble though
+  /* Other2<T> is a good type, and should show up under the AnnotationBound
+   * promise for Other2.  This field is bad though because the type is not
+   * containable.
+   */
+  private Other2<T> testField2 = null;
 }
 
 @AnnotationBounds(threadSafe="X")
