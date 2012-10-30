@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<projects path="TestCachedJUCRWLocks 2012-10-30 12-08-47"
+ location="C:\qa\test\workspaces\regression\TestCachedJUCRWLocks"
+
+ date="2012-10-30 12:08:47">
+
+  <project id="0"
+   name="org.eclipse.jdt.launching.JRE_CONTAINER"
+   is-exported="true"
+   contains-java-lang-object="true">
+
+    <jar path="C:\Program Files\Java\jdk1.6.0_31\jre\lib\resources.jar"
+     orig-path="C:\Program Files\Java\jdk1.6.0_31\jre\lib\resources.jar"
+     is-exported="true"/>
+
+    <jar path="C:\Program Files\Java\jdk1.6.0_31\jre\lib\rt.jar"
+     orig-path="C:\Program Files\Java\jdk1.6.0_31\jre\lib\rt.jar"
+     is-exported="true"/>
+
+    <jar path="C:\Program Files\Java\jdk1.6.0_31\jre\lib\jsse.jar"
+     orig-path="C:\Program Files\Java\jdk1.6.0_31\jre\lib\jsse.jar"
+     is-exported="true"/>
+
+    <jar path="C:\Program Files\Java\jdk1.6.0_31\jre\lib\jce.jar"
+     orig-path="C:\Program Files\Java\jdk1.6.0_31\jre\lib\jce.jar"
+     is-exported="true"/>
+
+    <jar path="C:\Program Files\Java\jdk1.6.0_31\jre\lib\charsets.jar"
+     orig-path="C:\Program Files\Java\jdk1.6.0_31\jre\lib\charsets.jar"
+     is-exported="true"/>
+
+    <jar path="C:\Program Files\Java\jdk1.6.0_31\jre\lib\ext\dnsns.jar"
+     orig-path="C:\Program Files\Java\jdk1.6.0_31\jre\lib\ext\dnsns.jar"
+     is-exported="true"/>
+
+    <jar path="C:\Program Files\Java\jdk1.6.0_31\jre\lib\ext\localedata.jar"
+     orig-path="C:\Program Files\Java\jdk1.6.0_31\jre\lib\ext\localedata.jar"
+     is-exported="true"/>
+
+    <jar path="C:\Program Files\Java\jdk1.6.0_31\jre\lib\ext\sunjce_provider.jar"
+     orig-path="C:\Program Files\Java\jdk1.6.0_31\jre\lib\ext\sunjce_provider.jar"
+     is-exported="true"/>
+
+  </project>
+
+  <project id="1"
+   name="TestCachedJUCRWLocks"
+   location="C:\qa\test\suites\regression\TestCachedJUCRWLocks"
+   asSource="true"
+   sourceLevel="5">
+
+    <project name="TestCachedJUCRWLocks"/>
+
+    <source path="src"
+     is-exported="true"/>
+
+    <project name="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+
+    <jar path="C:\qa\test\suites\regression\TestCachedJUCRWLocks\promises-4.0.0.jar"
+     orig-path="C:\qa\test\suites\regression\TestCachedJUCRWLocks\promises-4.0.0.jar"/>
+
+    <java-source-file path="TestCachedJUCRWLocks/src/instanceLock/diffClass/C.java"
+     qname="instanceLock.diffClass.C"
+     location="C:\qa\test\suites\regression\TestCachedJUCRWLocks\src\instanceLock\diffClass\C.java"/>
+
+    <java-source-file path="TestCachedJUCRWLocks/src/instanceLock/diffClass/Test.java"
+     qname="instanceLock.diffClass.Test"
+     location="C:\qa\test\suites\regression\TestCachedJUCRWLocks\src\instanceLock\diffClass\Test.java"/>
+
+    <java-source-file path="TestCachedJUCRWLocks/src/instanceLock/duelingLocks/C.java"
+     qname="instanceLock.duelingLocks.C"
+     location="C:\qa\test\suites\regression\TestCachedJUCRWLocks\src\instanceLock\duelingLocks\C.java"/>
+
+    <java-source-file path="TestCachedJUCRWLocks/src/instanceLock/duelingLocks/Test.java"
+     qname="instanceLock.duelingLocks.Test"
+     location="C:\qa\test\suites\regression\TestCachedJUCRWLocks\src\instanceLock\duelingLocks\Test.java"/>
+
+    <java-source-file path="TestCachedJUCRWLocks/src/instanceLock/sameClass/Test.java"
+     qname="instanceLock.sameClass.Test"
+     location="C:\qa\test\suites\regression\TestCachedJUCRWLocks\src\instanceLock\sameClass\Test.java"/>
+
+    <java-source-file path="TestCachedJUCRWLocks/src/staticLock/diffClass/C.java"
+     qname="staticLock.diffClass.C"
+     location="C:\qa\test\suites\regression\TestCachedJUCRWLocks\src\staticLock\diffClass\C.java"/>
+
+    <java-source-file path="TestCachedJUCRWLocks/src/staticLock/diffClass/Test.java"
+     qname="staticLock.diffClass.Test"
+     location="C:\qa\test\suites\regression\TestCachedJUCRWLocks\src\staticLock\diffClass\Test.java"/>
+
+    <java-source-file path="TestCachedJUCRWLocks/src/staticLock/duelingLocks/C.java"
+     qname="staticLock.duelingLocks.C"
+     location="C:\qa\test\suites\regression\TestCachedJUCRWLocks\src\staticLock\duelingLocks\C.java"/>
+
+    <java-source-file path="TestCachedJUCRWLocks/src/staticLock/duelingLocks/Test.java"
+     qname="staticLock.duelingLocks.Test"
+     location="C:\qa\test\suites\regression\TestCachedJUCRWLocks\src\staticLock\duelingLocks\Test.java"/>
+
+    <java-source-file path="TestCachedJUCRWLocks/src/staticLock/sameClass/Test.java"
+     qname="staticLock.sameClass.Test"
+     location="C:\qa\test\suites\regression\TestCachedJUCRWLocks\src\staticLock\sameClass\Test.java"/>
+
+  <package name="staticLock.sameClass"/>
+
+  <package name="instanceLock.sameClass"/>
+
+  <package name="instanceLock.diffClass"/>
+
+  <package name="instanceLock.duelingLocks"/>
+
+  <package name="staticLock.diffClass"/>
+
+  <package name="staticLock.duelingLocks"/>
+
+  <option name="asSource"
+   value="true"/>
+
+  <option name="sourceLevel"
+   value="5"/>
+
+  </project>
+
+</projects>
+
