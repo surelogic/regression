@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<projects path="grandchild, child, parent 2012-10-31 15-53-55"
+ location="C:\qa\test\workspaces\regression\TestCrossProjectSubtypeComputation"
+
+ date="2012-10-31 15:53:55">
+
+  <project id="0"
+   name="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"
+   is-exported="true"
+   contains-java-lang-object="true">
+
+    <jar path="C:\Program Files\Java\jdk1.6.0_31\jre\lib\resources.jar"
+     orig-path="C:\Program Files\Java\jdk1.6.0_31\jre\lib\resources.jar"
+     is-exported="true"/>
+
+    <jar path="C:\Program Files\Java\jdk1.6.0_31\jre\lib\rt.jar"
+     orig-path="C:\Program Files\Java\jdk1.6.0_31\jre\lib\rt.jar"
+     is-exported="true"/>
+
+    <jar path="C:\Program Files\Java\jdk1.6.0_31\jre\lib\jsse.jar"
+     orig-path="C:\Program Files\Java\jdk1.6.0_31\jre\lib\jsse.jar"
+     is-exported="true"/>
+
+    <jar path="C:\Program Files\Java\jdk1.6.0_31\jre\lib\jce.jar"
+     orig-path="C:\Program Files\Java\jdk1.6.0_31\jre\lib\jce.jar"
+     is-exported="true"/>
+
+    <jar path="C:\Program Files\Java\jdk1.6.0_31\jre\lib\charsets.jar"
+     orig-path="C:\Program Files\Java\jdk1.6.0_31\jre\lib\charsets.jar"
+     is-exported="true"/>
+
+    <jar path="C:\Program Files\Java\jdk1.6.0_31\jre\lib\ext\dnsns.jar"
+     orig-path="C:\Program Files\Java\jdk1.6.0_31\jre\lib\ext\dnsns.jar"
+     is-exported="true"/>
+
+    <jar path="C:\Program Files\Java\jdk1.6.0_31\jre\lib\ext\localedata.jar"
+     orig-path="C:\Program Files\Java\jdk1.6.0_31\jre\lib\ext\localedata.jar"
+     is-exported="true"/>
+
+    <jar path="C:\Program Files\Java\jdk1.6.0_31\jre\lib\ext\sunjce_provider.jar"
+     orig-path="C:\Program Files\Java\jdk1.6.0_31\jre\lib\ext\sunjce_provider.jar"
+     is-exported="true"/>
+
+  </project>
+
+  <project id="1"
+   name="parent"
+   location="C:\qa\test\suites\regression\TestCrossProjectSubtypeComputation\parent"
+   asSource="true"
+   sourceLevel="6">
+
+    <project name="parent"/>
+
+    <source path="src"
+     is-exported="true"/>
+
+    <project name="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+
+    <jar path="C:\qa\test\suites\regression\TestCrossProjectSubtypeComputation\parent\promises-4.0.2.jar"
+     orig-path="C:\qa\test\suites\regression\TestCrossProjectSubtypeComputation\parent\promises-4.0.2.jar"
+     is-exported="true"/>
+
+    <java-source-file path="parent/src/Foo.java"
+     qname="Foo"
+     location="C:\qa\test\suites\regression\TestCrossProjectSubtypeComputation\parent\src\Foo.java"/>
+
+  <option name="asSource"
+   value="true"/>
+
+  <option name="sourceLevel"
+   value="6"/>
+
+  </project>
+
+  <project id="2"
+   name="child"
+   location="C:\qa\test\suites\regression\TestCrossProjectSubtypeComputation\child"
+   asSource="true"
+   sourceLevel="6">
+
+    <project name="child"/>
+
+    <source path="src"
+     is-exported="true"/>
+
+    <project name="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+
+    <project name="parent"/>
+
+    <java-source-file path="child/src/FooChild.java"
+     qname="FooChild"
+     location="C:\qa\test\suites\regression\TestCrossProjectSubtypeComputation\child\src\FooChild.java"/>
+
+    <java-source-file path="child/src/FooChildOkay.java"
+     qname="FooChildOkay"
+     location="C:\qa\test\suites\regression\TestCrossProjectSubtypeComputation\child\src\FooChildOkay.java"/>
+
+  <option name="asSource"
+   value="true"/>
+
+  <option name="sourceLevel"
+   value="6"/>
+
+  </project>
+
+  <project id="3"
+   name="grandchild"
+   location="C:\qa\test\suites\regression\TestCrossProjectSubtypeComputation\grandchild"
+   asSource="true"
+   sourceLevel="6">
+
+    <project name="grandchild"/>
+
+    <source path="src"
+     is-exported="true"/>
+
+    <project name="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+
+    <project name="child"/>
+
+    <java-source-file path="grandchild/src/FooChild2.java"
+     qname="FooChild2"
+     location="C:\qa\test\suites\regression\TestCrossProjectSubtypeComputation\grandchild\src\FooChild2.java"/>
+
+    <java-source-file path="grandchild/src/FooGrandChildOkay.java"
+     qname="FooGrandChildOkay"
+     location="C:\qa\test\suites\regression\TestCrossProjectSubtypeComputation\grandchild\src\FooGrandChildOkay.java"/>
+
+  <option name="asSource"
+   value="true"/>
+
+  <option name="sourceLevel"
+   value="6"/>
+
+  </project>
+
+</projects>
+
