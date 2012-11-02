@@ -5,6 +5,9 @@ import com.surelogic.Unique;
 
 @Containable
 public class TestContainable {
+	@Unique("return")
+	public TestContainable() {}
+	
   @Unique
   private final Contain<String> good1a = new Contain<String>(); // good: type of the field is containable & the parameterized type assures
   @Unique
