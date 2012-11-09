@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<projects path="TestStaticPartAttribute 2012-11-08 11-24-49"
+ location="C:\qa\test\workspaces\regression\TestStaticPartAttribute"
+
+ date="2012-11-08 11:24:49">
+
+  <project id="0"
+   name="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"
+   is-exported="true"
+   contains-java-lang-object="true">
+
+    <jar path="C:\Program Files\Java\jdk1.6.0_31\jre\lib\resources.jar"
+     orig-path="C:\Program Files\Java\jdk1.6.0_31\jre\lib\resources.jar"
+     is-exported="true"/>
+
+    <jar path="C:\Program Files\Java\jdk1.6.0_31\jre\lib\rt.jar"
+     orig-path="C:\Program Files\Java\jdk1.6.0_31\jre\lib\rt.jar"
+     is-exported="true"/>
+
+    <jar path="C:\Program Files\Java\jdk1.6.0_31\jre\lib\jsse.jar"
+     orig-path="C:\Program Files\Java\jdk1.6.0_31\jre\lib\jsse.jar"
+     is-exported="true"/>
+
+    <jar path="C:\Program Files\Java\jdk1.6.0_31\jre\lib\jce.jar"
+     orig-path="C:\Program Files\Java\jdk1.6.0_31\jre\lib\jce.jar"
+     is-exported="true"/>
+
+    <jar path="C:\Program Files\Java\jdk1.6.0_31\jre\lib\charsets.jar"
+     orig-path="C:\Program Files\Java\jdk1.6.0_31\jre\lib\charsets.jar"
+     is-exported="true"/>
+
+    <jar path="C:\Program Files\Java\jdk1.6.0_31\jre\lib\ext\dnsns.jar"
+     orig-path="C:\Program Files\Java\jdk1.6.0_31\jre\lib\ext\dnsns.jar"
+     is-exported="true"/>
+
+    <jar path="C:\Program Files\Java\jdk1.6.0_31\jre\lib\ext\localedata.jar"
+     orig-path="C:\Program Files\Java\jdk1.6.0_31\jre\lib\ext\localedata.jar"
+     is-exported="true"/>
+
+    <jar path="C:\Program Files\Java\jdk1.6.0_31\jre\lib\ext\sunjce_provider.jar"
+     orig-path="C:\Program Files\Java\jdk1.6.0_31\jre\lib\ext\sunjce_provider.jar"
+     is-exported="true"/>
+
+  </project>
+
+  <project id="1"
+   name="TestStaticPartAttribute"
+   location="C:\qa\test\suites\regression\TestStaticPartAttribute"
+   asSource="true"
+   sourceLevel="6">
+
+    <project name="TestStaticPartAttribute"/>
+
+    <source path="src"
+     is-exported="true"/>
+
+    <project name="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+
+    <jar path="C:\qa\test\suites\regression\TestStaticPartAttribute\promises-4.3.4.jar"
+     orig-path="C:\qa\test\suites\regression\TestStaticPartAttribute\promises-4.3.4.jar"/>
+
+    <java-source-file path="TestStaticPartAttribute/src/helpers/ImmutableClass.java"
+     qname="helpers.ImmutableClass"
+     location="C:\qa\test\suites\regression\TestStaticPartAttribute\src\helpers\ImmutableClass.java"/>
+
+    <java-source-file path="TestStaticPartAttribute/src/helpers/MutClass.java"
+     qname="helpers.MutClass"
+     location="C:\qa\test\suites\regression\TestStaticPartAttribute\src\helpers\MutClass.java"/>
+
+    <java-source-file path="TestStaticPartAttribute/src/helpers/TS.java"
+     qname="helpers.TS"
+     location="C:\qa\test\suites\regression\TestStaticPartAttribute\src\helpers\TS.java"/>
+
+    <java-source-file path="TestStaticPartAttribute/src/testImmutable/StaticPartDefault.java"
+     qname="testImmutable.StaticPartDefault"
+     location="C:\qa\test\suites\regression\TestStaticPartAttribute\src\testImmutable\StaticPartDefault.java"/>
+
+    <java-source-file path="TestStaticPartAttribute/src/testImmutable/StaticPartImmutable.java"
+     qname="testImmutable.StaticPartImmutable"
+     location="C:\qa\test\suites\regression\TestStaticPartAttribute\src\testImmutable\StaticPartImmutable.java"/>
+
+    <java-source-file path="TestStaticPartAttribute/src/testImmutable/StaticPartNotThreadSafe.java"
+     qname="testImmutable.StaticPartNotThreadSafe"
+     location="C:\qa\test\suites\regression\TestStaticPartAttribute\src\testImmutable\StaticPartNotThreadSafe.java"/>
+
+    <java-source-file path="TestStaticPartAttribute/src/testImmutable/StaticPartThreadSafe.java"
+     qname="testImmutable.StaticPartThreadSafe"
+     location="C:\qa\test\suites\regression\TestStaticPartAttribute\src\testImmutable\StaticPartThreadSafe.java"/>
+
+    <java-source-file path="TestStaticPartAttribute/src/testThreadSafe/StaticPartDefault.java"
+     qname="testThreadSafe.StaticPartDefault"
+     location="C:\qa\test\suites\regression\TestStaticPartAttribute\src\testThreadSafe\StaticPartDefault.java"/>
+
+    <java-source-file path="TestStaticPartAttribute/src/testThreadSafe/StaticPartImmutable.java"
+     qname="testThreadSafe.StaticPartImmutable"
+     location="C:\qa\test\suites\regression\TestStaticPartAttribute\src\testThreadSafe\StaticPartImmutable.java"/>
+
+    <java-source-file path="TestStaticPartAttribute/src/testThreadSafe/StaticPartNotThreadSafe.java"
+     qname="testThreadSafe.StaticPartNotThreadSafe"
+     location="C:\qa\test\suites\regression\TestStaticPartAttribute\src\testThreadSafe\StaticPartNotThreadSafe.java"/>
+
+    <java-source-file path="TestStaticPartAttribute/src/testThreadSafe/StaticPartThreadSafe.java"
+     qname="testThreadSafe.StaticPartThreadSafe"
+     location="C:\qa\test\suites\regression\TestStaticPartAttribute\src\testThreadSafe\StaticPartThreadSafe.java"/>
+
+  <package name="testImmutable"/>
+
+  <package name="testThreadSafe"/>
+
+  <package name="helpers"/>
+
+  <option name="asSource"
+   value="true"/>
+
+  <option name="sourceLevel"
+   value="6"/>
+
+  </project>
+
+</projects>
+
