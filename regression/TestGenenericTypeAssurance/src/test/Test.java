@@ -1,6 +1,7 @@
 package test;
 
 import com.surelogic.AnnotationBounds;
+import com.surelogic.Immutable;
 
 @AnnotationBounds(immutable="D")
 public class Test<C, D> {
@@ -27,6 +28,6 @@ class Test2<C> {
 }
 
 @AnnotationBounds(immutable="T")
+@Immutable
 class Foo<T> {
-  
 }

@@ -23,10 +23,7 @@ public class CollectionsUser {
 
   void m1() {
     synchronized (this) {
-      f_strings.add("one");
-      f_strings.add("two");
-      System.out.println(f_strings.toString());
-      f_strings.clear();
+    	f_strings.add("one");
     }
   }
 }
