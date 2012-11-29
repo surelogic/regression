@@ -6,7 +6,7 @@ import immutable.helpers.TS;
 
 import com.surelogic.Immutable;
 
-@Immutable(staticPart="Immutable")
+@Immutable
 public interface StaticPartImmutable {
   public static int x = 0; // good
   public static Other o = null; // bad

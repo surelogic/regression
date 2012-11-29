@@ -6,11 +6,14 @@ import immutable.helpers.Other;
 import immutable.helpers.TS;
 
 import com.surelogic.Immutable;
+import com.surelogic.Part;
 import com.surelogic.Region;
 import com.surelogic.RegionLock;
+import com.surelogic.ThreadSafe;
 import com.surelogic.UniqueInRegion;
 
-@Immutable(staticPart="ThreadSafe")
+@Immutable(appliesTo=Part.Instance)
+@ThreadSafe(appliesTo=Part.Static)
 @Region("public static S")
 @RegionLock("L is class protects S")
 public @interface StaticPartThreadSafe {

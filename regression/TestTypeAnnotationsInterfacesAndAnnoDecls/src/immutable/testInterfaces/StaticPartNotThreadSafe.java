@@ -5,8 +5,9 @@ import immutable.helpers.Other;
 import immutable.helpers.TS;
 
 import com.surelogic.Immutable;
+import com.surelogic.Part;
 
-@Immutable(staticPart="NotThreadSafe")
+@Immutable(appliesTo=Part.Instance)
 public interface StaticPartNotThreadSafe {
   public static int x = 0; // not checked
   public static Other o = null; // not checked

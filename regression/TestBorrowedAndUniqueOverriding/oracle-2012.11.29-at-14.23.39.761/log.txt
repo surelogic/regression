@@ -1,0 +1,557 @@
+Boot classpath: /Users/aarong/git/jsure/fluid/lib/runtime/javac.jar
+Boot classpath: /Eclipses/eclipse-SDK-4.2-macosx-cocoa-x86_64/plugins/org.eclipse.jdt.debug_3.7.100.v20120529-1702/jdi.jar
+Boot classpath: /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/classes.jar
+Boot classpath: /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/ui.jar
+Boot classpath: /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/jsse.jar
+Boot classpath: /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/jce.jar
+Boot classpath: /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/charsets.jar
+Path: /Users/aarong/git/jsure/fluid/lib/runtime/log4j-1.3alpha-8.jar
+Path: /Users/aarong/git/jsure/fluid/bin
+Path: /Users/aarong/git/jsure/fluid/lib/runtime/sablejbdd-0.02.jar
+Path: /Users/aarong/git/common/common/lib/runtime/asm-commons-4.0.jar
+Path: /Users/aarong/git/common/common/lib/runtime/commons-lang3-3.0.jar
+Path: /Users/aarong/git/jsure/fluid/lib/runtime/javac.jar
+Path: /Users/aarong/git/jsure/fluid/lib/runtime/log4j-xml-1.3alpha-8.jar
+Path: /Users/aarong/git/common/common/lib/runtime/collections-generic-4.0.jar
+Path: /Users/aarong/git/common/common/bin
+Path: /Users/aarong/git/common/common/lib/runtime/promises-4.3.4.jar
+Path: /Users/aarong/git/jsure/fluid/lib/runtime/javadoc.jar
+Path: /Users/aarong/git/common/common/lib/runtime/antlr-runtime-3.1-sl.jar
+Path: /Users/aarong/git/common/common/lib/runtime/ant.jar
+Path: /Users/aarong/git/common/common/lib/runtime/asm-4.0.jar
+Path: /Users/aarong/git/common/common/lib/runtime/jsr166xy_java5.jar
+Path: /Users/aarong/git/jsure/fluid/lib/runtime/java-diff-utils-1.2.jar
+Path: /Users/aarong/git/common/common/lib/runtime/derby.jar
+Starting process:
+	/Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Home/bin/java
+	-Dsurelogic.test.code=NONE
+	-XX:MaxPermSize=512m
+	-verbosegc
+	-DSureLogicX=true
+	-Dfluid.ir.versioning=Versioning.Off
+	-Djsure.run.dir=/Users/aarong/Work/Eclipse-Workspaces/Eclipse-4.2/Fluid Regression/.jsure-data/TestBorrowedAndUniqu-2012.11.29-at-14.23.39.761
+	-Dfluid.directory.url=file:/Users/aarong/git/jsure/fluid/
+	-Xmx2048m
+	-Xbootclasspath:/Users/aarong/git/jsure/fluid/lib/runtime/javac.jar:/Eclipses/eclipse-SDK-4.2-macosx-cocoa-x86_64/plugins/org.eclipse.jdt.debug_3.7.100.v20120529-1702/jdi.jar:/Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/classes.jar:/Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/ui.jar:/Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/jsse.jar:/Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/jce.jar:/Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/charsets.jar
+	-classpath
+	/Users/aarong/git/jsure/fluid/lib/runtime/log4j-1.3alpha-8.jar:/Users/aarong/git/jsure/fluid/bin:/Users/aarong/git/jsure/fluid/lib/runtime/sablejbdd-0.02.jar:/Users/aarong/git/common/common/lib/runtime/asm-commons-4.0.jar:/Users/aarong/git/common/common/lib/runtime/commons-lang3-3.0.jar:/Users/aarong/git/jsure/fluid/lib/runtime/javac.jar:/Users/aarong/git/jsure/fluid/lib/runtime/log4j-xml-1.3alpha-8.jar:/Users/aarong/git/common/common/lib/runtime/collections-generic-4.0.jar:/Users/aarong/git/common/common/bin:/Users/aarong/git/common/common/lib/runtime/promises-4.3.4.jar:/Users/aarong/git/jsure/fluid/lib/runtime/javadoc.jar:/Users/aarong/git/common/common/lib/runtime/antlr-runtime-3.1-sl.jar:/Users/aarong/git/common/common/lib/runtime/ant.jar:/Users/aarong/git/common/common/lib/runtime/asm-4.0.jar:/Users/aarong/git/common/common/lib/runtime/jsr166xy_java5.jar:/Users/aarong/git/jsure/fluid/lib/runtime/java-diff-utils-1.2.jar:/Users/aarong/git/common/common/lib/runtime/derby.jar
+	com.surelogic.javac.jobs.RemoteJSureRun
+First line = JVM started: 1.6.0_26
+Log level: INFO
+Created reader
+Created monitor
+Created log handler
+Running RemoteJSureRun
+[GC 17005K->935K(83008K), 0.0028354 secs]
+runPath = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-4.2/Fluid Regression/.jsure-data/TestBorrowedAndUniqu-2012.11.29-at-14.23.39.761
+Creating run
+run = TestBorrowedAndUniqu-2012.11.29-at-14.23.39.761
+projects = TestBorrowedAndUniqueOverriding
+Loading edu.cmu.cs.fluid.make.nonabductive.proposals = false
+Loading edu.cmu.cs.fluid.load.all.classes = false
+Loading edu.cmu.cs.fluid.timeoutFlag = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BCA = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.EqualityAssurance = true
+Loading edu.cmu.cs.fluid.xml.diff.directory = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-4.2/Fluid Regression/.jsure-data/promises-xml
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.UniquenessAssuranceUWM = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.IRConcurrencyDetector = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Singleton = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.RawTypes = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.UniquenessAssuranceUWM_ALL = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.CALLS = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BenchmarkingUniquenessSE = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ThreadEffectAssurance2 = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.cliend.eclipse.TypeBasedAlias = false
+Loading edu.cmu.cs.fluid.scan.may.run.uniqueness = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.UniquenessAssuranceUWM_SE = false
+Loading edu.cmu.cs.fluid.tool-memory-mb = 2048
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.DefinitelyAssigned = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.UniquenessAssuranceSE = false
+Loading edu.cmu.cs.fluid.analysis.thread.count = 8
+Loading edu.cmu.cs.fluid.timeoutSec = 11
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LayersAssurance = true
+Loading edu.cmu.cs.fluid.default.JRE = org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6
+Loading edu.cmu.cs.fluid.timeoutWarningSec = 30
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Utility = true
+Loading edu.cmu.cs.fluid.modeling.problem.filters = 00000012com\.apple.*00000013com\.oracle.*00000010com\.sun.*00000014.*\.internal.*00000023.*BakedArrayList\.class00000007apple.*00000008oracle.*00000011quicktime.*00000005sun.*
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BenchmarkingUniquenessNew_SE = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.NonNull = false
+Loading edu.cmu.cs.fluid.scan.may.use.compression = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ParameterizedType = true
+Loading edu.cmu.cs.fluid.allow.javadoc.annos = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BenchmarkingUniquenessNew = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LockAssurance3 = true
+Loading edu.cmu.cs.fluid.data.directory = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-4.2/Fluid Regression/.jsure-data
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.EffectAssurance2 = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.StructureAssurance = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LV = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Types = false
+JSure data dir = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-4.2/Fluid Regression/.jsure-data
+XML diff dir   = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-4.2/Fluid Regression/.jsure-data/promises-xml
+Looking for JRE in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6
+default JRE = org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6
+Initialized job
+##TASK, Scan, 64
+Initializing ...
+##SUBTASK, Initializing ...
+monitor = com.surelogic.common.jobs.remote.AbstractRemoteSLJob$Monitor@361cb7a1
+singleThread = false
+[GC 17872K->10061K(83008K), 0.0077030 secs]
+[GC 26968K->26878K(83008K), 0.0135865 secs]
+Done initializing org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: 0
+[GC 43902K->30128K(83008K), 0.0062742 secs]
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: Done initializing with /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: Done initializing with /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: Done initializing with /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: Done initializing with /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: Done initializing with /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: Done initializing with /System/Library/Java/Extensions/AppleScriptEngine.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: Done initializing with /System/Library/Java/Extensions/dns_sd.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: Done initializing with /System/Library/Java/Extensions/j3daudio.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: Done initializing with /System/Library/Java/Extensions/j3dcore.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: Done initializing with /System/Library/Java/Extensions/j3dutils.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: Done initializing with /System/Library/Java/Extensions/jai_codec.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: Done initializing with /System/Library/Java/Extensions/jai_core.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: Done initializing with /System/Library/Java/Extensions/mlibwrapper_jai.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: Done initializing with /System/Library/Java/Extensions/MRJToolkit.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: Done initializing with /System/Library/Java/Extensions/QTJava.zip
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: Done initializing with /System/Library/Java/Extensions/vecmath.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: Done initializing with /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/apple_provider.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: Done initializing with /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/dnsns.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: Done initializing with /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/localedata.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: Done initializing with /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/sunjce_provider.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: Done initializing with /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/sunpkcs11.jar
+Done initializing TestBorrowedAndUniqueOverriding: 5
+TestBorrowedAndUniqueOverriding: TestBorrowedAndUniqueOverriding -> org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6
+Done initializing org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: 0
+[GC 47152K->34824K(83008K), 0.0132218 secs]
+[GC 35095K(83008K), 0.0032165 secs]
+TestBorrowedAndUniqueOverriding: Done initializing with /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar
+TestBorrowedAndUniqueOverriding: Done initializing with /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar
+TestBorrowedAndUniqueOverriding: Done initializing with /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar
+TestBorrowedAndUniqueOverriding: Done initializing with /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar
+TestBorrowedAndUniqueOverriding: Done initializing with /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar
+TestBorrowedAndUniqueOverriding: Done initializing with /System/Library/Java/Extensions/AppleScriptEngine.jar
+TestBorrowedAndUniqueOverriding: Done initializing with /System/Library/Java/Extensions/dns_sd.jar
+TestBorrowedAndUniqueOverriding: Done initializing with /System/Library/Java/Extensions/j3daudio.jar
+TestBorrowedAndUniqueOverriding: Done initializing with /System/Library/Java/Extensions/j3dcore.jar
+TestBorrowedAndUniqueOverriding: Done initializing with /System/Library/Java/Extensions/j3dutils.jar
+TestBorrowedAndUniqueOverriding: Done initializing with /System/Library/Java/Extensions/jai_codec.jar
+TestBorrowedAndUniqueOverriding: Done initializing with /System/Library/Java/Extensions/jai_core.jar
+TestBorrowedAndUniqueOverriding: Done initializing with /System/Library/Java/Extensions/mlibwrapper_jai.jar
+TestBorrowedAndUniqueOverriding: Done initializing with /System/Library/Java/Extensions/MRJToolkit.jar
+TestBorrowedAndUniqueOverriding: Done initializing with /System/Library/Java/Extensions/QTJava.zip
+TestBorrowedAndUniqueOverriding: Done initializing with /System/Library/Java/Extensions/vecmath.jar
+TestBorrowedAndUniqueOverriding: Done initializing with /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/apple_provider.jar
+TestBorrowedAndUniqueOverriding: Done initializing with /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/dnsns.jar
+TestBorrowedAndUniqueOverriding: Done initializing with /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/localedata.jar
+TestBorrowedAndUniqueOverriding: Done initializing with /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/sunjce_provider.jar
+TestBorrowedAndUniqueOverriding: Done initializing with /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/sunpkcs11.jar
+TestBorrowedAndUniqueOverriding: Done initializing with /Users/aarong/git/regression/regression/TestBorrowedAndUniqueOverriding/promises-4.0.0.jar
+Created com.surelogic.analysis.threads.ThreadEffectsModule
+Created com.surelogic.analysis.layers.LayersAnalysis
+Created com.surelogic.analysis.effects.EffectsAnalysis
+Created com.surelogic.analysis.annotationbounds.ParameterizedTypeAnalysis
+Created com.surelogic.analysis.concurrency.driver.LockAnalysis
+Created com.surelogic.analysis.equality.EqualityAnalysis
+Created com.surelogic.analysis.uniqueness.plusFrom.traditional.UniquenessAnalysisModule
+Created com.surelogic.analysis.utility.UtilityAnalysis
+Created com.surelogic.analysis.singleton.SingletonAnalysis
+##SUBTASK_DONE
+##WORK, 1
+Assuming that the projects are run in dependency order
+Parsing ...
+##SUBTASK, Parsing ...
+Done adapting 0 files for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6
+##SUBTASK_DONE
+##WORK, 1
+Parsing ...
+##SUBTASK, Parsing ...
+JCP: warning: [options] bootstrap class path not set in conjunction with -source 1.6
+Adapting 5 CUTs
+Done adapting 5 files for TestBorrowedAndUniqueOverriding
+##SUBTASK_DONE
+##WORK, 1
+Handling references for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6
+##SUBTASK, Handling references for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6
+Handling 19 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6
+Setting project for Object from org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6
+Handling 34 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6
+[GC 51848K->39100K(83008K), 0.0137764 secs]
+Handling 47 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6
+Handling 58 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6
+[GC 50092K(83008K), 0.0113828 secs]
+Handling 26 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6
+[GC 56079K->44180K(83008K), 0.0128791 secs]
+[GC 44417K(83008K), 0.0038847 secs]
+Handling 11 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6
+Handling 3 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6
+Handling 2 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6
+##SUBTASK_DONE
+##WORK, 1
+Handling references for TestBorrowedAndUniqueOverriding
+##SUBTASK, Handling references for TestBorrowedAndUniqueOverriding
+Handling 22 dangling refs for TestBorrowedAndUniqueOverriding
+Handling 3 dangling refs for TestBorrowedAndUniqueOverriding
+##SUBTASK_DONE
+##WORK, 1
+Updated 201 files in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6
+Updated 30 files in TestBorrowedAndUniqueOverriding
+Parsing ASTs  = 254 ms
+Handling refs = 588 ms
+Rewriting CUs
+##SUBTASK, Rewriting CUs
+Rewriting TestBorrowedAndUniqueOverriding/src/test/borrowedReceiver/Root.java
+Rewriting TestBorrowedAndUniqueOverriding/src/test/uniqueParam/Root.java
+Rewriting TestBorrowedAndUniqueOverriding/src/test/uniqueReceiver/Root.java
+Rewriting TestBorrowedAndUniqueOverriding/src/test/uniqueReturn/Root.java
+Rewriting TestBorrowedAndUniqueOverriding/src/test/borrowedParam/Root.java
+##SUBTASK_DONE
+##WORK, 1
+Handling references for TestBorrowedAndUniqueOverriding
+##SUBTASK, Handling references for TestBorrowedAndUniqueOverriding
+Handling 19 dangling refs for TestBorrowedAndUniqueOverriding
+##SUBTASK_DONE
+##WORK, 1
+Handling references for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6
+##SUBTASK, Handling references for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6
+Handling 19 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6
+##SUBTASK_DONE
+##WORK, 1
+Updated 201 files in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6
+Updated 30 files in TestBorrowedAndUniqueOverriding
+[2012-11-29 14:23:42    INFO] partial bindings = 16 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+[2012-11-29 14:23:42    INFO] full bindings = 0 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+Canonicalizing ASTs
+##SUBTASK, Canonicalizing ASTs
+Binding = 50 ms
+[2012-11-29 14:23:42    INFO] partial bindings = 386 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+[2012-11-29 14:23:42    INFO] full bindings = 206 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+Canonicalizing TestBorrowedAndUniqueOverriding/src/test/borrowedReceiver/Root.java
+Canonicalizing TestBorrowedAndUniqueOverriding/src/test/uniqueParam/Root.java
+Canonicalizing TestBorrowedAndUniqueOverriding/src/test/uniqueReceiver/Root.java
+Canonicalizing TestBorrowedAndUniqueOverriding/src/test/uniqueReturn/Root.java
+Canonicalizing TestBorrowedAndUniqueOverriding/src/test/borrowedParam/Root.java
+##SUBTASK_DONE
+##WORK, 1
+Handling references for TestBorrowedAndUniqueOverriding
+##SUBTASK, Handling references for TestBorrowedAndUniqueOverriding
+Handling 19 dangling refs for TestBorrowedAndUniqueOverriding
+##SUBTASK_DONE
+##WORK, 1
+Handling references for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6
+##SUBTASK, Handling references for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6
+Handling 19 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6
+##SUBTASK_DONE
+##WORK, 1
+Updated 201 files in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6
+Updated 30 files in TestBorrowedAndUniqueOverriding
+Creating drops
+##SUBTASK, Creating drops
+Done sorting CodeInfos
+##SUBTASK_DONE
+##WORK, 1
+Parsing promises
+##SUBTASK, Parsing promises
+[GC 61204K->46556K(83008K), 0.0074092 secs]
+Added 16 promises for test.borrowedParam.Root in TestBorrowedAndUniqueOverriding: com.surelogic.tree.SyntaxTreeNode@daba308
+Added 20 promises for java.util.concurrent.locks.Lock in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@dc30dfa
+Added 4 promises for test.borrowedReceiver.Root in TestBorrowedAndUniqueOverriding: com.surelogic.tree.SyntaxTreeNode@3301b455
+Added 22 promises for java.lang.Number in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@300628e1
+[GC 63580K->47839K(83008K), 0.0048969 secs]
+[GC 48054K(83008K), 0.0028333 secs]
+Added 18 promises for java.nio.CharBuffer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@51f102bd
+Added 6 promises for java.lang.NumberFormatException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@419431dc
+Added 7 promises for java.util.concurrent.locks.ReadWriteLock in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@28246ceb
+Added 64 promises for java.security.Provider in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@473ea07
+Added 64 promises for java.util.Map in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@1798b372
+Added 6 promises for java.io.Writer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@4321ef78
+Added 55 promises for java.util.AbstractCollection in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@3a6adf2f
+Added 27 promises for java.lang.Object in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@410e4a33
+Added 16 promises for test.uniqueParam.Root in TestBorrowedAndUniqueOverriding: com.surelogic.tree.SyntaxTreeNode@7f5c693a
+Added 87 promises for java.util.Deque in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@4feaa03f
+[GC 64235K->47449K(94688K), 0.0025231 secs]
+Added 12 promises for java.lang.RuntimeException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@38265f9c
+Added 10 promises for test.uniqueReceiver.Root in TestBorrowedAndUniqueOverriding: com.surelogic.tree.SyntaxTreeNode@43afebc9
+Added 29 promises for java.util.Dictionary in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@28d51032
+Added 12 promises for java.lang.SecurityException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@5e406eac
+Added 4 promises for java.util.Enumeration in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@3d2c689f
+Added 70 promises for java.lang.Double in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@5123ac44
+Added 73 promises for java.util.Properties in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@3db7a3cd
+Added 7 promises for java.lang.Enum in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@27743073
+Added 60 promises for java.util.AbstractList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@33067d5a
+Added 87 promises for java.util.jar.Attributes in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@66f3378c
+[GC 64473K->47840K(94688K), 0.0036086 secs]
+Added 10 promises for test.uniqueReturn.Root in TestBorrowedAndUniqueOverriding: com.surelogic.tree.SyntaxTreeNode@52a0fbd6
+Added 12 promises for java.lang.Exception in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@2695c1b4
+Added 18 promises for java.util.Queue in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@271e0267
+Added 61 promises for java.lang.Short in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@596acd4a
+Added 6 promises for java.io.PrintStream in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@27ba8e87
+[GC 64864K->48460K(94688K), 0.0031622 secs]
+Added 6 promises for java.io.PrintWriter in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@5174e73d
+Added 73 promises for java.lang.Float in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@7fb66659
+Added 6 promises for java.lang.IllegalAccessException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@729bb01b
+Added 45 promises for java.util.ResourceBundle in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@3fe9a4d6
+Added 1 promises for java.lang.ref.ReferenceQueue in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@25e1e5e3
+Added 2 promises for java.lang.ref.SoftReference in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@1a6beeef
+Added 12 promises for java.lang.IllegalArgumentException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@2264f82f
+Added 60 promises for java.util.HashMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@4a3e0e88
+Added 6 promises for java.lang.InstantiationException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@16d9bb49
+Added 12 promises for java.lang.reflect.InvocationTargetException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@3e103ad6
+[GC 65484K->49015K(94688K), 0.0032002 secs]
+Added 143 promises for java.lang.AbstractStringBuilder in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@2969ae7c
+Added 6 promises for java.lang.Appendable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@52bd157
+Added 105 promises for java.util.AbstractMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@4fbd89c9
+Added 54 promises for java.util.Set in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@1e616593
+Added 82 promises for java.util.Hashtable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@75c18a99
+[GC 66039K->49228K(94688K), 0.0038682 secs]
+Added 6 promises for java.util.Iterator in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@698a2d7d
+Added 37 promises for java.lang.Boolean in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@4d8b7f9a
+Added 18 promises for java.net.URISyntaxException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@248ecefb
+Added 29 promises for java.util.AbstractSequentialList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@51499e81
+Added 31 promises for java.util.SortedMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@471414cd
+Added 96 promises for java.lang.Integer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@71d88788
+Added 16 promises for java.util.AbstractSet in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@177766e
+Added 6 promises for java.lang.InterruptedException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@141058b6
+Added 3 promises for java.lang.Iterable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@11a51ce0
+[GC 66252K->49914K(94688K), 0.0034577 secs]
+Added 59 promises for java.lang.Byte in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@36e255bb
+Added 21 promises for java.util.Stack in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@1812344b
+Added 12 promises for java.lang.CharSequence in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@4fe3d81
+Added 138 promises for java.util.LinkedList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@88a3523
+Added 15 promises for java.lang.ClassNotFoundException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@53f88a1
+Added 6 promises for java.lang.CloneNotSupportedException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@7057737a
+WARNING: Couldn't find removeAll(java.util.Collection) in java.util.ArrayList
+Added 12 promises for java.lang.Class in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@d233caf
+[GC 66938K->50465K(94688K), 0.0036668 secs]
+Added 96 promises for java.lang.Long in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@56b2f25
+WARNING: Couldn't find iterator() in java.util.ArrayList
+WARNING: Couldn't find listIterator(int) in java.util.ArrayList
+WARNING: Couldn't find listIterator() in java.util.ArrayList
+WARNING: Couldn't find subList(int, int) in java.util.ArrayList
+Added 6 promises for java.lang.NoSuchFieldException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@3a7faad6
+WARNING: Couldn't find retainAll(java.util.Collection) in java.util.ArrayList
+Added 80 promises for java.util.ArrayList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@4bffc401
+Added 47 promises for java.lang.Throwable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@31c74456
+[GC 67489K->50626K(94688K), 0.0028628 secs]
+Added 108 promises for java.lang.StringBuilder in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@72b1f125
+Added 298 promises for java.lang.String in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@4627e2d8
+WARNING: Couldn't find iterator() in java.util.Vector
+WARNING: Couldn't find listIterator(int) in java.util.Vector
+Added 89 promises for java.util.List in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@ab3fcc
+WARNING: Couldn't find listIterator() in java.util.Vector
+Added 54 promises for java.util.Collection in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@6248fe00
+Added 18 promises for java.util.ListIterator in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@97e9678
+Added 157 promises for java.util.Vector in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@21f83dec
+Added 29 promises for java.util.concurrent.TimeUnit in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@4d9104e3
+[GC 67650K->50755K(94688K), 0.0026776 secs]
+Added 22 promises for java.util.concurrent.locks.Condition in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@567e0121
+Added 138 promises for java.lang.Thread in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@496889eb
+Added 157 promises for java.lang.StringBuffer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@5dc1bab3
+##SUBTASK_DONE
+##WORK, 1
+Scrubbing promises
+##SUBTASK, Scrubbing promises
+[GC 67779K->52592K(94688K), 0.0059418 secs]
+Creating RegionModel java.lang.Object.Instance for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6
+[GC 69616K->55026K(94688K), 0.0075517 secs]
+[GC 72050K->56634K(94688K), 0.0069035 secs]
+[GC 73658K->56626K(94688K), 0.0028883 secs]
+##SUBTASK_DONE
+##WORK, 1
+Starting analyses
+Starting parallel ThreadEffectsModule [0]: 5 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6
+##SUBTASK, Starting parallel ThreadEffectsModule [0]: 5 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6
+##SUBTASK_DONE
+##WORK, 1
+Starting parallel ThreadEffectsModule [0]: 5 for TestBorrowedAndUniqueOverriding
+##SUBTASK, Starting parallel ThreadEffectsModule [0]: 5 for TestBorrowedAndUniqueOverriding
+##SUBTASK_DONE
+##WORK, 1
+Starting parallel LayersAnalysis [1]: 5 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6
+##SUBTASK, Starting parallel LayersAnalysis [1]: 5 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6
+##SUBTASK_DONE
+##WORK, 1
+Starting parallel LayersAnalysis [1]: 5 for TestBorrowedAndUniqueOverriding
+##SUBTASK, Starting parallel LayersAnalysis [1]: 5 for TestBorrowedAndUniqueOverriding
+##SUBTASK_DONE
+##WORK, 1
+Starting parallel EffectsAnalysis [2]: 5 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6
+##SUBTASK, Starting parallel EffectsAnalysis [2]: 5 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6
+[GC 73647K->57734K(94688K), 0.0038568 secs]
+##SUBTASK_DONE
+##WORK, 1
+Starting parallel EffectsAnalysis [2]: 5 for TestBorrowedAndUniqueOverriding
+##SUBTASK, Starting parallel EffectsAnalysis [2]: 5 for TestBorrowedAndUniqueOverriding
+##SUBTASK_DONE
+##WORK, 1
+Starting parallel ParameterizedTypeAnalysis [3]: 5 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6
+##SUBTASK, Starting parallel ParameterizedTypeAnalysis [3]: 5 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6
+##SUBTASK_DONE
+##WORK, 1
+Starting parallel ParameterizedTypeAnalysis [3]: 5 for TestBorrowedAndUniqueOverriding
+##SUBTASK, Starting parallel ParameterizedTypeAnalysis [3]: 5 for TestBorrowedAndUniqueOverriding
+##SUBTASK_DONE
+##WORK, 1
+Starting parallel LockAnalysis [4]: 5 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6
+##SUBTASK, Starting parallel LockAnalysis [4]: 5 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6
+##SUBTASK_DONE
+##WORK, 1
+Starting parallel LockAnalysis [4]: 5 for TestBorrowedAndUniqueOverriding
+##SUBTASK, Starting parallel LockAnalysis [4]: 5 for TestBorrowedAndUniqueOverriding
+##SUBTASK_DONE
+##WORK, 1
+Starting parallel EqualityAnalysis [5]: 5 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6
+##SUBTASK, Starting parallel EqualityAnalysis [5]: 5 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6
+##SUBTASK_DONE
+##WORK, 1
+Starting parallel EqualityAnalysis [5]: 5 for TestBorrowedAndUniqueOverriding
+##SUBTASK, Starting parallel EqualityAnalysis [5]: 5 for TestBorrowedAndUniqueOverriding
+##SUBTASK_DONE
+##WORK, 1
+Starting PARALLEL UniquenessAnalysisModule [6]: 5 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6
+##SUBTASK, Starting PARALLEL UniquenessAnalysisModule [6]: 5 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6
+##SUBTASK_DONE
+##WORK, 1
+Starting PARALLEL UniquenessAnalysisModule [6]: 5 for TestBorrowedAndUniqueOverriding
+##SUBTASK, Starting PARALLEL UniquenessAnalysisModule [6]: 5 for TestBorrowedAndUniqueOverriding
+##SUBTASK, Checking [ Uniqueness Assurance ] Sub.notOriginallyBorrowed3(Object,Object,Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] Root.notKeptBorrowed1(Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] Sub.notOriginallyBorrowed1(Object,Object,Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] SubRenaming.keptBorrowed1(Object,Object,Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] SubRenaming.keptBorrowed2(Object,Object,Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] Sub.keptBorrowed1(Object,Object,Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] Root.keptBorrowed1(Object,Object,Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] Sub.keptBorrowed3(Object,Object,Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] Sub.notOriginallyBorrowed2(Object,Object,Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] Root.keptBorrowed2(Object,Object,Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] SubRenaming.keptBorrowed3(Object,Object,Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] Sub.keptBorrowed2(Object,Object,Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] SubRenaming.notOriginallyBorrowed2(Object,Object,Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] Root.keptBorrowed3(Object,Object,Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] SubRenaming.notOriginallyBorrowed3(Object,Object,Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] SubRenaming.notOriginallyBorrowed1(Object,Object,Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] Sub.notOriginallyBorrowed()
+##SUBTASK, Checking [ Uniqueness Assurance ] Root.notKeptBorrowed()
+##SUBTASK, Checking [ Uniqueness Assurance ] Root.keptBorrowed()
+##SUBTASK, Checking [ Uniqueness Assurance ] Sub.keptBorrowed()
+##SUBTASK, Checking [ Uniqueness Assurance ] Root.notKeptUnique1(Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] SubRenaming.notOriginallyUnique2(Object,Object,Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] SubRenaming.notOriginallyUnique1(Object,Object,Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] SubRenaming.keptUnique1(Object,Object,Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] Root.keptUnique3(Object,Object,Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] Sub.notOriginallyUnique1(Object,Object,Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] Sub.keptUnique2(Object,Object,Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] Sub.keptUnique3(Object,Object,Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] SubRenaming.keptUnique3(Object,Object,Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] SubRenaming.keptUnique2(Object,Object,Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] SubRenaming.notOriginallyUnique3(Object,Object,Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] Sub.notOriginallyUnique3(Object,Object,Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] Root.keptUnique1(Object,Object,Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] Sub.keptUnique1(Object,Object,Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] Sub.notOriginallyUnique2(Object,Object,Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] Root.keptUnique2(Object,Object,Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] Sub.notOriginallyUnique1()
+##SUBTASK, Checking [ Uniqueness Assurance ] Root.notKeptUnique1()
+##SUBTASK, Checking [ Uniqueness Assurance ] Root.notKeptUnique2()
+##SUBTASK, Checking [ Uniqueness Assurance ] Sub.keptUnique1()
+##SUBTASK, Checking [ Uniqueness Assurance ] Sub.notKeptUnique2()
+##SUBTASK, Checking [ Uniqueness Assurance ] Sub.keptUnique2()
+##SUBTASK, Checking [ Uniqueness Assurance ] Root.keptUnique2()
+##SUBTASK, Checking [ Uniqueness Assurance ] Sub.notOriginallyUnique2()
+##SUBTASK, Checking [ Uniqueness Assurance ] Root.keptUnique1()
+##SUBTASK, Checking [ Uniqueness Assurance ] Root.notOriginallyUnique2()
+##SUBTASK, Checking [ Uniqueness Assurance ] Sub.keptUnique1()
+##SUBTASK, Checking [ Uniqueness Assurance ] Sub.keptUnique2()
+##SUBTASK, Checking [ Uniqueness Assurance ] Root.keptUnique1()
+##SUBTASK, Checking [ Uniqueness Assurance ] Sub.notKeptUnique2()
+##SUBTASK, Checking [ Uniqueness Assurance ] I3.foo()
+##SUBTASK, Checking [ Uniqueness Assurance ] I4.foo()
+##SUBTASK, Checking [ Uniqueness Assurance ] Root.keptUnique2()
+##SUBTASK, Checking [ Uniqueness Assurance ] Root.notKeptUnique2()
+##SUBTASK, Checking [ Uniqueness Assurance ] Sub.notOriginallyUnique()
+##SUBTASK, Checking [ Uniqueness Assurance ] Root.notKeptUnique1()
+##SUBTASK_DONE
+##WORK, 1
+Starting parallel UtilityAnalysis [7]: 5 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6
+##SUBTASK, Starting parallel UtilityAnalysis [7]: 5 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6
+##SUBTASK_DONE
+##WORK, 1
+Starting parallel UtilityAnalysis [7]: 5 for TestBorrowedAndUniqueOverriding
+##SUBTASK, Starting parallel UtilityAnalysis [7]: 5 for TestBorrowedAndUniqueOverriding
+##SUBTASK_DONE
+##WORK, 1
+Starting parallel SingletonAnalysis [8]: 5 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6
+##SUBTASK, Starting parallel SingletonAnalysis [8]: 5 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6
+##SUBTASK_DONE
+##WORK, 1
+Starting parallel SingletonAnalysis [8]: 5 for TestBorrowedAndUniqueOverriding
+##SUBTASK, Starting parallel SingletonAnalysis [8]: 5 for TestBorrowedAndUniqueOverriding
+##SUBTASK_DONE
+##WORK, 1
+Updating consistency proof
+[GC 74758K->57993K(94688K), 0.0037805 secs]
+Creating snapshot: /Users/aarong/Work/Eclipse-Workspaces/Eclipse-4.2/Fluid Regression/.jsure-data/TestBorrowedAndUniqu-2012.11.29-at-14.23.39.761/running_or_crashed_sea_snapshot.xml.gz
+[GC 75017K->59011K(94688K), 0.0034541 secs]
+[GC 76035K->60186K(94688K), 0.0051559 secs]
+[GC 77210K->62437K(94688K), 0.0073599 secs]
+[GC 79461K->64036K(94688K), 0.0047912 secs]
+Done in 5292 ms.
+ThreadEffectsModule	: 4 ms
+LayersAnalysis	: 30 ms
+EffectsAnalysis	: 32 ms
+ParameterizedTypeAnalysis	: 5 ms
+LockAnalysis	: 38 ms
+EqualityAnalysis	: 1 ms
+UniquenessAnalysisModule	: 155 ms
+UtilityAnalysis	: 3 ms
+SingletonAnalysis	: 3 ms
+[2012-11-29 14:23:46    INFO] partial bindings = 5779 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+[2012-11-29 14:23:46    INFO] full bindings = 408 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+cached = 0
+totalT = 0
+#Performance data for TestBorrowedAndUniqueOverriding
+#Thu Nov 29 14:23:46 EST 2012
+jsure.Add.required=0
+jsure.All.analyses=272
+jsure.Binding.before.canon=50
+jsure.Binding.full.time=242
+jsure.Binding.partial.time=454
+jsure.Bindings.full=408
+jsure.Bindings.partial=5779
+jsure.Canonicalization=175
+jsure.Cleanup=3
+jsure.Drop.creation=18
+jsure.Parsing=848
+jsure.Promise.parsing=660
+jsure.Promise.scrubbing=1919
+jsure.Rewriting=262
+jsure.Sea.export=944
+jsure.Sea.update=191
+jsure.Total.JSure.time=5292
+jsure.Total.blocks=88
+jsure.Total.canonical=1285
+jsure.Total.decls=230
+jsure.Total.destroyed=0
+jsure.Total.gced=0
+jsure.Total.nodes=51780
+jsure.Total.stmts=122
+jsure.Total.try.destroyed=317
+jsure.analysis.EffectsAnalysis=32
+jsure.analysis.EqualityAnalysis=1
+jsure.analysis.LayersAnalysis=30
+jsure.analysis.LockAnalysis=38
+jsure.analysis.ParameterizedTypeAnalysis=5
+jsure.analysis.SingletonAnalysis=3
+jsure.analysis.ThreadEffectsModule=4
+jsure.analysis.UniquenessAnalysisModule=155
+jsure.analysis.UtilityAnalysis=3
+jsure.num.threads=8
+Javac making log: AnnotationRules
+##DONE
+Renaming snapshot: /Users/aarong/Work/Eclipse-Workspaces/Eclipse-4.2/Fluid Regression/.jsure-data/TestBorrowedAndUniqu-2012.11.29-at-14.23.39.761/sea_snapshot.xml.gz
+Done with JSure!
+Scanning complete (6495 ms)
+No socket to close
+Closing std streams
+Process result after waiting = 0

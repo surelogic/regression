@@ -4,9 +4,12 @@ import immutable.helpers.I;
 import immutable.helpers.Other;
 import immutable.helpers.TS;
 
+import com.surelogic.Immutable;
+import com.surelogic.Part;
 import com.surelogic.ThreadSafe;
 
-@ThreadSafe(staticPart="Immutable")
+@Immutable(appliesTo=Part.Static)
+@ThreadSafe(appliesTo=Part.Instance)
 public @interface StaticPartImmutable {
   public static int x = 0; // good
   public static Other o = null; // bad

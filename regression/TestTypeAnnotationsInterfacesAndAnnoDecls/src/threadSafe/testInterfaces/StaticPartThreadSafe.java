@@ -10,7 +10,7 @@ import com.surelogic.RegionLock;
 import com.surelogic.ThreadSafe;
 import com.surelogic.UniqueInRegion;
 
-@ThreadSafe(staticPart="ThreadSafe")
+@ThreadSafe
 @Region("public static S")
 @RegionLock("L is class protects S")
 public interface StaticPartThreadSafe {
