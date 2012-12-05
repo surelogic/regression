@@ -1,0 +1,540 @@
+Boot classpath: /Users/aarong/git/jsure/fluid/lib/runtime/javac.jar
+Boot classpath: /Eclipses/eclipse-SDK-4.2-macosx-cocoa-x86_64/plugins/org.eclipse.jdt.debug_3.7.100.v20120529-1702/jdi.jar
+Boot classpath: /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/classes.jar
+Boot classpath: /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/ui.jar
+Boot classpath: /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/jsse.jar
+Boot classpath: /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/jce.jar
+Boot classpath: /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/charsets.jar
+Path: /Users/aarong/git/common/common/lib/runtime/extra166y.jar
+Path: /Users/aarong/git/jsure/fluid/lib/runtime/log4j-1.3alpha-8.jar
+Path: /Users/aarong/git/jsure/fluid/bin
+Path: /Users/aarong/git/jsure/fluid/lib/runtime/sablejbdd-0.02.jar
+Path: /Users/aarong/git/common/common/lib/runtime/asm-commons-4.0.jar
+Path: /Users/aarong/git/common/common/lib/runtime/commons-lang3-3.0.jar
+Path: /Users/aarong/git/jsure/fluid/lib/runtime/javac.jar
+Path: /Users/aarong/git/jsure/fluid/lib/runtime/log4j-xml-1.3alpha-8.jar
+Path: /Users/aarong/git/common/common/lib/runtime/collections-generic-4.0.jar
+Path: /Users/aarong/git/common/common/lib/runtime/promises-4.4.0.jar
+Path: /Users/aarong/git/common/common/bin
+Path: /Users/aarong/git/jsure/fluid/lib/runtime/javadoc.jar
+Path: /Users/aarong/git/common/common/lib/runtime/antlr-runtime-3.1-sl.jar
+Path: /Users/aarong/git/common/common/lib/runtime/ant.jar
+Path: /Users/aarong/git/common/common/lib/runtime/asm-4.0.jar
+Path: /Users/aarong/git/jsure/fluid/lib/runtime/java-diff-utils-1.2.jar
+Path: /Users/aarong/git/common/common/lib/runtime/derby.jar
+Path: /Users/aarong/git/common/common/lib/runtime/jsr166y.jar
+Starting process:
+	/Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Home/bin/java
+	-Dsurelogic.test.code=NONE
+	-XX:MaxPermSize=512m
+	-verbosegc
+	-DSureLogicX=true
+	-Dfluid.ir.versioning=Versioning.Off
+	-Djsure.run.dir=/Users/aarong/Work/Eclipse-Workspaces/Eclipse-4.2/Fluid Regression/.jsure-data/TestUniqueReturnOnCo-2012.12.05-at-16.33.13.958
+	-Dfluid.directory.url=file:/Users/aarong/git/jsure/fluid/
+	-Xmx2048m
+	-Xbootclasspath:/Users/aarong/git/jsure/fluid/lib/runtime/javac.jar:/Eclipses/eclipse-SDK-4.2-macosx-cocoa-x86_64/plugins/org.eclipse.jdt.debug_3.7.100.v20120529-1702/jdi.jar:/Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/classes.jar:/Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/ui.jar:/Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/jsse.jar:/Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/jce.jar:/Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/charsets.jar
+	-classpath
+	/Users/aarong/git/common/common/lib/runtime/extra166y.jar:/Users/aarong/git/jsure/fluid/lib/runtime/log4j-1.3alpha-8.jar:/Users/aarong/git/jsure/fluid/bin:/Users/aarong/git/jsure/fluid/lib/runtime/sablejbdd-0.02.jar:/Users/aarong/git/common/common/lib/runtime/asm-commons-4.0.jar:/Users/aarong/git/common/common/lib/runtime/commons-lang3-3.0.jar:/Users/aarong/git/jsure/fluid/lib/runtime/javac.jar:/Users/aarong/git/jsure/fluid/lib/runtime/log4j-xml-1.3alpha-8.jar:/Users/aarong/git/common/common/lib/runtime/collections-generic-4.0.jar:/Users/aarong/git/common/common/lib/runtime/promises-4.4.0.jar:/Users/aarong/git/common/common/bin:/Users/aarong/git/jsure/fluid/lib/runtime/javadoc.jar:/Users/aarong/git/common/common/lib/runtime/antlr-runtime-3.1-sl.jar:/Users/aarong/git/common/common/lib/runtime/ant.jar:/Users/aarong/git/common/common/lib/runtime/asm-4.0.jar:/Users/aarong/git/jsure/fluid/lib/runtime/java-diff-utils-1.2.jar:/Users/aarong/git/common/common/lib/runtime/derby.jar:/Users/aarong/git/common/common/lib/runtime/jsr166y.jar
+	com.surelogic.javac.jobs.RemoteJSureRun
+First line = JVM started: 1.6.0_26
+Log level: INFO
+Created reader
+Created monitor
+Created log handler
+Running RemoteJSureRun
+[GC 17024K->880K(83008K), 0.0032627 secs]
+runPath = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-4.2/Fluid Regression/.jsure-data/TestUniqueReturnOnCo-2012.12.05-at-16.33.13.958
+Creating run
+run = TestUniqueReturnOnCo-2012.12.05-at-16.33.13.958
+projects = TestUniqueReturnOnConstructor
+Loading edu.cmu.cs.fluid.make.nonabductive.proposals = false
+Loading edu.cmu.cs.fluid.load.all.classes = false
+Loading edu.cmu.cs.fluid.timeoutFlag = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BCA = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.EqualityAssurance = true
+Loading edu.cmu.cs.fluid.xml.diff.directory = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-4.2/Fluid Regression/.jsure-data/promises-xml
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.UniquenessAssuranceUWM = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.IRConcurrencyDetector = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Singleton = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.RawTypes = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.UniquenessAssuranceUWM_ALL = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.CALLS = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BenchmarkingUniquenessSE = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ThreadEffectAssurance2 = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.cliend.eclipse.TypeBasedAlias = false
+Loading edu.cmu.cs.fluid.scan.may.run.uniqueness = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.UniquenessAssuranceUWM_SE = false
+Loading edu.cmu.cs.fluid.tool-memory-mb = 2048
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.DefinitelyAssigned = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.UniquenessAssuranceSE = false
+Loading edu.cmu.cs.fluid.analysis.thread.count = 8
+Loading edu.cmu.cs.fluid.timeoutSec = 11
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LayersAssurance = true
+Loading edu.cmu.cs.fluid.default.JRE = org.eclipse.jdt.launching.JRE_CONTAINER
+Loading edu.cmu.cs.fluid.timeoutWarningSec = 30
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Utility = true
+Loading edu.cmu.cs.fluid.modeling.problem.filters = 00000012com\.apple.*00000013com\.oracle.*00000010com\.sun.*00000014.*\.internal.*00000023.*BakedArrayList\.class00000007apple.*00000008oracle.*00000011quicktime.*00000005sun.*
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BenchmarkingUniquenessNew_SE = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.NonNull = false
+Loading edu.cmu.cs.fluid.scan.may.use.compression = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ParameterizedType = true
+Loading edu.cmu.cs.fluid.allow.javadoc.annos = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BenchmarkingUniquenessNew = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LockAssurance3 = true
+Loading edu.cmu.cs.fluid.data.directory = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-4.2/Fluid Regression/.jsure-data
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.EffectAssurance2 = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.StructureAssurance = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LV = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Types = false
+JSure data dir = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-4.2/Fluid Regression/.jsure-data
+XML diff dir   = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-4.2/Fluid Regression/.jsure-data/promises-xml
+Looking for JRE in org.eclipse.jdt.launching.JRE_CONTAINER
+default JRE = org.eclipse.jdt.launching.JRE_CONTAINER
+Initialized job
+##TASK, Scan, 64
+Initializing ...
+##SUBTASK, Initializing ...
+monitor = com.surelogic.common.jobs.remote.AbstractRemoteSLJob$Monitor@3175ade6
+singleThread = false
+[GC 17792K->10466K(83008K), 0.0068500 secs]
+Done initializing org.eclipse.jdt.launching.JRE_CONTAINER: 0
+[GC 27490K->27332K(83008K), 0.0120840 secs]
+[GC 44356K->30024K(83008K), 0.0059410 secs]
+org.eclipse.jdt.launching.JRE_CONTAINER: Done initializing with /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/classes.jar
+org.eclipse.jdt.launching.JRE_CONTAINER: Done initializing with /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/ui.jar
+org.eclipse.jdt.launching.JRE_CONTAINER: Done initializing with /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/jsse.jar
+org.eclipse.jdt.launching.JRE_CONTAINER: Done initializing with /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/jce.jar
+org.eclipse.jdt.launching.JRE_CONTAINER: Done initializing with /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/charsets.jar
+org.eclipse.jdt.launching.JRE_CONTAINER: Done initializing with /System/Library/Java/Extensions/AppleScriptEngine.jar
+org.eclipse.jdt.launching.JRE_CONTAINER: Done initializing with /System/Library/Java/Extensions/dns_sd.jar
+org.eclipse.jdt.launching.JRE_CONTAINER: Done initializing with /System/Library/Java/Extensions/j3daudio.jar
+org.eclipse.jdt.launching.JRE_CONTAINER: Done initializing with /System/Library/Java/Extensions/j3dcore.jar
+org.eclipse.jdt.launching.JRE_CONTAINER: Done initializing with /System/Library/Java/Extensions/j3dutils.jar
+org.eclipse.jdt.launching.JRE_CONTAINER: Done initializing with /System/Library/Java/Extensions/jai_codec.jar
+org.eclipse.jdt.launching.JRE_CONTAINER: Done initializing with /System/Library/Java/Extensions/jai_core.jar
+org.eclipse.jdt.launching.JRE_CONTAINER: Done initializing with /System/Library/Java/Extensions/mlibwrapper_jai.jar
+org.eclipse.jdt.launching.JRE_CONTAINER: Done initializing with /System/Library/Java/Extensions/MRJToolkit.jar
+org.eclipse.jdt.launching.JRE_CONTAINER: Done initializing with /System/Library/Java/Extensions/QTJava.zip
+org.eclipse.jdt.launching.JRE_CONTAINER: Done initializing with /System/Library/Java/Extensions/vecmath.jar
+org.eclipse.jdt.launching.JRE_CONTAINER: Done initializing with /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Home/lib/ext/apple_provider.jar
+org.eclipse.jdt.launching.JRE_CONTAINER: Done initializing with /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Home/lib/ext/dnsns.jar
+org.eclipse.jdt.launching.JRE_CONTAINER: Done initializing with /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Home/lib/ext/localedata.jar
+org.eclipse.jdt.launching.JRE_CONTAINER: Done initializing with /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Home/lib/ext/sunjce_provider.jar
+org.eclipse.jdt.launching.JRE_CONTAINER: Done initializing with /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Home/lib/ext/sunpkcs11.jar
+Done initializing TestUniqueReturnOnConstructor: 7
+TestUniqueReturnOnConstructor: TestUniqueReturnOnConstructor -> org.eclipse.jdt.launching.JRE_CONTAINER
+Done initializing org.eclipse.jdt.launching.JRE_CONTAINER: 0
+[GC 47048K->34918K(83008K), 0.0138833 secs]
+[GC 35364K(83008K), 0.0032926 secs]
+TestUniqueReturnOnConstructor: Done initializing with /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/classes.jar
+TestUniqueReturnOnConstructor: Done initializing with /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/ui.jar
+TestUniqueReturnOnConstructor: Done initializing with /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/jsse.jar
+TestUniqueReturnOnConstructor: Done initializing with /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/jce.jar
+TestUniqueReturnOnConstructor: Done initializing with /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/charsets.jar
+TestUniqueReturnOnConstructor: Done initializing with /System/Library/Java/Extensions/AppleScriptEngine.jar
+TestUniqueReturnOnConstructor: Done initializing with /System/Library/Java/Extensions/dns_sd.jar
+TestUniqueReturnOnConstructor: Done initializing with /System/Library/Java/Extensions/j3daudio.jar
+TestUniqueReturnOnConstructor: Done initializing with /System/Library/Java/Extensions/j3dcore.jar
+TestUniqueReturnOnConstructor: Done initializing with /System/Library/Java/Extensions/j3dutils.jar
+TestUniqueReturnOnConstructor: Done initializing with /System/Library/Java/Extensions/jai_codec.jar
+TestUniqueReturnOnConstructor: Done initializing with /System/Library/Java/Extensions/jai_core.jar
+TestUniqueReturnOnConstructor: Done initializing with /System/Library/Java/Extensions/mlibwrapper_jai.jar
+TestUniqueReturnOnConstructor: Done initializing with /System/Library/Java/Extensions/MRJToolkit.jar
+TestUniqueReturnOnConstructor: Done initializing with /System/Library/Java/Extensions/QTJava.zip
+TestUniqueReturnOnConstructor: Done initializing with /System/Library/Java/Extensions/vecmath.jar
+TestUniqueReturnOnConstructor: Done initializing with /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Home/lib/ext/apple_provider.jar
+TestUniqueReturnOnConstructor: Done initializing with /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Home/lib/ext/dnsns.jar
+TestUniqueReturnOnConstructor: Done initializing with /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Home/lib/ext/localedata.jar
+TestUniqueReturnOnConstructor: Done initializing with /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Home/lib/ext/sunjce_provider.jar
+TestUniqueReturnOnConstructor: Done initializing with /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Home/lib/ext/sunpkcs11.jar
+TestUniqueReturnOnConstructor: Done initializing with /Users/aarong/git/regression/regression/TestUniqueReturnOnConstructor/promises-4.0.0.jar
+Created com.surelogic.analysis.threads.ThreadEffectsModule
+Created com.surelogic.analysis.layers.LayersAnalysis
+Created com.surelogic.analysis.effects.EffectsAnalysis
+Created com.surelogic.analysis.annotationbounds.ParameterizedTypeAnalysis
+Created com.surelogic.analysis.concurrency.driver.LockAnalysis
+Created com.surelogic.analysis.equality.EqualityAnalysis
+Created com.surelogic.analysis.uniqueness.plusFrom.traditional.UniquenessAnalysisModule
+Created com.surelogic.analysis.utility.UtilityAnalysis
+Created com.surelogic.analysis.singleton.SingletonAnalysis
+##SUBTASK_DONE
+##WORK, 1
+Assuming that the projects are run in dependency order
+Parsing ...
+##SUBTASK, Parsing ...
+Done adapting 0 files for org.eclipse.jdt.launching.JRE_CONTAINER
+##SUBTASK_DONE
+##WORK, 1
+Parsing ...
+##SUBTASK, Parsing ...
+JCP: warning: [options] bootstrap class path not set in conjunction with -source 1.6
+Adapting 7 CUTs
+Done adapting 7 files for TestUniqueReturnOnConstructor
+##SUBTASK_DONE
+##WORK, 1
+Handling references for org.eclipse.jdt.launching.JRE_CONTAINER
+##SUBTASK, Handling references for org.eclipse.jdt.launching.JRE_CONTAINER
+Handling 19 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER
+Setting project for Object from org.eclipse.jdt.launching.JRE_CONTAINER
+Handling 34 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER
+[GC 51942K->38919K(83008K), 0.0139290 secs]
+Handling 47 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER
+Handling 58 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER
+Handling 26 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER
+[GC 54019K(83008K), 0.0166922 secs]
+[GC 55896K->44245K(83008K), 0.0140227 secs]
+Handling 11 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER
+Handling 3 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER
+Handling 2 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER
+##SUBTASK_DONE
+##WORK, 1
+Handling references for TestUniqueReturnOnConstructor
+##SUBTASK, Handling references for TestUniqueReturnOnConstructor
+Handling 24 dangling refs for TestUniqueReturnOnConstructor
+Handling 3 dangling refs for TestUniqueReturnOnConstructor
+##SUBTASK_DONE
+##WORK, 1
+Updated 200 files in org.eclipse.jdt.launching.JRE_CONTAINER
+Updated 34 files in TestUniqueReturnOnConstructor
+Parsing ASTs  = 228 ms
+Handling refs = 483 ms
+Rewriting CUs
+##SUBTASK, Rewriting CUs
+Rewriting TestUniqueReturnOnConstructor/src/borrowedThis/UseIt.java
+Rewriting TestUniqueReturnOnConstructor/src/borrowedThis/TestSingleThreaded.java
+Rewriting TestUniqueReturnOnConstructor/src/uniqueReturn/UseIt.java
+Rewriting TestUniqueReturnOnConstructor/src/borrowedThis/RelyOnBorrowedThis.java
+Rewriting TestUniqueReturnOnConstructor/src/uniqueReturn/RelyOnUniqueReturn.java
+Rewriting TestUniqueReturnOnConstructor/src/sanityChecks/C.java
+Rewriting TestUniqueReturnOnConstructor/src/uniqueReturn/TestSingleThreaded.java
+##SUBTASK_DONE
+##WORK, 1
+Handling references for org.eclipse.jdt.launching.JRE_CONTAINER
+##SUBTASK, Handling references for org.eclipse.jdt.launching.JRE_CONTAINER
+Handling 19 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER
+##SUBTASK_DONE
+##WORK, 1
+Handling references for TestUniqueReturnOnConstructor
+##SUBTASK, Handling references for TestUniqueReturnOnConstructor
+Handling 19 dangling refs for TestUniqueReturnOnConstructor
+##SUBTASK_DONE
+##WORK, 1
+Updated 200 files in org.eclipse.jdt.launching.JRE_CONTAINER
+Updated 34 files in TestUniqueReturnOnConstructor
+[2012-12-05 16:33:16    INFO] partial bindings = 0 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+[2012-12-05 16:33:16    INFO] full bindings = 0 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+Canonicalizing ASTs
+##SUBTASK, Canonicalizing ASTs
+[2012-12-05 16:33:16    INFO] partial bindings = 148 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+[2012-12-05 16:33:16    INFO] full bindings = 151 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+Canonicalizing TestUniqueReturnOnConstructor/src/borrowedThis/UseIt.java
+Canonicalizing TestUniqueReturnOnConstructor/src/borrowedThis/TestSingleThreaded.java
+Canonicalizing TestUniqueReturnOnConstructor/src/uniqueReturn/UseIt.java
+Canonicalizing TestUniqueReturnOnConstructor/src/borrowedThis/RelyOnBorrowedThis.java
+Canonicalizing TestUniqueReturnOnConstructor/src/uniqueReturn/RelyOnUniqueReturn.java
+Canonicalizing TestUniqueReturnOnConstructor/src/sanityChecks/C.java
+Canonicalizing TestUniqueReturnOnConstructor/src/uniqueReturn/TestSingleThreaded.java
+Binding = 42 ms
+##SUBTASK_DONE
+##WORK, 1
+Handling references for org.eclipse.jdt.launching.JRE_CONTAINER
+##SUBTASK, Handling references for org.eclipse.jdt.launching.JRE_CONTAINER
+Handling 19 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER
+##SUBTASK_DONE
+##WORK, 1
+Handling references for TestUniqueReturnOnConstructor
+##SUBTASK, Handling references for TestUniqueReturnOnConstructor
+Handling 19 dangling refs for TestUniqueReturnOnConstructor
+##SUBTASK_DONE
+##WORK, 1
+Updated 200 files in org.eclipse.jdt.launching.JRE_CONTAINER
+Updated 34 files in TestUniqueReturnOnConstructor
+Creating drops
+##SUBTASK, Creating drops
+Done sorting CodeInfos
+##SUBTASK_DONE
+##WORK, 1
+Parsing promises
+##SUBTASK, Parsing promises
+[GC 61269K->46666K(83008K), 0.0074471 secs]
+Added 2 promises for borrowedThis.RelyOnBorrowedThis in TestUniqueReturnOnConstructor: com.surelogic.tree.SyntaxTreeNode@698e400b
+Added 6 promises for java.lang.InterruptedException in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@47ca5c4f
+Added 1 promises for java.lang.ref.ReferenceQueue in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@51b51304
+Added 12 promises for borrowedThis.TestSingleThreaded in TestUniqueReturnOnConstructor: com.surelogic.tree.SyntaxTreeNode@1e1c5dd1
+Added 22 promises for java.util.concurrent.locks.Condition in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@65e7deb6
+Added 2 promises for borrowedThis.UseIt in TestUniqueReturnOnConstructor: com.surelogic.tree.SyntaxTreeNode@6a059fa4
+Added 2 promises for java.lang.ref.SoftReference in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@583f7824
+Added 18 promises for java.net.URISyntaxException in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@465c16
+Added 3 promises for java.lang.Iterable in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@54334eca
+Added 20 promises for java.util.concurrent.locks.Lock in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@3f894e9c
+Javac making log: AnnotationRules
+Added 7 promises for java.util.concurrent.locks.ReadWriteLock in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@4df2868
+Added 13 promises for sanityChecks.C in TestUniqueReturnOnConstructor: com.surelogic.tree.SyntaxTreeNode@1a79faa
+[GC 63690K->47478K(83008K), 0.0038195 secs]
+Added 54 promises for java.util.Collection in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@5a86506a
+Added 2 promises for uniqueReturn.RelyOnUniqueReturn in TestUniqueReturnOnConstructor: com.surelogic.tree.SyntaxTreeNode@7a0ec850
+Added 64 promises for java.util.Map in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@53330681
+Added 12 promises for java.lang.reflect.InvocationTargetException in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@1d0737c8
+Added 45 promises for java.util.ResourceBundle in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@271e1866
+Added 12 promises for uniqueReturn.TestSingleThreaded in TestUniqueReturnOnConstructor: com.surelogic.tree.SyntaxTreeNode@13276cc
+Added 2 promises for uniqueReturn.UseIt in TestUniqueReturnOnConstructor: com.surelogic.tree.SyntaxTreeNode@24e823ac
+[GC 64501K->47695K(83008K), 0.0022431 secs]
+Added 96 promises for java.lang.Long in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@622ce9e6
+Added 18 promises for java.nio.CharBuffer in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@194e65cf
+Added 6 promises for java.lang.NoSuchFieldException in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@5d3f03b
+Added 54 promises for java.util.Set in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@67f36902
+Added 6 promises for java.io.PrintStream in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@69b9b81
+Added 22 promises for java.lang.Number in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@67df1074
+Added 6 promises for java.io.PrintWriter in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@7287812
+Added 73 promises for java.util.Properties in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@54b965a3
+Added 6 promises for java.lang.NumberFormatException in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@7d46eb1b
+Added 87 promises for java.util.jar.Attributes in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@7aae6a99
+Added 15 promises for java.lang.ClassNotFoundException in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@46121f31
+Added 6 promises for java.lang.CloneNotSupportedException in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@72ff20fb
+Added 6 promises for java.io.Writer in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@7a0136b0
+Added 18 promises for java.util.Queue in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@27f4db04
+Added 31 promises for java.util.SortedMap in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@52ba2221
+[GC 64719K->48237K(83008K), 0.0027896 secs]
+Added 87 promises for java.util.Deque in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@743354e1
+Added 27 promises for java.lang.Object in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@60e8c201
+Added 12 promises for java.lang.RuntimeException in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@2efe918f
+Added 21 promises for java.util.Stack in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@2cd0e678
+Added 6 promises for java.lang.Appendable in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@36bc174e
+Added 12 promises for java.lang.SecurityException in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@1d3a7ebb
+Added 70 promises for java.lang.Double in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@22cc74e7
+Added 29 promises for java.util.Dictionary in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@61fc0ce6
+Added 4 promises for java.util.Enumeration in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@1e8de47d
+Added 7 promises for java.lang.Enum in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@66b54ef7
+[GC 65261K->48770K(83008K), 0.0026080 secs]
+Added 37 promises for java.lang.Boolean in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@b92db17
+Added 12 promises for java.lang.Exception in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@248ecefb
+Added 61 promises for java.lang.Short in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@4cc4dfc5
+Added 64 promises for java.security.Provider in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@1a6beeef
+[GC 65794K->49163K(83008K), 0.0023361 secs]
+Added 59 promises for java.lang.Byte in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@5d2f717c
+Added 73 promises for java.lang.Float in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@148c0c7a
+Added 12 promises for java.lang.CharSequence in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@7e8bdff4
+Added 6 promises for java.lang.IllegalAccessException in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@25f67136
+Added 60 promises for java.util.HashMap in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@7809d118
+Added 12 promises for java.lang.IllegalArgumentException in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@18dba48d
+Added 55 promises for java.util.AbstractCollection in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@7f028607
+Added 6 promises for java.lang.InstantiationException in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@61e7f8de
+[GC 66185K->49921K(83008K), 0.0030704 secs]
+Added 143 promises for java.lang.AbstractStringBuilder in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@1d5de95f
+WARNING: Couldn't find iterator() in java.util.Vector
+WARNING: Couldn't find listIterator(int) in java.util.Vector
+WARNING: Couldn't find listIterator() in java.util.Vector
+Added 157 promises for java.util.Vector in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@39c2b949
+Added 60 promises for java.util.AbstractList in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@57545f97
+Added 12 promises for java.lang.Class in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@58b1164d
+[GC 66945K->49961K(83008K), 0.0030071 secs]
+Added 96 promises for java.lang.Integer in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@2ca275d8
+Added 82 promises for java.util.Hashtable in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@202bb129
+Added 6 promises for java.util.Iterator in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@12cb94b7
+Added 29 promises for java.util.concurrent.TimeUnit in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@81f4cba
+Added 105 promises for java.util.AbstractMap in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@2c995175
+[GC 66985K->50560K(83008K), 0.0026808 secs]
+Added 298 promises for java.lang.String in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@3541d281
+Added 29 promises for java.util.AbstractSequentialList in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@7519576
+Added 16 promises for java.util.AbstractSet in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@45b94b9a
+Added 138 promises for java.util.LinkedList in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@67156949
+WARNING: Couldn't find removeAll(java.util.Collection) in java.util.ArrayList
+[GC 67584K->51047K(83008K), 0.0033973 secs]
+WARNING: Couldn't find iterator() in java.util.ArrayList
+WARNING: Couldn't find listIterator(int) in java.util.ArrayList
+WARNING: Couldn't find listIterator() in java.util.ArrayList
+WARNING: Couldn't find subList(int, int) in java.util.ArrayList
+WARNING: Couldn't find retainAll(java.util.Collection) in java.util.ArrayList
+Added 80 promises for java.util.ArrayList in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@7cb01f72
+Added 89 promises for java.util.List in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@3982b0c8
+Added 157 promises for java.lang.StringBuffer in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@24150b2d
+Added 18 promises for java.util.ListIterator in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@2f53b135
+Added 108 promises for java.lang.StringBuilder in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@4d25c934
+[GC 68071K->51095K(83008K), 0.0026415 secs]
+Added 138 promises for java.lang.Thread in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@71ead079
+Added 1 promises for java.lang.ThreadLocal in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@2ddc7394
+Added 47 promises for java.lang.Throwable in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@2d0d345a
+##SUBTASK_DONE
+##WORK, 1
+Scrubbing promises
+##SUBTASK, Scrubbing promises
+Creating RegionModel java.lang.Object.Instance for org.eclipse.jdt.launching.JRE_CONTAINER
+[GC 68119K->52898K(83008K), 0.0059608 secs]
+[GC 69919K->55150K(83008K), 0.0079812 secs]
+[GC 55275K(83008K), 0.0033006 secs]
+[GC 72174K->56556K(83008K), 0.0055649 secs]
+[GC 70980K(83008K), 0.0104702 secs]
+[GC 64159K->47235K(94772K), 0.0024594 secs]
+##SUBTASK_DONE
+##WORK, 1
+Starting analyses
+Starting parallel ThreadEffectsModule [0]: 7 for org.eclipse.jdt.launching.JRE_CONTAINER
+##SUBTASK, Starting parallel ThreadEffectsModule [0]: 7 for org.eclipse.jdt.launching.JRE_CONTAINER
+##SUBTASK_DONE
+##WORK, 1
+Starting parallel ThreadEffectsModule [0]: 7 for TestUniqueReturnOnConstructor
+##SUBTASK, Starting parallel ThreadEffectsModule [0]: 7 for TestUniqueReturnOnConstructor
+doesMethodSubsumeThreadStart() at java.lang.Thread.start()
+doesMethodSubsumeThreadStart() at java.lang.Thread.start()
+Found start() for t.start -- com.surelogic.tree.SyntaxTreeNode@5beb18de
+Found start() for t.start -- com.surelogic.tree.SyntaxTreeNode@27adc5f7
+##SUBTASK_DONE
+##WORK, 1
+Starting parallel LayersAnalysis [1]: 7 for org.eclipse.jdt.launching.JRE_CONTAINER
+##SUBTASK, Starting parallel LayersAnalysis [1]: 7 for org.eclipse.jdt.launching.JRE_CONTAINER
+##SUBTASK_DONE
+##WORK, 1
+Starting parallel LayersAnalysis [1]: 7 for TestUniqueReturnOnConstructor
+##SUBTASK, Starting parallel LayersAnalysis [1]: 7 for TestUniqueReturnOnConstructor
+##SUBTASK_DONE
+##WORK, 1
+Starting parallel EffectsAnalysis [2]: 7 for org.eclipse.jdt.launching.JRE_CONTAINER
+##SUBTASK, Starting parallel EffectsAnalysis [2]: 7 for org.eclipse.jdt.launching.JRE_CONTAINER
+##SUBTASK_DONE
+##WORK, 1
+Starting parallel EffectsAnalysis [2]: 7 for TestUniqueReturnOnConstructor
+##SUBTASK, Starting parallel EffectsAnalysis [2]: 7 for TestUniqueReturnOnConstructor
+[GC 64259K->47781K(94772K), 0.0034602 secs]
+##SUBTASK_DONE
+##WORK, 1
+Starting parallel ParameterizedTypeAnalysis [3]: 7 for org.eclipse.jdt.launching.JRE_CONTAINER
+##SUBTASK, Starting parallel ParameterizedTypeAnalysis [3]: 7 for org.eclipse.jdt.launching.JRE_CONTAINER
+##SUBTASK_DONE
+##WORK, 1
+Starting parallel ParameterizedTypeAnalysis [3]: 7 for TestUniqueReturnOnConstructor
+##SUBTASK, Starting parallel ParameterizedTypeAnalysis [3]: 7 for TestUniqueReturnOnConstructor
+##SUBTASK_DONE
+##WORK, 1
+Starting parallel LockAnalysis [4]: 7 for org.eclipse.jdt.launching.JRE_CONTAINER
+##SUBTASK, Starting parallel LockAnalysis [4]: 7 for org.eclipse.jdt.launching.JRE_CONTAINER
+##SUBTASK_DONE
+##WORK, 1
+Starting parallel LockAnalysis [4]: 7 for TestUniqueReturnOnConstructor
+##SUBTASK, Starting parallel LockAnalysis [4]: 7 for TestUniqueReturnOnConstructor
+##SUBTASK_DONE
+##WORK, 1
+Starting parallel EqualityAnalysis [5]: 7 for org.eclipse.jdt.launching.JRE_CONTAINER
+##SUBTASK, Starting parallel EqualityAnalysis [5]: 7 for org.eclipse.jdt.launching.JRE_CONTAINER
+##SUBTASK_DONE
+##WORK, 1
+Starting parallel EqualityAnalysis [5]: 7 for TestUniqueReturnOnConstructor
+##SUBTASK, Starting parallel EqualityAnalysis [5]: 7 for TestUniqueReturnOnConstructor
+##SUBTASK_DONE
+##WORK, 1
+Starting PARALLEL UniquenessAnalysisModule [6]: 7 for org.eclipse.jdt.launching.JRE_CONTAINER
+##SUBTASK, Starting PARALLEL UniquenessAnalysisModule [6]: 7 for org.eclipse.jdt.launching.JRE_CONTAINER
+##SUBTASK_DONE
+##WORK, 1
+Starting PARALLEL UniquenessAnalysisModule [6]: 7 for TestUniqueReturnOnConstructor
+##SUBTASK, Starting PARALLEL UniquenessAnalysisModule [6]: 7 for TestUniqueReturnOnConstructor
+##SUBTASK, Checking [ Uniqueness Assurance ] Other.Other()
+##SUBTASK, Checking [ Uniqueness Assurance ] RelyOnBorrowedThis.RelyOnBorrowedThis()
+##SUBTASK, Checking [ Uniqueness Assurance ] TestSingleThreaded.TestSingleThreaded()
+##SUBTASK, Checking [ Uniqueness Assurance ] TestSingleThreaded.TestSingleThreaded(int,int,int,int)
+##SUBTASK, Checking [ Uniqueness Assurance ] TestSingleThreaded.TestSingleThreaded(int,int)
+##SUBTASK, Checking [ Uniqueness Assurance ] TestSingleThreaded.TestSingleThreaded(int,int,int)
+##SUBTASK, Checking [ Uniqueness Assurance ] UseIt.UseIt()
+##SUBTASK, Checking [ Uniqueness Assurance ] UseIt.UseIt(int)
+##SUBTASK, Checking [ Uniqueness Assurance ] C.foo()
+##SUBTASK, Checking [ Uniqueness Assurance ] C.uniqueReturn()
+##SUBTASK, Checking [ Uniqueness Assurance ] C.C()
+##SUBTASK, Checking [ Uniqueness Assurance ] C.C(double)
+##SUBTASK, Checking [ Uniqueness Assurance ] C.uniqueThis()
+##SUBTASK, Checking [ Uniqueness Assurance ] C.uniqueReturnThis()
+##SUBTASK, Checking [ Uniqueness Assurance ] C.uniqueThisReturn()
+##SUBTASK, Checking [ Uniqueness Assurance ] C.voidMethod_uniqueThis()
+##SUBTASK, Checking [ Uniqueness Assurance ] C.C(double,double)
+##SUBTASK, Checking [ Uniqueness Assurance ] Other.Other()
+##SUBTASK, Checking [ Uniqueness Assurance ] RelyOnUniqueReturn.RelyOnUniqueReturn()
+##SUBTASK, Checking [ Uniqueness Assurance ] TestSingleThreaded.TestSingleThreaded(int,int,int)
+##SUBTASK, Checking [ Uniqueness Assurance ] TestSingleThreaded.TestSingleThreaded(int,int)
+##SUBTASK, Checking [ Uniqueness Assurance ] TestSingleThreaded.TestSingleThreaded(int,int,int,int)
+##SUBTASK, Checking [ Uniqueness Assurance ] TestSingleThreaded.TestSingleThreaded()
+##SUBTASK, Checking [ Uniqueness Assurance ] UseIt.UseIt()
+##SUBTASK, Checking [ Uniqueness Assurance ] UseIt.UseIt(int)
+##SUBTASK_DONE
+##WORK, 1
+Starting parallel UtilityAnalysis [7]: 7 for org.eclipse.jdt.launching.JRE_CONTAINER
+##SUBTASK, Starting parallel UtilityAnalysis [7]: 7 for org.eclipse.jdt.launching.JRE_CONTAINER
+##SUBTASK_DONE
+##WORK, 1
+Starting parallel UtilityAnalysis [7]: 7 for TestUniqueReturnOnConstructor
+##SUBTASK, Starting parallel UtilityAnalysis [7]: 7 for TestUniqueReturnOnConstructor
+##SUBTASK_DONE
+##WORK, 1
+Starting parallel SingletonAnalysis [8]: 7 for org.eclipse.jdt.launching.JRE_CONTAINER
+##SUBTASK, Starting parallel SingletonAnalysis [8]: 7 for org.eclipse.jdt.launching.JRE_CONTAINER
+##SUBTASK_DONE
+##WORK, 1
+Starting parallel SingletonAnalysis [8]: 7 for TestUniqueReturnOnConstructor
+##SUBTASK, Starting parallel SingletonAnalysis [8]: 7 for TestUniqueReturnOnConstructor
+##SUBTASK_DONE
+##WORK, 1
+Updating consistency proof
+[GC 64805K->48835K(94772K), 0.0040915 secs]
+Creating snapshot: /Users/aarong/Work/Eclipse-Workspaces/Eclipse-4.2/Fluid Regression/.jsure-data/TestUniqueReturnOnCo-2012.12.05-at-16.33.13.958/running_or_crashed_sea_snapshot.xml.gz
+[GC 65859K->48991K(94772K), 0.0028282 secs]
+[GC 66015K->50195K(94772K), 0.0030876 secs]
+[GC 67219K->52150K(94772K), 0.0053323 secs]
+[GC 69174K->53795K(94772K), 0.0042499 secs]
+Done in 5053 ms.
+ThreadEffectsModule	: 36 ms
+LayersAnalysis	: 28 ms
+EffectsAnalysis	: 89 ms
+ParameterizedTypeAnalysis	: 4 ms
+LockAnalysis	: 41 ms
+EqualityAnalysis	: 3 ms
+UniquenessAnalysisModule	: 165 ms
+UtilityAnalysis	: 2 ms
+SingletonAnalysis	: 2 ms
+[2012-12-05 16:33:20    INFO] partial bindings = 5316 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+[2012-12-05 16:33:20    INFO] full bindings = 323 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+cached = 0
+totalT = 0
+#Performance data for TestUniqueReturnOnConstructor
+#Wed Dec 05 16:33:20 EST 2012
+jsure.Add.required=0
+jsure.All.analyses=371
+jsure.Binding.before.canon=42
+jsure.Binding.full.time=229
+jsure.Binding.partial.time=313
+jsure.Bindings.full=323
+jsure.Bindings.partial=5316
+jsure.Canonicalization=176
+jsure.Cleanup=2
+jsure.Destroy.time=4
+jsure.Drop.creation=22
+jsure.Find.canon.time=4
+jsure.Parsing=715
+jsure.Promise.parsing=703
+jsure.Promise.scrubbing=1455
+jsure.Rewriting=114
+jsure.Sea.export=1320
+jsure.Sea.update=175
+jsure.Total.JSure.time=5053
+jsure.Total.blocks=32
+jsure.Total.canonical=766
+jsure.Total.decls=97
+jsure.Total.destroyed=0
+jsure.Total.gced=0
+jsure.Total.nodes=50898
+jsure.Total.stmts=84
+jsure.Total.try.destroyed=161
+jsure.analysis.EffectsAnalysis=89
+jsure.analysis.EqualityAnalysis=3
+jsure.analysis.LayersAnalysis=28
+jsure.analysis.LockAnalysis=41
+jsure.analysis.ParameterizedTypeAnalysis=4
+jsure.analysis.SingletonAnalysis=2
+jsure.analysis.ThreadEffectsModule=36
+jsure.analysis.UniquenessAnalysisModule=165
+jsure.analysis.UtilityAnalysis=2
+jsure.num.threads=8
+##DONE
+Renaming snapshot: /Users/aarong/Work/Eclipse-Workspaces/Eclipse-4.2/Fluid Regression/.jsure-data/TestUniqueReturnOnCo-2012.12.05-at-16.33.13.958/sea_snapshot.xml.gz
+Done with JSure!
+Scanning complete (6195 ms)
+No socket to close
+Closing std streams
+Process result after waiting = 0
