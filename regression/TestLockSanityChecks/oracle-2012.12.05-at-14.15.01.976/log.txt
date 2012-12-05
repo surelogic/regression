@@ -1,0 +1,759 @@
+Boot classpath: /Users/aarong/git/jsure/fluid/lib/runtime/javac.jar
+Boot classpath: /Eclipses/eclipse-SDK-4.2-macosx-cocoa-x86_64/plugins/org.eclipse.jdt.debug_3.7.100.v20120529-1702/jdi.jar
+Boot classpath: /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/classes.jar
+Boot classpath: /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/ui.jar
+Boot classpath: /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/jsse.jar
+Boot classpath: /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/jce.jar
+Boot classpath: /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/charsets.jar
+Path: /Users/aarong/git/common/common/lib/runtime/extra166y.jar
+Path: /Users/aarong/git/jsure/fluid/lib/runtime/log4j-1.3alpha-8.jar
+Path: /Users/aarong/git/jsure/fluid/bin
+Path: /Users/aarong/git/jsure/fluid/lib/runtime/sablejbdd-0.02.jar
+Path: /Users/aarong/git/common/common/lib/runtime/asm-commons-4.0.jar
+Path: /Users/aarong/git/common/common/lib/runtime/commons-lang3-3.0.jar
+Path: /Users/aarong/git/jsure/fluid/lib/runtime/javac.jar
+Path: /Users/aarong/git/jsure/fluid/lib/runtime/log4j-xml-1.3alpha-8.jar
+Path: /Users/aarong/git/common/common/lib/runtime/collections-generic-4.0.jar
+Path: /Users/aarong/git/common/common/lib/runtime/promises-4.4.0.jar
+Path: /Users/aarong/git/common/common/bin
+Path: /Users/aarong/git/jsure/fluid/lib/runtime/javadoc.jar
+Path: /Users/aarong/git/common/common/lib/runtime/antlr-runtime-3.1-sl.jar
+Path: /Users/aarong/git/common/common/lib/runtime/ant.jar
+Path: /Users/aarong/git/common/common/lib/runtime/asm-4.0.jar
+Path: /Users/aarong/git/jsure/fluid/lib/runtime/java-diff-utils-1.2.jar
+Path: /Users/aarong/git/common/common/lib/runtime/derby.jar
+Path: /Users/aarong/git/common/common/lib/runtime/jsr166y.jar
+Starting process:
+	/Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Home/bin/java
+	-Dsurelogic.test.code=NONE
+	-XX:MaxPermSize=512m
+	-verbosegc
+	-DSureLogicX=true
+	-Dfluid.ir.versioning=Versioning.Off
+	-Djsure.run.dir=/Users/aarong/Work/Eclipse-Workspaces/Eclipse-4.2/Fluid Regression/.jsure-data/TestLockSanityChecks-2012.12.05-at-14.15.01.976
+	-Dfluid.directory.url=file:/Users/aarong/git/jsure/fluid/
+	-Xmx2048m
+	-Xbootclasspath:/Users/aarong/git/jsure/fluid/lib/runtime/javac.jar:/Eclipses/eclipse-SDK-4.2-macosx-cocoa-x86_64/plugins/org.eclipse.jdt.debug_3.7.100.v20120529-1702/jdi.jar:/Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/classes.jar:/Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/ui.jar:/Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/jsse.jar:/Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/jce.jar:/Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/charsets.jar
+	-classpath
+	/Users/aarong/git/common/common/lib/runtime/extra166y.jar:/Users/aarong/git/jsure/fluid/lib/runtime/log4j-1.3alpha-8.jar:/Users/aarong/git/jsure/fluid/bin:/Users/aarong/git/jsure/fluid/lib/runtime/sablejbdd-0.02.jar:/Users/aarong/git/common/common/lib/runtime/asm-commons-4.0.jar:/Users/aarong/git/common/common/lib/runtime/commons-lang3-3.0.jar:/Users/aarong/git/jsure/fluid/lib/runtime/javac.jar:/Users/aarong/git/jsure/fluid/lib/runtime/log4j-xml-1.3alpha-8.jar:/Users/aarong/git/common/common/lib/runtime/collections-generic-4.0.jar:/Users/aarong/git/common/common/lib/runtime/promises-4.4.0.jar:/Users/aarong/git/common/common/bin:/Users/aarong/git/jsure/fluid/lib/runtime/javadoc.jar:/Users/aarong/git/common/common/lib/runtime/antlr-runtime-3.1-sl.jar:/Users/aarong/git/common/common/lib/runtime/ant.jar:/Users/aarong/git/common/common/lib/runtime/asm-4.0.jar:/Users/aarong/git/jsure/fluid/lib/runtime/java-diff-utils-1.2.jar:/Users/aarong/git/common/common/lib/runtime/derby.jar:/Users/aarong/git/common/common/lib/runtime/jsr166y.jar
+	com.surelogic.javac.jobs.RemoteJSureRun
+First line = JVM started: 1.6.0_26
+Log level: INFO
+Created reader
+Created monitor
+Created log handler
+Running RemoteJSureRun
+[GC 17024K->889K(83008K), 0.0026154 secs]
+runPath = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-4.2/Fluid Regression/.jsure-data/TestLockSanityChecks-2012.12.05-at-14.15.01.976
+Creating run
+run = TestLockSanityChecks-2012.12.05-at-14.15.01.976
+projects = TestLockSanityChecks
+Loading edu.cmu.cs.fluid.make.nonabductive.proposals = false
+Loading edu.cmu.cs.fluid.load.all.classes = false
+Loading edu.cmu.cs.fluid.timeoutFlag = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BCA = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.EqualityAssurance = true
+Loading edu.cmu.cs.fluid.xml.diff.directory = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-4.2/Fluid Regression/.jsure-data/promises-xml
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.UniquenessAssuranceUWM = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.IRConcurrencyDetector = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Singleton = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.RawTypes = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.UniquenessAssuranceUWM_ALL = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.CALLS = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BenchmarkingUniquenessSE = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ThreadEffectAssurance2 = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.cliend.eclipse.TypeBasedAlias = false
+Loading edu.cmu.cs.fluid.scan.may.run.uniqueness = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.UniquenessAssuranceUWM_SE = false
+Loading edu.cmu.cs.fluid.tool-memory-mb = 2048
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.DefinitelyAssigned = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.UniquenessAssuranceSE = false
+Loading edu.cmu.cs.fluid.analysis.thread.count = 8
+Loading edu.cmu.cs.fluid.timeoutSec = 11
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LayersAssurance = true
+Loading edu.cmu.cs.fluid.default.JRE = org.eclipse.jdt.launching.JRE_CONTAINER
+Loading edu.cmu.cs.fluid.timeoutWarningSec = 30
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Utility = true
+Loading edu.cmu.cs.fluid.modeling.problem.filters = 00000012com\.apple.*00000013com\.oracle.*00000010com\.sun.*00000014.*\.internal.*00000023.*BakedArrayList\.class00000007apple.*00000008oracle.*00000011quicktime.*00000005sun.*
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BenchmarkingUniquenessNew_SE = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.NonNull = false
+Loading edu.cmu.cs.fluid.scan.may.use.compression = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ParameterizedType = true
+Loading edu.cmu.cs.fluid.allow.javadoc.annos = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BenchmarkingUniquenessNew = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LockAssurance3 = true
+Loading edu.cmu.cs.fluid.data.directory = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-4.2/Fluid Regression/.jsure-data
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.EffectAssurance2 = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.StructureAssurance = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LV = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Types = false
+JSure data dir = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-4.2/Fluid Regression/.jsure-data
+XML diff dir   = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-4.2/Fluid Regression/.jsure-data/promises-xml
+Looking for JRE in org.eclipse.jdt.launching.JRE_CONTAINER
+default JRE = org.eclipse.jdt.launching.JRE_CONTAINER
+Initialized job
+##TASK, Scan, 64
+Initializing ...
+##SUBTASK, Initializing ...
+monitor = com.surelogic.common.jobs.remote.AbstractRemoteSLJob$Monitor@7461373f
+singleThread = false
+[GC 17791K->10225K(83008K), 0.0067249 secs]
+Done initializing org.eclipse.jdt.launching.JRE_CONTAINER: 0
+[GC 27249K->27387K(83008K), 0.0125262 secs]
+[GC 44411K->30030K(83008K), 0.0055176 secs]
+org.eclipse.jdt.launching.JRE_CONTAINER: Done initializing with /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/classes.jar
+org.eclipse.jdt.launching.JRE_CONTAINER: Done initializing with /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/ui.jar
+org.eclipse.jdt.launching.JRE_CONTAINER: Done initializing with /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/jsse.jar
+org.eclipse.jdt.launching.JRE_CONTAINER: Done initializing with /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/jce.jar
+org.eclipse.jdt.launching.JRE_CONTAINER: Done initializing with /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/charsets.jar
+org.eclipse.jdt.launching.JRE_CONTAINER: Done initializing with /System/Library/Java/Extensions/AppleScriptEngine.jar
+org.eclipse.jdt.launching.JRE_CONTAINER: Done initializing with /System/Library/Java/Extensions/dns_sd.jar
+org.eclipse.jdt.launching.JRE_CONTAINER: Done initializing with /System/Library/Java/Extensions/j3daudio.jar
+org.eclipse.jdt.launching.JRE_CONTAINER: Done initializing with /System/Library/Java/Extensions/j3dcore.jar
+org.eclipse.jdt.launching.JRE_CONTAINER: Done initializing with /System/Library/Java/Extensions/j3dutils.jar
+org.eclipse.jdt.launching.JRE_CONTAINER: Done initializing with /System/Library/Java/Extensions/jai_codec.jar
+org.eclipse.jdt.launching.JRE_CONTAINER: Done initializing with /System/Library/Java/Extensions/jai_core.jar
+org.eclipse.jdt.launching.JRE_CONTAINER: Done initializing with /System/Library/Java/Extensions/mlibwrapper_jai.jar
+org.eclipse.jdt.launching.JRE_CONTAINER: Done initializing with /System/Library/Java/Extensions/MRJToolkit.jar
+org.eclipse.jdt.launching.JRE_CONTAINER: Done initializing with /System/Library/Java/Extensions/QTJava.zip
+org.eclipse.jdt.launching.JRE_CONTAINER: Done initializing with /System/Library/Java/Extensions/vecmath.jar
+org.eclipse.jdt.launching.JRE_CONTAINER: Done initializing with /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Home/lib/ext/apple_provider.jar
+org.eclipse.jdt.launching.JRE_CONTAINER: Done initializing with /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Home/lib/ext/dnsns.jar
+org.eclipse.jdt.launching.JRE_CONTAINER: Done initializing with /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Home/lib/ext/localedata.jar
+org.eclipse.jdt.launching.JRE_CONTAINER: Done initializing with /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Home/lib/ext/sunjce_provider.jar
+org.eclipse.jdt.launching.JRE_CONTAINER: Done initializing with /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Home/lib/ext/sunpkcs11.jar
+Done initializing TestLockSanityChecks: 55
+TestLockSanityChecks: TestLockSanityChecks -> org.eclipse.jdt.launching.JRE_CONTAINER
+Done initializing org.eclipse.jdt.launching.JRE_CONTAINER: 0
+[GC 47054K->34866K(83008K), 0.0166042 secs]
+[GC 35313K(83008K), 0.0039391 secs]
+TestLockSanityChecks: Done initializing with /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/classes.jar
+TestLockSanityChecks: Done initializing with /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/ui.jar
+TestLockSanityChecks: Done initializing with /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/jsse.jar
+TestLockSanityChecks: Done initializing with /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/jce.jar
+TestLockSanityChecks: Done initializing with /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/charsets.jar
+TestLockSanityChecks: Done initializing with /System/Library/Java/Extensions/AppleScriptEngine.jar
+TestLockSanityChecks: Done initializing with /System/Library/Java/Extensions/dns_sd.jar
+TestLockSanityChecks: Done initializing with /System/Library/Java/Extensions/j3daudio.jar
+TestLockSanityChecks: Done initializing with /System/Library/Java/Extensions/j3dcore.jar
+TestLockSanityChecks: Done initializing with /System/Library/Java/Extensions/j3dutils.jar
+TestLockSanityChecks: Done initializing with /System/Library/Java/Extensions/jai_codec.jar
+TestLockSanityChecks: Done initializing with /System/Library/Java/Extensions/jai_core.jar
+TestLockSanityChecks: Done initializing with /System/Library/Java/Extensions/mlibwrapper_jai.jar
+TestLockSanityChecks: Done initializing with /System/Library/Java/Extensions/MRJToolkit.jar
+TestLockSanityChecks: Done initializing with /System/Library/Java/Extensions/QTJava.zip
+TestLockSanityChecks: Done initializing with /System/Library/Java/Extensions/vecmath.jar
+TestLockSanityChecks: Done initializing with /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Home/lib/ext/apple_provider.jar
+TestLockSanityChecks: Done initializing with /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Home/lib/ext/dnsns.jar
+TestLockSanityChecks: Done initializing with /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Home/lib/ext/localedata.jar
+TestLockSanityChecks: Done initializing with /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Home/lib/ext/sunjce_provider.jar
+TestLockSanityChecks: Done initializing with /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Home/lib/ext/sunpkcs11.jar
+TestLockSanityChecks: Done initializing with /Users/aarong/git/regression/regression/TestLockSanityChecks/promises-4.0.0.jar
+Created com.surelogic.analysis.threads.ThreadEffectsModule
+Created com.surelogic.analysis.layers.LayersAnalysis
+Created com.surelogic.analysis.effects.EffectsAnalysis
+Created com.surelogic.analysis.annotationbounds.ParameterizedTypeAnalysis
+Created com.surelogic.analysis.concurrency.driver.LockAnalysis
+Created com.surelogic.analysis.equality.EqualityAnalysis
+Created com.surelogic.analysis.uniqueness.plusFrom.traditional.UniquenessAnalysisModule
+Created com.surelogic.analysis.utility.UtilityAnalysis
+Created com.surelogic.analysis.singleton.SingletonAnalysis
+##SUBTASK_DONE
+##WORK, 1
+Assuming that the projects are run in dependency order
+Parsing ...
+##SUBTASK, Parsing ...
+Done adapting 0 files for org.eclipse.jdt.launching.JRE_CONTAINER
+##SUBTASK_DONE
+##WORK, 1
+Parsing ...
+##SUBTASK, Parsing ...
+JCP: warning: [options] bootstrap class path not set in conjunction with -source 1.5
+Adapting 55 CUTs
+[GC 51890K->39414K(83008K), 0.0123125 secs]
+Done adapting 55 files for TestLockSanityChecks
+##SUBTASK_DONE
+##WORK, 1
+Handling references for org.eclipse.jdt.launching.JRE_CONTAINER
+##SUBTASK, Handling references for org.eclipse.jdt.launching.JRE_CONTAINER
+Handling 19 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER
+Setting project for Object from org.eclipse.jdt.launching.JRE_CONTAINER
+[GC 51220K(83008K), 0.0076075 secs]
+Handling 34 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER
+Handling 47 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER
+[GC 56390K->43511K(83008K), 0.0096005 secs]
+[GC 43916K(83008K), 0.0037781 secs]
+Handling 58 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER
+Handling 26 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER
+Handling 11 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER
+Handling 3 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER
+Handling 2 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER
+##SUBTASK_DONE
+##WORK, 1
+Handling references for TestLockSanityChecks
+##SUBTASK, Handling references for TestLockSanityChecks
+Handling 31 dangling refs for TestLockSanityChecks
+Handling 3 dangling refs for TestLockSanityChecks
+Handling 1 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER
+Handling 2 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER
+##SUBTASK_DONE
+##WORK, 1
+Updated 206 files in org.eclipse.jdt.launching.JRE_CONTAINER
+[GC 60535K->48788K(83008K), 0.0129430 secs]
+Updated 89 files in TestLockSanityChecks
+Parsing ASTs  = 581 ms
+Handling refs = 483 ms
+Rewriting CUs
+##SUBTASK, Rewriting CUs
+Rewriting TestLockSanityChecks/src/test_lock_region/LockViz.java
+Rewriting TestLockSanityChecks/src/inherited_region/good/Good2.java
+Rewriting TestLockSanityChecks/src/inherited_region/good/Good4.java
+Rewriting TestLockSanityChecks/src/test_lock_region/GreatGrandparent.java
+Rewriting TestLockSanityChecks/src/test_requires_lock/StateLock_visibility.java
+Rewriting TestLockSanityChecks/src/test_lock_region/ProtectInheritedRegion.java
+Rewriting TestLockSanityChecks/src/test_lock_region/Other.java
+Rewriting TestLockSanityChecks/src/inherited_region/baseCase/Good1.java
+Rewriting TestLockSanityChecks/src/inherited_region/Subregion/Bad3.java
+Rewriting TestLockSanityChecks/src/test_requires_lock/TestDuplicates.java
+Rewriting TestLockSanityChecks/src/test_lock_region/D.java
+Rewriting TestLockSanityChecks/src/test_returns_lock/C.java
+Rewriting TestLockSanityChecks/src/inherited_region/Instance/Bad1.java
+Rewriting TestLockSanityChecks/src/test_lock_region/B.java
+Rewriting TestLockSanityChecks/src/test_lock_region/Parent.java
+Rewriting TestLockSanityChecks/src/test_requires_lock/CannotRequireRWLock.java
+Rewriting TestLockSanityChecks/src/test_lock_field/C.java
+Rewriting TestLockSanityChecks/src/test_lock_region/LockVizJUC.java
+Rewriting TestLockSanityChecks/src/test_unique_names/C1.java
+Rewriting TestLockSanityChecks/src/test_lock_field/D.java
+Rewriting TestLockSanityChecks/src/test_unique_names/GoodC2.java
+Rewriting TestLockSanityChecks/src/test_lock_region/Grandparent.java
+Rewriting TestLockSanityChecks/src/inherited_region/Subregion/Bad2.java
+Rewriting TestLockSanityChecks/src/test_requires_lock/PolicyLock_visibility.java
+Rewriting TestLockSanityChecks/src/test_requires_lock/PolicyLock_Constructor.java
+Rewriting TestLockSanityChecks/src/twoLocksOneRegion/inherited/Super.java
+Rewriting TestLockSanityChecks/src/inherited_region/Subregion/BadRoot2.java
+Rewriting TestLockSanityChecks/src/test_unique_names/GoodC3.java
+Rewriting TestLockSanityChecks/src/test_returns_lock/StateLock.java
+Rewriting TestLockSanityChecks/src/test_requires_lock/PolicyLock_LockNames.java
+Rewriting TestLockSanityChecks/src/test_returns_lock/PLock.java
+Rewriting TestLockSanityChecks/src/twoLocksOneRegion/unrelatedClasses/Test2.java
+Rewriting TestLockSanityChecks/src/test_lock_field/B.java
+Rewriting TestLockSanityChecks/src/test_requires_lock/Root.java
+Rewriting TestLockSanityChecks/src/twoLocksOneRegion/sameClass/Bad.java
+Rewriting TestLockSanityChecks/src/test_unique_names/StateVsPolicyLocks.java
+Rewriting TestLockSanityChecks/src/test_unique_names/BadC2.java
+Rewriting TestLockSanityChecks/src/test_requires_lock/C.java
+Rewriting TestLockSanityChecks/src/test_requires_lock/D.java
+Rewriting TestLockSanityChecks/src/twoLocksOneRegion/unrelatedClasses/Test.java
+Rewriting TestLockSanityChecks/src/test_requires_lock/Other1.java
+Rewriting TestLockSanityChecks/src/twoLocksOneRegion/inherited/Duper.java
+Rewriting TestLockSanityChecks/src/test_requires_lock/C_Policy.java
+Rewriting TestLockSanityChecks/src/test_lock_field/Other.java
+Rewriting TestLockSanityChecks/src/inherited_region/good/Good3.java
+Rewriting TestLockSanityChecks/src/test_lock_field/A.java
+Rewriting TestLockSanityChecks/src/inherited_region/Instance/BadRoot1.java
+Rewriting TestLockSanityChecks/src/test_requires_lock/TestImprovedMessages.java
+Rewriting TestLockSanityChecks/src/test_returns_lock/C_Policy.java
+Rewriting TestLockSanityChecks/src/test_requires_lock/StateLock_LockNames.java
+Rewriting TestLockSanityChecks/src/inherited_region/good/GoodRoot.java
+Rewriting TestLockSanityChecks/src/test_unique_names/BadC3.java
+Rewriting TestLockSanityChecks/src/test_requires_lock/StateLock_Constructor.java
+Rewriting TestLockSanityChecks/src/test_lock_region/C.java
+Rewriting TestLockSanityChecks/src/qualified_receivers_as_locks/Outer.java
+##SUBTASK_DONE
+##WORK, 1
+Handling references for TestLockSanityChecks
+##SUBTASK, Handling references for TestLockSanityChecks
+Handling 19 dangling refs for TestLockSanityChecks
+##SUBTASK_DONE
+##WORK, 1
+Handling references for org.eclipse.jdt.launching.JRE_CONTAINER
+##SUBTASK, Handling references for org.eclipse.jdt.launching.JRE_CONTAINER
+Handling 19 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER
+##SUBTASK_DONE
+##WORK, 1
+Updated 206 files in org.eclipse.jdt.launching.JRE_CONTAINER
+Updated 89 files in TestLockSanityChecks
+[2012-12-05 14:15:04    INFO] partial bindings = 38 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+[2012-12-05 14:15:04    INFO] full bindings = 0 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+Canonicalizing ASTs
+##SUBTASK, Canonicalizing ASTs
+[GC 61013K(83008K), 0.0113428 secs]
+[2012-12-05 14:15:04    INFO] partial bindings = 1609 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+[2012-12-05 14:15:04    INFO] full bindings = 1516 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+Canonicalizing TestLockSanityChecks/src/test_lock_region/LockViz.java
+Canonicalizing TestLockSanityChecks/src/inherited_region/good/Good2.java
+Canonicalizing TestLockSanityChecks/src/inherited_region/good/Good4.java
+Canonicalizing TestLockSanityChecks/src/test_lock_region/GreatGrandparent.java
+Canonicalizing TestLockSanityChecks/src/test_requires_lock/StateLock_visibility.java
+Canonicalizing TestLockSanityChecks/src/test_lock_region/ProtectInheritedRegion.java
+Canonicalizing TestLockSanityChecks/src/test_lock_region/Other.java
+Canonicalizing TestLockSanityChecks/src/inherited_region/baseCase/Good1.java
+Canonicalizing TestLockSanityChecks/src/inherited_region/Subregion/Bad3.java
+Canonicalizing TestLockSanityChecks/src/test_requires_lock/TestDuplicates.java
+Canonicalizing TestLockSanityChecks/src/test_lock_region/D.java
+Canonicalizing TestLockSanityChecks/src/test_returns_lock/C.java
+Canonicalizing TestLockSanityChecks/src/inherited_region/Instance/Bad1.java
+Canonicalizing TestLockSanityChecks/src/test_lock_region/B.java
+Canonicalizing TestLockSanityChecks/src/test_lock_region/Parent.java
+Canonicalizing TestLockSanityChecks/src/test_requires_lock/CannotRequireRWLock.java
+Canonicalizing TestLockSanityChecks/src/test_lock_field/C.java
+Canonicalizing TestLockSanityChecks/src/test_lock_region/LockVizJUC.java
+Canonicalizing TestLockSanityChecks/src/test_unique_names/C1.java
+Canonicalizing TestLockSanityChecks/src/test_lock_field/D.java
+Canonicalizing TestLockSanityChecks/src/test_unique_names/GoodC2.java
+Canonicalizing TestLockSanityChecks/src/test_lock_region/Grandparent.java
+Canonicalizing TestLockSanityChecks/src/inherited_region/Subregion/Bad2.java
+Canonicalizing TestLockSanityChecks/src/test_requires_lock/PolicyLock_visibility.java
+Canonicalizing TestLockSanityChecks/src/test_requires_lock/PolicyLock_Constructor.java
+Canonicalizing TestLockSanityChecks/src/twoLocksOneRegion/inherited/Super.java
+Canonicalizing TestLockSanityChecks/src/inherited_region/Subregion/BadRoot2.java
+Canonicalizing TestLockSanityChecks/src/test_unique_names/GoodC3.java
+Canonicalizing TestLockSanityChecks/src/test_returns_lock/StateLock.java
+Canonicalizing TestLockSanityChecks/src/test_requires_lock/PolicyLock_LockNames.java
+Canonicalizing TestLockSanityChecks/src/test_returns_lock/PLock.java
+Canonicalizing TestLockSanityChecks/src/twoLocksOneRegion/unrelatedClasses/Test2.java
+Canonicalizing TestLockSanityChecks/src/test_lock_field/B.java
+Canonicalizing TestLockSanityChecks/src/test_requires_lock/Root.java
+Canonicalizing TestLockSanityChecks/src/twoLocksOneRegion/sameClass/Bad.java
+Canonicalizing TestLockSanityChecks/src/test_unique_names/StateVsPolicyLocks.java
+Canonicalizing TestLockSanityChecks/src/test_unique_names/BadC2.java
+Canonicalizing TestLockSanityChecks/src/test_requires_lock/C.java
+Canonicalizing TestLockSanityChecks/src/test_requires_lock/D.java
+Canonicalizing TestLockSanityChecks/src/twoLocksOneRegion/unrelatedClasses/Test.java
+Canonicalizing TestLockSanityChecks/src/test_requires_lock/Other1.java
+Canonicalizing TestLockSanityChecks/src/twoLocksOneRegion/inherited/Duper.java
+Canonicalizing TestLockSanityChecks/src/test_requires_lock/C_Policy.java
+Canonicalizing TestLockSanityChecks/src/test_lock_field/Other.java
+Canonicalizing TestLockSanityChecks/src/inherited_region/good/Good3.java
+Canonicalizing TestLockSanityChecks/src/test_lock_field/A.java
+Canonicalizing TestLockSanityChecks/src/inherited_region/Instance/BadRoot1.java
+Canonicalizing TestLockSanityChecks/src/test_requires_lock/TestImprovedMessages.java
+Canonicalizing TestLockSanityChecks/src/test_returns_lock/C_Policy.java
+Canonicalizing TestLockSanityChecks/src/test_requires_lock/StateLock_LockNames.java
+Canonicalizing TestLockSanityChecks/src/inherited_region/good/GoodRoot.java
+Canonicalizing TestLockSanityChecks/src/test_unique_names/BadC3.java
+Canonicalizing TestLockSanityChecks/src/test_requires_lock/StateLock_Constructor.java
+Canonicalizing TestLockSanityChecks/src/test_lock_region/C.java
+Canonicalizing TestLockSanityChecks/src/qualified_receivers_as_locks/Outer.java
+Binding = 102 ms
+[GC 63731K->49097K(93464K), 0.0062067 secs]
+Cleaned 42 in 23 ms
+##SUBTASK_DONE
+##WORK, 1
+Handling references for TestLockSanityChecks
+##SUBTASK, Handling references for TestLockSanityChecks
+Handling 19 dangling refs for TestLockSanityChecks
+##SUBTASK_DONE
+##WORK, 1
+Handling references for org.eclipse.jdt.launching.JRE_CONTAINER
+##SUBTASK, Handling references for org.eclipse.jdt.launching.JRE_CONTAINER
+Handling 19 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER
+##SUBTASK_DONE
+##WORK, 1
+Updated 206 files in org.eclipse.jdt.launching.JRE_CONTAINER
+Updated 89 files in TestLockSanityChecks
+Creating drops
+##SUBTASK, Creating drops
+Done sorting CodeInfos
+##SUBTASK_DONE
+##WORK, 1
+Parsing promises
+##SUBTASK, Parsing promises
+Added 11 promises for test_lock_region.Parent in TestLockSanityChecks: com.surelogic.tree.SyntaxTreeNode@11acbf5c
+Javac making log: AnnotationRules
+Added 1 promises for inherited_region.Instance.Bad1 in TestLockSanityChecks: com.surelogic.tree.SyntaxTreeNode@dc8cc59
+Added 1 promises for inherited_region.Subregion.Bad2 in TestLockSanityChecks: com.surelogic.tree.SyntaxTreeNode@3d6f3621
+Added 1 promises for inherited_region.Subregion.Bad3 in TestLockSanityChecks: com.surelogic.tree.SyntaxTreeNode@75b49b45
+Added 2 promises for inherited_region.Subregion.BadRoot2 in TestLockSanityChecks: com.surelogic.tree.SyntaxTreeNode@6d3206fd
+Added 1 promises for inherited_region.baseCase.Good1 in TestLockSanityChecks: com.surelogic.tree.SyntaxTreeNode@57d7b155
+Added 16 promises for test_lock_region.ProtectInheritedRegion in TestLockSanityChecks: com.surelogic.tree.SyntaxTreeNode@3a6f01bf
+Added 1 promises for java.lang.ref.ReferenceQueue in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@350a363c
+Added 6 promises for java.io.PrintStream in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@41e2771e
+[GC 66121K->49499K(93464K), 0.0043876 secs]
+Added 6 promises for java.lang.IllegalAccessException in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@1c664c4f
+Added 18 promises for java.nio.CharBuffer in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@7a9b060b
+Added 2 promises for inherited_region.good.Good2 in TestLockSanityChecks: com.surelogic.tree.SyntaxTreeNode@a70cf21
+Added 2 promises for inherited_region.good.Good3 in TestLockSanityChecks: com.surelogic.tree.SyntaxTreeNode@21832ae6
+Added 12 promises for java.lang.IllegalArgumentException in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@543ef658
+Added 2 promises for java.lang.ref.SoftReference in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@56632fc5
+Added 1 promises for inherited_region.good.Good4 in TestLockSanityChecks: com.surelogic.tree.SyntaxTreeNode@24d7e934
+Added 1 promises for inherited_region.good.GoodRoot in TestLockSanityChecks: com.surelogic.tree.SyntaxTreeNode@3add750e
+Added 6 promises for java.io.PrintWriter in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@48363d6a
+Added 6 promises for java.lang.InstantiationException in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@3a740b12
+line 1:41 mismatched character ' ' expecting '''
+Added 6 promises for java.io.Writer in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@58cfdc01
+Added 4 promises for qualified_receivers_as_locks.Outer in TestLockSanityChecks: com.surelogic.tree.SyntaxTreeNode@271455a2
+Added 16 promises for test_requires_lock.C in TestLockSanityChecks: com.surelogic.tree.SyntaxTreeNode@5dcc1ef4
+Added 12 promises for java.lang.reflect.InvocationTargetException in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@102aacf6
+Added 55 promises for java.util.AbstractCollection in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@24ee777a
+[GC 66523K->50194K(93464K), 0.0038414 secs]
+line 1:37 mismatched character ' ' expecting '''
+Added 15 promises for java.lang.ClassNotFoundException in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@9d0a3e
+Added 14 promises for test_requires_lock.C_Policy in TestLockSanityChecks: com.surelogic.tree.SyntaxTreeNode@4e6e076c
+line 1:63 mismatched character ' ' expecting '''
+Added 3 promises for test_requires_lock.CannotRequireRWLock in TestLockSanityChecks: com.surelogic.tree.SyntaxTreeNode@34d333c7
+Added 6 promises for java.lang.CloneNotSupportedException in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@d2d78bd
+Added 3 promises for test_requires_lock.D in TestLockSanityChecks: com.surelogic.tree.SyntaxTreeNode@6b6237fd
+Added 3 promises for test_requires_lock.Other1 in TestLockSanityChecks: com.surelogic.tree.SyntaxTreeNode@33bb3ce6
+Added 7 promises for test_requires_lock.PolicyLock_Constructor in TestLockSanityChecks: com.surelogic.tree.SyntaxTreeNode@792e67fa
+Added 64 promises for test_lock_field.C in TestLockSanityChecks: com.surelogic.tree.SyntaxTreeNode@673ba11c
+Added 96 promises for java.lang.Integer in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@59d02cf0
+Added 1 promises for test_lock_region.B in TestLockSanityChecks: com.surelogic.tree.SyntaxTreeNode@65640941
+Added 18 promises for java.net.URISyntaxException in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@10f8ae75
+line 1:27 mismatched character ' ' expecting '''
+Added 6 promises for java.lang.InterruptedException in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@7f60983a
+[GC 67218K->50330K(93464K), 0.0026706 secs]
+line 1:31 mismatched character ' ' expecting '''
+line 1:27 mismatched character ' ' expecting '''
+line 1:32 mismatched character 'h' expecting '''
+line 1:37 mismatched character 'o' expecting '''
+line 1:32 mismatched character 'h' expecting '''
+line 1:37 mismatched character '(' expecting '''
+Added 3 promises for java.lang.Iterable in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@3913fc37
+Added 60 promises for java.util.AbstractList in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@6ce6f5d6
+Added 23 promises for test_requires_lock.PolicyLock_LockNames in TestLockSanityChecks: com.surelogic.tree.SyntaxTreeNode@4dbb3e34
+Added 143 promises for java.lang.AbstractStringBuilder in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@79bb66df
+line 1:58 mismatched character 'h' expecting '''
+line 1:63 mismatched character '<EOF>' expecting '''
+Added 70 promises for java.lang.Double in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@522359b7
+Added 64 promises for java.security.Provider in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@2ba61271
+Added 6 promises for java.lang.Appendable in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@3dd60834
+Added 7 promises for java.lang.Enum in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@3ab2e25b
+line 1:69 mismatched character ' ' expecting '''
+line 1:69 mismatched character ' ' expecting '''
+line 1:69 mismatched character ' ' expecting '''
+Added 18 promises for test_lock_region.C in TestLockSanityChecks: com.surelogic.tree.SyntaxTreeNode@2a384d34
+Added 1 promises for test_lock_region.D in TestLockSanityChecks: com.surelogic.tree.SyntaxTreeNode@62d2953d
+Added 12 promises for java.lang.Exception in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@592eca34
+Added 10 promises for test_lock_region.Grandparent in TestLockSanityChecks: com.surelogic.tree.SyntaxTreeNode@5cea27b7
+[GC 67354K->51202K(93464K), 0.0032627 secs]
+Added 11 promises for test_lock_region.GreatGrandparent in TestLockSanityChecks: com.surelogic.tree.SyntaxTreeNode@7c502d56
+Added 37 promises for java.lang.Boolean in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@6d57bbd4
+Added 21 promises for java.util.Stack in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@49de7857
+Added 61 promises for java.lang.Short in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@590379db
+Added 96 promises for java.lang.Long in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@6fe03f3b
+Added 6 promises for java.lang.NoSuchFieldException in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@12452209
+Added 73 promises for java.lang.Float in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@108adb01
+Added 6 promises for java.lang.NullPointerException in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@1fd42e7e
+[GC 68226K->51775K(93464K), 0.0033258 secs]
+Added 59 promises for java.lang.Byte in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@7e2696d2
+Added 12 promises for java.lang.CharSequence in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@42ed8181
+Added 22 promises for java.lang.Number in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@232a9118
+Added 6 promises for java.lang.NumberFormatException in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@160fb295
+Added 66 promises for test_lock_region.LockViz in TestLockSanityChecks: com.surelogic.tree.SyntaxTreeNode@34985fc6
+Added 79 promises for test_requires_lock.PolicyLock_visibility in TestLockSanityChecks: com.surelogic.tree.SyntaxTreeNode@3895c737
+Added 3 promises for test_requires_lock.Root in TestLockSanityChecks: com.surelogic.tree.SyntaxTreeNode@62a76581
+Added 105 promises for java.util.AbstractMap in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@79bd18e4
+Added 27 promises for java.lang.Object in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@7dd7b855
+[GC 68799K->52410K(93464K), 0.0032412 secs]
+Added 9 promises for test_requires_lock.StateLock_Constructor in TestLockSanityChecks: com.surelogic.tree.SyntaxTreeNode@24859367
+Added 12 promises for java.lang.RuntimeException in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@13f9690e
+Added 12 promises for java.lang.Class in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@30609a8e
+line 1:27 mismatched character ' ' expecting '''
+Added 12 promises for java.lang.SecurityException in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@3e1502ff
+Added 29 promises for java.util.AbstractSequentialList in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@3951b84e
+line 1:31 mismatched character ' ' expecting '''
+line 1:27 mismatched character ' ' expecting '''
+line 1:32 mismatched character 'h' expecting '''
+line 1:37 mismatched character 'o' expecting '''
+line 1:54 mismatched character 'h' expecting '''
+line 1:59 mismatched character '<EOF>' expecting '''
+line 1:32 mismatched character 'h' expecting '''
+line 1:37 mismatched character '(' expecting '''
+Added 1 promises for java.lang.ThreadLocal in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@77560732
+Added 16 promises for java.util.AbstractSet in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@cf47ba0
+Added 26 promises for test_requires_lock.StateLock_LockNames in TestLockSanityChecks: com.surelogic.tree.SyntaxTreeNode@c07014a
+Added 66 promises for test_lock_region.LockVizJUC in TestLockSanityChecks: com.surelogic.tree.SyntaxTreeNode@45a5049a
+line 1:30 mismatched character ' ' expecting '''
+Added 1 promises for test_lock_region.Other in TestLockSanityChecks: com.surelogic.tree.SyntaxTreeNode@79c4a760
+Added 15 promises for test_returns_lock.C_Policy in TestLockSanityChecks: com.surelogic.tree.SyntaxTreeNode@57319f76
+WARNING: Couldn't find iterator() in java.util.Vector
+WARNING: Couldn't find listIterator(int) in java.util.Vector
+WARNING: Couldn't find listIterator() in java.util.Vector
+[GC 69434K->52625K(93464K), 0.0032994 secs]
+Added 47 promises for java.lang.Throwable in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@491782f1
+line 1:34 mismatched character ' ' expecting '''
+line 1:38 mismatched character 'h' expecting '''
+line 1:43 mismatched character 'o' expecting '''
+line 1:38 mismatched character 'h' expecting '''
+line 1:43 mismatched character '(' expecting '''
+Added 157 promises for java.util.Vector in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@cea3046
+line 1:27 mismatched character ' ' expecting '''
+line 1:28 mismatched character ' ' expecting '''
+line 1:36 mismatched character ' ' expecting '''
+Added 24 promises for test_returns_lock.PLock in TestLockSanityChecks: com.surelogic.tree.SyntaxTreeNode@5a0ce5a6
+WARNING: Couldn't find removeAll(java.util.Collection) in java.util.ArrayList
+Added 29 promises for java.util.concurrent.TimeUnit in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@5799c0a3
+WARNING: Couldn't find iterator() in java.util.ArrayList
+line 1:34 mismatched character ' ' expecting '''
+WARNING: Couldn't find listIterator(int) in java.util.ArrayList
+WARNING: Couldn't find listIterator() in java.util.ArrayList
+WARNING: Couldn't find subList(int, int) in java.util.ArrayList
+[GC 69649K->53035K(93464K), 0.0029313 secs]
+line 1:37 mismatched character 'h' expecting '''
+line 1:42 mismatched character 'o' expecting '''
+line 1:37 mismatched character 'h' expecting '''
+line 1:42 mismatched character '(' expecting '''
+line 1:26 mismatched character ' ' expecting '''
+WARNING: Couldn't find retainAll(java.util.Collection) in java.util.ArrayList
+line 1:28 mismatched character ' ' expecting '''
+line 1:36 mismatched character ' ' expecting '''
+Added 80 promises for java.util.ArrayList in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@7ccf884
+Added 26 promises for test_returns_lock.StateLock in TestLockSanityChecks: com.surelogic.tree.SyntaxTreeNode@295687d9
+Added 22 promises for java.util.concurrent.locks.AbstractQueuedSynchronizer in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@3c56f7e5
+Added 3 promises for test_unique_names.BadC2 in TestLockSanityChecks: com.surelogic.tree.SyntaxTreeNode@547ab2e8
+Added 3 promises for test_unique_names.BadC3 in TestLockSanityChecks: com.surelogic.tree.SyntaxTreeNode@2018aa27
+Added 3 promises for test_unique_names.C1 in TestLockSanityChecks: com.surelogic.tree.SyntaxTreeNode@1d81bd16
+Added 3 promises for test_unique_names.GoodC2 in TestLockSanityChecks: com.surelogic.tree.SyntaxTreeNode@8aaf52e
+Added 3 promises for test_unique_names.GoodC3 in TestLockSanityChecks: com.surelogic.tree.SyntaxTreeNode@743330e2
+Added 22 promises for java.util.concurrent.locks.Condition in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@52934ea0
+Added 7 promises for test_unique_names.StateVsPolicyLocks in TestLockSanityChecks: com.surelogic.tree.SyntaxTreeNode@65cccd3
+Added 2 promises for twoLocksOneRegion.inherited.Duper in TestLockSanityChecks: com.surelogic.tree.SyntaxTreeNode@6ffb110e
+Added 2 promises for twoLocksOneRegion.inherited.Super in TestLockSanityChecks: com.surelogic.tree.SyntaxTreeNode@3138554d
+Added 87 promises for test_requires_lock.StateLock_visibility in TestLockSanityChecks: com.surelogic.tree.SyntaxTreeNode@eb5a4f6
+Added 3 promises for twoLocksOneRegion.sameClass.Bad in TestLockSanityChecks: com.surelogic.tree.SyntaxTreeNode@6274bff8
+Added 20 promises for java.util.concurrent.locks.Lock in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@364be9a8
+Added 1 promises for twoLocksOneRegion.unrelatedClasses.Test in TestLockSanityChecks: com.surelogic.tree.SyntaxTreeNode@573a46b6
+Added 1 promises for twoLocksOneRegion.unrelatedClasses.Test2 in TestLockSanityChecks: com.surelogic.tree.SyntaxTreeNode@2b008d54
+Added 298 promises for java.lang.String in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@53d5cac4
+Added 54 promises for java.util.Collection in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@3aacbf34
+[GC 70059K->53901K(93464K), 0.0036585 secs]
+Added 7 promises for java.util.concurrent.locks.ReadWriteLock in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@40b73194
+Added 16 promises for test_requires_lock.TestDuplicates in TestLockSanityChecks: com.surelogic.tree.SyntaxTreeNode@39b4e557
+Added 2 promises for test_requires_lock.TestImprovedMessages in TestLockSanityChecks: com.surelogic.tree.SyntaxTreeNode@42e1b6ac
+Added 108 promises for java.lang.StringBuilder in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@5d63838
+Added 58 promises for java.util.concurrent.locks.ReentrantLock in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@6aaddfcb
+line 1:30 mismatched character ' ' expecting '''
+[GC 70925K->54561K(93464K), 0.0038615 secs]
+Added 17 promises for test_returns_lock.C in TestLockSanityChecks: com.surelogic.tree.SyntaxTreeNode@4372e3c0
+Added 87 promises for java.util.Deque in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@27916d4b
+Added 60 promises for java.util.HashMap in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@7145cac5
+[GC 71585K->55079K(93464K), 0.0043286 secs]
+Added 29 promises for java.util.Dictionary in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@5378032b
+Added 4 promises for java.util.Enumeration in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@7fe85079
+Added 64 promises for java.util.Map in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@18aa6bfd
+Added 103 promises for java.util.concurrent.locks.ReentrantReadWriteLock in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@6bd7db5
+Added 138 promises for java.lang.Thread in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@459ad180
+[GC 72103K->55315K(93464K), 0.0035132 secs]
+Added 82 promises for java.util.Hashtable in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@66d7fd2e
+Added 6 promises for java.util.Iterator in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@56f3d4c3
+Added 73 promises for java.util.Properties in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@40e3e5c2
+Added 157 promises for java.lang.StringBuffer in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@14ea1f1d
+Added 87 promises for java.util.jar.Attributes in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@2b01ad8b
+Added 18 promises for java.util.Queue in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@21b764e1
+Added 45 promises for java.util.ResourceBundle in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@3b204ae6
+Added 138 promises for java.util.LinkedList in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@1f4fc5e5
+Added 54 promises for java.util.Set in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@527a901f
+[GC 72339K->55687K(93464K), 0.0027860 secs]
+Added 31 promises for java.util.SortedMap in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@336abd81
+Added 89 promises for java.util.List in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@2ddf0c3
+Added 18 promises for java.util.ListIterator in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@d9a68cd
+##SUBTASK_DONE
+##WORK, 1
+Scrubbing promises
+##SUBTASK, Scrubbing promises
+Creating RegionModel java.lang.Object.Instance for org.eclipse.jdt.launching.JRE_CONTAINER
+[2012-12-05 14:15:05    INFO] Couldn't find field unknownField in com.surelogic.tree.SyntaxTreeNode@673ba11c -- @ Regions ( { @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) } )   /* is UNASSOCIATED: static field cannot protect an instance region */  @ RegionLocks ( {   /* is UNBOUND: Field is undefined (Instance Region) */  @ RegionLock ( # ) ,   /* is CONSISTENT: receiver (Instance Region) */  @ RegionLock ( # ) ,   /* is CONSISTENT: known final field (Instance Region) */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: field is non-final (Instance Region) */  @ RegionLock ( # ) ,   /* is UNBOUND: Field is undefined (Static region) */  @ RegionLock ( # ) ,   /* is CONSISTENT: class (Static region) */  @ RegionLock ( # ) ,   /* is CONSISTENT: known final static field (static region) */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: non-final field (static region) */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: primitively typed field */  @ RegionLock ( # ) ,   /* is CONSISTENT: Static locks can use fields from other classes */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: Instance locks cannot use fields from other classes */  @ RegionLock ( # ) ,   /* is CONSISTENT: Can use field from GP */  @ RegionLock ( # ) ,   /* is CONSISTENT: Can use field from Parent */  @ RegionLock ( # ) ,   /* is UNBOUND: Field is unknown */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: Cannot use a field from a child */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: non-final field from GP */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: non-final field from parent */  @ RegionLock ( # ) ,   /* is UNBOUND: unknown field */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: non-final field from child */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: class cannot protect an instance region */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: static field cannot protect an instance region */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: static field cannot protect an instance region */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: static field cannot protect an instance region */  @ RegionLock ( # ) } )   /* is UNASSOCIATED: non-final field from child */  @ PolicyLocks ( {   /* is UNBOUND: Field is undefined (Instance Region) */  @ PolicyLock ( # ) ,   /* is CONSISTENT: receiver (Instance Region) */  @ PolicyLock ( # ) ,   /* is CONSISTENT: known final field (Instance Region) */  @ PolicyLock ( # ) ,   /* is UNASSOCIATED: field is non-final (Instance Region) */  @ PolicyLock ( # ) ,   /* is CONSISTENT: class (Static region) */  @ PolicyLock ( # ) ,   /* is CONSISTENT: known final static field (static region) */  @ PolicyLock ( # ) ,   /* is UNASSOCIATED: non-final field (static region) */  @ PolicyLock ( # ) ,   /* is UNASSOCIATED: primitively typed field */  @ PolicyLock ( # ) ,   /* is CONSISTENT: Static locks can use fields from other classes */  @ PolicyLock ( # ) ,   /* is UNASSOCIATED: Instance locks cannot use fields from other classes */  @ PolicyLock ( # ) ,   /* is CONSISTENT: Can use field from GP */  @ PolicyLock ( # ) ,   /* is CONSISTENT: Can use field from Parent */  @ PolicyLock ( # ) ,   /* is UNBOUND: Field is unknown */  @ PolicyLock ( # ) ,   /* is UNASSOCIATED: Cannot use a field from a child */  @ PolicyLock ( # ) ,   /* is UNASSOCIATED: non-final field from GP */  @ PolicyLock ( # ) ,   /* is UNASSOCIATED: non-final field from parent */  @ PolicyLock ( # ) ,   /* is UNBOUND: unknown field */  @ PolicyLock ( # ) ,   /* is UNASSOCIATED: non-final field from child */  @ PolicyLock ( # ) } ) public class C extends test_lock_field.B { public  C () { # } final java.lang.Object goodField #; java.lang.Object badField #; final int nonObjectField #; final static java.lang.Object goodStatic #; static java.lang.Object badStatic #; }
+for project TestLockSanityChecks (in method edu.cmu.cs.fluid.java.bind.ClassMemberSearch.findClassBodyMembers(-) thread "pool-1-thread-6")
+[2012-12-05 14:15:05    INFO] Couldn't find field fieldFromD in com.surelogic.tree.SyntaxTreeNode@673ba11c -- @ Regions ( { @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) } )   /* is UNASSOCIATED: static field cannot protect an instance region */  @ RegionLocks ( {   /* is UNBOUND: Field is undefined (Instance Region) */  @ RegionLock ( # ) ,   /* is CONSISTENT: receiver (Instance Region) */  @ RegionLock ( # ) ,   /* is CONSISTENT: known final field (Instance Region) */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: field is non-final (Instance Region) */  @ RegionLock ( # ) ,   /* is UNBOUND: Field is undefined (Static region) */  @ RegionLock ( # ) ,   /* is CONSISTENT: class (Static region) */  @ RegionLock ( # ) ,   /* is CONSISTENT: known final static field (static region) */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: non-final field (static region) */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: primitively typed field */  @ RegionLock ( # ) ,   /* is CONSISTENT: Static locks can use fields from other classes */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: Instance locks cannot use fields from other classes */  @ RegionLock ( # ) ,   /* is CONSISTENT: Can use field from GP */  @ RegionLock ( # ) ,   /* is CONSISTENT: Can use field from Parent */  @ RegionLock ( # ) ,   /* is UNBOUND: Field is unknown */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: Cannot use a field from a child */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: non-final field from GP */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: non-final field from parent */  @ RegionLock ( # ) ,   /* is UNBOUND: unknown field */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: non-final field from child */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: class cannot protect an instance region */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: static field cannot protect an instance region */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: static field cannot protect an instance region */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: static field cannot protect an instance region */  @ RegionLock ( # ) } )   /* is UNASSOCIATED: non-final field from child */  @ PolicyLocks ( {   /* is UNBOUND: Field is undefined (Instance Region) */  @ PolicyLock ( # ) ,   /* is CONSISTENT: receiver (Instance Region) */  @ PolicyLock ( # ) ,   /* is CONSISTENT: known final field (Instance Region) */  @ PolicyLock ( # ) ,   /* is UNASSOCIATED: field is non-final (Instance Region) */  @ PolicyLock ( # ) ,   /* is CONSISTENT: class (Static region) */  @ PolicyLock ( # ) ,   /* is CONSISTENT: known final static field (static region) */  @ PolicyLock ( # ) ,   /* is UNASSOCIATED: non-final field (static region) */  @ PolicyLock ( # ) ,   /* is UNASSOCIATED: primitively typed field */  @ PolicyLock ( # ) ,   /* is CONSISTENT: Static locks can use fields from other classes */  @ PolicyLock ( # ) ,   /* is UNASSOCIATED: Instance locks cannot use fields from other classes */  @ PolicyLock ( # ) ,   /* is CONSISTENT: Can use field from GP */  @ PolicyLock ( # ) ,   /* is CONSISTENT: Can use field from Parent */  @ PolicyLock ( # ) ,   /* is UNBOUND: Field is unknown */  @ PolicyLock ( # ) ,   /* is UNASSOCIATED: Cannot use a field from a child */  @ PolicyLock ( # ) ,   /* is UNASSOCIATED: non-final field from GP */  @ PolicyLock ( # ) ,   /* is UNASSOCIATED: non-final field from parent */  @ PolicyLock ( # ) ,   /* is UNBOUND: unknown field */  @ PolicyLock ( # ) ,   /* is UNASSOCIATED: non-final field from child */  @ PolicyLock ( # ) } ) public class C extends test_lock_field.B { public  C () { # } final java.lang.Object goodField #; java.lang.Object badField #; final int nonObjectField #; final static java.lang.Object goodStatic #; static java.lang.Object badStatic #; }
+for project TestLockSanityChecks (in method edu.cmu.cs.fluid.java.bind.ClassMemberSearch.findClassBodyMembers(-) thread "pool-1-thread-6")
+[2012-12-05 14:15:05    INFO] Couldn't find field badFieldFromD in com.surelogic.tree.SyntaxTreeNode@673ba11c -- @ Regions ( { @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) } )   /* is UNASSOCIATED: static field cannot protect an instance region */  @ RegionLocks ( {   /* is UNBOUND: Field is undefined (Instance Region) */  @ RegionLock ( # ) ,   /* is CONSISTENT: receiver (Instance Region) */  @ RegionLock ( # ) ,   /* is CONSISTENT: known final field (Instance Region) */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: field is non-final (Instance Region) */  @ RegionLock ( # ) ,   /* is UNBOUND: Field is undefined (Static region) */  @ RegionLock ( # ) ,   /* is CONSISTENT: class (Static region) */  @ RegionLock ( # ) ,   /* is CONSISTENT: known final static field (static region) */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: non-final field (static region) */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: primitively typed field */  @ RegionLock ( # ) ,   /* is CONSISTENT: Static locks can use fields from other classes */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: Instance locks cannot use fields from other classes */  @ RegionLock ( # ) ,   /* is CONSISTENT: Can use field from GP */  @ RegionLock ( # ) ,   /* is CONSISTENT: Can use field from Parent */  @ RegionLock ( # ) ,   /* is UNBOUND: Field is unknown */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: Cannot use a field from a child */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: non-final field from GP */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: non-final field from parent */  @ RegionLock ( # ) ,   /* is UNBOUND: unknown field */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: non-final field from child */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: class cannot protect an instance region */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: static field cannot protect an instance region */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: static field cannot protect an instance region */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: static field cannot protect an instance region */  @ RegionLock ( # ) } )   /* is UNASSOCIATED: non-final field from child */  @ PolicyLocks ( {   /* is UNBOUND: Field is undefined (Instance Region) */  @ PolicyLock ( # ) ,   /* is CONSISTENT: receiver (Instance Region) */  @ PolicyLock ( # ) ,   /* is CONSISTENT: known final field (Instance Region) */  @ PolicyLock ( # ) ,   /* is UNASSOCIATED: field is non-final (Instance Region) */  @ PolicyLock ( # ) ,   /* is CONSISTENT: class (Static region) */  @ PolicyLock ( # ) ,   /* is CONSISTENT: known final static field (static region) */  @ PolicyLock ( # ) ,   /* is UNASSOCIATED: non-final field (static region) */  @ PolicyLock ( # ) ,   /* is UNASSOCIATED: primitively typed field */  @ PolicyLock ( # ) ,   /* is CONSISTENT: Static locks can use fields from other classes */  @ PolicyLock ( # ) ,   /* is UNASSOCIATED: Instance locks cannot use fields from other classes */  @ PolicyLock ( # ) ,   /* is CONSISTENT: Can use field from GP */  @ PolicyLock ( # ) ,   /* is CONSISTENT: Can use field from Parent */  @ PolicyLock ( # ) ,   /* is UNBOUND: Field is unknown */  @ PolicyLock ( # ) ,   /* is UNASSOCIATED: Cannot use a field from a child */  @ PolicyLock ( # ) ,   /* is UNASSOCIATED: non-final field from GP */  @ PolicyLock ( # ) ,   /* is UNASSOCIATED: non-final field from parent */  @ PolicyLock ( # ) ,   /* is UNBOUND: unknown field */  @ PolicyLock ( # ) ,   /* is UNASSOCIATED: non-final field from child */  @ PolicyLock ( # ) } ) public class C extends test_lock_field.B { public  C () { # } final java.lang.Object goodField #; java.lang.Object badField #; final int nonObjectField #; final static java.lang.Object goodStatic #; static java.lang.Object badStatic #; }
+for project TestLockSanityChecks (in method edu.cmu.cs.fluid.java.bind.ClassMemberSearch.findClassBodyMembers(-) thread "pool-1-thread-6")
+[GC 72711K->57575K(93464K), 0.0081213 secs]
+[GC 74599K->59899K(93464K), 0.0090431 secs]
+[2012-12-05 14:15:06    INFO] Couldn't find region UnknownRegion in com.surelogic.tree.SyntaxTreeNode@2a384d34 -- @ Regions ( { @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) } )   /* is UNPARSEABLE: static region is from unrelated class (Other) */  @ RegionLocks ( {   /* is UNBOUND: Region is undefined */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: Cannot protect a static region with 'this' */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: Cannot protect a static region with a non-static field */  @ RegionLock ( # ) ,   /* is CONSISTENT: Static region protected by class */  @ RegionLock ( # ) ,   /* is CONSISTENT: Static region protected by static field */  @ RegionLock ( # ) ,   /* is CONSISTENT: Static region is from the protecting class; field is from the same */  @ RegionLock ( # ) ,   /* is CONSISTENT: Static region is from the protecting class; doesn't matter that field is from superclass (B) */  @ RegionLock ( # ) ,   /* is CONSISTENT: Static region is from the protecting class; doesn't matter that field is from subclass (D) */  @ RegionLock ( # ) ,   /* is CONSISTENT: Static region is from the protecting class; doesn't matter that field is from an unrelated class (Other) */  @ RegionLock ( # ) ,   /* is UNPARSEABLE: static region is from superclass (B) */  @ RegionLock ( # ) ,   /* is UNPARSEABLE: static region is from subclass (D) */  @ RegionLock ( # ) ,   /* is UNPARSEABLE: static region is from unrelated class (Other) */  @ RegionLock ( # ) } ) public class C extends test_lock_region.B { public  C () { # } final java.lang.Object nonStaticField #; final static java.lang.Object staticFieldFromC #; }
+for project TestLockSanityChecks (in method edu.cmu.cs.fluid.java.bind.ClassMemberSearch.findClassBodyMembers(-) thread "pool-1-thread-4")
+[2012-12-05 14:15:06    INFO] Couldn't find field unknownField in com.surelogic.tree.SyntaxTreeNode@673ba11c -- @ Regions ( { @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) } )   /* is UNASSOCIATED: static field cannot protect an instance region */  @ RegionLocks ( {   /* is UNBOUND: Field is undefined (Instance Region) */  @ RegionLock ( # ) ,   /* is CONSISTENT: receiver (Instance Region) */  @ RegionLock ( # ) ,   /* is CONSISTENT: known final field (Instance Region) */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: field is non-final (Instance Region) */  @ RegionLock ( # ) ,   /* is UNBOUND: Field is undefined (Static region) */  @ RegionLock ( # ) ,   /* is CONSISTENT: class (Static region) */  @ RegionLock ( # ) ,   /* is CONSISTENT: known final static field (static region) */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: non-final field (static region) */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: primitively typed field */  @ RegionLock ( # ) ,   /* is CONSISTENT: Static locks can use fields from other classes */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: Instance locks cannot use fields from other classes */  @ RegionLock ( # ) ,   /* is CONSISTENT: Can use field from GP */  @ RegionLock ( # ) ,   /* is CONSISTENT: Can use field from Parent */  @ RegionLock ( # ) ,   /* is UNBOUND: Field is unknown */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: Cannot use a field from a child */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: non-final field from GP */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: non-final field from parent */  @ RegionLock ( # ) ,   /* is UNBOUND: unknown field */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: non-final field from child */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: class cannot protect an instance region */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: static field cannot protect an instance region */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: static field cannot protect an instance region */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: static field cannot protect an instance region */  @ RegionLock ( # ) } )   /* is UNASSOCIATED: non-final field from child */  @ PolicyLocks ( {   /* is UNBOUND: Field is undefined (Instance Region) */  @ PolicyLock ( # ) ,   /* is CONSISTENT: receiver (Instance Region) */  @ PolicyLock ( # ) ,   /* is CONSISTENT: known final field (Instance Region) */  @ PolicyLock ( # ) ,   /* is UNASSOCIATED: field is non-final (Instance Region) */  @ PolicyLock ( # ) ,   /* is CONSISTENT: class (Static region) */  @ PolicyLock ( # ) ,   /* is CONSISTENT: known final static field (static region) */  @ PolicyLock ( # ) ,   /* is UNASSOCIATED: non-final field (static region) */  @ PolicyLock ( # ) ,   /* is UNASSOCIATED: primitively typed field */  @ PolicyLock ( # ) ,   /* is CONSISTENT: Static locks can use fields from other classes */  @ PolicyLock ( # ) ,   /* is UNASSOCIATED: Instance locks cannot use fields from other classes */  @ PolicyLock ( # ) ,   /* is CONSISTENT: Can use field from GP */  @ PolicyLock ( # ) ,   /* is CONSISTENT: Can use field from Parent */  @ PolicyLock ( # ) ,   /* is UNBOUND: Field is unknown */  @ PolicyLock ( # ) ,   /* is UNASSOCIATED: Cannot use a field from a child */  @ PolicyLock ( # ) ,   /* is UNASSOCIATED: non-final field from GP */  @ PolicyLock ( # ) ,   /* is UNASSOCIATED: non-final field from parent */  @ PolicyLock ( # ) ,   /* is UNBOUND: unknown field */  @ PolicyLock ( # ) ,   /* is UNASSOCIATED: non-final field from child */  @ PolicyLock ( # ) } ) public class C extends test_lock_field.B { public  C () { # } final java.lang.Object goodField #; java.lang.Object badField #; final int nonObjectField #; final static java.lang.Object goodStatic #; static java.lang.Object badStatic #; }
+for project TestLockSanityChecks (in method edu.cmu.cs.fluid.java.bind.ClassMemberSearch.findClassBodyMembers(-) thread "pool-1-thread-4")
+[2012-12-05 14:15:06    INFO] Couldn't find field unknownField in com.surelogic.tree.SyntaxTreeNode@673ba11c -- @ Regions ( { @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) } )   /* is UNASSOCIATED: static field cannot protect an instance region */  @ RegionLocks ( {   /* is UNBOUND: Field is undefined (Instance Region) */  @ RegionLock ( # ) ,   /* is CONSISTENT: receiver (Instance Region) */  @ RegionLock ( # ) ,   /* is CONSISTENT: known final field (Instance Region) */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: field is non-final (Instance Region) */  @ RegionLock ( # ) ,   /* is UNBOUND: Field is undefined (Static region) */  @ RegionLock ( # ) ,   /* is CONSISTENT: class (Static region) */  @ RegionLock ( # ) ,   /* is CONSISTENT: known final static field (static region) */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: non-final field (static region) */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: primitively typed field */  @ RegionLock ( # ) ,   /* is CONSISTENT: Static locks can use fields from other classes */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: Instance locks cannot use fields from other classes */  @ RegionLock ( # ) ,   /* is CONSISTENT: Can use field from GP */  @ RegionLock ( # ) ,   /* is CONSISTENT: Can use field from Parent */  @ RegionLock ( # ) ,   /* is UNBOUND: Field is unknown */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: Cannot use a field from a child */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: non-final field from GP */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: non-final field from parent */  @ RegionLock ( # ) ,   /* is UNBOUND: unknown field */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: non-final field from child */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: class cannot protect an instance region */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: static field cannot protect an instance region */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: static field cannot protect an instance region */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: static field cannot protect an instance region */  @ RegionLock ( # ) } )   /* is UNASSOCIATED: non-final field from child */  @ PolicyLocks ( {   /* is UNBOUND: Field is undefined (Instance Region) */  @ PolicyLock ( # ) ,   /* is CONSISTENT: receiver (Instance Region) */  @ PolicyLock ( # ) ,   /* is CONSISTENT: known final field (Instance Region) */  @ PolicyLock ( # ) ,   /* is UNASSOCIATED: field is non-final (Instance Region) */  @ PolicyLock ( # ) ,   /* is CONSISTENT: class (Static region) */  @ PolicyLock ( # ) ,   /* is CONSISTENT: known final static field (static region) */  @ PolicyLock ( # ) ,   /* is UNASSOCIATED: non-final field (static region) */  @ PolicyLock ( # ) ,   /* is UNASSOCIATED: primitively typed field */  @ PolicyLock ( # ) ,   /* is CONSISTENT: Static locks can use fields from other classes */  @ PolicyLock ( # ) ,   /* is UNASSOCIATED: Instance locks cannot use fields from other classes */  @ PolicyLock ( # ) ,   /* is CONSISTENT: Can use field from GP */  @ PolicyLock ( # ) ,   /* is CONSISTENT: Can use field from Parent */  @ PolicyLock ( # ) ,   /* is UNBOUND: Field is unknown */  @ PolicyLock ( # ) ,   /* is UNASSOCIATED: Cannot use a field from a child */  @ PolicyLock ( # ) ,   /* is UNASSOCIATED: non-final field from GP */  @ PolicyLock ( # ) ,   /* is UNASSOCIATED: non-final field from parent */  @ PolicyLock ( # ) ,   /* is UNBOUND: unknown field */  @ PolicyLock ( # ) ,   /* is UNASSOCIATED: non-final field from child */  @ PolicyLock ( # ) } ) public class C extends test_lock_field.B { public  C () { # } final java.lang.Object goodField #; java.lang.Object badField #; final int nonObjectField #; final static java.lang.Object goodStatic #; static java.lang.Object badStatic #; }
+for project TestLockSanityChecks (in method edu.cmu.cs.fluid.java.bind.ClassMemberSearch.findClassBodyMembers(-) thread "pool-1-thread-4")
+[2012-12-05 14:15:06    INFO] Couldn't find field fieldFromD in com.surelogic.tree.SyntaxTreeNode@673ba11c -- @ Regions ( { @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) } )   /* is UNASSOCIATED: static field cannot protect an instance region */  @ RegionLocks ( {   /* is UNBOUND: Field is undefined (Instance Region) */  @ RegionLock ( # ) ,   /* is CONSISTENT: receiver (Instance Region) */  @ RegionLock ( # ) ,   /* is CONSISTENT: known final field (Instance Region) */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: field is non-final (Instance Region) */  @ RegionLock ( # ) ,   /* is UNBOUND: Field is undefined (Static region) */  @ RegionLock ( # ) ,   /* is CONSISTENT: class (Static region) */  @ RegionLock ( # ) ,   /* is CONSISTENT: known final static field (static region) */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: non-final field (static region) */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: primitively typed field */  @ RegionLock ( # ) ,   /* is CONSISTENT: Static locks can use fields from other classes */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: Instance locks cannot use fields from other classes */  @ RegionLock ( # ) ,   /* is CONSISTENT: Can use field from GP */  @ RegionLock ( # ) ,   /* is CONSISTENT: Can use field from Parent */  @ RegionLock ( # ) ,   /* is UNBOUND: Field is unknown */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: Cannot use a field from a child */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: non-final field from GP */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: non-final field from parent */  @ RegionLock ( # ) ,   /* is UNBOUND: unknown field */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: non-final field from child */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: class cannot protect an instance region */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: static field cannot protect an instance region */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: static field cannot protect an instance region */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: static field cannot protect an instance region */  @ RegionLock ( # ) } )   /* is UNASSOCIATED: non-final field from child */  @ PolicyLocks ( {   /* is UNBOUND: Field is undefined (Instance Region) */  @ PolicyLock ( # ) ,   /* is CONSISTENT: receiver (Instance Region) */  @ PolicyLock ( # ) ,   /* is CONSISTENT: known final field (Instance Region) */  @ PolicyLock ( # ) ,   /* is UNASSOCIATED: field is non-final (Instance Region) */  @ PolicyLock ( # ) ,   /* is CONSISTENT: class (Static region) */  @ PolicyLock ( # ) ,   /* is CONSISTENT: known final static field (static region) */  @ PolicyLock ( # ) ,   /* is UNASSOCIATED: non-final field (static region) */  @ PolicyLock ( # ) ,   /* is UNASSOCIATED: primitively typed field */  @ PolicyLock ( # ) ,   /* is CONSISTENT: Static locks can use fields from other classes */  @ PolicyLock ( # ) ,   /* is UNASSOCIATED: Instance locks cannot use fields from other classes */  @ PolicyLock ( # ) ,   /* is CONSISTENT: Can use field from GP */  @ PolicyLock ( # ) ,   /* is CONSISTENT: Can use field from Parent */  @ PolicyLock ( # ) ,   /* is UNBOUND: Field is unknown */  @ PolicyLock ( # ) ,   /* is UNASSOCIATED: Cannot use a field from a child */  @ PolicyLock ( # ) ,   /* is UNASSOCIATED: non-final field from GP */  @ PolicyLock ( # ) ,   /* is UNASSOCIATED: non-final field from parent */  @ PolicyLock ( # ) ,   /* is UNBOUND: unknown field */  @ PolicyLock ( # ) ,   /* is UNASSOCIATED: non-final field from child */  @ PolicyLock ( # ) } ) public class C extends test_lock_field.B { public  C () { # } final java.lang.Object goodField #; java.lang.Object badField #; final int nonObjectField #; final static java.lang.Object goodStatic #; static java.lang.Object badStatic #; }
+for project TestLockSanityChecks (in method edu.cmu.cs.fluid.java.bind.ClassMemberSearch.findClassBodyMembers(-) thread "pool-1-thread-4")
+[2012-12-05 14:15:06    INFO] Couldn't find field badFieldFromD in com.surelogic.tree.SyntaxTreeNode@673ba11c -- @ Regions ( { @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) , @ Region ( # ) } )   /* is UNASSOCIATED: static field cannot protect an instance region */  @ RegionLocks ( {   /* is UNBOUND: Field is undefined (Instance Region) */  @ RegionLock ( # ) ,   /* is CONSISTENT: receiver (Instance Region) */  @ RegionLock ( # ) ,   /* is CONSISTENT: known final field (Instance Region) */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: field is non-final (Instance Region) */  @ RegionLock ( # ) ,   /* is UNBOUND: Field is undefined (Static region) */  @ RegionLock ( # ) ,   /* is CONSISTENT: class (Static region) */  @ RegionLock ( # ) ,   /* is CONSISTENT: known final static field (static region) */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: non-final field (static region) */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: primitively typed field */  @ RegionLock ( # ) ,   /* is CONSISTENT: Static locks can use fields from other classes */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: Instance locks cannot use fields from other classes */  @ RegionLock ( # ) ,   /* is CONSISTENT: Can use field from GP */  @ RegionLock ( # ) ,   /* is CONSISTENT: Can use field from Parent */  @ RegionLock ( # ) ,   /* is UNBOUND: Field is unknown */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: Cannot use a field from a child */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: non-final field from GP */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: non-final field from parent */  @ RegionLock ( # ) ,   /* is UNBOUND: unknown field */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: non-final field from child */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: class cannot protect an instance region */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: static field cannot protect an instance region */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: static field cannot protect an instance region */  @ RegionLock ( # ) ,   /* is UNASSOCIATED: static field cannot protect an instance region */  @ RegionLock ( # ) } )   /* is UNASSOCIATED: non-final field from child */  @ PolicyLocks ( {   /* is UNBOUND: Field is undefined (Instance Region) */  @ PolicyLock ( # ) ,   /* is CONSISTENT: receiver (Instance Region) */  @ PolicyLock ( # ) ,   /* is CONSISTENT: known final field (Instance Region) */  @ PolicyLock ( # ) ,   /* is UNASSOCIATED: field is non-final (Instance Region) */  @ PolicyLock ( # ) ,   /* is CONSISTENT: class (Static region) */  @ PolicyLock ( # ) ,   /* is CONSISTENT: known final static field (static region) */  @ PolicyLock ( # ) ,   /* is UNASSOCIATED: non-final field (static region) */  @ PolicyLock ( # ) ,   /* is UNASSOCIATED: primitively typed field */  @ PolicyLock ( # ) ,   /* is CONSISTENT: Static locks can use fields from other classes */  @ PolicyLock ( # ) ,   /* is UNASSOCIATED: Instance locks cannot use fields from other classes */  @ PolicyLock ( # ) ,   /* is CONSISTENT: Can use field from GP */  @ PolicyLock ( # ) ,   /* is CONSISTENT: Can use field from Parent */  @ PolicyLock ( # ) ,   /* is UNBOUND: Field is unknown */  @ PolicyLock ( # ) ,   /* is UNASSOCIATED: Cannot use a field from a child */  @ PolicyLock ( # ) ,   /* is UNASSOCIATED: non-final field from GP */  @ PolicyLock ( # ) ,   /* is UNASSOCIATED: non-final field from parent */  @ PolicyLock ( # ) ,   /* is UNBOUND: unknown field */  @ PolicyLock ( # ) ,   /* is UNASSOCIATED: non-final field from child */  @ PolicyLock ( # ) } ) public class C extends test_lock_field.B { public  C () { # } final java.lang.Object goodField #; java.lang.Object badField #; final int nonObjectField #; final static java.lang.Object goodStatic #; static java.lang.Object badStatic #; }
+for project TestLockSanityChecks (in method edu.cmu.cs.fluid.java.bind.ClassMemberSearch.findClassBodyMembers(-) thread "pool-1-thread-4")
+[2012-12-05 14:15:06    INFO] Couldn't find lock DoesntExist in com.surelogic.tree.SyntaxTreeNode@5a0ce5a6 -- @ PolicyLocks ( { @ PolicyLock ( # ) , @ PolicyLock ( # ) , @ PolicyLock ( # ) } ) public class PLock extends java.lang.Object { public  PLock () { # }   /* is UNASSOCIATED: Cannot qualify a static lock with this */  @ ReturnsLock ( # ) public java.lang.Object getLock_thisQualified_staticLock() { # }   /* is CONSISTENT*/  @ ReturnsLock ( # ) public java.lang.Object getLock_implicit_staticLock() { # }   /* is CONSISTENT */  @ ReturnsLock ( # ) public java.lang.Object getLock_typeQualified_staticLock() { # }   /* is UNBOUND */  @ ReturnsLock ( # ) public java.lang.Object getLock_doesntExist() { # }   /* is CONSISTENT */  @ ReturnsLock ( # ) public java.lang.Object getLock_exists() { # }   /* is CONSISTENT */  @ ReturnsLock ( # ) public java.lang.Object getLock_exists2() { # }   /* is UNBOUND: parameter p doesn't exist */  @ ReturnsLock ( # ) public java.lang.Object getLock_bad_param(# final # o) { # }   /* is UNBOUND */  @ ReturnsLock ( # ) public java.lang.Object getLock_param_doesntExist(# final # p) { # }   /* is CONSISTENT: parameter is non-final, but unchanged */  @ ReturnsLock ( # ) public java.lang.Object getLock_param_nonfinal(# # p) { # }   /* is CONSISTENT */  @ ReturnsLock ( # ) public java.lang.Object getLock_param_good(# final # p) { # }   /* is UNASSOCIATED: Cannot refer to 'this' on static method */  @ ReturnsLock ( # ) public static java.lang.Object getLock_staticMethod_instanceRegion1() { # }   /* is UNASSOCIATED: Cannot refer to 'this' (implicitly) on static method */  @ ReturnsLock ( # ) public static java.lang.Object getLock_staticMethod_instanceRegion1a() { # }   /* is CONSISTENT */  @ ReturnsLock ( # ) public static java.lang.Object getLock_staticMethod_staticRegion1() { # }   /* is CONSISTENT */  @ ReturnsLock ( # ) public static java.lang.Object getLock_staticMethod_staticRegion1a() { # }   /* is UNBOUND: Lock does not exist */  @ ReturnsLock ( # ) public static java.lang.Object getLock_staticMethod_unknownRegionWithThis() { # }   /* is UNBOUND: Lock doesn't exist */  @ ReturnsLock ( # ) public static java.lang.Object getLock_staticMethod_unknownRegion() { # }   /* is UNBOUND: Class doesn't exist (Default package) */  @ ReturnsLock ( # ) public static java.lang.Object getLock_staticMethod_unknownClass1() { # }   /* is UNBOUND: Package & Class don't exist */  @ ReturnsLock ( # ) public static java.lang.Object getLock_staticMethod_unknownClass1a() { # }   /* is CONSISTENT */  @ ReturnsLock ( # ) public static java.lang.Object getLock_staticMethod_paramLock(# final # p) { # } @ SuppressWarnings ( # ) private class Inner extends java.lang.Object { # public  # Inner # # # # public # # getLock_innerClassMethod_qualifiedThis_staticLock# # # # public # # getLock_innerClassMethod_qualifiedThis_nonStaticLock# # # } }
+for project TestLockSanityChecks (in method edu.cmu.cs.fluid.java.bind.ClassMemberSearch.findClassBodyMembers(-) thread "pool-1-thread-2")
+[2012-12-05 14:15:06    INFO] Couldn't find lock DoesntExist in com.surelogic.tree.SyntaxTreeNode@5a0ce5a6 -- @ PolicyLocks ( { @ PolicyLock ( # ) , @ PolicyLock ( # ) , @ PolicyLock ( # ) } ) public class PLock extends java.lang.Object { public  PLock () { # }   /* is UNASSOCIATED: Cannot qualify a static lock with this */  @ ReturnsLock ( # ) public java.lang.Object getLock_thisQualified_staticLock() { # }   /* is CONSISTENT*/  @ ReturnsLock ( # ) public java.lang.Object getLock_implicit_staticLock() { # }   /* is CONSISTENT */  @ ReturnsLock ( # ) public java.lang.Object getLock_typeQualified_staticLock() { # }   /* is UNBOUND */  @ ReturnsLock ( # ) public java.lang.Object getLock_doesntExist() { # }   /* is CONSISTENT */  @ ReturnsLock ( # ) public java.lang.Object getLock_exists() { # }   /* is CONSISTENT */  @ ReturnsLock ( # ) public java.lang.Object getLock_exists2() { # }   /* is UNBOUND: parameter p doesn't exist */  @ ReturnsLock ( # ) public java.lang.Object getLock_bad_param(# final # o) { # }   /* is UNBOUND */  @ ReturnsLock ( # ) public java.lang.Object getLock_param_doesntExist(# final # p) { # }   /* is CONSISTENT: parameter is non-final, but unchanged */  @ ReturnsLock ( # ) public java.lang.Object getLock_param_nonfinal(# # p) { # }   /* is CONSISTENT */  @ ReturnsLock ( # ) public java.lang.Object getLock_param_good(# final # p) { # }   /* is UNASSOCIATED: Cannot refer to 'this' on static method */  @ ReturnsLock ( # ) public static java.lang.Object getLock_staticMethod_instanceRegion1() { # }   /* is UNASSOCIATED: Cannot refer to 'this' (implicitly) on static method */  @ ReturnsLock ( # ) public static java.lang.Object getLock_staticMethod_instanceRegion1a() { # }   /* is CONSISTENT */  @ ReturnsLock ( # ) public static java.lang.Object getLock_staticMethod_staticRegion1() { # }   /* is CONSISTENT */  @ ReturnsLock ( # ) public static java.lang.Object getLock_staticMethod_staticRegion1a() { # }   /* is UNBOUND: Lock does not exist */  @ ReturnsLock ( # ) public static java.lang.Object getLock_staticMethod_unknownRegionWithThis() { # }   /* is UNBOUND: Lock doesn't exist */  @ ReturnsLock ( # ) public static java.lang.Object getLock_staticMethod_unknownRegion() { # }   /* is UNBOUND: Class doesn't exist (Default package) */  @ ReturnsLock ( # ) public static java.lang.Object getLock_staticMethod_unknownClass1() { # }   /* is UNBOUND: Package & Class don't exist */  @ ReturnsLock ( # ) public static java.lang.Object getLock_staticMethod_unknownClass1a() { # }   /* is CONSISTENT */  @ ReturnsLock ( # ) public static java.lang.Object getLock_staticMethod_paramLock(# final # p) { # } @ SuppressWarnings ( # ) private class Inner extends java.lang.Object { # public  # Inner # # # # public # # getLock_innerClassMethod_qualifiedThis_staticLock# # # # public # # getLock_innerClassMethod_qualifiedThis_nonStaticLock# # # } }
+for project TestLockSanityChecks (in method edu.cmu.cs.fluid.java.bind.ClassMemberSearch.findClassBodyMembers(-) thread "pool-1-thread-2")
+[2012-12-05 14:15:06    INFO] Couldn't find lock DoesntExist in com.surelogic.tree.SyntaxTreeNode@5a0ce5a6 -- @ PolicyLocks ( { @ PolicyLock ( # ) , @ PolicyLock ( # ) , @ PolicyLock ( # ) } ) public class PLock extends java.lang.Object { public  PLock () { # }   /* is UNASSOCIATED: Cannot qualify a static lock with this */  @ ReturnsLock ( # ) public java.lang.Object getLock_thisQualified_staticLock() { # }   /* is CONSISTENT*/  @ ReturnsLock ( # ) public java.lang.Object getLock_implicit_staticLock() { # }   /* is CONSISTENT */  @ ReturnsLock ( # ) public java.lang.Object getLock_typeQualified_staticLock() { # }   /* is UNBOUND */  @ ReturnsLock ( # ) public java.lang.Object getLock_doesntExist() { # }   /* is CONSISTENT */  @ ReturnsLock ( # ) public java.lang.Object getLock_exists() { # }   /* is CONSISTENT */  @ ReturnsLock ( # ) public java.lang.Object getLock_exists2() { # }   /* is UNBOUND: parameter p doesn't exist */  @ ReturnsLock ( # ) public java.lang.Object getLock_bad_param(# final # o) { # }   /* is UNBOUND */  @ ReturnsLock ( # ) public java.lang.Object getLock_param_doesntExist(# final # p) { # }   /* is CONSISTENT: parameter is non-final, but unchanged */  @ ReturnsLock ( # ) public java.lang.Object getLock_param_nonfinal(# # p) { # }   /* is CONSISTENT */  @ ReturnsLock ( # ) public java.lang.Object getLock_param_good(# final # p) { # }   /* is UNASSOCIATED: Cannot refer to 'this' on static method */  @ ReturnsLock ( # ) public static java.lang.Object getLock_staticMethod_instanceRegion1() { # }   /* is UNASSOCIATED: Cannot refer to 'this' (implicitly) on static method */  @ ReturnsLock ( # ) public static java.lang.Object getLock_staticMethod_instanceRegion1a() { # }   /* is CONSISTENT */  @ ReturnsLock ( # ) public static java.lang.Object getLock_staticMethod_staticRegion1() { # }   /* is CONSISTENT */  @ ReturnsLock ( # ) public static java.lang.Object getLock_staticMethod_staticRegion1a() { # }   /* is UNBOUND: Lock does not exist */  @ ReturnsLock ( # ) public static java.lang.Object getLock_staticMethod_unknownRegionWithThis() { # }   /* is UNBOUND: Lock doesn't exist */  @ ReturnsLock ( # ) public static java.lang.Object getLock_staticMethod_unknownRegion() { # }   /* is UNBOUND: Class doesn't exist (Default package) */  @ ReturnsLock ( # ) public static java.lang.Object getLock_staticMethod_unknownClass1() { # }   /* is UNBOUND: Package & Class don't exist */  @ ReturnsLock ( # ) public static java.lang.Object getLock_staticMethod_unknownClass1a() { # }   /* is CONSISTENT */  @ ReturnsLock ( # ) public static java.lang.Object getLock_staticMethod_paramLock(# final # p) { # } @ SuppressWarnings ( # ) private class Inner extends java.lang.Object { # public  # Inner # # # # public # # getLock_innerClassMethod_qualifiedThis_staticLock# # # # public # # getLock_innerClassMethod_qualifiedThis_nonStaticLock# # # } }
+for project TestLockSanityChecks (in method edu.cmu.cs.fluid.java.bind.ClassMemberSearch.findClassBodyMembers(-) thread "pool-1-thread-2")
+[2012-12-05 14:15:06    INFO] Couldn't find lock DoesntExist in com.surelogic.tree.SyntaxTreeNode@5a0ce5a6 -- @ PolicyLocks ( { @ PolicyLock ( # ) , @ PolicyLock ( # ) , @ PolicyLock ( # ) } ) public class PLock extends java.lang.Object { public  PLock () { # }   /* is UNASSOCIATED: Cannot qualify a static lock with this */  @ ReturnsLock ( # ) public java.lang.Object getLock_thisQualified_staticLock() { # }   /* is CONSISTENT*/  @ ReturnsLock ( # ) public java.lang.Object getLock_implicit_staticLock() { # }   /* is CONSISTENT */  @ ReturnsLock ( # ) public java.lang.Object getLock_typeQualified_staticLock() { # }   /* is UNBOUND */  @ ReturnsLock ( # ) public java.lang.Object getLock_doesntExist() { # }   /* is CONSISTENT */  @ ReturnsLock ( # ) public java.lang.Object getLock_exists() { # }   /* is CONSISTENT */  @ ReturnsLock ( # ) public java.lang.Object getLock_exists2() { # }   /* is UNBOUND: parameter p doesn't exist */  @ ReturnsLock ( # ) public java.lang.Object getLock_bad_param(# final # o) { # }   /* is UNBOUND */  @ ReturnsLock ( # ) public java.lang.Object getLock_param_doesntExist(# final # p) { # }   /* is CONSISTENT: parameter is non-final, but unchanged */  @ ReturnsLock ( # ) public java.lang.Object getLock_param_nonfinal(# # p) { # }   /* is CONSISTENT */  @ ReturnsLock ( # ) public java.lang.Object getLock_param_good(# final # p) { # }   /* is UNASSOCIATED: Cannot refer to 'this' on static method */  @ ReturnsLock ( # ) public static java.lang.Object getLock_staticMethod_instanceRegion1() { # }   /* is UNASSOCIATED: Cannot refer to 'this' (implicitly) on static method */  @ ReturnsLock ( # ) public static java.lang.Object getLock_staticMethod_instanceRegion1a() { # }   /* is CONSISTENT */  @ ReturnsLock ( # ) public static java.lang.Object getLock_staticMethod_staticRegion1() { # }   /* is CONSISTENT */  @ ReturnsLock ( # ) public static java.lang.Object getLock_staticMethod_staticRegion1a() { # }   /* is UNBOUND: Lock does not exist */  @ ReturnsLock ( # ) public static java.lang.Object getLock_staticMethod_unknownRegionWithThis() { # }   /* is UNBOUND: Lock doesn't exist */  @ ReturnsLock ( # ) public static java.lang.Object getLock_staticMethod_unknownRegion() { # }   /* is UNBOUND: Class doesn't exist (Default package) */  @ ReturnsLock ( # ) public static java.lang.Object getLock_staticMethod_unknownClass1() { # }   /* is UNBOUND: Package & Class don't exist */  @ ReturnsLock ( # ) public static java.lang.Object getLock_staticMethod_unknownClass1a() { # }   /* is CONSISTENT */  @ ReturnsLock ( # ) public static java.lang.Object getLock_staticMethod_paramLock(# final # p) { # } @ SuppressWarnings ( # ) private class Inner extends java.lang.Object { # public  # Inner # # # # public # # getLock_innerClassMethod_qualifiedThis_staticLock# # # # public # # getLock_innerClassMethod_qualifiedThis_nonStaticLock# # # } }
+for project TestLockSanityChecks (in method edu.cmu.cs.fluid.java.bind.ClassMemberSearch.findClassBodyMembers(-) thread "pool-1-thread-2")
+[2012-12-05 14:15:06    INFO] Couldn't find lock DoesntExist in com.surelogic.tree.SyntaxTreeNode@295687d9 -- @ Regions ( { @ Region ( # ) , @ Region ( # ) , @ Region ( # ) } ) @ RegionLocks ( { @ RegionLock ( # ) , @ RegionLock ( # ) , @ RegionLock ( # ) } ) public class StateLock extends java.lang.Object { public  StateLock () { # }   /*is UNASSOCIATED: Cannot qualify a static lock with this*/  @ ReturnsLock ( # ) public java.lang.Object getLock_thisQualified_staticLock() { # }   /* is CONSISTENT */  @ ReturnsLock ( # ) public java.lang.Object getLock_implicit_staticLock() { # }   /* is CONSISTENT */  @ ReturnsLock ( # ) public java.lang.Object getLock_typeQualified_staticLock() { # }   /*is UNASSOCIATED: Cannot type-qualify an instance lock*/  @ ReturnsLock ( # ) public java.lang.Object getLock_typeQualifiedInstance() { # }   /*is UNBOUND*/  @ ReturnsLock ( # ) public java.lang.Object getLock_doesntExist() { # }   /*is CONSISTENT*/  @ ReturnsLock ( # ) public java.lang.Object getLock_exists() { # }   /*is CONSISTENT*/  @ ReturnsLock ( # ) public java.lang.Object getLock_exists2() { # }   /* is UNBOUND: parameter p doesn't exist */  @ ReturnsLock ( # ) public java.lang.Object getLock_bad_param(# final # o) { # }   /*is UNBOUND*/  @ ReturnsLock ( # ) public java.lang.Object getLock_param_doesntExist(# final # p) { # }   /*is CONSISTENT: parameter is non-final, but unchanged*/  @ ReturnsLock ( # ) public java.lang.Object getLock_param_nonfinal(# # p) { # }   /* is CONSISTENT */  @ ReturnsLock ( # ) public java.lang.Object getLock_param_good(# final # p) { # }   /*is UNASSOCIATED: Cannot refer to 'this' on static method*/  @ ReturnsLock ( # ) public static java.lang.Object getLock_staticMethod_instanceRegion1() { # }   /*is UNASSOCIATED: Cannot refer to 'this' (implicitly) on static method*/  @ ReturnsLock ( # ) public static java.lang.Object getLock_staticMethod_instanceRegion1a() { # }   /*is CONSISTENT*/  @ ReturnsLock ( # ) public static java.lang.Object getLock_staticMethod_staticRegion1() { # }   /*is CONSISTENT */  @ ReturnsLock ( # ) public static java.lang.Object getLock_staticMethod_staticRegion1a() { # }   /*is UNBOUND: Lock does not exist*/  @ ReturnsLock ( # ) public static java.lang.Object getLock_staticMethod_unknownRegionWithThis() { # }   /*is UNBOUND: Lock doesn't exist */  @ ReturnsLock ( # ) public static java.lang.Object getLock_staticMethod_unknownRegion() { # }   /* is UNBOUND: Class doesn't exist (Default package)*/  @ ReturnsLock ( # ) public static java.lang.Object getLock_staticMethod_unknownClass1() { # }   /* is UNBOUND: Package & Class don't exist */  @ ReturnsLock ( # ) public static java.lang.Object getLock_staticMethod_unknownClass1a() { # }   /* is CONSISTENT */  @ ReturnsLock ( # ) public static java.lang.Object getLock_staticMethod_paramLock(# final # p) { # } }
+for project TestLockSanityChecks (in method edu.cmu.cs.fluid.java.bind.ClassMemberSearch.findClassBodyMembers(-) thread "pool-1-thread-2")
+[2012-12-05 14:15:06    INFO] Couldn't find lock DoesntExist in com.surelogic.tree.SyntaxTreeNode@295687d9 -- @ Regions ( { @ Region ( # ) , @ Region ( # ) , @ Region ( # ) } ) @ RegionLocks ( { @ RegionLock ( # ) , @ RegionLock ( # ) , @ RegionLock ( # ) } ) public class StateLock extends java.lang.Object { public  StateLock () { # }   /*is UNASSOCIATED: Cannot qualify a static lock with this*/  @ ReturnsLock ( # ) public java.lang.Object getLock_thisQualified_staticLock() { # }   /* is CONSISTENT */  @ ReturnsLock ( # ) public java.lang.Object getLock_implicit_staticLock() { # }   /* is CONSISTENT */  @ ReturnsLock ( # ) public java.lang.Object getLock_typeQualified_staticLock() { # }   /*is UNASSOCIATED: Cannot type-qualify an instance lock*/  @ ReturnsLock ( # ) public java.lang.Object getLock_typeQualifiedInstance() { # }   /*is UNBOUND*/  @ ReturnsLock ( # ) public java.lang.Object getLock_doesntExist() { # }   /*is CONSISTENT*/  @ ReturnsLock ( # ) public java.lang.Object getLock_exists() { # }   /*is CONSISTENT*/  @ ReturnsLock ( # ) public java.lang.Object getLock_exists2() { # }   /* is UNBOUND: parameter p doesn't exist */  @ ReturnsLock ( # ) public java.lang.Object getLock_bad_param(# final # o) { # }   /*is UNBOUND*/  @ ReturnsLock ( # ) public java.lang.Object getLock_param_doesntExist(# final # p) { # }   /*is CONSISTENT: parameter is non-final, but unchanged*/  @ ReturnsLock ( # ) public java.lang.Object getLock_param_nonfinal(# # p) { # }   /* is CONSISTENT */  @ ReturnsLock ( # ) public java.lang.Object getLock_param_good(# final # p) { # }   /*is UNASSOCIATED: Cannot refer to 'this' on static method*/  @ ReturnsLock ( # ) public static java.lang.Object getLock_staticMethod_instanceRegion1() { # }   /*is UNASSOCIATED: Cannot refer to 'this' (implicitly) on static method*/  @ ReturnsLock ( # ) public static java.lang.Object getLock_staticMethod_instanceRegion1a() { # }   /*is CONSISTENT*/  @ ReturnsLock ( # ) public static java.lang.Object getLock_staticMethod_staticRegion1() { # }   /*is CONSISTENT */  @ ReturnsLock ( # ) public static java.lang.Object getLock_staticMethod_staticRegion1a() { # }   /*is UNBOUND: Lock does not exist*/  @ ReturnsLock ( # ) public static java.lang.Object getLock_staticMethod_unknownRegionWithThis() { # }   /*is UNBOUND: Lock doesn't exist */  @ ReturnsLock ( # ) public static java.lang.Object getLock_staticMethod_unknownRegion() { # }   /* is UNBOUND: Class doesn't exist (Default package)*/  @ ReturnsLock ( # ) public static java.lang.Object getLock_staticMethod_unknownClass1() { # }   /* is UNBOUND: Package & Class don't exist */  @ ReturnsLock ( # ) public static java.lang.Object getLock_staticMethod_unknownClass1a() { # }   /* is CONSISTENT */  @ ReturnsLock ( # ) public static java.lang.Object getLock_staticMethod_paramLock(# final # p) { # } }
+for project TestLockSanityChecks (in method edu.cmu.cs.fluid.java.bind.ClassMemberSearch.findClassBodyMembers(-) thread "pool-1-thread-2")
+[2012-12-05 14:15:06    INFO] Couldn't find lock DoesntExist in com.surelogic.tree.SyntaxTreeNode@295687d9 -- @ Regions ( { @ Region ( # ) , @ Region ( # ) , @ Region ( # ) } ) @ RegionLocks ( { @ RegionLock ( # ) , @ RegionLock ( # ) , @ RegionLock ( # ) } ) public class StateLock extends java.lang.Object { public  StateLock () { # }   /*is UNASSOCIATED: Cannot qualify a static lock with this*/  @ ReturnsLock ( # ) public java.lang.Object getLock_thisQualified_staticLock() { # }   /* is CONSISTENT */  @ ReturnsLock ( # ) public java.lang.Object getLock_implicit_staticLock() { # }   /* is CONSISTENT */  @ ReturnsLock ( # ) public java.lang.Object getLock_typeQualified_staticLock() { # }   /*is UNASSOCIATED: Cannot type-qualify an instance lock*/  @ ReturnsLock ( # ) public java.lang.Object getLock_typeQualifiedInstance() { # }   /*is UNBOUND*/  @ ReturnsLock ( # ) public java.lang.Object getLock_doesntExist() { # }   /*is CONSISTENT*/  @ ReturnsLock ( # ) public java.lang.Object getLock_exists() { # }   /*is CONSISTENT*/  @ ReturnsLock ( # ) public java.lang.Object getLock_exists2() { # }   /* is UNBOUND: parameter p doesn't exist */  @ ReturnsLock ( # ) public java.lang.Object getLock_bad_param(# final # o) { # }   /*is UNBOUND*/  @ ReturnsLock ( # ) public java.lang.Object getLock_param_doesntExist(# final # p) { # }   /*is CONSISTENT: parameter is non-final, but unchanged*/  @ ReturnsLock ( # ) public java.lang.Object getLock_param_nonfinal(# # p) { # }   /* is CONSISTENT */  @ ReturnsLock ( # ) public java.lang.Object getLock_param_good(# final # p) { # }   /*is UNASSOCIATED: Cannot refer to 'this' on static method*/  @ ReturnsLock ( # ) public static java.lang.Object getLock_staticMethod_instanceRegion1() { # }   /*is UNASSOCIATED: Cannot refer to 'this' (implicitly) on static method*/  @ ReturnsLock ( # ) public static java.lang.Object getLock_staticMethod_instanceRegion1a() { # }   /*is CONSISTENT*/  @ ReturnsLock ( # ) public static java.lang.Object getLock_staticMethod_staticRegion1() { # }   /*is CONSISTENT */  @ ReturnsLock ( # ) public static java.lang.Object getLock_staticMethod_staticRegion1a() { # }   /*is UNBOUND: Lock does not exist*/  @ ReturnsLock ( # ) public static java.lang.Object getLock_staticMethod_unknownRegionWithThis() { # }   /*is UNBOUND: Lock doesn't exist */  @ ReturnsLock ( # ) public static java.lang.Object getLock_staticMethod_unknownRegion() { # }   /* is UNBOUND: Class doesn't exist (Default package)*/  @ ReturnsLock ( # ) public static java.lang.Object getLock_staticMethod_unknownClass1() { # }   /* is UNBOUND: Package & Class don't exist */  @ ReturnsLock ( # ) public static java.lang.Object getLock_staticMethod_unknownClass1a() { # }   /* is CONSISTENT */  @ ReturnsLock ( # ) public static java.lang.Object getLock_staticMethod_paramLock(# final # p) { # } }
+for project TestLockSanityChecks (in method edu.cmu.cs.fluid.java.bind.ClassMemberSearch.findClassBodyMembers(-) thread "pool-1-thread-2")
+[2012-12-05 14:15:06    INFO] Couldn't find lock DoesntExist in com.surelogic.tree.SyntaxTreeNode@295687d9 -- @ Regions ( { @ Region ( # ) , @ Region ( # ) , @ Region ( # ) } ) @ RegionLocks ( { @ RegionLock ( # ) , @ RegionLock ( # ) , @ RegionLock ( # ) } ) public class StateLock extends java.lang.Object { public  StateLock () { # }   /*is UNASSOCIATED: Cannot qualify a static lock with this*/  @ ReturnsLock ( # ) public java.lang.Object getLock_thisQualified_staticLock() { # }   /* is CONSISTENT */  @ ReturnsLock ( # ) public java.lang.Object getLock_implicit_staticLock() { # }   /* is CONSISTENT */  @ ReturnsLock ( # ) public java.lang.Object getLock_typeQualified_staticLock() { # }   /*is UNASSOCIATED: Cannot type-qualify an instance lock*/  @ ReturnsLock ( # ) public java.lang.Object getLock_typeQualifiedInstance() { # }   /*is UNBOUND*/  @ ReturnsLock ( # ) public java.lang.Object getLock_doesntExist() { # }   /*is CONSISTENT*/  @ ReturnsLock ( # ) public java.lang.Object getLock_exists() { # }   /*is CONSISTENT*/  @ ReturnsLock ( # ) public java.lang.Object getLock_exists2() { # }   /* is UNBOUND: parameter p doesn't exist */  @ ReturnsLock ( # ) public java.lang.Object getLock_bad_param(# final # o) { # }   /*is UNBOUND*/  @ ReturnsLock ( # ) public java.lang.Object getLock_param_doesntExist(# final # p) { # }   /*is CONSISTENT: parameter is non-final, but unchanged*/  @ ReturnsLock ( # ) public java.lang.Object getLock_param_nonfinal(# # p) { # }   /* is CONSISTENT */  @ ReturnsLock ( # ) public java.lang.Object getLock_param_good(# final # p) { # }   /*is UNASSOCIATED: Cannot refer to 'this' on static method*/  @ ReturnsLock ( # ) public static java.lang.Object getLock_staticMethod_instanceRegion1() { # }   /*is UNASSOCIATED: Cannot refer to 'this' (implicitly) on static method*/  @ ReturnsLock ( # ) public static java.lang.Object getLock_staticMethod_instanceRegion1a() { # }   /*is CONSISTENT*/  @ ReturnsLock ( # ) public static java.lang.Object getLock_staticMethod_staticRegion1() { # }   /*is CONSISTENT */  @ ReturnsLock ( # ) public static java.lang.Object getLock_staticMethod_staticRegion1a() { # }   /*is UNBOUND: Lock does not exist*/  @ ReturnsLock ( # ) public static java.lang.Object getLock_staticMethod_unknownRegionWithThis() { # }   /*is UNBOUND: Lock doesn't exist */  @ ReturnsLock ( # ) public static java.lang.Object getLock_staticMethod_unknownRegion() { # }   /* is UNBOUND: Class doesn't exist (Default package)*/  @ ReturnsLock ( # ) public static java.lang.Object getLock_staticMethod_unknownClass1() { # }   /* is UNBOUND: Package & Class don't exist */  @ ReturnsLock ( # ) public static java.lang.Object getLock_staticMethod_unknownClass1a() { # }   /* is CONSISTENT */  @ ReturnsLock ( # ) public static java.lang.Object getLock_staticMethod_paramLock(# final # p) { # } }
+for project TestLockSanityChecks (in method edu.cmu.cs.fluid.java.bind.ClassMemberSearch.findClassBodyMembers(-) thread "pool-1-thread-2")
+[GC 76923K->61653K(93464K), 0.0079959 secs]
+[2012-12-05 14:15:06    INFO] Couldn't find lock DoesntExist in com.surelogic.tree.SyntaxTreeNode@c07014a -- @ Regions ( { @ Region ( # ) , @ Region ( # ) , @ Region ( # ) } ) @ RegionLocks ( { @ RegionLock ( # ) , @ RegionLock ( # ) , @ RegionLock ( # ) } ) public class StateLock_LockNames extends java.lang.Object { public  StateLock_LockNames () { # }   /*is UNASSOCIATED: cannot qualify a static lock with this*/  @ RequiresLock ( # ) public void bad_thisQualified_staticLock() {  }   /* is CONSISTENT */  @ RequiresLock ( # ) public void good_implicit_staticLock() {  }   /* is CONSISTENT */  @ RequiresLock ( # ) public void good_typeQualified_staticLock() {  }   /*is UNASSOCIATED: type-qualified instance lock*/  @ RequiresLock ( # ) public void bad_typeQualifiedInstance() {  }   /* is UNBOUND: Lock doesn't exist*/  @ RequiresLock ( # ) public void bad_doesntExist() {  }   /* is CONSISTENT */  @ RequiresLock ( # ) public void good_exists_implicit_this() {  }   /* is CONSISTENT */  @ RequiresLock ( # ) public void good_exists_explicit_this() {  }   /*is UNBOUND: Parameter doesn't exist*/  @ RequiresLock ( # ) public void bad_param_doesnt_exist(# final # o) {  }   /* is UNBOUND: Lock doesn't exist*/  @ RequiresLock ( # ) public void bad_param_lock_doesnt_exist(# final # p) {  }   /* is CONSISTENT: parameter is non-final but unchanged*/  @ RequiresLock ( # ) public void good_param_nonfinal(# # p) {  }   /* is CONSISTENT */  @ RequiresLock ( # ) public void good_param_is_good(# final # p) {  }   /*is UNASSOCIATED: cannot use 'this' on static method*/  @ RequiresLock ( # ) public static void bad_static_use_of_explicit_this() {  }   /*is UNASSOCIATED: cannot use 'this' (implicit) on static method*/  @ RequiresLock ( # ) public static void bad_static_use_of_implicit_this() {  }   /*is CONSISTENT*/  @ RequiresLock ( # ) public static void good_staticMethod_implicit_staticLock() {  }   /* is CONSISTENT */  @ RequiresLock ( # ) public static void good_staticMethod_typeQualified_staticLock() {  }   /*is UNBOUND: static use of this with unknown region*/  @ RequiresLock ( # ) public static void bad_staticMethod_unknownRegionWithThis() {  }   /*is UNBOUND: static use of this (implicit) with unknown region*/  @ RequiresLock ( # ) public static void bad_staticMethod_unknownRegionImplicitThis() {  }   /*is UNBOUND: No such class (default package)*/  @ RequiresLock ( # ) public static void bad_staticMethod_unknownClass1() {  }   /*is UNBOUND: No such class (non-existent package)*/  @ RequiresLock ( # ) public static void bad_staticMethod_unknownClass1a() {  }   /* is CONSISTENT */  @ RequiresLock ( # ) public static void staticMethod_paramLock(# final # p) {  } }
+for project TestLockSanityChecks (in method edu.cmu.cs.fluid.java.bind.ClassMemberSearch.findClassBodyMembers(-) thread "pool-1-thread-2")
+[2012-12-05 14:15:06    INFO] Couldn't find lock DoesntExist in com.surelogic.tree.SyntaxTreeNode@c07014a -- @ Regions ( { @ Region ( # ) , @ Region ( # ) , @ Region ( # ) } ) @ RegionLocks ( { @ RegionLock ( # ) , @ RegionLock ( # ) , @ RegionLock ( # ) } ) public class StateLock_LockNames extends java.lang.Object { public  StateLock_LockNames () { # }   /*is UNASSOCIATED: cannot qualify a static lock with this*/  @ RequiresLock ( # ) public void bad_thisQualified_staticLock() {  }   /* is CONSISTENT */  @ RequiresLock ( # ) public void good_implicit_staticLock() {  }   /* is CONSISTENT */  @ RequiresLock ( # ) public void good_typeQualified_staticLock() {  }   /*is UNASSOCIATED: type-qualified instance lock*/  @ RequiresLock ( # ) public void bad_typeQualifiedInstance() {  }   /* is UNBOUND: Lock doesn't exist*/  @ RequiresLock ( # ) public void bad_doesntExist() {  }   /* is CONSISTENT */  @ RequiresLock ( # ) public void good_exists_implicit_this() {  }   /* is CONSISTENT */  @ RequiresLock ( # ) public void good_exists_explicit_this() {  }   /*is UNBOUND: Parameter doesn't exist*/  @ RequiresLock ( # ) public void bad_param_doesnt_exist(# final # o) {  }   /* is UNBOUND: Lock doesn't exist*/  @ RequiresLock ( # ) public void bad_param_lock_doesnt_exist(# final # p) {  }   /* is CONSISTENT: parameter is non-final but unchanged*/  @ RequiresLock ( # ) public void good_param_nonfinal(# # p) {  }   /* is CONSISTENT */  @ RequiresLock ( # ) public void good_param_is_good(# final # p) {  }   /*is UNASSOCIATED: cannot use 'this' on static method*/  @ RequiresLock ( # ) public static void bad_static_use_of_explicit_this() {  }   /*is UNASSOCIATED: cannot use 'this' (implicit) on static method*/  @ RequiresLock ( # ) public static void bad_static_use_of_implicit_this() {  }   /*is CONSISTENT*/  @ RequiresLock ( # ) public static void good_staticMethod_implicit_staticLock() {  }   /* is CONSISTENT */  @ RequiresLock ( # ) public static void good_staticMethod_typeQualified_staticLock() {  }   /*is UNBOUND: static use of this with unknown region*/  @ RequiresLock ( # ) public static void bad_staticMethod_unknownRegionWithThis() {  }   /*is UNBOUND: static use of this (implicit) with unknown region*/  @ RequiresLock ( # ) public static void bad_staticMethod_unknownRegionImplicitThis() {  }   /*is UNBOUND: No such class (default package)*/  @ RequiresLock ( # ) public static void bad_staticMethod_unknownClass1() {  }   /*is UNBOUND: No such class (non-existent package)*/  @ RequiresLock ( # ) public static void bad_staticMethod_unknownClass1a() {  }   /* is CONSISTENT */  @ RequiresLock ( # ) public static void staticMethod_paramLock(# final # p) {  } }
+for project TestLockSanityChecks (in method edu.cmu.cs.fluid.java.bind.ClassMemberSearch.findClassBodyMembers(-) thread "pool-1-thread-2")
+[2012-12-05 14:15:06    INFO] Couldn't find lock DoesntExist in com.surelogic.tree.SyntaxTreeNode@c07014a -- @ Regions ( { @ Region ( # ) , @ Region ( # ) , @ Region ( # ) } ) @ RegionLocks ( { @ RegionLock ( # ) , @ RegionLock ( # ) , @ RegionLock ( # ) } ) public class StateLock_LockNames extends java.lang.Object { public  StateLock_LockNames () { # }   /*is UNASSOCIATED: cannot qualify a static lock with this*/  @ RequiresLock ( # ) public void bad_thisQualified_staticLock() {  }   /* is CONSISTENT */  @ RequiresLock ( # ) public void good_implicit_staticLock() {  }   /* is CONSISTENT */  @ RequiresLock ( # ) public void good_typeQualified_staticLock() {  }   /*is UNASSOCIATED: type-qualified instance lock*/  @ RequiresLock ( # ) public void bad_typeQualifiedInstance() {  }   /* is UNBOUND: Lock doesn't exist*/  @ RequiresLock ( # ) public void bad_doesntExist() {  }   /* is CONSISTENT */  @ RequiresLock ( # ) public void good_exists_implicit_this() {  }   /* is CONSISTENT */  @ RequiresLock ( # ) public void good_exists_explicit_this() {  }   /*is UNBOUND: Parameter doesn't exist*/  @ RequiresLock ( # ) public void bad_param_doesnt_exist(# final # o) {  }   /* is UNBOUND: Lock doesn't exist*/  @ RequiresLock ( # ) public void bad_param_lock_doesnt_exist(# final # p) {  }   /* is CONSISTENT: parameter is non-final but unchanged*/  @ RequiresLock ( # ) public void good_param_nonfinal(# # p) {  }   /* is CONSISTENT */  @ RequiresLock ( # ) public void good_param_is_good(# final # p) {  }   /*is UNASSOCIATED: cannot use 'this' on static method*/  @ RequiresLock ( # ) public static void bad_static_use_of_explicit_this() {  }   /*is UNASSOCIATED: cannot use 'this' (implicit) on static method*/  @ RequiresLock ( # ) public static void bad_static_use_of_implicit_this() {  }   /*is CONSISTENT*/  @ RequiresLock ( # ) public static void good_staticMethod_implicit_staticLock() {  }   /* is CONSISTENT */  @ RequiresLock ( # ) public static void good_staticMethod_typeQualified_staticLock() {  }   /*is UNBOUND: static use of this with unknown region*/  @ RequiresLock ( # ) public static void bad_staticMethod_unknownRegionWithThis() {  }   /*is UNBOUND: static use of this (implicit) with unknown region*/  @ RequiresLock ( # ) public static void bad_staticMethod_unknownRegionImplicitThis() {  }   /*is UNBOUND: No such class (default package)*/  @ RequiresLock ( # ) public static void bad_staticMethod_unknownClass1() {  }   /*is UNBOUND: No such class (non-existent package)*/  @ RequiresLock ( # ) public static void bad_staticMethod_unknownClass1a() {  }   /* is CONSISTENT */  @ RequiresLock ( # ) public static void staticMethod_paramLock(# final # p) {  } }
+for project TestLockSanityChecks (in method edu.cmu.cs.fluid.java.bind.ClassMemberSearch.findClassBodyMembers(-) thread "pool-1-thread-2")
+[2012-12-05 14:15:06    INFO] Couldn't find lock DoesntExist in com.surelogic.tree.SyntaxTreeNode@c07014a -- @ Regions ( { @ Region ( # ) , @ Region ( # ) , @ Region ( # ) } ) @ RegionLocks ( { @ RegionLock ( # ) , @ RegionLock ( # ) , @ RegionLock ( # ) } ) public class StateLock_LockNames extends java.lang.Object { public  StateLock_LockNames () { # }   /*is UNASSOCIATED: cannot qualify a static lock with this*/  @ RequiresLock ( # ) public void bad_thisQualified_staticLock() {  }   /* is CONSISTENT */  @ RequiresLock ( # ) public void good_implicit_staticLock() {  }   /* is CONSISTENT */  @ RequiresLock ( # ) public void good_typeQualified_staticLock() {  }   /*is UNASSOCIATED: type-qualified instance lock*/  @ RequiresLock ( # ) public void bad_typeQualifiedInstance() {  }   /* is UNBOUND: Lock doesn't exist*/  @ RequiresLock ( # ) public void bad_doesntExist() {  }   /* is CONSISTENT */  @ RequiresLock ( # ) public void good_exists_implicit_this() {  }   /* is CONSISTENT */  @ RequiresLock ( # ) public void good_exists_explicit_this() {  }   /*is UNBOUND: Parameter doesn't exist*/  @ RequiresLock ( # ) public void bad_param_doesnt_exist(# final # o) {  }   /* is UNBOUND: Lock doesn't exist*/  @ RequiresLock ( # ) public void bad_param_lock_doesnt_exist(# final # p) {  }   /* is CONSISTENT: parameter is non-final but unchanged*/  @ RequiresLock ( # ) public void good_param_nonfinal(# # p) {  }   /* is CONSISTENT */  @ RequiresLock ( # ) public void good_param_is_good(# final # p) {  }   /*is UNASSOCIATED: cannot use 'this' on static method*/  @ RequiresLock ( # ) public static void bad_static_use_of_explicit_this() {  }   /*is UNASSOCIATED: cannot use 'this' (implicit) on static method*/  @ RequiresLock ( # ) public static void bad_static_use_of_implicit_this() {  }   /*is CONSISTENT*/  @ RequiresLock ( # ) public static void good_staticMethod_implicit_staticLock() {  }   /* is CONSISTENT */  @ RequiresLock ( # ) public static void good_staticMethod_typeQualified_staticLock() {  }   /*is UNBOUND: static use of this with unknown region*/  @ RequiresLock ( # ) public static void bad_staticMethod_unknownRegionWithThis() {  }   /*is UNBOUND: static use of this (implicit) with unknown region*/  @ RequiresLock ( # ) public static void bad_staticMethod_unknownRegionImplicitThis() {  }   /*is UNBOUND: No such class (default package)*/  @ RequiresLock ( # ) public static void bad_staticMethod_unknownClass1() {  }   /*is UNBOUND: No such class (non-existent package)*/  @ RequiresLock ( # ) public static void bad_staticMethod_unknownClass1a() {  }   /* is CONSISTENT */  @ RequiresLock ( # ) public static void staticMethod_paramLock(# final # p) {  } }
+for project TestLockSanityChecks (in method edu.cmu.cs.fluid.java.bind.ClassMemberSearch.findClassBodyMembers(-) thread "pool-1-thread-2")
+[2012-12-05 14:15:06    INFO] Couldn't find lock DoesntExist in com.surelogic.tree.SyntaxTreeNode@4dbb3e34 -- @ PolicyLocks ( { @ PolicyLock ( # ) , @ PolicyLock ( # ) , @ PolicyLock ( # ) } ) public class PolicyLock_LockNames extends java.lang.Object { public  PolicyLock_LockNames () { # }   /*is UNASSOCIATED: cannot qualify a static lock with this*/  @ RequiresLock ( # ) public void bad_thisQualified_staticLock() {  }   /* is CONSISTENT */  @ RequiresLock ( # ) public void good_implicit_staticLock() {  }   /* is CONSISTENT */  @ RequiresLock ( # ) public void good_typeQualified_staticLock() {  }   /*is UNASSOCIATED: type-qualified instance lock*/  @ RequiresLock ( # ) public void bad_typeQualifiedInstance() {  }   /* is UNBOUND: Lock doesn't exist*/  @ RequiresLock ( # ) public void bad_doesntExist() {  }   /* is CONSISTENT */  @ RequiresLock ( # ) public void good_exists_implicit_this() {  }   /* is CONSISTENT */  @ RequiresLock ( # ) public void good_exists_explicit_this() {  }   /*is UNBOUND: Parameter doesn't exist*/  @ RequiresLock ( # ) public void bad_param_doesnt_exist(# final # o) {  }   /* is UNBOUND: Lock doesn't exist*/  @ RequiresLock ( # ) public void bad_param_lock_doesnt_exist(# final # p) {  }   /* is CONSISTENT: parameter is non-final, but not changed */  @ RequiresLock ( # ) public void good_param_nonfinal(# # p) {  }   /* is CONSISTENT */  @ RequiresLock ( # ) public void good_param_is_good(# final # p) {  }   /*is UNASSOCIATED: cannot use 'this' on static method*/  @ RequiresLock ( # ) public static void bad_static_use_of_explicit_this() {  }   /*is UNASSOCIATED: cannot use 'this' (implicit) on static method*/  @ RequiresLock ( # ) public static void bad_static_use_of_implicit_this() {  }   /*is CONSISTENT*/  @ RequiresLock ( # ) public static void good_staticMethod_implicit_staticLock() {  }   /* is CONSISTENT */  @ RequiresLock ( # ) public static void good_staticMethod_typeQualified_staticLock() {  }   /*is UNBOUND: static use of this with unknown region*/  @ RequiresLock ( # ) public static void bad_staticMethod_unknownRegionWithThis() {  }   /*is UNBOUND: static use of this (implicit) with unknown region*/  @ RequiresLock ( # ) public static void bad_staticMethod_unknownRegionImplicitThis() {  }   /*is UNBOUND: No such class (default package)*/  @ RequiresLock ( # ) public static void bad_staticMethod_unknownClass1() {  }   /*is UNBOUND: No such class (non-existent package)*/  @ RequiresLock ( # ) public static void bad_staticMethod_unknownClass1a() {  }   /* is CONSISTENT */  @ RequiresLock ( # ) public static void staticMethod_paramLock(# final # p) {  } }
+for project TestLockSanityChecks (in method edu.cmu.cs.fluid.java.bind.ClassMemberSearch.findClassBodyMembers(-) thread "pool-1-thread-2")
+[2012-12-05 14:15:06    INFO] Couldn't find lock DoesntExist in com.surelogic.tree.SyntaxTreeNode@4dbb3e34 -- @ PolicyLocks ( { @ PolicyLock ( # ) , @ PolicyLock ( # ) , @ PolicyLock ( # ) } ) public class PolicyLock_LockNames extends java.lang.Object { public  PolicyLock_LockNames () { # }   /*is UNASSOCIATED: cannot qualify a static lock with this*/  @ RequiresLock ( # ) public void bad_thisQualified_staticLock() {  }   /* is CONSISTENT */  @ RequiresLock ( # ) public void good_implicit_staticLock() {  }   /* is CONSISTENT */  @ RequiresLock ( # ) public void good_typeQualified_staticLock() {  }   /*is UNASSOCIATED: type-qualified instance lock*/  @ RequiresLock ( # ) public void bad_typeQualifiedInstance() {  }   /* is UNBOUND: Lock doesn't exist*/  @ RequiresLock ( # ) public void bad_doesntExist() {  }   /* is CONSISTENT */  @ RequiresLock ( # ) public void good_exists_implicit_this() {  }   /* is CONSISTENT */  @ RequiresLock ( # ) public void good_exists_explicit_this() {  }   /*is UNBOUND: Parameter doesn't exist*/  @ RequiresLock ( # ) public void bad_param_doesnt_exist(# final # o) {  }   /* is UNBOUND: Lock doesn't exist*/  @ RequiresLock ( # ) public void bad_param_lock_doesnt_exist(# final # p) {  }   /* is CONSISTENT: parameter is non-final, but not changed */  @ RequiresLock ( # ) public void good_param_nonfinal(# # p) {  }   /* is CONSISTENT */  @ RequiresLock ( # ) public void good_param_is_good(# final # p) {  }   /*is UNASSOCIATED: cannot use 'this' on static method*/  @ RequiresLock ( # ) public static void bad_static_use_of_explicit_this() {  }   /*is UNASSOCIATED: cannot use 'this' (implicit) on static method*/  @ RequiresLock ( # ) public static void bad_static_use_of_implicit_this() {  }   /*is CONSISTENT*/  @ RequiresLock ( # ) public static void good_staticMethod_implicit_staticLock() {  }   /* is CONSISTENT */  @ RequiresLock ( # ) public static void good_staticMethod_typeQualified_staticLock() {  }   /*is UNBOUND: static use of this with unknown region*/  @ RequiresLock ( # ) public static void bad_staticMethod_unknownRegionWithThis() {  }   /*is UNBOUND: static use of this (implicit) with unknown region*/  @ RequiresLock ( # ) public static void bad_staticMethod_unknownRegionImplicitThis() {  }   /*is UNBOUND: No such class (default package)*/  @ RequiresLock ( # ) public static void bad_staticMethod_unknownClass1() {  }   /*is UNBOUND: No such class (non-existent package)*/  @ RequiresLock ( # ) public static void bad_staticMethod_unknownClass1a() {  }   /* is CONSISTENT */  @ RequiresLock ( # ) public static void staticMethod_paramLock(# final # p) {  } }
+for project TestLockSanityChecks (in method edu.cmu.cs.fluid.java.bind.ClassMemberSearch.findClassBodyMembers(-) thread "pool-1-thread-2")
+[2012-12-05 14:15:06    INFO] Couldn't find lock DoesntExist in com.surelogic.tree.SyntaxTreeNode@4dbb3e34 -- @ PolicyLocks ( { @ PolicyLock ( # ) , @ PolicyLock ( # ) , @ PolicyLock ( # ) } ) public class PolicyLock_LockNames extends java.lang.Object { public  PolicyLock_LockNames () { # }   /*is UNASSOCIATED: cannot qualify a static lock with this*/  @ RequiresLock ( # ) public void bad_thisQualified_staticLock() {  }   /* is CONSISTENT */  @ RequiresLock ( # ) public void good_implicit_staticLock() {  }   /* is CONSISTENT */  @ RequiresLock ( # ) public void good_typeQualified_staticLock() {  }   /*is UNASSOCIATED: type-qualified instance lock*/  @ RequiresLock ( # ) public void bad_typeQualifiedInstance() {  }   /* is UNBOUND: Lock doesn't exist*/  @ RequiresLock ( # ) public void bad_doesntExist() {  }   /* is CONSISTENT */  @ RequiresLock ( # ) public void good_exists_implicit_this() {  }   /* is CONSISTENT */  @ RequiresLock ( # ) public void good_exists_explicit_this() {  }   /*is UNBOUND: Parameter doesn't exist*/  @ RequiresLock ( # ) public void bad_param_doesnt_exist(# final # o) {  }   /* is UNBOUND: Lock doesn't exist*/  @ RequiresLock ( # ) public void bad_param_lock_doesnt_exist(# final # p) {  }   /* is CONSISTENT: parameter is non-final, but not changed */  @ RequiresLock ( # ) public void good_param_nonfinal(# # p) {  }   /* is CONSISTENT */  @ RequiresLock ( # ) public void good_param_is_good(# final # p) {  }   /*is UNASSOCIATED: cannot use 'this' on static method*/  @ RequiresLock ( # ) public static void bad_static_use_of_explicit_this() {  }   /*is UNASSOCIATED: cannot use 'this' (implicit) on static method*/  @ RequiresLock ( # ) public static void bad_static_use_of_implicit_this() {  }   /*is CONSISTENT*/  @ RequiresLock ( # ) public static void good_staticMethod_implicit_staticLock() {  }   /* is CONSISTENT */  @ RequiresLock ( # ) public static void good_staticMethod_typeQualified_staticLock() {  }   /*is UNBOUND: static use of this with unknown region*/  @ RequiresLock ( # ) public static void bad_staticMethod_unknownRegionWithThis() {  }   /*is UNBOUND: static use of this (implicit) with unknown region*/  @ RequiresLock ( # ) public static void bad_staticMethod_unknownRegionImplicitThis() {  }   /*is UNBOUND: No such class (default package)*/  @ RequiresLock ( # ) public static void bad_staticMethod_unknownClass1() {  }   /*is UNBOUND: No such class (non-existent package)*/  @ RequiresLock ( # ) public static void bad_staticMethod_unknownClass1a() {  }   /* is CONSISTENT */  @ RequiresLock ( # ) public static void staticMethod_paramLock(# final # p) {  } }
+for project TestLockSanityChecks (in method edu.cmu.cs.fluid.java.bind.ClassMemberSearch.findClassBodyMembers(-) thread "pool-1-thread-2")
+[2012-12-05 14:15:06    INFO] Couldn't find lock DoesntExist in com.surelogic.tree.SyntaxTreeNode@4dbb3e34 -- @ PolicyLocks ( { @ PolicyLock ( # ) , @ PolicyLock ( # ) , @ PolicyLock ( # ) } ) public class PolicyLock_LockNames extends java.lang.Object { public  PolicyLock_LockNames () { # }   /*is UNASSOCIATED: cannot qualify a static lock with this*/  @ RequiresLock ( # ) public void bad_thisQualified_staticLock() {  }   /* is CONSISTENT */  @ RequiresLock ( # ) public void good_implicit_staticLock() {  }   /* is CONSISTENT */  @ RequiresLock ( # ) public void good_typeQualified_staticLock() {  }   /*is UNASSOCIATED: type-qualified instance lock*/  @ RequiresLock ( # ) public void bad_typeQualifiedInstance() {  }   /* is UNBOUND: Lock doesn't exist*/  @ RequiresLock ( # ) public void bad_doesntExist() {  }   /* is CONSISTENT */  @ RequiresLock ( # ) public void good_exists_implicit_this() {  }   /* is CONSISTENT */  @ RequiresLock ( # ) public void good_exists_explicit_this() {  }   /*is UNBOUND: Parameter doesn't exist*/  @ RequiresLock ( # ) public void bad_param_doesnt_exist(# final # o) {  }   /* is UNBOUND: Lock doesn't exist*/  @ RequiresLock ( # ) public void bad_param_lock_doesnt_exist(# final # p) {  }   /* is CONSISTENT: parameter is non-final, but not changed */  @ RequiresLock ( # ) public void good_param_nonfinal(# # p) {  }   /* is CONSISTENT */  @ RequiresLock ( # ) public void good_param_is_good(# final # p) {  }   /*is UNASSOCIATED: cannot use 'this' on static method*/  @ RequiresLock ( # ) public static void bad_static_use_of_explicit_this() {  }   /*is UNASSOCIATED: cannot use 'this' (implicit) on static method*/  @ RequiresLock ( # ) public static void bad_static_use_of_implicit_this() {  }   /*is CONSISTENT*/  @ RequiresLock ( # ) public static void good_staticMethod_implicit_staticLock() {  }   /* is CONSISTENT */  @ RequiresLock ( # ) public static void good_staticMethod_typeQualified_staticLock() {  }   /*is UNBOUND: static use of this with unknown region*/  @ RequiresLock ( # ) public static void bad_staticMethod_unknownRegionWithThis() {  }   /*is UNBOUND: static use of this (implicit) with unknown region*/  @ RequiresLock ( # ) public static void bad_staticMethod_unknownRegionImplicitThis() {  }   /*is UNBOUND: No such class (default package)*/  @ RequiresLock ( # ) public static void bad_staticMethod_unknownClass1() {  }   /*is UNBOUND: No such class (non-existent package)*/  @ RequiresLock ( # ) public static void bad_staticMethod_unknownClass1a() {  }   /* is CONSISTENT */  @ RequiresLock ( # ) public static void staticMethod_paramLock(# final # p) {  } }
+for project TestLockSanityChecks (in method edu.cmu.cs.fluid.java.bind.ClassMemberSearch.findClassBodyMembers(-) thread "pool-1-thread-2")
+[GC 78677K->62985K(93464K), 0.0062729 secs]
+[GC 80009K->62610K(93464K), 0.0025827 secs]
+##SUBTASK_DONE
+##WORK, 1
+Starting analyses
+Starting parallel ThreadEffectsModule [0]: 55 for org.eclipse.jdt.launching.JRE_CONTAINER
+##SUBTASK, Starting parallel ThreadEffectsModule [0]: 55 for org.eclipse.jdt.launching.JRE_CONTAINER
+##SUBTASK_DONE
+##WORK, 1
+Starting parallel ThreadEffectsModule [0]: 55 for TestLockSanityChecks
+##SUBTASK, Starting parallel ThreadEffectsModule [0]: 55 for TestLockSanityChecks
+##SUBTASK_DONE
+##WORK, 1
+Starting parallel LayersAnalysis [1]: 55 for org.eclipse.jdt.launching.JRE_CONTAINER
+##SUBTASK, Starting parallel LayersAnalysis [1]: 55 for org.eclipse.jdt.launching.JRE_CONTAINER
+##SUBTASK_DONE
+##WORK, 1
+Starting parallel LayersAnalysis [1]: 55 for TestLockSanityChecks
+##SUBTASK, Starting parallel LayersAnalysis [1]: 55 for TestLockSanityChecks
+##SUBTASK_DONE
+##WORK, 1
+Starting parallel EffectsAnalysis [2]: 55 for org.eclipse.jdt.launching.JRE_CONTAINER
+##SUBTASK, Starting parallel EffectsAnalysis [2]: 55 for org.eclipse.jdt.launching.JRE_CONTAINER
+##SUBTASK_DONE
+##WORK, 1
+Starting parallel EffectsAnalysis [2]: 55 for TestLockSanityChecks
+##SUBTASK, Starting parallel EffectsAnalysis [2]: 55 for TestLockSanityChecks
+[GC 79634K->63549K(93464K), 0.0037620 secs]
+##SUBTASK_DONE
+##WORK, 1
+Starting parallel ParameterizedTypeAnalysis [3]: 55 for org.eclipse.jdt.launching.JRE_CONTAINER
+##SUBTASK, Starting parallel ParameterizedTypeAnalysis [3]: 55 for org.eclipse.jdt.launching.JRE_CONTAINER
+##SUBTASK_DONE
+##WORK, 1
+Starting parallel ParameterizedTypeAnalysis [3]: 55 for TestLockSanityChecks
+##SUBTASK, Starting parallel ParameterizedTypeAnalysis [3]: 55 for TestLockSanityChecks
+##SUBTASK_DONE
+##WORK, 1
+Starting parallel LockAnalysis [4]: 55 for org.eclipse.jdt.launching.JRE_CONTAINER
+##SUBTASK, Starting parallel LockAnalysis [4]: 55 for org.eclipse.jdt.launching.JRE_CONTAINER
+##SUBTASK_DONE
+##WORK, 1
+Starting parallel LockAnalysis [4]: 55 for TestLockSanityChecks
+##SUBTASK, Starting parallel LockAnalysis [4]: 55 for TestLockSanityChecks
+##SUBTASK_DONE
+##WORK, 1
+Starting parallel EqualityAnalysis [5]: 55 for org.eclipse.jdt.launching.JRE_CONTAINER
+##SUBTASK, Starting parallel EqualityAnalysis [5]: 55 for org.eclipse.jdt.launching.JRE_CONTAINER
+##SUBTASK_DONE
+##WORK, 1
+Starting parallel EqualityAnalysis [5]: 55 for TestLockSanityChecks
+##SUBTASK, Starting parallel EqualityAnalysis [5]: 55 for TestLockSanityChecks
+##SUBTASK_DONE
+##WORK, 1
+Starting PARALLEL UniquenessAnalysisModule [6]: 55 for org.eclipse.jdt.launching.JRE_CONTAINER
+##SUBTASK, Starting PARALLEL UniquenessAnalysisModule [6]: 55 for org.eclipse.jdt.launching.JRE_CONTAINER
+##SUBTASK_DONE
+##WORK, 1
+Starting PARALLEL UniquenessAnalysisModule [6]: 55 for TestLockSanityChecks
+##SUBTASK, Starting PARALLEL UniquenessAnalysisModule [6]: 55 for TestLockSanityChecks
+##SUBTASK_DONE
+##WORK, 1
+Starting parallel UtilityAnalysis [7]: 55 for org.eclipse.jdt.launching.JRE_CONTAINER
+##SUBTASK, Starting parallel UtilityAnalysis [7]: 55 for org.eclipse.jdt.launching.JRE_CONTAINER
+##SUBTASK_DONE
+##WORK, 1
+Starting parallel UtilityAnalysis [7]: 55 for TestLockSanityChecks
+##SUBTASK, Starting parallel UtilityAnalysis [7]: 55 for TestLockSanityChecks
+##SUBTASK_DONE
+##WORK, 1
+Starting parallel SingletonAnalysis [8]: 55 for org.eclipse.jdt.launching.JRE_CONTAINER
+##SUBTASK, Starting parallel SingletonAnalysis [8]: 55 for org.eclipse.jdt.launching.JRE_CONTAINER
+##SUBTASK_DONE
+##WORK, 1
+Starting parallel SingletonAnalysis [8]: 55 for TestLockSanityChecks
+##SUBTASK, Starting parallel SingletonAnalysis [8]: 55 for TestLockSanityChecks
+##SUBTASK_DONE
+##WORK, 1
+Updating consistency proof
+[GC 80573K->64192K(93464K), 0.0031678 secs]
+Creating snapshot: /Users/aarong/Work/Eclipse-Workspaces/Eclipse-4.2/Fluid Regression/.jsure-data/TestLockSanityChecks-2012.12.05-at-14.15.01.976/running_or_crashed_sea_snapshot.xml.gz
+[GC 81216K->65013K(93464K), 0.0048035 secs]
+[GC 82037K->65830K(93464K), 0.0051079 secs]
+[GC 82854K->66745K(93464K), 0.0047471 secs]
+[GC 83769K->67480K(93464K), 0.0035183 secs]
+[GC 84504K->68251K(93464K), 0.0033479 secs]
+[GC 85275K->69013K(93464K), 0.0034302 secs]
+[GC 86037K->69780K(93464K), 0.0032292 secs]
+[GC 86804K->70596K(93464K), 0.0041235 secs]
+[GC 70932K(93464K), 0.0018805 secs]
+[GC 87620K->71508K(93464K), 0.0039298 secs]
+[GC 88532K->72227K(93464K), 0.0031213 secs]
+Done in 8797 ms.
+ThreadEffectsModule	: 6 ms
+LayersAnalysis	: 24 ms
+EffectsAnalysis	: 92 ms
+ParameterizedTypeAnalysis	: 9 ms
+LockAnalysis	: 135 ms
+EqualityAnalysis	: 7 ms
+UniquenessAnalysisModule	: 75 ms
+UtilityAnalysis	: 8 ms
+SingletonAnalysis	: 7 ms
+[2012-12-05 14:15:12    INFO] partial bindings = 8651 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+[2012-12-05 14:15:12    INFO] full bindings = 2907 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+cached = 0
+totalT = 0
+#Performance data for TestLockSanityChecks
+#Wed Dec 05 14:15:12 EST 2012
+jsure.Add.required=0
+jsure.All.analyses=363
+jsure.Binding.before.canon=102
+jsure.Binding.full.time=704
+jsure.Binding.partial.time=500
+jsure.Bindings.full=2907
+jsure.Bindings.partial=8651
+jsure.Canonicalization=365
+jsure.Cleanup=2
+jsure.Destroy.time=26
+jsure.Drop.creation=35
+jsure.Find.canon.time=13
+jsure.Parsing=1070
+jsure.Promise.parsing=628
+jsure.Promise.scrubbing=2180
+jsure.Rewriting=249
+jsure.Sea.export=3708
+jsure.Sea.update=197
+jsure.Total.JSure.time=8797
+jsure.Total.blocks=375
+jsure.Total.canonical=6640
+jsure.Total.decls=775
+jsure.Total.destroyed=1141
+jsure.Total.gced=42
+jsure.Total.nodes=61403
+jsure.Total.stmts=574
+jsure.Total.try.destroyed=1141
+jsure.analysis.EffectsAnalysis=92
+jsure.analysis.EqualityAnalysis=7
+jsure.analysis.LayersAnalysis=24
+jsure.analysis.LockAnalysis=135
+jsure.analysis.ParameterizedTypeAnalysis=9
+jsure.analysis.SingletonAnalysis=7
+jsure.analysis.ThreadEffectsModule=6
+jsure.analysis.UniquenessAnalysisModule=75
+jsure.analysis.UtilityAnalysis=8
+jsure.num.threads=8
+##DONE
+Renaming snapshot: /Users/aarong/Work/Eclipse-Workspaces/Eclipse-4.2/Fluid Regression/.jsure-data/TestLockSanityChecks-2012.12.05-at-14.15.01.976/sea_snapshot.xml.gz
+Done with JSure!
+Scanning complete (10023 ms)
+No socket to close
+Closing std streams
+Process result after waiting = 0
