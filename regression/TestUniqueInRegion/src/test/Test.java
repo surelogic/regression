@@ -30,7 +30,7 @@ public class Test {
   @Unique
   private static Object good12 = new Object();
   
-  // BAD: final static field
+  // Good: final static field --- Used to be bad, but now aggregates into Static
   @Unique
   private final static Object bad10 = new Object();
 }
