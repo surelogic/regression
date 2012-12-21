@@ -7,7 +7,7 @@ public class TestNullable {
 	final Object field = null;
 	
 	@Nullable("return")
-	void foo(@Nullable Object f) {
-		
+	Object foo(@Nullable Object f) {
+		return null;
 	}
 }

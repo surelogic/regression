@@ -7,7 +7,7 @@ public class TestNonNull {
 	final Object field = null;
 	
 	@NonNull("return")
-	void foo(@NonNull Object f) {
-		
+	Object foo(@NonNull Object f) {
+		return new Object();
 	}
 }
