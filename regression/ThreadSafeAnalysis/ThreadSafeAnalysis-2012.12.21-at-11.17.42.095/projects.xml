@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<projects path="ThreadSafeAnalysis-2012.12.21-at-11.17.42.095"
+ location="C:\qa\test\workspaces\regression\ThreadSafeAnalysis"
+
+ date="-2012.12.21-at-11.17.42.095">
+
+  <project id="0"
+   name="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"
+   is-exported="true"
+   contains-java-lang-object="true">
+
+    <jar path="C:\Program Files\Java\jdk1.6.0_31\jre\lib\resources.jar"
+     orig-path="C:\Program Files\Java\jdk1.6.0_31\jre\lib\resources.jar"
+     is-exported="true"/>
+
+    <jar path="C:\Program Files\Java\jdk1.6.0_31\jre\lib\rt.jar"
+     orig-path="C:\Program Files\Java\jdk1.6.0_31\jre\lib\rt.jar"
+     is-exported="true"/>
+
+    <jar path="C:\Program Files\Java\jdk1.6.0_31\jre\lib\jsse.jar"
+     orig-path="C:\Program Files\Java\jdk1.6.0_31\jre\lib\jsse.jar"
+     is-exported="true"/>
+
+    <jar path="C:\Program Files\Java\jdk1.6.0_31\jre\lib\jce.jar"
+     orig-path="C:\Program Files\Java\jdk1.6.0_31\jre\lib\jce.jar"
+     is-exported="true"/>
+
+    <jar path="C:\Program Files\Java\jdk1.6.0_31\jre\lib\charsets.jar"
+     orig-path="C:\Program Files\Java\jdk1.6.0_31\jre\lib\charsets.jar"
+     is-exported="true"/>
+
+    <jar path="C:\Program Files\Java\jdk1.6.0_31\jre\lib\ext\dnsns.jar"
+     orig-path="C:\Program Files\Java\jdk1.6.0_31\jre\lib\ext\dnsns.jar"
+     is-exported="true"/>
+
+    <jar path="C:\Program Files\Java\jdk1.6.0_31\jre\lib\ext\localedata.jar"
+     orig-path="C:\Program Files\Java\jdk1.6.0_31\jre\lib\ext\localedata.jar"
+     is-exported="true"/>
+
+    <jar path="C:\Program Files\Java\jdk1.6.0_31\jre\lib\ext\sunjce_provider.jar"
+     orig-path="C:\Program Files\Java\jdk1.6.0_31\jre\lib\ext\sunjce_provider.jar"
+     is-exported="true"/>
+
+  </project>
+
+  <project id="1"
+   name="ThreadSafeAnalysis"
+   location="C:\qa\test\suites\regression\ThreadSafeAnalysis"
+   asSource="true"
+   sourceLevel="6">
+
+    <project name="ThreadSafeAnalysis"/>
+
+    <source path="src"
+     is-exported="true"/>
+
+    <project name="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+
+    <jar path="C:\qa\test\suites\regression\ThreadSafeAnalysis\promises-4.0.0.jar"
+     orig-path="C:\qa\test\suites\regression\ThreadSafeAnalysis\promises-4.0.0.jar"/>
+
+    <java-source-file path="ThreadSafeAnalysis/src/testFieldDeclarations/ContainableType.java"
+     qname="testFieldDeclarations.ContainableType"
+     location="C:\qa\test\suites\regression\ThreadSafeAnalysis\src\testFieldDeclarations\ContainableType.java"/>
+
+    <java-source-file path="ThreadSafeAnalysis/src/testFieldDeclarations/NotSafe.java"
+     qname="testFieldDeclarations.NotSafe"
+     location="C:\qa\test\suites\regression\ThreadSafeAnalysis\src\testFieldDeclarations\NotSafe.java"/>
+
+    <java-source-file path="ThreadSafeAnalysis/src/testFieldDeclarations/Safe.java"
+     qname="testFieldDeclarations.Safe"
+     location="C:\qa\test\suites\regression\ThreadSafeAnalysis\src\testFieldDeclarations\Safe.java"/>
+
+    <java-source-file path="ThreadSafeAnalysis/src/testFieldDeclarations/Safe2.java"
+     qname="testFieldDeclarations.Safe2"
+     location="C:\qa\test\suites\regression\ThreadSafeAnalysis\src\testFieldDeclarations\Safe2.java"/>
+
+    <java-source-file path="ThreadSafeAnalysis/src/testFieldDeclarations/Test.java"
+     qname="testFieldDeclarations.Test"
+     location="C:\qa\test\suites\regression\ThreadSafeAnalysis\src\testFieldDeclarations\Test.java"/>
+
+    <java-source-file path="ThreadSafeAnalysis/src/testFieldDeclarations/TestNoVerify.java"
+     qname="testFieldDeclarations.TestNoVerify"
+     location="C:\qa\test\suites\regression\ThreadSafeAnalysis\src\testFieldDeclarations\TestNoVerify.java"/>
+
+    <java-source-file path="ThreadSafeAnalysis/src/testFieldDeclarations/TestVouched.java"
+     qname="testFieldDeclarations.TestVouched"
+     location="C:\qa\test\suites\regression\ThreadSafeAnalysis\src\testFieldDeclarations\TestVouched.java"/>
+
+    <java-source-file path="ThreadSafeAnalysis/src/testSanityChecks/A.java"
+     qname="testSanityChecks.A"
+     location="C:\qa\test\suites\regression\ThreadSafeAnalysis\src\testSanityChecks\A.java"/>
+
+    <java-source-file path="ThreadSafeAnalysis/src/testSanityChecks/B.java"
+     qname="testSanityChecks.B"
+     location="C:\qa\test\suites\regression\ThreadSafeAnalysis\src\testSanityChecks\B.java"/>
+
+    <java-source-file path="ThreadSafeAnalysis/src/testSanityChecks/X.java"
+     qname="testSanityChecks.X"
+     location="C:\qa\test\suites\regression\ThreadSafeAnalysis\src\testSanityChecks\X.java"/>
+
+    <java-source-file path="ThreadSafeAnalysis/src/testSanityChecks/Y.java"
+     qname="testSanityChecks.Y"
+     location="C:\qa\test\suites\regression\ThreadSafeAnalysis\src\testSanityChecks\Y.java"/>
+
+    <java-source-file path="ThreadSafeAnalysis/src/vouch/EntityMgr.java"
+     qname="vouch.EntityMgr"
+     location="C:\qa\test\suites\regression\ThreadSafeAnalysis\src\vouch\EntityMgr.java"/>
+
+    <java-source-file path="ThreadSafeAnalysis/src/vouch/MutableEntityMgr.java"
+     qname="vouch.MutableEntityMgr"
+     location="C:\qa\test\suites\regression\ThreadSafeAnalysis\src\vouch\MutableEntityMgr.java"/>
+
+  <package name="vouch"/>
+
+  <package name="testSanityChecks"/>
+
+  <package name="testFieldDeclarations"/>
+
+  <option name="asSource"
+   value="true"/>
+
+  <option name="sourceLevel"
+   value="6"/>
+
+  </project>
+
+</projects>
+
