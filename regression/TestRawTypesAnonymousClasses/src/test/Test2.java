@@ -70,24 +70,24 @@ public class Test2 {
     
     public void mm() {
       /* Should track: this(anon class B) ... */
-      use(this); // NOT_RAW -- Assumed to be because there is no annotation otherwise
-      use(Test2.this); // NOT_RAW -- Assumed to be, no way right now to annotate qualified receivers as otherwise, but perhaps should add in the future
+      use(this); // NOT_NULL -- Assumed to be because there is no annotation otherwise
+      use(Test2.this); // NOT_NULL -- Assumed to be, no way right now to annotate qualified receivers as otherwise, but perhaps should add in the future
       
       new Y() {
         private boolean g = use(this); // Raw(Y)
         // no way to refer to the outer object created by the first anonymous class
-        private boolean ggg = use(Test2.this); // NOT_RAW
+        private boolean ggg = use(Test2.this); // NOT_NULL
         
         {
           use(this); // Raw(Y)
           // no way to refer to the outer object created by the first anonymous class
-          use(Test2.this); // NOT_RAW
+          use(Test2.this); // NOT_NULL
         }
       };
       
       // Anonymous class should not break these
-      use(this); // NOT_RAW
-      use(Test2.this); // NOT_RAW
+      use(this); // NOT_NULL
+      use(Test2.this); // NOT_NULL
     }
   };
 
@@ -157,24 +157,24 @@ public class Test2 {
     
     public void mm() {
       /* Should track: this(anon class B) ... */
-      use(this); // NOT_RAW -- Assumed to be because there is no annotation otherwise
-      use(Test2.this); // NOT_RAW -- Assumed to be, no way right now to annotate qualified receivers as otherwise, but perhaps should add in the future
+      use(this); // NOT_NULL -- Assumed to be because there is no annotation otherwise
+      use(Test2.this); // NOT_NULL -- Assumed to be, no way right now to annotate qualified receivers as otherwise, but perhaps should add in the future
       
       new Y() {
         private boolean g = use(this); // Raw(Y)
         // no way to refer to the outer object created by the first anonymous class
-        private boolean ggg = use(Test2.this); // NOT_RAW
+        private boolean ggg = use(Test2.this); // NOT_NULL
         
         {
           use(this); // Raw(Y)
           // no way to refer to the outer object created by the first anonymous class
-          use(Test2.this); // NOT_RAW
+          use(Test2.this); // NOT_NULL
         }
       };
       
       // Anonymous class should not break these
-      use(this); // NOT_RAW
-      use(Test2.this); // NOT_RAW
+      use(this); // NOT_NULL
+      use(Test2.this); // NOT_NULL
     }
   };
 
@@ -244,24 +244,24 @@ public class Test2 {
       
       public void mm() {
         /* Should track: this(anon class B) ... */
-        use(this); // NOT_RAW -- Assumed to be because there is no annotation otherwise
-        use(Test2.this); // NOT_RAW -- Assumed to be, no way right now to annotate qualified receivers as otherwise, but perhaps should add in the future
+        use(this); // NOT_NULL -- Assumed to be because there is no annotation otherwise
+        use(Test2.this); // NOT_NULL -- Assumed to be, no way right now to annotate qualified receivers as otherwise, but perhaps should add in the future
         
         new Y() {
           private boolean g = use(this); // Raw(Y)
           // no way to refer to the outer object created by the first anonymous class
-          private boolean ggg = use(Test2.this); // NOT_RAW
+          private boolean ggg = use(Test2.this); // NOT_NULL
           
           {
             use(this); // Raw(Y)
             // no way to refer to the outer object created by the first anonymous class
-            use(Test2.this); // NOT_RAW
+            use(Test2.this); // NOT_NULL
           }
         };
         
         // Anonymous class should not break these
-        use(this); // NOT_RAW
-        use(Test2.this); // NOT_RAW
+        use(this); // NOT_NULL
+        use(Test2.this); // NOT_NULL
       }
     };
   }

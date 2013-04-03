@@ -37,7 +37,7 @@ public class TestParams {
     use(s); // @Nullable
     
     try {
-      // stuff
+      System.out.println("foo");
     } catch (final Exception e) {
       p1 = e; // @NonNull
       use(p1); // @NonNull
