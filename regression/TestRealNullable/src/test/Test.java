@@ -51,10 +51,11 @@ public class Test {
   
   
 
+  @SuppressWarnings("unused")
   public void test(final boolean flag, final C p1, final @Raw C p2) {
-    @Raw C l1;
+    @Raw C l1 = new C();
     C l2;
-    @Raw(upTo="test.A") C l3;
+    @Raw(upTo="test.A") C l3 = new C();
     C l4;
     
     
@@ -70,6 +71,7 @@ public class Test {
   @NonNull
   private Object getNonNull() { return new Object(); }
   
+  @SuppressWarnings("unused")
   public void testNonNullLocals(final boolean flag, final int v,
       final @NonNull Object p1, final Object p2) {
     @NonNull Object l1 = "not null"; // good
