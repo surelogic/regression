@@ -11,6 +11,12 @@ public class Test {
 	@GuardedBy("map")
 	int bar;
 	
+	@GuardedBy("map")
+	Object o;
+	
+	@GuardedBy("map")
+	final String s = "";
+	
 	@GuardedBy("Test.Inner.class")
 	static int baz;	
 	
@@ -26,5 +32,9 @@ public class Test {
 			bar++;
 			return map.get(key);
 		}
+	}
+	
+	class Inner {
+		
 	}
 }

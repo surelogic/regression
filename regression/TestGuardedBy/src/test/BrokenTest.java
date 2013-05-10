@@ -17,6 +17,9 @@ public class BrokenTest {
 	@GuardedBy("sLock")
 	int bar3;
 	
+	@GuardedBy("map")
+	final int bar4 = 0;
+	
 	static final Object sLock = new Object();
 	
 	@GuardedBy("Inner.class")
