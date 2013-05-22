@@ -42,8 +42,11 @@ public class BrokenTest {
 	}
 	
 	class Inner {					
+		@GuardedBy("Test.this") // Not an outer class!
+		boolean nonsensical; 
+		
 		// Rejected by the lock sanity checks
-		@GuardedBy("Test.this" /* is CONSISTENT */) 
+		@GuardedBy("BrokenTest.this" /* is CONSISTENT */) 
 		int count;
 	}
 }
