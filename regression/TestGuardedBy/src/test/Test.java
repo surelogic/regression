@@ -37,4 +37,19 @@ public class Test {
 	class Inner {
 		
 	}
+	
+	@GuardedBy("this") 
+	int getFoo() {
+		return foo;
+	}
+	
+	@GuardedBy("map")
+	int getBar() {
+		return bar;
+	}
+	
+	@GuardedBy("Test.Inner.class") 
+	static int getBaz() {
+		return baz;
+	}
 }
