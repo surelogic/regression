@@ -21,20 +21,20 @@ public class TestParams {
     p2 = null;
     p3 = null;
     
-    use(p1); // @Nullable
-    use(p2); // @Nullable
-    use(p3); // @Nullable
+    use(p1); // null
+    use(p2); // null
+    use(p3); // null
     
     z = x;  // @NonNull
     use(z); // @NonNull
     
     Object q = flag ? p1 : z;  // @Nullable / @NonNull
     Object r = flag ? z : x;   // @NonNull / @NonNull 
-    Object s = flag ? p2 : p3; // @Nullable / @Nullable
+    Object s = flag ? p2 : p3; // null / null
     
     use(q); // @Nullable
     use(r); // @NonNull
-    use(s); // @Nullable
+    use(s); // null
     
     try {
       System.out.println("foo");

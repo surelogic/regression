@@ -1,0 +1,447 @@
+Boot classpath: /Users/aarong/git/jsure/fluid/lib/runtime/javac.jar
+Boot classpath: /Eclipses/eclipse-SDK-4.2-macosx-cocoa-x86_64/plugins/org.eclipse.jdt.debug_3.7.100.v20120529-1702/jdi.jar
+Boot classpath: /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/classes.jar
+Boot classpath: /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/ui.jar
+Boot classpath: /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/jsse.jar
+Boot classpath: /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/jce.jar
+Boot classpath: /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/charsets.jar
+Path: /Users/aarong/git/common/common/lib/runtime/extra166y.jar
+Path: /Users/aarong/git/common/common/lib/runtime/trove-3.0.3.jar
+Path: /Users/aarong/git/jsure/fluid/lib/runtime/log4j-1.3alpha-8.jar
+Path: /Users/aarong/git/jsure/fluid/bin
+Path: /Users/aarong/git/jsure/fluid/lib/runtime/sablejbdd-0.02.jar
+Path: /Users/aarong/git/common/common/lib/runtime/commons-lang3-3.1.jar
+Path: /Users/aarong/git/jsure/fluid/lib/runtime/javac.jar
+Path: /Users/aarong/git/common/common/lib/runtime/asm-commons-4.1.jar
+Path: /Users/aarong/git/jsure/fluid/lib/runtime/log4j-xml-1.3alpha-8.jar
+Path: /Users/aarong/git/common/common/lib/runtime/collections-generic-4.0.jar
+Path: /Users/aarong/git/common/common/lib/runtime/promises-4.4.0.jar
+Path: /Users/aarong/git/common/common/bin
+Path: /Users/aarong/git/jsure/fluid/lib/runtime/javadoc.jar
+Path: /Users/aarong/git/common/common/lib/runtime/antlr-runtime-3.1-sl.jar
+Path: /Users/aarong/git/common/common/lib/runtime/ant.jar
+Path: /Users/aarong/git/jsure/fluid/lib/runtime/java-diff-utils-1.2.jar
+Path: /Users/aarong/git/common/common/lib/runtime/asm-4.1.jar
+Path: /Users/aarong/git/common/common/lib/runtime/derby.jar
+Path: /Users/aarong/git/common/common/lib/runtime/jsr166y.jar
+Starting process:
+	/Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Home/bin/java
+	-Dsurelogic.test.code=NONE
+	-XX:MaxPermSize=512m
+	-verbosegc
+	-DSureLogicX=true
+	-Dsl.run.dir=/Users/aarong/Work/Eclipse-Workspaces/Eclipse-4.2/Fluid Regression/.jsure-data/TestRealNullable-2013.08.01-at-14.15.01.699
+	-Dfluid.ir.versioning=Versioning.Off
+	-Dfluid.directory.url=file:/Users/aarong/git/jsure/fluid/
+	-Xmx2048m
+	-Xbootclasspath:/Users/aarong/git/jsure/fluid/lib/runtime/javac.jar:/Eclipses/eclipse-SDK-4.2-macosx-cocoa-x86_64/plugins/org.eclipse.jdt.debug_3.7.100.v20120529-1702/jdi.jar:/Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/classes.jar:/Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/ui.jar:/Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/jsse.jar:/Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/jce.jar:/Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/charsets.jar
+	-classpath
+	/Users/aarong/git/common/common/lib/runtime/extra166y.jar:/Users/aarong/git/common/common/lib/runtime/trove-3.0.3.jar:/Users/aarong/git/jsure/fluid/lib/runtime/log4j-1.3alpha-8.jar:/Users/aarong/git/jsure/fluid/bin:/Users/aarong/git/jsure/fluid/lib/runtime/sablejbdd-0.02.jar:/Users/aarong/git/common/common/lib/runtime/commons-lang3-3.1.jar:/Users/aarong/git/jsure/fluid/lib/runtime/javac.jar:/Users/aarong/git/common/common/lib/runtime/asm-commons-4.1.jar:/Users/aarong/git/jsure/fluid/lib/runtime/log4j-xml-1.3alpha-8.jar:/Users/aarong/git/common/common/lib/runtime/collections-generic-4.0.jar:/Users/aarong/git/common/common/lib/runtime/promises-4.4.0.jar:/Users/aarong/git/common/common/bin:/Users/aarong/git/jsure/fluid/lib/runtime/javadoc.jar:/Users/aarong/git/common/common/lib/runtime/antlr-runtime-3.1-sl.jar:/Users/aarong/git/common/common/lib/runtime/ant.jar:/Users/aarong/git/jsure/fluid/lib/runtime/java-diff-utils-1.2.jar:/Users/aarong/git/common/common/lib/runtime/asm-4.1.jar:/Users/aarong/git/common/common/lib/runtime/derby.jar:/Users/aarong/git/common/common/lib/runtime/jsr166y.jar
+	com.surelogic.javac.jobs.RemoteJSureRun
+First line = JVM started: 1.6.0_26
+Log level: INFO
+Created reader
+Created monitor
+Created log handler
+Running RemoteJSureRun
+[GC 17024K->941K(83008K), 0.0031363 secs]
+runPath = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-4.2/Fluid Regression/.jsure-data/TestRealNullable-2013.08.01-at-14.15.01.699
+Creating run: TestRealNullable-2013.08.01-at-14.15.01.699
+projects = TestRealNullable
+Loading edu.cmu.cs.fluid.make.nonabductive.proposals = false
+Loading edu.cmu.cs.fluid.load.all.classes = false
+Loading edu.cmu.cs.fluid.timeoutFlag = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BCA = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ConstantExpr = false
+Loading edu.cmu.cs.fluid.physMemoryInMB = 8192
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.EqualityAssurance = false
+Loading edu.cmu.cs.fluid.xml.diff.directory = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-4.2/Fluid Regression/.jsure-data/promises-xml
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.UniquenessAssuranceUWM = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.IRConcurrencyDetector = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Singleton = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.UniquenessAssuranceUWM_ALL = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.CALLS = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BenchmarkingUniquenessSE = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ThreadEffectAssurance2 = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Binder = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.cliend.eclipse.TypeBasedAlias = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Nullable = true
+Loading edu.cmu.cs.fluid.scan.may.run.uniqueness = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.UniquenessAssuranceUWM_SE = false
+Loading edu.cmu.cs.fluid.tool-memory-mb = 2048
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.DefinitelyAssigned = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.UniquenessAssuranceSE = false
+Loading edu.cmu.cs.fluid.analysis.thread.count = 8
+Loading edu.cmu.cs.fluid.timeoutSec = 11
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.NonNullRawTypes = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LayersAssurance = false
+Loading edu.cmu.cs.fluid.default.JRE = org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6
+Loading edu.cmu.cs.fluid.timeoutWarningSec = 30
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Utility = false
+Loading edu.cmu.cs.fluid.modeling.problem.filters = 00000012com\.apple.*00000013com\.oracle.*00000010com\.sun.*00000014.*\.internal.*00000023.*BakedArrayList\.class00000007apple.*00000008oracle.*00000011quicktime.*00000005sun.*
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BenchmarkingUniquenessNew_SE = false
+Loading edu.cmu.cs.fluid.scan.may.use.compression = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ParameterizedType = false
+Loading edu.cmu.cs.fluid.allow.javadoc.annos = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BenchmarkingUniquenessNew = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LockAssurance3 = false
+Loading edu.cmu.cs.fluid.data.directory = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-4.2/Fluid Regression/.jsure-data
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.EffectAssurance2 = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.StructureAssurance = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LV = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Types = false
+JSure data dir = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-4.2/Fluid Regression/.jsure-data
+XML diff dir   = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-4.2/Fluid Regression/.jsure-data/promises-xml
+Looking for JRE in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6
+default JRE = org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6
+Initialized job
+##TASK, Scan, 68
+Initializing ...
+##SUBTASK, Initializing ...
+monitor = com.surelogic.common.jobs.remote.AbstractRemoteSLJob$Monitor@2c22d166
+singleThread = false
+[GC 17904K->10082K(83008K), 0.0065436 secs]
+Done initializing org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: 0
+[GC 27106K->27137K(83008K), 0.0130089 secs]
+[GC 44161K->31368K(83008K), 0.0147916 secs]
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: Done initializing with /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: Done initializing with /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: Done initializing with /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: Done initializing with /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: Done initializing with /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: Done initializing with /System/Library/Java/Extensions/AppleScriptEngine.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: Done initializing with /System/Library/Java/Extensions/dns_sd.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: Done initializing with /System/Library/Java/Extensions/j3daudio.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: Done initializing with /System/Library/Java/Extensions/j3dcore.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: Done initializing with /System/Library/Java/Extensions/j3dutils.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: Done initializing with /System/Library/Java/Extensions/jai_codec.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: Done initializing with /System/Library/Java/Extensions/jai_core.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: Done initializing with /System/Library/Java/Extensions/mlibwrapper_jai.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: Done initializing with /System/Library/Java/Extensions/MRJToolkit.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: Done initializing with /System/Library/Java/Extensions/QTJava.zip
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: Done initializing with /System/Library/Java/Extensions/vecmath.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: Done initializing with /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/apple_provider.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: Done initializing with /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/dnsns.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: Done initializing with /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/localedata.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: Done initializing with /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/sunjce_provider.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: Done initializing with /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/sunpkcs11.jar
+Done initializing TestRealNullable: 4
+Trying to find /Users/aarong/Work/Eclipse-Workspaces/Eclipse-4.2/Fluid Regression/.jsure-data/TestRealNullable-2013.08.01-at-14.15.01.699/source/TestRealNullable.bin.zip
+TestRealNullable: TestRealNullable -> org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6
+Done initializing org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: 0
+[GC 48392K->38851K(83008K), 0.0203456 secs]
+[GC 39124K(83008K), 0.0032288 secs]
+TestRealNullable: Done initializing with /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar
+TestRealNullable: Done initializing with /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar
+TestRealNullable: Done initializing with /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar
+TestRealNullable: Done initializing with /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar
+TestRealNullable: Done initializing with /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar
+TestRealNullable: Done initializing with /System/Library/Java/Extensions/AppleScriptEngine.jar
+TestRealNullable: Done initializing with /System/Library/Java/Extensions/dns_sd.jar
+TestRealNullable: Done initializing with /System/Library/Java/Extensions/j3daudio.jar
+TestRealNullable: Done initializing with /System/Library/Java/Extensions/j3dcore.jar
+TestRealNullable: Done initializing with /System/Library/Java/Extensions/j3dutils.jar
+TestRealNullable: Done initializing with /System/Library/Java/Extensions/jai_codec.jar
+TestRealNullable: Done initializing with /System/Library/Java/Extensions/jai_core.jar
+TestRealNullable: Done initializing with /System/Library/Java/Extensions/mlibwrapper_jai.jar
+TestRealNullable: Done initializing with /System/Library/Java/Extensions/MRJToolkit.jar
+TestRealNullable: Done initializing with /System/Library/Java/Extensions/QTJava.zip
+TestRealNullable: Done initializing with /System/Library/Java/Extensions/vecmath.jar
+TestRealNullable: Done initializing with /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/apple_provider.jar
+TestRealNullable: Done initializing with /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/dnsns.jar
+TestRealNullable: Done initializing with /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/localedata.jar
+TestRealNullable: Done initializing with /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/sunjce_provider.jar
+TestRealNullable: Done initializing with /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/sunpkcs11.jar
+TestRealNullable: Done initializing with /Users/aarong/git/regression/regression/TestRealNullable/promises-4.4.0.jar
+Created com.surelogic.analysis.nullable.NullableModule
+##SUBTASK_DONE
+##WORK, 1
+Assuming that the projects are run in dependency order
+Parsing ...
+##SUBTASK, Parsing ...
+Done adapting 0 files for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6
+##SUBTASK_DONE
+##WORK, 1
+Parsing ...
+##SUBTASK, Parsing ...
+JCP: warning: [options] bootstrap class path not set in conjunction with -source 1.6
+Adapting 4 CUTs
+Done adapting 4 files for TestRealNullable
+##SUBTASK_DONE
+##WORK, 1
+Handling references for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6
+##SUBTASK, Handling references for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6
+Handling 17 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6
+Setting project for Object from org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6
+Handling 32 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6
+[GC 55875K->43927K(83008K), 0.0145901 secs]
+Handling 45 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6
+[GC 52534K(83008K), 0.0090584 secs]
+Handling 54 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6
+Handling 25 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6
+Handling 12 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6
+[GC 60907K->49382K(88756K), 0.0131160 secs]
+[GC 49650K(88756K), 0.0042884 secs]
+Handling 4 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6
+Handling 4 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6
+Handling 3 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6
+##SUBTASK_DONE
+##WORK, 1
+Handling references for TestRealNullable
+##SUBTASK, Handling references for TestRealNullable
+Handling 20 dangling refs for TestRealNullable
+Handling 6 dangling refs for TestRealNullable
+##SUBTASK_DONE
+##WORK, 1
+Updated 197 files in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6
+Updated 29 files in TestRealNullable
+Parsing ASTs  = 316 ms
+Handling refs = 621 ms
+Rewriting CUs
+##SUBTASK, Rewriting CUs
+Handling references for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6
+##SUBTASK, Handling references for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6
+Handling 193 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6
+##SUBTASK_DONE
+##WORK, 1
+Updated 1 files in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6
+Handling references for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6
+##SUBTASK, Handling references for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6
+Handling 190 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6
+##SUBTASK_DONE
+##WORK, 1
+Updated 1 files in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6
+Rewriting TestRealNullable/src/test/Test.java
+Handling references for TestRealNullable
+##SUBTASK, Handling references for TestRealNullable
+Handling 23 dangling refs for TestRealNullable
+##SUBTASK_DONE
+##WORK, 1
+Updated 1 files in TestRealNullable
+Rewriting TestRealNullable/src/test/C.java
+Rewriting TestRealNullable/src/test/B.java
+Rewriting TestRealNullable/src/test/A.java
+Handling references for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6
+##SUBTASK, Handling references for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6
+Handling 189 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6
+##SUBTASK_DONE
+##WORK, 1
+Updated 1 files in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6
+##SUBTASK_DONE
+##WORK, 1
+[2013-08-01 14:15:04    INFO] partial bindings = 0 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+[2013-08-01 14:15:04    INFO] full bindings = 0 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+Canonicalizing ASTs
+##SUBTASK, Canonicalizing ASTs
+[2013-08-01 14:15:04    INFO] partial bindings = 102 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+[2013-08-01 14:15:04    INFO] full bindings = 131 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+Canonicalizing TestRealNullable/src/test/Test.java
+Canonicalizing TestRealNullable/src/test/C.java
+Canonicalizing TestRealNullable/src/test/B.java
+Canonicalizing TestRealNullable/src/test/A.java
+Binding = 46 ms
+##SUBTASK_DONE
+##WORK, 1
+Handling references for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6
+##SUBTASK, Handling references for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6
+Handling 17 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6
+##SUBTASK_DONE
+##WORK, 1
+Handling references for TestRealNullable
+##SUBTASK, Handling references for TestRealNullable
+Handling 17 dangling refs for TestRealNullable
+##SUBTASK_DONE
+##WORK, 1
+Updated 197 files in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6
+Updated 29 files in TestRealNullable
+Creating drops
+##SUBTASK, Creating drops
+Done sorting CodeInfos
+##SUBTASK_DONE
+##WORK, 1
+Parsing promises
+##SUBTASK, Parsing promises
+Added 6 promises for java.lang.NoSuchFieldException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@1aa6a14b
+[GC 66406K->51650K(88756K), 0.0083194 secs]
+Added 18 promises for java.net.URISyntaxException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@6816af10
+Added 22 promises for java.lang.Number in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@75ffcdd7
+Added 6 promises for java.lang.NumberFormatException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@62dba79e
+Added 6 promises for java.io.Writer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@5bdd6941
+Added 1 promises for java.lang.ref.ReferenceQueue in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@39a83e27
+Added 6 promises for java.io.PrintStream in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@659046f7
+Added 4 promises for test.C in TestRealNullable: com.surelogic.tree.SyntaxTreeNode@5f048099
+Added 6 promises for java.io.PrintWriter in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@71f3668b
+Added 27 promises for java.lang.Object in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@673b087c
+Added 14 promises for test.Test in TestRealNullable: com.surelogic.tree.SyntaxTreeNode@37c9313b
+Added 2 promises for java.lang.ref.SoftReference in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@46bf27
+Added 12 promises for java.lang.RuntimeException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@3e43042d
+[GC 68674K->52834K(88756K), 0.0047267 secs]
+Added 12 promises for java.lang.CharSequence in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@5e0b66ca
+Added 70 promises for java.lang.Double in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@305918a5
+Added 6 promises for java.lang.IllegalAccessException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@6d0ff6e0
+Added 9 promises for java.lang.Enum in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@7b895df8
+Added 12 promises for java.lang.Exception in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@af1cdfb
+Added 143 promises for java.lang.AbstractStringBuilder in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@1f78e951
+Added 12 promises for java.lang.SecurityException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@4e4e745
+Added 12 promises for java.lang.IllegalArgumentException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@906f9df
+Added 73 promises for java.lang.Float in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@29ba204d
+Added 6 promises for java.lang.Appendable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@651cf5b3
+Added 61 promises for java.lang.Short in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@3eaa2c1c
+Added 12 promises for java.lang.Class in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@7d4720ef
+[GC 69858K->52695K(88756K), 0.0020448 secs]
+Added 6 promises for java.lang.InstantiationException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@5e0a24a9
+Added 12 promises for java.lang.reflect.InvocationTargetException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@61e076f3
+Added 96 promises for java.lang.Integer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@2da0ae6d
+Added 37 promises for java.lang.Boolean in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@57ec49db
+Added 18 promises for java.nio.CharBuffer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@187531e4
+Added 15 promises for java.lang.ClassNotFoundException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@78f4bf31
+[GC 69718K->53278K(88756K), 0.0030603 secs]
+Added 6 promises for java.lang.InterruptedException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@33854518
+Added 6 promises for java.lang.CloneNotSupportedException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@683267dd
+Added 3 promises for java.lang.Iterable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@75bf48de
+Added 59 promises for java.lang.Byte in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@7db94a3f
+Added 16 promises for java.util.AbstractSet in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@32772504
+[GC 62800K(88756K), 0.0018411 secs]
+Added 21 promises for java.util.Stack in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@353098df
+Added 96 promises for java.lang.Long in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@2bd7a082
+[GC 69298K->52143K(103232K), 0.0025831 secs]
+WARNING: Couldn't find removeAll(java.util.Collection) in java.util.ArrayList
+WARNING: Couldn't find hashCode() in java.util.ArrayList
+Added 298 promises for java.lang.String in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@560b32b6
+WARNING: Couldn't find equals(java.lang.Object) in java.util.ArrayList
+WARNING: Couldn't find iterator() in java.util.ArrayList
+WARNING: Couldn't find listIterator(int) in java.util.ArrayList
+WARNING: Couldn't find listIterator() in java.util.ArrayList
+WARNING: Couldn't find subList(int, int) in java.util.ArrayList
+WARNING: Couldn't find retainAll(java.util.Collection) in java.util.ArrayList
+Added 80 promises for java.util.ArrayList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@5e0e1d51
+[GC 69167K->53019K(103232K), 0.0045027 secs]
+Added 157 promises for java.lang.StringBuffer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@74a5eac1
+WARNING: Couldn't find iterator() in java.util.Vector
+WARNING: Couldn't find listIterator(int) in java.util.Vector
+WARNING: Couldn't find listIterator() in java.util.Vector
+Added 54 promises for java.util.Collection in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@575830c4
+Added 47 promises for java.lang.Throwable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@4f3cd6
+Added 157 promises for java.util.Vector in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@6a4da220
+[GC 70043K->53084K(103232K), 0.0021614 secs]
+Added 87 promises for java.util.jar.Attributes in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@33037ca5
+Added 108 promises for java.lang.StringBuilder in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@5be24af0
+Added 138 promises for java.lang.Thread in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@7b6dadc2
+Added 64 promises for java.security.Provider in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@62472bf
+[GC 70108K->53768K(103232K), 0.0032812 secs]
+Added 29 promises for java.util.Dictionary in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@3cb30f
+Added 87 promises for java.util.Deque in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@ad99f2d
+Added 82 promises for java.util.Hashtable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@44bc8807
+Added 1 promises for java.lang.ThreadLocal in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@4df8b6e0
+Added 4 promises for java.util.Enumeration in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@1123065c
+Added 6 promises for java.util.Iterator in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@2a5e8368
+[GC 70792K->53636K(103232K), 0.0030445 secs]
+Added 45 promises for java.util.ResourceBundle in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@1793dac6
+Added 138 promises for java.util.LinkedList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@22722a97
+Added 73 promises for java.util.Properties in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@1dcd6a33
+Added 60 promises for java.util.HashMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@187b2e64
+Added 54 promises for java.util.Set in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@7ad698f7
+Added 18 promises for java.util.Queue in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@4278fac9
+Added 64 promises for java.util.Map in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@27d43d30
+[GC 70658K->54191K(103232K), 0.0028717 secs]
+Added 31 promises for java.util.SortedMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@79e7c7fb
+Added 89 promises for java.util.List in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@54bbec16
+Added 55 promises for java.util.AbstractCollection in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@4fbf1942
+Added 18 promises for java.util.ListIterator in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@3c1aa41a
+Added 60 promises for java.util.AbstractList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@3a6a2cf
+Added 105 promises for java.util.AbstractMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@15563bcf
+Added 29 promises for java.util.AbstractSequentialList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6: com.surelogic.tree.SyntaxTreeNode@193e6be6
+##SUBTASK_DONE
+##WORK, 1
+[GC 71215K->55147K(103232K), 0.0047398 secs]
+Scrubbing promises
+##SUBTASK, Scrubbing promises
+[GC 72171K->57741K(103232K), 0.0119236 secs]
+Creating RegionModel java.lang.Object.Instance for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6
+[GC 74765K->59339K(103232K), 0.0070702 secs]
+[GC 76363K->60347K(103232K), 0.0071754 secs]
+[GC 77371K->59992K(103232K), 0.0018263 secs]
+[2013-08-01 14:15:07    INFO] Couldn't find field ResourceBundle in com.surelogic.tree.SyntaxTreeNode@1793dac6 -- abstract public synchronized binary class ResourceBundle extends java.lang.Object { final private static binary class NoFallbackControl extends java.util.ResourceBundle . SingleFormatControl { # protected binary # NoFallbackControl # # # # public binary # # getFallbackLocale# # # } private static binary class SingleFormatControl extends java.util.ResourceBundle . Control { # protected binary # SingleFormatControl # # # # public binary # # getFormats# # # } public static binary class Control extends java.lang.Object { # final public static binary # #; # final public static binary # #; # final public static binary # #; # final public static binary # #; # final public static binary # #; # protected binary # Control # # # # final public static binary # # getControl# # # # final public static binary # # getNoFallbackControl# # # # public binary # # getFormats# # # # public binary # # getCandidateLocales# # # # public binary # # getFallbackLocale# # # # public binary # # newBundle# # # # public binary # # getTimeToLive# # # # public binary # # needsReload# # # # public binary # # toBundleName# # # # final public binary # # toResourceName# # # } final private static binary class BundleReference extends java.lang.ref.SoftReference <#> implements # . CacheKeyReference { # binary # BundleReference # # # # public binary # # getCacheKey# # # } final private static binary class LoaderReference extends java.lang.ref.WeakReference <#> implements # . CacheKeyReference { # binary # LoaderReference # # # # public binary # # getCacheKey# # # } abstract private static binary interface CacheKeyReference { # abstract public binary # # getCacheKey# # # } final private static binary class CacheKey extends java.lang.Object implements java.lang.Cloneable { # binary # CacheKey # # # # binary # # getName# # # # binary # # setName# # # # binary # # getLocale# # # # binary # # setLocale# # # # binary # # getLoader# # # # public binary # # equals# # # # public binary # # hashCode# # # # public binary # # clone# # # # binary # # getFormat# # # # binary # # setFormat# # # # public binary # # toString# # # } private static binary class RBClassLoader extends java.lang.ClassLoader { # private binary # RBClassLoader # # # # public binary # # loadClass# # # # public binary # # getResource# # # # public binary # # getResourceAsStream# # # # binary # RBClassLoader # # # } protected binary java.util.ResourceBundle parent #; final static binary boolean $assertionsDisabled #; public binary ResourceBundle () <compiled>; final public binary java.lang.String getString(# # arg0) <compiled>; final public binary java.lang.String [] getStringArray(# # arg0) <compiled>; final public binary java.lang.Object getObject(# # arg0) <compiled>; public binary java.util.Locale getLocale() <compiled>; protected binary void setParent(# # arg0) <compiled>; final public static binary java.util.ResourceBundle getBundle(# # arg0) <compiled>; final public static binary java.util.ResourceBundle getBundle(# # arg0, # # arg1) <compiled>; final public static binary java.util.ResourceBundle getBundle(# # arg0, # # arg1) <compiled>; final public static binary java.util.ResourceBundle getBundle(# # arg0, # # arg1, # # arg2) <compiled>; public static binary java.util.ResourceBundle getBundle(# # arg0, # # arg1, # # arg2) <compiled>; public static binary java.util.ResourceBundle getBundle(# # arg0, # # arg1, # # arg2, # # arg3) <compiled>; final public static binary void clearCache() <compiled>; final public static binary void clearCache(# # arg0) <compiled>; abstract protected binary java.lang.Object handleGetObject(# # arg0) <compiled>; abstract public binary java.util.Enumeration <#> getKeys() <compiled>; public binary boolean containsKey(# # arg0) <compiled>; public binary java.util.Set <#> keySet() <compiled>; protected binary java.util.Set <#> handleKeySet() <compiled>; }
+for project org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6 (in method edu.cmu.cs.fluid.java.bind.ClassMemberSearch.findClassBodyMembers(-) thread "pool-1-thread-1")
+[2013-08-01 14:15:07    INFO] Couldn't find field ResourceBundle in com.surelogic.tree.SyntaxTreeNode@1793dac6 -- abstract public synchronized binary class ResourceBundle extends java.lang.Object { final private static binary class NoFallbackControl extends java.util.ResourceBundle . SingleFormatControl { # protected binary # NoFallbackControl # # # # public binary # # getFallbackLocale# # # } private static binary class SingleFormatControl extends java.util.ResourceBundle . Control { # protected binary # SingleFormatControl # # # # public binary # # getFormats# # # } public static binary class Control extends java.lang.Object { # final public static binary # #; # final public static binary # #; # final public static binary # #; # final public static binary # #; # final public static binary # #; # protected binary # Control # # # # final public static binary # # getControl# # # # final public static binary # # getNoFallbackControl# # # # public binary # # getFormats# # # # public binary # # getCandidateLocales# # # # public binary # # getFallbackLocale# # # # public binary # # newBundle# # # # public binary # # getTimeToLive# # # # public binary # # needsReload# # # # public binary # # toBundleName# # # # final public binary # # toResourceName# # # } final private static binary class BundleReference extends java.lang.ref.SoftReference <#> implements # . CacheKeyReference { # binary # BundleReference # # # # public binary # # getCacheKey# # # } final private static binary class LoaderReference extends java.lang.ref.WeakReference <#> implements # . CacheKeyReference { # binary # LoaderReference # # # # public binary # # getCacheKey# # # } abstract private static binary interface CacheKeyReference { # abstract public binary # # getCacheKey# # # } final private static binary class CacheKey extends java.lang.Object implements java.lang.Cloneable { # binary # CacheKey # # # # binary # # getName# # # # binary # # setName# # # # binary # # getLocale# # # # binary # # setLocale# # # # binary # # getLoader# # # # public binary # # equals# # # # public binary # # hashCode# # # # public binary # # clone# # # # binary # # getFormat# # # # binary # # setFormat# # # # public binary # # toString# # # } private static binary class RBClassLoader extends java.lang.ClassLoader { # private binary # RBClassLoader # # # # public binary # # loadClass# # # # public binary # # getResource# # # # public binary # # getResourceAsStream# # # # binary # RBClassLoader # # # } protected binary java.util.ResourceBundle parent #; final static binary boolean $assertionsDisabled #; public binary ResourceBundle () <compiled>; final public binary java.lang.String getString(# # arg0) <compiled>; final public binary java.lang.String [] getStringArray(# # arg0) <compiled>; final public binary java.lang.Object getObject(# # arg0) <compiled>; public binary java.util.Locale getLocale() <compiled>; protected binary void setParent(# # arg0) <compiled>; final public static binary java.util.ResourceBundle getBundle(# # arg0) <compiled>; final public static binary java.util.ResourceBundle getBundle(# # arg0, # # arg1) <compiled>; final public static binary java.util.ResourceBundle getBundle(# # arg0, # # arg1) <compiled>; final public static binary java.util.ResourceBundle getBundle(# # arg0, # # arg1, # # arg2) <compiled>; public static binary java.util.ResourceBundle getBundle(# # arg0, # # arg1, # # arg2) <compiled>; public static binary java.util.ResourceBundle getBundle(# # arg0, # # arg1, # # arg2, # # arg3) <compiled>; final public static binary void clearCache() <compiled>; final public static binary void clearCache(# # arg0) <compiled>; abstract protected binary java.lang.Object handleGetObject(# # arg0) <compiled>; abstract public binary java.util.Enumeration <#> getKeys() <compiled>; public binary boolean containsKey(# # arg0) <compiled>; public binary java.util.Set <#> keySet() <compiled>; protected binary java.util.Set <#> handleKeySet() <compiled>; }
+for project org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6 (in method edu.cmu.cs.fluid.java.bind.ClassMemberSearch.findClassBodyMembers(-) thread "pool-1-thread-1")
+[2013-08-01 14:15:07    INFO] Couldn't find field ResourceBundle in com.surelogic.tree.SyntaxTreeNode@1793dac6 -- abstract public synchronized binary class ResourceBundle extends java.lang.Object { final private static binary class NoFallbackControl extends java.util.ResourceBundle . SingleFormatControl { # protected binary # NoFallbackControl # # # # public binary # # getFallbackLocale# # # } private static binary class SingleFormatControl extends java.util.ResourceBundle . Control { # protected binary # SingleFormatControl # # # # public binary # # getFormats# # # } public static binary class Control extends java.lang.Object { # final public static binary # #; # final public static binary # #; # final public static binary # #; # final public static binary # #; # final public static binary # #; # protected binary # Control # # # # final public static binary # # getControl# # # # final public static binary # # getNoFallbackControl# # # # public binary # # getFormats# # # # public binary # # getCandidateLocales# # # # public binary # # getFallbackLocale# # # # public binary # # newBundle# # # # public binary # # getTimeToLive# # # # public binary # # needsReload# # # # public binary # # toBundleName# # # # final public binary # # toResourceName# # # } final private static binary class BundleReference extends java.lang.ref.SoftReference <#> implements # . CacheKeyReference { # binary # BundleReference # # # # public binary # # getCacheKey# # # } final private static binary class LoaderReference extends java.lang.ref.WeakReference <#> implements # . CacheKeyReference { # binary # LoaderReference # # # # public binary # # getCacheKey# # # } abstract private static binary interface CacheKeyReference { # abstract public binary # # getCacheKey# # # } final private static binary class CacheKey extends java.lang.Object implements java.lang.Cloneable { # binary # CacheKey # # # # binary # # getName# # # # binary # # setName# # # # binary # # getLocale# # # # binary # # setLocale# # # # binary # # getLoader# # # # public binary # # equals# # # # public binary # # hashCode# # # # public binary # # clone# # # # binary # # getFormat# # # # binary # # setFormat# # # # public binary # # toString# # # } private static binary class RBClassLoader extends java.lang.ClassLoader { # private binary # RBClassLoader # # # # public binary # # loadClass# # # # public binary # # getResource# # # # public binary # # getResourceAsStream# # # # binary # RBClassLoader # # # } protected binary java.util.ResourceBundle parent #; final static binary boolean $assertionsDisabled #; public binary ResourceBundle () <compiled>; final public binary java.lang.String getString(# # arg0) <compiled>; final public binary java.lang.String [] getStringArray(# # arg0) <compiled>; final public binary java.lang.Object getObject(# # arg0) <compiled>; public binary java.util.Locale getLocale() <compiled>; protected binary void setParent(# # arg0) <compiled>; final public static binary java.util.ResourceBundle getBundle(# # arg0) <compiled>; final public static binary java.util.ResourceBundle getBundle(# # arg0, # # arg1) <compiled>; final public static binary java.util.ResourceBundle getBundle(# # arg0, # # arg1) <compiled>; final public static binary java.util.ResourceBundle getBundle(# # arg0, # # arg1, # # arg2) <compiled>; public static binary java.util.ResourceBundle getBundle(# # arg0, # # arg1, # # arg2) <compiled>; public static binary java.util.ResourceBundle getBundle(# # arg0, # # arg1, # # arg2, # # arg3) <compiled>; final public static binary void clearCache() <compiled>; final public static binary void clearCache(# # arg0) <compiled>; abstract protected binary java.lang.Object handleGetObject(# # arg0) <compiled>; abstract public binary java.util.Enumeration <#> getKeys() <compiled>; public binary boolean containsKey(# # arg0) <compiled>; public binary java.util.Set <#> keySet() <compiled>; protected binary java.util.Set <#> handleKeySet() <compiled>; }
+for project org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6 (in method edu.cmu.cs.fluid.java.bind.ClassMemberSearch.findClassBodyMembers(-) thread "pool-1-thread-1")
+[2013-08-01 14:15:07    INFO] Couldn't find field ResourceBundle in com.surelogic.tree.SyntaxTreeNode@1793dac6 -- abstract public synchronized binary class ResourceBundle extends java.lang.Object { final private static binary class NoFallbackControl extends java.util.ResourceBundle . SingleFormatControl { # protected binary # NoFallbackControl # # # # public binary # # getFallbackLocale# # # } private static binary class SingleFormatControl extends java.util.ResourceBundle . Control { # protected binary # SingleFormatControl # # # # public binary # # getFormats# # # } public static binary class Control extends java.lang.Object { # final public static binary # #; # final public static binary # #; # final public static binary # #; # final public static binary # #; # final public static binary # #; # protected binary # Control # # # # final public static binary # # getControl# # # # final public static binary # # getNoFallbackControl# # # # public binary # # getFormats# # # # public binary # # getCandidateLocales# # # # public binary # # getFallbackLocale# # # # public binary # # newBundle# # # # public binary # # getTimeToLive# # # # public binary # # needsReload# # # # public binary # # toBundleName# # # # final public binary # # toResourceName# # # } final private static binary class BundleReference extends java.lang.ref.SoftReference <#> implements # . CacheKeyReference { # binary # BundleReference # # # # public binary # # getCacheKey# # # } final private static binary class LoaderReference extends java.lang.ref.WeakReference <#> implements # . CacheKeyReference { # binary # LoaderReference # # # # public binary # # getCacheKey# # # } abstract private static binary interface CacheKeyReference { # abstract public binary # # getCacheKey# # # } final private static binary class CacheKey extends java.lang.Object implements java.lang.Cloneable { # binary # CacheKey # # # # binary # # getName# # # # binary # # setName# # # # binary # # getLocale# # # # binary # # setLocale# # # # binary # # getLoader# # # # public binary # # equals# # # # public binary # # hashCode# # # # public binary # # clone# # # # binary # # getFormat# # # # binary # # setFormat# # # # public binary # # toString# # # } private static binary class RBClassLoader extends java.lang.ClassLoader { # private binary # RBClassLoader # # # # public binary # # loadClass# # # # public binary # # getResource# # # # public binary # # getResourceAsStream# # # # binary # RBClassLoader # # # } protected binary java.util.ResourceBundle parent #; final static binary boolean $assertionsDisabled #; public binary ResourceBundle () <compiled>; final public binary java.lang.String getString(# # arg0) <compiled>; final public binary java.lang.String [] getStringArray(# # arg0) <compiled>; final public binary java.lang.Object getObject(# # arg0) <compiled>; public binary java.util.Locale getLocale() <compiled>; protected binary void setParent(# # arg0) <compiled>; final public static binary java.util.ResourceBundle getBundle(# # arg0) <compiled>; final public static binary java.util.ResourceBundle getBundle(# # arg0, # # arg1) <compiled>; final public static binary java.util.ResourceBundle getBundle(# # arg0, # # arg1) <compiled>; final public static binary java.util.ResourceBundle getBundle(# # arg0, # # arg1, # # arg2) <compiled>; public static binary java.util.ResourceBundle getBundle(# # arg0, # # arg1, # # arg2) <compiled>; public static binary java.util.ResourceBundle getBundle(# # arg0, # # arg1, # # arg2, # # arg3) <compiled>; final public static binary void clearCache() <compiled>; final public static binary void clearCache(# # arg0) <compiled>; abstract protected binary java.lang.Object handleGetObject(# # arg0) <compiled>; abstract public binary java.util.Enumeration <#> getKeys() <compiled>; public binary boolean containsKey(# # arg0) <compiled>; public binary java.util.Set <#> keySet() <compiled>; protected binary java.util.Set <#> handleKeySet() <compiled>; }
+for project org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6 (in method edu.cmu.cs.fluid.java.bind.ClassMemberSearch.findClassBodyMembers(-) thread "pool-1-thread-1")
+[2013-08-01 14:15:07    INFO] Couldn't find field ResourceBundle in com.surelogic.tree.SyntaxTreeNode@1793dac6 -- abstract public synchronized binary class ResourceBundle extends java.lang.Object { final private static binary class NoFallbackControl extends java.util.ResourceBundle . SingleFormatControl { # protected binary # NoFallbackControl # # # # public binary # # getFallbackLocale# # # } private static binary class SingleFormatControl extends java.util.ResourceBundle . Control { # protected binary # SingleFormatControl # # # # public binary # # getFormats# # # } public static binary class Control extends java.lang.Object { # final public static binary # #; # final public static binary # #; # final public static binary # #; # final public static binary # #; # final public static binary # #; # protected binary # Control # # # # final public static binary # # getControl# # # # final public static binary # # getNoFallbackControl# # # # public binary # # getFormats# # # # public binary # # getCandidateLocales# # # # public binary # # getFallbackLocale# # # # public binary # # newBundle# # # # public binary # # getTimeToLive# # # # public binary # # needsReload# # # # public binary # # toBundleName# # # # final public binary # # toResourceName# # # } final private static binary class BundleReference extends java.lang.ref.SoftReference <#> implements # . CacheKeyReference { # binary # BundleReference # # # # public binary # # getCacheKey# # # } final private static binary class LoaderReference extends java.lang.ref.WeakReference <#> implements # . CacheKeyReference { # binary # LoaderReference # # # # public binary # # getCacheKey# # # } abstract private static binary interface CacheKeyReference { # abstract public binary # # getCacheKey# # # } final private static binary class CacheKey extends java.lang.Object implements java.lang.Cloneable { # binary # CacheKey # # # # binary # # getName# # # # binary # # setName# # # # binary # # getLocale# # # # binary # # setLocale# # # # binary # # getLoader# # # # public binary # # equals# # # # public binary # # hashCode# # # # public binary # # clone# # # # binary # # getFormat# # # # binary # # setFormat# # # # public binary # # toString# # # } private static binary class RBClassLoader extends java.lang.ClassLoader { # private binary # RBClassLoader # # # # public binary # # loadClass# # # # public binary # # getResource# # # # public binary # # getResourceAsStream# # # # binary # RBClassLoader # # # } protected binary java.util.ResourceBundle parent #; final static binary boolean $assertionsDisabled #; public binary ResourceBundle () <compiled>; final public binary java.lang.String getString(# # arg0) <compiled>; final public binary java.lang.String [] getStringArray(# # arg0) <compiled>; final public binary java.lang.Object getObject(# # arg0) <compiled>; public binary java.util.Locale getLocale() <compiled>; protected binary void setParent(# # arg0) <compiled>; final public static binary java.util.ResourceBundle getBundle(# # arg0) <compiled>; final public static binary java.util.ResourceBundle getBundle(# # arg0, # # arg1) <compiled>; final public static binary java.util.ResourceBundle getBundle(# # arg0, # # arg1) <compiled>; final public static binary java.util.ResourceBundle getBundle(# # arg0, # # arg1, # # arg2) <compiled>; public static binary java.util.ResourceBundle getBundle(# # arg0, # # arg1, # # arg2) <compiled>; public static binary java.util.ResourceBundle getBundle(# # arg0, # # arg1, # # arg2, # # arg3) <compiled>; final public static binary void clearCache() <compiled>; final public static binary void clearCache(# # arg0) <compiled>; abstract protected binary java.lang.Object handleGetObject(# # arg0) <compiled>; abstract public binary java.util.Enumeration <#> getKeys() <compiled>; public binary boolean containsKey(# # arg0) <compiled>; public binary java.util.Set <#> keySet() <compiled>; protected binary java.util.Set <#> handleKeySet() <compiled>; }
+for project org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6 (in method edu.cmu.cs.fluid.java.bind.ClassMemberSearch.findClassBodyMembers(-) thread "pool-1-thread-1")
+[2013-08-01 14:15:07    INFO] Couldn't find field ResourceBundle in com.surelogic.tree.SyntaxTreeNode@1793dac6 -- abstract public synchronized binary class ResourceBundle extends java.lang.Object { final private static binary class NoFallbackControl extends java.util.ResourceBundle . SingleFormatControl { # protected binary # NoFallbackControl # # # # public binary # # getFallbackLocale# # # } private static binary class SingleFormatControl extends java.util.ResourceBundle . Control { # protected binary # SingleFormatControl # # # # public binary # # getFormats# # # } public static binary class Control extends java.lang.Object { # final public static binary # #; # final public static binary # #; # final public static binary # #; # final public static binary # #; # final public static binary # #; # protected binary # Control # # # # final public static binary # # getControl# # # # final public static binary # # getNoFallbackControl# # # # public binary # # getFormats# # # # public binary # # getCandidateLocales# # # # public binary # # getFallbackLocale# # # # public binary # # newBundle# # # # public binary # # getTimeToLive# # # # public binary # # needsReload# # # # public binary # # toBundleName# # # # final public binary # # toResourceName# # # } final private static binary class BundleReference extends java.lang.ref.SoftReference <#> implements # . CacheKeyReference { # binary # BundleReference # # # # public binary # # getCacheKey# # # } final private static binary class LoaderReference extends java.lang.ref.WeakReference <#> implements # . CacheKeyReference { # binary # LoaderReference # # # # public binary # # getCacheKey# # # } abstract private static binary interface CacheKeyReference { # abstract public binary # # getCacheKey# # # } final private static binary class CacheKey extends java.lang.Object implements java.lang.Cloneable { # binary # CacheKey # # # # binary # # getName# # # # binary # # setName# # # # binary # # getLocale# # # # binary # # setLocale# # # # binary # # getLoader# # # # public binary # # equals# # # # public binary # # hashCode# # # # public binary # # clone# # # # binary # # getFormat# # # # binary # # setFormat# # # # public binary # # toString# # # } private static binary class RBClassLoader extends java.lang.ClassLoader { # private binary # RBClassLoader # # # # public binary # # loadClass# # # # public binary # # getResource# # # # public binary # # getResourceAsStream# # # # binary # RBClassLoader # # # } protected binary java.util.ResourceBundle parent #; final static binary boolean $assertionsDisabled #; public binary ResourceBundle () <compiled>; final public binary java.lang.String getString(# # arg0) <compiled>; final public binary java.lang.String [] getStringArray(# # arg0) <compiled>; final public binary java.lang.Object getObject(# # arg0) <compiled>; public binary java.util.Locale getLocale() <compiled>; protected binary void setParent(# # arg0) <compiled>; final public static binary java.util.ResourceBundle getBundle(# # arg0) <compiled>; final public static binary java.util.ResourceBundle getBundle(# # arg0, # # arg1) <compiled>; final public static binary java.util.ResourceBundle getBundle(# # arg0, # # arg1) <compiled>; final public static binary java.util.ResourceBundle getBundle(# # arg0, # # arg1, # # arg2) <compiled>; public static binary java.util.ResourceBundle getBundle(# # arg0, # # arg1, # # arg2) <compiled>; public static binary java.util.ResourceBundle getBundle(# # arg0, # # arg1, # # arg2, # # arg3) <compiled>; final public static binary void clearCache() <compiled>; final public static binary void clearCache(# # arg0) <compiled>; abstract protected binary java.lang.Object handleGetObject(# # arg0) <compiled>; abstract public binary java.util.Enumeration <#> getKeys() <compiled>; public binary boolean containsKey(# # arg0) <compiled>; public binary java.util.Set <#> keySet() <compiled>; protected binary java.util.Set <#> handleKeySet() <compiled>; }
+for project org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6 (in method edu.cmu.cs.fluid.java.bind.ClassMemberSearch.findClassBodyMembers(-) thread "pool-1-thread-1")
+[2013-08-01 14:15:07    INFO] Couldn't find field ResourceBundle in com.surelogic.tree.SyntaxTreeNode@1793dac6 -- abstract public synchronized binary class ResourceBundle extends java.lang.Object { final private static binary class NoFallbackControl extends java.util.ResourceBundle . SingleFormatControl { # protected binary # NoFallbackControl # # # # public binary # # getFallbackLocale# # # } private static binary class SingleFormatControl extends java.util.ResourceBundle . Control { # protected binary # SingleFormatControl # # # # public binary # # getFormats# # # } public static binary class Control extends java.lang.Object { # final public static binary # #; # final public static binary # #; # final public static binary # #; # final public static binary # #; # final public static binary # #; # protected binary # Control # # # # final public static binary # # getControl# # # # final public static binary # # getNoFallbackControl# # # # public binary # # getFormats# # # # public binary # # getCandidateLocales# # # # public binary # # getFallbackLocale# # # # public binary # # newBundle# # # # public binary # # getTimeToLive# # # # public binary # # needsReload# # # # public binary # # toBundleName# # # # final public binary # # toResourceName# # # } final private static binary class BundleReference extends java.lang.ref.SoftReference <#> implements # . CacheKeyReference { # binary # BundleReference # # # # public binary # # getCacheKey# # # } final private static binary class LoaderReference extends java.lang.ref.WeakReference <#> implements # . CacheKeyReference { # binary # LoaderReference # # # # public binary # # getCacheKey# # # } abstract private static binary interface CacheKeyReference { # abstract public binary # # getCacheKey# # # } final private static binary class CacheKey extends java.lang.Object implements java.lang.Cloneable { # binary # CacheKey # # # # binary # # getName# # # # binary # # setName# # # # binary # # getLocale# # # # binary # # setLocale# # # # binary # # getLoader# # # # public binary # # equals# # # # public binary # # hashCode# # # # public binary # # clone# # # # binary # # getFormat# # # # binary # # setFormat# # # # public binary # # toString# # # } private static binary class RBClassLoader extends java.lang.ClassLoader { # private binary # RBClassLoader # # # # public binary # # loadClass# # # # public binary # # getResource# # # # public binary # # getResourceAsStream# # # # binary # RBClassLoader # # # } protected binary java.util.ResourceBundle parent #; final static binary boolean $assertionsDisabled #; public binary ResourceBundle () <compiled>; final public binary java.lang.String getString(# # arg0) <compiled>; final public binary java.lang.String [] getStringArray(# # arg0) <compiled>; final public binary java.lang.Object getObject(# # arg0) <compiled>; public binary java.util.Locale getLocale() <compiled>; protected binary void setParent(# # arg0) <compiled>; final public static binary java.util.ResourceBundle getBundle(# # arg0) <compiled>; final public static binary java.util.ResourceBundle getBundle(# # arg0, # # arg1) <compiled>; final public static binary java.util.ResourceBundle getBundle(# # arg0, # # arg1) <compiled>; final public static binary java.util.ResourceBundle getBundle(# # arg0, # # arg1, # # arg2) <compiled>; public static binary java.util.ResourceBundle getBundle(# # arg0, # # arg1, # # arg2) <compiled>; public static binary java.util.ResourceBundle getBundle(# # arg0, # # arg1, # # arg2, # # arg3) <compiled>; final public static binary void clearCache() <compiled>; final public static binary void clearCache(# # arg0) <compiled>; abstract protected binary java.lang.Object handleGetObject(# # arg0) <compiled>; abstract public binary java.util.Enumeration <#> getKeys() <compiled>; public binary boolean containsKey(# # arg0) <compiled>; public binary java.util.Set <#> keySet() <compiled>; protected binary java.util.Set <#> handleKeySet() <compiled>; }
+for project org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6 (in method edu.cmu.cs.fluid.java.bind.ClassMemberSearch.findClassBodyMembers(-) thread "pool-1-thread-1")
+[2013-08-01 14:15:07    INFO] Couldn't find field ResourceBundle in com.surelogic.tree.SyntaxTreeNode@1793dac6 -- abstract public synchronized binary class ResourceBundle extends java.lang.Object { final private static binary class NoFallbackControl extends java.util.ResourceBundle . SingleFormatControl { # protected binary # NoFallbackControl # # # # public binary # # getFallbackLocale# # # } private static binary class SingleFormatControl extends java.util.ResourceBundle . Control { # protected binary # SingleFormatControl # # # # public binary # # getFormats# # # } public static binary class Control extends java.lang.Object { # final public static binary # #; # final public static binary # #; # final public static binary # #; # final public static binary # #; # final public static binary # #; # protected binary # Control # # # # final public static binary # # getControl# # # # final public static binary # # getNoFallbackControl# # # # public binary # # getFormats# # # # public binary # # getCandidateLocales# # # # public binary # # getFallbackLocale# # # # public binary # # newBundle# # # # public binary # # getTimeToLive# # # # public binary # # needsReload# # # # public binary # # toBundleName# # # # final public binary # # toResourceName# # # } final private static binary class BundleReference extends java.lang.ref.SoftReference <#> implements # . CacheKeyReference { # binary # BundleReference # # # # public binary # # getCacheKey# # # } final private static binary class LoaderReference extends java.lang.ref.WeakReference <#> implements # . CacheKeyReference { # binary # LoaderReference # # # # public binary # # getCacheKey# # # } abstract private static binary interface CacheKeyReference { # abstract public binary # # getCacheKey# # # } final private static binary class CacheKey extends java.lang.Object implements java.lang.Cloneable { # binary # CacheKey # # # # binary # # getName# # # # binary # # setName# # # # binary # # getLocale# # # # binary # # setLocale# # # # binary # # getLoader# # # # public binary # # equals# # # # public binary # # hashCode# # # # public binary # # clone# # # # binary # # getFormat# # # # binary # # setFormat# # # # public binary # # toString# # # } private static binary class RBClassLoader extends java.lang.ClassLoader { # private binary # RBClassLoader # # # # public binary # # loadClass# # # # public binary # # getResource# # # # public binary # # getResourceAsStream# # # # binary # RBClassLoader # # # } protected binary java.util.ResourceBundle parent #; final static binary boolean $assertionsDisabled #; public binary ResourceBundle () <compiled>; final public binary java.lang.String getString(# # arg0) <compiled>; final public binary java.lang.String [] getStringArray(# # arg0) <compiled>; final public binary java.lang.Object getObject(# # arg0) <compiled>; public binary java.util.Locale getLocale() <compiled>; protected binary void setParent(# # arg0) <compiled>; final public static binary java.util.ResourceBundle getBundle(# # arg0) <compiled>; final public static binary java.util.ResourceBundle getBundle(# # arg0, # # arg1) <compiled>; final public static binary java.util.ResourceBundle getBundle(# # arg0, # # arg1) <compiled>; final public static binary java.util.ResourceBundle getBundle(# # arg0, # # arg1, # # arg2) <compiled>; public static binary java.util.ResourceBundle getBundle(# # arg0, # # arg1, # # arg2) <compiled>; public static binary java.util.ResourceBundle getBundle(# # arg0, # # arg1, # # arg2, # # arg3) <compiled>; final public static binary void clearCache() <compiled>; final public static binary void clearCache(# # arg0) <compiled>; abstract protected binary java.lang.Object handleGetObject(# # arg0) <compiled>; abstract public binary java.util.Enumeration <#> getKeys() <compiled>; public binary boolean containsKey(# # arg0) <compiled>; public binary java.util.Set <#> keySet() <compiled>; protected binary java.util.Set <#> handleKeySet() <compiled>; }
+for project org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6 (in method edu.cmu.cs.fluid.java.bind.ClassMemberSearch.findClassBodyMembers(-) thread "pool-1-thread-1")
+##SUBTASK_DONE
+##WORK, 1
+Starting analyses
+Starting parallel NullableModule [0]: 4 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6
+##SUBTASK, Starting parallel NullableModule [0]: 4 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6
+##SUBTASK_DONE
+##WORK, 1
+Starting parallel NullableModule [0]: 4 for TestRealNullable
+##SUBTASK, Starting parallel NullableModule [0]: 4 for TestRealNullable
+##SUBTASK_DONE
+##WORK, 1
+Updating consistency proof
+[GC 77016K->61112K(103232K), 0.0033295 secs]
+Creating snapshot: /Users/aarong/Work/Eclipse-Workspaces/Eclipse-4.2/Fluid Regression/.jsure-data/TestRealNullable-2013.08.01-at-14.15.01.699/running_or_crashed_sea_snapshot.xml.gz
+[GC 78136K->61818K(103232K), 0.0041226 secs]
+[GC 78842K->61876K(103232K), 0.0021164 secs]
+[GC 78900K->62848K(103232K), 0.0053404 secs]
+[GC 79872K->63887K(103232K), 0.0055086 secs]
+[GC 80911K->64533K(103232K), 0.0026296 secs]
+[GC 81557K->65278K(103232K), 0.0032273 secs]
+[GC 82302K->66038K(103232K), 0.0032713 secs]
+[GC 83062K->66800K(103232K), 0.0043616 secs]
+Done in 5531 ms.
+NullableModule	: 185 ms
+[2013-08-01 14:15:09    INFO] partial bindings = 5070 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+[2013-08-01 14:15:09    INFO] full bindings = 241 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+cached = 0
+totalT = 0
+#Performance data for TestRealNullable
+#Thu Aug 01 14:15:09 EDT 2013
+jsure.Add.required=0
+jsure.All.analyses=187
+jsure.Binding.before.canon=46
+jsure.Binding.full.time=128
+jsure.Binding.partial.time=208
+jsure.Bindings.full=241
+jsure.Bindings.partial=5070
+jsure.Canonicalization=115
+jsure.Cleanup=3
+jsure.Destroy.time=3
+jsure.Drop.creation=12
+jsure.Find.canon.time=3
+jsure.Parsing=944
+jsure.Promise.parsing=865
+jsure.Promise.scrubbing=2081
+jsure.Rewriting=124
+jsure.Sea.export=949
+jsure.Sea.update=251
+jsure.Total.JSure.time=5531
+jsure.Total.blocks=26
+jsure.Total.canonical=438
+jsure.Total.decls=47
+jsure.Total.destroyed=0
+jsure.Total.gced=0
+jsure.Total.loc=139
+jsure.Total.nodes=50087
+jsure.Total.stmts=67
+jsure.Total.try.destroyed=133
+jsure.analysis.NullableModule=185
+jsure.num.threads=8
+Javac making log: AnnotationRules
+##DONE
+Renaming snapshot: /Users/aarong/Work/Eclipse-Workspaces/Eclipse-4.2/Fluid Regression/.jsure-data/TestRealNullable-2013.08.01-at-14.15.01.699/sea_snapshot.xml.gz
+Done with JSure!
+Scanning complete (6915 ms)
+No socket to close
+Closing std streams
+Process result after waiting = 0
