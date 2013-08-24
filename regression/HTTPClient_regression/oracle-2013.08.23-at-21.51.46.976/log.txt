@@ -1,0 +1,2097 @@
+Boot classpath: /Users/aarong/git/jsure/fluid/lib/runtime/javac.jar
+Boot classpath: /Eclipses/eclipse-SDK-4.2-macosx-cocoa-x86_64/plugins/org.eclipse.jdt.debug_3.7.100.v20120529-1702/jdi.jar
+Boot classpath: /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/classes.jar
+Boot classpath: /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/ui.jar
+Boot classpath: /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/jsse.jar
+Boot classpath: /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/jce.jar
+Boot classpath: /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/charsets.jar
+Path: /Users/aarong/git/common/common/lib/runtime/extra166y.jar
+Path: /Users/aarong/git/common/common/lib/runtime/trove-3.0.3.jar
+Path: /Users/aarong/git/jsure/fluid/lib/runtime/log4j-1.3alpha-8.jar
+Path: /Users/aarong/git/jsure/fluid/bin
+Path: /Users/aarong/git/jsure/fluid/lib/runtime/sablejbdd-0.02.jar
+Path: /Users/aarong/git/common/common/lib/runtime/commons-lang3-3.1.jar
+Path: /Users/aarong/git/jsure/fluid/lib/runtime/javac.jar
+Path: /Users/aarong/git/common/common/lib/runtime/asm-commons-4.1.jar
+Path: /Users/aarong/git/jsure/fluid/lib/runtime/log4j-xml-1.3alpha-8.jar
+Path: /Users/aarong/git/common/common/lib/runtime/collections-generic-4.0.jar
+Path: /Users/aarong/git/common/common/lib/runtime/promises-4.4.0.jar
+Path: /Users/aarong/git/common/common/bin
+Path: /Users/aarong/git/jsure/fluid/lib/runtime/javadoc.jar
+Path: /Users/aarong/git/common/common/lib/runtime/antlr-runtime-3.1-sl.jar
+Path: /Users/aarong/git/common/common/lib/runtime/ant.jar
+Path: /Users/aarong/git/jsure/fluid/lib/runtime/java-diff-utils-1.2.jar
+Path: /Users/aarong/git/common/common/lib/runtime/asm-4.1.jar
+Path: /Users/aarong/git/common/common/lib/runtime/derby.jar
+Path: /Users/aarong/git/common/common/lib/runtime/jsr166y.jar
+Starting process:
+	/Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Home/bin/java
+	-Dsurelogic.test.code=NONE
+	-XX:MaxPermSize=512m
+	-verbosegc
+	-DSureLogicX=true
+	-Dsl.run.dir=/Users/aarong/Work/Eclipse-Workspaces/Eclipse-4.2/Fluid Regression/.jsure-data/HTTPClient_regressio-2013.08.23-at-21.51.46.976
+	-Dfluid.ir.versioning=Versioning.Off
+	-Dfluid.directory.url=file:/Users/aarong/git/jsure/fluid/
+	-Xmx2048m
+	-Xbootclasspath:/Users/aarong/git/jsure/fluid/lib/runtime/javac.jar:/Eclipses/eclipse-SDK-4.2-macosx-cocoa-x86_64/plugins/org.eclipse.jdt.debug_3.7.100.v20120529-1702/jdi.jar:/Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/classes.jar:/Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/ui.jar:/Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/jsse.jar:/Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/jce.jar:/Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/charsets.jar
+	-classpath
+	/Users/aarong/git/common/common/lib/runtime/extra166y.jar:/Users/aarong/git/common/common/lib/runtime/trove-3.0.3.jar:/Users/aarong/git/jsure/fluid/lib/runtime/log4j-1.3alpha-8.jar:/Users/aarong/git/jsure/fluid/bin:/Users/aarong/git/jsure/fluid/lib/runtime/sablejbdd-0.02.jar:/Users/aarong/git/common/common/lib/runtime/commons-lang3-3.1.jar:/Users/aarong/git/jsure/fluid/lib/runtime/javac.jar:/Users/aarong/git/common/common/lib/runtime/asm-commons-4.1.jar:/Users/aarong/git/jsure/fluid/lib/runtime/log4j-xml-1.3alpha-8.jar:/Users/aarong/git/common/common/lib/runtime/collections-generic-4.0.jar:/Users/aarong/git/common/common/lib/runtime/promises-4.4.0.jar:/Users/aarong/git/common/common/bin:/Users/aarong/git/jsure/fluid/lib/runtime/javadoc.jar:/Users/aarong/git/common/common/lib/runtime/antlr-runtime-3.1-sl.jar:/Users/aarong/git/common/common/lib/runtime/ant.jar:/Users/aarong/git/jsure/fluid/lib/runtime/java-diff-utils-1.2.jar:/Users/aarong/git/common/common/lib/runtime/asm-4.1.jar:/Users/aarong/git/common/common/lib/runtime/derby.jar:/Users/aarong/git/common/common/lib/runtime/jsr166y.jar
+	com.surelogic.javac.jobs.RemoteJSureRun
+First line = JVM started: 1.6.0_26
+Log level: INFO
+Created reader
+Created monitor
+Created log handler
+Running RemoteJSureRun
+[GC 17024K->935K(83008K), 0.0029793 secs]
+runPath = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-4.2/Fluid Regression/.jsure-data/HTTPClient_regressio-2013.08.23-at-21.51.46.976
+Creating run: HTTPClient_regressio-2013.08.23-at-21.51.46.976
+projects = HTTPClient_regression
+Loading edu.cmu.cs.fluid.make.nonabductive.proposals = false
+Loading edu.cmu.cs.fluid.load.all.classes = false
+Loading edu.cmu.cs.fluid.timeoutFlag = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BCA = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ConstantExpr = false
+Loading edu.cmu.cs.fluid.physMemoryInMB = 8192
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.EqualityAssurance = true
+Loading edu.cmu.cs.fluid.xml.diff.directory = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-4.2/Fluid Regression/.jsure-data/promises-xml
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.UniquenessAssuranceUWM = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.IRConcurrencyDetector = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Singleton = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.UniquenessAssuranceUWM_ALL = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.CALLS = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BenchmarkingUniquenessSE = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ThreadEffectAssurance2 = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Binder = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.cliend.eclipse.TypeBasedAlias = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Nullable = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.UniquenessAssuranceUWM_SE = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.TestIsFunctional = false
+Loading edu.cmu.cs.fluid.scan.may.run.uniqueness = true
+Loading edu.cmu.cs.fluid.tool-memory-mb = 2048
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.DefinitelyAssigned = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.UniquenessAssuranceSE = false
+Loading edu.cmu.cs.fluid.analysis.thread.count = 8
+Loading edu.cmu.cs.fluid.timeoutSec = 11
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.NonNullRawTypes = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LayersAssurance = true
+Loading edu.cmu.cs.fluid.default.JRE = org.eclipse.jdt.launching.JRE_CONTAINER
+Loading edu.cmu.cs.fluid.treat.as.java.8 = false
+Loading edu.cmu.cs.fluid.timeoutWarningSec = 30
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Utility = true
+Loading edu.cmu.cs.fluid.modeling.problem.filters = 00000012com\.apple.*00000013com\.oracle.*00000010com\.sun.*00000014.*\.internal.*00000023.*BakedArrayList\.class00000007apple.*00000008oracle.*00000011quicktime.*00000005sun.*
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BenchmarkingUniquenessNew_SE = false
+Loading edu.cmu.cs.fluid.scan.may.use.compression = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ParameterizedType = true
+Loading edu.cmu.cs.fluid.allow.javadoc.annos = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LockAssurance3 = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BenchmarkingUniquenessNew = false
+Loading edu.cmu.cs.fluid.data.directory = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-4.2/Fluid Regression/.jsure-data
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.EffectAssurance2 = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.StructureAssurance = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LV = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Types = false
+JSure data dir = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-4.2/Fluid Regression/.jsure-data
+XML diff dir   = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-4.2/Fluid Regression/.jsure-data/promises-xml
+Looking for JRE in org.eclipse.jdt.launching.JRE_CONTAINER
+default JRE = org.eclipse.jdt.launching.JRE_CONTAINER
+Initialized job
+##TASK, Scan, 70
+Initializing ...
+##SUBTASK, Initializing ...
+monitor = com.surelogic.common.jobs.remote.AbstractRemoteSLJob$Monitor@1ce3570c
+singleThread = false
+[GC 17852K->10074K(83008K), 0.0062320 secs]
+[GC 27004K->26968K(83008K), 0.0104126 secs]
+Done initializing org.eclipse.jdt.launching.JRE_CONTAINER: 0
+[GC 43992K->31340K(83008K), 0.0098041 secs]
+org.eclipse.jdt.launching.JRE_CONTAINER: Done initializing with /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/classes.jar
+org.eclipse.jdt.launching.JRE_CONTAINER: Done initializing with /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/ui.jar
+org.eclipse.jdt.launching.JRE_CONTAINER: Done initializing with /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/jsse.jar
+org.eclipse.jdt.launching.JRE_CONTAINER: Done initializing with /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/jce.jar
+org.eclipse.jdt.launching.JRE_CONTAINER: Done initializing with /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/charsets.jar
+org.eclipse.jdt.launching.JRE_CONTAINER: Done initializing with /System/Library/Java/Extensions/AppleScriptEngine.jar
+org.eclipse.jdt.launching.JRE_CONTAINER: Done initializing with /System/Library/Java/Extensions/dns_sd.jar
+org.eclipse.jdt.launching.JRE_CONTAINER: Done initializing with /System/Library/Java/Extensions/j3daudio.jar
+org.eclipse.jdt.launching.JRE_CONTAINER: Done initializing with /System/Library/Java/Extensions/j3dcore.jar
+org.eclipse.jdt.launching.JRE_CONTAINER: Done initializing with /System/Library/Java/Extensions/j3dutils.jar
+org.eclipse.jdt.launching.JRE_CONTAINER: Done initializing with /System/Library/Java/Extensions/jai_codec.jar
+org.eclipse.jdt.launching.JRE_CONTAINER: Done initializing with /System/Library/Java/Extensions/jai_core.jar
+org.eclipse.jdt.launching.JRE_CONTAINER: Done initializing with /System/Library/Java/Extensions/mlibwrapper_jai.jar
+org.eclipse.jdt.launching.JRE_CONTAINER: Done initializing with /System/Library/Java/Extensions/MRJToolkit.jar
+org.eclipse.jdt.launching.JRE_CONTAINER: Done initializing with /System/Library/Java/Extensions/QTJava.zip
+org.eclipse.jdt.launching.JRE_CONTAINER: Done initializing with /System/Library/Java/Extensions/vecmath.jar
+org.eclipse.jdt.launching.JRE_CONTAINER: Done initializing with /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Home/lib/ext/apple_provider.jar
+org.eclipse.jdt.launching.JRE_CONTAINER: Done initializing with /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Home/lib/ext/dnsns.jar
+org.eclipse.jdt.launching.JRE_CONTAINER: Done initializing with /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Home/lib/ext/localedata.jar
+org.eclipse.jdt.launching.JRE_CONTAINER: Done initializing with /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Home/lib/ext/sunjce_provider.jar
+org.eclipse.jdt.launching.JRE_CONTAINER: Done initializing with /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Home/lib/ext/sunpkcs11.jar
+Done initializing HTTPClient_regression: 139
+Trying to find /Users/aarong/Work/Eclipse-Workspaces/Eclipse-4.2/Fluid Regression/.jsure-data/HTTPClient_regressio-2013.08.23-at-21.51.46.976/source/HTTPClient_regression.bin.zip
+HTTPClient_regression: HTTPClient_regression -> org.eclipse.jdt.launching.JRE_CONTAINER
+Done initializing org.eclipse.jdt.launching.JRE_CONTAINER: 0
+[GC 48364K->38650K(83008K), 0.0124414 secs]
+[GC 38921K(83008K), 0.0026564 secs]
+HTTPClient_regression: Done initializing with /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/classes.jar
+HTTPClient_regression: Done initializing with /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/ui.jar
+HTTPClient_regression: Done initializing with /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/jsse.jar
+HTTPClient_regression: Done initializing with /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/jce.jar
+HTTPClient_regression: Done initializing with /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Classes/charsets.jar
+HTTPClient_regression: Done initializing with /System/Library/Java/Extensions/AppleScriptEngine.jar
+HTTPClient_regression: Done initializing with /System/Library/Java/Extensions/dns_sd.jar
+HTTPClient_regression: Done initializing with /System/Library/Java/Extensions/j3daudio.jar
+HTTPClient_regression: Done initializing with /System/Library/Java/Extensions/j3dcore.jar
+HTTPClient_regression: Done initializing with /System/Library/Java/Extensions/j3dutils.jar
+HTTPClient_regression: Done initializing with /System/Library/Java/Extensions/jai_codec.jar
+HTTPClient_regression: Done initializing with /System/Library/Java/Extensions/jai_core.jar
+HTTPClient_regression: Done initializing with /System/Library/Java/Extensions/mlibwrapper_jai.jar
+HTTPClient_regression: Done initializing with /System/Library/Java/Extensions/MRJToolkit.jar
+HTTPClient_regression: Done initializing with /System/Library/Java/Extensions/QTJava.zip
+HTTPClient_regression: Done initializing with /System/Library/Java/Extensions/vecmath.jar
+HTTPClient_regression: Done initializing with /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Home/lib/ext/apple_provider.jar
+HTTPClient_regression: Done initializing with /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Home/lib/ext/dnsns.jar
+HTTPClient_regression: Done initializing with /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Home/lib/ext/localedata.jar
+HTTPClient_regression: Done initializing with /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Home/lib/ext/sunjce_provider.jar
+HTTPClient_regression: Done initializing with /Library/Java/JavaVirtualMachines/1.6.0_26-b03-383.jdk/Contents/Home/lib/ext/sunpkcs11.jar
+HTTPClient_regression: Done initializing with /Users/aarong/git/regression/regression/HTTPClient_regression/lib/commons-codec_1.3.jar
+HTTPClient_regression: Done initializing with /Users/aarong/git/regression/regression/HTTPClient_regression/lib/commons-logging-1.1.jar
+HTTPClient_regression: Done initializing with /Users/aarong/git/regression/regression/HTTPClient_regression/promises-4.0.0.jar
+Created com.surelogic.analysis.threads.ThreadEffectsModule
+Created com.surelogic.analysis.layers.LayersAnalysis
+Created com.surelogic.analysis.structure.StructureAnalysis
+Created com.surelogic.analysis.annotationbounds.ParameterizedTypeAnalysis
+Created com.surelogic.analysis.concurrency.driver.LockAnalysis
+Created com.surelogic.analysis.effects.EffectsAnalysis
+Created com.surelogic.analysis.equality.EqualityAnalysis
+Created com.surelogic.analysis.uniqueness.plusFrom.traditional.UniquenessAnalysisModule
+Created com.surelogic.analysis.utility.UtilityAnalysis
+Created com.surelogic.analysis.singleton.SingletonAnalysis
+##SUBTASK_DONE
+##WORK, 1
+Assuming that the projects are run in dependency order
+Parsing ...
+##SUBTASK, Parsing ...
+Done adapting 0 files for org.eclipse.jdt.launching.JRE_CONTAINER
+##SUBTASK_DONE
+##WORK, 1
+Parsing ...
+##SUBTASK, Parsing ...
+JCP: warning: [options] bootstrap class path not set in conjunction with -source 1.5
+[GC 55674K->45869K(83008K), 0.0138093 secs]
+[GC 57754K(83008K), 0.0068092 secs]
+Adapting 100 CUTs
+[GC 62871K->51307K(92028K), 0.0106990 secs]
+[GC 51339K(92028K), 0.0020218 secs]
+[GC 68331K->55150K(92028K), 0.0078427 secs]
+[GC 72174K->59293K(92028K), 0.0114014 secs]
+[GC 59518K(92028K), 0.0045327 secs]
+[GC 76026K->62618K(113956K), 0.0085548 secs]
+JCP: warning: [options] bootstrap class path not set in conjunction with -source 1.5
+[GC 79642K->68178K(113956K), 0.0099758 secs]
+Adapting 39 CUTs
+[GC 85202K->72568K(113956K), 0.0111307 secs]
+[GC 72634K(113956K), 0.0037563 secs]
+Done adapting 139 files for HTTPClient_regression
+##SUBTASK_DONE
+##WORK, 1
+Handling references for org.eclipse.jdt.launching.JRE_CONTAINER
+##SUBTASK, Handling references for org.eclipse.jdt.launching.JRE_CONTAINER
+Handling 19 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER
+Setting project for Object from org.eclipse.jdt.launching.JRE_CONTAINER
+Handling 34 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER
+Handling 47 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER
+[GC 89592K->77334K(113956K), 0.0116842 secs]
+Handling 58 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER
+Handling 26 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER
+[GC 86608K(113956K), 0.0032144 secs]
+Handling 11 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER
+Handling 3 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER
+Handling 2 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER
+##SUBTASK_DONE
+##WORK, 1
+Handling references for HTTPClient_regression
+##SUBTASK, Handling references for HTTPClient_regression
+[GC 85811K->72889K(130264K), 0.0093060 secs]
+Handling 125 dangling refs for HTTPClient_regression
+Handling 40 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER
+[GC 89913K->77132K(130264K), 0.0094964 secs]
+Handling 28 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER
+Handling 13 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER
+Handling 2 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER
+Handling 3 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER
+Handling 10 dangling refs for HTTPClient_regression
+Handling 2 dangling refs for HTTPClient_regression
+##SUBTASK_DONE
+##WORK, 1
+Updated 327 files in org.eclipse.jdt.launching.JRE_CONTAINER
+Updated 276 files in HTTPClient_regression
+Parsing ASTs  = 1841 ms
+Handling refs = 638 ms
+Rewriting CUs
+##SUBTASK, Rewriting CUs
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/methods/ByteArrayRequestEntity.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/HttpMethod.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/methods/multipart/StringPart.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/params/HttpConnectionManagerParams.java
+Handling references for HTTPClient_regression
+##SUBTASK, Handling references for HTTPClient_regression
+Handling 137 dangling refs for HTTPClient_regression
+##SUBTASK_DONE
+##WORK, 1
+Updated 1 files in HTTPClient_regression
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/auth/HttpAuthenticator.java
+Handling references for HTTPClient_regression
+##SUBTASK, Handling references for HTTPClient_regression
+Handling 136 dangling refs for HTTPClient_regression
+##SUBTASK_DONE
+##WORK, 1
+Updated 1 files in HTTPClient_regression
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/methods/multipart/PartBase.java
+Handling references for HTTPClient_regression
+##SUBTASK, Handling references for HTTPClient_regression
+Handling 136 dangling refs for HTTPClient_regression
+##SUBTASK_DONE
+##WORK, 1
+Updated 1 files in HTTPClient_regression
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/util/DateParseException.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/ChunkedOutputStream.java
+Handling references for HTTPClient_regression
+##SUBTASK, Handling references for HTTPClient_regression
+Handling 136 dangling refs for HTTPClient_regression
+##SUBTASK_DONE
+##WORK, 1
+Updated 1 files in HTTPClient_regression
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/methods/OptionsMethod.java
+Handling references for HTTPClient_regression
+##SUBTASK, Handling references for HTTPClient_regression
+Handling 135 dangling refs for HTTPClient_regression
+##SUBTASK_DONE
+##WORK, 1
+Updated 1 files in HTTPClient_regression
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/methods/multipart/ByteArrayPartSource.java
+Handling references for HTTPClient_regression
+##SUBTASK, Handling references for HTTPClient_regression
+Handling 135 dangling refs for HTTPClient_regression
+##SUBTASK_DONE
+##WORK, 1
+Updated 1 files in HTTPClient_regression
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/params/DefaultHttpParamsFactory.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/URIException.java
+Handling references for HTTPClient_regression
+##SUBTASK, Handling references for HTTPClient_regression
+Handling 135 dangling refs for HTTPClient_regression
+##SUBTASK_DONE
+##WORK, 1
+Updated 1 files in HTTPClient_regression
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/util/URIUtil.java
+Handling references for HTTPClient_regression
+##SUBTASK, Handling references for HTTPClient_regression
+Handling 135 dangling refs for HTTPClient_regression
+##SUBTASK_DONE
+##WORK, 1
+Updated 1 files in HTTPClient_regression
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/Credentials.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/RedirectException.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/ProtocolException.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/methods/PostMethod.java
+Handling references for org.eclipse.jdt.launching.JRE_CONTAINER
+##SUBTASK, Handling references for org.eclipse.jdt.launching.JRE_CONTAINER
+Handling 285 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER
+##SUBTASK_DONE
+##WORK, 1
+Updated 1 files in org.eclipse.jdt.launching.JRE_CONTAINER
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/methods/StringRequestEntity.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/protocol/Protocol.java
+Handling references for HTTPClient_regression
+##SUBTASK, Handling references for HTTPClient_regression
+Handling 135 dangling refs for HTTPClient_regression
+##SUBTASK_DONE
+##WORK, 1
+Updated 1 files in HTTPClient_regression
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/auth/CredentialsProvider.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/ProxyHost.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/util/TimeoutController.java
+Handling references for HTTPClient_regression
+##SUBTASK, Handling references for HTTPClient_regression
+Handling 135 dangling refs for HTTPClient_regression
+##SUBTASK_DONE
+##WORK, 1
+Updated 1 files in HTTPClient_regression
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/auth/BasicScheme.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/HttpContentTooLargeException.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/auth/NTLMScheme.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/protocol/SecureProtocolSocketFactory.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/util/DateUtil.java
+Handling references for HTTPClient_regression
+##SUBTASK, Handling references for HTTPClient_regression
+Handling 134 dangling refs for HTTPClient_regression
+##SUBTASK_DONE
+##WORK, 1
+Updated 1 files in HTTPClient_regression
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/HttpVersion.java
+Handling references for HTTPClient_regression
+##SUBTASK, Handling references for HTTPClient_regression
+Handling 134 dangling refs for HTTPClient_regression
+##SUBTASK_DONE
+##WORK, 1
+Updated 1 files in HTTPClient_regression
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/auth/AuthenticationException.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/methods/HeadMethod.java
+Handling references for HTTPClient_regression
+##SUBTASK, Handling references for HTTPClient_regression
+Handling 134 dangling refs for HTTPClient_regression
+##SUBTASK_DONE
+##WORK, 1
+Updated 1 files in HTTPClient_regression
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/methods/multipart/FilePartSource.java
+Handling references for HTTPClient_regression
+##SUBTASK, Handling references for HTTPClient_regression
+Handling 134 dangling refs for HTTPClient_regression
+##SUBTASK_DONE
+##WORK, 1
+Updated 1 files in HTTPClient_regression
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/util/ExceptionUtil.java
+Handling references for HTTPClient_regression
+##SUBTASK, Handling references for HTTPClient_regression
+Handling 133 dangling refs for HTTPClient_regression
+##SUBTASK_DONE
+##WORK, 1
+Updated 1 files in HTTPClient_regression
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/DefaultHttpMethodRetryHandler.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/cookie/Cookie2.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/HttpsURL.java
+Handling references for HTTPClient_regression
+##SUBTASK, Handling references for HTTPClient_regression
+Handling 133 dangling refs for HTTPClient_regression
+##SUBTASK_DONE
+##WORK, 1
+Updated 1 files in HTTPClient_regression
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/methods/EntityEnclosingMethod.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/StatusLine.java
+Handling references for HTTPClient_regression
+##SUBTASK, Handling references for HTTPClient_regression
+Handling 132 dangling refs for HTTPClient_regression
+##SUBTASK_DONE
+##WORK, 1
+Updated 1 files in HTTPClient_regression
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/auth/MalformedChallengeException.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/cookie/NetscapeDraftSpec.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/cookie/RFC2965Spec.java
+Handling references for HTTPClient_regression
+##SUBTASK, Handling references for HTTPClient_regression
+Handling 132 dangling refs for HTTPClient_regression
+##SUBTASK_DONE
+##WORK, 1
+Updated 1 files in HTTPClient_regression
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/util/ParameterFormatter.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/HttpState.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/cookie/CookieSpecBase.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/auth/AuthPolicy.java
+Handling references for HTTPClient_regression
+##SUBTASK, Handling references for HTTPClient_regression
+Handling 132 dangling refs for HTTPClient_regression
+##SUBTASK_DONE
+##WORK, 1
+Updated 1 files in HTTPClient_regression
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/util/HttpURLConnection.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/methods/multipart/Part.java
+Handling references for HTTPClient_regression
+##SUBTASK, Handling references for HTTPClient_regression
+Handling 132 dangling refs for HTTPClient_regression
+##SUBTASK_DONE
+##WORK, 1
+Updated 1 files in HTTPClient_regression
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/methods/RequestEntity.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/CircularRedirectException.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/methods/multipart/PartSource.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/Cookie.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/params/HttpParams.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/methods/InputStreamRequestEntity.java
+Handling references for HTTPClient_regression
+##SUBTASK, Handling references for HTTPClient_regression
+Handling 132 dangling refs for HTTPClient_regression
+##SUBTASK_DONE
+##WORK, 1
+Updated 1 files in HTTPClient_regression
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/HttpMethodRetryHandler.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/URI.java
+[GC 94156K->80310K(130264K), 0.0086624 secs]
+Handling references for HTTPClient_regression
+##SUBTASK, Handling references for HTTPClient_regression
+Handling 126 dangling refs for HTTPClient_regression
+##SUBTASK_DONE
+##WORK, 1
+Updated 1 files in HTTPClient_regression
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/auth/AuthChallengeException.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/MethodRetryHandler.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/methods/multipart/MultipartRequestEntity.java
+Handling references for HTTPClient_regression
+##SUBTASK, Handling references for HTTPClient_regression
+Handling 125 dangling refs for HTTPClient_regression
+##SUBTASK_DONE
+##WORK, 1
+Updated 1 files in HTTPClient_regression
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/InvalidRedirectLocationException.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/HttpConstants.java
+Handling references for HTTPClient_regression
+##SUBTASK, Handling references for HTTPClient_regression
+Handling 125 dangling refs for HTTPClient_regression
+##SUBTASK_DONE
+##WORK, 1
+Updated 1 files in HTTPClient_regression
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/Header.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/HttpURL.java
+Handling references for HTTPClient_regression
+##SUBTASK, Handling references for HTTPClient_regression
+Handling 124 dangling refs for HTTPClient_regression
+##SUBTASK_DONE
+##WORK, 1
+Updated 1 files in HTTPClient_regression
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/util/DateParser.java
+Handling references for HTTPClient_regression
+##SUBTASK, Handling references for HTTPClient_regression
+Handling 123 dangling refs for HTTPClient_regression
+##SUBTASK_DONE
+##WORK, 1
+Updated 1 files in HTTPClient_regression
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/HttpMethodDirector.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/HttpClientError.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/AutoCloseInputStream.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/auth/AuthScope.java
+Handling references for HTTPClient_regression
+##SUBTASK, Handling references for HTTPClient_regression
+Handling 123 dangling refs for HTTPClient_regression
+##SUBTASK_DONE
+##WORK, 1
+Updated 1 files in HTTPClient_regression
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/auth/AuthSchemeBase.java
+Handling references for org.eclipse.jdt.launching.JRE_CONTAINER
+##SUBTASK, Handling references for org.eclipse.jdt.launching.JRE_CONTAINER
+Handling 282 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER
+##SUBTASK_DONE
+##WORK, 1
+Updated 1 files in org.eclipse.jdt.launching.JRE_CONTAINER
+Updated 1 files in HTTPClient_regression
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/cookie/IgnoreCookiesSpec.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/methods/DeleteMethod.java
+Handling references for HTTPClient_regression
+##SUBTASK, Handling references for HTTPClient_regression
+Handling 123 dangling refs for HTTPClient_regression
+##SUBTASK_DONE
+##WORK, 1
+Updated 1 files in HTTPClient_regression
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/HeaderGroup.java
+Handling references for HTTPClient_regression
+##SUBTASK, Handling references for HTTPClient_regression
+Handling 123 dangling refs for HTTPClient_regression
+##SUBTASK_DONE
+##WORK, 1
+Updated 1 files in HTTPClient_regression
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/ResponseConsumedWatcher.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/methods/ExpectContinueMethod.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/HttpMethodBase.java
+Handling references for HTTPClient_regression
+##SUBTASK, Handling references for HTTPClient_regression
+Handling 123 dangling refs for HTTPClient_regression
+##SUBTASK_DONE
+##WORK, 1
+Updated 1 files in HTTPClient_regression
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/cookie/CookiePolicy.java
+Handling references for HTTPClient_regression
+##SUBTASK, Handling references for HTTPClient_regression
+Handling 122 dangling refs for HTTPClient_regression
+##SUBTASK_DONE
+##WORK, 1
+Updated 1 files in HTTPClient_regression
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/params/HttpConnectionParams.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/NTCredentials.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/auth/AuthScheme.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/params/HostParams.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/auth/InvalidCredentialsException.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/methods/PutMethod.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/cookie/CookieSpec.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/auth/HttpAuthRealm.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/util/IdleConnectionHandler.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/NoHttpResponseException.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/cookie/CookieOrigin.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/util/IdleConnectionTimeoutThread.java
+Handling references for HTTPClient_regression
+##SUBTASK, Handling references for HTTPClient_regression
+Handling 122 dangling refs for HTTPClient_regression
+##SUBTASK_DONE
+##WORK, 1
+Updated 1 files in HTTPClient_regression
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/protocol/ControllerThreadSocketFactory.java
+Handling references for HTTPClient_regression
+##SUBTASK, Handling references for HTTPClient_regression
+Handling 121 dangling refs for HTTPClient_regression
+##SUBTASK_DONE
+##WORK, 1
+Updated 1 files in HTTPClient_regression
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/params/HttpParamsFactory.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/UsernamePasswordCredentials.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/Wire.java
+Handling references for HTTPClient_regression
+##SUBTASK, Handling references for HTTPClient_regression
+Handling 120 dangling refs for HTTPClient_regression
+##SUBTASK_DONE
+##WORK, 1
+Updated 1 files in HTTPClient_regression
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/protocol/DefaultProtocolSocketFactory.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/HttpParser.java
+Handling references for HTTPClient_regression
+##SUBTASK, Handling references for HTTPClient_regression
+Handling 120 dangling refs for HTTPClient_regression
+##SUBTASK_DONE
+##WORK, 1
+Updated 1 files in HTTPClient_regression
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/protocol/ProtocolSocketFactory.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/HttpHost.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/auth/AuthChallengeProcessor.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/ContentLengthInputStream.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/auth/NTLM.java
+Handling references for HTTPClient_regression
+##SUBTASK, Handling references for HTTPClient_regression
+Handling 114 dangling refs for HTTPClient_regression
+##SUBTASK_DONE
+##WORK, 1
+Updated 1 files in HTTPClient_regression
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/auth/DigestScheme.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/MultiThreadedHttpConnectionManager.java
+Handling references for HTTPClient_regression
+##SUBTASK, Handling references for HTTPClient_regression
+Handling 103 dangling refs for HTTPClient_regression
+##SUBTASK_DONE
+##WORK, 1
+Updated 1 files in HTTPClient_regression
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/auth/AuthChallengeParser.java
+Handling references for HTTPClient_regression
+##SUBTASK, Handling references for HTTPClient_regression
+Handling 103 dangling refs for HTTPClient_regression
+##SUBTASK_DONE
+##WORK, 1
+Updated 1 files in HTTPClient_regression
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/ChunkedInputStream.java
+Handling references for HTTPClient_regression
+##SUBTASK, Handling references for HTTPClient_regression
+Handling 102 dangling refs for HTTPClient_regression
+##SUBTASK_DONE
+##WORK, 1
+Updated 1 files in HTTPClient_regression
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/methods/GetMethod.java
+Handling references for HTTPClient_regression
+##SUBTASK, Handling references for HTTPClient_regression
+Handling 102 dangling refs for HTTPClient_regression
+##SUBTASK_DONE
+##WORK, 1
+Updated 1 files in HTTPClient_regression
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/cookie/CookiePathComparator.java
+Handling references for HTTPClient_regression
+##SUBTASK, Handling references for HTTPClient_regression
+Handling 102 dangling refs for HTTPClient_regression
+##SUBTASK_DONE
+##WORK, 1
+Updated 1 files in HTTPClient_regression
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/HeaderElement.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/cookie/MalformedCookieException.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/protocol/SSLProtocolSocketFactory.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/methods/FileRequestEntity.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/HostConfiguration.java
+Handling references for HTTPClient_regression
+##SUBTASK, Handling references for HTTPClient_regression
+Handling 102 dangling refs for HTTPClient_regression
+##SUBTASK_DONE
+##WORK, 1
+Updated 1 files in HTTPClient_regression
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/DefaultMethodRetryHandler.java
+Handling references for HTTPClient_regression
+##SUBTASK, Handling references for HTTPClient_regression
+Handling 102 dangling refs for HTTPClient_regression
+##SUBTASK_DONE
+##WORK, 1
+Updated 1 files in HTTPClient_regression
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/util/LangUtils.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/auth/RFC2617Scheme.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/HttpStatus.java
+Handling references for HTTPClient_regression
+##SUBTASK, Handling references for HTTPClient_regression
+Handling 102 dangling refs for HTTPClient_regression
+##SUBTASK_DONE
+##WORK, 1
+Updated 1 files in HTTPClient_regression
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/params/HttpClientParams.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/cookie/CookieVersionSupport.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/HttpException.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/util/ParameterParser.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/util/EncodingUtil.java
+Handling references for HTTPClient_regression
+##SUBTASK, Handling references for HTTPClient_regression
+Handling 101 dangling refs for HTTPClient_regression
+##SUBTASK_DONE
+##WORK, 1
+Updated 1 files in HTTPClient_regression
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/HttpRecoverableException.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/auth/CredentialsNotAvailableException.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/auth/AuthState.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/ConnectionPoolTimeoutException.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/HttpClient.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/cookie/CookieAttributeHandler.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/WireLogInputStream.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/methods/MultipartPostMethod.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/ProxyClient.java
+Handling references for HTTPClient_regression
+##SUBTASK, Handling references for HTTPClient_regression
+Handling 101 dangling refs for HTTPClient_regression
+##SUBTASK_DONE
+##WORK, 1
+Updated 1 files in HTTPClient_regression
+Handling references for org.eclipse.jdt.launching.JRE_CONTAINER
+##SUBTASK, Handling references for org.eclipse.jdt.launching.JRE_CONTAINER
+Handling 278 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER
+##SUBTASK_DONE
+##WORK, 1
+Updated 1 files in org.eclipse.jdt.launching.JRE_CONTAINER
+Updated 1 files in HTTPClient_regression
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/HttpConnectionManager.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/HttpConnection.java
+Handling references for HTTPClient_regression
+##SUBTASK, Handling references for HTTPClient_regression
+Handling 98 dangling refs for HTTPClient_regression
+##SUBTASK_DONE
+##WORK, 1
+Updated 1 files in HTTPClient_regression
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/params/HttpMethodParams.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/params/DefaultHttpParams.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/ConnectTimeoutException.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/WireLogOutputStream.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/methods/multipart/FilePart.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/methods/TraceMethod.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/ConnectMethod.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/NameValuePair.java
+Handling references for HTTPClient_regression
+##SUBTASK, Handling references for HTTPClient_regression
+Handling 98 dangling refs for HTTPClient_regression
+##SUBTASK_DONE
+##WORK, 1
+Updated 1 files in HTTPClient_regression
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/protocol/ReflectionSocketFactory.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/cookie/RFC2109Spec.java
+Rewriting HTTPClient_regression/src/org/apache/commons/httpclient/SimpleHttpConnectionManager.java
+##SUBTASK_DONE
+##WORK, 1
+[2013-08-23 21:51:51    INFO] partial bindings = 5 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+[2013-08-23 21:51:51    INFO] full bindings = 0 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+Canonicalizing ASTs
+##SUBTASK, Canonicalizing ASTs
+[GC 97334K->83352K(130264K), 0.0125717 secs]
+[GC 100376K->85373K(130264K), 0.0086159 secs]
+[GC 102397K->87738K(130264K), 0.0082563 secs]
+[GC 104762K->90004K(130264K), 0.0065175 secs]
+[GC 107028K->91874K(130264K), 0.0059331 secs]
+[GC 108898K->93418K(130264K), 0.0052923 secs]
+[2013-08-23 21:51:53    INFO] partial bindings = 19274 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+[2013-08-23 21:51:53    INFO] full bindings = 27865 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/methods/ByteArrayRequestEntity.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/HttpMethod.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/methods/multipart/StringPart.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/params/HttpConnectionManagerParams.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/auth/HttpAuthenticator.java
+[GC 110442K->95035K(130264K), 0.0065173 secs]
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/methods/multipart/PartBase.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/util/DateParseException.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/ChunkedOutputStream.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/methods/multipart/ByteArrayPartSource.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/methods/OptionsMethod.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/params/DefaultHttpParamsFactory.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/URIException.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/util/URIUtil.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/Credentials.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/RedirectException.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/ProtocolException.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/methods/PostMethod.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/methods/StringRequestEntity.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/protocol/Protocol.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/auth/CredentialsProvider.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/util/TimeoutController.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/ProxyHost.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/auth/BasicScheme.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/HttpContentTooLargeException.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/auth/NTLMScheme.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/protocol/SecureProtocolSocketFactory.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/util/DateUtil.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/HttpVersion.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/auth/AuthenticationException.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/methods/HeadMethod.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/methods/multipart/FilePartSource.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/util/ExceptionUtil.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/DefaultHttpMethodRetryHandler.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/cookie/Cookie2.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/HttpsURL.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/methods/EntityEnclosingMethod.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/auth/MalformedChallengeException.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/StatusLine.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/cookie/NetscapeDraftSpec.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/cookie/RFC2965Spec.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/util/ParameterFormatter.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/HttpState.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/cookie/CookieSpecBase.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/auth/AuthPolicy.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/util/HttpURLConnection.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/methods/multipart/Part.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/methods/RequestEntity.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/CircularRedirectException.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/methods/multipart/PartSource.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/params/HttpParams.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/Cookie.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/methods/InputStreamRequestEntity.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/HttpMethodRetryHandler.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/URI.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/auth/AuthChallengeException.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/MethodRetryHandler.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/InvalidRedirectLocationException.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/methods/multipart/MultipartRequestEntity.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/HttpConstants.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/Header.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/HttpURL.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/util/DateParser.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/HttpMethodDirector.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/HttpClientError.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/AutoCloseInputStream.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/auth/AuthScope.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/auth/AuthSchemeBase.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/cookie/IgnoreCookiesSpec.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/methods/DeleteMethod.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/ResponseConsumedWatcher.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/HeaderGroup.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/methods/ExpectContinueMethod.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/HttpMethodBase.java
+[GC 112059K->96505K(130264K), 0.0083003 secs]
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/cookie/CookiePolicy.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/params/HttpConnectionParams.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/NTCredentials.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/auth/AuthScheme.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/params/HostParams.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/auth/InvalidCredentialsException.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/methods/PutMethod.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/auth/HttpAuthRealm.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/cookie/CookieSpec.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/util/IdleConnectionHandler.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/NoHttpResponseException.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/cookie/CookieOrigin.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/util/IdleConnectionTimeoutThread.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/protocol/ControllerThreadSocketFactory.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/params/HttpParamsFactory.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/UsernamePasswordCredentials.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/Wire.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/protocol/DefaultProtocolSocketFactory.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/HttpParser.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/protocol/ProtocolSocketFactory.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/HttpHost.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/auth/AuthChallengeProcessor.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/ContentLengthInputStream.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/auth/NTLM.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/auth/DigestScheme.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/MultiThreadedHttpConnectionManager.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/auth/AuthChallengeParser.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/ChunkedInputStream.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/methods/GetMethod.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/HeaderElement.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/cookie/CookiePathComparator.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/cookie/MalformedCookieException.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/methods/FileRequestEntity.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/protocol/SSLProtocolSocketFactory.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/HostConfiguration.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/DefaultMethodRetryHandler.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/util/LangUtils.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/auth/RFC2617Scheme.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/HttpStatus.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/params/HttpClientParams.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/cookie/CookieVersionSupport.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/HttpException.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/util/ParameterParser.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/util/EncodingUtil.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/HttpRecoverableException.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/auth/CredentialsNotAvailableException.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/auth/AuthState.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/ConnectionPoolTimeoutException.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/HttpClient.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/cookie/CookieAttributeHandler.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/WireLogInputStream.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/ProxyClient.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/methods/MultipartPostMethod.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/HttpConnectionManager.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/HttpConnection.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/params/HttpMethodParams.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/params/DefaultHttpParams.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/ConnectTimeoutException.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/WireLogOutputStream.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/methods/multipart/FilePart.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/methods/TraceMethod.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/ConnectMethod.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/NameValuePair.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/cookie/RFC2109Spec.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/protocol/ReflectionSocketFactory.java
+Canonicalizing HTTPClient_regression/src/org/apache/commons/httpclient/SimpleHttpConnectionManager.java
+Binding = 1690 ms
+[GC 113529K->99317K(130264K), 0.0096437 secs]
+Cleaned 133 in 69 ms
+##SUBTASK_DONE
+##WORK, 1
+Handling references for org.eclipse.jdt.launching.JRE_CONTAINER
+##SUBTASK, Handling references for org.eclipse.jdt.launching.JRE_CONTAINER
+Handling 19 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER
+##SUBTASK_DONE
+##WORK, 1
+Handling references for HTTPClient_regression
+##SUBTASK, Handling references for HTTPClient_regression
+Handling 19 dangling refs for HTTPClient_regression
+##SUBTASK_DONE
+##WORK, 1
+Updated 327 files in org.eclipse.jdt.launching.JRE_CONTAINER
+Updated 276 files in HTTPClient_regression
+Creating drops
+##SUBTASK, Creating drops
+Done sorting CodeInfos
+##SUBTASK_DONE
+##WORK, 1
+Parsing promises
+##SUBTASK, Parsing promises
+[GC 116341K->100744K(130264K), 0.0055935 secs]
+Added 6 promises for java.io.PrintStream in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@5b664d77
+Added 47 promises for java.lang.Throwable in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@25ab4bca
+Javac making log: AnnotationRules
+Added 6 promises for java.io.PrintWriter in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@dfdb71d
+Added 2 promises for org.apache.commons.httpclient.auth.AuthPolicy in HTTPClient_regression: com.surelogic.tree.SyntaxTreeNode@5156eb32
+Added 12 promises for java.lang.UnsupportedOperationException in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@788a4f02
+Added 6 promises for java.io.Writer in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@4c380893
+Added 9 promises for org.apache.commons.httpclient.HostConfiguration in HTTPClient_regression: com.surelogic.tree.SyntaxTreeNode@6d3d292c
+Added 1 promises for java.lang.ref.ReferenceQueue in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@211b525c
+Added 2 promises for java.lang.ref.SoftReference in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@9afdee8
+[GC 117768K->100475K(130264K), 0.0025709 secs]
+Added 10 promises for org.apache.commons.httpclient.HttpClient in HTTPClient_regression: com.surelogic.tree.SyntaxTreeNode@4794169a
+Added 12 promises for java.lang.reflect.InvocationTargetException in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@450893fb
+Added 4 promises for org.apache.commons.httpclient.util.IdleConnectionTimeoutThread in HTTPClient_regression: com.surelogic.tree.SyntaxTreeNode@4c206964
+Added 143 promises for java.lang.AbstractStringBuilder in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@6e4e7d40
+Added 6 promises for org.apache.commons.httpclient.HttpState in HTTPClient_regression: com.surelogic.tree.SyntaxTreeNode@c41c5fc
+Added 6 promises for java.lang.Appendable in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@62003392
+[GC 117499K->101048K(130264K), 0.0034624 secs]
+Added 37 promises for java.lang.Boolean in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@50f6e3d8
+Added 138 promises for java.math.BigInteger in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@311f9ee4
+Added 59 promises for java.lang.Byte in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@2503a322
+Added 6 promises for org.apache.commons.httpclient.params.DefaultHttpParams in HTTPClient_regression: com.surelogic.tree.SyntaxTreeNode@5138e081
+Added 12 promises for java.lang.CharSequence in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@bad879b
+Added 2 promises for org.apache.commons.httpclient.params.DefaultHttpParamsFactory in HTTPClient_regression: com.surelogic.tree.SyntaxTreeNode@5b59f235
+Added 6 promises for java.io.InvalidClassException in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@7c563bb4
+Added 11 promises for org.apache.commons.httpclient.MultiThreadedHttpConnectionManager in HTTPClient_regression: com.surelogic.tree.SyntaxTreeNode@75fb28cf
+Added 12 promises for java.lang.IllegalStateException in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@4b8fe37e
+Added 6 promises for java.lang.IllegalThreadStateException in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@2644028b
+[GC 118072K->101135K(130264K), 0.0025299 secs]
+Added 6 promises for java.lang.IndexOutOfBoundsException in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@20818f40
+Added 6 promises for java.lang.InstantiationException in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@25a9790c
+Added 1 promises for org.apache.commons.httpclient.ProxyClient in HTTPClient_regression: com.surelogic.tree.SyntaxTreeNode@13205adc
+Added 12 promises for java.lang.Class in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@3b1c5902
+Added 6 promises for java.lang.ClassCastException in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@58dffa64
+Added 96 promises for java.lang.Integer in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@7f0e5d34
+Added 6 promises for java.lang.InterruptedException in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@6d193dff
+Added 18 promises for java.net.URISyntaxException in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@6de1efe
+Added 15 promises for java.lang.ClassNotFoundException in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@2d36f12
+Added 3 promises for java.lang.Iterable in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@68f08888
+Added 6 promises for java.lang.CloneNotSupportedException in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@6371158b
+[GC 118159K->101842K(130264K), 0.0031233 secs]
+Added 96 promises for java.lang.Long in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@9d073e0
+Added 70 promises for java.lang.Double in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@4511a921
+Added 9 promises for java.lang.Enum in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@268dba97
+Added 12 promises for java.lang.RuntimeException in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@2fbf819d
+Added 12 promises for java.lang.Error in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@6e891d5f
+Added 55 promises for java.util.AbstractCollection in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@523a6af5
+[GC 118866K->102217K(130264K), 0.0036288 secs]
+Added 12 promises for java.lang.SecurityException in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@265e51bb
+Added 12 promises for java.lang.Exception in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@587892ec
+Added 109 promises for java.lang.Math in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@659a7d38
+Added 18 promises for java.nio.CharBuffer in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@7d617ac9
+Added 6 promises for java.lang.NoSuchFieldException in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@d311888
+Added 73 promises for java.lang.Float in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@13ba5026
+Added 6 promises for java.lang.IllegalAccessException in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@4c467e56
+Added 6 promises for java.lang.NoSuchMethodException in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@f78bbbf
+Added 60 promises for java.util.AbstractList in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@48f74f39
+Added 6 promises for java.lang.NullPointerException in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@1a1f4a5b
+Added 12 promises for java.lang.IllegalArgumentException in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@45816600
+Added 61 promises for java.lang.Short in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@68cbe092
+Added 22 promises for java.lang.Number in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@6d5ac8c1
+[GC 119241K->102220K(130264K), 0.0021329 secs]
+Added 105 promises for java.util.AbstractMap in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@588e9be2
+Added 6 promises for java.lang.NumberFormatException in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@24ef37a0
+Added 21 promises for java.util.AbstractQueue in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@5725bbff
+Added 27 promises for java.lang.Object in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@62862e8d
+[GC 119244K->102930K(130264K), 0.0023086 secs]
+Added 29 promises for java.util.AbstractSequentialList in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@74885304
+Added 16 promises for java.util.AbstractSet in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@199db25b
+WARNING: Couldn't find removeAll(java.util.Collection) in java.util.ArrayList
+WARNING: Couldn't find hashCode() in java.util.ArrayList
+Added 298 promises for java.lang.String in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@6d6626c2
+WARNING: Couldn't find equals(java.lang.Object) in java.util.ArrayList
+WARNING: Couldn't find iterator() in java.util.ArrayList
+WARNING: Couldn't find listIterator(int) in java.util.ArrayList
+WARNING: Couldn't find listIterator() in java.util.ArrayList
+WARNING: Couldn't find subList(int, int) in java.util.ArrayList
+WARNING: Couldn't find retainAll(java.util.Collection) in java.util.ArrayList
+Added 80 promises for java.util.ArrayList in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@1129530a
+Added 64 promises for java.security.Provider in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@2b0603eb
+[GC 119954K->103260K(130264K), 0.0024567 secs]
+Added 24 promises for java.util.Arrays in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@557e44bb
+Added 21 promises for java.util.Stack in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@8b818fd
+Added 28 promises for java.util.StringTokenizer in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@1831fa8a
+Added 157 promises for java.lang.StringBuffer in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@7b1175d0
+Added 54 promises for java.util.Collection in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@768f1c0e
+[GC 120283K->103702K(130264K), 0.0027864 secs]
+Added 108 promises for java.lang.StringBuilder in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@47e2cb79
+Added 9 promises for java.lang.StringIndexOutOfBoundsException in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@4eea695
+Added 4 promises for java.lang.System in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@4b2f0455
+WARNING: Couldn't find iterator() in java.util.Vector
+WARNING: Couldn't find listIterator(int) in java.util.Vector
+WARNING: Couldn't find listIterator() in java.util.Vector
+Added 157 promises for java.util.Vector in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@1916044f
+[GC 120726K->103980K(130264K), 0.0033213 secs]
+Added 16 promises for java.util.Collections in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@c278040
+Added 138 promises for java.lang.Thread in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@2328745f
+Added 1 promises for java.lang.ThreadLocal in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@7858febc
+Added 56 promises for java.util.WeakHashMap in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@5ee342e6
+Added 17 promises for java.util.concurrent.ConcurrentMap in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@7fddfe78
+Added 87 promises for java.util.Deque in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@2054cd9a
+[GC 121004K->104192K(130264K), 0.0034272 secs]
+[GC 104402K(130264K), 0.0020342 secs]
+Added 29 promises for java.util.concurrent.TimeUnit in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@555cc086
+Added 22 promises for java.util.concurrent.locks.Condition in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@c05994b
+Added 29 promises for java.util.Dictionary in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@4698f76a
+Added 4 promises for java.util.Enumeration in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@5e47647c
+Added 20 promises for java.util.concurrent.locks.Lock in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@3852bf8e
+Added 7 promises for java.util.concurrent.locks.ReadWriteLock in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@179fc2d2
+Added 87 promises for java.util.jar.Attributes in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@28612d05
+Added 60 promises for java.util.HashMap in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@5abdece4
+Added 46 promises for java.util.HashSet in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@2738cfda
+[GC 121216K->104520K(130264K), 0.0031185 secs]
+Added 82 promises for java.util.Hashtable in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@29a0a4a5
+Added 6 promises for java.util.Iterator in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@4ed1c4e3
+Added 138 promises for java.util.LinkedList in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@799fcb7
+[GC 117124K(130264K), 0.0072739 secs]
+Added 89 promises for java.util.List in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@5b34a743
+Added 18 promises for java.util.ListIterator in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@5a005b47
+[GC 93469K->76952K(130264K), 0.0022673 secs]
+Added 64 promises for java.util.Map in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@1da68305
+Added 73 promises for java.util.Properties in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@3072a807
+Added 18 promises for java.util.Queue in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@249b9319
+Added 45 promises for java.util.ResourceBundle in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@1f1b9704
+Added 54 promises for java.util.Set in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@148d0cc7
+Added 31 promises for java.util.SortedMap in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@528678c1
+Added 22 promises for java.util.SortedSet in org.eclipse.jdt.launching.JRE_CONTAINER: com.surelogic.tree.SyntaxTreeNode@612d6944
+##SUBTASK_DONE
+##WORK, 1
+[GC 84166K->68103K(130264K), 0.0044658 secs]
+Scrubbing promises
+##SUBTASK, Scrubbing promises
+[GC 85127K->71900K(130264K), 0.0082011 secs]
+[GC 88924K->74505K(130264K), 0.0063822 secs]
+Creating RegionModel java.lang.Object.Instance for org.eclipse.jdt.launching.JRE_CONTAINER
+[GC 91529K->76041K(130264K), 0.0052252 secs]
+[GC 93065K->77115K(130264K), 0.0036871 secs]
+[GC 94139K->76836K(130264K), 0.0018887 secs]
+[2013-08-23 21:51:59    INFO] Couldn't find field ResourceBundle in com.surelogic.tree.SyntaxTreeNode@1f1b9704 -- abstract public synchronized binary class ResourceBundle extends java.lang.Object { final private static binary class NoFallbackControl extends java.util.ResourceBundle . SingleFormatControl { # protected binary # NoFallbackControl # # # # public binary # # getFallbackLocale# # # } private static binary class SingleFormatControl extends java.util.ResourceBundle . Control { # protected binary # SingleFormatControl # # # # public binary # # getFormats# # # } public static binary class Control extends java.lang.Object { # final public static binary # #; # final public static binary # #; # final public static binary # #; # final public static binary # #; # final public static binary # #; # protected binary # Control # # # # final public static binary # # getControl# # # # final public static binary # # getNoFallbackControl# # # # public binary # # getFormats# # # # public binary # # getCandidateLocales# # # # public binary # # getFallbackLocale# # # # public binary # # newBundle# # # # public binary # # getTimeToLive# # # # public binary # # needsReload# # # # public binary # # toBundleName# # # # final public binary # # toResourceName# # # } final private static binary class BundleReference extends java.lang.ref.SoftReference <#> implements # . CacheKeyReference { # binary # BundleReference # # # # public binary # # getCacheKey# # # } final private static binary class LoaderReference extends java.lang.ref.WeakReference <#> implements # . CacheKeyReference { # binary # LoaderReference # # # # public binary # # getCacheKey# # # } abstract private static binary interface CacheKeyReference { # abstract public binary # # getCacheKey# # # } final private static binary class CacheKey extends java.lang.Object implements java.lang.Cloneable { # binary # CacheKey # # # # binary # # getName# # # # binary # # setName# # # # binary # # getLocale# # # # binary # # setLocale# # # # binary # # getLoader# # # # public binary # # equals# # # # public binary # # hashCode# # # # public binary # # clone# # # # binary # # getFormat# # # # binary # # setFormat# # # # public binary # # toString# # # } private static binary class RBClassLoader extends java.lang.ClassLoader { # private binary # RBClassLoader # # # # public binary # # loadClass# # # # public binary # # getResource# # # # public binary # # getResourceAsStream# # # # binary # RBClassLoader # # # } protected binary java.util.ResourceBundle parent #; final static binary boolean $assertionsDisabled #; public binary ResourceBundle () <compiled>; final public binary java.lang.String getString(# # arg0) <compiled>; final public binary java.lang.String [] getStringArray(# # arg0) <compiled>; final public binary java.lang.Object getObject(# # arg0) <compiled>; public binary java.util.Locale getLocale() <compiled>; protected binary void setParent(# # arg0) <compiled>; final public static binary java.util.ResourceBundle getBundle(# # arg0) <compiled>; final public static binary java.util.ResourceBundle getBundle(# # arg0, # # arg1) <compiled>; final public static binary java.util.ResourceBundle getBundle(# # arg0, # # arg1) <compiled>; final public static binary java.util.ResourceBundle getBundle(# # arg0, # # arg1, # # arg2) <compiled>; public static binary java.util.ResourceBundle getBundle(# # arg0, # # arg1, # # arg2) <compiled>; public static binary java.util.ResourceBundle getBundle(# # arg0, # # arg1, # # arg2, # # arg3) <compiled>; final public static binary void clearCache() <compiled>; final public static binary void clearCache(# # arg0) <compiled>; abstract protected binary java.lang.Object handleGetObject(# # arg0) <compiled>; abstract public binary java.util.Enumeration <#> getKeys() <compiled>; public binary boolean containsKey(# # arg0) <compiled>; public binary java.util.Set <#> keySet() <compiled>; protected binary java.util.Set <#> handleKeySet() <compiled>; }
+for project org.eclipse.jdt.launching.JRE_CONTAINER (in method edu.cmu.cs.fluid.java.bind.ClassMemberSearch.findClassBodyMembers(-) thread "pool-1-thread-1")
+[2013-08-23 21:51:59    INFO] Couldn't find field ResourceBundle in com.surelogic.tree.SyntaxTreeNode@1f1b9704 -- abstract public synchronized binary class ResourceBundle extends java.lang.Object { final private static binary class NoFallbackControl extends java.util.ResourceBundle . SingleFormatControl { # protected binary # NoFallbackControl # # # # public binary # # getFallbackLocale# # # } private static binary class SingleFormatControl extends java.util.ResourceBundle . Control { # protected binary # SingleFormatControl # # # # public binary # # getFormats# # # } public static binary class Control extends java.lang.Object { # final public static binary # #; # final public static binary # #; # final public static binary # #; # final public static binary # #; # final public static binary # #; # protected binary # Control # # # # final public static binary # # getControl# # # # final public static binary # # getNoFallbackControl# # # # public binary # # getFormats# # # # public binary # # getCandidateLocales# # # # public binary # # getFallbackLocale# # # # public binary # # newBundle# # # # public binary # # getTimeToLive# # # # public binary # # needsReload# # # # public binary # # toBundleName# # # # final public binary # # toResourceName# # # } final private static binary class BundleReference extends java.lang.ref.SoftReference <#> implements # . CacheKeyReference { # binary # BundleReference # # # # public binary # # getCacheKey# # # } final private static binary class LoaderReference extends java.lang.ref.WeakReference <#> implements # . CacheKeyReference { # binary # LoaderReference # # # # public binary # # getCacheKey# # # } abstract private static binary interface CacheKeyReference { # abstract public binary # # getCacheKey# # # } final private static binary class CacheKey extends java.lang.Object implements java.lang.Cloneable { # binary # CacheKey # # # # binary # # getName# # # # binary # # setName# # # # binary # # getLocale# # # # binary # # setLocale# # # # binary # # getLoader# # # # public binary # # equals# # # # public binary # # hashCode# # # # public binary # # clone# # # # binary # # getFormat# # # # binary # # setFormat# # # # public binary # # toString# # # } private static binary class RBClassLoader extends java.lang.ClassLoader { # private binary # RBClassLoader # # # # public binary # # loadClass# # # # public binary # # getResource# # # # public binary # # getResourceAsStream# # # # binary # RBClassLoader # # # } protected binary java.util.ResourceBundle parent #; final static binary boolean $assertionsDisabled #; public binary ResourceBundle () <compiled>; final public binary java.lang.String getString(# # arg0) <compiled>; final public binary java.lang.String [] getStringArray(# # arg0) <compiled>; final public binary java.lang.Object getObject(# # arg0) <compiled>; public binary java.util.Locale getLocale() <compiled>; protected binary void setParent(# # arg0) <compiled>; final public static binary java.util.ResourceBundle getBundle(# # arg0) <compiled>; final public static binary java.util.ResourceBundle getBundle(# # arg0, # # arg1) <compiled>; final public static binary java.util.ResourceBundle getBundle(# # arg0, # # arg1) <compiled>; final public static binary java.util.ResourceBundle getBundle(# # arg0, # # arg1, # # arg2) <compiled>; public static binary java.util.ResourceBundle getBundle(# # arg0, # # arg1, # # arg2) <compiled>; public static binary java.util.ResourceBundle getBundle(# # arg0, # # arg1, # # arg2, # # arg3) <compiled>; final public static binary void clearCache() <compiled>; final public static binary void clearCache(# # arg0) <compiled>; abstract protected binary java.lang.Object handleGetObject(# # arg0) <compiled>; abstract public binary java.util.Enumeration <#> getKeys() <compiled>; public binary boolean containsKey(# # arg0) <compiled>; public binary java.util.Set <#> keySet() <compiled>; protected binary java.util.Set <#> handleKeySet() <compiled>; }
+for project org.eclipse.jdt.launching.JRE_CONTAINER (in method edu.cmu.cs.fluid.java.bind.ClassMemberSearch.findClassBodyMembers(-) thread "pool-1-thread-1")
+[2013-08-23 21:51:59    INFO] Couldn't find field ResourceBundle in com.surelogic.tree.SyntaxTreeNode@1f1b9704 -- abstract public synchronized binary class ResourceBundle extends java.lang.Object { final private static binary class NoFallbackControl extends java.util.ResourceBundle . SingleFormatControl { # protected binary # NoFallbackControl # # # # public binary # # getFallbackLocale# # # } private static binary class SingleFormatControl extends java.util.ResourceBundle . Control { # protected binary # SingleFormatControl # # # # public binary # # getFormats# # # } public static binary class Control extends java.lang.Object { # final public static binary # #; # final public static binary # #; # final public static binary # #; # final public static binary # #; # final public static binary # #; # protected binary # Control # # # # final public static binary # # getControl# # # # final public static binary # # getNoFallbackControl# # # # public binary # # getFormats# # # # public binary # # getCandidateLocales# # # # public binary # # getFallbackLocale# # # # public binary # # newBundle# # # # public binary # # getTimeToLive# # # # public binary # # needsReload# # # # public binary # # toBundleName# # # # final public binary # # toResourceName# # # } final private static binary class BundleReference extends java.lang.ref.SoftReference <#> implements # . CacheKeyReference { # binary # BundleReference # # # # public binary # # getCacheKey# # # } final private static binary class LoaderReference extends java.lang.ref.WeakReference <#> implements # . CacheKeyReference { # binary # LoaderReference # # # # public binary # # getCacheKey# # # } abstract private static binary interface CacheKeyReference { # abstract public binary # # getCacheKey# # # } final private static binary class CacheKey extends java.lang.Object implements java.lang.Cloneable { # binary # CacheKey # # # # binary # # getName# # # # binary # # setName# # # # binary # # getLocale# # # # binary # # setLocale# # # # binary # # getLoader# # # # public binary # # equals# # # # public binary # # hashCode# # # # public binary # # clone# # # # binary # # getFormat# # # # binary # # setFormat# # # # public binary # # toString# # # } private static binary class RBClassLoader extends java.lang.ClassLoader { # private binary # RBClassLoader # # # # public binary # # loadClass# # # # public binary # # getResource# # # # public binary # # getResourceAsStream# # # # binary # RBClassLoader # # # } protected binary java.util.ResourceBundle parent #; final static binary boolean $assertionsDisabled #; public binary ResourceBundle () <compiled>; final public binary java.lang.String getString(# # arg0) <compiled>; final public binary java.lang.String [] getStringArray(# # arg0) <compiled>; final public binary java.lang.Object getObject(# # arg0) <compiled>; public binary java.util.Locale getLocale() <compiled>; protected binary void setParent(# # arg0) <compiled>; final public static binary java.util.ResourceBundle getBundle(# # arg0) <compiled>; final public static binary java.util.ResourceBundle getBundle(# # arg0, # # arg1) <compiled>; final public static binary java.util.ResourceBundle getBundle(# # arg0, # # arg1) <compiled>; final public static binary java.util.ResourceBundle getBundle(# # arg0, # # arg1, # # arg2) <compiled>; public static binary java.util.ResourceBundle getBundle(# # arg0, # # arg1, # # arg2) <compiled>; public static binary java.util.ResourceBundle getBundle(# # arg0, # # arg1, # # arg2, # # arg3) <compiled>; final public static binary void clearCache() <compiled>; final public static binary void clearCache(# # arg0) <compiled>; abstract protected binary java.lang.Object handleGetObject(# # arg0) <compiled>; abstract public binary java.util.Enumeration <#> getKeys() <compiled>; public binary boolean containsKey(# # arg0) <compiled>; public binary java.util.Set <#> keySet() <compiled>; protected binary java.util.Set <#> handleKeySet() <compiled>; }
+for project org.eclipse.jdt.launching.JRE_CONTAINER (in method edu.cmu.cs.fluid.java.bind.ClassMemberSearch.findClassBodyMembers(-) thread "pool-1-thread-1")
+[2013-08-23 21:51:59    INFO] Couldn't find field ResourceBundle in com.surelogic.tree.SyntaxTreeNode@1f1b9704 -- abstract public synchronized binary class ResourceBundle extends java.lang.Object { final private static binary class NoFallbackControl extends java.util.ResourceBundle . SingleFormatControl { # protected binary # NoFallbackControl # # # # public binary # # getFallbackLocale# # # } private static binary class SingleFormatControl extends java.util.ResourceBundle . Control { # protected binary # SingleFormatControl # # # # public binary # # getFormats# # # } public static binary class Control extends java.lang.Object { # final public static binary # #; # final public static binary # #; # final public static binary # #; # final public static binary # #; # final public static binary # #; # protected binary # Control # # # # final public static binary # # getControl# # # # final public static binary # # getNoFallbackControl# # # # public binary # # getFormats# # # # public binary # # getCandidateLocales# # # # public binary # # getFallbackLocale# # # # public binary # # newBundle# # # # public binary # # getTimeToLive# # # # public binary # # needsReload# # # # public binary # # toBundleName# # # # final public binary # # toResourceName# # # } final private static binary class BundleReference extends java.lang.ref.SoftReference <#> implements # . CacheKeyReference { # binary # BundleReference # # # # public binary # # getCacheKey# # # } final private static binary class LoaderReference extends java.lang.ref.WeakReference <#> implements # . CacheKeyReference { # binary # LoaderReference # # # # public binary # # getCacheKey# # # } abstract private static binary interface CacheKeyReference { # abstract public binary # # getCacheKey# # # } final private static binary class CacheKey extends java.lang.Object implements java.lang.Cloneable { # binary # CacheKey # # # # binary # # getName# # # # binary # # setName# # # # binary # # getLocale# # # # binary # # setLocale# # # # binary # # getLoader# # # # public binary # # equals# # # # public binary # # hashCode# # # # public binary # # clone# # # # binary # # getFormat# # # # binary # # setFormat# # # # public binary # # toString# # # } private static binary class RBClassLoader extends java.lang.ClassLoader { # private binary # RBClassLoader # # # # public binary # # loadClass# # # # public binary # # getResource# # # # public binary # # getResourceAsStream# # # # binary # RBClassLoader # # # } protected binary java.util.ResourceBundle parent #; final static binary boolean $assertionsDisabled #; public binary ResourceBundle () <compiled>; final public binary java.lang.String getString(# # arg0) <compiled>; final public binary java.lang.String [] getStringArray(# # arg0) <compiled>; final public binary java.lang.Object getObject(# # arg0) <compiled>; public binary java.util.Locale getLocale() <compiled>; protected binary void setParent(# # arg0) <compiled>; final public static binary java.util.ResourceBundle getBundle(# # arg0) <compiled>; final public static binary java.util.ResourceBundle getBundle(# # arg0, # # arg1) <compiled>; final public static binary java.util.ResourceBundle getBundle(# # arg0, # # arg1) <compiled>; final public static binary java.util.ResourceBundle getBundle(# # arg0, # # arg1, # # arg2) <compiled>; public static binary java.util.ResourceBundle getBundle(# # arg0, # # arg1, # # arg2) <compiled>; public static binary java.util.ResourceBundle getBundle(# # arg0, # # arg1, # # arg2, # # arg3) <compiled>; final public static binary void clearCache() <compiled>; final public static binary void clearCache(# # arg0) <compiled>; abstract protected binary java.lang.Object handleGetObject(# # arg0) <compiled>; abstract public binary java.util.Enumeration <#> getKeys() <compiled>; public binary boolean containsKey(# # arg0) <compiled>; public binary java.util.Set <#> keySet() <compiled>; protected binary java.util.Set <#> handleKeySet() <compiled>; }
+for project org.eclipse.jdt.launching.JRE_CONTAINER (in method edu.cmu.cs.fluid.java.bind.ClassMemberSearch.findClassBodyMembers(-) thread "pool-1-thread-1")
+[2013-08-23 21:51:59    INFO] Couldn't find field ResourceBundle in com.surelogic.tree.SyntaxTreeNode@1f1b9704 -- abstract public synchronized binary class ResourceBundle extends java.lang.Object { final private static binary class NoFallbackControl extends java.util.ResourceBundle . SingleFormatControl { # protected binary # NoFallbackControl # # # # public binary # # getFallbackLocale# # # } private static binary class SingleFormatControl extends java.util.ResourceBundle . Control { # protected binary # SingleFormatControl # # # # public binary # # getFormats# # # } public static binary class Control extends java.lang.Object { # final public static binary # #; # final public static binary # #; # final public static binary # #; # final public static binary # #; # final public static binary # #; # protected binary # Control # # # # final public static binary # # getControl# # # # final public static binary # # getNoFallbackControl# # # # public binary # # getFormats# # # # public binary # # getCandidateLocales# # # # public binary # # getFallbackLocale# # # # public binary # # newBundle# # # # public binary # # getTimeToLive# # # # public binary # # needsReload# # # # public binary # # toBundleName# # # # final public binary # # toResourceName# # # } final private static binary class BundleReference extends java.lang.ref.SoftReference <#> implements # . CacheKeyReference { # binary # BundleReference # # # # public binary # # getCacheKey# # # } final private static binary class LoaderReference extends java.lang.ref.WeakReference <#> implements # . CacheKeyReference { # binary # LoaderReference # # # # public binary # # getCacheKey# # # } abstract private static binary interface CacheKeyReference { # abstract public binary # # getCacheKey# # # } final private static binary class CacheKey extends java.lang.Object implements java.lang.Cloneable { # binary # CacheKey # # # # binary # # getName# # # # binary # # setName# # # # binary # # getLocale# # # # binary # # setLocale# # # # binary # # getLoader# # # # public binary # # equals# # # # public binary # # hashCode# # # # public binary # # clone# # # # binary # # getFormat# # # # binary # # setFormat# # # # public binary # # toString# # # } private static binary class RBClassLoader extends java.lang.ClassLoader { # private binary # RBClassLoader # # # # public binary # # loadClass# # # # public binary # # getResource# # # # public binary # # getResourceAsStream# # # # binary # RBClassLoader # # # } protected binary java.util.ResourceBundle parent #; final static binary boolean $assertionsDisabled #; public binary ResourceBundle () <compiled>; final public binary java.lang.String getString(# # arg0) <compiled>; final public binary java.lang.String [] getStringArray(# # arg0) <compiled>; final public binary java.lang.Object getObject(# # arg0) <compiled>; public binary java.util.Locale getLocale() <compiled>; protected binary void setParent(# # arg0) <compiled>; final public static binary java.util.ResourceBundle getBundle(# # arg0) <compiled>; final public static binary java.util.ResourceBundle getBundle(# # arg0, # # arg1) <compiled>; final public static binary java.util.ResourceBundle getBundle(# # arg0, # # arg1) <compiled>; final public static binary java.util.ResourceBundle getBundle(# # arg0, # # arg1, # # arg2) <compiled>; public static binary java.util.ResourceBundle getBundle(# # arg0, # # arg1, # # arg2) <compiled>; public static binary java.util.ResourceBundle getBundle(# # arg0, # # arg1, # # arg2, # # arg3) <compiled>; final public static binary void clearCache() <compiled>; final public static binary void clearCache(# # arg0) <compiled>; abstract protected binary java.lang.Object handleGetObject(# # arg0) <compiled>; abstract public binary java.util.Enumeration <#> getKeys() <compiled>; public binary boolean containsKey(# # arg0) <compiled>; public binary java.util.Set <#> keySet() <compiled>; protected binary java.util.Set <#> handleKeySet() <compiled>; }
+for project org.eclipse.jdt.launching.JRE_CONTAINER (in method edu.cmu.cs.fluid.java.bind.ClassMemberSearch.findClassBodyMembers(-) thread "pool-1-thread-1")
+[2013-08-23 21:51:59    INFO] Couldn't find field ResourceBundle in com.surelogic.tree.SyntaxTreeNode@1f1b9704 -- abstract public synchronized binary class ResourceBundle extends java.lang.Object { final private static binary class NoFallbackControl extends java.util.ResourceBundle . SingleFormatControl { # protected binary # NoFallbackControl # # # # public binary # # getFallbackLocale# # # } private static binary class SingleFormatControl extends java.util.ResourceBundle . Control { # protected binary # SingleFormatControl # # # # public binary # # getFormats# # # } public static binary class Control extends java.lang.Object { # final public static binary # #; # final public static binary # #; # final public static binary # #; # final public static binary # #; # final public static binary # #; # protected binary # Control # # # # final public static binary # # getControl# # # # final public static binary # # getNoFallbackControl# # # # public binary # # getFormats# # # # public binary # # getCandidateLocales# # # # public binary # # getFallbackLocale# # # # public binary # # newBundle# # # # public binary # # getTimeToLive# # # # public binary # # needsReload# # # # public binary # # toBundleName# # # # final public binary # # toResourceName# # # } final private static binary class BundleReference extends java.lang.ref.SoftReference <#> implements # . CacheKeyReference { # binary # BundleReference # # # # public binary # # getCacheKey# # # } final private static binary class LoaderReference extends java.lang.ref.WeakReference <#> implements # . CacheKeyReference { # binary # LoaderReference # # # # public binary # # getCacheKey# # # } abstract private static binary interface CacheKeyReference { # abstract public binary # # getCacheKey# # # } final private static binary class CacheKey extends java.lang.Object implements java.lang.Cloneable { # binary # CacheKey # # # # binary # # getName# # # # binary # # setName# # # # binary # # getLocale# # # # binary # # setLocale# # # # binary # # getLoader# # # # public binary # # equals# # # # public binary # # hashCode# # # # public binary # # clone# # # # binary # # getFormat# # # # binary # # setFormat# # # # public binary # # toString# # # } private static binary class RBClassLoader extends java.lang.ClassLoader { # private binary # RBClassLoader # # # # public binary # # loadClass# # # # public binary # # getResource# # # # public binary # # getResourceAsStream# # # # binary # RBClassLoader # # # } protected binary java.util.ResourceBundle parent #; final static binary boolean $assertionsDisabled #; public binary ResourceBundle () <compiled>; final public binary java.lang.String getString(# # arg0) <compiled>; final public binary java.lang.String [] getStringArray(# # arg0) <compiled>; final public binary java.lang.Object getObject(# # arg0) <compiled>; public binary java.util.Locale getLocale() <compiled>; protected binary void setParent(# # arg0) <compiled>; final public static binary java.util.ResourceBundle getBundle(# # arg0) <compiled>; final public static binary java.util.ResourceBundle getBundle(# # arg0, # # arg1) <compiled>; final public static binary java.util.ResourceBundle getBundle(# # arg0, # # arg1) <compiled>; final public static binary java.util.ResourceBundle getBundle(# # arg0, # # arg1, # # arg2) <compiled>; public static binary java.util.ResourceBundle getBundle(# # arg0, # # arg1, # # arg2) <compiled>; public static binary java.util.ResourceBundle getBundle(# # arg0, # # arg1, # # arg2, # # arg3) <compiled>; final public static binary void clearCache() <compiled>; final public static binary void clearCache(# # arg0) <compiled>; abstract protected binary java.lang.Object handleGetObject(# # arg0) <compiled>; abstract public binary java.util.Enumeration <#> getKeys() <compiled>; public binary boolean containsKey(# # arg0) <compiled>; public binary java.util.Set <#> keySet() <compiled>; protected binary java.util.Set <#> handleKeySet() <compiled>; }
+for project org.eclipse.jdt.launching.JRE_CONTAINER (in method edu.cmu.cs.fluid.java.bind.ClassMemberSearch.findClassBodyMembers(-) thread "pool-1-thread-1")
+[2013-08-23 21:51:59    INFO] Couldn't find field ResourceBundle in com.surelogic.tree.SyntaxTreeNode@1f1b9704 -- abstract public synchronized binary class ResourceBundle extends java.lang.Object { final private static binary class NoFallbackControl extends java.util.ResourceBundle . SingleFormatControl { # protected binary # NoFallbackControl # # # # public binary # # getFallbackLocale# # # } private static binary class SingleFormatControl extends java.util.ResourceBundle . Control { # protected binary # SingleFormatControl # # # # public binary # # getFormats# # # } public static binary class Control extends java.lang.Object { # final public static binary # #; # final public static binary # #; # final public static binary # #; # final public static binary # #; # final public static binary # #; # protected binary # Control # # # # final public static binary # # getControl# # # # final public static binary # # getNoFallbackControl# # # # public binary # # getFormats# # # # public binary # # getCandidateLocales# # # # public binary # # getFallbackLocale# # # # public binary # # newBundle# # # # public binary # # getTimeToLive# # # # public binary # # needsReload# # # # public binary # # toBundleName# # # # final public binary # # toResourceName# # # } final private static binary class BundleReference extends java.lang.ref.SoftReference <#> implements # . CacheKeyReference { # binary # BundleReference # # # # public binary # # getCacheKey# # # } final private static binary class LoaderReference extends java.lang.ref.WeakReference <#> implements # . CacheKeyReference { # binary # LoaderReference # # # # public binary # # getCacheKey# # # } abstract private static binary interface CacheKeyReference { # abstract public binary # # getCacheKey# # # } final private static binary class CacheKey extends java.lang.Object implements java.lang.Cloneable { # binary # CacheKey # # # # binary # # getName# # # # binary # # setName# # # # binary # # getLocale# # # # binary # # setLocale# # # # binary # # getLoader# # # # public binary # # equals# # # # public binary # # hashCode# # # # public binary # # clone# # # # binary # # getFormat# # # # binary # # setFormat# # # # public binary # # toString# # # } private static binary class RBClassLoader extends java.lang.ClassLoader { # private binary # RBClassLoader # # # # public binary # # loadClass# # # # public binary # # getResource# # # # public binary # # getResourceAsStream# # # # binary # RBClassLoader # # # } protected binary java.util.ResourceBundle parent #; final static binary boolean $assertionsDisabled #; public binary ResourceBundle () <compiled>; final public binary java.lang.String getString(# # arg0) <compiled>; final public binary java.lang.String [] getStringArray(# # arg0) <compiled>; final public binary java.lang.Object getObject(# # arg0) <compiled>; public binary java.util.Locale getLocale() <compiled>; protected binary void setParent(# # arg0) <compiled>; final public static binary java.util.ResourceBundle getBundle(# # arg0) <compiled>; final public static binary java.util.ResourceBundle getBundle(# # arg0, # # arg1) <compiled>; final public static binary java.util.ResourceBundle getBundle(# # arg0, # # arg1) <compiled>; final public static binary java.util.ResourceBundle getBundle(# # arg0, # # arg1, # # arg2) <compiled>; public static binary java.util.ResourceBundle getBundle(# # arg0, # # arg1, # # arg2) <compiled>; public static binary java.util.ResourceBundle getBundle(# # arg0, # # arg1, # # arg2, # # arg3) <compiled>; final public static binary void clearCache() <compiled>; final public static binary void clearCache(# # arg0) <compiled>; abstract protected binary java.lang.Object handleGetObject(# # arg0) <compiled>; abstract public binary java.util.Enumeration <#> getKeys() <compiled>; public binary boolean containsKey(# # arg0) <compiled>; public binary java.util.Set <#> keySet() <compiled>; protected binary java.util.Set <#> handleKeySet() <compiled>; }
+for project org.eclipse.jdt.launching.JRE_CONTAINER (in method edu.cmu.cs.fluid.java.bind.ClassMemberSearch.findClassBodyMembers(-) thread "pool-1-thread-1")
+[2013-08-23 21:51:59    INFO] Couldn't find field ResourceBundle in com.surelogic.tree.SyntaxTreeNode@1f1b9704 -- abstract public synchronized binary class ResourceBundle extends java.lang.Object { final private static binary class NoFallbackControl extends java.util.ResourceBundle . SingleFormatControl { # protected binary # NoFallbackControl # # # # public binary # # getFallbackLocale# # # } private static binary class SingleFormatControl extends java.util.ResourceBundle . Control { # protected binary # SingleFormatControl # # # # public binary # # getFormats# # # } public static binary class Control extends java.lang.Object { # final public static binary # #; # final public static binary # #; # final public static binary # #; # final public static binary # #; # final public static binary # #; # protected binary # Control # # # # final public static binary # # getControl# # # # final public static binary # # getNoFallbackControl# # # # public binary # # getFormats# # # # public binary # # getCandidateLocales# # # # public binary # # getFallbackLocale# # # # public binary # # newBundle# # # # public binary # # getTimeToLive# # # # public binary # # needsReload# # # # public binary # # toBundleName# # # # final public binary # # toResourceName# # # } final private static binary class BundleReference extends java.lang.ref.SoftReference <#> implements # . CacheKeyReference { # binary # BundleReference # # # # public binary # # getCacheKey# # # } final private static binary class LoaderReference extends java.lang.ref.WeakReference <#> implements # . CacheKeyReference { # binary # LoaderReference # # # # public binary # # getCacheKey# # # } abstract private static binary interface CacheKeyReference { # abstract public binary # # getCacheKey# # # } final private static binary class CacheKey extends java.lang.Object implements java.lang.Cloneable { # binary # CacheKey # # # # binary # # getName# # # # binary # # setName# # # # binary # # getLocale# # # # binary # # setLocale# # # # binary # # getLoader# # # # public binary # # equals# # # # public binary # # hashCode# # # # public binary # # clone# # # # binary # # getFormat# # # # binary # # setFormat# # # # public binary # # toString# # # } private static binary class RBClassLoader extends java.lang.ClassLoader { # private binary # RBClassLoader # # # # public binary # # loadClass# # # # public binary # # getResource# # # # public binary # # getResourceAsStream# # # # binary # RBClassLoader # # # } protected binary java.util.ResourceBundle parent #; final static binary boolean $assertionsDisabled #; public binary ResourceBundle () <compiled>; final public binary java.lang.String getString(# # arg0) <compiled>; final public binary java.lang.String [] getStringArray(# # arg0) <compiled>; final public binary java.lang.Object getObject(# # arg0) <compiled>; public binary java.util.Locale getLocale() <compiled>; protected binary void setParent(# # arg0) <compiled>; final public static binary java.util.ResourceBundle getBundle(# # arg0) <compiled>; final public static binary java.util.ResourceBundle getBundle(# # arg0, # # arg1) <compiled>; final public static binary java.util.ResourceBundle getBundle(# # arg0, # # arg1) <compiled>; final public static binary java.util.ResourceBundle getBundle(# # arg0, # # arg1, # # arg2) <compiled>; public static binary java.util.ResourceBundle getBundle(# # arg0, # # arg1, # # arg2) <compiled>; public static binary java.util.ResourceBundle getBundle(# # arg0, # # arg1, # # arg2, # # arg3) <compiled>; final public static binary void clearCache() <compiled>; final public static binary void clearCache(# # arg0) <compiled>; abstract protected binary java.lang.Object handleGetObject(# # arg0) <compiled>; abstract public binary java.util.Enumeration <#> getKeys() <compiled>; public binary boolean containsKey(# # arg0) <compiled>; public binary java.util.Set <#> keySet() <compiled>; protected binary java.util.Set <#> handleKeySet() <compiled>; }
+for project org.eclipse.jdt.launching.JRE_CONTAINER (in method edu.cmu.cs.fluid.java.bind.ClassMemberSearch.findClassBodyMembers(-) thread "pool-1-thread-1")
+[GC 93860K->77637K(130264K), 0.0023522 secs]
+##SUBTASK_DONE
+##WORK, 1
+Starting analyses
+Starting parallel ThreadEffectsModule [0]: 139 for org.eclipse.jdt.launching.JRE_CONTAINER
+##SUBTASK, Starting parallel ThreadEffectsModule [0]: 139 for org.eclipse.jdt.launching.JRE_CONTAINER
+##SUBTASK_DONE
+##WORK, 1
+Starting parallel ThreadEffectsModule [0]: 139 for HTTPClient_regression
+##SUBTASK, Starting parallel ThreadEffectsModule [0]: 139 for HTTPClient_regression
+##SUBTASK_DONE
+##WORK, 1
+Starting parallel LayersAnalysis [1]: 139 for org.eclipse.jdt.launching.JRE_CONTAINER
+##SUBTASK, Starting parallel LayersAnalysis [1]: 139 for org.eclipse.jdt.launching.JRE_CONTAINER
+##SUBTASK_DONE
+##WORK, 1
+Starting parallel LayersAnalysis [1]: 139 for HTTPClient_regression
+##SUBTASK, Starting parallel LayersAnalysis [1]: 139 for HTTPClient_regression
+[GC 94661K->78669K(130264K), 0.0038726 secs]
+[GC 95693K->80815K(130264K), 0.0060090 secs]
+[GC 97839K->82716K(130264K), 0.0059234 secs]
+[GC 99740K->84529K(130264K), 0.0062093 secs]
+##SUBTASK_DONE
+##WORK, 1
+Starting parallel StructureAnalysis [2]: 139 for org.eclipse.jdt.launching.JRE_CONTAINER
+##SUBTASK, Starting parallel StructureAnalysis [2]: 139 for org.eclipse.jdt.launching.JRE_CONTAINER
+##SUBTASK_DONE
+##WORK, 1
+Starting parallel StructureAnalysis [2]: 139 for HTTPClient_regression
+##SUBTASK, Starting parallel StructureAnalysis [2]: 139 for HTTPClient_regression
+##SUBTASK_DONE
+##WORK, 1
+Starting parallel ParameterizedTypeAnalysis [3]: 139 for org.eclipse.jdt.launching.JRE_CONTAINER
+##SUBTASK, Starting parallel ParameterizedTypeAnalysis [3]: 139 for org.eclipse.jdt.launching.JRE_CONTAINER
+##SUBTASK_DONE
+##WORK, 1
+Starting parallel ParameterizedTypeAnalysis [3]: 139 for HTTPClient_regression
+##SUBTASK, Starting parallel ParameterizedTypeAnalysis [3]: 139 for HTTPClient_regression
+##SUBTASK_DONE
+##WORK, 1
+Starting parallel LockAnalysis, EffectsAnalysis [4]: 139 for org.eclipse.jdt.launching.JRE_CONTAINER
+##SUBTASK, Starting parallel LockAnalysis, EffectsAnalysis [4]: 139 for org.eclipse.jdt.launching.JRE_CONTAINER
+##SUBTASK_DONE
+##WORK, 1
+Starting parallel LockAnalysis, EffectsAnalysis [4]: 139 for HTTPClient_regression
+##SUBTASK, Starting parallel LockAnalysis, EffectsAnalysis [4]: 139 for HTTPClient_regression
+[GC 101553K->85898K(130264K), 0.0052746 secs]
+[GC 102922K->89024K(130264K), 0.0075931 secs]
+[GC 106048K->93159K(130264K), 0.0099477 secs]
+[GC 110183K->98330K(130264K), 0.0114646 secs]
+[GC 98370K(130264K), 0.0045789 secs]
+[GC 115354K->102773K(130264K), 0.0095398 secs]
+[GC 119797K->105780K(130264K), 0.0092650 secs]
+[GC 122804K->109069K(130840K), 0.0079713 secs]
+[GC 109133K(130840K), 0.0039017 secs]
+[GC 123379K->109523K(192876K), 0.0087579 secs]
+[GC 126547K->113591K(192876K), 0.0098942 secs]
+##SUBTASK_DONE
+##WORK, 1
+Starting parallel EqualityAnalysis [5]: 139 for org.eclipse.jdt.launching.JRE_CONTAINER
+##SUBTASK, Starting parallel EqualityAnalysis [5]: 139 for org.eclipse.jdt.launching.JRE_CONTAINER
+##SUBTASK_DONE
+##WORK, 1
+Starting parallel EqualityAnalysis [5]: 139 for HTTPClient_regression
+##SUBTASK, Starting parallel EqualityAnalysis [5]: 139 for HTTPClient_regression
+##SUBTASK_DONE
+##WORK, 1
+Starting PARALLEL UniquenessAnalysisModule [6]: 139 for org.eclipse.jdt.launching.JRE_CONTAINER
+##SUBTASK, Starting PARALLEL UniquenessAnalysisModule [6]: 139 for org.eclipse.jdt.launching.JRE_CONTAINER
+##SUBTASK_DONE
+##WORK, 1
+Starting PARALLEL UniquenessAnalysisModule [6]: 139 for HTTPClient_regression
+##SUBTASK, Starting PARALLEL UniquenessAnalysisModule [6]: 139 for HTTPClient_regression
+##SUBTASK, Checking [ Uniqueness Assurance ] HostParams.getVirtualHost()
+##SUBTASK, Checking [ Uniqueness Assurance ] HostParams.setVirtualHost(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] Wire.output(InputStream)
+##SUBTASK, Checking [ Uniqueness Assurance ] Wire.output(byte [],int,int)
+##SUBTASK, Checking [ Uniqueness Assurance ] Wire.(ClassInitDeclaration)
+##SUBTASK, Checking [ Uniqueness Assurance ] Wire.wire(String,InputStream)
+##SUBTASK, Checking [ Uniqueness Assurance ] Wire.input(InputStream)
+##SUBTASK, Checking [ Uniqueness Assurance ] Wire.input(byte [],int,int)
+##SUBTASK, Checking [ Uniqueness Assurance ] Wire.output(byte [])
+##SUBTASK, Checking [ Uniqueness Assurance ] Wire.input(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] Wire.output(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] Wire.input(byte [])
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpConstants.getString(byte [],int,int)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpConstants.getAsciiString(byte [],int,int)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpConstants.getContentBytes(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpConstants.getContentString(byte [],String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpConstants.getContentString(byte [],int,int,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpConstants.getAsciiBytes(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpConstants.getBytes(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpConstants.getContentBytes(String,String)
+[GC 130615K->116305K(192876K), 0.0082450 secs]
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpClientParams.setConnectionManagerClass(Class)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpClientParams.setAuthenticationPreemptive(boolean)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpClientParams.isAuthenticationPreemptive()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpClientParams.makeStrict()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpClientParams.setConnectionManagerTimeout(long)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpClientParams.getConnectionManagerTimeout()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpClientParams.getConnectionManagerClass()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpClientParams.makeLenient()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpConnectionManagerParams.getMaxTotalConnections()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpConnectionManagerParams.setMaxConnectionsPerHost(HostConfiguration,int)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpConnectionManagerParams.getMaxConnectionsPerHost(HostConfiguration)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpConnectionManagerParams.setMaxTotalConnections(int)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpContentTooLargeException.HttpContentTooLargeException(String,int)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpConnectionParams.setLinger(int)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpConnectionParams.getLinger()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpConnectionParams.getSoTimeout()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpConnectionParams.setStaleCheckingEnabled(boolean)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpConnectionParams.setTcpNoDelay(boolean)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpConnectionParams.getTcpNoDelay()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpConnectionParams.setSoTimeout(int)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpConnectionParams.setConnectionTimeout(int)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpConnectionParams.getConnectionTimeout()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpConnectionParams.setReceiveBufferSize(int)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpConnectionParams.setSendBufferSize(int)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpConnectionParams.isStaleCheckingEnabled()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpConnectionParams.getSendBufferSize()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpConnectionParams.getReceiveBufferSize()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodParams.setVirtualHost(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodParams.setHttpElementCharset(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodParams.setVersion(HttpVersion)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodParams.getContentCharset()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodParams.makeLenient()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodParams.setSoTimeout(int)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodParams.getCookiePolicy()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodParams.getVersion()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodParams.makeStrict()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodParams.getSoTimeout()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodParams.setCookiePolicy(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodParams.setUriCharset(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodParams.setContentCharset(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodParams.getUriCharset()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodParams.getHttpElementCharset()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodParams.setCredentialCharset(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodParams.getCredentialCharset()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodParams.getVirtualHost()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpException.printStackTrace(PrintWriter)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpException.HttpException(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpException.HttpException(String,Throwable)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpException.printStackTrace(PrintStream)
+##SUBTASK, Checking [ Uniqueness Assurance ] MalformedCookieException.MalformedCookieException(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] MalformedCookieException.MalformedCookieException(String,Throwable)
+##SUBTASK, Checking [ Uniqueness Assurance ] AuthChallengeException.AuthChallengeException(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] AuthChallengeException.AuthChallengeException(String,Throwable)
+##SUBTASK, Checking [ Uniqueness Assurance ] NetscapeDraftSpec.parseAttribute(NameValuePair,Cookie)
+##SUBTASK, Checking [ Uniqueness Assurance ] NetscapeDraftSpec.parse(String,int,String,boolean,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] NetscapeDraftSpec.validate(String,int,String,boolean,Cookie)
+##SUBTASK, Checking [ Uniqueness Assurance ] NetscapeDraftSpec.domainMatch(String,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] NetscapeDraftSpec.isSpecialDomain(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpHost.hashCode()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpHost.equals(Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpHost.toString()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpHost.HttpHost(String,int)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpHost.HttpHost(URI)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpHost.toURI()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpHost.HttpHost(String,int,Protocol)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpHost.HttpHost(String)
+[GC 133329K->118905K(192876K), 0.0090090 secs]
+##SUBTASK, Checking [ Uniqueness Assurance ] RFC2109Spec.formatParam(StringBuffer,NameValuePair,int)
+##SUBTASK, Checking [ Uniqueness Assurance ] RFC2109Spec.domainMatch(String,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] RFC2109Spec.validate(String,int,String,boolean,Cookie)
+##SUBTASK, Checking [ Uniqueness Assurance ] RFC2109Spec.formatCookie(Cookie)
+##SUBTASK, Checking [ Uniqueness Assurance ] RFC2109Spec.formatCookies(Cookie [])
+##SUBTASK, Checking [ Uniqueness Assurance ] RFC2109Spec.formatCookieAsVer(StringBuffer,Cookie,int)
+##SUBTASK, Checking [ Uniqueness Assurance ] RFC2109Spec.parseAttribute(NameValuePair,Cookie)
+##SUBTASK, Checking [ Uniqueness Assurance ] AuthChallengeParser.extractScheme(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] AuthChallengeParser.parseChallenges(Header [])
+##SUBTASK, Checking [ Uniqueness Assurance ] AuthChallengeParser.extractParams(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] RFC2965Spec.CookieCommentUrlAttributeHandler.parse(Cookie,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] RFC2965Spec.RFC2965Spec()
+##SUBTASK, Checking [ Uniqueness Assurance ] RFC2965Spec.Cookie2DomainAttributeHandler.parse(Cookie,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] RFC2965Spec.parse(String,int,String,boolean,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] RFC2965Spec.getAttribHandlerIterator()
+##SUBTASK, Checking [ Uniqueness Assurance ] RFC2965Spec.validate(String,int,String,boolean,Cookie)
+##SUBTASK, Checking [ Uniqueness Assurance ] RFC2965Spec.getAttribHandler(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] RFC2965Spec.Cookie2VersionAttributeHandler.parse(Cookie,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] RFC2965Spec.Cookie2DomainAttributeHandler.match(Cookie,CookieOrigin)
+##SUBTASK, Checking [ Uniqueness Assurance ] RFC2965Spec.Cookie2PortAttributeHandler.validate(Cookie,CookieOrigin)
+##SUBTASK, Checking [ Uniqueness Assurance ] RFC2965Spec.Cookie2PathAttributeHandler.validate(Cookie,CookieOrigin)
+[GC 135929K->121636K(192876K), 0.0083015 secs]
+##SUBTASK, Checking [ Uniqueness Assurance ] RFC2965Spec.Cookie2VersionAttributeHandler.validate(Cookie,CookieOrigin)
+##SUBTASK, Checking [ Uniqueness Assurance ] RFC2965Spec.getVersionHeader()
+##SUBTASK, Checking [ Uniqueness Assurance ] RFC2965Spec.createPortAttribute(int [])
+##SUBTASK, Checking [ Uniqueness Assurance ] RFC2965Spec.getEffectiveHost(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] RFC2965Spec.Cookie2PathAttributeHandler.match(Cookie,CookieOrigin)
+##SUBTASK, Checking [ Uniqueness Assurance ] RFC2965Spec.Cookie2PathAttributeHandler.parse(Cookie,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] RFC2965Spec.formatCookie(Cookie)
+##SUBTASK, Checking [ Uniqueness Assurance ] RFC2965Spec.formatCookies(Cookie [])
+##SUBTASK, Checking [ Uniqueness Assurance ] RFC2965Spec.parse(String,int,String,boolean,Header)
+##SUBTASK, Checking [ Uniqueness Assurance ] RFC2965Spec.parsePortAttribute(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] RFC2965Spec.parseAttribute(NameValuePair,Cookie)
+##SUBTASK, Checking [ Uniqueness Assurance ] RFC2965Spec.doFormatCookie2(Cookie2,StringBuffer)
+##SUBTASK, Checking [ Uniqueness Assurance ] RFC2965Spec.Cookie2PortAttributeHandler.match(Cookie,CookieOrigin)
+##SUBTASK, Checking [ Uniqueness Assurance ] RFC2965Spec.Cookie2MaxageAttributeHandler.parse(Cookie,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] RFC2965Spec.registerAttribHandler(String,CookieAttributeHandler)
+##SUBTASK, Checking [ Uniqueness Assurance ] RFC2965Spec.Cookie2DomainAttributeHandler.validate(Cookie,CookieOrigin)
+[GC 138660K->123815K(192876K), 0.0071169 secs]
+##SUBTASK, Checking [ Uniqueness Assurance ] RFC2965Spec.CookieSecureAttributeHandler.match(Cookie,CookieOrigin)
+##SUBTASK, Checking [ Uniqueness Assurance ] RFC2965Spec.match(String,int,String,boolean,Cookie)
+##SUBTASK, Checking [ Uniqueness Assurance ] RFC2965Spec.findAttribHandler(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] RFC2965Spec.domainMatch(String,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] RFC2965Spec.CookieCommentAttributeHandler.parse(Cookie,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] RFC2965Spec.Cookie2PortAttributeHandler.parse(Cookie,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] AuthChallengeProcessor.selectAuthScheme(Map)
+##SUBTASK, Checking [ Uniqueness Assurance ] AuthChallengeProcessor.AuthChallengeProcessor(HttpParams)
+##SUBTASK, Checking [ Uniqueness Assurance ] AuthChallengeProcessor.processChallenge(AuthState,Map)
+##SUBTASK, Checking [ Uniqueness Assurance ] ControllerThreadSocketFactory.createSocket( SocketTask,int)
+##SUBTASK, Checking [ Uniqueness Assurance ] ControllerThreadSocketFactory.ACE #0.doit()
+##SUBTASK, Checking [ Uniqueness Assurance ] ControllerThreadSocketFactory.createSocket(ProtocolSocketFactory,String,int,InetAddress,int,int)
+##SUBTASK, Checking [ Uniqueness Assurance ] AuthPolicy.unregisterAuthScheme(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] AuthPolicy.registerAuthScheme(String,Class)
+##SUBTASK, Checking [ Uniqueness Assurance ] AuthPolicy.(ClassInitDeclaration)
+##SUBTASK, Checking [ Uniqueness Assurance ] AuthPolicy.getAuthScheme(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] AutoCloseInputStream.isReadAllowed()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodBase.getResponseFooter(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodBase.getURI()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodBase.setConnectionCloseForced(boolean)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodBase.readResponse(HttpState,HttpConnection)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodBase.addRequestHeader(Header)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodBase.responseBodyConsumed()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodBase.setRequestHeader(String,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodBase.generateRequestLine(HttpConnection,String,String,String,String)
+[GC 140839K->125752K(192876K), 0.0077065 secs]
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodBase.getResponseContentLength()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodBase.removeRequestHeader(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodBase.HttpMethodBase(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodBase.getRequestLine(HttpConnection)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodBase.getRequestHeaders(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodBase.processCookieHeaders(CookieSpec,Header [],HttpState,HttpConnection)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodBase.readStatusLine(HttpState,HttpConnection)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodBase.checkExecuteConditions(HttpState,HttpConnection)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodBase.setQueryString(NameValuePair [])
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodBase.setRequestHeader(Header)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodBase.readResponseBody(HttpState,HttpConnection)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodBase.getCookieSpec(HttpState)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodBase.getResponseBody(int)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodBase.execute(HttpState,HttpConnection)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodBase.shouldCloseConnection(HttpConnection)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodBase.getPath()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodBase.getResponseBodyAsString()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodBase.setURI(URI)
+[GC 142776K->127909K(192876K), 0.0078364 secs]
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodBase.addUserAgentRequestHeader(HttpState,HttpConnection)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodBase.setHostConfiguration(HostConfiguration)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodBase.writeRequest(HttpState,HttpConnection)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodBase.checkUsed()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodBase.addRequestHeader(String,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodBase.getRequestHeader(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodBase.getResponseHeader(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodBase.writeRequestLine(HttpState,HttpConnection)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodBase.getContentCharSet(Header)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodBase.processResponseHeaders(HttpState,HttpConnection)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodBase.addHostRequestHeader(HttpState,HttpConnection)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodBase.addCookieRequestHeader(HttpState,HttpConnection)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodBase.setParams(HttpMethodParams)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodBase.addProxyConnectionHeader(HttpState,HttpConnection)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodBase.recycle()
+[GC 144933K->129941K(192876K), 0.0067324 secs]
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodBase.canResponseHaveBody(int)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodBase.readResponseBody(HttpConnection)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodBase.getRequestCharSet()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodBase.getResponseBody()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodBase.getResponseHeaders(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodBase.getResponseBodyAsString(int)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodBase.getResponseBodyAsStream()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodBase.writeRequestHeaders(HttpState,HttpConnection)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodBase.readResponseHeaders(HttpState,HttpConnection)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodBase.checkNotUsed()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodBase.getResponseCharSet()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodBase.addRequestHeaders(HttpState,HttpConnection)
+##SUBTASK, Checking [ Uniqueness Assurance ] ByteArrayRequestEntity.ByteArrayRequestEntity(byte [],String)
+##SUBTASK, Checking [ Uniqueness Assurance ] DefaultProtocolSocketFactory.createSocket(String,int)
+##SUBTASK, Checking [ Uniqueness Assurance ] DefaultProtocolSocketFactory.createSocket(String,int,InetAddress,int)
+##SUBTASK, Checking [ Uniqueness Assurance ] DefaultProtocolSocketFactory.createSocket(String,int,InetAddress,int,HttpConnectionParams)
+[GC 146965K->131591K(192876K), 0.0056255 secs]
+##SUBTASK, Checking [ Uniqueness Assurance ] AuthSchemeBase.AuthSchemeBase(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] AuthSchemeBase.hashCode()
+##SUBTASK, Checking [ Uniqueness Assurance ] AuthSchemeBase.equals(Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodDirector.authenticate(HttpMethod)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodDirector.processWWWAuthChallenge(HttpMethod)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodDirector.authenticateProxy(HttpMethod)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodDirector.cleanAuthHeaders(HttpMethod,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodDirector.isRedirectNeeded(HttpMethod)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodDirector.processAuthenticationResponse(HttpMethod)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodDirector.isAuthenticationNeeded(HttpMethod)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodDirector.executeConnect()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodDirector.promptForProxyCredentials(AuthScheme,HttpParams,AuthScope)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodDirector.processProxyAuthChallenge(HttpMethod)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodDirector.executeMethod(HttpMethod)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodDirector.applyConnectionParams(HttpMethod)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodDirector.executeWithRetry(HttpMethod)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodDirector.fakeResponse(HttpMethod)
+[GC 148615K->133623K(192876K), 0.0072424 secs]
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodDirector.authenticateHost(HttpMethod)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodDirector.promptForCredentials(AuthScheme,HttpParams,AuthScope)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpMethodDirector.processRedirectResponse(HttpMethod)
+[GC 150647K->135277K(192876K), 0.0064598 secs]
+##SUBTASK, Checking [ Uniqueness Assurance ] Protocol.unregisterProtocol(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] Protocol.toString()
+##SUBTASK, Checking [ Uniqueness Assurance ] Protocol.lazyRegisterProtocol(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] Protocol.hashCode()
+##SUBTASK, Checking [ Uniqueness Assurance ] Protocol.Protocol(String,SecureProtocolSocketFactory,int)
+##SUBTASK, Checking [ Uniqueness Assurance ] Protocol.equals(Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] Protocol.getProtocol(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] Protocol.registerProtocol(String,Protocol)
+##SUBTASK, Checking [ Uniqueness Assurance ] Protocol.Protocol(String,ProtocolSocketFactory,int)
+##SUBTASK, Checking [ Uniqueness Assurance ] AuthScope.(ClassInitDeclaration)
+##SUBTASK, Checking [ Uniqueness Assurance ] AuthScope.hashCode()
+##SUBTASK, Checking [ Uniqueness Assurance ] AuthScope.AuthScope(String,int,String,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] AuthScope.paramsEqual(String,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] AuthScope.equals(Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] AuthScope.AuthScope(String,int,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] AuthScope.match(AuthScope)
+##SUBTASK, Checking [ Uniqueness Assurance ] AuthScope.toString()
+[GC 152301K->136560K(192876K), 0.0055556 secs]
+##SUBTASK, Checking [ Uniqueness Assurance ] AuthScope.AuthScope(AuthScope)
+##SUBTASK, Checking [ Uniqueness Assurance ] AuthScope.AuthScope(String,int)
+##SUBTASK, Checking [ Uniqueness Assurance ] DeleteMethod.DeleteMethod(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] ChunkedInputStream.getChunkSizeFromInputStream(InputStream)
+##SUBTASK, Checking [ Uniqueness Assurance ] ChunkedInputStream.read()
+##SUBTASK, Checking [ Uniqueness Assurance ] ChunkedInputStream.parseTrailerHeaders()
+##SUBTASK, Checking [ Uniqueness Assurance ] ChunkedInputStream.ChunkedInputStream(InputStream,HttpMethod)
+##SUBTASK, Checking [ Uniqueness Assurance ] ChunkedInputStream.readCRLF()
+##SUBTASK, Checking [ Uniqueness Assurance ] ChunkedInputStream.read(byte [],int,int)
+##SUBTASK, Checking [ Uniqueness Assurance ] EntityEnclosingMethod.getRequestCharSet()
+##SUBTASK, Checking [ Uniqueness Assurance ] EntityEnclosingMethod.generateRequestEntity()
+##SUBTASK, Checking [ Uniqueness Assurance ] EntityEnclosingMethod.hasRequestContent()
+##SUBTASK, Checking [ Uniqueness Assurance ] EntityEnclosingMethod.setRequestContentLength(long)
+##SUBTASK, Checking [ Uniqueness Assurance ] EntityEnclosingMethod.getRequestContentLength()
+##SUBTASK, Checking [ Uniqueness Assurance ] EntityEnclosingMethod.EntityEnclosingMethod(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] EntityEnclosingMethod.addContentLengthRequestHeader(HttpState,HttpConnection)
+##SUBTASK, Checking [ Uniqueness Assurance ] EntityEnclosingMethod.addRequestHeaders(HttpState,HttpConnection)
+##SUBTASK, Checking [ Uniqueness Assurance ] EntityEnclosingMethod.writeRequestBody(HttpState,HttpConnection)
+##SUBTASK, Checking [ Uniqueness Assurance ] EntityEnclosingMethod.setRequestBody(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] EntityEnclosingMethod.setRequestContentLength(int)
+##SUBTASK, Checking [ Uniqueness Assurance ] EntityEnclosingMethod.setRequestBody(InputStream)
+##SUBTASK, Checking [ Uniqueness Assurance ] EntityEnclosingMethod.generateRequestBody()
+##SUBTASK, Checking [ Uniqueness Assurance ] EntityEnclosingMethod.recycle()
+##SUBTASK, Checking [ Uniqueness Assurance ] EntityEnclosingMethod.setFollowRedirects(boolean)
+##SUBTASK, Checking [ Uniqueness Assurance ] EntityEnclosingMethod.clearRequestBody()
+##SUBTASK, Checking [ Uniqueness Assurance ] ChunkedOutputStream.flushCacheWithAppend(byte [],int,int)
+##SUBTASK, Checking [ Uniqueness Assurance ] ChunkedOutputStream.flushCache()
+##SUBTASK, Checking [ Uniqueness Assurance ] AuthState.toString()
+##SUBTASK, Checking [ Uniqueness Assurance ] AuthState.setPreemptive()
+[GC 153584K->138839K(192876K), 0.0072215 secs]
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpParser.readRawLine(InputStream)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpParser.parseHeaders(InputStream,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpParser.readLine(InputStream)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpParser.parseHeaders(InputStream)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpParser.readLine(InputStream,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] CircularRedirectException.CircularRedirectException(String,Throwable)
+##SUBTASK, Checking [ Uniqueness Assurance ] CircularRedirectException.CircularRedirectException(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] ExpectContinueMethod.getUseExpectHeader()
+##SUBTASK, Checking [ Uniqueness Assurance ] ExpectContinueMethod.setUseExpectHeader(boolean)
+##SUBTASK, Checking [ Uniqueness Assurance ] ExpectContinueMethod.addRequestHeaders(HttpState,HttpConnection)
+##SUBTASK, Checking [ Uniqueness Assurance ] ExpectContinueMethod.ExpectContinueMethod(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpRecoverableException.HttpRecoverableException(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] AuthenticationException.AuthenticationException(String,Throwable)
+##SUBTASK, Checking [ Uniqueness Assurance ] AuthenticationException.AuthenticationException(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] ConnectMethod.getPath()
+##SUBTASK, Checking [ Uniqueness Assurance ] ConnectMethod.ConnectMethod(HostConfiguration)
+##SUBTASK, Checking [ Uniqueness Assurance ] ConnectMethod.execute(HttpState,HttpConnection)
+##SUBTASK, Checking [ Uniqueness Assurance ] ConnectMethod.addRequestHeaders(HttpState,HttpConnection)
+##SUBTASK, Checking [ Uniqueness Assurance ] ConnectMethod.shouldCloseConnection(HttpConnection)
+##SUBTASK, Checking [ Uniqueness Assurance ] ConnectMethod.getURI()
+##SUBTASK, Checking [ Uniqueness Assurance ] ConnectMethod.writeRequestLine(HttpState,HttpConnection)
+##SUBTASK, Checking [ Uniqueness Assurance ] ReflectionSocketFactory.createSocket(String,String,int,InetAddress,int,int)
+[GC 155863K->140958K(192876K), 0.0068517 secs]
+##SUBTASK, Checking [ Uniqueness Assurance ] FileRequestEntity.FileRequestEntity(File,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] ConnectTimeoutException.ConnectTimeoutException(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] ConnectTimeoutException.ConnectTimeoutException(String,Throwable)
+##SUBTASK, Checking [ Uniqueness Assurance ] BasicScheme.authenticate(UsernamePasswordCredentials)
+##SUBTASK, Checking [ Uniqueness Assurance ] BasicScheme.authenticate(Credentials,String,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] BasicScheme.BasicScheme(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] BasicScheme.authenticate(Credentials,HttpMethod)
+##SUBTASK, Checking [ Uniqueness Assurance ] BasicScheme.authenticate(UsernamePasswordCredentials,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] BasicScheme.processChallenge(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpState.getCredentialsStringRepresentation(Map)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpState.addCookie(Cookie)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpState.setProxyCredentials(String,String,Credentials)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpState.purgeExpiredCookies()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpState.matchCredentials(HashMap,AuthScope)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpState.setCredentials(String,String,Credentials)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpState.toString()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpState.addCookies(Cookie [])
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpState.getCookiesStringRepresentation(List)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpState.getProxyCredentials(AuthScope)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpState.getCredentials(AuthScope)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpState.getProxyCredentials(String,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpState.HttpState()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpState.setProxyCredentials(AuthScope,Credentials)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpState.purgeExpiredCookies(Date)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpState.getCookies()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpState.setCredentials(AuthScope,Credentials)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpState.getCookies(String,int,String,boolean)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpState.getCredentials(String,String)
+[GC 157982K->142902K(192876K), 0.0060237 secs]
+##SUBTASK, Checking [ Uniqueness Assurance ] GetMethod.recycle()
+##SUBTASK, Checking [ Uniqueness Assurance ] GetMethod.GetMethod(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] SSLProtocolSocketFactory.createSocket(Socket,String,int,boolean)
+##SUBTASK, Checking [ Uniqueness Assurance ] SSLProtocolSocketFactory.createSocket(String,int,InetAddress,int,HttpConnectionParams)
+##SUBTASK, Checking [ Uniqueness Assurance ] SSLProtocolSocketFactory.createSocket(String,int,InetAddress,int)
+##SUBTASK, Checking [ Uniqueness Assurance ] SSLProtocolSocketFactory.createSocket(String,int)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpStatus.(ClassInitDeclaration)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpStatus.getStatusText(int)
+##SUBTASK, Checking [ Uniqueness Assurance ] ConnectionPoolTimeoutException.ConnectionPoolTimeoutException(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] ConnectionPoolTimeoutException.ConnectionPoolTimeoutException(String,Throwable)
+##SUBTASK, Checking [ Uniqueness Assurance ] CredentialsNotAvailableException.CredentialsNotAvailableException(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] CredentialsNotAvailableException.CredentialsNotAvailableException(String,Throwable)
+##SUBTASK, Checking [ Uniqueness Assurance ] ContentLengthInputStream.read()
+##SUBTASK, Checking [ Uniqueness Assurance ] ContentLengthInputStream.read(byte [],int,int)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpURL.setEscapedPassword(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpURL.setUserinfo(String,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpURL.setUser(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpURL.HttpURL(String,String,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpURL.HttpURL(String,String,String,int,String,String,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpURL.HttpURL(String,String,int,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpURL.HttpURL(HttpURL,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpURL.HttpURL(String,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpURL.setEscapedUser(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpURL.HttpURL(String,String,String,int,String,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpURL.setPassword(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpURL.getPassword()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpURL.HttpURL(String,String,int,String,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpURL.HttpURL(char [],String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpURL.toUserinfo(String,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpURL.HttpURL(String,int,String,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpURL.HttpURL(String,String,String,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpURL.checkValid()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpURL.setRawUser(char [])
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpURL.getUser()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpURL.HttpURL(String,String,String,int,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpURL.HttpURL(String,String,String,int)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpURL.setURI()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpURL.setQuery(String,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpURL.HttpURL(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpURL.HttpURL(String,String,int,String,String,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpURL.setQuery(String [],String [])
+[GC 159926K->145183K(192876K), 0.0078568 secs]
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpURL.HttpURL(String,int,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpURL.setEscapedUserinfo(String,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpURL.HttpURL(String,String,String,String,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpURL.setRawUserinfo(char [],char [])
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpURL.setRawPassword(char [])
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpURL.HttpURL(char [])
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpVersion.toString()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpVersion.compareTo(HttpVersion)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpVersion.HttpVersion(int,int)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpVersion.parse(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] Cookie.hashCode()
+##SUBTASK, Checking [ Uniqueness Assurance ] Cookie.Cookie(String,String,String,String,int,boolean)
+##SUBTASK, Checking [ Uniqueness Assurance ] Cookie.equals(Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] Cookie.Cookie(String,String,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] Cookie.setDomain(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] Cookie.compare(Object,Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] Cookie.Cookie()
+##SUBTASK, Checking [ Uniqueness Assurance ] Cookie.Cookie(String,String,String,String,Date,boolean)
+##SUBTASK, Checking [ Uniqueness Assurance ] Cookie.toExternalForm()
+[GC 162207K->147606K(192876K), 0.0088233 secs]
+##SUBTASK, Checking [ Uniqueness Assurance ] DateParseException.DateParseException(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HeadMethod.setBodyCheckTimeout(int)
+##SUBTASK, Checking [ Uniqueness Assurance ] HeadMethod.getBodyCheckTimeout()
+##SUBTASK, Checking [ Uniqueness Assurance ] HeadMethod.HeadMethod(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HeadMethod.readResponseBody(HttpState,HttpConnection)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpsURL.HttpsURL(String,String,String,int)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpsURL.HttpsURL(char [],String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpsURL.HttpsURL(char [])
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpsURL.HttpsURL(String,String,int,String,String,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpsURL.HttpsURL(String,String,String,int,String,String,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpsURL.HttpsURL(String,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpsURL.HttpsURL(String,int,String,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpsURL.HttpsURL(String,String,int,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpsURL.HttpsURL(HttpsURL,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpsURL.checkValid()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpsURL.HttpsURL(String,String,String,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpsURL.HttpsURL(String,String,String,int,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpsURL.HttpsURL(String,String,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpsURL.HttpsURL(String,int,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpsURL.HttpsURL(String,String,String,String,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpsURL.HttpsURL(String,String,int,String,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpsURL.HttpsURL(String,String,String,int,String,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpsURL.HttpsURL(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] InputStreamRequestEntity.InputStreamRequestEntity(InputStream,long,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] InputStreamRequestEntity.bufferContent()
+##SUBTASK, Checking [ Uniqueness Assurance ] InputStreamRequestEntity.writeRequest(OutputStream)
+##SUBTASK, Checking [ Uniqueness Assurance ] InputStreamRequestEntity.InputStreamRequestEntity(InputStream,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] DateParser.parseDate(String,Collection)
+##SUBTASK, Checking [ Uniqueness Assurance ] DateParser.parseDate(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] InvalidRedirectLocationException.InvalidRedirectLocationException(String,String,Throwable)
+##SUBTASK, Checking [ Uniqueness Assurance ] InvalidRedirectLocationException.InvalidRedirectLocationException(String,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] DigestScheme.authenticate(Credentials,String,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] DigestScheme.createCnonce()
+##SUBTASK, Checking [ Uniqueness Assurance ] DigestScheme.isComplete()
+##SUBTASK, Checking [ Uniqueness Assurance ] DigestScheme.createDigestHeader(String,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] DigestScheme.createDigest(String,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] DigestScheme.getID()
+##SUBTASK, Checking [ Uniqueness Assurance ] DigestScheme.processChallenge(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] DigestScheme.encode(byte [])
+##SUBTASK, Checking [ Uniqueness Assurance ] DigestScheme.DigestScheme(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] DigestScheme.authenticate(Credentials,HttpMethod)
+[GC 164630K->149980K(192876K), 0.0073227 secs]
+##SUBTASK, Checking [ Uniqueness Assurance ] MultipartPostMethod.addContentTypeRequestHeader(HttpState,HttpConnection)
+##SUBTASK, Checking [ Uniqueness Assurance ] MultipartPostMethod.addParameter(String,String,File)
+##SUBTASK, Checking [ Uniqueness Assurance ] MultipartPostMethod.getRequestContentLength()
+##SUBTASK, Checking [ Uniqueness Assurance ] MultipartPostMethod.addContentLengthRequestHeader(HttpState,HttpConnection)
+##SUBTASK, Checking [ Uniqueness Assurance ] MultipartPostMethod.writeRequestBody(HttpState,HttpConnection)
+##SUBTASK, Checking [ Uniqueness Assurance ] MultipartPostMethod.addPart(Part)
+##SUBTASK, Checking [ Uniqueness Assurance ] MultipartPostMethod.MultipartPostMethod(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] MultipartPostMethod.addParameter(String,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] MultipartPostMethod.recycle()
+##SUBTASK, Checking [ Uniqueness Assurance ] MultipartPostMethod.addRequestHeaders(HttpState,HttpConnection)
+##SUBTASK, Checking [ Uniqueness Assurance ] MultipartPostMethod.addParameter(String,File)
+[GC 167004K->151517K(192876K), 0.0046712 secs]
+##SUBTASK, Checking [ Uniqueness Assurance ] DateUtil.formatDate(Date)
+##SUBTASK, Checking [ Uniqueness Assurance ] DateUtil.formatDate(Date,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] DateUtil.parseDate(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] DateUtil.parseDate(String,Collection)
+##SUBTASK, Checking [ Uniqueness Assurance ] DateUtil.parseDate(String,Collection,Date)
+##SUBTASK, Checking [ Uniqueness Assurance ] DateUtil.(ClassInitDeclaration)
+##SUBTASK, Checking [ Uniqueness Assurance ] DefaultHttpMethodRetryHandler.(ClassInitDeclaration)
+##SUBTASK, Checking [ Uniqueness Assurance ] DefaultHttpMethodRetryHandler.retryMethod(HttpMethod,IOException,int)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpAuthRealm.HttpAuthRealm(String,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] EncodingUtil.getAsciiString(byte [],int,int)
+##SUBTASK, Checking [ Uniqueness Assurance ] EncodingUtil.formUrlEncode(NameValuePair [],String)
+##SUBTASK, Checking [ Uniqueness Assurance ] EncodingUtil.getBytes(String,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] EncodingUtil.getString(byte [],int,int,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] EncodingUtil.doFormUrlEncode(NameValuePair [],String)
+##SUBTASK, Checking [ Uniqueness Assurance ] EncodingUtil.getString(byte [],String)
+##SUBTASK, Checking [ Uniqueness Assurance ] EncodingUtil.getAsciiBytes(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] OptionsMethod.getAllowedMethods()
+##SUBTASK, Checking [ Uniqueness Assurance ] OptionsMethod.processResponseHeaders(HttpState,HttpConnection)
+##SUBTASK, Checking [ Uniqueness Assurance ] OptionsMethod.OptionsMethod(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] OptionsMethod.isAllowed(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] Header.getValues()
+##SUBTASK, Checking [ Uniqueness Assurance ] Header.Header(String,String,boolean)
+##SUBTASK, Checking [ Uniqueness Assurance ] Header.getElements()
+##SUBTASK, Checking [ Uniqueness Assurance ] Header.Header(String,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] MultiThreadedHttpConnectionManager.HttpConnectionAdapter.getSendBufferSize()
+##SUBTASK, Checking [ Uniqueness Assurance ] MultiThreadedHttpConnectionManager.HttpConnectionAdapter.getSoTimeout()
+##SUBTASK, Checking [ Uniqueness Assurance ] MultiThreadedHttpConnectionManager.ConnectionPool.deleteClosedConnections()
+##SUBTASK, Checking [ Uniqueness Assurance ] MultiThreadedHttpConnectionManager.HttpConnectionAdapter.getParams()
+##SUBTASK, Checking [ Uniqueness Assurance ] MultiThreadedHttpConnectionManager.HttpConnectionAdapter.writeLine()
+##SUBTASK, Checking [ Uniqueness Assurance ] MultiThreadedHttpConnectionManager.HttpConnectionAdapter.setSendBufferSize(int)
+##SUBTASK, Checking [ Uniqueness Assurance ] MultiThreadedHttpConnectionManager.HttpConnectionAdapter.printLine(String,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] MultiThreadedHttpConnectionManager.HttpConnectionAdapter.setHost(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] MultiThreadedHttpConnectionManager.ConnectionPool.deleteConnection(HttpConnection)
+##SUBTASK, Checking [ Uniqueness Assurance ] MultiThreadedHttpConnectionManager.ConnectionPool.shutdown()
+##SUBTASK, Checking [ Uniqueness Assurance ] MultiThreadedHttpConnectionManager.ConnectionPool.getHostPool(HostConfiguration,boolean)
+##SUBTASK, Checking [ Uniqueness Assurance ] MultiThreadedHttpConnectionManager.ConnectionPool.deleteLeastUsedConnection()
+##SUBTASK, Checking [ Uniqueness Assurance ] MultiThreadedHttpConnectionManager.getConnection(HostConfiguration,long)
+##SUBTASK, Checking [ Uniqueness Assurance ] MultiThreadedHttpConnectionManager.HttpConnectionAdapter.readLine()
+##SUBTASK, Checking [ Uniqueness Assurance ] MultiThreadedHttpConnectionManager.ReferenceQueueThread.run()
+##SUBTASK, Checking [ Uniqueness Assurance ] MultiThreadedHttpConnectionManager.getConnectionWithTimeout(HostConfiguration,long)
+##SUBTASK, Checking [ Uniqueness Assurance ] MultiThreadedHttpConnectionManager.setParams(HttpConnectionManagerParams)
+[GC 168541K->153573K(192876K), 0.0064644 secs]
+##SUBTASK, Checking [ Uniqueness Assurance ] MultiThreadedHttpConnectionManager.HttpConnectionAdapter.writeLine(byte [])
+##SUBTASK, Checking [ Uniqueness Assurance ] MultiThreadedHttpConnectionManager.ConnectionPool.freeConnection(HttpConnection)
+##SUBTASK, Checking [ Uniqueness Assurance ] MultiThreadedHttpConnectionManager.HttpConnectionAdapter.open()
+##SUBTASK, Checking [ Uniqueness Assurance ] MultiThreadedHttpConnectionManager.ReferenceQueueThread.ReferenceQueueThread()
+##SUBTASK, Checking [ Uniqueness Assurance ] MultiThreadedHttpConnectionManager.HttpConnectionAdapter.write(byte [],int,int)
+##SUBTASK, Checking [ Uniqueness Assurance ] MultiThreadedHttpConnectionManager.HttpConnectionAdapter.setStaleCheckingEnabled(boolean)
+##SUBTASK, Checking [ Uniqueness Assurance ] MultiThreadedHttpConnectionManager.HttpConnectionAdapter.setVirtualHost(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] MultiThreadedHttpConnectionManager.ConnectionPool.getFreeConnection(HostConfiguration)
+##SUBTASK, Checking [ Uniqueness Assurance ] MultiThreadedHttpConnectionManager.configurationForConnection(HttpConnection)
+##SUBTASK, Checking [ Uniqueness Assurance ] MultiThreadedHttpConnectionManager.HttpConnectionAdapter.HttpConnectionAdapter(HttpConnection)
+##SUBTASK, Checking [ Uniqueness Assurance ] MultiThreadedHttpConnectionManager.ConnectionPool.notifyWaitingThread( HostConnectionPool)
+##SUBTASK, Checking [ Uniqueness Assurance ] MultiThreadedHttpConnectionManager.HttpConnectionAdapter.setParams(HttpConnectionParams)
+##SUBTASK, Checking [ Uniqueness Assurance ] MultiThreadedHttpConnectionManager.ConnectionPool.createConnection(HostConfiguration)
+##SUBTASK, Checking [ Uniqueness Assurance ] MultiThreadedHttpConnectionManager.ConnectionPool.ConnectionPool()
+##SUBTASK, Checking [ Uniqueness Assurance ] MultiThreadedHttpConnectionManager.HttpConnectionAdapter.printLine(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] MultiThreadedHttpConnectionManager.HttpConnectionAdapter.print(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] MultiThreadedHttpConnectionManager.doGetConnection(HostConfiguration,long)
+##SUBTASK, Checking [ Uniqueness Assurance ] MultiThreadedHttpConnectionManager.HttpConnectionAdapter.flushRequestOutputStream()
+##SUBTASK, Checking [ Uniqueness Assurance ] MultiThreadedHttpConnectionManager.HttpConnectionAdapter.readLine(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] MultiThreadedHttpConnectionManager.HttpConnectionAdapter.printLine()
+##SUBTASK, Checking [ Uniqueness Assurance ] MultiThreadedHttpConnectionManager.HttpConnectionAdapter.setLocalAddress(InetAddress)
+##SUBTASK, Checking [ Uniqueness Assurance ] MultiThreadedHttpConnectionManager.HttpConnectionAdapter.print(String,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] MultiThreadedHttpConnectionManager.ReferenceQueueThread.handleReference(Reference)
+##SUBTASK, Checking [ Uniqueness Assurance ] MultiThreadedHttpConnectionManager.HttpConnectionAdapter.setSocketTimeout(int)
+##SUBTASK, Checking [ Uniqueness Assurance ] MultiThreadedHttpConnectionManager.getConnection(HostConfiguration)
+##SUBTASK, Checking [ Uniqueness Assurance ] MultiThreadedHttpConnectionManager.HttpConnectionAdapter.setProxyHost(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] MultiThreadedHttpConnectionManager.shutdownCheckedOutConnections( ConnectionPool)
+##SUBTASK, Checking [ Uniqueness Assurance ] MultiThreadedHttpConnectionManager.releaseConnection(HttpConnection)
+##SUBTASK, Checking [ Uniqueness Assurance ] MultiThreadedHttpConnectionManager.HttpConnectionAdapter.write(byte [])
+##SUBTASK, Checking [ Uniqueness Assurance ] MultiThreadedHttpConnectionManager.HttpConnectionAdapter.getVirtualHost()
+[GC 170597K->155806K(192876K), 0.0058818 secs]
+[GC 172830K->157546K(192876K), 0.0049411 secs]
+[GC 174570K->156513K(192876K), 0.0015859 secs]
+[GC 173537K->156914K(192876K), 0.0015689 secs]
+##SUBTASK, Checking [ Uniqueness Assurance ] ExceptionUtil.SocketTimeoutExceptionClass()
+##SUBTASK, Checking [ Uniqueness Assurance ] ExceptionUtil.initCause(Throwable,Throwable)
+##SUBTASK, Checking [ Uniqueness Assurance ] ExceptionUtil.getInitCauseMethod()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpAuthenticator.authenticate(AuthScheme,HttpMethod,HttpConnection,HttpState)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpAuthenticator.doAuthenticateDefault(HttpMethod,HttpConnection,HttpState,boolean)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpAuthenticator.authenticateDefault(HttpMethod,HttpConnection,HttpState)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpAuthenticator.authenticateProxy(AuthScheme,HttpMethod,HttpConnection,HttpState)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpAuthenticator.doAuthenticate(AuthScheme,HttpMethod,HttpConnection,HttpState,boolean)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpAuthenticator.authenticateProxyDefault(HttpMethod,HttpConnection,HttpState)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpAuthenticator.selectAuthScheme(Header [])
+##SUBTASK, Checking [ Uniqueness Assurance ] NTCredentials.toString()
+##SUBTASK, Checking [ Uniqueness Assurance ] NTCredentials.setDomain(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] NTCredentials.NTCredentials(String,String,String,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] NTCredentials.setHost(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] NTCredentials.hashCode()
+##SUBTASK, Checking [ Uniqueness Assurance ] NTCredentials.equals(Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] PostMethod.addParameter(NameValuePair)
+##SUBTASK, Checking [ Uniqueness Assurance ] PostMethod.setParameter(String,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] PostMethod.getParameter(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] PostMethod.clearRequestBody()
+##SUBTASK, Checking [ Uniqueness Assurance ] PostMethod.hasRequestContent()
+##SUBTASK, Checking [ Uniqueness Assurance ] PostMethod.removeParameter(String,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] PostMethod.generateRequestEntity()
+##SUBTASK, Checking [ Uniqueness Assurance ] PostMethod.getParameters()
+[GC 173938K->157851K(192876K), 0.0030609 secs]
+##SUBTASK, Checking [ Uniqueness Assurance ] PostMethod.addParameter(String,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] PostMethod.addParameters(NameValuePair [])
+##SUBTASK, Checking [ Uniqueness Assurance ] PostMethod.removeParameter(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] PostMethod.setRequestBody(NameValuePair [])
+##SUBTASK, Checking [ Uniqueness Assurance ] PostMethod.PostMethod(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HeaderElement.getParameterByName(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HeaderElement.parseElements(char [])
+##SUBTASK, Checking [ Uniqueness Assurance ] HeaderElement.parse(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HeaderElement.HeaderElement(String,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HeaderElement.HeaderElement(char [],int,int)
+##SUBTASK, Checking [ Uniqueness Assurance ] HeaderElement.parseElements(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HeaderElement.HeaderElement(String,String,NameValuePair [])
+##SUBTASK, Checking [ Uniqueness Assurance ] InvalidCredentialsException.InvalidCredentialsException(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] InvalidCredentialsException.InvalidCredentialsException(String,Throwable)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpURLConnection.setDefaultUseCaches(boolean)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpURLConnection.getPermission()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpURLConnection.usingProxy()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpURLConnection.HttpURLConnection(URL)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpURLConnection.setDoOutput(boolean)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpURLConnection.getHeaderFieldKey(int)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpURLConnection.getUseCaches()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpURLConnection.getContent()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpURLConnection.getDefaultUseCaches()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpURLConnection.getResponseCode()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpURLConnection.getContent(Class [])
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpURLConnection.setIfModifiedSince(long)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpURLConnection.disconnect()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpURLConnection.getIfModifiedSince()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpURLConnection.getRequestProperty(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpURLConnection.getErrorStream()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpURLConnection.getDoOutput()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpURLConnection.getOutputStream()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpURLConnection.getAllowUserInteraction()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpURLConnection.getHeaderField(int)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpURLConnection.getHeaderField(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpURLConnection.setDoInput(boolean)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpURLConnection.setUseCaches(boolean)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpURLConnection.getDoInput()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpURLConnection.getURL()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpURLConnection.getResponseMessage()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpURLConnection.setInstanceFollowRedirects(boolean)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpURLConnection.getInputStream()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpURLConnection.setRequestProperty(String,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpURLConnection.setRequestMethod(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpURLConnection.getRequestMethod()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpURLConnection.setAllowUserInteraction(boolean)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpURLConnection.getInstanceFollowRedirects()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpURLConnection.connect()
+##SUBTASK, Checking [ Uniqueness Assurance ] NameValuePair.hashCode()
+##SUBTASK, Checking [ Uniqueness Assurance ] NameValuePair.equals(Object)
+[GC 174875K->160496K(192876K), 0.0069324 secs]
+##SUBTASK, Checking [ Uniqueness Assurance ] HeaderGroup.getIterator()
+##SUBTASK, Checking [ Uniqueness Assurance ] HeaderGroup.getHeaders(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HeaderGroup.getFirstHeader(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HeaderGroup.getCondensedHeader(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HeaderGroup.getLastHeader(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HeaderGroup.containsHeader(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] PutMethod.PutMethod(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] MalformedChallengeException.MalformedChallengeException(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] MalformedChallengeException.MalformedChallengeException(String,Throwable)
+##SUBTASK, Checking [ Uniqueness Assurance ] NoHttpResponseException.NoHttpResponseException(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] NoHttpResponseException.NoHttpResponseException(String,Throwable)
+##SUBTASK, Checking [ Uniqueness Assurance ] NTLM.getType3Message(String,String,String,String,byte [])
+##SUBTASK, Checking [ Uniqueness Assurance ] NTLM.getCipher(byte [])
+##SUBTASK, Checking [ Uniqueness Assurance ] NTLM.getType1Message(String,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] NTLM.parseType2Message(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] NTLM.convertShort(int)
+##SUBTASK, Checking [ Uniqueness Assurance ] NTLM.encrypt(byte [],byte [])
+##SUBTASK, Checking [ Uniqueness Assurance ] NTLM.getResponseFor(String,String,String,String,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] NTLM.hashPassword(String,byte [])
+[GC 177520K->163016K(192876K), 0.0065628 secs]
+[GC 163075K(192876K), 0.0036907 secs]
+[GC 180040K->164859K(192876K), 0.0159326 secs]
+[GC 181883K->164665K(192876K), 0.0024182 secs]
+##SUBTASK, Checking [ Uniqueness Assurance ] HostConfiguration.setHost(String,int,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HostConfiguration.setParams(HostParams)
+##SUBTASK, Checking [ Uniqueness Assurance ] HostConfiguration.setHost(String,String,int,Protocol)
+##SUBTASK, Checking [ Uniqueness Assurance ] HostConfiguration.HostConfiguration()
+##SUBTASK, Checking [ Uniqueness Assurance ] HostConfiguration.setProxy(String,int)
+##SUBTASK, Checking [ Uniqueness Assurance ] HostConfiguration.setHost(String,int)
+##SUBTASK, Checking [ Uniqueness Assurance ] HostConfiguration.setHost(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HostConfiguration.hostEquals(HttpConnection)
+##SUBTASK, Checking [ Uniqueness Assurance ] HostConfiguration.HostConfiguration(HostConfiguration)
+##SUBTASK, Checking [ Uniqueness Assurance ] HostConfiguration.clone()
+##SUBTASK, Checking [ Uniqueness Assurance ] HostConfiguration.init(HostConfiguration)
+##SUBTASK, Checking [ Uniqueness Assurance ] HostConfiguration.setHost(URI)
+##SUBTASK, Checking [ Uniqueness Assurance ] HostConfiguration.getHostURL()
+##SUBTASK, Checking [ Uniqueness Assurance ] HostConfiguration.proxyEquals(HttpConnection)
+##SUBTASK, Checking [ Uniqueness Assurance ] HostConfiguration.toString()
+##SUBTASK, Checking [ Uniqueness Assurance ] HostConfiguration.setHost(String,int,Protocol)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpClient.setParams(HttpClientParams)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpClient.HttpClient(HttpClientParams,HttpConnectionManager)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpClient.HttpClient(HttpConnectionManager)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpClient.executeMethod(HostConfiguration,HttpMethod)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpClient.(ClassInitDeclaration)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpClient.executeMethod(HttpMethod)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpClient.executeMethod(HostConfiguration,HttpMethod,HttpState)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpClient.HttpClient(HttpClientParams)
+[GC 174184K(192876K), 0.0098534 secs]
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpClient.HttpClient()
+##SUBTASK, Checking [ Uniqueness Assurance ] NTLMScheme.authenticate(NTCredentials,String,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] NTLMScheme.authenticate(Credentials,HttpMethod)
+##SUBTASK, Checking [ Uniqueness Assurance ] NTLMScheme.processChallenge(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] NTLMScheme.authenticate(NTCredentials,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] NTLMScheme.NTLMScheme(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] NTLMScheme.getParameter(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] NTLMScheme.authenticate(Credentials,String,String)
+[GC 177559K->162592K(192876K), 0.0052899 secs]
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpClientError.HttpClientError(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] IdleConnectionHandler.closeIdleConnections(long)
+##SUBTASK, Checking [ Uniqueness Assurance ] IdleConnectionHandler.add(HttpConnection)
+##SUBTASK, Checking [ Uniqueness Assurance ] ProtocolException.ProtocolException(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] ProtocolException.ProtocolException(String,Throwable)
+##SUBTASK, Checking [ Uniqueness Assurance ] RFC2617Scheme.RFC2617Scheme(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] RFC2617Scheme.processChallenge(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] RFC2617Scheme.getRealm()
+##SUBTASK, Checking [ Uniqueness Assurance ] RFC2617Scheme.getParameter(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] Cookie2.Cookie2()
+##SUBTASK, Checking [ Uniqueness Assurance ] Cookie2.Cookie2(String,String,String,String,Date,boolean)
+##SUBTASK, Checking [ Uniqueness Assurance ] Cookie2.Cookie2(String,String,String,String,Date,boolean,int [])
+##SUBTASK, Checking [ Uniqueness Assurance ] Cookie2.Cookie2(String,String,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] Cookie2.toExternalForm()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpConnection.write(byte [])
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpConnection.close()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpConnection.assertOpen()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpConnection.printLine(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpConnection.isResponseAvailable()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpConnection.print(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpConnection.open()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpConnection.flushRequestOutputStream()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpConnection.tunnelCreated()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpConnection.write(byte [],int,int)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpConnection.printLine()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpConnection.HttpConnection(String,int)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpConnection.assertNotOpen()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpConnection.writeLine()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpConnection.printLine(String,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpConnection.HttpConnection(String,int,String,String,int,Protocol)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpConnection.HttpConnection(String,int,String,int)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpConnection.setHost(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpConnection.getRequestOutputStream()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpConnection.HttpConnection(HostConfiguration)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpConnection.HttpConnection(String,int,String,int,Protocol)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpConnection.isResponseAvailable(int)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpConnection.closeSocketAndStreams()
+[GC 156256K->142244K(192876K), 0.0079157 secs]
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpConnection.readLine(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpConnection.setParams(HttpConnectionParams)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpConnection.print(String,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpConnection.HttpConnection(String,int,Protocol)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpConnection.closeIfStale()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpConnection.releaseConnection()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpConnection.HttpConnection(String,String,int,Protocol)
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpConnection.readLine()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpConnection.isStale()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpConnection.getResponseInputStream()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpConnection.writeLine(byte [])
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpConnection.shutdownOutput()
+##SUBTASK, Checking [ Uniqueness Assurance ] HttpConnection.setProtocol(Protocol)
+##SUBTASK, Checking [ Uniqueness Assurance ] StringRequestEntity.getContent()
+##SUBTASK, Checking [ Uniqueness Assurance ] StringRequestEntity.StringRequestEntity(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] StringRequestEntity.writeRequest(OutputStream)
+##SUBTASK, Checking [ Uniqueness Assurance ] StringRequestEntity.StringRequestEntity(String,String,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] ProxyClient.ProxyClient(HttpClientParams)
+##SUBTASK, Checking [ Uniqueness Assurance ] ProxyClient.connect()
+##SUBTASK, Checking [ Uniqueness Assurance ] ProxyClient.setParams(HttpClientParams)
+[GC 159184K->144490K(252552K), 0.0060496 secs]
+##SUBTASK, Checking [ Uniqueness Assurance ] TraceMethod.TraceMethod(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] IdleConnectionTimeoutThread.setConnectionTimeout(long)
+##SUBTASK, Checking [ Uniqueness Assurance ] IdleConnectionTimeoutThread.run()
+##SUBTASK, Checking [ Uniqueness Assurance ] IdleConnectionTimeoutThread.setTimeoutInterval(long)
+##SUBTASK, Checking [ Uniqueness Assurance ] IdleConnectionTimeoutThread.addConnectionManager(HttpConnectionManager)
+##SUBTASK, Checking [ Uniqueness Assurance ] IdleConnectionTimeoutThread.removeConnectionManager(HttpConnectionManager)
+##SUBTASK, Checking [ Uniqueness Assurance ] CookieOrigin.CookieOrigin(String,int,String,boolean)
+##SUBTASK, Checking [ Uniqueness Assurance ] CookiePathComparator.compare(Object,Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] CookiePathComparator.normalizePath(Cookie)
+##SUBTASK, Checking [ Uniqueness Assurance ] ProxyHost.ProxyHost(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] ProxyHost.ProxyHost(String,int)
+##SUBTASK, Checking [ Uniqueness Assurance ] CookiePolicy.registerCookieSpec(String,Class)
+##SUBTASK, Checking [ Uniqueness Assurance ] CookiePolicy.unregisterCookieSpec(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] CookiePolicy.(ClassInitDeclaration)
+##SUBTASK, Checking [ Uniqueness Assurance ] CookiePolicy.getDefaultSpec()
+##SUBTASK, Checking [ Uniqueness Assurance ] CookiePolicy.getCookieSpec(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] RedirectException.RedirectException(String,Throwable)
+##SUBTASK, Checking [ Uniqueness Assurance ] RedirectException.RedirectException(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] FilePart.lengthOfData()
+##SUBTASK, Checking [ Uniqueness Assurance ] FilePart.(ClassInitDeclaration)
+##SUBTASK, Checking [ Uniqueness Assurance ] FilePart.getSource()
+##SUBTASK, Checking [ Uniqueness Assurance ] FilePart.sendData(OutputStream)
+##SUBTASK, Checking [ Uniqueness Assurance ] FilePart.FilePart(String,File)
+##SUBTASK, Checking [ Uniqueness Assurance ] FilePart.FilePart(String,String,File)
+##SUBTASK, Checking [ Uniqueness Assurance ] FilePart.sendDispositionHeader(OutputStream)
+##SUBTASK, Checking [ Uniqueness Assurance ] FilePart.FilePart(String,PartSource,String,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] FilePart.FilePart(String,File,String,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] FilePart.FilePart(String,PartSource)
+##SUBTASK, Checking [ Uniqueness Assurance ] FilePart.FilePart(String,String,File,String,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] CookieSpec.(ClassInitDeclaration)
+##SUBTASK, Checking [ Uniqueness Assurance ] FilePartSource.FilePartSource(File)
+##SUBTASK, Checking [ Uniqueness Assurance ] SimpleHttpConnectionManager.setParams(HttpConnectionManagerParams)
+##SUBTASK, Checking [ Uniqueness Assurance ] SimpleHttpConnectionManager.releaseConnection(HttpConnection)
+##SUBTASK, Checking [ Uniqueness Assurance ] SimpleHttpConnectionManager.getConnectionWithTimeout(HostConfiguration,long)
+##SUBTASK, Checking [ Uniqueness Assurance ] CookieSpecBase.match(String,int,String,boolean,Cookie)
+##SUBTASK, Checking [ Uniqueness Assurance ] CookieSpecBase.formatCookies(Cookie [])
+##SUBTASK, Checking [ Uniqueness Assurance ] CookieSpecBase.parse(String,int,String,boolean,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] CookieSpecBase.formatCookie(Cookie)
+##SUBTASK, Checking [ Uniqueness Assurance ] CookieSpecBase.pathMatch(String,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] CookieSpecBase.formatCookieHeader(Cookie)
+##SUBTASK, Checking [ Uniqueness Assurance ] CookieSpecBase.parse(String,int,String,boolean,Header)
+##SUBTASK, Checking [ Uniqueness Assurance ] CookieSpecBase.formatCookieHeader(Cookie [])
+[GC 161514K->147102K(252552K), 0.0066496 secs]
+##SUBTASK, Checking [ Uniqueness Assurance ] CookieSpecBase.domainMatch(String,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] CookieSpecBase.match(String,int,String,boolean,Cookie [])
+##SUBTASK, Checking [ Uniqueness Assurance ] CookieSpecBase.validate(String,int,String,boolean,Cookie)
+##SUBTASK, Checking [ Uniqueness Assurance ] CookieSpecBase.parseAttribute(NameValuePair,Cookie)
+##SUBTASK, Checking [ Uniqueness Assurance ] MultipartRequestEntity.getContentLength()
+##SUBTASK, Checking [ Uniqueness Assurance ] MultipartRequestEntity.(ClassInitDeclaration)
+##SUBTASK, Checking [ Uniqueness Assurance ] MultipartRequestEntity.getContentType()
+##SUBTASK, Checking [ Uniqueness Assurance ] MultipartRequestEntity.MultipartRequestEntity(Part [],HttpMethodParams)
+##SUBTASK, Checking [ Uniqueness Assurance ] MultipartRequestEntity.getMultipartBoundary()
+##SUBTASK, Checking [ Uniqueness Assurance ] Part.(ClassInitDeclaration)
+##SUBTASK, Checking [ Uniqueness Assurance ] Part.send(OutputStream)
+##SUBTASK, Checking [ Uniqueness Assurance ] Part.sendContentTypeHeader(OutputStream)
+##SUBTASK, Checking [ Uniqueness Assurance ] Part.getLengthOfParts(Part [],byte [])
+##SUBTASK, Checking [ Uniqueness Assurance ] Part.sendEnd(OutputStream)
+##SUBTASK, Checking [ Uniqueness Assurance ] Part.sendTransferEncodingHeader(OutputStream)
+##SUBTASK, Checking [ Uniqueness Assurance ] Part.sendParts(OutputStream,Part [],byte [])
+##SUBTASK, Checking [ Uniqueness Assurance ] Part.sendDispositionHeader(OutputStream)
+[GC 164126K->149719K(252552K), 0.0078262 secs]
+##SUBTASK, Checking [ Uniqueness Assurance ] Part.sendEndOfHeader(OutputStream)
+##SUBTASK, Checking [ Uniqueness Assurance ] Part.sendStart(OutputStream)
+##SUBTASK, Checking [ Uniqueness Assurance ] Part.length()
+##SUBTASK, Checking [ Uniqueness Assurance ] PartBase.PartBase(String,String,String,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] PartBase.setName(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] StringPart.setCharSet(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] StringPart.StringPart(String,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] StringPart.sendData(OutputStream)
+##SUBTASK, Checking [ Uniqueness Assurance ] StringPart.StringPart(String,String,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] StringPart.getContent()
+##SUBTASK, Checking [ Uniqueness Assurance ] StringPart.lengthOfData()
+##SUBTASK, Checking [ Uniqueness Assurance ] DefaultHttpParams.getParameter(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] DefaultHttpParams.getLongParameter(String,long)
+##SUBTASK, Checking [ Uniqueness Assurance ] DefaultHttpParams.setBooleanParameter(String,boolean)
+##SUBTASK, Checking [ Uniqueness Assurance ] DefaultHttpParams.getBooleanParameter(String,boolean)
+##SUBTASK, Checking [ Uniqueness Assurance ] DefaultHttpParams.setIntParameter(String,int)
+##SUBTASK, Checking [ Uniqueness Assurance ] DefaultHttpParams.setLongParameter(String,long)
+##SUBTASK, Checking [ Uniqueness Assurance ] DefaultHttpParams.DefaultHttpParams()
+##SUBTASK, Checking [ Uniqueness Assurance ] DefaultHttpParams.isParameterTrue(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] DefaultHttpParams.setDoubleParameter(String,double)
+##SUBTASK, Checking [ Uniqueness Assurance ] DefaultHttpParams.setParameter(String,Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] DefaultHttpParams.setHttpParamsFactory(HttpParamsFactory)
+##SUBTASK, Checking [ Uniqueness Assurance ] DefaultHttpParams.getDoubleParameter(String,double)
+##SUBTASK, Checking [ Uniqueness Assurance ] DefaultHttpParams.isParameterSetLocally(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] DefaultHttpParams.isParameterFalse(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] DefaultHttpParams.isParameterSet(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] DefaultHttpParams.DefaultHttpParams(HttpParams)
+##SUBTASK, Checking [ Uniqueness Assurance ] DefaultHttpParams.getIntParameter(String,int)
+##SUBTASK, Checking [ Uniqueness Assurance ] DefaultHttpParams.setParameters(String [],Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] DefaultHttpParamsFactory.createParams()
+##SUBTASK, Checking [ Uniqueness Assurance ] ParameterFormatter.formatValue(StringBuffer,String,boolean)
+##SUBTASK, Checking [ Uniqueness Assurance ] ParameterFormatter.format(StringBuffer,NameValuePair)
+##SUBTASK, Checking [ Uniqueness Assurance ] StatusLine.startsWithHTTP(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] StatusLine.StatusLine(String)
+[GC 166743K->152015K(252552K), 0.0061340 secs]
+##SUBTASK, Checking [ Uniqueness Assurance ] ParameterParser.parse(String,char)
+##SUBTASK, Checking [ Uniqueness Assurance ] ParameterParser.parse(char [],int,int,char)
+##SUBTASK, Checking [ Uniqueness Assurance ] URI.setRawPath(char [])
+##SUBTASK, Checking [ Uniqueness Assurance ] URI.getAuthority()
+##SUBTASK, Checking [ Uniqueness Assurance ] URI.getUserinfo()
+##SUBTASK, Checking [ Uniqueness Assurance ] URI.setDefaultDocumentCharset(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] URI.getRawPathQuery()
+##SUBTASK, Checking [ Uniqueness Assurance ] URI.URI(String,boolean)
+##SUBTASK, Checking [ Uniqueness Assurance ] URI.URI(String,boolean,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] URI.setRawQuery(char [])
+##SUBTASK, Checking [ Uniqueness Assurance ] URI.setRawAuthority(char [])
+##SUBTASK, Checking [ Uniqueness Assurance ] URI.resolvePath(char [],char [])
+##SUBTASK, Checking [ Uniqueness Assurance ] URI.setRawFragment(char [])
+##SUBTASK, Checking [ Uniqueness Assurance ] URI.URI(URI,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] URI.getRawCurrentHierPath(char [])
+##SUBTASK, Checking [ Uniqueness Assurance ] URI.setEscapedQuery(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] URI.URI(String,String,String,int,String,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] URI.getHost()
+##SUBTASK, Checking [ Uniqueness Assurance ] URI.URI(char [],String)
+##SUBTASK, Checking [ Uniqueness Assurance ] URI.decode(String,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] URI.getAboveHierPath()
+##SUBTASK, Checking [ Uniqueness Assurance ] URI.getFragment()
+##SUBTASK, Checking [ Uniqueness Assurance ] URI.normalize(char [])
+##SUBTASK, Checking [ Uniqueness Assurance ] URI.setDefaultProtocolCharset(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] URI.encode(String,BitSet,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] URI.URI(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] URI.setEscapedFragment(String)
+[GC 169039K->155894K(252552K), 0.0083060 secs]
+##SUBTASK, Checking [ Uniqueness Assurance ] URI.setEscapedPath(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] URI.URI(String,String,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] URI.LocaleToCharsetMap.(ClassInitDeclaration)
+[GC 172918K->160762K(252552K), 0.0091913 secs]
+##SUBTASK, Checking [ Uniqueness Assurance ] URI.URI(String,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] URI.getURI()
+##SUBTASK, Checking [ Uniqueness Assurance ] URI.getPathQuery()
+##SUBTASK, Checking [ Uniqueness Assurance ] URI.DefaultCharsetChanged.DefaultCharsetChanged(int,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] URI.setQuery(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] URI.parseUriReference(String,boolean)
+##SUBTASK, Checking [ Uniqueness Assurance ] URI.URI(String,String,String,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] URI.(ClassInitDeclaration)
+##SUBTASK, Checking [ Uniqueness Assurance ] URI.setFragment(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] URI.URI(URI,String,boolean)
+##SUBTASK, Checking [ Uniqueness Assurance ] URI.removeFragmentIdentifier(char [])
+##SUBTASK, Checking [ Uniqueness Assurance ] URI.getCurrentHierPath()
+##SUBTASK, Checking [ Uniqueness Assurance ] URI.URI(char [])
+##SUBTASK, Checking [ Uniqueness Assurance ] URI.compareTo(Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] URI.indexFirstOf(String,String,int)
+##SUBTASK, Checking [ Uniqueness Assurance ] URI.URI(String,String,String,String,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] URI.URI(String,String,String,int)
+##SUBTASK, Checking [ Uniqueness Assurance ] URI.LocaleToCharsetMap.getCharset(Locale)
+##SUBTASK, Checking [ Uniqueness Assurance ] URI.decode(char [],String)
+##SUBTASK, Checking [ Uniqueness Assurance ] URI.URI(String,String,String,int,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] URI.getPath()
+[GC 177786K->165220K(252552K), 0.0106832 secs]
+##SUBTASK, Checking [ Uniqueness Assurance ] URI.getURIReference()
+##SUBTASK, Checking [ Uniqueness Assurance ] URI.prevalidate(String,BitSet)
+##SUBTASK, Checking [ Uniqueness Assurance ] URI.setEscapedAuthority(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] URI.getRawURIReference()
+##SUBTASK, Checking [ Uniqueness Assurance ] URI.URI(URI,URI)
+##SUBTASK, Checking [ Uniqueness Assurance ] URI.setURI()
+##SUBTASK, Checking [ Uniqueness Assurance ] URI.getQuery()
+##SUBTASK, Checking [ Uniqueness Assurance ] URI.parseAuthority(String,boolean)
+[GC 182157K->171330K(252552K), 0.0127484 secs]
+##SUBTASK, Checking [ Uniqueness Assurance ] URI.indexFirstOf(String,String)
+[GC 188354K->174928K(252552K), 0.0083096 secs]
+##SUBTASK, Checking [ Uniqueness Assurance ] URI.getName()
+##SUBTASK, Checking [ Uniqueness Assurance ] URI.URI(String,String,String,int,String,String,String)
+[GC 191952K->177080K(252552K), 0.0059917 secs]
+##SUBTASK, Checking [ Uniqueness Assurance ] URI.setPath(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] URIException.URIException(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] URIException.URIException(int,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] TimeoutController.execute(Runnable,long)
+##SUBTASK, Checking [ Uniqueness Assurance ] UsernamePasswordCredentials.UsernamePasswordCredentials(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] UsernamePasswordCredentials.toString()
+##SUBTASK, Checking [ Uniqueness Assurance ] UsernamePasswordCredentials.UsernamePasswordCredentials(String,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] UsernamePasswordCredentials.setUserName(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] UsernamePasswordCredentials.equals(Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] UsernamePasswordCredentials.hashCode()
+##SUBTASK, Checking [ Uniqueness Assurance ] URIUtil.encodeWithinQuery(String,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] URIUtil.getPath(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] URIUtil.Coder.encode(String,BitSet,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] URIUtil.encodePathQuery(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] URIUtil.Coder.decode(char [],String)
+##SUBTASK, Checking [ Uniqueness Assurance ] URIUtil.Coder.replace(String,char [],char [])
+##SUBTASK, Checking [ Uniqueness Assurance ] URIUtil.encode(String,BitSet)
+##SUBTASK, Checking [ Uniqueness Assurance ] URIUtil.encodeAll(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] URIUtil.encodeWithinPath(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] URIUtil.encodeWithinQuery(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] URIUtil.getName(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] URIUtil.encodePath(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] URIUtil.encode(String,BitSet,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] URIUtil.decode(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] URIUtil.getQuery(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] URIUtil.encodeQuery(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] URIUtil.decode(String,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] URIUtil.encodePathQuery(String,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] URIUtil.encodeAll(String,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] URIUtil.encodeWithinPath(String,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] URIUtil.getPathQuery(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] URIUtil.Coder.replace(String,char,char)
+[GC 194104K->178579K(252552K), 0.0053162 secs]
+##SUBTASK, Checking [ Uniqueness Assurance ] URIUtil.encodePath(String,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] URIUtil.encodeWithinAuthority(String,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] URIUtil.encodeQuery(String,String)
+##SUBTASK, Checking [ Uniqueness Assurance ] URIUtil.encodeWithinAuthority(String)
+##SUBTASK, Checking [ Uniqueness Assurance ] URIUtil.getFromPath(String)
+##SUBTASK_DONE
+##WORK, 1
+Starting parallel UtilityAnalysis [7]: 139 for org.eclipse.jdt.launching.JRE_CONTAINER
+##SUBTASK, Starting parallel UtilityAnalysis [7]: 139 for org.eclipse.jdt.launching.JRE_CONTAINER
+##SUBTASK_DONE
+##WORK, 1
+Starting parallel UtilityAnalysis [7]: 139 for HTTPClient_regression
+##SUBTASK, Starting parallel UtilityAnalysis [7]: 139 for HTTPClient_regression
+##SUBTASK_DONE
+##WORK, 1
+Starting parallel SingletonAnalysis [8]: 139 for org.eclipse.jdt.launching.JRE_CONTAINER
+##SUBTASK, Starting parallel SingletonAnalysis [8]: 139 for org.eclipse.jdt.launching.JRE_CONTAINER
+##SUBTASK_DONE
+##WORK, 1
+Starting parallel SingletonAnalysis [8]: 139 for HTTPClient_regression
+##SUBTASK, Starting parallel SingletonAnalysis [8]: 139 for HTTPClient_regression
+##SUBTASK_DONE
+##WORK, 1
+Updating consistency proof
+[GC 195603K->180002K(252552K), 0.0060412 secs]
+Creating snapshot: /Users/aarong/Work/Eclipse-Workspaces/Eclipse-4.2/Fluid Regression/.jsure-data/HTTPClient_regressio-2013.08.23-at-21.51.46.976/running_or_crashed_sea_snapshot.xml.gz
+[GC 197026K->180132K(252552K), 0.0028442 secs]
+[GC 197156K->181169K(252552K), 0.0041712 secs]
+[GC 198193K->181928K(252552K), 0.0033933 secs]
+[GC 198952K->182690K(252552K), 0.0039187 secs]
+[GC 199714K->183438K(252552K), 0.0033189 secs]
+[GC 200462K->184264K(252552K), 0.0029970 secs]
+[GC 201288K->185099K(252552K), 0.0034102 secs]
+[GC 202123K->186129K(252552K), 0.0034345 secs]
+[GC 203153K->186920K(252552K), 0.0031766 secs]
+[GC 203944K->187617K(252552K), 0.0028584 secs]
+[GC 204641K->188351K(252552K), 0.0035576 secs]
+[GC 205375K->189149K(252552K), 0.0033785 secs]
+[GC 206173K->190065K(252552K), 0.0036206 secs]
+[GC 207089K->190956K(252552K), 0.0029805 secs]
+[GC 207980K->191838K(252552K), 0.0042582 secs]
+Done in 22008 ms.
+ThreadEffectsModule	: 26 ms
+LayersAnalysis	: 362 ms
+StructureAnalysis	: 3 ms
+ParameterizedTypeAnalysis	: 32 ms
+LockAnalysis, EffectsAnalysis	: 1903 ms
+EqualityAnalysis	: 10 ms
+UniquenessAnalysisModule	: 7497 ms
+UtilityAnalysis	: 11 ms
+SingletonAnalysis	: 12 ms
+[2013-08-23 21:52:10    INFO] partial bindings = 50557 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+[2013-08-23 21:52:10    INFO] full bindings = 47934 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+cached = 0
+totalT = 0
+#Performance data for HTTPClient_regression
+#Fri Aug 23 21:52:10 EDT 2013
+jsure.Add.required=0
+jsure.All.analyses=9856
+jsure.Binding.before.canon=1690
+jsure.Binding.full.time=10781
+jsure.Binding.partial.time=3689
+jsure.Bindings.full=47934
+jsure.Bindings.partial=50557
+jsure.Canonicalization=4127
+jsure.Cleanup=7
+jsure.Destroy.time=187
+jsure.Drop.creation=52
+jsure.Find.canon.time=101
+jsure.Parsing=2484
+jsure.Promise.parsing=1575
+jsure.Promise.scrubbing=1982
+jsure.Rewriting=469
+jsure.Sea.export=1218
+jsure.Sea.update=238
+jsure.Total.JSure.time=22008
+jsure.Total.blocks=3647
+jsure.Total.canonical=61304
+jsure.Total.decls=6136
+jsure.Total.destroyed=30555
+jsure.Total.gced=133
+jsure.Total.loc=39882
+jsure.Total.nodes=201625
+jsure.Total.stmts=11018
+jsure.Total.try.destroyed=30555
+jsure.analysis.EqualityAnalysis=10
+jsure.analysis.LayersAnalysis=362
+jsure.analysis.LockAnalysis,\ EffectsAnalysis=1903
+jsure.analysis.ParameterizedTypeAnalysis=32
+jsure.analysis.SingletonAnalysis=12
+jsure.analysis.StructureAnalysis=3
+jsure.analysis.ThreadEffectsModule=26
+jsure.analysis.UniquenessAnalysisModule=7497
+jsure.analysis.UtilityAnalysis=11
+jsure.num.threads=8
+##DONE
+Renaming snapshot: /Users/aarong/Work/Eclipse-Workspaces/Eclipse-4.2/Fluid Regression/.jsure-data/HTTPClient_regressio-2013.08.23-at-21.51.46.976/sea_snapshot.xml.gz
+Done with JSure!
+Scanning complete (23091 ms)
+No socket to close
+Closing std streams
+Process result after waiting = 0
