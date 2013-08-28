@@ -46,7 +46,7 @@ public class BrokenTest {
 		boolean nonsensical; 
 		
 		// Rejected by the lock sanity checks
-		@GuardedBy("BrokenTest.this" /* is CONSISTENT */) 
+		@GuardedBy("BrokenTest.this" /* is UNASSOCIATED */) 
 		int count;
 	}
 }
