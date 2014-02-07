@@ -8,7 +8,8 @@ public class Test {
 	Object bar;
 	
 	Test() {
-		
+		bar = new Object();
+		nonnull = new Object();
 	}
 	
 	int incr() {
@@ -16,14 +17,15 @@ public class Test {
 	}
 	
 	Object baz(int i, Object o) {
-		return null;
+		return "";
 	}
 	
 	@Nullable Object nullable;
 	
+	/*
 	@Raw Object raw(Object o) {
 		return null;
 	}
-	
+	*/
 	@NonNull Object nonnull;
 }
