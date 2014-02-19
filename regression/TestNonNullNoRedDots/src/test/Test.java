@@ -14,17 +14,17 @@ public class Test {
   
   
   @Nullable
-  public Object uncalled1(@Nullable Object a, @NonNull Object b, @Initialized(through="*") Object c) {
+  public Object uncalled1(@Nullable Object a, @NonNull Object b, @Initialized(through="Object") Object c) {
     throw new RuntimeException();
   }
   
   @NonNull
-  public Object uncalled2(@Nullable Object a, @NonNull Object b, @Initialized(through="*") Object c) {
+  public Object uncalled2(@Nullable Object a, @NonNull Object b, @Initialized(through="Object") Object c) {
     throw new RuntimeException();
   }
   
-  @Initialized(through="*", value="return") 
-  public Object uncalled3(@Nullable Object a, @NonNull Object b, @Initialized(through="*") Object c) {
+  @Initialized(through="Object", value="return") 
+  public Object uncalled3(@Nullable Object a, @NonNull Object b, @Initialized(through="Object") Object c) {
     throw new RuntimeException();
   }
   
@@ -37,7 +37,7 @@ public class Test {
   
   
   @NonNull
-  public Object called(@NonNull Object x, @Nullable Object y, @Initialized(through="*") Object z, boolean f) {
+  public Object called(@NonNull Object x, @Nullable Object y, @Initialized(through="Object") Object z, boolean f) {
     if (f) return x; else return new Object();
   }
   

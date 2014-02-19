@@ -9,7 +9,7 @@ public class TestRaw {
 	}
 	
 	@Initialized
-	void foo(@Initialized(through="*") Object f) {
+	void foo(@Initialized(through="Object") Object f) {
 		
 	}
 	*/

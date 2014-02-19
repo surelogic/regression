@@ -12,14 +12,14 @@ public class Test {
   private static C unannotatedM() { return null; }
   private @Nullable C nullableM() { return null; }
   private @NonNull C nonNullM() { return new C(); }
-  private @Initialized(through="*", value=" return") C rawM() { return new C(); }
+  private @Initialized(through="Object", value=" return") C rawM() { return new C(); }
   
   public void m1(
       final int v,
       final C unannotatedP,
       final @Nullable C nullableP,
       final @NonNull C nonNullP,
-      final @Initialized(through="*") C rawP) {
+      final @Initialized(through="Object") C rawP) {
     @SuppressWarnings("unused")
     int x = 
         (v == 0 ? unannotatedP :
@@ -40,7 +40,7 @@ public class Test {
       final C unannotatedP,
       final @Nullable C nullableP,
       final @NonNull C nonNullP,
-      final @Initialized(through="*") C rawP) {
+      final @Initialized(through="Object") C rawP) {
     C v1 = unannotatedP;
     C v2 = nullableP;
     C v3 = nonNullP;
@@ -68,7 +68,7 @@ public class Test {
       final C unannotatedP,
       final @Nullable C nullableP,
       final @NonNull C nonNullP,
-      final @Initialized(through="*") C rawP) {
+      final @Initialized(through="Object") C rawP) {
     callme(
         v == 0 ? unannotatedP :
           (v == 1 ? nullableP :
@@ -97,7 +97,7 @@ public class Test {
       final Integer unannotated,
       final @Nullable Integer nullable, final @Nullable Integer nullable2,
       final @NonNull Integer nonNull,
-      final @Initialized(through="*") Integer raw) {
+      final @Initialized(through="Object") Integer raw) {
     int a = unannotated;
     int c = nonNull;
     int d = raw;
@@ -127,7 +127,7 @@ class C extends B {
     doStuff(this + "B");
   }
   
-  @Initialized(through="*", value=" this")
+  @Initialized(through="Object", value=" this")
   public void testRawReceiver() {
     doStuff(this);
   }

@@ -5,7 +5,7 @@ import com.surelogic.Initialized;
 
 public class Test {
   @SuppressWarnings("unused")
-  public void testRawStar1(@Initialized(through="*") D p) {
+  public void testRawStar1(@Initialized(through="Object") D p) {
     Object nn1 = p.notNull1; // MAYBE_NULL
     Object nn2 = p.notNull2; // MAYBE_NULL
     Object nn3 = p.notNull3; // MAYBE_NULL
@@ -13,7 +13,7 @@ public class Test {
   }
   
   @SuppressWarnings("unused")
-  public void testRawStar2(@Initialized(through="*") D p) {
+  public void testRawStar2(@Initialized(through="Object") D p) {
     Object mb1 = p.mayBeNull1; // MAYBE_NULL
     Object mb2 = p.mayBeNull2; // MAYBE_NULL
     Object mb3 = p.mayBeNull3; // MAYBE_NULL

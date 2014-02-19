@@ -8,7 +8,7 @@ public class Test {
   // Nullable
   public B maybeNullImplied(int x,
       B b, C c,
-      @Initialized(through="*") B rawB, @Initialized(through="*") C rawC,
+      @Initialized(through="Object") B rawB, @Initialized(through="Object") C rawC,
       @Initialized(through="A") B rawB2, @Initialized(through="C") D rawD2) {
     D nullD = null;
     switch (x) {
@@ -21,9 +21,9 @@ public class Test {
     case 3:
       return new C(); // good: @NonNull C
     case 4:
-      return rawB; // bad: @Initialized(through="*") B
+      return rawB; // bad: @Initialized(through="Object") B
     case 5:
-      return rawC; // bad: @Initialized(through="*") C
+      return rawC; // bad: @Initialized(through="Object") C
     case 6:
       return rawB2; // bad: @Initialized(A) B
     case 7:
@@ -36,7 +36,7 @@ public class Test {
   @Nullable
   public B maybeNull(int x,
       B b, C c,
-      @Initialized(through="*") B rawB, @Initialized(through="*") C rawC,
+      @Initialized(through="Object") B rawB, @Initialized(through="Object") C rawC,
       @Initialized(through="A") B rawB2, @Initialized(through="C") D rawD2) {
     switch(x) {
     case 0: 
@@ -48,9 +48,9 @@ public class Test {
     case 3:
       return new C(); // good: @NonNull C
     case 4: 
-      return rawB; // bad: @Initialized(through="*") B
+      return rawB; // bad: @Initialized(through="Object") B
     case 5:
-      return rawC; // bad: @Initialized(through="*") C
+      return rawC; // bad: @Initialized(through="Object") C
     case 6:
       return rawB2; // bad: @Initialized(A) B
     case 7:
@@ -63,7 +63,7 @@ public class Test {
   @NonNull
   public B nonNull(int x,
       B b, C c,
-      @Initialized(through="*") B rawB, @Initialized(through="*") C rawC,
+      @Initialized(through="Object") B rawB, @Initialized(through="Object") C rawC,
       @Initialized(through="A") B rawB2, @Initialized(through="C") D rawD2) {
     switch(x) {
     case 0: 
@@ -75,9 +75,9 @@ public class Test {
     case 3:
       return new C(); // good: @NonNull C
     case 4: 
-      return rawB; // bad: @Initialized(through="*") B
+      return rawB; // bad: @Initialized(through="Object") B
     case 5:
-      return rawC; // bad: @Initialized(through="*") C
+      return rawC; // bad: @Initialized(through="Object") C
     case 6:
       return rawB2; // bad: @Initialized(A) B
     case 7:
@@ -87,10 +87,10 @@ public class Test {
     }
   }
   
-  @Initialized(through="*", value=" return")
+  @Initialized(through="Object", value=" return")
   public B rawStar(int x,
       B b, C c,
-      @Initialized(through="*") B rawB, @Initialized(through="*") C rawC,
+      @Initialized(through="Object") B rawB, @Initialized(through="Object") C rawC,
       @Initialized(through="A") B rawB2, @Initialized(through="C") D rawD2) {
     switch(x) {
     case 0: 
@@ -102,9 +102,9 @@ public class Test {
     case 3:
       return new C(); // good: @NonNull C
     case 4: 
-      return rawB; // good: @Initialized(through="*") B
+      return rawB; // good: @Initialized(through="Object") B
     case 5:
-      return rawC; // good: @Initialized(through="*") C
+      return rawC; // good: @Initialized(through="Object") C
     case 6:
       return rawB2; // good: @Initialized(A) B
     case 7:
@@ -117,7 +117,7 @@ public class Test {
   @Initialized(through="B", value="return")
   public C rawB(int x,
       C c, D d,
-      @Initialized(through="*") C rawC, @Initialized(through="*") D rawD,
+      @Initialized(through="Object") C rawC, @Initialized(through="Object") D rawD,
       @Initialized(through="A") C rawA_C, @Initialized(through="B") C rawB_C,
       @Initialized(through="A") D rawA_D, @Initialized(through="B") D rawB_D, @Initialized(through="C") D rawC_D) {
     switch(x) {
@@ -130,9 +130,9 @@ public class Test {
     case 3:
       return new D(); // good: @NonNull D
     case 4: 
-      return rawC; // bad: @Initialized(through="*") C
+      return rawC; // bad: @Initialized(through="Object") C
     case 5:
-      return rawD; // bad: @Initialized(through="*") D
+      return rawD; // bad: @Initialized(through="Object") D
     case 6:
       return rawA_C; // bad: @Initialized(A) C
     case 7:

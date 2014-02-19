@@ -6,7 +6,7 @@ public class A {
   // implicitly @NonNull
   public void nonNullReceiver() {}
   
-  @Initialized(through="*", value=" this")
+  @Initialized(through="Object", value=" this")
   public void rawStarReceiver() {}
   
   @Initialized(through="java.lang.Object", value="this")
@@ -50,7 +50,7 @@ class BB extends A {
   public void rawStarReceiver() {}
   
   // Good
-  @Initialized(through="*", value=" this")
+  @Initialized(through="Object", value=" this")
   @Override
   public void rawObjectReceiver() {}
   

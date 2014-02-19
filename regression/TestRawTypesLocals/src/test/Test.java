@@ -5,7 +5,7 @@ import com.surelogic.Initialized;
 public class Test {
   public C notRaw() { return null; }
   
-  @Initialized(through="*", value=" return")
+  @Initialized(through="Object", value=" return")
   public C rawStar() { return null; }
   
   @Initialized(value="return", through="java.lang.Object")
@@ -19,8 +19,8 @@ public class Test {
   
   
 
-  public void test(final boolean flag, final C p1, final @Initialized(through="*") C p2) {
-    @Initialized(through="*") C l1;
+  public void test(final boolean flag, final C p1, final @Initialized(through="Object") C p2) {
+    @Initialized(through="Object") C l1;
     C l2;
     @Initialized(through="test.A") C l3;
     C l4;

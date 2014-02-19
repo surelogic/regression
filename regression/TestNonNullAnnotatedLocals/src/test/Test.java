@@ -17,7 +17,7 @@ import com.surelogic.Initialized;
  */
 public class Test {
   public void testFieldRef(
-      final boolean f, @Initialized(through="*") Other o3, @Initialized(through="Parent") Other o4) {
+      final boolean f, @Initialized(through="Object") Other o3, @Initialized(through="Parent") Other o4) {
     Other oo1 = f ? o3 : o4; // no result
     Other oo2;
     oo2 = f ? o3 : o4; // no result
@@ -30,8 +30,8 @@ public class Test {
     @NonNull Other qq2; // bad
     qq2 = f ? o3 : o4;
     
-    @Initialized(through="*") Other rr1 = f ? o3 : o4; // good
-    @Initialized(through="*") Other rr2;
+    @Initialized(through="Object") Other rr1 = f ? o3 : o4; // good
+    @Initialized(through="Object") Other rr2;
     rr2 = f ? o3 : o4; // good
     
     @Initialized(through="Parent") Other ss1 = f ? o3 : o4; // bad / good

@@ -9,7 +9,7 @@ public class Root {
   
   public void nonNullArg(final @NonNull C p) {}
   
-  public void rawStarArg(final @Initialized(through="*") C p) {}
+  public void rawStarArg(final @Initialized(through="Object") C p) {}
   
   public void rawAArg(final @Initialized(through="testParams.A") C p) {}
   
@@ -93,35 +93,35 @@ class NonNullArg extends Root {
 class RawStarArg extends Root {
   // Bad
   @Override
-  public void nullableArg(final @Initialized(through="*") C p) {}
+  public void nullableArg(final @Initialized(through="Object") C p) {}
   
   // Good
   @Override
-  public void nonNullArg(final @Initialized(through="*") C p) {}
+  public void nonNullArg(final @Initialized(through="Object") C p) {}
   
   // Good
   @Override
-  public void rawStarArg(final @Initialized(through="*") C p) {}
+  public void rawStarArg(final @Initialized(through="Object") C p) {}
   
   // Good
   @Override
-  public void rawAArg(final @Initialized(through="*") C p) {}
+  public void rawAArg(final @Initialized(through="Object") C p) {}
 
   // Good
   @Override
-  public void rawBArg(final @Initialized(through="*") C p) {}
+  public void rawBArg(final @Initialized(through="Object") C p) {}
 
   // Good
   @Override
-  public void rawCArg(final @Initialized(through="*") C p) {}
+  public void rawCArg(final @Initialized(through="Object") C p) {}
 
   // Good
   @Override
-  public void rawDArg(final @Initialized(through="*") D p) {}
+  public void rawDArg(final @Initialized(through="Object") D p) {}
 
   // Good
   @Override
-  public void unannotatedArg(final @Initialized(through="*") C p) {}
+  public void unannotatedArg(final @Initialized(through="Object") C p) {}
 }
 
 class RawAArg extends Root {

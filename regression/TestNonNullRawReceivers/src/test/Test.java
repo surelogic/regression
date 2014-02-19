@@ -8,7 +8,7 @@ public class Test {
     // do stuff
   }
   
-  @Initialized(through="*", value=" this")
+  @Initialized(through="Object", value=" this")
   public void testRawReceiver() {
     // passing raw receiver to a method that doesn't expect a raw receiver!
     doStuff(this); // receiver is bad, and other is bad

@@ -11,16 +11,16 @@ public class TestNullableAndRaw {
   @SuppressWarnings("unused")
   private void testParams(
       @Nullable Object nonNull,
-      @Initialized(through="*") Object raw,
-      @Nullable @Initialized(through="*") Object both) {
+      @Initialized(through="Object") Object raw,
+      @Nullable @Initialized(through="Object") Object both) {
     // foo
   }
   
   @SuppressWarnings("unused")
   private void testLocals() {
     @Nullable Object nonNull;
-    @Initialized(through="*") Object raw;
-    @Nullable @Initialized(through="*") Object both;
+    @Initialized(through="Object") Object raw;
+    @Nullable @Initialized(through="Object") Object both;
     
     // foo
   }
@@ -32,13 +32,13 @@ public class TestNullableAndRaw {
     return "String";
   }
   
-  @Initialized(through="*", value=" return")
+  @Initialized(through="Object", value=" return")
   private Object returnRaw() {
     return "String";
   }
   
   @Nullable
-  @Initialized(through="*", value=" return")
+  @Initialized(through="Object", value=" return")
   private Object returnBoth() {
     return "String";
   }

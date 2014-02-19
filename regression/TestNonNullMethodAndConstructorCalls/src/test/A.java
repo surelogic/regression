@@ -6,7 +6,7 @@ class A {}
 
 class B extends A {
   public void notAnnotated() {}
-  public @Initialized(through="*", value=" this") void rawStar() {}
+  public @Initialized(through="Object", value=" this") void rawStar() {}
 }
 
 class C extends B {

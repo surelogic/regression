@@ -79,7 +79,7 @@ public class Test {
   
   @SuppressWarnings({ "unused", "static-access" })
   public void testFieldRef(final boolean f, final @Nullable Other o1,
-      final @NonNull Other o2, @Initialized(through="*") Other o3, @Initialized(through="Parent") Other o4) {
+      final @NonNull Other o2, @Initialized(through="Object") Other o3, @Initialized(through="Parent") Other o4) {
     int l1 = o1.f; // bad
     int l2 = o1.s; // good
     int l3 = Other.s; // good
@@ -112,7 +112,7 @@ public class Test {
   @SuppressWarnings("static-access")
   public void testSimpleAssignment(
       final boolean f, final @Nullable Other o1,
-      final @NonNull Other o2, @Initialized(through="*") Other o3, @Initialized(through="Parent") Other o4,
+      final @NonNull Other o2, @Initialized(through="Object") Other o3, @Initialized(through="Parent") Other o4,
       final @Nullable int[] a1, final @NonNull int[] a2) {
     o1.f = 0; // bad
     o1.s = 0; // good
@@ -150,9 +150,9 @@ public class Test {
   
   public void testCrement(
       final boolean f, @Nullable Integer i1,
-      @NonNull Integer i2, @Initialized(through="*") Integer i3, @Initialized(through="java.lang.Object") Integer o4,
+      @NonNull Integer i2, @Initialized(through="Object") Integer i3, @Initialized(through="java.lang.Object") Integer o4,
       @Nullable int[] a1, @NonNull int[] a2, @Nullable final Other o1,
-      final @NonNull Other o2, @Initialized(through="*") Other o3) {
+      final @NonNull Other o2, @Initialized(through="Object") Other o3) {
     i1++; // bad
     i2--; // good
     
@@ -178,7 +178,7 @@ public class Test {
   @SuppressWarnings("static-access")
   public void testCompoundAssignment(
       final boolean f, final @Nullable Other o1,
-      final @NonNull Other o2, @Initialized(through="*") Other o3, @Initialized(through="Parent") Other o4,
+      final @NonNull Other o2, @Initialized(through="Object") Other o3, @Initialized(through="Parent") Other o4,
       final @Nullable int[] a1, final @NonNull int[] a2) {
     o1.f += 0; // bad
     o1.s += 0; // good
@@ -205,9 +205,9 @@ public class Test {
   
   public void testCompoundAssignmentErrorFromUnbox(
       final boolean f, @Nullable Integer o1,
-      @NonNull Integer o2, @Initialized(through="*") Integer o3, @Initialized(through="java.lang.Object") Integer o4) {
+      @NonNull Integer o2, @Initialized(through="Object") Integer o3, @Initialized(through="java.lang.Object") Integer o4) {
     o1 += 0; // bad
-    @Initialized(through="*")
+    @Initialized(through="Object")
     Integer x = o2 += 0; // good
     o3 += 0; // good
     o4 += 0; // good

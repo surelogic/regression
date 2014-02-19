@@ -23,7 +23,7 @@ public class Test {
 	@Nullable Object nullable;
 	
 	/*
-	@Initialized(through="*") Object raw(Object o) {
+	@Initialized(through="Object") Object raw(Object o) {
 		return null;
 	}
 	*/

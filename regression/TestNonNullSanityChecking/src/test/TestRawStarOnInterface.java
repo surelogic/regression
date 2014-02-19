@@ -6,17 +6,17 @@ import com.surelogic.Initialized;
 
 public class TestRawStarOnInterface {
   public void testParams(
-      @Initialized(through="*") Object good_object,
-      @Initialized(through="*") Serializable bad_interface) {
+      @Initialized(through="Object") Object good_object,
+      @Initialized(through="Object") Serializable bad_interface) {
     // foo
   }
   
   
   
-  @Initialized(through="*", value="return") 
+  @Initialized(through="Object", value="return") 
   public Object good_object() { return null; }
   
-  @Initialized(through="*", value="return") 
+  @Initialized(through="Object", value="return") 
   public Serializable bad_interface() { return null; }
   
   

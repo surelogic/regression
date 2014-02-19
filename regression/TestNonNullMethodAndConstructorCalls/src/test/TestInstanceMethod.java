@@ -12,17 +12,17 @@ public class TestInstanceMethod {
   private static B getB_unannotated() { return new B(); }
   private static @Nullable B getB_nullable() { return new B(); }
   private static @NonNull B getB_nonNull() { return new B(); }
-  private static @Initialized(through="*", value=" return") B getB_rawStar() { return new B(); }
+  private static @Initialized(through="Object", value=" return") B getB_rawStar() { return new B(); }
   
   private static C getC_unannotated() { return new C(); }
   private static @Nullable C getC_nullable() { return new C(); }
   private static @NonNull C getC_nonNull() { return new C(); }
-  private static @Initialized(through="*", value=" return") C getC_rawStar() { return new C(); }
+  private static @Initialized(through="Object", value=" return") C getC_rawStar() { return new C(); }
   
   private static D getD_unannotated() { return new D(); }
   private static @Nullable D getD_nullable() { return new D(); }
   private static @NonNull D getD_nonNull() { return new D(); }
-  private static @Initialized(through="*", value=" return") D getD_rawStar() { return new D(); }
+  private static @Initialized(through="Object", value=" return") D getD_rawStar() { return new D(); }
   
   private static @Initialized(value="return", through="A") D getDupToA() { return new D(); }
   private static @Initialized(value="return", through="B") D getDupToB() { return new D(); }

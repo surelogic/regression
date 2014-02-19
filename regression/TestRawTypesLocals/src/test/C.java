@@ -11,7 +11,7 @@ public class C extends B {
   
   public void notRaw() {}
   
-  @Initialized(value="this", through="*")
+  @Initialized(value="this", through="Object")
   public void rawStar() {}
   
   @Initialized(value="this", through="java.lang.Object")

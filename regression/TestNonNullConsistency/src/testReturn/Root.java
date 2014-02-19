@@ -11,7 +11,7 @@ public class Root {
   @NonNull
   public Object nonNullReturn() { return new Object(); }
   
-  @Initialized(through="*", value="return")
+  @Initialized(through="Object", value="return")
   public Object rawStarReturn() { return new Object(); }
   
   @Initialized(through="testReturn.A", value="return")
@@ -116,42 +116,42 @@ class NonNullReturn extends Root {
 class RawStarReturn extends Root {
   // bad
   @Override
-  @Initialized(through="*", value="return") 
+  @Initialized(through="Object", value="return") 
   public Object nullableReturn() { return new Object(); }
   
   // bad
   @Override
-  @Initialized(through="*", value="return") 
+  @Initialized(through="Object", value="return") 
   public Object nonNullReturn() { return new Object(); }
   
   // good
   @Override
-  @Initialized(through="*", value="return") 
+  @Initialized(through="Object", value="return") 
   public Object rawStarReturn() { return new Object(); }
   
   // bad
   @Override
-  @Initialized(through="*", value="return") 
+  @Initialized(through="Object", value="return") 
   public A rawAReturn() { return new A(); }
   
   // bad
   @Override
-  @Initialized(through="*", value="return") 
+  @Initialized(through="Object", value="return") 
   public B rawBReturn() { return new B(); }
   
   // bad
   @Override
-  @Initialized(through="*", value="return") 
+  @Initialized(through="Object", value="return") 
   public C rawCReturn() { return new C(); }
 
   // bad
   @Override
-  @Initialized(through="*", value="return") 
+  @Initialized(through="Object", value="return") 
   public D rawDReturn() { return new D(); }
 
   // bad
   @Override
-  @Initialized(through="*", value="return") 
+  @Initialized(through="Object", value="return") 
   public Object unannotatedReturn() { return new Object(); }
 }
 

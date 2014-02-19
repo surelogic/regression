@@ -98,7 +98,7 @@ public class TestArrayToObject {
     }
   }
 
-  @Initialized(through="*", value=" return")
+  @Initialized(through="Object", value=" return")
   public Object rawStar(int x,
       int[] intArray, String[] stringArray,
       @Nullable int[] intArray2, @Nullable String[] stringArray2,
