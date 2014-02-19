@@ -1,28 +1,28 @@
 package test;
 
-import com.surelogic.Raw;
+import com.surelogic.Initialized;
 
 public class Test {
   public C notRaw() { return null; }
   
-  @Raw("return")
+  @Initialized(through="*", value=" return")
   public C rawStar() { return null; }
   
-  @Raw(value="return", upTo="java.lang.Object")
+  @Initialized(value="return", through="java.lang.Object")
   public C rawObject() { return null; }
   
-  @Raw(value="return", upTo="test.A")
+  @Initialized(value="return", through="test.A")
   public C rawA() { return null; }
   
-  @Raw(value="return", upTo="test.B")
+  @Initialized(value="return", through="test.B")
   public C rawB() { return null; }
   
   
 
-  public void test(final boolean flag, final C p1, final @Raw C p2) {
-    @Raw C l1;
+  public void test(final boolean flag, final C p1, final @Initialized(through="*") C p2) {
+    @Initialized(through="*") C l1;
     C l2;
-    @Raw(upTo="test.A") C l3;
+    @Initialized(through="test.A") C l3;
     C l4;
     
     

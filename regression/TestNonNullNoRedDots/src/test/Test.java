@@ -2,7 +2,7 @@ package test;
 
 import com.surelogic.NonNull;
 import com.surelogic.Nullable;
-import com.surelogic.Raw;
+import com.surelogic.Initialized;
 
 public class Test {
   @Nullable
@@ -14,22 +14,22 @@ public class Test {
   
   
   @Nullable
-  public Object uncalled1(@Nullable Object a, @NonNull Object b, @Raw Object c) {
+  public Object uncalled1(@Nullable Object a, @NonNull Object b, @Initialized(through="*") Object c) {
     throw new RuntimeException();
   }
   
   @NonNull
-  public Object uncalled2(@Nullable Object a, @NonNull Object b, @Raw Object c) {
+  public Object uncalled2(@Nullable Object a, @NonNull Object b, @Initialized(through="*") Object c) {
     throw new RuntimeException();
   }
   
-  @Raw(value="return")
-  public Object uncalled3(@Nullable Object a, @NonNull Object b, @Raw Object c) {
+  @Initialized(through="*", value="return") 
+  public Object uncalled3(@Nullable Object a, @NonNull Object b, @Initialized(through="*") Object c) {
     throw new RuntimeException();
   }
   
   
-  @Raw(upTo="java.lang.Object", value="this")
+  @Initialized(through="java.lang.Object", value="this")
   public void uncalled4() {
     // empty
   }
@@ -37,7 +37,7 @@ public class Test {
   
   
   @NonNull
-  public Object called(@NonNull Object x, @Nullable Object y, @Raw Object z, boolean f) {
+  public Object called(@NonNull Object x, @Nullable Object y, @Initialized(through="*") Object z, boolean f) {
     if (f) return x; else return new Object();
   }
   

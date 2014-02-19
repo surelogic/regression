@@ -2,7 +2,7 @@ package test;
 
 import com.surelogic.NonNull;
 import com.surelogic.Nullable;
-import com.surelogic.Raw;
+import com.surelogic.Initialized;
 
 public class TestInstanceMethod {
   public void s(int x, B p1, @Nullable B p2, @NonNull B p3) {
@@ -12,26 +12,26 @@ public class TestInstanceMethod {
   private static B getB_unannotated() { return new B(); }
   private static @Nullable B getB_nullable() { return new B(); }
   private static @NonNull B getB_nonNull() { return new B(); }
-  private static @Raw("return") B getB_rawStar() { return new B(); }
+  private static @Initialized(through="*", value=" return") B getB_rawStar() { return new B(); }
   
   private static C getC_unannotated() { return new C(); }
   private static @Nullable C getC_nullable() { return new C(); }
   private static @NonNull C getC_nonNull() { return new C(); }
-  private static @Raw("return") C getC_rawStar() { return new C(); }
+  private static @Initialized(through="*", value=" return") C getC_rawStar() { return new C(); }
   
   private static D getD_unannotated() { return new D(); }
   private static @Nullable D getD_nullable() { return new D(); }
   private static @NonNull D getD_nonNull() { return new D(); }
-  private static @Raw("return") D getD_rawStar() { return new D(); }
+  private static @Initialized(through="*", value=" return") D getD_rawStar() { return new D(); }
   
-  private static @Raw(value="return", upTo="A") D getDupToA() { return new D(); }
-  private static @Raw(value="return", upTo="B") D getDupToB() { return new D(); }
-  private static @Raw(value="return", upTo="C") D getDupToC() { return new D(); }
+  private static @Initialized(value="return", through="A") D getDupToA() { return new D(); }
+  private static @Initialized(value="return", through="B") D getDupToB() { return new D(); }
+  private static @Initialized(value="return", through="C") D getDupToC() { return new D(); }
   
-  private static @Raw(value="return", upTo="A") E getEupToA() { return new E(); }
-  private static @Raw(value="return", upTo="B") E getEupToB() { return new E(); }
-  private static @Raw(value="return", upTo="C") E getEupToC() { return new E(); }
-  private static @Raw(value="return", upTo="D") E getEupToD() { return new E(); }
+  private static @Initialized(value="return", through="A") E getEupToA() { return new E(); }
+  private static @Initialized(value="return", through="B") E getEupToB() { return new E(); }
+  private static @Initialized(value="return", through="C") E getEupToC() { return new E(); }
+  private static @Initialized(value="return", through="D") E getEupToD() { return new E(); }
   
 
   

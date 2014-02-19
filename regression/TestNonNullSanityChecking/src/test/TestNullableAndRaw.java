@@ -1,7 +1,7 @@
 package test;
 
 import com.surelogic.Nullable;
-import com.surelogic.Raw;
+import com.surelogic.Initialized;
 
 public class TestNullableAndRaw {
   // Raw may not be used on fields
@@ -11,16 +11,16 @@ public class TestNullableAndRaw {
   @SuppressWarnings("unused")
   private void testParams(
       @Nullable Object nonNull,
-      @Raw Object raw,
-      @Nullable @Raw Object both) {
+      @Initialized(through="*") Object raw,
+      @Nullable @Initialized(through="*") Object both) {
     // foo
   }
   
   @SuppressWarnings("unused")
   private void testLocals() {
     @Nullable Object nonNull;
-    @Raw Object raw;
-    @Nullable @Raw Object both;
+    @Initialized(through="*") Object raw;
+    @Nullable @Initialized(through="*") Object both;
     
     // foo
   }
@@ -32,13 +32,13 @@ public class TestNullableAndRaw {
     return "String";
   }
   
-  @Raw("return")
+  @Initialized(through="*", value=" return")
   private Object returnRaw() {
     return "String";
   }
   
   @Nullable
-  @Raw("return")
+  @Initialized(through="*", value=" return")
   private Object returnBoth() {
     return "String";
   }

@@ -1,15 +1,15 @@
 package test;
 
-import com.surelogic.Raw;
+import com.surelogic.Initialized;
 
 public class TestRaw {	
 	/* TODO
-	@Raw
+	@Initialized
 	TestRaw() {
 	}
 	
-	@Raw
-	void foo(@Raw Object f) {
+	@Initialized
+	void foo(@Initialized(through="*") Object f) {
 		
 	}
 	*/

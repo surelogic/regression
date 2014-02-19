@@ -2,7 +2,7 @@ package testReturn;
 
 import com.surelogic.NonNull;
 import com.surelogic.Nullable;
-import com.surelogic.Raw;
+import com.surelogic.Initialized;
 
 public class Root {
   @Nullable
@@ -11,19 +11,19 @@ public class Root {
   @NonNull
   public Object nonNullReturn() { return new Object(); }
   
-  @Raw(value="return")
+  @Initialized(through="*", value="return")
   public Object rawStarReturn() { return new Object(); }
   
-  @Raw(upTo="testReturn.A", value="return")
+  @Initialized(through="testReturn.A", value="return")
   public A rawAReturn() { return new A(); }
   
-  @Raw(upTo="testReturn.B", value="return")
+  @Initialized(through="testReturn.B", value="return")
   public B rawBReturn() { return new B(); }
   
-  @Raw(upTo="testReturn.C", value="return")
+  @Initialized(through="testReturn.C", value="return")
   public C rawCReturn() { return new C(); }
   
-  @Raw(upTo="testReturn.D", value="return")
+  @Initialized(through="testReturn.D", value="return")
   public D rawDReturn() { return new D(); }
   
   public Object unannotatedReturn() { return new Object(); }
@@ -116,210 +116,210 @@ class NonNullReturn extends Root {
 class RawStarReturn extends Root {
   // bad
   @Override
-  @Raw(value="return")
+  @Initialized(through="*", value="return") 
   public Object nullableReturn() { return new Object(); }
   
   // bad
   @Override
-  @Raw(value="return")
+  @Initialized(through="*", value="return") 
   public Object nonNullReturn() { return new Object(); }
   
   // good
   @Override
-  @Raw(value="return")
+  @Initialized(through="*", value="return") 
   public Object rawStarReturn() { return new Object(); }
   
   // bad
   @Override
-  @Raw(value="return")
+  @Initialized(through="*", value="return") 
   public A rawAReturn() { return new A(); }
   
   // bad
   @Override
-  @Raw(value="return")
+  @Initialized(through="*", value="return") 
   public B rawBReturn() { return new B(); }
   
   // bad
   @Override
-  @Raw(value="return")
+  @Initialized(through="*", value="return") 
   public C rawCReturn() { return new C(); }
 
   // bad
   @Override
-  @Raw(value="return")
+  @Initialized(through="*", value="return") 
   public D rawDReturn() { return new D(); }
 
   // bad
   @Override
-  @Raw(value="return")
+  @Initialized(through="*", value="return") 
   public Object unannotatedReturn() { return new Object(); }
 }
 
 class RawAReturn extends Root {
   // bad
   @Override
-  @Raw(upTo="testReturn.A", value="return")
+  @Initialized(through="testReturn.A", value="return")
   public A nullableReturn() { return new A(); }
   
   // bad
   @Override
-  @Raw(upTo="testReturn.A", value="return")
+  @Initialized(through="testReturn.A", value="return")
   public A nonNullReturn() { return new A(); }
   
   // good
   @Override
-  @Raw(upTo="testReturn.A", value="return")
+  @Initialized(through="testReturn.A", value="return")
   public A rawStarReturn() { return new A(); }
   
   // good
   @Override
-  @Raw(upTo="testReturn.A", value="return")
+  @Initialized(through="testReturn.A", value="return")
   public A rawAReturn() { return new A(); }
   
   // bad
   @Override
-  @Raw(upTo="testReturn.A", value="return")
+  @Initialized(through="testReturn.A", value="return")
   public B rawBReturn() { return new B(); }
   
   // bad
   @Override
-  @Raw(upTo="testReturn.A", value="return")
+  @Initialized(through="testReturn.A", value="return")
   public C rawCReturn() { return new C(); }
 
   // bad
   @Override
-  @Raw(upTo="testReturn.A", value="return")
+  @Initialized(through="testReturn.A", value="return")
   public D rawDReturn() { return new D(); }
 
   // bad
   @Override
-  @Raw(upTo="testReturn.A", value="return")
+  @Initialized(through="testReturn.A", value="return")
   public A unannotatedReturn() { return new A(); }
 }
 
 class RawBReturn extends Root {
   // bad
   @Override
-  @Raw(upTo="testReturn.B", value="return")
+  @Initialized(through="testReturn.B", value="return")
   public B nullableReturn() { return new B(); }
   
   // bad
   @Override
-  @Raw(upTo="testReturn.B", value="return")
+  @Initialized(through="testReturn.B", value="return")
   public B nonNullReturn() { return new B(); }
   
   // good
   @Override
-  @Raw(upTo="testReturn.B", value="return")
+  @Initialized(through="testReturn.B", value="return")
   public B rawStarReturn() { return new B(); }
   
   // good
   @Override
-  @Raw(upTo="testReturn.B", value="return")
+  @Initialized(through="testReturn.B", value="return")
   public B rawAReturn() { return new B(); }
   
   // good
   @Override
-  @Raw(upTo="testReturn.B", value="return")
+  @Initialized(through="testReturn.B", value="return")
   public B rawBReturn() { return new B(); }
   
   // bad
   @Override
-  @Raw(upTo="testReturn.B", value="return")
+  @Initialized(through="testReturn.B", value="return")
   public C rawCReturn() { return new C(); }
 
   // bad
   @Override
-  @Raw(upTo="testReturn.B", value="return")
+  @Initialized(through="testReturn.B", value="return")
   public D rawDReturn() { return new D(); }
 
   // bad
   @Override
-  @Raw(upTo="testReturn.B", value="return")
+  @Initialized(through="testReturn.B", value="return")
   public B unannotatedReturn() { return new B(); }
 }
 
 class RawCReturn extends Root {
   // bad
   @Override
-  @Raw(upTo="testReturn.C", value="return")
+  @Initialized(through="testReturn.C", value="return")
   public C nullableReturn() { return new C(); }
   
   // bad
   @Override
-  @Raw(upTo="testReturn.C", value="return")
+  @Initialized(through="testReturn.C", value="return")
   public C nonNullReturn() { return new C(); }
   
   // good
   @Override
-  @Raw(upTo="testReturn.C", value="return")
+  @Initialized(through="testReturn.C", value="return")
   public C rawStarReturn() { return new C(); }
   
   // good
   @Override
-  @Raw(upTo="testReturn.C", value="return")
+  @Initialized(through="testReturn.C", value="return")
   public C rawAReturn() { return new C(); }
   
   // good
   @Override
-  @Raw(upTo="testReturn.C", value="return")
+  @Initialized(through="testReturn.C", value="return")
   public C rawBReturn() { return new C(); }
   
   // good
   @Override
-  @Raw(upTo="testReturn.C", value="return")
+  @Initialized(through="testReturn.C", value="return")
   public C rawCReturn() { return new C(); }
 
   // bad -- cannot even use testReturn.C here.
   @Override
-  @Raw(upTo="testReturn.C", value="return")
+  @Initialized(through="testReturn.C", value="return")
   public D rawDReturn() { return new D(); }
 
   // bad
   @Override
-  @Raw(upTo="testReturn.C", value="return")
+  @Initialized(through="testReturn.C", value="return")
   public C unannotatedReturn() { return new C(); }
 }
 
 class RawDReturn extends Root {
   // bad
   @Override
-  @Raw(upTo="testReturn.D", value="return")
+  @Initialized(through="testReturn.D", value="return")
   public D nullableReturn() { return new D(); }
   
   // bad
   @Override
-  @Raw(upTo="testReturn.D", value="return")
+  @Initialized(through="testReturn.D", value="return")
   public D nonNullReturn() { return new D(); }
   
   // good
   @Override
-  @Raw(upTo="testReturn.D", value="return")
+  @Initialized(through="testReturn.D", value="return")
   public D rawStarReturn() { return new D(); }
   
   // good
   @Override
-  @Raw(upTo="testReturn.D", value="return")
+  @Initialized(through="testReturn.D", value="return")
   public D rawAReturn() { return new D(); }
   
   // good
   @Override
-  @Raw(upTo="testReturn.D", value="return")
+  @Initialized(through="testReturn.D", value="return")
   public D rawBReturn() { return new D(); }
   
   // bad -- cannot even name testReturn.D here
   @Override
-  @Raw(upTo="testReturn.D", value="return")
+  @Initialized(through="testReturn.D", value="return")
   public C rawCReturn() { return new C(); }
 
   // good
   @Override
-  @Raw(upTo="testReturn.D", value="return")
+  @Initialized(through="testReturn.D", value="return")
   public D rawDReturn() { return new D(); }
 
   // bad
   @Override
-  @Raw(upTo="testReturn.D", value="return")
+  @Initialized(through="testReturn.D", value="return")
   public D unannotatedReturn() { return new D(); }
 }
 

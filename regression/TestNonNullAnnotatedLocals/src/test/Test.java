@@ -2,7 +2,7 @@ package test;
 
 import com.surelogic.NonNull;
 import com.surelogic.Nullable;
-import com.surelogic.Raw;
+import com.surelogic.Initialized;
 
 /*
  * Previously we had a problem that local variables were being checked for
@@ -17,7 +17,7 @@ import com.surelogic.Raw;
  */
 public class Test {
   public void testFieldRef(
-      final boolean f, @Raw Other o3, @Raw(upTo="Parent") Other o4) {
+      final boolean f, @Initialized(through="*") Other o3, @Initialized(through="Parent") Other o4) {
     Other oo1 = f ? o3 : o4; // no result
     Other oo2;
     oo2 = f ? o3 : o4; // no result
@@ -30,12 +30,12 @@ public class Test {
     @NonNull Other qq2; // bad
     qq2 = f ? o3 : o4;
     
-    @Raw Other rr1 = f ? o3 : o4; // good
-    @Raw Other rr2;
+    @Initialized(through="*") Other rr1 = f ? o3 : o4; // good
+    @Initialized(through="*") Other rr2;
     rr2 = f ? o3 : o4; // good
     
-    @Raw(upTo="Parent") Other ss1 = f ? o3 : o4; // bad / good
-    @Raw(upTo="Parent") Other ss2;
+    @Initialized(through="Parent") Other ss1 = f ? o3 : o4; // bad / good
+    @Initialized(through="Parent") Other ss2;
     ss2 = f ? o3 : o4; // bad / good
   }
 }

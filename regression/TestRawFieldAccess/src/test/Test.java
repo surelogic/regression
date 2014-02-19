@@ -1,11 +1,11 @@
 package test;
 
 import com.surelogic.NonNull;
-import com.surelogic.Raw;
+import com.surelogic.Initialized;
 
 public class Test {
   @SuppressWarnings("unused")
-  public void testRawStar1(@Raw D p) {
+  public void testRawStar1(@Initialized(through="*") D p) {
     Object nn1 = p.notNull1; // MAYBE_NULL
     Object nn2 = p.notNull2; // MAYBE_NULL
     Object nn3 = p.notNull3; // MAYBE_NULL
@@ -13,7 +13,7 @@ public class Test {
   }
   
   @SuppressWarnings("unused")
-  public void testRawStar2(@Raw D p) {
+  public void testRawStar2(@Initialized(through="*") D p) {
     Object mb1 = p.mayBeNull1; // MAYBE_NULL
     Object mb2 = p.mayBeNull2; // MAYBE_NULL
     Object mb3 = p.mayBeNull3; // MAYBE_NULL
@@ -21,7 +21,7 @@ public class Test {
   }
       
   @SuppressWarnings("unused")
-  public void testRawObject1(@Raw(upTo="java.lang.Object") D p) {
+  public void testRawObject1(@Initialized(through="java.lang.Object") D p) {
     Object nn1 = p.notNull1; // MAYBE_NULL
     Object nn2 = p.notNull2; // MAYBE_NULL
     Object nn3 = p.notNull3; // MAYBE_NULL
@@ -29,7 +29,7 @@ public class Test {
   }
   
   @SuppressWarnings("unused")
-  public void testRawObject2(@Raw(upTo="java.lang.Object") D p) {
+  public void testRawObject2(@Initialized(through="java.lang.Object") D p) {
     Object mb1 = p.mayBeNull1; // MAYBE_NULL
     Object mb2 = p.mayBeNull2; // MAYBE_NULL
     Object mb3 = p.mayBeNull3; // MAYBE_NULL
@@ -37,7 +37,7 @@ public class Test {
   }
       
   @SuppressWarnings("unused")
-  public void testRawA1(@Raw(upTo="A") D p) {
+  public void testRawA1(@Initialized(through="A") D p) {
     Object nn1 = p.notNull1; // NOT_NULL
     Object nn2 = p.notNull2; // MAYBE_NULL
     Object nn3 = p.notNull3; // MAYBE_NULL
@@ -45,7 +45,7 @@ public class Test {
   }    
   
   @SuppressWarnings("unused")
-  public void testRawA2(@Raw(upTo="A") D p) {
+  public void testRawA2(@Initialized(through="A") D p) {
     Object mb1 = p.mayBeNull1; // MAYBE_NULL
     Object mb2 = p.mayBeNull2; // MAYBE_NULL
     Object mb3 = p.mayBeNull3; // MAYBE_NULL
@@ -53,7 +53,7 @@ public class Test {
   }
       
   @SuppressWarnings("unused")
-  public void testRawB1(@Raw(upTo="B") D p) {
+  public void testRawB1(@Initialized(through="B") D p) {
     Object nn1 = p.notNull1; // NOT_NULL
     Object nn2 = p.notNull2; // NOT_NULL
     Object nn3 = p.notNull3; // MAYBE_NULL
@@ -61,7 +61,7 @@ public class Test {
   }
 
   @SuppressWarnings("unused")
-  public void testRawB2(@Raw(upTo="B") D p) {
+  public void testRawB2(@Initialized(through="B") D p) {
     Object mb1 = p.mayBeNull1; // MAYBE_NULL
     Object mb2 = p.mayBeNull2; // MAYBE_NULL
     Object mb3 = p.mayBeNull3; // MAYBE_NULL
@@ -69,7 +69,7 @@ public class Test {
   }
       
   @SuppressWarnings("unused")
-  public void testRawC1(@Raw(upTo="C") D p) {
+  public void testRawC1(@Initialized(through="C") D p) {
     Object nn1 = p.notNull1; // NOT_NULL
     Object nn2 = p.notNull2; // NOT_NULL
     Object nn3 = p.notNull3; // NOT_NULL
@@ -77,7 +77,7 @@ public class Test {
   }
   
   @SuppressWarnings("unused")
-  public void testRawC2(@Raw(upTo="C") D p) {
+  public void testRawC2(@Initialized(through="C") D p) {
     Object mb1 = p.mayBeNull1; // MAYBE_NULL
     Object mb2 = p.mayBeNull2; // MAYBE_NULL
     Object mb3 = p.mayBeNull3; // MAYBE_NULL
@@ -85,7 +85,7 @@ public class Test {
   }
       
   @SuppressWarnings("unused")
-  public void testRawD1(@Raw(upTo="D") D p) {
+  public void testRawD1(@Initialized(through="D") D p) {
     Object nn1 = p.notNull1; // NOT_NULL
     Object nn2 = p.notNull2; // NOT_NULL
     Object nn3 = p.notNull3; // NOT_NULL
@@ -93,7 +93,7 @@ public class Test {
   }
   
   @SuppressWarnings("unused")
-  public void testRawD2(@Raw(upTo="D") D p) {
+  public void testRawD2(@Initialized(through="D") D p) {
     Object mb1 = p.mayBeNull1; // MAYBE_NULL
     Object mb2 = p.mayBeNull2; // MAYBE_NULL
     Object mb3 = p.mayBeNull3; // MAYBE_NULL

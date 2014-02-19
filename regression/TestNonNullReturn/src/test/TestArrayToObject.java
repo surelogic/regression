@@ -2,7 +2,7 @@ package test;
 
 import com.surelogic.NonNull;
 import com.surelogic.Nullable;
-import com.surelogic.Raw;
+import com.surelogic.Initialized;
 
 public class TestArrayToObject {
   // Nullable
@@ -98,7 +98,7 @@ public class TestArrayToObject {
     }
   }
 
-  @Raw("return")
+  @Initialized(through="*", value=" return")
   public Object rawStar(int x,
       int[] intArray, String[] stringArray,
       @Nullable int[] intArray2, @Nullable String[] stringArray2,
@@ -129,7 +129,7 @@ public class TestArrayToObject {
     }
   }
 
-  @Raw(upTo="java.lang.Object", value="return")
+  @Initialized(through="java.lang.Object", value="return")
   public Object rawObject(int x,
       int[] intArray, String[] stringArray,
       @Nullable int[] intArray2, @Nullable String[] stringArray2,

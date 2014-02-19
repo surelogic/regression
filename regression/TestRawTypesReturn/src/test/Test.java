@@ -1,20 +1,20 @@
 package test;
 
-import com.surelogic.Raw;
+import com.surelogic.Initialized;
 
 public class Test {
   public C notRaw() { return null; }
   
-  @Raw("return")
+  @Initialized(through="*", value=" return")
   public C rawStar() { return null; }
   
-  @Raw(value="return", upTo="java.lang.Object")
+  @Initialized(value="return", through="java.lang.Object")
   public C rawObject() { return null; }
   
-  @Raw(value="return", upTo="test.A")
+  @Initialized(value="return", through="test.A")
   public C rawA() { return null; }
   
-  @Raw(value="return", upTo="test.B")
+  @Initialized(value="return", through="test.B")
   public C rawB() { return null; }
   
   
@@ -49,10 +49,10 @@ public class Test {
 
   public void test2(boolean flag,
       C notRaw,
-      @Raw C rawStar,
-      @Raw(upTo="java.lang.Object") C rawObject,
-      @Raw(upTo="test.A") C rawA,
-      @Raw(upTo="test.B") C rawB) {
+      @Initialized(through="*") C rawStar,
+      @Initialized(through="java.lang.Object") C rawObject,
+      @Initialized(through="test.A") C rawA,
+      @Initialized(through="test.B") C rawB) {
     final C foo1 = flag ? rawA : rawB; // => rawA
     final C foo2 = flag ? rawObject : rawA; // => rawObject
     final C foo3;

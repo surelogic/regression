@@ -2,21 +2,21 @@ package test;
 
 import java.io.Serializable;
 
-import com.surelogic.Raw;
+import com.surelogic.Initialized;
 
 public class TestRawStarOnInterface {
   public void testParams(
-      @Raw Object good_object,
-      @Raw Serializable bad_interface) {
+      @Initialized(through="*") Object good_object,
+      @Initialized(through="*") Serializable bad_interface) {
     // foo
   }
   
   
   
-  @Raw(value="return")
+  @Initialized(through="*", value="return") 
   public Object good_object() { return null; }
   
-  @Raw(value="return")
+  @Initialized(through="*", value="return") 
   public Serializable bad_interface() { return null; }
   
   

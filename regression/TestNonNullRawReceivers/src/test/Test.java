@@ -1,14 +1,14 @@
 package test;
 
 import com.surelogic.NonNull;
-import com.surelogic.Raw;
+import com.surelogic.Initialized;
 
 public class Test {
   public void doStuff(final @NonNull Object other) {
     // do stuff
   }
   
-  @Raw("this")
+  @Initialized(through="*", value=" this")
   public void testRawReceiver() {
     // passing raw receiver to a method that doesn't expect a raw receiver!
     doStuff(this); // receiver is bad, and other is bad

@@ -2,7 +2,7 @@ package test;
 
 import com.surelogic.NonNull;
 import com.surelogic.Nullable;
-import com.surelogic.Raw;
+import com.surelogic.Initialized;
 
 public class TestInit {
   @Nullable
@@ -13,7 +13,7 @@ public class TestInit {
   
   
   
-  @Raw(upTo="A", value="return")
+  @Initialized(through="A", value="return")
   private B getRawA() { return new B(); }
   
   @Nullable

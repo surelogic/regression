@@ -1,6 +1,6 @@
 package test;
 
-import com.surelogic.Raw;
+import com.surelogic.Initialized;
 
 public class C extends B {
   public C() {
@@ -11,15 +11,15 @@ public class C extends B {
   
   public void notRaw() {}
   
-  @Raw(value="this")
+  @Initialized(value="this", through="*")
   public void rawStar() {}
   
-  @Raw(value="this", upTo="java.lang.Object")
+  @Initialized(value="this", through="java.lang.Object")
   public void rawObject() {}
   
-  @Raw(value="this", upTo="test.A")
+  @Initialized(value="this", through="test.A")
   public void rawA() {}
   
-  @Raw(value="this", upTo="test.B")
+  @Initialized(value="this", through="test.B")
   public void rawB() {}
 }

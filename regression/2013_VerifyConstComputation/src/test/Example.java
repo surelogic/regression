@@ -30,6 +30,6 @@ public abstract class Example {
 		m(0);
 	}
 
-	@Raw(upTo=OBJECT, value=RECEIVER)
+	@Initialized(through=OBJECT, value=RECEIVER)
 	protected abstract void m(int x);
 }

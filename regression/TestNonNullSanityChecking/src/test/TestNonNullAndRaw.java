@@ -1,7 +1,7 @@
 package test;
 
 import com.surelogic.NonNull;
-import com.surelogic.Raw;
+import com.surelogic.Initialized;
 
 public class TestNonNullAndRaw {
   // Raw may not be used on fields
@@ -11,16 +11,16 @@ public class TestNonNullAndRaw {
   @SuppressWarnings("unused")
   private void testParams(
       @NonNull Object nonNull,
-      @Raw Object raw,
-      @NonNull @Raw Object both) {
+      @Initialized(through="*") Object raw,
+      @NonNull @Initialized(through="*") Object both) {
     // foo
   }
   
   @SuppressWarnings("unused")
   private void testLocals() {
     @NonNull Object nonNull;
-    @Raw Object raw;
-    @NonNull @Raw Object both;
+    @Initialized(through="*") Object raw;
+    @NonNull @Initialized(through="*") Object both;
     
     // foo
   }
@@ -32,13 +32,13 @@ public class TestNonNullAndRaw {
     return "String";
   }
   
-  @Raw("return")
+  @Initialized(through="*", value=" return")
   private Object returnRaw() {
     return "String";
   }
   
   @NonNull
-  @Raw("return")
+  @Initialized(through="*", value=" return")
   private Object returnBoth() {
     return "String";
   }
