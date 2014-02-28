@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<projects path="child-etc-2014.02.28-at-16.06.49.489"
+ location="/home/edwin/qa/test/workspaces/regression/TestCrossProjectSubtypeComputation"
+
+ date="-2014.02.28-at-16.06.49.489">
+
+  <project id="0"
+   name="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"
+   is-exported="true"
+   contains-java-lang-object="true">
+
+    <jar path="/home/edwin/work/jdk1.6.0_38/jre/lib/resources.jar"
+     orig-path="/home/edwin/work/jdk1.6.0_38/jre/lib/resources.jar"
+     is-exported="true"/>
+
+    <jar path="/home/edwin/work/jdk1.6.0_38/jre/lib/rt.jar"
+     orig-path="/home/edwin/work/jdk1.6.0_38/jre/lib/rt.jar"
+     is-exported="true"/>
+
+    <jar path="/home/edwin/work/jdk1.6.0_38/jre/lib/jsse.jar"
+     orig-path="/home/edwin/work/jdk1.6.0_38/jre/lib/jsse.jar"
+     is-exported="true"/>
+
+    <jar path="/home/edwin/work/jdk1.6.0_38/jre/lib/jce.jar"
+     orig-path="/home/edwin/work/jdk1.6.0_38/jre/lib/jce.jar"
+     is-exported="true"/>
+
+    <jar path="/home/edwin/work/jdk1.6.0_38/jre/lib/charsets.jar"
+     orig-path="/home/edwin/work/jdk1.6.0_38/jre/lib/charsets.jar"
+     is-exported="true"/>
+
+    <jar path="/home/edwin/work/jdk1.6.0_38/jre/lib/ext/localedata.jar"
+     orig-path="/home/edwin/work/jdk1.6.0_38/jre/lib/ext/localedata.jar"
+     is-exported="true"/>
+
+    <jar path="/home/edwin/work/jdk1.6.0_38/jre/lib/ext/sunpkcs11.jar"
+     orig-path="/home/edwin/work/jdk1.6.0_38/jre/lib/ext/sunpkcs11.jar"
+     is-exported="true"/>
+
+    <jar path="/home/edwin/work/jdk1.6.0_38/jre/lib/ext/sunjce_provider.jar"
+     orig-path="/home/edwin/work/jdk1.6.0_38/jre/lib/ext/sunjce_provider.jar"
+     is-exported="true"/>
+
+    <jar path="/home/edwin/work/jdk1.6.0_38/jre/lib/ext/dnsns.jar"
+     orig-path="/home/edwin/work/jdk1.6.0_38/jre/lib/ext/dnsns.jar"
+     is-exported="true"/>
+
+  </project>
+
+  <project id="1"
+   name="parent"
+   location="/home/edwin/qa/test/suites/regression/TestCrossProjectSubtypeComputation/parent"
+   asSource="true"
+   sourceLevel="6">
+
+    <project name="parent"/>
+
+    <source path="src"
+     bin-path="bin"
+     is-exported="true"/>
+
+    <project name="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+
+    <jar path="/home/edwin/qa/test/suites/regression/TestCrossProjectSubtypeComputation/parent/promises-4.0.2.jar"
+     orig-path="/home/edwin/qa/test/suites/regression/TestCrossProjectSubtypeComputation/parent/promises-4.0.2.jar"
+     is-exported="true"/>
+
+    <java-source-file path="parent/src/Foo.java"
+     qname="Foo"
+     location="/home/edwin/qa/test/suites/regression/TestCrossProjectSubtypeComputation/parent/src/Foo.java"/>
+
+  <option name="asSource"
+   value="true"/>
+
+  <option name="sourceLevel"
+   value="6"/>
+
+  </project>
+
+  <project id="2"
+   name="child"
+   location="/home/edwin/qa/test/suites/regression/TestCrossProjectSubtypeComputation/child"
+   asSource="true"
+   sourceLevel="6">
+
+    <project name="child"/>
+
+    <source path="src"
+     bin-path="bin"
+     is-exported="true"/>
+
+    <project name="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+
+    <project name="parent"/>
+
+    <java-source-file path="child/src/FooChild.java"
+     qname="FooChild"
+     location="/home/edwin/qa/test/suites/regression/TestCrossProjectSubtypeComputation/child/src/FooChild.java"/>
+
+    <java-source-file path="child/src/FooChildOkay.java"
+     qname="FooChildOkay"
+     location="/home/edwin/qa/test/suites/regression/TestCrossProjectSubtypeComputation/child/src/FooChildOkay.java"/>
+
+  <option name="asSource"
+   value="true"/>
+
+  <option name="sourceLevel"
+   value="6"/>
+
+  </project>
+
+  <project id="3"
+   name="grandchild"
+   location="/home/edwin/qa/test/suites/regression/TestCrossProjectSubtypeComputation/grandchild"
+   asSource="true"
+   sourceLevel="6">
+
+    <project name="grandchild"/>
+
+    <source path="src"
+     bin-path="bin"
+     is-exported="true"/>
+
+    <project name="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+
+    <project name="child"/>
+
+    <java-source-file path="grandchild/src/FooChild2.java"
+     qname="FooChild2"
+     location="/home/edwin/qa/test/suites/regression/TestCrossProjectSubtypeComputation/grandchild/src/FooChild2.java"/>
+
+    <java-source-file path="grandchild/src/FooGrandChildOkay.java"
+     qname="FooGrandChildOkay"
+     location="/home/edwin/qa/test/suites/regression/TestCrossProjectSubtypeComputation/grandchild/src/FooGrandChildOkay.java"/>
+
+  <option name="asSource"
+   value="true"/>
+
+  <option name="sourceLevel"
+   value="6"/>
+
+  </project>
+
+</projects>
+
