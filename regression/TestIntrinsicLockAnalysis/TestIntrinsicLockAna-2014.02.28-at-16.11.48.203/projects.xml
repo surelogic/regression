@@ -1,0 +1,202 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<projects path="TestIntrinsicLockAna-2014.02.28-at-16.11.48.203"
+ location="/home/edwin/qa/test/workspaces/regression/TestIntrinsicLockAnalysis"
+
+ date="-2014.02.28-at-16.11.48.203">
+
+  <project id="0"
+   name="org.eclipse.jdt.launching.JRE_CONTAINER"
+   is-exported="true"
+   contains-java-lang-object="true">
+
+    <jar path="/home/edwin/work/jdk1.6.0_38/jre/lib/resources.jar"
+     orig-path="/home/edwin/work/jdk1.6.0_38/jre/lib/resources.jar"
+     is-exported="true"/>
+
+    <jar path="/home/edwin/work/jdk1.6.0_38/jre/lib/rt.jar"
+     orig-path="/home/edwin/work/jdk1.6.0_38/jre/lib/rt.jar"
+     is-exported="true"/>
+
+    <jar path="/home/edwin/work/jdk1.6.0_38/jre/lib/jsse.jar"
+     orig-path="/home/edwin/work/jdk1.6.0_38/jre/lib/jsse.jar"
+     is-exported="true"/>
+
+    <jar path="/home/edwin/work/jdk1.6.0_38/jre/lib/jce.jar"
+     orig-path="/home/edwin/work/jdk1.6.0_38/jre/lib/jce.jar"
+     is-exported="true"/>
+
+    <jar path="/home/edwin/work/jdk1.6.0_38/jre/lib/charsets.jar"
+     orig-path="/home/edwin/work/jdk1.6.0_38/jre/lib/charsets.jar"
+     is-exported="true"/>
+
+    <jar path="/home/edwin/work/jdk1.6.0_38/jre/lib/ext/localedata.jar"
+     orig-path="/home/edwin/work/jdk1.6.0_38/jre/lib/ext/localedata.jar"
+     is-exported="true"/>
+
+    <jar path="/home/edwin/work/jdk1.6.0_38/jre/lib/ext/sunpkcs11.jar"
+     orig-path="/home/edwin/work/jdk1.6.0_38/jre/lib/ext/sunpkcs11.jar"
+     is-exported="true"/>
+
+    <jar path="/home/edwin/work/jdk1.6.0_38/jre/lib/ext/sunjce_provider.jar"
+     orig-path="/home/edwin/work/jdk1.6.0_38/jre/lib/ext/sunjce_provider.jar"
+     is-exported="true"/>
+
+    <jar path="/home/edwin/work/jdk1.6.0_38/jre/lib/ext/dnsns.jar"
+     orig-path="/home/edwin/work/jdk1.6.0_38/jre/lib/ext/dnsns.jar"
+     is-exported="true"/>
+
+  </project>
+
+  <project id="1"
+   name="TestIntrinsicLockAnalysis"
+   location="/home/edwin/qa/test/suites/regression/TestIntrinsicLockAnalysis"
+   asSource="true"
+   sourceLevel="5">
+
+    <project name="TestIntrinsicLockAnalysis"/>
+
+    <source path="src"
+     bin-path="bin"
+     is-exported="true"/>
+
+    <project name="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+
+    <jar path="/home/edwin/qa/test/suites/regression/TestIntrinsicLockAnalysis/promises-4.0.0.jar"
+     orig-path="/home/edwin/qa/test/suites/regression/TestIntrinsicLockAnalysis/promises-4.0.0.jar"/>
+
+    <java-source-file path="TestIntrinsicLockAnalysis/src/test_aggregated_arrays/Test.java"
+     qname="test_aggregated_arrays.Test"
+     location="/home/edwin/qa/test/suites/regression/TestIntrinsicLockAnalysis/src/test_aggregated_arrays/Test.java"/>
+
+    <java-source-file path="TestIntrinsicLockAnalysis/src/test_array_length/Test.java"
+     qname="test_array_length.Test"
+     location="/home/edwin/qa/test/suites/regression/TestIntrinsicLockAnalysis/src/test_array_length/Test.java"/>
+
+    <java-source-file path="TestIntrinsicLockAnalysis/src/test_empty_RequiresLock/C.java"
+     qname="test_empty_RequiresLock.C"
+     location="/home/edwin/qa/test/suites/regression/TestIntrinsicLockAnalysis/src/test_empty_RequiresLock/C.java"/>
+
+    <java-source-file path="TestIntrinsicLockAnalysis/src/test_lockingPlusAggregationPlusEffects/nestedRegions/C.java"
+     qname="test_lockingPlusAggregationPlusEffects.nestedRegions.C"
+     location="/home/edwin/qa/test/suites/regression/TestIntrinsicLockAnalysis/src/test_lockingPlusAggregationPlusEffects/nestedRegions/C.java"/>
+
+    <java-source-file path="TestIntrinsicLockAnalysis/src/test_lockingPlusAggregationPlusEffects/nestedRegions/D.java"
+     qname="test_lockingPlusAggregationPlusEffects.nestedRegions.D"
+     location="/home/edwin/qa/test/suites/regression/TestIntrinsicLockAnalysis/src/test_lockingPlusAggregationPlusEffects/nestedRegions/D.java"/>
+
+    <java-source-file path="TestIntrinsicLockAnalysis/src/test_lockingPlusAggregationPlusEffects/siblingRegions/C2.java"
+     qname="test_lockingPlusAggregationPlusEffects.siblingRegions.C2"
+     location="/home/edwin/qa/test/suites/regression/TestIntrinsicLockAnalysis/src/test_lockingPlusAggregationPlusEffects/siblingRegions/C2.java"/>
+
+    <java-source-file path="TestIntrinsicLockAnalysis/src/test_lockingPlusAggregationPlusEffects/siblingRegions/D2.java"
+     qname="test_lockingPlusAggregationPlusEffects.siblingRegions.D2"
+     location="/home/edwin/qa/test/suites/regression/TestIntrinsicLockAnalysis/src/test_lockingPlusAggregationPlusEffects/siblingRegions/D2.java"/>
+
+    <java-source-file path="TestIntrinsicLockAnalysis/src/test_policyLock_requiresLock/Test.java"
+     qname="test_policyLock_requiresLock.Test"
+     location="/home/edwin/qa/test/suites/regression/TestIntrinsicLockAnalysis/src/test_policyLock_requiresLock/Test.java"/>
+
+    <java-source-file path="TestIntrinsicLockAnalysis/src/test_requiresLock_for_parameters/C.java"
+     qname="test_requiresLock_for_parameters.C"
+     location="/home/edwin/qa/test/suites/regression/TestIntrinsicLockAnalysis/src/test_requiresLock_for_parameters/C.java"/>
+
+    <java-source-file path="TestIntrinsicLockAnalysis/src/test_requiresLock_for_parameters/Test.java"
+     qname="test_requiresLock_for_parameters.Test"
+     location="/home/edwin/qa/test/suites/regression/TestIntrinsicLockAnalysis/src/test_requiresLock_for_parameters/Test.java"/>
+
+    <java-source-file path="TestIntrinsicLockAnalysis/src/test_selfProtected/C.java"
+     qname="test_selfProtected.C"
+     location="/home/edwin/qa/test/suites/regression/TestIntrinsicLockAnalysis/src/test_selfProtected/C.java"/>
+
+    <java-source-file path="TestIntrinsicLockAnalysis/src/test_selfProtected/D.java"
+     qname="test_selfProtected.D"
+     location="/home/edwin/qa/test/suites/regression/TestIntrinsicLockAnalysis/src/test_selfProtected/D.java"/>
+
+    <java-source-file path="TestIntrinsicLockAnalysis/src/test_selfProtected/E.java"
+     qname="test_selfProtected.E"
+     location="/home/edwin/qa/test/suites/regression/TestIntrinsicLockAnalysis/src/test_selfProtected/E.java"/>
+
+    <java-source-file path="TestIntrinsicLockAnalysis/src/test_selfProtected/I.java"
+     qname="test_selfProtected.I"
+     location="/home/edwin/qa/test/suites/regression/TestIntrinsicLockAnalysis/src/test_selfProtected/I.java"/>
+
+    <java-source-file path="TestIntrinsicLockAnalysis/src/test_selfProtected/Main.java"
+     qname="test_selfProtected.Main"
+     location="/home/edwin/qa/test/suites/regression/TestIntrinsicLockAnalysis/src/test_selfProtected/Main.java"/>
+
+    <java-source-file path="TestIntrinsicLockAnalysis/src/test_singleThreaded_constructor/TestBorrowed.java"
+     qname="test_singleThreaded_constructor.TestBorrowed"
+     location="/home/edwin/qa/test/suites/regression/TestIntrinsicLockAnalysis/src/test_singleThreaded_constructor/TestBorrowed.java"/>
+
+    <java-source-file path="TestIntrinsicLockAnalysis/src/test_singleThreaded_constructor/TestEffects.java"
+     qname="test_singleThreaded_constructor.TestEffects"
+     location="/home/edwin/qa/test/suites/regression/TestIntrinsicLockAnalysis/src/test_singleThreaded_constructor/TestEffects.java"/>
+
+    <java-source-file path="TestIntrinsicLockAnalysis/src/test_static_lock_semantics/parent_child/A.java"
+     qname="test_static_lock_semantics.parent_child.A"
+     location="/home/edwin/qa/test/suites/regression/TestIntrinsicLockAnalysis/src/test_static_lock_semantics/parent_child/A.java"/>
+
+    <java-source-file path="TestIntrinsicLockAnalysis/src/test_static_lock_semantics/parent_child/B.java"
+     qname="test_static_lock_semantics.parent_child.B"
+     location="/home/edwin/qa/test/suites/regression/TestIntrinsicLockAnalysis/src/test_static_lock_semantics/parent_child/B.java"/>
+
+    <java-source-file path="TestIntrinsicLockAnalysis/src/test_static_lock_semantics/sibling/X.java"
+     qname="test_static_lock_semantics.sibling.X"
+     location="/home/edwin/qa/test/suites/regression/TestIntrinsicLockAnalysis/src/test_static_lock_semantics/sibling/X.java"/>
+
+    <java-source-file path="TestIntrinsicLockAnalysis/src/test_static_lock_semantics/sibling/Y.java"
+     qname="test_static_lock_semantics.sibling.Y"
+     location="/home/edwin/qa/test/suites/regression/TestIntrinsicLockAnalysis/src/test_static_lock_semantics/sibling/Y.java"/>
+
+    <java-source-file path="TestIntrinsicLockAnalysis/src/test_static_lock_semantics/sibling/Z.java"
+     qname="test_static_lock_semantics.sibling.Z"
+     location="/home/edwin/qa/test/suites/regression/TestIntrinsicLockAnalysis/src/test_static_lock_semantics/sibling/Z.java"/>
+
+    <java-source-file path="TestIntrinsicLockAnalysis/src/test_static_lock_semantics/unrelated/C.java"
+     qname="test_static_lock_semantics.unrelated.C"
+     location="/home/edwin/qa/test/suites/regression/TestIntrinsicLockAnalysis/src/test_static_lock_semantics/unrelated/C.java"/>
+
+    <java-source-file path="TestIntrinsicLockAnalysis/src/test_static_lock_semantics/unrelated/D.java"
+     qname="test_static_lock_semantics.unrelated.D"
+     location="/home/edwin/qa/test/suites/regression/TestIntrinsicLockAnalysis/src/test_static_lock_semantics/unrelated/D.java"/>
+
+    <java-source-file path="TestIntrinsicLockAnalysis/src/test_synchronization_around_inner_classes/Outer.java"
+     qname="test_synchronization_around_inner_classes.Outer"
+     location="/home/edwin/qa/test/suites/regression/TestIntrinsicLockAnalysis/src/test_synchronization_around_inner_classes/Outer.java"/>
+
+  <package name="test_requiresLock_for_parameters"/>
+
+  <package name="test_static_lock_semantics.unrelated"/>
+
+  <package name="test_aggregated_arrays"/>
+
+  <package name="test_static_lock_semantics.parent_child"/>
+
+  <package name="test_empty_RequiresLock"/>
+
+  <package name="test_singleThreaded_constructor"/>
+
+  <package name="test_lockingPlusAggregationPlusEffects.nestedRegions"/>
+
+  <package name="test_lockingPlusAggregationPlusEffects.siblingRegions"/>
+
+  <package name="test_static_lock_semantics.sibling"/>
+
+  <package name="test_synchronization_around_inner_classes"/>
+
+  <package name="test_policyLock_requiresLock"/>
+
+  <package name="test_selfProtected"/>
+
+  <package name="test_array_length"/>
+
+  <option name="asSource"
+   value="true"/>
+
+  <option name="sourceLevel"
+   value="5"/>
+
+  </project>
+
+</projects>
+
