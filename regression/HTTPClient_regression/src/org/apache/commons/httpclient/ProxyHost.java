@@ -32,6 +32,10 @@ package org.apache.commons.httpclient;
 
 import org.apache.commons.httpclient.protocol.Protocol;
 
+import com.surelogic.NonNull;
+import com.surelogic.RegionEffects;
+import com.surelogic.Starts;
+
 /**
  * Holds all of the variables needed to describe an HTTP connection to a proxy. Proxy hosts
  * always use plain HTTP connection when communicating with clients.
@@ -77,7 +81,9 @@ public class ProxyHost extends HttpHost {
      * @throws CloneNotSupportedException 
      * @see java.lang.Object#clone()
      */
-    public Object clone() throws CloneNotSupportedException {
+  	@RegionEffects("reads All")
+  	@Starts("nothing")
+  	@NonNull    public Object clone() throws CloneNotSupportedException {
         ProxyHost copy = (ProxyHost) super.clone();
         return copy;
     }    

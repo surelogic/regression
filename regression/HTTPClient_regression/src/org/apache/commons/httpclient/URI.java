@@ -43,6 +43,9 @@ import org.apache.commons.codec.DecoderException;
 import org.apache.commons.codec.net.URLCodec;
 import org.apache.commons.httpclient.util.EncodingUtil;
 
+import com.surelogic.NonNull;
+import com.surelogic.RegionEffects;
+import com.surelogic.Starts;
 import com.surelogic.Unique;
 
 /**
@@ -3686,7 +3689,10 @@ public class URI implements Cloneable, Comparable, Serializable {
      *
      * @return a clone of this instance
      */
-    public synchronized Object clone() throws CloneNotSupportedException {
+  	@RegionEffects("reads All")
+  	@Starts("nothing")
+  	@NonNull
+  	public synchronized Object clone() throws CloneNotSupportedException {
 
         URI instance = (URI) super.clone();
 

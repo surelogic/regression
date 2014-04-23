@@ -33,6 +33,10 @@ package org.apache.commons.httpclient;
 import org.apache.commons.httpclient.protocol.Protocol;
 import org.apache.commons.httpclient.util.LangUtils;
 
+import com.surelogic.NonNull;
+import com.surelogic.RegionEffects;
+import com.surelogic.Starts;
+
 /**
  * Holds all of the variables needed to describe an HTTP connection to a host. This includes 
  * remote host, port and protocol.
@@ -127,7 +131,9 @@ public class HttpHost implements Cloneable {
      * @throws CloneNotSupportedException 
      * @see java.lang.Object#clone()
      */
-    public Object clone() throws CloneNotSupportedException {
+  	@RegionEffects("reads All")
+  	@Starts("nothing")
+  	@NonNull    public Object clone() throws CloneNotSupportedException {
         HttpHost copy = (HttpHost) super.clone();
         copy.init(this);
         return copy;

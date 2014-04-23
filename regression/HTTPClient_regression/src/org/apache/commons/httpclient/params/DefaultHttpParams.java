@@ -38,8 +38,11 @@ import org.apache.commons.logging.LogFactory;
 
 import com.surelogic.Borrowed;
 import com.surelogic.InRegion;
+import com.surelogic.NonNull;
 import com.surelogic.Region;
+import com.surelogic.RegionEffects;
 import com.surelogic.RegionLock;
+import com.surelogic.Starts;
 
 /**
  * This class represents a collection of HTTP protocol parameters. Protocol
@@ -261,7 +264,9 @@ public class DefaultHttpParams implements HttpParams, Serializable, Cloneable {
 	 * @see java.io.Serializable
 	 * @see java.lang.Object#clone()
 	 */
-	public Object clone() throws CloneNotSupportedException {
+	@RegionEffects("reads All")
+	@Starts("nothing")
+	@NonNull	public Object clone() throws CloneNotSupportedException {
 		DefaultHttpParams clone = (DefaultHttpParams) super.clone();
 		if (this.parameters != null) {
 			clone.parameters = (HashMap) this.parameters.clone();

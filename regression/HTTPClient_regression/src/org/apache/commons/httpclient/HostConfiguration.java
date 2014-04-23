@@ -36,8 +36,11 @@ import org.apache.commons.httpclient.util.LangUtils;
 
 import com.surelogic.Borrowed;
 import com.surelogic.InRegion;
+import com.surelogic.NonNull;
 import com.surelogic.Region;
+import com.surelogic.RegionEffects;
 import com.surelogic.RegionLock;
+import com.surelogic.Starts;
 
 import java.net.InetAddress;
 
@@ -134,6 +137,9 @@ public class HostConfiguration implements Cloneable {
 	/**
 	 * @see java.lang.Object#clone()
 	 */
+	@RegionEffects("reads All")
+	@Starts("nothing")
+	@NonNull
 	public Object clone() {
 		HostConfiguration copy;
 		try {
