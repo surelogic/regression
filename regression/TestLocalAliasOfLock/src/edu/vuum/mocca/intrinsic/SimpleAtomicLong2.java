@@ -1,6 +1,7 @@
 package edu.vuum.mocca.intrinsic;
 
 import com.surelogic.RegionLock;
+import com.surelogic.ReturnsLock;
 import com.surelogic.ThreadSafe;
 import com.surelogic.Unique;
 
@@ -24,6 +25,9 @@ class SimpleAtomicLong2 {
    */
   private final Object lock = new Object();
 
+  @ReturnsLock("SimpleAtomicLongLock")
+  public Object getLock() { return lock; }
+  
   /**
    * Creates a new SimpleAtomicLong with the given initial value.
    */
@@ -37,8 +41,8 @@ class SimpleAtomicLong2 {
    * 
    * @returns The current value
    */
-  public long get() {
-    final Object localLock = lock;
+  public long get() { // Doesn't work, too much indirection
+    final Object localLock = getLock();
     final Object localLock2 = localLock;
     final Object localLock3 = localLock2;
     synchronized (localLock3) {
@@ -52,7 +56,7 @@ class SimpleAtomicLong2 {
    * @returns the updated value
    */
   public long decrementAndGet() {
-    final Object localLock = lock;
+    final Object localLock = getLock();
     synchronized (localLock) {
       return --mValue;
     }
@@ -64,7 +68,7 @@ class SimpleAtomicLong2 {
    * @returns the previous value
    */
   public long getAndIncrement() {
-    final Object localLock = lock;
+    final Object localLock = getLock();
     synchronized (localLock) {
       return mValue++;
     }
@@ -88,7 +92,7 @@ class SimpleAtomicLong2 {
    * @returns the updated value
    */
   public long incrementAndGet() {
-    Object localLock = lock; // bad, not final
+    Object localLock = getLock(); // bad, not final
     synchronized (localLock) {
       return ++mValue;
     }
