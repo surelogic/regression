@@ -22,4 +22,18 @@ public class B {
     peer = Cast.toNonNull(myPeer);
     peer2 = Cast.toNullable(myPeer);
   }
+  
+  @RegionEffects("none")
+  @Starts("nothing")
+  B(@Initialized(through="Object") A myPeer, boolean flag) {
+    peer = Cast.toNonNull(myPeer, "Just need the reference right now");
+    peer2 = Cast.toNullable(myPeer, "Just need the reference right now");
+  }
+  
+  @RegionEffects("none")
+  @Starts("nothing")
+  B(@Initialized(through="Object") A myPeer, boolean flag, int x) {
+    peer = myPeer;
+    peer2 = myPeer;
+  }
 }
