@@ -1,8 +1,8 @@
 package test;
 
-import java.util.List;
+import java.util.List;import com.surelogic.TrackPartiallyInitialized;
 
-class Super<T> {
+@TrackPartiallyInitialized class Super<T> {
   public Super() {
     super();
   }
@@ -10,14 +10,14 @@ class Super<T> {
   public static void use(final Object o) {}
 }
 
-class Other extends Super<List<String>> {
+@TrackPartiallyInitialized class Other extends Super<List<String>> {
   public Other() {
     super();
     use(this);
   }
 }
 
-public class TestTypeParams extends Super<String> {
+@TrackPartiallyInitialized public class TestTypeParams extends Super<String> {
   public TestTypeParams() {
     super();
     use(this);

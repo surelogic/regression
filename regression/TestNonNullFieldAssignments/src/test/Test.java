@@ -2,7 +2,9 @@ package test;
 
 import com.surelogic.NonNull;
 import com.surelogic.Nullable;
+import com.surelogic.TrackPartiallyInitialized;
 
+@TrackPartiallyInitialized
 public class Test {
   private Other unannotated;
   private @Nullable Other nullable;

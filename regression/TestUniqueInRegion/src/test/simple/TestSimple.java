@@ -54,7 +54,7 @@ public class TestSimple {
   @UniqueInRegion("B")
   private final Object good12 = new Object();
   
-  // BAD: Doesn't exist
+  // BAD: Doesn't exist -- 2015-01-30 Now Inferred
   @UniqueInRegion("NON_EXISTENT")
   private final Object bad10 = new Object();
 

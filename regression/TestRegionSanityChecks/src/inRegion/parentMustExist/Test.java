@@ -9,7 +9,7 @@ import com.surelogic.Regions;
 })
 public class Test extends Super {
   @SuppressWarnings("unused")
-  @InRegion("NoSuchRegion" /* is UNBOUND */) // BAD: parent doesn't exist
+  @InRegion("NoSuchRegion" /* is UNBOUND */) // BAD: parent doesn't exist -- 2015-01-30 Now inferred!
   private int field1;
   
   @SuppressWarnings("unused")
@@ -21,11 +21,11 @@ public class Test extends Super {
   private int field3;
   
   @SuppressWarnings("unused")
-  @InRegion("ChildRegion" /* is UNBOUND */) // BAD: Region from child
+  @InRegion("ChildRegion" /* is UNBOUND */) // BAD: Region from child -- 2015-01-30 Now inferred!
   private int field4;
   
   @SuppressWarnings("unused")
-  @InRegion("UnrelatedRegion" /* is UNBOUND */) // BAD: Region from unrelated class
+  @InRegion("UnrelatedRegion" /* is UNBOUND */) // BAD: Region from unrelated class -- 2015-01-30 Now inferred!
   private int field5;
   
   @SuppressWarnings("unused")

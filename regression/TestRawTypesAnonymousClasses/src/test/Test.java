@@ -1,12 +1,25 @@
 package test;
 
+import com.surelogic.TrackPartiallyInitialized;
+
+@TrackPartiallyInitialized
 class A {}
+
+@TrackPartiallyInitialized
 class B extends A {}
 
+
+
+@TrackPartiallyInitialized
 class X {}
+
+@TrackPartiallyInitialized
 class Y extends X {}
 
+
+
 @SuppressWarnings("unused")
+@TrackPartiallyInitialized
 public class Test {
   private final boolean a = use(this); // Raw(Object)
   private final boolean aa = use(Test.this); // Raw(Object)

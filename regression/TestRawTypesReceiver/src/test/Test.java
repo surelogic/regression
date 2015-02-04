@@ -1,6 +1,6 @@
-package test;
+package test;import com.surelogic.TrackPartiallyInitialized;
 
-class A {
+@TrackPartiallyInitialized class A {
   private boolean f_a1 = use(this);
   private boolean f_a2 = use(this);
   
@@ -21,7 +21,7 @@ class A {
   }
 }
 
-class B extends A {
+@TrackPartiallyInitialized class B extends A {
   private boolean f_b1 = use(this);
   private boolean f_b2 = use(this);
   
@@ -40,7 +40,7 @@ class B extends A {
   }
 }
 
-public class Test extends B {
+@TrackPartiallyInitialized public class Test extends B {
   private boolean f_t1 = use(this);
   private boolean f_t2 = use(this);
   

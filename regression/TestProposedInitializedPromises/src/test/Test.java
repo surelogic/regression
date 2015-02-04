@@ -1,9 +1,12 @@
 package test;
 
 import com.surelogic.Initialized;
+import com.surelogic.TrackPartiallyInitialized;
 
+@TrackPartiallyInitialized
 class Super {}
 
+@TrackPartiallyInitialized
 public class Test extends Super {
   private int x;
   private int y;

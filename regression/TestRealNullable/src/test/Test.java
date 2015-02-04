@@ -2,7 +2,9 @@ package test;
 
 import com.surelogic.NonNull;
 import com.surelogic.Initialized;
+import com.surelogic.TrackPartiallyInitialized;
 
+@TrackPartiallyInitialized
 public class Test {
   @NonNull
   private Object f1;
