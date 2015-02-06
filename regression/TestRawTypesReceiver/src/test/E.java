@@ -1,9 +1,9 @@
-package test;
+package test; import com.surelogic.*;
 
-enum E {
+@TrackPartiallyInitialized enum E {
   A,
   B(10),
-  C(20) {
+  C(20) { @NonNull private Object trigger; // force TPI on EnumClassDeclaration
     private boolean f = use(this);
     
     { 

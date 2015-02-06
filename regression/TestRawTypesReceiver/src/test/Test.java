@@ -1,4 +1,4 @@
-package test;import com.surelogic.TrackPartiallyInitialized;
+package test; import com.surelogic.*;
 
 @TrackPartiallyInitialized class A {
   private boolean f_a1 = use(this);
@@ -61,7 +61,7 @@ package test;import com.surelogic.TrackPartiallyInitialized;
   
   
   public void m() {
-    Object o = new B() {
+    Object o = new B() { @NonNull private Object trigger; // force TPI on ACE
       private boolean f = use(this);
       
       {

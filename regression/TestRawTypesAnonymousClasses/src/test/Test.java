@@ -1,30 +1,17 @@
-package test;
+package test; import com.surelogic.*;
 
-import com.surelogic.TrackPartiallyInitialized;
+@TrackPartiallyInitialized class A {}
+@TrackPartiallyInitialized class B extends A {}
 
-@TrackPartiallyInitialized
-class A {}
-
-@TrackPartiallyInitialized
-class B extends A {}
-
-
-
-@TrackPartiallyInitialized
-class X {}
-
-@TrackPartiallyInitialized
-class Y extends X {}
-
-
+@TrackPartiallyInitialized class X {}
+@TrackPartiallyInitialized class Y extends X {}
 
 @SuppressWarnings("unused")
-@TrackPartiallyInitialized
-public class Test {
+@TrackPartiallyInitialized public class Test {
   private final boolean a = use(this); // Raw(Object)
   private final boolean aa = use(Test.this); // Raw(Object)
   
-  private final Object o = new B() {
+  private final Object o = new B() { @NonNull private Object trigger; /* force use of raw values */
     private boolean f = use(this); // Raw(B)
     private boolean ff = use(Test.this); // Raw(Object)
     
@@ -32,7 +19,7 @@ public class Test {
       use(this); // Raw(B)
       use(Test.this); // Raw(Object)
       
-      new Y() {
+      new Y() { @NonNull private Object trigger; /* force use of raw values */
         private boolean g = use(this); // Raw(Y)
         // no way to refer to the outer object created by the first anonymous class
         private boolean ggg = use(Test.this); // Raw(Object)
@@ -67,7 +54,7 @@ public class Test {
       use(this); // NOT_NULL -- Assumed to be because there is no annotation otherwise
       use(Test.this); // NOT_NULL -- Assumed to be, no way right now to annotate qualified receivers as otherwise, but perhaps should add in the future
       
-      new Y() {
+      new Y() { @NonNull private Object trigger; /* force use of raw values */
         private boolean g = use(this); // Raw(Y)
         // no way to refer to the outer object created by the first anonymous class
         private boolean ggg = use(Test.this); // NOT_NULL
@@ -93,7 +80,7 @@ public class Test {
     use(this); // Raw(Object)
     use(Test.this); // Raw(Object)
     
-    final Object o = new B() {
+    final Object o = new B() { @NonNull private Object trigger; /* force use of raw values */
       private boolean f = use(this); // Raw(B)
       private boolean ff = use(Test.this); // Raw(Object)
       
@@ -101,7 +88,7 @@ public class Test {
         use(this); // Raw(B)
         use(Test.this); // Raw(Object)
         
-        new Y() {
+        new Y() { @NonNull private Object trigger; /* force use of raw values */
           private boolean g = use(this); // Raw(Y)
           // no way to refer to the outer object created by the first anonymous class
           private boolean ggg = use(Test.this); // Raw(Object)
@@ -136,7 +123,7 @@ public class Test {
         use(this); // NOT_NULL -- Assumed because there is no annotation to the contrary
         use(Test.this); // NOT_NULL -- Assumed to be, no way right now to annotate qualified receivers as otherwise, but perhaps should add in the future
         
-        new Y() {
+        new Y() { @NonNull private Object trigger; /* force use of raw values */
           private boolean g = use(this); // Raw(Y)
           // no way to refer to the outer object created by the first anonymous class
           private boolean ggg = use(Test.this); // NOT_NULL
@@ -166,7 +153,7 @@ public class Test {
     use(this);
   }
 
-  private class C extends B {
+  @TrackPartiallyInitialized private class C extends B {
     private boolean f = use(this); // Raw(B)
     private boolean ff = use(Test.this); // NOT_NULL
     
@@ -174,7 +161,7 @@ public class Test {
       use(this); // Raw(B)
       use(Test.this); // NOT_NULL
 
-      new Y() {
+      new Y() { @NonNull private Object trigger; /* force use of raw values */
         private boolean g = use(this); // Raw(Y)
         private boolean gg = use(C.this); // Raw(B)
         private boolean ggg = use(Test.this); // NOT_NULL
@@ -196,7 +183,7 @@ public class Test {
       use(this); // NOT_NULL
       use(Test.this); // NOT_NULL
 
-      new Y() {
+      new Y() { @NonNull private Object trigger; /* force use of raw values */
         private boolean g = use(this); // Raw(Y)
         private boolean gg = use(C.this); // NOT_NULL
         private boolean ggg = use(Test.this); // NOT_NULL
@@ -216,7 +203,7 @@ public class Test {
   
   public void m() {
     /* Should track: this(Test), this(anon class B), this(anon class Y)*/
-    final Object o = new B() {
+    final Object o = new B() { @NonNull private Object trigger; /* force use of raw values */
       private boolean f = use(this); // Raw(B)
       private boolean ff = use(Test.this); // NOT_NULL
       
@@ -224,7 +211,7 @@ public class Test {
         use(this); // Raw(B)
         use(Test.this); // NOT_NULL
         
-        new Y() {
+        new Y() { @NonNull private Object trigger; /* force use of raw values */
           private boolean g = use(this); // Raw(Y)
           // no way to refer to the outer object created by the first anonymous class
           private boolean ggg = use(Test.this); // NOT_NULL
@@ -253,7 +240,7 @@ public class Test {
         use(this); // NOT_NULL -- Assumed to be because it is not annotated otherwise
         use(Test.this); // NOT_NULL -- Assumed to be, no way right now to annotate qualified receivers as otherwise, but perhaps should add in the future
         
-        new Y() {
+        new Y() { @NonNull private Object trigger; /* force use of raw values */
           private boolean g = use(this); // Raw(Y)
           // no way to refer to the outer object created by the first anonymous class
           private boolean ggg = use(Test.this); // NOT_NULL

@@ -1,13 +1,13 @@
-package test;
+package test; import com.surelogic.*;
 
 @SuppressWarnings("unused")
-public class Test2 {
+@TrackPartiallyInitialized public class Test2 {
   public static boolean use(final Object o) { return true; }
 
   private final boolean a = use(this); // Raw(Object)
   private final boolean aa = use(Test2.this); // Raw(Object)
   
-  private final Object o = new B() {
+  private final Object o = new B() { @NonNull private Object trigger; /* force TPI on ACE */
     private boolean f = use(this); // Raw(B)
     private boolean ff = use(Test2.this); // Raw(Object)
     
@@ -15,7 +15,7 @@ public class Test2 {
       use(this); // Raw(B)
       use(Test2.this); // Raw(Object)
       
-      new Y() {
+      new Y() { @NonNull private Object trigger; /* force TPI on ACE */
         private boolean g = use(this); // Raw(Y)
         // no way to refer to the outer object created by the first anonymous class
         private boolean ggg = use(Test2.this); // Raw(Object)
@@ -31,7 +31,7 @@ public class Test2 {
       use(this); // Raw(B)
       use(Test2.this); // Raw(Object)
       
-      new Y() {
+      new Y() { @NonNull private Object trigger; /* force TPI on ACE */
         private boolean g = use(this); // Raw(Y)
         // no way to refer to the outer object created by the first anonymous class
         private boolean ggg = use(Test2.this); // Raw(Object)
@@ -47,7 +47,7 @@ public class Test2 {
       use(this); // Raw(B)
       use(Test2.this); // Raw(Object)
       
-      new Y() {
+      new Y() { @NonNull private Object trigger; /* force TPI on ACE */
         private boolean g = use(this); // Raw(Y)
         // no way to refer to the outer object created by the first anonymous class
         private boolean ggg = use(Test2.this); // Raw(Object)
@@ -73,7 +73,7 @@ public class Test2 {
       use(this); // NOT_NULL -- Assumed to be because there is no annotation otherwise
       use(Test2.this); // NOT_NULL -- Assumed to be, no way right now to annotate qualified receivers as otherwise, but perhaps should add in the future
       
-      new Y() {
+      new Y() { @NonNull private Object trigger; /* force TPI on ACE */
         private boolean g = use(this); // Raw(Y)
         // no way to refer to the outer object created by the first anonymous class
         private boolean ggg = use(Test2.this); // NOT_NULL
@@ -94,7 +94,7 @@ public class Test2 {
 
 
   
-  private final Object oo = new B() {
+  private final Object oo = new B() { @NonNull private Object trigger; /* force TPI on ACE */
     private boolean f = use(this); // Raw(B)
     private boolean ff = use(Test2.this); // Raw(Object)
     
@@ -102,7 +102,7 @@ public class Test2 {
       use(this); // Raw(B)
       use(Test2.this); // Raw(Object)
       
-      new Y() {
+      new Y() { @NonNull private Object trigger; /* force TPI on ACE */
         private boolean g = use(this); // Raw(Y)
         // no way to refer to the outer object created by the first anonymous class
         private boolean ggg = use(Test2.this); // Raw(Object)
@@ -118,7 +118,7 @@ public class Test2 {
       use(this); // Raw(B)
       use(Test2.this); // Raw(Object)
       
-      new Y() {
+      new Y() { @NonNull private Object trigger; /* force TPI on ACE */
         private boolean g = use(this); // Raw(Y)
         // no way to refer to the outer object created by the first anonymous class
         private boolean ggg = use(Test2.this); // Raw(Object)
@@ -134,7 +134,7 @@ public class Test2 {
       use(this); // Raw(B)
       use(Test2.this); // Raw(Object)
       
-      new Y() {
+      new Y() { @NonNull private Object trigger; /* force TPI on ACE */
         private boolean g = use(this); // Raw(Y)
         // no way to refer to the outer object created by the first anonymous class
         private boolean ggg = use(Test2.this); // Raw(Object)
@@ -160,7 +160,7 @@ public class Test2 {
       use(this); // NOT_NULL -- Assumed to be because there is no annotation otherwise
       use(Test2.this); // NOT_NULL -- Assumed to be, no way right now to annotate qualified receivers as otherwise, but perhaps should add in the future
       
-      new Y() {
+      new Y() { @NonNull private Object trigger; /* force TPI on ACE */
         private boolean g = use(this); // Raw(Y)
         // no way to refer to the outer object created by the first anonymous class
         private boolean ggg = use(Test2.this); // NOT_NULL
@@ -181,7 +181,7 @@ public class Test2 {
 
 
   {
-    new B() {
+    new B() { @NonNull private Object trigger; /* force TPI on ACE */
       private boolean f = use(this); // Raw(B)
       private boolean ff = use(Test2.this); // Raw(Object)
       
@@ -189,7 +189,7 @@ public class Test2 {
         use(this); // Raw(B)
         use(Test2.this); // Raw(Object)
         
-        new Y() {
+        new Y() { @NonNull private Object trigger; /* force TPI on ACE */
           private boolean g = use(this); // Raw(Y)
           // no way to refer to the outer object created by the first anonymous class
           private boolean ggg = use(Test2.this); // Raw(Object)
@@ -205,7 +205,7 @@ public class Test2 {
         use(this); // Raw(B)
         use(Test2.this); // Raw(Object)
         
-        new Y() {
+        new Y() { @NonNull private Object trigger; /* force TPI on ACE */
           private boolean g = use(this); // Raw(Y)
           // no way to refer to the outer object created by the first anonymous class
           private boolean ggg = use(Test2.this); // Raw(Object)
@@ -221,7 +221,7 @@ public class Test2 {
         use(this); // Raw(B)
         use(Test2.this); // Raw(Object)
         
-        new Y() {
+        new Y() { @NonNull private Object trigger; /* force TPI on ACE */
           private boolean g = use(this); // Raw(Y)
           // no way to refer to the outer object created by the first anonymous class
           private boolean ggg = use(Test2.this); // Raw(Object)
@@ -247,7 +247,7 @@ public class Test2 {
         use(this); // NOT_NULL -- Assumed to be because there is no annotation otherwise
         use(Test2.this); // NOT_NULL -- Assumed to be, no way right now to annotate qualified receivers as otherwise, but perhaps should add in the future
         
-        new Y() {
+        new Y() { @NonNull private Object trigger; /* force TPI on ACE */
           private boolean g = use(this); // Raw(Y)
           // no way to refer to the outer object created by the first anonymous class
           private boolean ggg = use(Test2.this); // NOT_NULL
