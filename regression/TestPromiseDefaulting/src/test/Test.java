@@ -3,6 +3,7 @@ package test;
 import com.surelogic.*;
 
 //@Promise("@NonNull")
+@TrackPartiallyInitialized
 public class Test {
 	int foo;
 	Object bar;
