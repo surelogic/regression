@@ -2,7 +2,6 @@ package test.rcvr;
 
 import com.surelogic.Borrowed;
 import com.surelogic.Immutable;
-import com.surelogic.ReadOnly;
 import com.surelogic.Unique;
 
 public class Root {
@@ -16,9 +15,6 @@ public class Root {
 	public void immutable() {}
 	
 	public void shared() {}
-	
-	@ReadOnly("this")
-	public void readOnly() {}
 	
 	@Borrowed("this")
 	public void borrowed(){}
@@ -43,36 +39,6 @@ class BorrowedReceiver extends Root {
 
 	// GOOD
 	@Borrowed("this")
-	public void readOnly() {}
-
-	// GOOD
-	@Borrowed("this")
-	public void borrowed() {}
-}
-
-class ReadOnlyReceiver extends Root {
-	// GOOD
-	@ReadOnly("this")
-	public void unique() {}
-
-	// GOOD
-	@ReadOnly("this")
-	public void allowRead() {}
-
-	// GOOD
-	@ReadOnly("this")
-	public void immutable() {}
-
-	// GOOD
-	@ReadOnly("this")
-	public void shared() {}
-
-	// GOOD
-	@ReadOnly("this")
-	public void readOnly() {}
-
-	// BAD
-	@ReadOnly("this")
 	public void borrowed() {}
 }
 
@@ -95,10 +61,6 @@ class ImmutableReceiver extends Root {
 
 	// BAD
 	@Immutable("this")
-	public void readOnly() {}
-
-	// BAD
-	@Immutable("this")
 	public void borrowed() {}
 }
 
@@ -114,9 +76,6 @@ class SharedReceiver extends Root {
 
 	// GOOD
 	public void shared() {}
-
-	// BAD
-	public void readOnly() {}
 
 	// BAD
 	public void borrowed() {}
@@ -141,10 +100,6 @@ class AllowReadReceiver extends Root {
 
 	// BAD
 	@Unique(value="this", allowRead=true)
-	public void readOnly() {}
-
-	// BAD
-	@Unique(value="this", allowRead=true)
 	public void borrowed() {}
 }
 
@@ -164,10 +119,6 @@ class UniqueReceiver extends Root {
 	// BAD
 	@Unique("this")
 	public void shared() {}
-
-	// BAD
-	@Unique("this")
-	public void readOnly() {}
 
 	// BAD
 	@Unique("this")

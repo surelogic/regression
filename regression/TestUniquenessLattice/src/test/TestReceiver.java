@@ -3,7 +3,6 @@ package test;
 import com.surelogic.Borrowed;
 import com.surelogic.BorrowedInRegion;
 import com.surelogic.Immutable;
-import com.surelogic.ReadOnly;
 import com.surelogic.Unique;
 import com.surelogic.UniqueInRegion;
 
@@ -20,9 +19,6 @@ public class TestReceiver {
 	@Borrowed("this")
 	private void m001() { /* empty */ }
 	
-	@ReadOnly("this")
-	private void m004() { /* empty */ }
-	
 	@Immutable("this")
 	private void m005() { /* empty */ }
 	
@@ -37,10 +33,6 @@ public class TestReceiver {
 	// Two annotations
 	// ----------------------------------------------------------------------
 	@Borrowed("this")
-	@ReadOnly("this")
-	private void m015() { /* empty */ }
-	
-	@Borrowed("this")
 	@Immutable("this")
 	private void m016() { /* empty */ }
 	
@@ -51,20 +43,6 @@ public class TestReceiver {
 	@Borrowed("this")
 	@Unique(value="this", allowRead=true)
 	private void m018() { /* empty */ }
-		
-
-	@ReadOnly("this")
-	@Immutable("this")
-	private void m039() { /* empty */ }
-	
-	@ReadOnly("this")
-	@Unique("this")
-	private void m040() { /* empty */ }
-	
-	@ReadOnly("this")
-	@Unique(value="this", allowRead=true)
-	private void m041() { /* empty */ }
-	
 	
 	@Immutable("this")
 	@Unique("this")
@@ -79,22 +57,6 @@ public class TestReceiver {
 	// Three annotations
 	// ----------------------------------------------------------------------
 	@Borrowed("this")
-	@ReadOnly("this")
-	@Immutable("this")
-	private void m072() { /* empty */ }
-	
-	@Borrowed("this")
-	@ReadOnly("this")
-	@Unique("this")
-	private void m073() { /* empty */ }
-	
-	@Borrowed("this")
-	@ReadOnly("this")
-	@Unique(value="this", allowRead=true)
-	private void m074() { /* empty */ }
-
-
-	@Borrowed("this")
 	@Immutable("this")
 	@Unique("this")
 	private void m079() { /* empty */ }
@@ -103,15 +65,4 @@ public class TestReceiver {
 	@Immutable("this")
 	@Unique(value="this", allowRead=true)
 	private void m080() { /* empty */ }
-
-	
-	@ReadOnly("this")
-	@Immutable("this")
-	@Unique("this")
-	private void m135() { /* empty */ }
-	
-	@ReadOnly("this")
-	@Immutable("this")
-	@Unique(value="this", allowRead=true)
-	private void m136() { /* empty */ }
 }

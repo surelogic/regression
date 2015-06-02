@@ -2,7 +2,6 @@ package test.params;
 
 import com.surelogic.Borrowed;
 import com.surelogic.Immutable;
-import com.surelogic.ReadOnly;
 import com.surelogic.Unique;
 
 public class Root {
@@ -10,7 +9,6 @@ public class Root {
 	public void allowRead(@Unique(allowRead=true) Object p) {}
 	public void immutable(@Immutable Object p) {}
 	public void shared(Object p) {}
-	public void readOnly(@ReadOnly Object p) {}
 	public void borrowed(@Borrowed Object p) {}
 }
 
@@ -27,21 +25,6 @@ class BorrowedParam extends Root {
 	public void readOnly(@Borrowed Object p) {}
 	// GOOD
 	public void borrowed(@Borrowed Object p) {}
-}
-
-class ReadOnlyParam extends Root {
-	// GOOD
-	public void unique(@ReadOnly Object p) {}
-	// GOOD
-	public void allowRead(@ReadOnly Object p) {}
-	// GOOD
-	public void immutable(@ReadOnly Object p) {}
-	// GOOD
-	public void shared(@ReadOnly Object p) {}
-	// GOOD
-	public void readOnly(@ReadOnly Object p) {}
-	// BAD
-	public void borrowed(@ReadOnly Object p) {}
 }
 
 class ImmutableParam extends Root {
