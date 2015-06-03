@@ -8,9 +8,6 @@ public class Root {
 	@Unique("this")
 	public void unique() {}
 	
-	@Unique(value="this", allowRead=true)
-	public void allowRead() {}
-	
 	@Immutable("this")
 	public void immutable() {}
 	
@@ -24,10 +21,6 @@ class BorrowedReceiver extends Root {
 	// GOOD
 	@Borrowed("this")
 	public void unique() {}
-
-	// GOOD
-	@Borrowed("this")
-	public void allowRead() {}
 
 	// GOOD
 	@Borrowed("this")
@@ -49,10 +42,6 @@ class ImmutableReceiver extends Root {
 
 	// GOOD
 	@Immutable("this")
-	public void allowRead() {}
-
-	// GOOD
-	@Immutable("this")
 	public void immutable() {}
 
 	// BAD
@@ -68,9 +57,6 @@ class SharedReceiver extends Root {
 	// GOOD
 	public void unique() {}
 
-	// GOOD
-	public void allowRead() {}
-
 	// BAD
 	public void immutable() {}
 
@@ -78,28 +64,6 @@ class SharedReceiver extends Root {
 	public void shared() {}
 
 	// BAD
-	public void borrowed() {}
-}
-
-class AllowReadReceiver extends Root {
-	// GOOD
-	@Unique(value="this", allowRead=true)
-	public void unique() {}
-	
-	// GOOD
-	@Unique(value="this", allowRead=true)
-	public void allowRead() {}
-
-	// BAD
-	@Unique(value="this", allowRead=true)
-	public void immutable() {}
-
-	// BAD
-	@Unique(value="this", allowRead=true)
-	public void shared() {}
-
-	// BAD
-	@Unique(value="this", allowRead=true)
 	public void borrowed() {}
 }
 
@@ -107,10 +71,6 @@ class UniqueReceiver extends Root {
 	// GOOD
 	@Unique("this")
 	public void unique() {}
-
-	// BAD
-	@Unique("this")
-	public void allowRead() {}
 
 	// BAD
 	@Unique("this")

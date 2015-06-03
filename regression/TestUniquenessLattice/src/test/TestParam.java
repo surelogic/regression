@@ -22,8 +22,6 @@ public class TestParam {
 	
 	private void m007(@Unique Object o) { /* empty */ }
 	
-	private void m008(@Unique(allowRead=true) Object o) { /* empty */ }
-	
 	
 	
 	// Two annotations
@@ -31,19 +29,13 @@ public class TestParam {
 	private void m016(@Borrowed @Immutable Object o) { /* empty */ }
 	
 	private void m017(@Borrowed @Unique Object o) { /* empty */ }
-	
-	private void m018(@Borrowed @Unique(allowRead=true) Object o) { /* empty */ }
 		
 
 	private void m046(@Immutable @Unique Object o) { /* empty */ }
-	
-	private void m047(@Immutable @Unique(allowRead=true) Object o) { /* empty */ }
 
 
 
 	// Three annotations
 	// ----------------------------------------------------------------------
 	private void m079(@Borrowed @Immutable @Unique Object o) { /* empty */ }
-	
-	private void m080(@Borrowed @Immutable @Unique(allowRead=true) Object o) { /* empty */ }
 }

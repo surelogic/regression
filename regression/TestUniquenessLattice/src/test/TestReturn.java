@@ -22,9 +22,6 @@ public class TestReturn {
 	@Unique("return")
 	private Object m007() { return null; }
 	
-	@Unique(value="this", allowRead=true)
-	private Object m008() { return null; }
-	
 	
 	
 	// Two annotations
@@ -32,8 +29,4 @@ public class TestReturn {
 	@Immutable("return")
 	@Unique("return")
 	private Object m046() { return null; }
-	
-	@Immutable("return")
-	@Unique(value="this", allowRead=true)
-	private Object m047() { return null; }
 }

@@ -1,0 +1,1896 @@
+LOCAL vm : 1.8.0_05
+Path: /Users/aarong/git/jsure/jsure-analysis/bin
+Path: /Users/aarong/git/common/common/lib/runtime/commons-codec-1.10.jar
+Path: /Users/aarong/git/common/common/lib/runtime/trove-3.0.3.jar
+Path: /Users/aarong/git/common/common/lib/runtime/antlr-3.5.2-runtime.jar
+Path: /Users/aarong/git/common/common/lib/runtime/servlet-api-3.1.jar
+Path: /Users/aarong/git/jsure/jsure-common/lib/runtime/diffutils-1.2.1.jar
+Path: /Users/aarong/git/common/common/bin
+Path: /Users/aarong/git/common/common/lib/runtime/asm-5.0.2.jar
+Path: /Users/aarong/git/jsure/jsure-analysis/lib/runtime/renamedJavac.jar
+Path: /Users/aarong/git/common/common/lib/runtime/asm-tree-5.0.2.jar
+Path: /Users/aarong/git/common/common/lib/runtime/promises-5.6.0.jar
+Path: /Users/aarong/git/jsure/jsure-analysis/lib/runtime/log4j-xml-1.3alpha-8.jar
+Path: /Users/aarong/git/common/common/lib/runtime/derby-10.11.1.1.jar
+Path: /Users/aarong/git/jsure/jsure-common/bin
+Path: /Users/aarong/git/common/common/lib/runtime/ant-1.9.4.jar
+Path: /Users/aarong/git/common/common/lib/runtime/collections-generic-4.0.jar
+Path: /Users/aarong/git/jsure/jsure-analysis/lib/runtime/log4j-1.3alpha-8.jar
+Path: /Users/aarong/git/common/common/lib/runtime/asm-commons-5.0.2.jar
+Path: /Users/aarong/git/common/common/lib/runtime/commons-lang3-3.3.2.jar
+Path: /Users/aarong/git/common/common/lib/runtime/commons-io-2.4.jar
+Starting process:
+	/Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/jre/bin/java
+	-Dsl.running.in.remote.vm=true
+	-Dsurelogic.test.code=NONE
+	-XX:MaxPermSize=512m
+	-verbosegc
+	-DSureLogicX=true
+	-Dsl.run.dir=/Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/TestEffectsAndUnique-2015.06.03-at-14.13.47.836
+	-Dfluid.ir.versioning=Versioning.Off
+	-Dfluid.directory.url=file:/Eclipses/eclipse-standard-luna-SR2-macosx-cocoa-x86_64/../../Users/aarong/git/jsure/jsure-analysis/
+	-Xmx2048m
+	-classpath
+	/Users/aarong/git/jsure/jsure-analysis/bin:/Users/aarong/git/common/common/lib/runtime/commons-codec-1.10.jar:/Users/aarong/git/common/common/lib/runtime/trove-3.0.3.jar:/Users/aarong/git/common/common/lib/runtime/antlr-3.5.2-runtime.jar:/Users/aarong/git/common/common/lib/runtime/servlet-api-3.1.jar:/Users/aarong/git/jsure/jsure-common/lib/runtime/diffutils-1.2.1.jar:/Users/aarong/git/common/common/bin:/Users/aarong/git/common/common/lib/runtime/asm-5.0.2.jar:/Users/aarong/git/jsure/jsure-analysis/lib/runtime/renamedJavac.jar:/Users/aarong/git/common/common/lib/runtime/asm-tree-5.0.2.jar:/Users/aarong/git/common/common/lib/runtime/promises-5.6.0.jar:/Users/aarong/git/jsure/jsure-analysis/lib/runtime/log4j-xml-1.3alpha-8.jar:/Users/aarong/git/common/common/lib/runtime/derby-10.11.1.1.jar:/Users/aarong/git/jsure/jsure-common/bin:/Users/aarong/git/common/common/lib/runtime/ant-1.9.4.jar:/Users/aarong/git/common/common/lib/runtime/collections-generic-4.0.jar:/Users/aarong/git/jsure/jsure-analysis/lib/runtime/log4j-1.3alpha-8.jar:/Users/aarong/git/common/common/lib/runtime/asm-commons-5.0.2.jar:/Users/aarong/git/common/common/lib/runtime/commons-lang3-3.3.2.jar:/Users/aarong/git/common/common/lib/runtime/commons-io-2.4.jar
+	com.surelogic.javac.jobs.RemoteJSureRun
+
+First line in REMOTE vm = Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=512m; support was removed in 8.0
+[GC (Allocation Failure)  512K->488K(327168K), 0.0016680 secs]
+[GC (Allocation Failure)  988K->579K(327680K), 0.0008640 secs]
+[GC (Allocation Failure)  1603K->747K(327680K), 0.0010010 secs]
+[GC (Allocation Failure)  1771K->811K(328704K), 0.0008350 secs]
+JVM started: 1.8.0_05
+Log level: INFO
+Created reader
+Created monitor
+Created log handler
+Running RemoteJSureRun
+[GC (Allocation Failure)  2859K->1043K(328704K), 0.0014660 secs]
+[GC (Allocation Failure)  3091K->1291K(331264K), 0.0010310 secs]
+[GC (Allocation Failure)  5387K->1619K(331264K), 0.0013290 secs]
+[GC (Allocation Failure)  5672K->1866K(335360K), 0.0012230 secs]
+runPath = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/TestEffectsAndUnique-2015.06.03-at-14.13.47.836
+Creating run: TestEffectsAndUnique-2015.06.03-at-14.13.47.836
+projects = TestEffectsAndUniqueness
+Loading edu.cmu.cs.fluid.make.nonabductive.proposals = false
+Loading edu.cmu.cs.fluid.load.all.classes = false
+Loading edu.cmu.cs.fluid.timeoutFlag = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BCA = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ConstantExpr = false
+Loading edu.cmu.cs.fluid.physMemoryInMB = 20480
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.EqualityAssurance = true
+Loading edu.cmu.cs.fluid.xml.diff.directory = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/promises-xml
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.UniquenessAssuranceUWM = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.IRConcurrencyDetector = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Singleton = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.CALLS = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BenchmarkingUniquenessSE = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ThreadEffectAssurance2 = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Binder = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.cliend.eclipse.TypeBasedAlias = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Nullable = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.TestIsFunctional = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.UniquenessAssuranceUWM_SE = false
+Loading edu.cmu.cs.fluid.tool-memory-mb = 2048
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.DefinitelyAssigned = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.UniquenessAssuranceSE = false
+Loading edu.cmu.cs.fluid.analysis.thread.count = 8
+Loading edu.cmu.cs.fluid.timeoutSec = 11
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.NonNullRawTypes = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LayersAssurance = true
+Loading edu.cmu.cs.fluid.default.JRE = org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Loading edu.cmu.cs.fluid.timeoutWarningSec = 30
+Loading edu.cmu.cs.fluid.modeling.problem.filters = 00000012com\.apple.*00000013com\.oracle.*00000010com\.sun.*00000014.*\.internal.*00000023.*BakedArrayList\.class00000007apple.*00000008oracle.*00000011quicktime.*00000005sun.*
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Utility = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BenchmarkingUniquenessNew_SE = false
+Loading edu.cmu.cs.fluid.scan.may.use.compression = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ParameterizedType = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Final = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LockAssurance3 = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BenchmarkingUniquenessNew = false
+Loading edu.cmu.cs.fluid.data.directory = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.NullablePreprocessor = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.EffectAssurance2 = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LV = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.StructureAssurance = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Types = false
+JSure data dir = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data
+XML diff dir   = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/promises-xml
+Looking for JRE in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+default JRE = org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Initialized job
+Created com.surelogic.analysis.threads.ThreadEffectsModule
+Starting a new group for ThreadEffectsModule
+Created com.surelogic.analysis.structure.StructureAnalysis
+Created com.surelogic.analysis.annotationbounds.ParameterizedTypeAnalysis
+Created com.surelogic.analysis.equality.EqualityAnalysis
+Created com.surelogic.analysis.layers.LayersAnalysis
+Created com.surelogic.analysis.utility.UtilityAnalysis
+Starting a new group for UtilityAnalysis
+Group: EXTERNALLY
+	ThreadEffectsModule
+	StructureAnalysis
+	ParameterizedTypeAnalysis
+	EqualityAnalysis
+	LayersAnalysis
+[GC (Allocation Failure)  10058K->2323K(335360K), 0.0017250 secs]
+Created com.surelogic.analysis.singleton.SingletonAnalysis
+Created com.surelogic.analysis.concurrency.driver.LockAnalysis
+Created com.surelogic.analysis.effects.EffectsAnalysis
+Created com.surelogic.analysis.uniqueness.plusFrom.traditional.UniquenessAnalysisModule
+Starting a new group for UniquenessAnalysisModule
+Group: com.surelogic.analysis.visitors.TopLevelAnalysisVisitor$1@69663380, EXTERNALLY
+	UtilityAnalysis
+	SingletonAnalysis
+	LockAnalysis
+	EffectsAnalysis
+Group: INTERNALLY
+	UniquenessAnalysisModule
+##TASK, Scan, 426
+Initializing ...
+##SUBTASK, Initializing ...
+monitor = com.surelogic.common.jobs.remote.AbstractRemoteSLJob$Monitor@5b37e0d2
+singleThread = false
+[GC (Allocation Failure)  10515K->2619K(340992K), 0.0016340 secs]
+[GC (Allocation Failure)  15809K->10299K(340992K), 0.0051970 secs]
+[GC (Allocation Failure)  23584K->23521K(350720K), 0.0090320 secs]
+[GC (Allocation Failure)  43911K->43684K(351744K), 0.0124510 secs]
+Done initializing org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: 0
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/resources.jar
+[GC (Allocation Failure)  64164K->47193K(365056K), 0.0047200 secs]
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/rt.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jsse.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jce.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/charsets.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jfr.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/dnsns.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/localedata.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunec.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunjce_provider.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunpkcs11.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/zipfs.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /System/Library/Java/Extensions/MRJToolkit.jar
+Done initializing TestEffectsAndUniqueness: 32
+Trying to find /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/TestEffectsAndUnique-2015.06.03-at-14.13.47.836/source/TestEffectsAndUniqueness.bin.zip
+TestEffectsAndUniqueness: TestEffectsAndUniqueness -> org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Done initializing org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: 0
+TestEffectsAndUniqueness: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/resources.jar
+[GC (Allocation Failure)  79961K->53529K(365056K), 0.0076050 secs]
+TestEffectsAndUniqueness: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/rt.jar
+TestEffectsAndUniqueness: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jsse.jar
+TestEffectsAndUniqueness: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jce.jar
+TestEffectsAndUniqueness: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/charsets.jar
+TestEffectsAndUniqueness: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jfr.jar
+TestEffectsAndUniqueness: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/dnsns.jar
+TestEffectsAndUniqueness: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/localedata.jar
+TestEffectsAndUniqueness: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunec.jar
+TestEffectsAndUniqueness: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunjce_provider.jar
+TestEffectsAndUniqueness: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunpkcs11.jar
+TestEffectsAndUniqueness: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/zipfs.jar
+TestEffectsAndUniqueness: Done initializing with /System/Library/Java/Extensions/MRJToolkit.jar
+TestEffectsAndUniqueness: Done initializing with /Users/aarong/git/regression/regression/TestEffectsAndUniqueness/promises-4.0.2.jar
+##SUBTASK_DONE
+##WORK, 1
+Assuming that the projects are run in dependency order
+Parsing ...
+##SUBTASK, Parsing ...
+Done adapting 0 files for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK_DONE
+##WORK, 1
+Parsing ...
+##SUBTASK, Parsing ...
+JCP: warning: [options] bootstrap class path not set in conjunction with -source 1.7
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+Adapting 32 CUTs
+[GC (Allocation Failure)  86297K->61112K(386560K), 0.0129270 secs]
+Done adapting 32 files for TestEffectsAndUniqueness
+##SUBTASK_DONE
+##WORK, 1
+Handling references for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Handling references for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 19 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Setting project for Object from org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 36 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 54 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 58 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 34 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 18 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 9 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 12 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 15 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 4 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 2 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK_DONE
+##WORK, 1
+Handling references for TestEffectsAndUniqueness
+##SUBTASK, Handling references for TestEffectsAndUniqueness
+Handling 28 dangling refs for TestEffectsAndUniqueness
+Handling 3 dangling refs for TestEffectsAndUniqueness
+##SUBTASK_DONE
+##WORK, 1
+Updating file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/uniqueRef/package-info.java
+Updating file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/package-info.java
+Updating file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/array/indirect/package-info.java
+Updating file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/array/package-info.java
+Updating file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/indirect/package-info.java
+Updating file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/borrowedField/package-info.java
+Updated 261 files in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Updating file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/uniqueRef/package-info.java
+Updating file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/package-info.java
+Updating file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/array/indirect/package-info.java
+Updating file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/array/package-info.java
+Updating file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/indirect/package-info.java
+Updating file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/borrowedField/package-info.java
+Updated 57 files in TestEffectsAndUniqueness
+Parsing ASTs  = 403 ms
+Handling refs = 396 ms
+[2015-06-03 14:13:49    INFO] partial bindings = 0 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+[2015-06-03 14:13:49    INFO] full bindings = 0 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+Canonicalizing ASTs
+##SUBTASK, Canonicalizing ASTs
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+[2015-06-03 14:13:50    INFO] partial bindings = 830 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+[2015-06-03 14:13:50    INFO] full bindings = 942 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+Canonicalizing TestEffectsAndUniqueness/src/test/borrowedField/Var.java
+##WORK, 1
+Canonicalizing TestEffectsAndUniqueness/src/test/immutableRef/array/TestParameter.java
+##WORK, 1
+Canonicalizing TestEffectsAndUniqueness/src/test/immutableRef/TestReturnValue.java
+##WORK, 1
+Canonicalizing TestEffectsAndUniqueness/src/test/uniqueRef/Var.java
+##WORK, 1
+Canonicalizing TestEffectsAndUniqueness/src/test/immutableRef/indirect/TestParameter.java
+##WORK, 1
+Canonicalizing TestEffectsAndUniqueness/src/test/immutableRef/array/indirect/TestField.java
+##WORK, 1
+Canonicalizing TestEffectsAndUniqueness/src/test/immutableRef/TestField.java
+##WORK, 1
+Canonicalizing TestEffectsAndUniqueness/src/test/immutableRef/array/TestReturnValue.java
+##WORK, 1
+Canonicalizing TestEffectsAndUniqueness/src/test/immutableRef/package-info.java
+##WORK, 1
+Canonicalizing TestEffectsAndUniqueness/src/test/immutableRef/array/indirect/package-info.java
+##WORK, 1
+Canonicalizing TestEffectsAndUniqueness/src/test/borrowedField/TestField_InRegion.java
+##WORK, 1
+Canonicalizing TestEffectsAndUniqueness/src/test/borrowedField/TestField.java
+##WORK, 1
+Canonicalizing TestEffectsAndUniqueness/src/test/immutableRef/array/package-info.java
+##WORK, 1
+Canonicalizing TestEffectsAndUniqueness/src/test/immutableRef/indirect/TestParamPassing.java
+##WORK, 1
+Canonicalizing TestEffectsAndUniqueness/src/test/immutableRef/indirect/TestReturnValue.java
+##WORK, 1
+Canonicalizing TestEffectsAndUniqueness/src/test/immutableRef/TestParameter.java
+##WORK, 1
+Canonicalizing TestEffectsAndUniqueness/src/test/uniqueRef/TestField.java
+##WORK, 1
+Canonicalizing TestEffectsAndUniqueness/src/test/immutableRef/array/indirect/TestParameter.java
+##WORK, 1
+Canonicalizing TestEffectsAndUniqueness/src/test/immutableRef/array/TestField.java
+##WORK, 1
+Canonicalizing TestEffectsAndUniqueness/src/test/immutableRef/TestParamPassing.java
+##WORK, 1
+Canonicalizing TestEffectsAndUniqueness/src/test/immutableRef/indirect/Var.java
+[GC (Metadata GC Threshold)  109875K->66422K(387584K), 0.0146030 secs]
+[Full GC (Metadata GC Threshold)  66422K->65124K(138752K), 0.1653070 secs]
+##WORK, 1
+Canonicalizing TestEffectsAndUniqueness/src/test/immutableRef/indirect/TestField.java
+##WORK, 1
+Canonicalizing TestEffectsAndUniqueness/src/test/immutableRef/array/indirect/TestParamPassing.java
+##WORK, 1
+Canonicalizing TestEffectsAndUniqueness/src/test/uniqueRef/TestField_InRegion.java
+##WORK, 1
+Canonicalizing TestEffectsAndUniqueness/src/test/immutableRef/indirect/package-info.java
+##WORK, 1
+Canonicalizing TestEffectsAndUniqueness/src/test/immutableRef/array/TestParamPassing.java
+##WORK, 1
+Canonicalizing TestEffectsAndUniqueness/src/test/borrowedField/TestField_SimpleInRegion.java
+##WORK, 1
+Canonicalizing TestEffectsAndUniqueness/src/test/immutableRef/Var.java
+##WORK, 1
+Canonicalizing TestEffectsAndUniqueness/src/test/uniqueRef/package-info.java
+##WORK, 1
+Canonicalizing TestEffectsAndUniqueness/src/test/uniqueRef/TestField_SimpleInRegion.java
+##WORK, 1
+Canonicalizing TestEffectsAndUniqueness/src/test/immutableRef/array/indirect/TestReturnValue.java
+##WORK, 1
+Canonicalizing TestEffectsAndUniqueness/src/test/borrowedField/package-info.java
+##WORK, 1
+Binding = 71 ms
+##SUBTASK_DONE
+##WORK, 1
+Handling references for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Handling references for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 19 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK_DONE
+##WORK, 1
+Handling references for TestEffectsAndUniqueness
+##SUBTASK, Handling references for TestEffectsAndUniqueness
+Handling 19 dangling refs for TestEffectsAndUniqueness
+##SUBTASK_DONE
+##WORK, 1
+Updating file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/borrowedField/package-info.java
+Updating file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/uniqueRef/package-info.java
+Updating file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/indirect/package-info.java
+Updating file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/array/package-info.java
+Updating file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/array/indirect/package-info.java
+Updating file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/package-info.java
+Updated 261 files in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Updating file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/borrowedField/package-info.java
+Updating file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/uniqueRef/package-info.java
+Updating file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/indirect/package-info.java
+Updating file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/array/package-info.java
+Updating file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/array/indirect/package-info.java
+Updating file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/package-info.java
+Updated 57 files in TestEffectsAndUniqueness
+[GC (System.gc())  71063K->65316K(144384K), 0.0013230 secs]
+[Full GC (System.gc())  65316K->54343K(144384K), 0.1030860 secs]
+Marking as changed: CUDrop: test.immutableRef
+Marking as changed: CUDrop: test.immutableRef.array.indirect
+Marking as changed: CUDrop: test.immutableRef.array
+Marking as changed: CUDrop: test.immutableRef.indirect
+Marking as changed: CUDrop: test.uniqueRef
+Marking as changed: CUDrop: test.borrowedField
+Changed:   test.borrowedField PackageDrop
+Changed:   test.immutableRef PackageDrop
+Changed:   test.immutableRef.array PackageDrop
+Changed:   test.immutableRef.indirect PackageDrop
+Changed:   test.uniqueRef PackageDrop
+Changed:   test.immutableRef.array.indirect PackageDrop
+Creating drops
+##SUBTASK, Creating drops
+Keeping the old drop for test.immutableRef
+Keeping the old drop for test.immutableRef.array.indirect
+Keeping the old drop for test.immutableRef.array
+Keeping the old drop for test.immutableRef.indirect
+Keeping the old drop for test.uniqueRef
+Keeping the old drop for test.borrowedField
+Created binary drop for java.nio.channels.InterruptibleChannel
+Created binary drop for java.lang.reflect.TypeVariable
+Created binary drop for java.util.AbstractList
+Created binary drop for java.util.jar.JarFile
+Created binary drop for java.net.URLConnection
+Created binary drop for java.io.DataOutputStream
+Created binary drop for java.nio.file.attribute.GroupPrincipal
+Created binary drop for java.lang.Float
+Created binary drop for java.util.zip.DataFormatException
+Created binary drop for java.util.zip.ZipEntry
+Created binary drop for java.lang.Short
+Created binary drop for java.security.cert.Certificate
+Created binary drop for com.surelogic.UniqueInRegion
+Created binary drop for java.net.SocketException
+Created binary drop for java.security.CodeSource
+Created binary drop for java.security.Permission
+Created source drop for file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/indirect/TestParamPassing.java
+Created binary drop for java.nio.charset.CodingErrorAction
+Created binary drop for sun.misc.Resource
+Created binary drop for java.nio.channels.AsynchronousCloseException
+Created binary drop for java.net.UnknownServiceException
+Created binary drop for java.util.Enumeration
+Created binary drop for java.net.URLStreamHandlerFactory
+Created binary drop for java.nio.FloatBuffer
+Created binary drop for java.io.FileNotFoundException
+Created binary drop for java.lang.String
+Created binary drop for java.lang.Readable
+Created binary drop for java.nio.channels.CompletionHandler
+Created binary drop for java.lang.reflect.Member
+Created binary drop for sun.reflect.annotation.AnnotationType
+Created binary drop for java.security.Guard
+Created binary drop for java.util.Dictionary
+Created binary drop for java.util.WeakHashMap
+Created binary drop for java.lang.annotation.Documented
+Created binary drop for sun.reflect.ConstantPool
+Created binary drop for java.security.Key
+Created binary drop for java.util.HashMap
+Created binary drop for sun.util.locale.BaseLocale
+Created binary drop for java.security.Principal
+Created source drop for file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/array/indirect/TestField.java
+Created binary drop for java.lang.annotation.Target
+Created binary drop for java.security.PublicKey
+Created source drop for file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/TestParameter.java
+Created binary drop for java.lang.Exception
+Created binary drop for java.util.SortedMap
+Created binary drop for java.nio.file.WatchService
+Created source drop for file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/array/TestParamPassing.java
+Created binary drop for java.util.AbstractMap
+Created binary drop for java.nio.file.FileStore
+Created binary drop for java.lang.Throwable
+Created binary drop for java.nio.file.DirectoryStream
+Created binary drop for java.lang.reflect.GenericDeclaration
+Created binary drop for java.security.cert.CertificateException
+Created binary drop for java.security.PrivilegedAction
+Created source drop for file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/indirect/TestReturnValue.java
+Created source drop for file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/borrowedField/TestField_InRegion.java
+Created binary drop for java.math.BigInteger
+Created binary drop for java.net.URLStreamHandler
+Created binary drop for java.nio.charset.CharsetDecoder
+Created binary drop for java.lang.ThreadLocal
+Created binary drop for java.nio.MappedByteBuffer
+Created binary drop for sun.util.locale.LocaleObjectCache
+Created binary drop for sun.reflect.ConstructorAccessor
+Created binary drop for sun.reflect.CallerSensitive
+Created binary drop for java.lang.StringBuilder
+Created source drop for file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/borrowedField/Var.java
+Created binary drop for java.util.Collection
+Created binary drop for java.io.Writer
+Created binary drop for java.nio.file.AccessMode
+Created binary drop for java.nio.file.LinkOption
+Created binary drop for java.nio.channels.FileLock
+Created binary drop for sun.util.LocaleServiceProviderPool
+Created binary drop for java.security.AccessControlContext
+Created binary drop for java.net.Proxy
+Created binary drop for java.lang.reflect.Method
+Created binary drop for sun.misc.JarIndex
+Created binary drop for java.nio.file.attribute.FileAttribute
+Created binary drop for java.io.FilenameFilter
+Created binary drop for java.security.DomainCombiner
+Created source drop for file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/array/TestParameter.java
+Created binary drop for java.util.Locale
+Created binary drop for java.util.AbstractSequentialList
+Created binary drop for java.util.AbstractCollection
+Created binary drop for java.lang.CloneNotSupportedException
+Created binary drop for java.nio.channels.ReadableByteChannel
+Created binary drop for java.lang.CharSequence
+Created binary drop for java.util.MissingResourceException
+Created binary drop for java.io.OutputStream
+Created binary drop for java.lang.reflect.Field
+Created binary drop for java.lang.Long
+Created binary drop for java.io.UnsupportedEncodingException
+Created binary drop for java.security.cert.CertificateEncodingException
+Created binary drop for java.net.ContentHandlerFactory
+Created binary drop for java.lang.ReflectiveOperationException
+Created binary drop for java.io.InputStream
+Created binary drop for java.nio.file.attribute.FileAttributeView
+Created binary drop for java.lang.InterruptedException
+Created binary drop for java.net.SocketAddress
+Created binary drop for java.util.ResourceBundle
+Created binary drop for java.lang.reflect.InvocationTargetException
+Created binary drop for java.nio.channels.FileChannel
+Created binary drop for com.surelogic.BorrowedInRegion
+Created binary drop for com.surelogic.RegionEffects
+Created binary drop for java.lang.ThreadGroup
+Created binary drop for java.lang.annotation.ElementType
+Created binary drop for java.util.jar.Attributes
+Created binary drop for java.lang.Cloneable
+Created binary drop for java.lang.SecurityException
+Created binary drop for java.lang.reflect.Type
+Created binary drop for sun.util.locale.LocaleExtensions
+Created source drop for file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/TestReturnValue.java
+Created binary drop for java.util.concurrent.Callable
+Created binary drop for java.util.concurrent.TimeUnit
+Created binary drop for java.util.LinkedList
+Created binary drop for java.nio.file.attribute.UserPrincipal
+Created binary drop for java.lang.InstantiationException
+Created binary drop for java.util.concurrent.ExecutorService
+Created binary drop for java.nio.file.spi.FileSystemProvider
+Created binary drop for java.lang.ref.ReferenceQueue
+Created binary drop for java.nio.file.PathMatcher
+Created binary drop for java.lang.Comparable
+Created binary drop for java.nio.ByteOrder
+Created source drop for file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/uniqueRef/Var.java
+Created binary drop for java.lang.Double
+Created binary drop for sun.util.locale.LanguageTag
+Created binary drop for java.nio.charset.Charset
+Created binary drop for java.io.FileDescriptor
+Created binary drop for java.util.ListIterator
+Created binary drop for java.net.MalformedURLException
+Created binary drop for java.security.cert.CertPath
+Created binary drop for java.util.Iterator
+Created binary drop for sun.util.locale.LocaleSyntaxException
+Created binary drop for java.lang.Enum
+Created binary drop for sun.security.util.Debug
+Created binary drop for java.nio.channels.ScatteringByteChannel
+Created binary drop for java.lang.Object
+Created binary drop for java.util.Comparator
+Created binary drop for java.nio.charset.CharsetEncoder
+Created binary drop for java.lang.ref.SoftReference
+Created binary drop for java.util.Deque
+Created binary drop for sun.misc.MetaIndex
+Created binary drop for java.util.zip.Inflater
+Created binary drop for java.nio.channels.SeekableByteChannel
+Created binary drop for java.util.zip.ZipException
+Created binary drop for java.net.URL
+Created binary drop for java.nio.file.FileSystem
+Created binary drop for java.security.PermissionCollection
+Created binary drop for java.security.NoSuchAlgorithmException
+Created source drop for file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/borrowedField/TestField.java
+Created binary drop for java.net.NetworkInterface
+Created binary drop for java.nio.Buffer
+Created binary drop for java.util.RandomAccess
+Created source drop for file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/TestField.java
+Created binary drop for java.nio.file.WatchEvent
+Created binary drop for java.security.ProtectionDomain
+Created binary drop for java.security.KeyException
+Created binary drop for java.lang.Boolean
+Created binary drop for java.lang.annotation.Retention
+Created binary drop for java.security.CodeSigner
+Created binary drop for java.security.Timestamp
+Created binary drop for java.nio.file.CopyOption
+Created binary drop for java.lang.Package
+Created binary drop for com.surelogic.Regions
+Created binary drop for java.net.URI
+Created binary drop for java.lang.annotation.Annotation
+Created binary drop for java.nio.channels.Channel
+Created source drop for file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/indirect/Var.java
+Created binary drop for java.nio.channels.WritableByteChannel
+Created binary drop for java.nio.LongBuffer
+Created binary drop for java.lang.NoSuchFieldException
+Created binary drop for java.nio.channels.AsynchronousChannel
+Created binary drop for java.nio.ByteBuffer
+Created binary drop for java.lang.ref.Reference
+Created binary drop for java.io.FileFilter
+Created binary drop for java.nio.channels.GatheringByteChannel
+Created binary drop for sun.nio.ch.Interruptible
+Created binary drop for java.io.Flushable
+Created binary drop for java.net.InetAddress
+Created binary drop for com.surelogic.InRegion
+Created binary drop for java.lang.Appendable
+Created binary drop for java.util.spi.LocaleServiceProvider
+Created binary drop for java.nio.channels.ClosedChannelException
+Created binary drop for java.lang.Integer
+Created binary drop for java.lang.Void
+Created binary drop for com.surelogic.Region
+Created binary drop for java.net.URISyntaxException
+Created binary drop for java.io.Closeable
+Created binary drop for java.util.jar.Manifest
+Created binary drop for java.util.concurrent.locks.Condition
+Created binary drop for java.lang.ref.WeakReference
+Created binary drop for com.surelogic.Borrowed
+Created binary drop for sun.util.locale.Extension
+Created binary drop for java.util.concurrent.Future
+Created source drop for file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/uniqueRef/TestField.java
+Created binary drop for java.lang.Deprecated
+Created binary drop for java.lang.ClassLoader
+Created binary drop for java.net.ContentHandler
+Created binary drop for java.util.Hashtable
+Created binary drop for java.nio.channels.spi.AbstractInterruptibleChannel
+Created binary drop for sun.util.locale.ParseStatus
+Created binary drop for java.lang.reflect.AccessibleObject
+Created binary drop for java.util.Stack
+Created binary drop for java.net.InterfaceAddress
+Created binary drop for java.nio.file.attribute.BasicFileAttributes
+Created binary drop for java.security.AccessControlException
+Created binary drop for java.nio.charset.CharacterCodingException
+Created binary drop for java.util.Map
+Created source drop for file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/indirect/TestParameter.java
+Created binary drop for java.lang.ClassValue
+Created source drop for file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/array/indirect/TestParameter.java
+Created binary drop for java.nio.file.Path
+Created binary drop for java.lang.AutoCloseable
+Created binary drop for java.lang.NumberFormatException
+Created binary drop for java.lang.IllegalAccessException
+Created binary drop for java.util.concurrent.locks.ReadWriteLock
+Created binary drop for java.nio.ShortBuffer
+Created source drop for file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/borrowedField/TestField_SimpleInRegion.java
+Created binary drop for java.nio.file.OpenOption
+Created binary drop for java.util.List
+Created binary drop for java.net.InetAddressImpl
+Created binary drop for java.nio.channels.ByteChannel
+Created source drop for file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/array/TestField.java
+Created binary drop for java.lang.RuntimeException
+Created binary drop for java.util.concurrent.Executor
+Created binary drop for java.lang.Thread
+Created binary drop for java.lang.Iterable
+Created binary drop for java.nio.file.attribute.FileStoreAttributeView
+Created binary drop for java.util.spi.LocaleNameProvider
+Created binary drop for java.nio.charset.CoderResult
+Created binary drop for java.io.DataOutput
+Created binary drop for java.nio.DoubleBuffer
+Created source drop for file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/array/TestReturnValue.java
+Created binary drop for java.security.InvalidKeyException
+Created binary drop for java.net.UnknownHostException
+Created binary drop for sun.util.resources.OpenListResourceBundle
+Created binary drop for java.nio.channels.AsynchronousFileChannel
+Created binary drop for sun.reflect.FieldAccessor
+Created binary drop for java.io.FilterOutputStream
+Created binary drop for java.lang.StackTraceElement
+Created binary drop for java.lang.Runnable
+Created binary drop for sun.util.locale.InternalLocaleBuilder
+Created binary drop for java.util.zip.ZipFile
+Created binary drop for java.security.GeneralSecurityException
+Created source drop for file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/indirect/TestField.java
+Created binary drop for java.util.ArrayList
+Created binary drop for sun.reflect.ReflectionFactory
+Created binary drop for java.util.Random
+Created binary drop for java.nio.file.Watchable
+Created binary drop for java.nio.file.attribute.UserPrincipalLookupService
+Created binary drop for sun.misc.URLClassPath
+Created binary drop for java.nio.file.attribute.FileTime
+Created binary drop for sun.reflect.LangReflectAccess
+Created binary drop for java.util.Set
+Created binary drop for java.lang.Byte
+Created source drop for file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/array/indirect/TestParamPassing.java
+Created binary drop for java.security.SignatureException
+Created binary drop for com.surelogic.Unique
+Created binary drop for java.lang.AbstractStringBuilder
+Created binary drop for java.lang.annotation.RetentionPolicy
+Created binary drop for java.io.ObjectStreamException
+Created binary drop for sun.reflect.MethodAccessor
+Created binary drop for java.lang.StringBuffer
+Created source drop for file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/uniqueRef/TestField_InRegion.java
+Created binary drop for java.io.SyncFailedException
+Created binary drop for java.io.PrintStream
+Created binary drop for java.security.NoSuchProviderException
+Created binary drop for java.io.IOException
+Created binary drop for java.util.concurrent.ConcurrentMap
+Created binary drop for java.io.PrintWriter
+Created binary drop for java.lang.reflect.Constructor
+Created binary drop for java.io.FilterInputStream
+Created binary drop for java.io.Serializable
+Created binary drop for java.nio.IntBuffer
+Created binary drop for java.nio.file.attribute.AttributeView
+Created binary drop for java.util.Queue
+Created binary drop for com.surelogic.Immutable
+Created binary drop for java.util.Date
+Created binary drop for java.util.concurrent.locks.Lock
+Created binary drop for java.util.jar.JarEntry
+Created binary drop for java.lang.IllegalArgumentException
+Created binary drop for java.lang.Character
+Created binary drop for java.lang.reflect.AnnotatedElement
+Created source drop for file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/Var.java
+Created source drop for file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/TestParamPassing.java
+Created binary drop for java.lang.Number
+Created binary drop for java.net.FileNameMap
+Created binary drop for java.io.File
+Created binary drop for java.lang.Class
+Created binary drop for java.nio.CharBuffer
+Created binary drop for java.util.zip.InflaterInputStream
+Created binary drop for java.util.Vector
+Created binary drop for java.nio.file.WatchKey
+Created binary drop for java.util.AbstractSet
+Created binary drop for java.util.zip.ZipConstants
+Created source drop for file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/uniqueRef/TestField_SimpleInRegion.java
+Created source drop for file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/array/indirect/TestReturnValue.java
+##SUBTASK_DONE
+##WORK, 1
+Parsing promises
+##SUBTASK, Parsing promises
+Added 3 promises for java.lang.[] in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@799f7e29
+Added 3 promises for java.lang.[] in TestEffectsAndUniqueness: com.surelogic.tree.SyntaxTreeNode@4088741b
+Added 2 promises for java.lang.ref.SoftReference in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@31692d18
+Added 29 promises for java.util.Dictionary in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4c5ceb51
+Added 13 promises for test.immutableRef.array.TestParameter in TestEffectsAndUniqueness: com.surelogic.tree.SyntaxTreeNode@6eca81ce
+Added 3 promises for java.util.zip.ZipEntry in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@1d6c4665
+Added 5 promises for test.immutableRef.array.indirect.TestField in TestEffectsAndUniqueness: com.surelogic.tree.SyntaxTreeNode@68ce4a49
+Added 6 promises for java.lang.InterruptedException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@5e0bc7ae
+Added 37 promises for java.lang.Boolean in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7974d9ce
+Added 73 promises for java.lang.Float in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@504ed948
+Added 12 promises for java.lang.reflect.InvocationTargetException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@34e22753
+Added 3 promises for java.util.jar.Manifest in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3230bfd2
+Added 4 promises for java.util.Enumeration in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@64acf41e
+Added 12 promises for java.lang.Exception in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@5f696acd
+Added 11 promises for test.immutableRef.TestReturnValue in TestEffectsAndUniqueness: com.surelogic.tree.SyntaxTreeNode@69cf8286
+Added 3 promises for java.nio.file.Path in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@144cde90
+Added 56 promises for java.util.WeakHashMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@fe9e9fa
+Added 11 promises for test.borrowedField.TestField_InRegion in TestEffectsAndUniqueness: com.surelogic.tree.SyntaxTreeNode@7cf3915a
+Added 19 promises for test.immutableRef.TestParameter in TestEffectsAndUniqueness: com.surelogic.tree.SyntaxTreeNode@40a7588e
+Added 54 promises for java.util.Collection in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3022d3ef
+Added 108 promises for java.util.AbstractMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@15de8415
+Added 20 promises for java.util.concurrent.locks.Lock in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@590a4ad9
+Added 61 promises for java.util.HashMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@71ec57d4
+Added 3 promises for java.util.Locale in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6d7c306b
+Added 22 promises for java.lang.Number in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@5f0978e8
+Added 1 promises for java.lang.ThreadLocal in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2e0ba37c
+Added 3 promises for java.nio.file.DirectoryStream in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@615d9113
+Added 83 promises for java.util.Hashtable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@f3974ea
+Added 12 promises for java.lang.Class in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3c134df5
+Added 14 promises for test.borrowedField.Var in TestEffectsAndUniqueness: com.surelogic.tree.SyntaxTreeNode@90b5419
+Added 88 promises for java.util.jar.Attributes in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6bee80ae
+Added 6 promises for java.io.Writer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7804cce4
+Added 21 promises for java.util.Stack in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@583af706
+Added 55 promises for java.util.AbstractCollection in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@473e68e6
+Added 139 promises for java.util.LinkedList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@12e4b555
+Added 12 promises for test.immutableRef.indirect.TestParameter in TestEffectsAndUniqueness: com.surelogic.tree.SyntaxTreeNode@6c665661
+Added 5 promises for test.immutableRef.array.TestParamPassing in TestEffectsAndUniqueness: com.surelogic.tree.SyntaxTreeNode@6bb23e83
+Added 7 promises for java.util.concurrent.locks.ReadWriteLock in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7addbbe5
+Added 70 promises for java.lang.Double in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@26682e8
+Added 29 promises for java.util.AbstractSequentialList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@52eef840
+Added 13 promises for java.lang.Enum in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7d8b5940
+Added 6 promises for java.lang.CloneNotSupportedException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@523b292c
+Added 34 promises for java.util.concurrent.ExecutorService in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3d96bd0e
+Added 6 promises for java.io.PrintStream in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6276228d
+Added 9 promises for test.borrowedField.TestField in TestEffectsAndUniqueness: com.surelogic.tree.SyntaxTreeNode@6b6562fc
+Added 10 promises for test.borrowedField.TestField_SimpleInRegion in TestEffectsAndUniqueness: com.surelogic.tree.SyntaxTreeNode@33225a3c
+Added 87 promises for java.util.Deque in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2e52ac9b
+Added 31 promises for java.lang.Object in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@365d0fb1
+Added 14 promises for test.uniqueRef.Var in TestEffectsAndUniqueness: com.surelogic.tree.SyntaxTreeNode@5efcab06
+Added 3 promises for java.util.Date in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@912abb3
+Added 9 promises for test.uniqueRef.TestField in TestEffectsAndUniqueness: com.surelogic.tree.SyntaxTreeNode@150bf16b
+Added 14 promises for test.immutableRef.TestField in TestEffectsAndUniqueness: com.surelogic.tree.SyntaxTreeNode@68d0c200
+Added 6 promises for java.lang.NoSuchFieldException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@676f367b
+Added 60 promises for java.util.AbstractList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@c5fa712
+Added 18 promises for test.immutableRef.indirect.Var in TestEffectsAndUniqueness: com.surelogic.tree.SyntaxTreeNode@bb34782
+Added 96 promises for java.lang.Long in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4074c1b8
+Added 6 promises for java.lang.IllegalAccessException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4bc59ba0
+Added 6 promises for java.lang.Appendable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3da167a3
+[GC (Allocation Failure)  117831K->58031K(153600K), 0.0037790 secs]
+Added 89 promises for java.util.List in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2a268815
+Added 64 promises for java.util.Map in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2bb9b44
+Added 5 promises for test.immutableRef.indirect.TestParamPassing in TestEffectsAndUniqueness: com.surelogic.tree.SyntaxTreeNode@2e5b0bfd
+Added 6 promises for test.immutableRef.array.indirect.TestParameter in TestEffectsAndUniqueness: com.surelogic.tree.SyntaxTreeNode@53251913
+Added 7 promises for test.immutableRef.array.TestReturnValue in TestEffectsAndUniqueness: com.surelogic.tree.SyntaxTreeNode@743b3e30
+Added 59 promises for java.lang.Byte in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@45939181
+Added 12 promises for java.lang.RuntimeException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@551c6d8b
+Added 6 promises for java.lang.NumberFormatException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2646506c
+Added 22 promises for java.util.concurrent.locks.Condition in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4504c2c6
+Added 10 promises for test.immutableRef.array.TestField in TestEffectsAndUniqueness: com.surelogic.tree.SyntaxTreeNode@5a5ceebd
+Added 5 promises for test.immutableRef.TestParamPassing in TestEffectsAndUniqueness: com.surelogic.tree.SyntaxTreeNode@1587371b
+Added 12 promises for java.lang.IllegalArgumentException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4f17b3b9
+Added 31 promises for java.util.SortedMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@59370b67
+Added 9 promises for test.immutableRef.indirect.TestField in TestEffectsAndUniqueness: com.surelogic.tree.SyntaxTreeNode@5b80b798
+Added 96 promises for java.lang.Integer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4f94ae79
+Added 5 promises for test.immutableRef.array.indirect.TestParamPassing in TestEffectsAndUniqueness: com.surelogic.tree.SyntaxTreeNode@2d0d005d
+Added 18 promises for test.immutableRef.Var in TestEffectsAndUniqueness: com.surelogic.tree.SyntaxTreeNode@2693f868
+Added 18 promises for java.net.URISyntaxException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@678fc708
+Added 54 promises for java.util.Set in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@298d2086
+Added 11 promises for test.immutableRef.indirect.TestReturnValue in TestEffectsAndUniqueness: com.surelogic.tree.SyntaxTreeNode@76a9dd04
+Added 18 promises for java.nio.CharBuffer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4b578ca8
+WARNING: TreeAccessor couldn't find equals(java.lang.Object) in java.util.ArrayList
+WARNING: TreeAccessor couldn't find hashCode() in java.util.ArrayList
+Added 144 promises for java.lang.AbstractStringBuilder in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@1fb2c67a
+Added 104 promises for java.util.ArrayList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7eb1d37c
+Added 11 promises for test.uniqueRef.TestField_InRegion in TestEffectsAndUniqueness: com.surelogic.tree.SyntaxTreeNode@5f679e29
+Added 141 promises for java.lang.Thread in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6183af3c
+Added 158 promises for java.lang.StringBuffer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7042305c
+Added 138 promises for java.math.BigInteger in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@211eaae4
+Added 6 promises for java.io.PrintWriter in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2d613186
+Added 18 promises for java.util.Queue in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@67b31b74
+Added 12 promises for java.lang.CharSequence in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2ef85cfe
+Added 17 promises for java.util.concurrent.ConcurrentMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@10047d69
+Added 170 promises for java.util.Vector in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@227cfffb
+Added 18 promises for java.util.ListIterator in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@541f1b27
+Added 6 promises for java.util.Iterator in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@31f6256e
+Added 45 promises for java.util.ResourceBundle in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2aab55f9
+Added 16 promises for java.util.AbstractSet in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@51941cd1
+Added 61 promises for java.lang.Short in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7a05feb8
+Added 47 promises for java.lang.Throwable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3f6c0d19
+Added 3 promises for java.lang.Iterable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6b32b348
+Added 10 promises for test.uniqueRef.TestField_SimpleInRegion in TestEffectsAndUniqueness: com.surelogic.tree.SyntaxTreeNode@6bf4d7db
+Added 12 promises for java.lang.SecurityException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@5f21d0e5
+Added 7 promises for test.immutableRef.array.indirect.TestReturnValue in TestEffectsAndUniqueness: com.surelogic.tree.SyntaxTreeNode@1d944de2
+Added 29 promises for java.util.concurrent.TimeUnit in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7a43ea35
+Added 6 promises for java.lang.InstantiationException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@552f3fe4
+Added 1 promises for java.lang.ref.ReferenceQueue in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6862ee68
+Added 109 promises for java.lang.StringBuilder in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@266cc338
+Added 301 promises for java.lang.String in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@13266fc8
+##SUBTASK_DONE
+##WORK, 1
+Scrubbing promises
+##SUBTASK, Scrubbing promises
+[GC (Allocation Failure)  121519K->60091K(161280K), 0.0059430 secs]
+Creating RegionModel java.lang.Object.Instance for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+[GC (Allocation Failure)  134843K->63283K(163328K), 0.0079550 secs]
+##SUBTASK_DONE
+##WORK, 1
+Starting analyses
+Using new analysis framework -- groups
+Starting group: ThreadEffectsModule, StructureAnalysis, ParameterizedTypeAnalysis, EqualityAnalysis, LayersAnalysis
+##SUBTASK, Starting parallel ThreadEffectsModule [0]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel ThreadEffectsModule [0]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Starting parallel StructureAnalysis [1]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel StructureAnalysis [1]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Starting parallel ParameterizedTypeAnalysis [2]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel ParameterizedTypeAnalysis [2]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Starting parallel EqualityAnalysis [3]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel EqualityAnalysis [3]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Starting parallel LayersAnalysis [4]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel LayersAnalysis [4]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Starting parallel ThreadEffectsModule [0]: 26 for TestEffectsAndUniqueness
+Starting parallel ThreadEffectsModule [0]: 26 for TestEffectsAndUniqueness
+##SUBTASK, Starting parallel StructureAnalysis [1]: 26 for TestEffectsAndUniqueness
+Starting parallel StructureAnalysis [1]: 26 for TestEffectsAndUniqueness
+##SUBTASK, Starting parallel ParameterizedTypeAnalysis [2]: 26 for TestEffectsAndUniqueness
+Starting parallel ParameterizedTypeAnalysis [2]: 26 for TestEffectsAndUniqueness
+##SUBTASK, Starting parallel EqualityAnalysis [3]: 26 for TestEffectsAndUniqueness
+Starting parallel EqualityAnalysis [3]: 26 for TestEffectsAndUniqueness
+##SUBTASK, Starting parallel LayersAnalysis [4]: 26 for TestEffectsAndUniqueness
+Starting parallel LayersAnalysis [4]: 26 for TestEffectsAndUniqueness
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/indirect/TestField.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/array/TestParamPassing.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/uniqueRef/TestField.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/borrowedField/TestField_InRegion.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/indirect/TestParamPassing.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/borrowedField/Var.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/uniqueRef/Var.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/indirect/TestReturnValue.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/borrowedField/TestField_InRegion.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/uniqueRef/TestField.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/uniqueRef/TestField.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/borrowedField/Var.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/borrowedField/Var.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/indirect/TestReturnValue.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/indirect/TestReturnValue.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/array/TestParamPassing.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/array/TestParamPassing.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/borrowedField/Var.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/indirect/TestReturnValue.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/array/TestParamPassing.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/uniqueRef/Var.java
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/indirect/TestParamPassing.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/indirect/TestParamPassing.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/uniqueRef/Var.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/uniqueRef/TestField.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/indirect/TestField.java
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/borrowedField/TestField_InRegion.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/uniqueRef/Var.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/indirect/TestParamPassing.java
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/indirect/TestField.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/borrowedField/TestField_InRegion.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/indirect/TestField.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/indirect/TestReturnValue.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/indirect/TestParamPassing.java
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/uniqueRef/Var.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/borrowedField/Var.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/indirect/TestField.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/uniqueRef/TestField.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/borrowedField/TestField_InRegion.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/array/TestParamPassing.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/borrowedField/TestField_SimpleInRegion.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/borrowedField/TestField_SimpleInRegion.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/borrowedField/TestField_SimpleInRegion.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/borrowedField/TestField_SimpleInRegion.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/borrowedField/TestField_SimpleInRegion.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/array/indirect/TestField.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/TestParameter.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/array/indirect/TestField.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/array/indirect/TestField.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/TestParameter.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/TestParameter.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/array/indirect/TestField.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/indirect/TestParameter.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/array/indirect/TestField.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/TestParameter.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/indirect/TestParameter.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/indirect/TestParameter.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/TestParameter.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/indirect/TestParameter.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/indirect/TestParameter.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/Var.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/array/indirect/TestParameter.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/array/indirect/TestParameter.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/array/indirect/TestParameter.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/array/indirect/TestParameter.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/array/indirect/TestParameter.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/uniqueRef/TestField_SimpleInRegion.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/uniqueRef/TestField_SimpleInRegion.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/uniqueRef/TestField_SimpleInRegion.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/uniqueRef/TestField_SimpleInRegion.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/uniqueRef/TestField_SimpleInRegion.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/array/TestField.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/Var.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/array/indirect/TestReturnValue.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/Var.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/array/TestParameter.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/array/TestField.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/array/TestField.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/array/TestParameter.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/array/TestParameter.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/array/indirect/TestReturnValue.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/array/indirect/TestReturnValue.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/borrowedField/TestField.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/array/indirect/TestReturnValue.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/borrowedField/TestField.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/borrowedField/TestField.java
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/array/TestParameter.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/borrowedField/TestField.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/array/TestParameter.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/borrowedField/TestField.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/array/TestField.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/Var.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/Var.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/array/indirect/TestParamPassing.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/array/indirect/TestParamPassing.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/array/indirect/TestParamPassing.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/array/indirect/TestReturnValue.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/array/TestField.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/TestReturnValue.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/TestField.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/TestReturnValue.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/TestReturnValue.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/TestField.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/TestField.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/TestReturnValue.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/TestParamPassing.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/TestReturnValue.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/TestField.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/TestParamPassing.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/TestField.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/array/indirect/TestParamPassing.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/array/TestReturnValue.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/array/TestReturnValue.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/array/TestReturnValue.java
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/TestParamPassing.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/array/indirect/TestParamPassing.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/array/TestReturnValue.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/indirect/Var.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/TestParamPassing.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/array/TestReturnValue.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/uniqueRef/TestField_InRegion.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/indirect/Var.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/indirect/Var.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/TestParamPassing.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/uniqueRef/TestField_InRegion.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/uniqueRef/TestField_InRegion.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/indirect/Var.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/uniqueRef/TestField_InRegion.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/indirect/Var.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/uniqueRef/TestField_InRegion.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+Starting group: UtilityAnalysis, SingletonAnalysis, LockAnalysis, EffectsAnalysis
+com.surelogic.analysis.visitors.TopLevelAnalysisVisitor$1@69663380: 26
+##SUBTASK, Starting parallel UtilityAnalysis [5]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel UtilityAnalysis [5]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Starting parallel SingletonAnalysis [6]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel SingletonAnalysis [6]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Starting parallel LockAnalysis [7]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel LockAnalysis [7]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Looking at @RegionLock("MUTEX is this protects WaitQueue") on Object
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@2eccb60a on java.lang.Object
+##SUBTASK, Starting parallel EffectsAnalysis [8]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel EffectsAnalysis [8]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Starting parallel UtilityAnalysis [5]: 26 for TestEffectsAndUniqueness
+Starting parallel UtilityAnalysis [5]: 26 for TestEffectsAndUniqueness
+##SUBTASK, Starting parallel SingletonAnalysis [6]: 26 for TestEffectsAndUniqueness
+Starting parallel SingletonAnalysis [6]: 26 for TestEffectsAndUniqueness
+##SUBTASK, Starting parallel LockAnalysis [7]: 26 for TestEffectsAndUniqueness
+Starting parallel LockAnalysis [7]: 26 for TestEffectsAndUniqueness
+Looking at @RegionLock("MUTEX is this protects WaitQueue") on Object
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@2eccb60a on java.lang.Object
+##SUBTASK, Starting parallel EffectsAnalysis [8]: 26 for TestEffectsAndUniqueness
+Starting parallel EffectsAnalysis [8]: 26 for TestEffectsAndUniqueness
+##SUBTASK, Checking [ Utility class ] test.uniqueRef.TestField
+##SUBTASK, Checking [ Utility class ] test.immutableRef.indirect.TestParamPassing
+##SUBTASK, Checking [ Utility class ] test.borrowedField.TestField
+##SUBTASK, Checking [ Utility class ] test.immutableRef.indirect.TestField
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.borrowedField.Var
+##SUBTASK, Checking [ Utility class ] test.uniqueRef.Var
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.immutableRef.indirect.TestField
+##SUBTASK, Checking [ Singleton class ] test.uniqueRef.TestField
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.immutableRef.indirect.TestParamPassing
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.immutableRef.TestField
+##SUBTASK, Checking [ Utility class ] test.immutableRef.array.TestParameter
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.borrowedField.TestField
+##SUBTASK, Checking [ Lock policy ] test.immutableRef.indirect.TestField
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.borrowedField.Var
+##SUBTASK, Checking [ Singleton class ] test.uniqueRef.Var
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.borrowedField.Var
+##SUBTASK, Checking [ Lock policy ] test.uniqueRef.TestField
+##SUBTASK, Checking [ Lock policy ] test.immutableRef.indirect.TestParamPassing
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.immutableRef.TestField
+##SUBTASK, Checking [ Singleton class ] test.immutableRef.array.TestParameter
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.immutableRef.TestField
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.immutableRef.array.TestParameter
+##SUBTASK, Checking [ Lock policy ] test.borrowedField.TestField
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.uniqueRef.Var
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.uniqueRef.TestField
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.borrowedField.Var
+##SUBTASK, Checking [ Region effects ] test.borrowedField.TestField
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.immutableRef.TestField
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.uniqueRef.Var
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.immutableRef.TestReturnValue
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.immutableRef.TestReturnValue
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.immutableRef.TestReturnValue
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.immutableRef.indirect.Var
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.immutableRef.indirect.Var
+##SUBTASK, Checking [ Utility class ] test.borrowedField.TestField_SimpleInRegion
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.immutableRef.indirect.Var
+##SUBTASK, Checking [ Singleton class ] test.borrowedField.TestField_SimpleInRegion
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.borrowedField.TestField_SimpleInRegion
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.immutableRef.TestReturnValue
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.borrowedField.TestField_SimpleInRegion
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.immutableRef.indirect.TestParameter
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.immutableRef.indirect.TestParameter
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.immutableRef.indirect.TestParameter
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.immutableRef.array.TestParameter
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.immutableRef.array.TestParamPassing
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.immutableRef.array.TestParamPassing
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.immutableRef.array.TestParamPassing
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.immutableRef.indirect.TestParamPassing
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.immutableRef.indirect.Var
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.immutableRef.array.indirect.TestField
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.immutableRef.array.indirect.TestField
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.immutableRef.array.indirect.TestField
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.immutableRef.indirect.TestParameter
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.immutableRef.indirect.TestField
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.immutableRef.array.TestParamPassing
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.immutableRef.indirect.TestReturnValue
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.immutableRef.indirect.TestReturnValue
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.immutableRef.indirect.TestReturnValue
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.immutableRef.Var
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.immutableRef.Var
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.immutableRef.Var
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.immutableRef.array.indirect.TestParamPassing
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.immutableRef.array.indirect.TestParamPassing
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.immutableRef.array.indirect.TestParamPassing
+##SUBTASK, Checking [ Utility class ] test.uniqueRef.TestField_SimpleInRegion
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.uniqueRef.TestField_SimpleInRegion
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.uniqueRef.TestField_SimpleInRegion
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.immutableRef.array.indirect.TestParameter
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.immutableRef.array.indirect.TestParameter
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.immutableRef.array.indirect.TestParameter
+##SUBTASK, Checking [ Utility class ] test.immutableRef.TestParamPassing
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.immutableRef.TestParamPassing
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.immutableRef.TestParamPassing
+##SUBTASK, Checking [ Region effects ] test.immutableRef.Var
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.uniqueRef.TestField_SimpleInRegion
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.immutableRef.array.indirect.TestField
+##SUBTASK, Checking [ Utility class ] test.immutableRef.array.indirect.TestReturnValue
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.immutableRef.array.indirect.TestReturnValue
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.immutableRef.array.indirect.TestReturnValue
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.immutableRef.TestParameter
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.immutableRef.TestParameter
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.immutableRef.TestParameter
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.immutableRef.TestParamPassing
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.immutableRef.array.indirect.TestParameter
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.immutableRef.array.indirect.TestParamPassing
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.immutableRef.array.TestField
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.immutableRef.array.TestField
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.immutableRef.array.TestField
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.uniqueRef.TestField_InRegion
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.uniqueRef.TestField_InRegion
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.uniqueRef.TestField_InRegion
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.immutableRef.array.TestField
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.immutableRef.array.indirect.TestReturnValue
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.immutableRef.indirect.TestReturnValue
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.immutableRef.array.TestReturnValue
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.immutableRef.array.TestReturnValue
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.immutableRef.array.TestReturnValue
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.immutableRef.TestParameter
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.immutableRef.array.TestReturnValue
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.uniqueRef.TestField_InRegion
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.borrowedField.TestField_InRegion
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.borrowedField.TestField_InRegion
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.borrowedField.TestField_InRegion
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.borrowedField.TestField_InRegion
+##SUBTASK_DONE
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+Starting group: UniquenessAnalysisModule
+##SUBTASK, Starting parallel UniquenessAnalysisModule [9]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel UniquenessAnalysisModule [9]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Starting parallel UniquenessAnalysisModule [9]: 26 for TestEffectsAndUniqueness
+Starting parallel UniquenessAnalysisModule [9]: 26 for TestEffectsAndUniqueness
+##SUBTASK, Checking [ Uniqueness + From ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/indirect/TestParamPassing.java
+##SUBTASK, Checking [ Uniqueness Assurance ] TestParamPassing.caller2(Var)
+##SUBTASK, Checking [ Uniqueness Assurance ] TestParamPassing.readsVar(Var)
+##SUBTASK_DONE
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness + From ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/array/indirect/TestField.java
+##SUBTASK, Checking [ Uniqueness Assurance ] TestField.TestField()
+##SUBTASK, Checking [ Uniqueness Assurance ] TestField.testFieldRead2(Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] TestField.testFieldWrite2(int,Object)
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness + From ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/TestParameter.java
+##SUBTASK, Checking [ Uniqueness Assurance ] TestParameter.writeParameter(Var,Var,Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] TestParameter.testParameterRead2(Var,Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] TestParameter.testParameterWrite1(Var,int,Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] TestParameter.testParameterWrite2(Var,int,Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] TestParameter.readParameter(Var,Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] TestParameter.testParameterRead1(Var,Object)
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness + From ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/array/TestParamPassing.java
+##SUBTASK, Checking [ Uniqueness Assurance ] TestParamPassing.readsVar(int [])
+##SUBTASK, Checking [ Uniqueness Assurance ] TestParamPassing.caller2(int [])
+##SUBTASK_DONE
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness + From ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/indirect/TestReturnValue.java
+##SUBTASK, Checking [ Uniqueness Assurance ] TestReturnValue.methodCall(Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] TestReturnValue.testReturnValueRead1(Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] TestReturnValue.testReturnValueRead2(Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] TestReturnValue.testReturnValueWrite2(int,Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] TestReturnValue.testReturnValueWrite1(int,Object)
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness + From ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/borrowedField/TestField_InRegion.java
+##SUBTASK, Checking [ Uniqueness Assurance ] TestField_InRegion.testFieldRead1(Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] TestField_InRegion.testFieldWrite1(int,Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] TestField_InRegion.testFieldWrite2(int,Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] TestField_InRegion.TestField_InRegion()
+##SUBTASK, Checking [ Uniqueness Assurance ] TestField_InRegion.testFieldRead2(Object)
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness + From ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/borrowedField/Var.java
+##SUBTASK, Checking [ Uniqueness Assurance ] Var.get2()
+##SUBTASK, Checking [ Uniqueness Assurance ] Var.set1(int)
+##SUBTASK, Checking [ Uniqueness Assurance ] Var.get1()
+##SUBTASK, Checking [ Uniqueness Assurance ] Var.Var()
+##SUBTASK, Checking [ Uniqueness Assurance ] Var.set2(int)
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness + From ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/array/TestParameter.java
+##SUBTASK, Checking [ Uniqueness Assurance ] TestParameter.testParameterRead2(int [],Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] TestParameter.writeParameter(int [],int [],Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] TestParameter.readParameter(int [],Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] TestParameter.testParameterWrite2(int [],int,Object)
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness + From ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/TestReturnValue.java
+##SUBTASK, Checking [ Uniqueness Assurance ] TestReturnValue.testReturnValueRead1(Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] TestReturnValue.methodCall(Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] TestReturnValue.testReturnValueRead2(Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] TestReturnValue.testReturnValueWrite1(int,Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] TestReturnValue.testReturnValueWrite2(int,Object)
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness + From ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/uniqueRef/Var.java
+##SUBTASK, Checking [ Uniqueness Assurance ] Var.Var()
+##SUBTASK, Checking [ Uniqueness Assurance ] Var.get1()
+##SUBTASK, Checking [ Uniqueness Assurance ] Var.get2()
+##SUBTASK, Checking [ Uniqueness Assurance ] Var.set2(int)
+##SUBTASK, Checking [ Uniqueness Assurance ] Var.set1(int)
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness + From ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/borrowedField/TestField.java
+##SUBTASK, Checking [ Uniqueness Assurance ] TestField.testFieldRead2(Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] TestField.testFieldRead1(Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] TestField.TestField()
+##SUBTASK, Checking [ Uniqueness Assurance ] TestField.testFieldWrite1(int,Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] TestField.testFieldWrite2(int,Object)
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness + From ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/TestField.java
+##SUBTASK, Checking [ Uniqueness Assurance ] TestField.TestField()
+##SUBTASK, Checking [ Uniqueness Assurance ] TestField.testFieldWrite1(int,Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] TestField.testFieldRead1(Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] TestField.testFieldWrite2(int,Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] TestField.testFieldRead2(Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] TestField.readField(Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] TestField.writeField(Var,Object)
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness + From ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/indirect/Var.java
+##SUBTASK, Checking [ Uniqueness Assurance ] Var.get()
+##SUBTASK, Checking [ Uniqueness Assurance ] Var.testReceiverWrite(int,Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] Var.Var()
+##SUBTASK, Checking [ Uniqueness Assurance ] Var.testReceiverRead2(Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] Var.testReceiverRead(Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] Var.testReceiverWrite2(int,Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] Var.set(int)
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness + From ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/uniqueRef/TestField.java
+##SUBTASK, Checking [ Uniqueness Assurance ] TestField.testFieldRead1(Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] TestField.TestField()
+##SUBTASK, Checking [ Uniqueness Assurance ] TestField.testFieldWrite1(int,Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] TestField.testFieldWrite2(int,Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] TestField.testFieldRead2(Object)
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness + From ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/borrowedField/TestField_SimpleInRegion.java
+##SUBTASK, Checking [ Uniqueness Assurance ] TestField_SimpleInRegion.testFieldRead1(Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] TestField_SimpleInRegion.TestField_SimpleInRegion()
+##SUBTASK, Checking [ Uniqueness Assurance ] TestField_SimpleInRegion.testFieldWrite1(int,Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] TestField_SimpleInRegion.testFieldRead2(Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] TestField_SimpleInRegion.testFieldWrite2(int,Object)
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness + From ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/indirect/TestParameter.java
+##SUBTASK, Checking [ Uniqueness Assurance ] TestParameter.testParameterRead1(Var,Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] TestParameter.testParameterWrite2(Var,int,Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] TestParameter.testParameterWrite1(Var,int,Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] TestParameter.testParameterRead2(Var,Object)
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness + From ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/array/indirect/TestParameter.java
+##SUBTASK, Checking [ Uniqueness Assurance ] TestParameter.testParameterRead2(int [],Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] TestParameter.testParameterWrite2(int [],int,Object)
+##SUBTASK_DONE
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness + From ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/array/TestField.java
+##SUBTASK, Checking [ Uniqueness Assurance ] TestField.testFieldRead2(Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] TestField.TestField()
+##SUBTASK, Checking [ Uniqueness Assurance ] TestField.readField(Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] TestField.writeField(int [],Object)
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness Assurance ] TestField.testFieldWrite2(int,Object)
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness + From ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/array/TestReturnValue.java
+##SUBTASK, Checking [ Uniqueness Assurance ] TestReturnValue.testReturnValueRead2(Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] TestReturnValue.methodCall(Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] TestReturnValue.testReturnValueWrite2(int,Object)
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness + From ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/indirect/TestField.java
+##SUBTASK, Checking [ Uniqueness Assurance ] TestField.TestField()
+##SUBTASK, Checking [ Uniqueness Assurance ] TestField.testFieldWrite1(int,Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] TestField.testFieldRead1(Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] TestField.testFieldWrite2(int,Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] TestField.testFieldRead2(Object)
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness + From ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/array/indirect/TestParamPassing.java
+##SUBTASK, Checking [ Uniqueness Assurance ] TestParamPassing.readsVar(int [])
+##SUBTASK, Checking [ Uniqueness Assurance ] TestParamPassing.caller2(int [])
+##SUBTASK_DONE
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness + From ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/uniqueRef/TestField_InRegion.java
+##SUBTASK, Checking [ Uniqueness Assurance ] TestField_InRegion.TestField_InRegion()
+##SUBTASK, Checking [ Uniqueness Assurance ] TestField_InRegion.testFieldRead2(Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] TestField_InRegion.testFieldWrite2(int,Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] TestField_InRegion.testFieldWrite1(int,Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] TestField_InRegion.testFieldRead1(Object)
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness + From ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/Var.java
+##SUBTASK, Checking [ Uniqueness Assurance ] Var.get()
+##SUBTASK, Checking [ Uniqueness Assurance ] Var.testReceiverWrite2(int,Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] Var.testReceiverWrite(int,Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] Var.testReceiverRead2(Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] Var.Var()
+##SUBTASK, Checking [ Uniqueness Assurance ] Var.testReceiverRead(Object)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness Assurance ] Var.set(int)
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness + From ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/TestParamPassing.java
+##SUBTASK, Checking [ Uniqueness Assurance ] TestParamPassing.caller2(Var)
+##SUBTASK, Checking [ Uniqueness Assurance ] TestParamPassing.readsVar(Var)
+##SUBTASK_DONE
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness + From ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/uniqueRef/TestField_SimpleInRegion.java
+##SUBTASK, Checking [ Uniqueness Assurance ] TestField_SimpleInRegion.testFieldRead2(Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] TestField_SimpleInRegion.TestField_SimpleInRegion()
+##SUBTASK, Checking [ Uniqueness Assurance ] TestField_SimpleInRegion.testFieldWrite1(int,Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] TestField_SimpleInRegion.testFieldWrite2(int,Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] TestField_SimpleInRegion.testFieldRead1(Object)
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness + From ] file:/Users/aarong/git/regression/regression/TestEffectsAndUniqueness/src/test/immutableRef/array/indirect/TestReturnValue.java
+##SUBTASK, Checking [ Uniqueness Assurance ] TestReturnValue.testReturnValueRead2(Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] TestReturnValue.methodCall(Object)
+##SUBTASK, Checking [ Uniqueness Assurance ] TestReturnValue.testReturnValueWrite2(int,Object)
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Cleaning up after analysis
+Cleaning up after analysis
+[GC (System.gc())  114134K->66216K(173568K), 0.0138630 secs]
+[Full GC (System.gc())  66216K->40624K(173568K), 0.1389340 secs]
+##WORK, 1
+##SUBTASK_DONE
+Updating consistency proof
+##SUBTASK, Updating consistency proof
+Exporting results to TestEffectsAndUnique-2015.06.03-at-14.13.47.836
+##SUBTASK, Exporting results to TestEffectsAndUnique-2015.06.03-at-14.13.47.836
+Creating snapshot: /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/TestEffectsAndUnique-2015.06.03-at-14.13.47.836/running_or_crashed_sea_snapshot.xml.gz
+[GC (Allocation Failure)  125616K->49361K(175104K), 0.0071020 secs]
+Done in 4552 ms.
+ThreadEffectsModule	: 20 ms
+StructureAnalysis	: 2 ms
+ParameterizedTypeAnalysis	: 8 ms
+EqualityAnalysis	: 45 ms
+LayersAnalysis	: 118 ms
+UtilityAnalysis	: 0 ms
+SingletonAnalysis	: 0 ms
+LockAnalysis	: 636 ms
+EffectsAnalysis	: 105 ms
+UniquenessAnalysisModule	: 238 ms
+[2015-06-03 14:13:53    INFO] partial bindings = 8418 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+[2015-06-03 14:13:53    INFO] full bindings = 1706 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+cached = 0
+totalT = 0
+#Performance data for TestEffectsAndUniqueness
+#Wed Jun 03 14:13:53 EDT 2015
+jsure.Add.required=0
+jsure.All.analyses=600
+jsure.Binding.before.canon=71
+jsure.Binding.full.time=445
+jsure.Binding.partial.time=310
+jsure.Bindings.full=1706
+jsure.Bindings.partial=8418
+jsure.Canonicalization=407
+jsure.Cleanup=107
+jsure.Destroy.time=10
+jsure.Drop.creation=20
+jsure.Find.canon.time=5
+jsure.Parsing=803
+jsure.Promise.parsing=526
+jsure.Promise.scrubbing=1324
+jsure.Sea.export=700
+jsure.Sea.update=65
+jsure.Total.JSure.time=4552
+jsure.Total.blocks=130
+jsure.Total.canonical=3269
+jsure.Total.decls=444
+jsure.Total.destroyed=0
+jsure.Total.gced=0
+jsure.Total.loc=1283
+jsure.Total.nodes=66145
+jsure.Total.stmts=312
+jsure.Total.try.destroyed=897
+jsure.analysis.EffectsAnalysis=105
+jsure.analysis.EqualityAnalysis=45
+jsure.analysis.LayersAnalysis=118
+jsure.analysis.LockAnalysis=636
+jsure.analysis.ParameterizedTypeAnalysis=8
+jsure.analysis.SingletonAnalysis=0
+jsure.analysis.StructureAnalysis=2
+jsure.analysis.ThreadEffectsModule=20
+jsure.analysis.UniquenessAnalysisModule=238
+jsure.analysis.UtilityAnalysis=0
+jsure.num.threads=8
+Javac making log: AnnotationRules
+##DONE
+Renaming snapshot: /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/TestEffectsAndUnique-2015.06.03-at-14.13.47.836/sea_snapshot.xml.gz
+Done with JSure!
+Scanning complete (5628 ms)
+No socket to close
+Closing std streams
+Process result after waiting = 0

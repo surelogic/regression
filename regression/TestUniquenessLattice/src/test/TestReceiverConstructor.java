@@ -28,9 +28,6 @@ public class TestReceiverConstructor {
 	@Unique("this")
 	public TestReceiverConstructor(int a, int b, int c, int d, int e) { /* empty */ }
 	
-	@Unique(value="this", allowRead=true)
-	public TestReceiverConstructor(int a, int b, int c, int d, int e, int f) { /* empty */ }
-	
 	
 	
 	// Two annotations
@@ -42,10 +39,6 @@ public class TestReceiverConstructor {
 	@Borrowed("this")
 	@Unique("this")
 	public TestReceiverConstructor(int a, int b, int c, int d, int e, int f, int g, int h, int i) { /* empty */ }
-	
-	@Borrowed("this")
-	@Unique(value="this", allowRead=true)
-	public TestReceiverConstructor(int a, int b, int c, int d, int e, int f, int g, int h, int i, int j) { /* empty */ }
 		
 
 	@Unique("return")
@@ -59,10 +52,6 @@ public class TestReceiverConstructor {
 	@Immutable("this")
 	@Unique("this")
 	public TestReceiverConstructor(int a, int b, int c, int d, int e, int f, int g, int h, int i, int j, int k, int l, int m, int n, int o, int p) { /* empty */ }
-	
-	@Immutable("this")
-	@Unique(value="this", allowRead=true)
-	public TestReceiverConstructor(int a, int b, int c, int d, int e, int f, int g, int h, int i, int j, int k, int l, int m, int n, int o, int p, int q) { /* empty */ }
 
 
 
@@ -72,11 +61,6 @@ public class TestReceiverConstructor {
 	@Immutable("this")
 	@Unique("this")
 	public TestReceiverConstructor(int a, int b, int c, int d, int e, int f, int g, int h, int i, int j, int k, int l, int m, int n, int o, int p, int q, int r, int s, int t, int u) { /* empty */ }
-	
-	@Borrowed("this")
-	@Immutable("this")
-	@Unique(value="this", allowRead=true)
-	public TestReceiverConstructor(int a, int b, int c, int d, int e, int f, int g, int h, int i, int j, int k, int l, int m, int n, int o, int p, int q, int r, int s, int t, int u, int v) { /* empty */ }
 
 	
 	@Unique("return, this")

@@ -38,24 +38,12 @@ public class TestFields {
 	private final Object f007 = null;
 	
 	// LEGAL
-	@Unique(allowRead=true)
-	private final Object f008 = null;
-	
-	// LEGAL
 	@UniqueInRegion("Instance")
 	private final Object f009 = null;
 	
 	// LEGAL
-	@UniqueInRegion(value="Instance", allowRead=true)
-	private final Object f010 = null;
-	
-	// LEGAL
 	@UniqueInRegion("Instance into Instance")
 	private final Object f011 = null;
-	
-	// LEGAL
-	@UniqueInRegion(value="Instance into Instance", allowRead=true)
-	private final Object f012 = null;
 	
 	
 	
@@ -78,24 +66,12 @@ public class TestFields {
 	private final Object f017 = null;
 	
 	@Borrowed
-	@Unique(allowRead=true)
-	private final Object f018 = null;
-	
-	@Borrowed
 	@UniqueInRegion("Instance")
 	private final Object f019 = null;
 	
 	@Borrowed
-	@UniqueInRegion(value="Instance", allowRead=true)
-	private final Object f020 = null;
-	
-	@Borrowed
 	@UniqueInRegion("Instance into Instance")
 	private final Object f021 = null;
-	
-	@Borrowed
-	@UniqueInRegion(value="Instance into Instance", allowRead=true)
-	private final Object f022 = null;
 	
 	
 
@@ -108,24 +84,12 @@ public class TestFields {
 	private final Object f025 = null;
 	
 	@BorrowedInRegion("Instance")
-	@Unique(allowRead=true)
-	private final Object f026 = null;
-	
-	@BorrowedInRegion("Instance")
 	@UniqueInRegion("Instance")
 	private final Object f027 = null;
 	
 	@BorrowedInRegion("Instance")
-	@UniqueInRegion(value="Instance", allowRead=true)
-	private final Object f028 = null;
-	
-	@BorrowedInRegion("Instance")
 	@UniqueInRegion("Instance into Instance")
 	private final Object f029 = null;
-	
-	@BorrowedInRegion("Instance")
-	@UniqueInRegion(value="Instance into Instance", allowRead=true)
-	private final Object f030 = null;
 	
 	
 
@@ -138,24 +102,12 @@ public class TestFields {
 	private final Object f033 = null;
 	
 	@BorrowedInRegion("Instance into Instance")
-	@Unique(allowRead=true)
-	private final Object f034 = null;
-	
-	@BorrowedInRegion("Instance into Instance")
 	@UniqueInRegion("Instance")
 	private final Object f035 = null;
 	
 	@BorrowedInRegion("Instance into Instance")
-	@UniqueInRegion(value="Instance", allowRead=true)
-	private final Object f036 = null;
-	
-	@BorrowedInRegion("Instance into Instance")
 	@UniqueInRegion("Instance into Instance")
 	private final Object f037 = null;
-	
-	@BorrowedInRegion("Instance into Instance")
-	@UniqueInRegion(value="Instance into Instance", allowRead=true)
-	private final Object f038 = null;
 	
 		
 	
@@ -164,24 +116,12 @@ public class TestFields {
 	private final Object f046 = null;
 	
 	@Immutable
-	@Unique(allowRead=true)
-	private final Object f047 = null;
-	
-	@Immutable
 	@UniqueInRegion("Instance")
 	private final Object f048 = null;
 	
 	@Immutable
-	@UniqueInRegion(value="Instance", allowRead=true)
-	private final Object f049 = null;
-	
-	@Immutable
 	@UniqueInRegion("Instance into Instance")
 	private final Object f050 = null;
-	
-	@Immutable
-	@UniqueInRegion(value="Instance into Instance", allowRead=true)
-	private final Object f051 = null;
 	
 	
 	@Unique
@@ -189,35 +129,9 @@ public class TestFields {
 	private final Object f052 = null;
 	
 	@Unique
-	@UniqueInRegion(value="Instance", allowRead=true)
-	private final Object f053 = null;
-	
-	@Unique
 	@UniqueInRegion("Instance into Instance")
 	private final Object f054 = null;
 	
-	@Unique
-	@UniqueInRegion(value="Instance into Instance", allowRead=true)
-	private final Object f055 = null;
-	
-	
-	@Unique(allowRead=true)
-	@UniqueInRegion("Instance")
-	private final Object f052b = null;
-	
-	@Unique(allowRead=true)
-	@UniqueInRegion(value="Instance", allowRead=true)
-	private final Object f053b = null;
-	
-	@Unique(allowRead=true)
-	@UniqueInRegion("Instance into Instance")
-	private final Object f054b = null;
-	
-	@Unique(allowRead=true)
-	@UniqueInRegion(value="Instance into Instance", allowRead=true)
-	private final Object f055b = null;
-
-
 
 	// Three annotations
 	// ----------------------------------------------------------------------
@@ -233,28 +147,13 @@ public class TestFields {
 	
 	@Borrowed
 	@BorrowedInRegion("Instance")
-	@Unique(allowRead=true)
-	private final Object f059 = null;
-	
-	@Borrowed
-	@BorrowedInRegion("Instance")
 	@UniqueInRegion("Instance")
 	private final Object f060 = null;
 	
 	@Borrowed
 	@BorrowedInRegion("Instance")
-	@UniqueInRegion(value="Instance", allowRead=true)
-	private final Object f061 = null;
-	
-	@Borrowed
-	@BorrowedInRegion("Instance")
 	@UniqueInRegion("Instance into Instance")
 	private final Object f062 = null;
-	
-	@Borrowed
-	@BorrowedInRegion("Instance")
-	@UniqueInRegion(value="Instance into Instance", allowRead=true)
-	private final Object f063 = null;
 
 
 	@Borrowed
@@ -269,28 +168,13 @@ public class TestFields {
 	
 	@Borrowed
 	@BorrowedInRegion("Instance into Instance")
-	@Unique(allowRead=true)
-	private final Object f067 = null;
-	
-	@Borrowed
-	@BorrowedInRegion("Instance into Instance")
 	@UniqueInRegion("Instance")
 	private final Object f068 = null;
 	
 	@Borrowed
 	@BorrowedInRegion("Instance into Instance")
-	@UniqueInRegion(value="Instance", allowRead=true)
-	private final Object f069 = null;
-	
-	@Borrowed
-	@BorrowedInRegion("Instance into Instance")
 	@UniqueInRegion("Instance into Instance")
 	private final Object f070 = null;
-	
-	@Borrowed
-	@BorrowedInRegion("Instance into Instance")
-	@UniqueInRegion(value="Instance into Instance", allowRead=true)
-	private final Object f071 = null;
 
 
 	@Borrowed
@@ -300,28 +184,13 @@ public class TestFields {
 	
 	@Borrowed
 	@Immutable
-	@Unique(allowRead=true)
-	private final Object f080 = null;
-	
-	@Borrowed
-	@Immutable
 	@UniqueInRegion("Instance")
 	private final Object f081 = null;
 	
 	@Borrowed
 	@Immutable
-	@UniqueInRegion(value="Instance", allowRead=true)
-	private final Object f082 = null;
-	
-	@Borrowed
-	@Immutable
 	@UniqueInRegion("Instance into Instance")
 	private final Object f083 = null;
-	
-	@Borrowed
-	@Immutable
-	@UniqueInRegion(value="Instance into Instance", allowRead=true)
-	private final Object f084 = null;
 
 
 	@Borrowed
@@ -331,50 +200,14 @@ public class TestFields {
 	
 	@Borrowed
 	@Unique
-	@UniqueInRegion(value="Instance", allowRead=true)
-	private final Object f086 = null;
-	
-	@Borrowed
-	@Unique
 	@UniqueInRegion("Instance into Instance")
 	private final Object f087 = null;
 	
-	@Borrowed
-	@Unique
-	@UniqueInRegion(value="Instance into Instance", allowRead=true)
-	private final Object f088 = null;
 
-
-	@Borrowed
-	@Unique(allowRead=true)
-	@UniqueInRegion("Instance")
-	private final Object f089 = null;
-	
-	@Borrowed
-	@Unique(allowRead=true)
-	@UniqueInRegion(value="Instance", allowRead=true)
-	private final Object f090 = null;
-	
-	@Borrowed
-	@Unique(allowRead=true)
-	@UniqueInRegion("Instance into Instance")
-	private final Object f091 = null;
-	
-	@Borrowed
-	@Unique(allowRead=true)
-	@UniqueInRegion(value="Instance into Instance", allowRead=true)
-	private final Object f092 = null;
-	
-	
 	@BorrowedInRegion("Instance")
 	@Immutable
 	@Unique
 	private final Object f100 = null;
-	
-	@BorrowedInRegion("Instance")
-	@Immutable
-	@Unique(allowRead=true)
-	private final Object f101 = null;
 	
 	@BorrowedInRegion("Instance")
 	@Immutable
@@ -383,18 +216,8 @@ public class TestFields {
 	
 	@BorrowedInRegion("Instance")
 	@Immutable
-	@UniqueInRegion(value="Instance", allowRead=true)
-	private final Object f103 = null;
-	
-	@BorrowedInRegion("Instance")
-	@Immutable
 	@UniqueInRegion("Instance into Instance")
 	private final Object f104 = null;
-	
-	@BorrowedInRegion("Instance")
-	@Immutable
-	@UniqueInRegion(value="Instance into Instance", allowRead=true)
-	private final Object f105 = null;
 	
 	
 	@BorrowedInRegion("Instance")
@@ -404,39 +227,8 @@ public class TestFields {
 	
 	@BorrowedInRegion("Instance")
 	@Unique
-	@UniqueInRegion(value="Instance", allowRead=true)
-	private final Object f107 = null;
-	
-	@BorrowedInRegion("Instance")
-	@Unique
 	@UniqueInRegion("Instance into Instance")
 	private final Object f108 = null;
-	
-	@BorrowedInRegion("Instance")
-	@Unique
-	@UniqueInRegion(value="Instance into Instance", allowRead=true)
-	private final Object f109 = null;
-	
-	
-	@BorrowedInRegion("Instance")
-	@Unique(allowRead=true)
-	@UniqueInRegion("Instance")
-	private final Object f110 = null;
-	
-	@BorrowedInRegion("Instance")
-	@Unique(allowRead=true)
-	@UniqueInRegion(value="Instance", allowRead=true)
-	private final Object f111 = null;
-	
-	@BorrowedInRegion("Instance")
-	@Unique(allowRead=true)
-	@UniqueInRegion("Instance into Instance")
-	private final Object f112 = null;
-	
-	@BorrowedInRegion("Instance")
-	@Unique(allowRead=true)
-	@UniqueInRegion(value="Instance into Instance", allowRead=true)
-	private final Object f113 = null;
 	
 	
 	@BorrowedInRegion("Instance into Instance")
@@ -446,28 +238,13 @@ public class TestFields {
 	
 	@BorrowedInRegion("Instance into Instance")
 	@Immutable
-	@Unique(allowRead=true)
-	private final Object f122 = null;
-	
-	@BorrowedInRegion("Instance into Instance")
-	@Immutable
 	@UniqueInRegion("Instance")
 	private final Object f123 = null;
 	
 	@BorrowedInRegion("Instance into Instance")
 	@Immutable
-	@UniqueInRegion(value="Instance", allowRead=true)
-	private final Object f124 = null;
-	
-	@BorrowedInRegion("Instance into Instance")
-	@Immutable
 	@UniqueInRegion("Instance into Instance")
 	private final Object f125 = null;
-	
-	@BorrowedInRegion("Instance into Instance")
-	@Immutable
-	@UniqueInRegion(value="Instance into Instance", allowRead=true)
-	private final Object f126 = null;
 	
 	
 	@BorrowedInRegion("Instance into Instance")
@@ -477,39 +254,8 @@ public class TestFields {
 	
 	@BorrowedInRegion("Instance into Instance")
 	@Unique
-	@UniqueInRegion(value="Instance", allowRead=true)
-	private final Object f128 = null;
-	
-	@BorrowedInRegion("Instance into Instance")
-	@Unique
 	@UniqueInRegion("Instance into Instance")
 	private final Object f129 = null;
-	
-	@BorrowedInRegion("Instance into Instance")
-	@Unique
-	@UniqueInRegion(value="Instance into Instance", allowRead=true)
-	private final Object f130 = null;
-	
-	
-	@BorrowedInRegion("Instance into Instance")
-	@Unique(allowRead=true)
-	@UniqueInRegion("Instance")
-	private final Object f131 = null;
-	
-	@BorrowedInRegion("Instance into Instance")
-	@Unique(allowRead=true)
-	@UniqueInRegion(value="Instance", allowRead=true)
-	private final Object f132 = null;
-	
-	@BorrowedInRegion("Instance into Instance")
-	@Unique(allowRead=true)
-	@UniqueInRegion("Instance into Instance")
-	private final Object f133 = null;
-	
-	@BorrowedInRegion("Instance into Instance")
-	@Unique(allowRead=true)
-	@UniqueInRegion(value="Instance into Instance", allowRead=true)
-	private final Object f134 = null;
 	
 	
 	@Immutable
@@ -519,37 +265,6 @@ public class TestFields {
 	
 	@Immutable
 	@Unique
-	@UniqueInRegion(value="Instance", allowRead=true)
-	private final Object f150 = null;
-	
-	@Immutable
-	@Unique
 	@UniqueInRegion("Instance into Instance")
 	private final Object f151 = null;
-	
-	@Immutable
-	@Unique
-	@UniqueInRegion(value="Instance into Instance", allowRead=true)
-	private final Object f152 = null;
-
-	
-	@Immutable
-	@Unique(allowRead=true)
-	@UniqueInRegion("Instance")
-	private final Object f153 = null;
-	
-	@Immutable
-	@Unique(allowRead=true)
-	@UniqueInRegion(value="Instance", allowRead=true)
-	private final Object f154 = null;
-	
-	@Immutable
-	@Unique(allowRead=true)
-	@UniqueInRegion("Instance into Instance")
-	private final Object f155 = null;
-	
-	@Immutable
-	@Unique(allowRead=true)
-	@UniqueInRegion(value="Instance into Instance", allowRead=true)
-	private final Object f156 = null;
 }

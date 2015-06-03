@@ -25,9 +25,6 @@ public class TestReceiver {
 	@Unique("this")
 	private void m007() { /* empty */ }
 	
-	@Unique(value="this", allowRead=true)
-	private void m008() { /* empty */ }
-	
 	
 	
 	// Two annotations
@@ -40,17 +37,9 @@ public class TestReceiver {
 	@Unique("this")
 	private void m017() { /* empty */ }
 	
-	@Borrowed("this")
-	@Unique(value="this", allowRead=true)
-	private void m018() { /* empty */ }
-	
 	@Immutable("this")
 	@Unique("this")
 	private void m046() { /* empty */ }
-	
-	@Immutable("this")
-	@Unique(value="this", allowRead=true)
-	private void m047() { /* empty */ }
 
 
 
@@ -60,9 +49,4 @@ public class TestReceiver {
 	@Immutable("this")
 	@Unique("this")
 	private void m079() { /* empty */ }
-	
-	@Borrowed("this")
-	@Immutable("this")
-	@Unique(value="this", allowRead=true)
-	private void m080() { /* empty */ }
 }
