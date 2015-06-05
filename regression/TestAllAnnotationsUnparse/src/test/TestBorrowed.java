@@ -3,9 +3,6 @@ package test;
 import com.surelogic.Borrowed;
 
 public class TestBorrowed {
-	@Borrowed
-	final Object field = null;
-	
 	@Borrowed("this")
 	TestBorrowed() {
 	}

@@ -12,7 +12,7 @@ public class TestConstExprsInAnnos {
 	static final String me = "this";
 	int foo2;
 
-	@Borrowed(value=me, allowReturn=true ? 1 == 2: false)
+	@Borrowed(value=me)
 	public TestConstExprsInAnnos() {
 	}
 }

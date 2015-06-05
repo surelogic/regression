@@ -1,7 +1,6 @@
 package test;
 
 import com.surelogic.Borrowed;
-import com.surelogic.BorrowedInRegion;
 import com.surelogic.Immutable;
 import com.surelogic.Unique;
 import com.surelogic.UniqueInRegion;

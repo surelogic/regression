@@ -9,18 +9,10 @@ import com.surelogic.Unique;
 interface Iterable<E> {
   @RegionEffects("writes Instance")
   @Unique("return")
-  @Borrowed(value="this", allowReturn=true)
   public Iterator<E> iterator();
 }
 
 public class LetsIterateOverIterable {
-//  @RegionEffects("reads a:Instance")
-//  public void forLoopSugar(final Iterable<Object> a) {
-//    for (final Object o : a) {
-//      // do stuff
-//    }
-//  }
-  
   @RegionEffects("reads a:Instance")
   public void whileLoop(final Iterable<Object> a) {
     final Iterator<Object> i = a.iterator();
