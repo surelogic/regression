@@ -1,6 +1,5 @@
 package test;
 
-import com.surelogic.Immutable;
 import com.surelogic.Unique;
 import com.surelogic.UniqueInRegion;
 
@@ -15,10 +14,6 @@ public class TestFields {
 	
 	// One annotation
 	// ----------------------------------------------------------------------
-	// LEGAL
-	@Immutable
-	private final Object f005 = null;
-	
 	// LEGAL
 	@Unique
 	private final Object f007 = null;
@@ -35,19 +30,6 @@ public class TestFields {
 	
 	// Two annotations
 	// ----------------------------------------------------------------------
-	@Immutable
-	@Unique
-	private final Object f046 = null;
-	
-	@Immutable
-	@UniqueInRegion("Instance")
-	private final Object f048 = null;
-	
-	@Immutable
-	@UniqueInRegion("Instance into Instance")
-	private final Object f050 = null;
-	
-	
 	@Unique
 	@UniqueInRegion("Instance")
 	private final Object f052 = null;
@@ -55,17 +37,4 @@ public class TestFields {
 	@Unique
 	@UniqueInRegion("Instance into Instance")
 	private final Object f054 = null;
-	
-
-	// Three annotations
-	// ----------------------------------------------------------------------
-	@Immutable
-	@Unique
-	@UniqueInRegion("Instance")
-	private final Object f149 = null;
-	
-	@Immutable
-	@Unique
-	@UniqueInRegion("Instance into Instance")
-	private final Object f151 = null;
 }
