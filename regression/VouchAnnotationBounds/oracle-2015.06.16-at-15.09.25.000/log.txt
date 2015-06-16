@@ -1,0 +1,820 @@
+LOCAL vm : 1.8.0_05
+Path: /Users/aarong/git/jsure/jsure-analysis/bin
+Path: /Users/aarong/git/common/common/lib/runtime/commons-codec-1.10.jar
+Path: /Users/aarong/git/common/common/lib/runtime/trove-3.0.3.jar
+Path: /Users/aarong/git/common/common/lib/runtime/antlr-3.5.2-runtime.jar
+Path: /Users/aarong/git/common/common/lib/runtime/servlet-api-3.1.jar
+Path: /Users/aarong/git/jsure/jsure-common/lib/runtime/diffutils-1.2.1.jar
+Path: /Users/aarong/git/common/common/bin
+Path: /Users/aarong/git/common/common/lib/runtime/asm-5.0.2.jar
+Path: /Users/aarong/git/jsure/jsure-analysis/lib/runtime/renamedJavac.jar
+Path: /Users/aarong/git/common/common/lib/runtime/asm-tree-5.0.2.jar
+Path: /Users/aarong/git/common/common/lib/runtime/promises-5.6.0.jar
+Path: /Users/aarong/git/jsure/jsure-analysis/lib/runtime/log4j-xml-1.3alpha-8.jar
+Path: /Users/aarong/git/common/common/lib/runtime/derby-10.11.1.1.jar
+Path: /Users/aarong/git/jsure/jsure-common/bin
+Path: /Users/aarong/git/common/common/lib/runtime/ant-1.9.4.jar
+Path: /Users/aarong/git/common/common/lib/runtime/collections-generic-4.0.jar
+Path: /Users/aarong/git/jsure/jsure-analysis/lib/runtime/log4j-1.3alpha-8.jar
+Path: /Users/aarong/git/common/common/lib/runtime/asm-commons-5.0.2.jar
+Path: /Users/aarong/git/common/common/lib/runtime/commons-lang3-3.3.2.jar
+Path: /Users/aarong/git/common/common/lib/runtime/commons-io-2.4.jar
+Starting process:
+	/Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/jre/bin/java
+	-Dsl.running.in.remote.vm=true
+	-Dsurelogic.test.code=NONE
+	-XX:MaxPermSize=512m
+	-verbosegc
+	-DSureLogicX=true
+	-Dsl.run.dir=/Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/VouchAnnotationBound-2015.06.16-at-15.09.25.000
+	-Dfluid.ir.versioning=Versioning.Off
+	-Dfluid.directory.url=file:/Eclipses/eclipse-standard-luna-SR2-macosx-cocoa-x86_64/../../Users/aarong/git/jsure/jsure-analysis/
+	-Xmx2048m
+	-classpath
+	/Users/aarong/git/jsure/jsure-analysis/bin:/Users/aarong/git/common/common/lib/runtime/commons-codec-1.10.jar:/Users/aarong/git/common/common/lib/runtime/trove-3.0.3.jar:/Users/aarong/git/common/common/lib/runtime/antlr-3.5.2-runtime.jar:/Users/aarong/git/common/common/lib/runtime/servlet-api-3.1.jar:/Users/aarong/git/jsure/jsure-common/lib/runtime/diffutils-1.2.1.jar:/Users/aarong/git/common/common/bin:/Users/aarong/git/common/common/lib/runtime/asm-5.0.2.jar:/Users/aarong/git/jsure/jsure-analysis/lib/runtime/renamedJavac.jar:/Users/aarong/git/common/common/lib/runtime/asm-tree-5.0.2.jar:/Users/aarong/git/common/common/lib/runtime/promises-5.6.0.jar:/Users/aarong/git/jsure/jsure-analysis/lib/runtime/log4j-xml-1.3alpha-8.jar:/Users/aarong/git/common/common/lib/runtime/derby-10.11.1.1.jar:/Users/aarong/git/jsure/jsure-common/bin:/Users/aarong/git/common/common/lib/runtime/ant-1.9.4.jar:/Users/aarong/git/common/common/lib/runtime/collections-generic-4.0.jar:/Users/aarong/git/jsure/jsure-analysis/lib/runtime/log4j-1.3alpha-8.jar:/Users/aarong/git/common/common/lib/runtime/asm-commons-5.0.2.jar:/Users/aarong/git/common/common/lib/runtime/commons-lang3-3.3.2.jar:/Users/aarong/git/common/common/lib/runtime/commons-io-2.4.jar
+	com.surelogic.javac.jobs.RemoteJSureRun
+
+First line in REMOTE vm = Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=512m; support was removed in 8.0
+[GC (Allocation Failure)  512K->512K(327168K), 0.0013200 secs]
+[GC (Allocation Failure)  1012K->603K(327680K), 0.0008980 secs]
+[GC (Allocation Failure)  1627K->771K(327680K), 0.0010400 secs]
+[GC (Allocation Failure)  1795K->827K(328704K), 0.0009700 secs]
+JVM started: 1.8.0_05
+Log level: INFO
+Created reader
+Created monitor
+Created log handler
+Running RemoteJSureRun
+[GC (Allocation Failure)  2875K->1043K(328704K), 0.0012120 secs]
+[GC (Allocation Failure)  3091K->1211K(331264K), 0.0015120 secs]
+[GC (Allocation Failure)  5307K->1607K(331264K), 0.0016560 secs]
+[GC (Allocation Failure)  5703K->1767K(335360K), 0.0013510 secs]
+runPath = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/VouchAnnotationBound-2015.06.16-at-15.09.25.000
+Creating run: VouchAnnotationBound-2015.06.16-at-15.09.25.000
+projects = VouchAnnotationBounds
+Loading edu.cmu.cs.fluid.make.nonabductive.proposals = false
+Loading edu.cmu.cs.fluid.load.all.classes = false
+Loading edu.cmu.cs.fluid.timeoutFlag = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BCA = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ConstantExpr = false
+Loading edu.cmu.cs.fluid.physMemoryInMB = 20480
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.EqualityAssurance = false
+Loading edu.cmu.cs.fluid.xml.diff.directory = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/promises-xml
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.UniquenessAssuranceUWM = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.IRConcurrencyDetector = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Singleton = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.CALLS = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BenchmarkingUniquenessSE = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ThreadEffectAssurance2 = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Binder = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.cliend.eclipse.TypeBasedAlias = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Nullable = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.TestIsFunctional = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.UniquenessAssuranceUWM_SE = false
+Loading edu.cmu.cs.fluid.tool-memory-mb = 2048
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.DefinitelyAssigned = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.UniquenessAssuranceSE = true
+Loading edu.cmu.cs.fluid.analysis.thread.count = 8
+Loading edu.cmu.cs.fluid.timeoutSec = 11
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.NonNullRawTypes = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LayersAssurance = false
+Loading edu.cmu.cs.fluid.default.JRE = org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Loading edu.cmu.cs.fluid.timeoutWarningSec = 30
+Loading edu.cmu.cs.fluid.modeling.problem.filters = 00000012com\.apple.*00000013com\.oracle.*00000010com\.sun.*00000014.*\.internal.*00000023.*BakedArrayList\.class00000007apple.*00000008oracle.*00000011quicktime.*00000005sun.*
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Utility = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BenchmarkingUniquenessNew_SE = false
+Loading edu.cmu.cs.fluid.scan.may.use.compression = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ParameterizedType = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Final = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LockAssurance3 = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BenchmarkingUniquenessNew = false
+Loading edu.cmu.cs.fluid.data.directory = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.NullablePreprocessor = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.EffectAssurance2 = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LV = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.StructureAssurance = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Types = false
+JSure data dir = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data
+XML diff dir   = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/promises-xml
+Looking for JRE in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+default JRE = org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Initialized job
+Created com.surelogic.analysis.threads.ThreadEffectsModule
+Starting a new group for ThreadEffectsModule
+Created com.surelogic.analysis.annotationbounds.ParameterizedTypeAnalysis
+Created com.surelogic.analysis.concurrency.driver.LockAnalysis
+Starting a new group for LockAnalysis
+Group: EXTERNALLY
+	ThreadEffectsModule
+	ParameterizedTypeAnalysis
+[GC (Allocation Failure)  9959K->2319K(335360K), 0.0018040 secs]
+Created com.surelogic.analysis.effects.EffectsAnalysis
+Created com.surelogic.analysis.uniqueness.classic.sideeffecting.UniquenessAnalysisModule
+Starting a new group for UniquenessAnalysisModule
+Group: com.surelogic.analysis.visitors.TopLevelAnalysisVisitor$1@69663380, class com.surelogic.analysis.bca.BindingContextAnalysis, EXTERNALLY
+	LockAnalysis
+	EffectsAnalysis
+Group: com.surelogic.analysis.uniqueness.classic.sideeffecting.UniquenessAnalysisModule$1@5b37e0d2, class com.surelogic.analysis.bca.BindingContextAnalysis, INTERNALLY
+	UniquenessAnalysisModule
+##TASK, Scan, 50
+Initializing ...
+##SUBTASK, Initializing ...
+monitor = com.surelogic.common.jobs.remote.AbstractRemoteSLJob$Monitor@4459eb14
+singleThread = false
+[GC (Allocation Failure)  10511K->2527K(340992K), 0.0018790 secs]
+[GC (Allocation Failure)  15765K->10797K(340992K), 0.0056440 secs]
+[GC (Allocation Failure)  24067K->24026K(351744K), 0.0078090 secs]
+Done initializing org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: 0
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/resources.jar
+[GC (Allocation Failure)  45018K->43837K(352256K), 0.0135380 secs]
+[GC (Allocation Failure)  64829K->47545K(366080K), 0.0055800 secs]
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/rt.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jsse.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jce.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/charsets.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jfr.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/dnsns.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/localedata.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunec.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunjce_provider.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunpkcs11.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/zipfs.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /System/Library/Java/Extensions/MRJToolkit.jar
+Done initializing VouchAnnotationBounds: 5
+Trying to find /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/VouchAnnotationBound-2015.06.16-at-15.09.25.000/source/VouchAnnotationBounds.bin.zip
+VouchAnnotationBounds: VouchAnnotationBounds -> org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Done initializing org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: 0
+VouchAnnotationBounds: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/resources.jar
+[GC (Allocation Failure)  81337K->54117K(366080K), 0.0088300 secs]
+VouchAnnotationBounds: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/rt.jar
+VouchAnnotationBounds: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jsse.jar
+VouchAnnotationBounds: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jce.jar
+VouchAnnotationBounds: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/charsets.jar
+VouchAnnotationBounds: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jfr.jar
+VouchAnnotationBounds: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/dnsns.jar
+VouchAnnotationBounds: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/localedata.jar
+VouchAnnotationBounds: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunec.jar
+VouchAnnotationBounds: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunjce_provider.jar
+VouchAnnotationBounds: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunpkcs11.jar
+VouchAnnotationBounds: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/zipfs.jar
+VouchAnnotationBounds: Done initializing with /System/Library/Java/Extensions/MRJToolkit.jar
+VouchAnnotationBounds: Done initializing with /Users/aarong/git/regression/regression/VouchAnnotationBounds/promises-4.3.4.jar
+##SUBTASK_DONE
+##WORK, 1
+Assuming that the projects are run in dependency order
+Parsing ...
+##SUBTASK, Parsing ...
+Done adapting 0 files for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK_DONE
+##WORK, 1
+Parsing ...
+##SUBTASK, Parsing ...
+JCP: warning: [options] bootstrap class path not set in conjunction with -source 1.7
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+Adapting 5 CUTs
+Done adapting 5 files for VouchAnnotationBounds
+##SUBTASK_DONE
+##WORK, 1
+Handling references for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Handling references for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 19 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+[GC (Allocation Failure)  87909K->60571K(389120K), 0.0114820 secs]
+Setting project for Object from org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 36 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 54 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 58 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 34 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 18 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 9 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 12 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 15 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 4 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 2 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK_DONE
+##WORK, 1
+Handling references for VouchAnnotationBounds
+##SUBTASK, Handling references for VouchAnnotationBounds
+Handling 33 dangling refs for VouchAnnotationBounds
+Handling 4 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 3 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 2 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 5 dangling refs for VouchAnnotationBounds
+##SUBTASK_DONE
+##WORK, 1
+Updated 273 files in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Updated 43 files in VouchAnnotationBounds
+Parsing ASTs  = 350 ms
+Handling refs = 428 ms
+[2015-06-16 15:09:27    INFO] partial bindings = 0 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+[2015-06-16 15:09:27    INFO] full bindings = 0 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+Canonicalizing ASTs
+##SUBTASK, Canonicalizing ASTs
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+[2015-06-16 15:09:27    INFO] partial bindings = 698 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+[2015-06-16 15:09:27    INFO] full bindings = 111 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+Canonicalizing VouchAnnotationBounds/src/test/VouchParametersAndLocals.java
+##WORK, 1
+Canonicalizing VouchAnnotationBounds/src/test/VouchThreadSafe.java
+##WORK, 1
+Canonicalizing VouchAnnotationBounds/src/test/X.java
+##WORK, 1
+Canonicalizing VouchAnnotationBounds/src/test/VouchContainableCollection.java
+##WORK, 1
+Canonicalizing VouchAnnotationBounds/src/test/VouchField.java
+##WORK, 1
+Binding = 118 ms
+##SUBTASK_DONE
+##WORK, 1
+Handling references for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Handling references for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 19 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK_DONE
+##WORK, 1
+Handling references for VouchAnnotationBounds
+##SUBTASK, Handling references for VouchAnnotationBounds
+Handling 19 dangling refs for VouchAnnotationBounds
+##SUBTASK_DONE
+##WORK, 1
+Updated 273 files in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Updated 43 files in VouchAnnotationBounds
+[GC (System.gc())  102348K->65822K(389632K), 0.0124020 secs]
+[Full GC (System.gc())  65822K->54668K(389632K), 0.1110280 secs]
+Creating drops
+##SUBTASK, Creating drops
+Created binary drop for java.lang.Comparable
+Created binary drop for java.lang.ClassLoader
+Created binary drop for java.lang.annotation.Annotation
+Created binary drop for java.util.AbstractSet
+Created binary drop for java.io.Writer
+Created binary drop for java.nio.file.CopyOption
+Created binary drop for java.nio.channels.InterruptibleChannel
+Created binary drop for java.io.FileNotFoundException
+Created binary drop for java.lang.ref.SoftReference
+Created binary drop for java.lang.Float
+Created binary drop for java.util.AbstractList
+Created binary drop for java.security.Key
+Created binary drop for java.lang.Long
+Created binary drop for java.security.PermissionCollection
+Created binary drop for sun.reflect.ConstructorAccessor
+Created binary drop for java.lang.reflect.Member
+Created binary drop for java.lang.Enum
+Created binary drop for java.util.Date
+Created binary drop for java.security.AccessControlContext
+Created source drop for file:/Users/aarong/git/regression/regression/VouchAnnotationBounds/src/test/X.java
+Created binary drop for java.util.LinkedList
+Created binary drop for java.util.Map
+Created binary drop for java.nio.channels.AsynchronousCloseException
+Created binary drop for java.net.URISyntaxException
+Created binary drop for java.util.concurrent.Callable
+Created binary drop for java.util.concurrent.Future
+Created binary drop for java.util.ResourceBundle
+Created binary drop for java.nio.file.Path
+Created binary drop for sun.misc.URLClassPath
+Created binary drop for java.io.UnsupportedEncodingException
+Created binary drop for java.io.Flushable
+Created binary drop for com.surelogic.AnnotationBounds
+Created binary drop for java.net.URLStreamHandlerFactory
+Created source drop for file:/Users/aarong/git/regression/regression/VouchAnnotationBounds/src/test/VouchContainableCollection.java
+Created binary drop for java.lang.ClassValue
+Created binary drop for java.util.List
+Created binary drop for java.lang.ThreadGroup
+Created binary drop for java.security.SignatureException
+Created binary drop for java.lang.CloneNotSupportedException
+Created binary drop for sun.misc.Resource
+Created binary drop for java.util.zip.ZipFile
+Created binary drop for java.nio.file.WatchService
+Created binary drop for java.nio.channels.FileChannel
+Created binary drop for java.lang.String
+Created binary drop for java.nio.ShortBuffer
+Created binary drop for java.util.Vector
+Created binary drop for java.nio.file.attribute.FileTime
+Created binary drop for java.lang.Boolean
+Created binary drop for java.nio.channels.ClosedChannelException
+Created binary drop for java.security.cert.CertPath
+Created binary drop for java.util.Iterator
+Created binary drop for java.nio.channels.GatheringByteChannel
+Created binary drop for java.net.InetAddress
+Created binary drop for java.lang.ref.ReferenceQueue
+Created binary drop for java.util.RandomAccess
+Created binary drop for java.nio.Buffer
+Created binary drop for java.net.InetAddressImpl
+Created binary drop for sun.util.locale.LocaleExtensions
+Created binary drop for java.io.ObjectStreamException
+Created binary drop for java.nio.channels.ReadableByteChannel
+Created binary drop for java.net.FileNameMap
+Created binary drop for java.nio.file.FileSystem
+Created binary drop for java.util.Locale
+Created binary drop for sun.util.locale.Extension
+Created binary drop for java.nio.charset.CoderResult
+Created binary drop for java.util.concurrent.TimeUnit
+Created binary drop for java.lang.Package
+Created binary drop for java.util.Deque
+Created binary drop for java.lang.IllegalArgumentException
+Created binary drop for java.util.concurrent.locks.Condition
+Created binary drop for java.security.PublicKey
+Created binary drop for java.nio.channels.Channel
+Created binary drop for java.nio.file.WatchKey
+Created binary drop for java.nio.DoubleBuffer
+Created binary drop for java.lang.AutoCloseable
+Created binary drop for java.util.zip.Inflater
+Created binary drop for java.util.MissingResourceException
+Created binary drop for java.security.AccessControlException
+Created binary drop for java.util.ListIterator
+Created binary drop for sun.util.locale.InternalLocaleBuilder
+Created binary drop for java.util.SortedMap
+Created binary drop for java.nio.file.attribute.UserPrincipal
+Created binary drop for java.lang.Exception
+Created binary drop for java.security.CodeSource
+Created binary drop for java.nio.file.attribute.BasicFileAttributes
+Created binary drop for java.lang.InstantiationException
+Created binary drop for java.lang.Character
+Created binary drop for java.util.jar.Attributes
+Created binary drop for java.nio.channels.FileLock
+Created binary drop for java.lang.RuntimeException
+Created binary drop for java.nio.channels.AsynchronousChannel
+Created binary drop for java.io.FilenameFilter
+Created source drop for file:/Users/aarong/git/regression/regression/VouchAnnotationBounds/src/test/VouchParametersAndLocals.java
+Created binary drop for java.nio.charset.Charset
+Created binary drop for java.io.PrintWriter
+Created binary drop for java.lang.Override
+Created binary drop for sun.reflect.annotation.AnnotationType
+Created binary drop for java.lang.annotation.Retention
+Created binary drop for java.util.concurrent.CopyOnWriteArrayList
+Created binary drop for java.nio.ByteBuffer
+Created binary drop for java.util.concurrent.locks.ReadWriteLock
+Created binary drop for com.surelogic.RequiresLock
+Created binary drop for java.nio.file.OpenOption
+Created binary drop for java.net.NetworkInterface
+Created binary drop for java.lang.reflect.InvocationTargetException
+Created binary drop for java.lang.Short
+Created binary drop for java.math.BigInteger
+Created binary drop for java.util.jar.Manifest
+Created binary drop for java.util.ArrayList
+Created binary drop for com.surelogic.Vouch
+Created binary drop for java.util.zip.ZipEntry
+Created binary drop for java.lang.Cloneable
+Created binary drop for java.lang.reflect.TypeVariable
+Created binary drop for java.util.Random
+Created binary drop for java.lang.StackTraceElement
+Created binary drop for java.nio.file.attribute.FileAttributeView
+Created binary drop for java.nio.CharBuffer
+Created binary drop for java.security.Principal
+Created binary drop for com.surelogic.RegionLock
+Created binary drop for sun.reflect.MethodAccessor
+Created binary drop for java.io.DataOutput
+Created binary drop for java.lang.Throwable
+Created binary drop for java.util.HashMap
+Created binary drop for java.lang.reflect.AnnotatedElement
+Created binary drop for java.net.InterfaceAddress
+Created binary drop for java.lang.annotation.Documented
+Created binary drop for java.lang.SecurityException
+Created binary drop for java.net.ContentHandler
+Created binary drop for java.nio.channels.spi.AbstractInterruptibleChannel
+Created binary drop for java.net.URLConnection
+Created binary drop for java.lang.Void
+Created binary drop for java.io.Reader
+Created binary drop for java.nio.FloatBuffer
+Created binary drop for java.util.AbstractSequentialList
+Created binary drop for java.io.Serializable
+Created binary drop for java.security.cert.CertificateException
+Created binary drop for java.util.Collection
+Created binary drop for sun.util.locale.LocaleObjectCache
+Created binary drop for java.lang.reflect.Field
+Created binary drop for java.nio.file.WatchEvent
+Created binary drop for java.net.UnknownHostException
+Created binary drop for java.nio.file.attribute.FileAttribute
+Created binary drop for java.lang.Appendable
+Created binary drop for java.net.SocketException
+Created source drop for file:/Users/aarong/git/regression/regression/VouchAnnotationBounds/src/test/VouchField.java
+Created binary drop for java.nio.file.attribute.AttributeView
+Created binary drop for java.lang.ref.WeakReference
+Created binary drop for java.io.InputStream
+Created binary drop for java.lang.NullPointerException
+Created binary drop for java.lang.ref.Reference
+Created binary drop for java.net.URI
+Created binary drop for sun.reflect.CallerSensitive
+Created binary drop for java.lang.reflect.Method
+Created binary drop for java.util.Stack
+Created binary drop for java.security.InvalidKeyException
+Created binary drop for java.lang.Iterable
+Created binary drop for java.net.UnknownServiceException
+Created binary drop for java.nio.file.attribute.UserPrincipalLookupService
+Created binary drop for java.io.FilterInputStream
+Created binary drop for sun.util.locale.BaseLocale
+Created binary drop for java.util.AbstractCollection
+Created binary drop for java.nio.file.spi.FileSystemProvider
+Created binary drop for java.lang.reflect.AccessibleObject
+Created binary drop for sun.reflect.ReflectionFactory
+Created binary drop for java.lang.Number
+Created binary drop for java.io.File
+Created binary drop for java.nio.file.AccessMode
+Created binary drop for java.nio.channels.AsynchronousFileChannel
+Created binary drop for sun.util.locale.ParseStatus
+Created binary drop for java.util.zip.ZipException
+Created binary drop for java.nio.channels.CompletionHandler
+Created binary drop for java.util.concurrent.ConcurrentMap
+Created binary drop for java.lang.Thread
+Created binary drop for java.security.cert.CertificateEncodingException
+Created binary drop for java.lang.CharSequence
+Created binary drop for java.net.MalformedURLException
+Created binary drop for com.surelogic.UniqueInRegion
+Created binary drop for java.security.Timestamp
+Created binary drop for java.lang.reflect.GenericDeclaration
+Created binary drop for java.util.InvalidPropertiesFormatException
+Created binary drop for java.util.spi.LocaleServiceProvider
+Created binary drop for java.nio.file.Watchable
+Created binary drop for java.lang.NumberFormatException
+Created source drop for file:/Users/aarong/git/regression/regression/VouchAnnotationBounds/src/test/VouchThreadSafe.java
+Created binary drop for java.net.URLStreamHandler
+Created binary drop for java.security.KeyException
+Created binary drop for java.security.PrivilegedAction
+Created binary drop for java.lang.System
+Created binary drop for java.util.concurrent.locks.AbstractOwnableSynchronizer
+Created binary drop for java.lang.InterruptedException
+Created binary drop for java.lang.StringBuilder
+Created binary drop for java.net.ContentHandlerFactory
+Created binary drop for java.nio.charset.CodingErrorAction
+Created binary drop for java.security.ProtectionDomain
+Created binary drop for java.nio.file.attribute.FileStoreAttributeView
+Created binary drop for java.nio.file.attribute.GroupPrincipal
+Created binary drop for java.util.AbstractMap
+Created binary drop for sun.util.LocaleServiceProviderPool
+Created binary drop for com.surelogic.ThreadSafe
+Created binary drop for java.nio.LongBuffer
+Created binary drop for java.util.concurrent.locks.Lock
+Created binary drop for java.util.spi.LocaleNameProvider
+Created binary drop for sun.nio.ch.Interruptible
+Created binary drop for sun.reflect.FieldAccessor
+Created binary drop for java.lang.IllegalAccessException
+Created binary drop for java.lang.StringBuffer
+Created binary drop for java.nio.file.FileStore
+Created binary drop for java.util.Hashtable
+Created binary drop for java.nio.file.LinkOption
+Created binary drop for java.security.cert.Certificate
+Created binary drop for java.nio.IntBuffer
+Created binary drop for java.util.Set
+Created binary drop for java.lang.SecurityManager
+Created binary drop for java.io.DataOutputStream
+Created binary drop for sun.util.resources.OpenListResourceBundle
+Created binary drop for sun.misc.JarIndex
+Created binary drop for java.security.DomainCombiner
+Created binary drop for sun.util.locale.LocaleSyntaxException
+Created binary drop for java.lang.Object
+Created binary drop for java.nio.charset.CharsetDecoder
+Created binary drop for java.io.FilterOutputStream
+Created binary drop for java.io.Closeable
+Created binary drop for java.io.PrintStream
+Created binary drop for java.io.FileFilter
+Created binary drop for java.lang.Byte
+Created binary drop for sun.reflect.ConstantPool
+Created binary drop for java.nio.file.DirectoryStream
+Created binary drop for java.util.Enumeration
+Created binary drop for java.lang.AbstractStringBuilder
+Created binary drop for java.lang.reflect.Constructor
+Created binary drop for java.nio.channels.WritableByteChannel
+Created binary drop for java.io.IOException
+Created binary drop for java.nio.charset.CharacterCodingException
+Created binary drop for java.io.SyncFailedException
+Created binary drop for java.lang.reflect.Type
+Created binary drop for java.lang.Readable
+Created binary drop for java.lang.Class
+Created binary drop for sun.security.util.Debug
+Created binary drop for java.util.zip.InflaterInputStream
+Created binary drop for java.security.CodeSigner
+Created binary drop for java.io.OutputStream
+Created binary drop for java.util.zip.DataFormatException
+Created binary drop for sun.misc.MetaIndex
+Created binary drop for java.security.Guard
+Created binary drop for java.lang.annotation.RetentionPolicy
+Created binary drop for java.io.FileDescriptor
+Created binary drop for java.nio.file.PathMatcher
+Created binary drop for java.net.URL
+Created binary drop for java.util.concurrent.locks.AbstractQueuedSynchronizer
+Created binary drop for java.util.WeakHashMap
+Created binary drop for java.security.Permission
+Created binary drop for java.lang.Double
+Created binary drop for java.security.NoSuchProviderException
+Created binary drop for sun.util.locale.LanguageTag
+Created binary drop for java.util.Properties
+Created binary drop for java.lang.ReflectiveOperationException
+Created binary drop for java.security.NoSuchAlgorithmException
+Created binary drop for java.nio.channels.ByteChannel
+Created binary drop for java.lang.Runnable
+Created binary drop for java.nio.channels.SeekableByteChannel
+Created binary drop for java.nio.charset.CharsetEncoder
+Created binary drop for java.security.GeneralSecurityException
+Created binary drop for java.nio.ByteOrder
+Created binary drop for java.io.Console
+Created binary drop for java.util.concurrent.locks.ReentrantLock
+Created binary drop for java.util.Dictionary
+Created binary drop for java.lang.annotation.Target
+Created binary drop for java.util.jar.JarEntry
+Created binary drop for com.surelogic.Region
+Created binary drop for java.util.Comparator
+Created binary drop for java.util.jar.JarFile
+Created binary drop for java.lang.annotation.ElementType
+Created binary drop for java.util.Queue
+Created binary drop for java.util.zip.ZipConstants
+Created binary drop for sun.reflect.LangReflectAccess
+Created binary drop for java.lang.Integer
+Created binary drop for java.net.Proxy
+Created binary drop for java.util.concurrent.Executor
+Created binary drop for java.lang.NoSuchFieldException
+Created binary drop for java.nio.MappedByteBuffer
+Created binary drop for java.lang.Deprecated
+Created binary drop for java.nio.channels.ScatteringByteChannel
+Created binary drop for java.util.concurrent.ExecutorService
+Created binary drop for java.net.SocketAddress
+Created binary drop for java.lang.ThreadLocal
+##SUBTASK_DONE
+##WORK, 1
+Parsing promises
+##SUBTASK, Parsing promises
+Added 3 promises for java.lang.[] in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@799f7e29
+Added 3 promises for java.lang.[] in VouchAnnotationBounds: com.surelogic.tree.SyntaxTreeNode@33c2bd
+Added 18 promises for java.util.ListIterator in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@36485e87
+Added 12 promises for java.lang.SecurityException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6dd6e86d
+Added 6 promises for java.lang.System in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@24490fba
+Added 4 promises for java.util.Enumeration in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@18ae1856
+Added 3 promises for java.nio.file.Path in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6845bd94
+Added 31 promises for java.util.SortedMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@57919ded
+Added 60 promises for java.util.AbstractList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@8e52446
+Added 55 promises for java.util.AbstractCollection in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@51bcbb61
+Added 29 promises for java.util.AbstractSequentialList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6e20d40f
+Added 12 promises for java.lang.Exception in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@175cd35d
+Added 13 promises for java.lang.Enum in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@31d3aa32
+WARNING: TreeAccessor couldn't find equals(java.lang.Object) in java.util.ArrayList
+WARNING: TreeAccessor couldn't find hashCode() in java.util.ArrayList
+Added 29 promises for java.util.concurrent.TimeUnit in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@5beba130
+Added 22 promises for java.lang.Number in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3107e019
+Added 6 promises for java.lang.NumberFormatException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@11d9ab41
+Added 6 promises for java.lang.InterruptedException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4e125393
+Added 104 promises for java.util.ArrayList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3760f6e3
+Added 22 promises for java.util.concurrent.locks.AbstractQueuedSynchronizer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7019bf0d
+Added 3 promises for java.util.Locale in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2d8f0a23
+Added 89 promises for java.util.List in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@19b5b238
+Added 56 promises for java.util.WeakHashMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@31550afa
+Added 108 promises for java.util.AbstractMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@31f070f
+Added 6 promises for java.lang.CloneNotSupportedException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@62dbdfad
+Added 54 promises for java.util.Set in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@67572d9e
+Added 70 promises for java.lang.Double in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@80220b9
+Added 17 promises for java.util.concurrent.ConcurrentMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@30489373
+Added 124 promises for java.util.concurrent.CopyOnWriteArrayList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@b44663f
+Added 12 promises for java.lang.CharSequence in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@26da9ceb
+Added 6 promises for java.lang.NullPointerException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@66d116bc
+Added 87 promises for java.util.Deque in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@10ff705d
+Added 22 promises for java.util.concurrent.locks.Condition in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3af587e2
+Added 31 promises for java.lang.Object in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@44b69afe
+Added 29 promises for java.util.Dictionary in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4bc68f4f
+Added 6 promises for java.lang.InstantiationException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@479413c
+[GC (Allocation Failure)  108428K->57908K(392192K), 0.0066400 secs]
+Added 12 promises for java.lang.Class in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@245ea2cf
+Added 109 promises for java.lang.StringBuilder in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@346b72f9
+Added 158 promises for java.lang.StringBuffer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7128f7b
+Added 141 promises for java.lang.Thread in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@73504366
+Added 58 promises for java.util.concurrent.locks.ReentrantLock in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@22252696
+Added 6 promises for java.io.Writer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@123ba78d
+Added 20 promises for java.util.concurrent.locks.Lock in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@21612c99
+Added 6 promises for java.lang.Appendable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@353207c0
+Added 2 promises for java.lang.ref.SoftReference in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@746c76a2
+Added 3 promises for java.lang.Iterable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@13f6ffc1
+Added 18 promises for java.util.Queue in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@61733df
+Added 18 promises for java.net.URISyntaxException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@68f51246
+Added 88 promises for java.util.jar.Attributes in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@20d26ce1
+Added 3 promises for java.util.Date in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3347fa3
+Added 12 promises for java.lang.RuntimeException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7c88e922
+Added 73 promises for java.util.Properties in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@322636c1
+Added 2 promises for test.VouchThreadSafe in VouchAnnotationBounds: com.surelogic.tree.SyntaxTreeNode@31739fc7
+Added 12 promises for java.lang.reflect.InvocationTargetException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@23a08c48
+Added 6 promises for test.X in VouchAnnotationBounds: com.surelogic.tree.SyntaxTreeNode@660c32a9
+Added 16 promises for java.util.AbstractSet in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@24616de7
+Added 5 promises for test.VouchParametersAndLocals in VouchAnnotationBounds: com.surelogic.tree.SyntaxTreeNode@7d68b96f
+Added 18 promises for java.nio.CharBuffer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@25a5266b
+Added 6 promises for java.lang.IllegalAccessException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6743f947
+Added 73 promises for java.lang.Float in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@375371
+Added 45 promises for java.util.ResourceBundle in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6bec8c06
+Added 21 promises for java.util.Stack in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@35b26c31
+Added 139 promises for java.util.LinkedList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@233bed2e
+Added 83 promises for java.util.Hashtable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@69b8151f
+Added 12 promises for java.lang.IllegalArgumentException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6ad35700
+Added 61 promises for java.lang.Short in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@18ab7db1
+Added 96 promises for java.lang.Long in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@18f1676b
+Added 6 promises for java.io.PrintWriter in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@5973604f
+Added 6 promises for java.io.PrintStream in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@67f90a98
+Added 3 promises for java.util.jar.Manifest in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@166f9d5
+Added 138 promises for java.math.BigInteger in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7b357bca
+Added 301 promises for java.lang.String in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3f9d80eb
+Added 3 promises for java.util.zip.ZipEntry in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4783555c
+Added 54 promises for java.util.Collection in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3279850b
+Added 64 promises for java.util.Map in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@632939cb
+Added 59 promises for java.lang.Byte in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3ebe6d74
+Added 7 promises for java.util.concurrent.locks.ReadWriteLock in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2ecb9de8
+Added 47 promises for java.lang.Throwable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@22ef6082
+Added 3 promises for java.nio.file.DirectoryStream in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3511d36b
+Added 2 promises for test.VouchField in VouchAnnotationBounds: com.surelogic.tree.SyntaxTreeNode@1560901a
+[GC (Allocation Failure)  112692K->59549K(391680K), 0.0061100 secs]
+Added 61 promises for java.util.HashMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@46e245c9
+Added 170 promises for java.util.Vector in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@25c061f6
+Added 5 promises for test.VouchContainableCollection in VouchAnnotationBounds: com.surelogic.tree.SyntaxTreeNode@755c1102
+Added 37 promises for java.lang.Boolean in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6865d005
+Added 6 promises for java.util.Iterator in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2e330275
+Added 1 promises for java.lang.ref.ReferenceQueue in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6b3472dd
+Added 144 promises for java.lang.AbstractStringBuilder in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@78aa79ac
+Added 96 promises for java.lang.Integer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3905d992
+Added 6 promises for java.lang.NoSuchFieldException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@724b4874
+Added 34 promises for java.util.concurrent.ExecutorService in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3a503577
+Added 1 promises for java.lang.ThreadLocal in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@792286bf
+##SUBTASK_DONE
+##WORK, 1
+Scrubbing promises
+##SUBTASK, Scrubbing promises
+Creating RegionModel java.lang.Object.Instance for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+[GC (Allocation Failure)  114333K->62343K(412160K), 0.0078990 secs]
+##SUBTASK_DONE
+##WORK, 1
+Starting analyses
+Using new analysis framework -- groups
+Starting group: ThreadEffectsModule, ParameterizedTypeAnalysis
+##SUBTASK, Starting parallel ThreadEffectsModule [0]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel ThreadEffectsModule [0]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Starting parallel ParameterizedTypeAnalysis [1]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel ParameterizedTypeAnalysis [1]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Starting parallel ThreadEffectsModule [0]: 5 for VouchAnnotationBounds
+Starting parallel ThreadEffectsModule [0]: 5 for VouchAnnotationBounds
+##SUBTASK, Starting parallel ParameterizedTypeAnalysis [1]: 5 for VouchAnnotationBounds
+Starting parallel ParameterizedTypeAnalysis [1]: 5 for VouchAnnotationBounds
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/VouchAnnotationBounds/src/test/VouchParametersAndLocals.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/VouchAnnotationBounds/src/test/VouchContainableCollection.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/VouchAnnotationBounds/src/test/VouchField.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/VouchAnnotationBounds/src/test/X.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/VouchAnnotationBounds/src/test/VouchThreadSafe.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/VouchAnnotationBounds/src/test/VouchField.java
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/VouchAnnotationBounds/src/test/VouchContainableCollection.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/VouchAnnotationBounds/src/test/X.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/VouchAnnotationBounds/src/test/VouchParametersAndLocals.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/VouchAnnotationBounds/src/test/VouchThreadSafe.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+Starting group: LockAnalysis, EffectsAnalysis
+com.surelogic.analysis.uniqueness.classic.sideeffecting.UniquenessAnalysisModule$1@5b37e0d2: 2
+com.surelogic.analysis.visitors.TopLevelAnalysisVisitor$1@69663380: 6
+##SUBTASK, Starting parallel LockAnalysis [2]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel LockAnalysis [2]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Looking at @RegionLock("MUTEX is this protects WaitQueue") on Object
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@3cca3cb3 on java.lang.Object
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@19f9b7a2 on test.X
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@79142e79 on test.VouchContainableCollection
+##SUBTASK, Starting parallel EffectsAnalysis [3]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel EffectsAnalysis [3]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Starting parallel LockAnalysis [2]: 6 for VouchAnnotationBounds
+Starting parallel LockAnalysis [2]: 6 for VouchAnnotationBounds
+Looking at @RegionLock("MUTEX is this protects WaitQueue") on Object
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@3cca3cb3 on java.lang.Object
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@19f9b7a2 on test.X
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@79142e79 on test.VouchContainableCollection
+##SUBTASK, Starting parallel EffectsAnalysis [3]: 6 for VouchAnnotationBounds
+Starting parallel EffectsAnalysis [3]: 6 for VouchAnnotationBounds
+##SUBTASK, Checking [ Lock policy ] test.VouchContainableCollection
+##SUBTASK, Checking [ Lock policy ] test.X
+##SUBTASK, Checking [ Lock policy ] test.VouchThreadSafe
+##SUBTASK, Checking [ Lock policy ] test.VouchField
+##SUBTASK, Checking [ Lock policy ] test.V
+##SUBTASK, Checking [ Lock policy ] test.VouchParametersAndLocals
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.V
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.VouchField
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.VouchThreadSafe
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.X
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.VouchContainableCollection
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.VouchParametersAndLocals
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+Starting group: UniquenessAnalysisModule
+##SUBTASK, Starting parallel UniquenessAnalysisModule [4]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel UniquenessAnalysisModule [4]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Starting parallel UniquenessAnalysisModule [4]: 2 for VouchAnnotationBounds
+Starting parallel UniquenessAnalysisModule [4]: 2 for VouchAnnotationBounds
+##SUBTASK, Checking [ Uniqueness ] test.VouchContainableCollection.m1()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.VouchContainableCollection.VouchContainableCollection()
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Cleaning up after analysis
+Cleaning up after analysis
+[GC (System.gc())  134224K->63631K(412672K), 0.0072280 secs]
+[Full GC (System.gc())  63631K->37400K(412672K), 0.1342500 secs]
+##WORK, 1
+##SUBTASK_DONE
+Updating consistency proof
+##SUBTASK, Updating consistency proof
+Exporting results to VouchAnnotationBound-2015.06.16-at-15.09.25.000
+##SUBTASK, Exporting results to VouchAnnotationBound-2015.06.16-at-15.09.25.000
+Creating snapshot: /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/VouchAnnotationBound-2015.06.16-at-15.09.25.000/running_or_crashed_sea_snapshot.xml.gz
+[GC (Allocation Failure)  114200K->42018K(413184K), 0.0037450 secs]
+Done in 4538 ms.
+ThreadEffectsModule	: 12 ms
+ParameterizedTypeAnalysis	: 212 ms
+LockAnalysis	: 299 ms
+EffectsAnalysis	: 7 ms
+UniquenessAnalysisModule	: 68 ms
+[2015-06-16 15:09:31    INFO] partial bindings = 7778 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+[2015-06-16 15:09:31    INFO] full bindings = 203 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+cached = 0
+totalT = 0
+#Performance data for VouchAnnotationBounds
+#Tue Jun 16 15:09:31 EDT 2015
+jsure.Add.required=0
+jsure.All.analyses=419
+jsure.Binding.before.canon=118
+jsure.Binding.full.time=269
+jsure.Binding.partial.time=261
+jsure.Bindings.full=203
+jsure.Bindings.partial=7778
+jsure.Canonicalization=198
+jsure.Cleanup=126
+jsure.Destroy.time=4
+jsure.Drop.creation=23
+jsure.Find.canon.time=2
+jsure.Parsing=784
+jsure.Promise.parsing=511
+jsure.Promise.scrubbing=1711
+jsure.Sea.export=666
+jsure.Sea.update=100
+jsure.Total.JSure.time=4538
+jsure.Total.blocks=17
+jsure.Total.canonical=423
+jsure.Total.decls=43
+jsure.Total.destroyed=0
+jsure.Total.gced=0
+jsure.Total.loc=154
+jsure.Total.nodes=65745
+jsure.Total.stmts=41
+jsure.Total.try.destroyed=180
+jsure.analysis.EffectsAnalysis=7
+jsure.analysis.LockAnalysis=299
+jsure.analysis.ParameterizedTypeAnalysis=212
+jsure.analysis.ThreadEffectsModule=12
+jsure.analysis.UniquenessAnalysisModule=68
+jsure.num.threads=8
+Javac making log: AnnotationRules
+##DONE
+Renaming snapshot: /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/VouchAnnotationBound-2015.06.16-at-15.09.25.000/sea_snapshot.xml.gz
+Done with JSure!
+Scanning complete (5833 ms)
+No socket to close
+Closing std streams
+Process result after waiting = 0

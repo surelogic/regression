@@ -1,0 +1,2001 @@
+LOCAL vm : 1.8.0_05
+Path: /Users/aarong/git/jsure/jsure-analysis/bin
+Path: /Users/aarong/git/common/common/lib/runtime/commons-codec-1.10.jar
+Path: /Users/aarong/git/common/common/lib/runtime/trove-3.0.3.jar
+Path: /Users/aarong/git/common/common/lib/runtime/antlr-3.5.2-runtime.jar
+Path: /Users/aarong/git/common/common/lib/runtime/servlet-api-3.1.jar
+Path: /Users/aarong/git/jsure/jsure-common/lib/runtime/diffutils-1.2.1.jar
+Path: /Users/aarong/git/common/common/bin
+Path: /Users/aarong/git/common/common/lib/runtime/asm-5.0.2.jar
+Path: /Users/aarong/git/jsure/jsure-analysis/lib/runtime/renamedJavac.jar
+Path: /Users/aarong/git/common/common/lib/runtime/asm-tree-5.0.2.jar
+Path: /Users/aarong/git/common/common/lib/runtime/promises-5.6.0.jar
+Path: /Users/aarong/git/jsure/jsure-analysis/lib/runtime/log4j-xml-1.3alpha-8.jar
+Path: /Users/aarong/git/common/common/lib/runtime/derby-10.11.1.1.jar
+Path: /Users/aarong/git/jsure/jsure-common/bin
+Path: /Users/aarong/git/common/common/lib/runtime/ant-1.9.4.jar
+Path: /Users/aarong/git/common/common/lib/runtime/collections-generic-4.0.jar
+Path: /Users/aarong/git/jsure/jsure-analysis/lib/runtime/log4j-1.3alpha-8.jar
+Path: /Users/aarong/git/common/common/lib/runtime/asm-commons-5.0.2.jar
+Path: /Users/aarong/git/common/common/lib/runtime/commons-lang3-3.3.2.jar
+Path: /Users/aarong/git/common/common/lib/runtime/commons-io-2.4.jar
+Starting process:
+	/Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/jre/bin/java
+	-Dsl.running.in.remote.vm=true
+	-Dsurelogic.test.code=NONE
+	-XX:MaxPermSize=512m
+	-verbosegc
+	-DSureLogicX=true
+	-Dsl.run.dir=/Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/TestQualifiedReceive-2015.06.16-at-11.30.54.450
+	-Dfluid.ir.versioning=Versioning.Off
+	-Dfluid.directory.url=file:/Eclipses/eclipse-standard-luna-SR2-macosx-cocoa-x86_64/../../Users/aarong/git/jsure/jsure-analysis/
+	-Xmx2048m
+	-classpath
+	/Users/aarong/git/jsure/jsure-analysis/bin:/Users/aarong/git/common/common/lib/runtime/commons-codec-1.10.jar:/Users/aarong/git/common/common/lib/runtime/trove-3.0.3.jar:/Users/aarong/git/common/common/lib/runtime/antlr-3.5.2-runtime.jar:/Users/aarong/git/common/common/lib/runtime/servlet-api-3.1.jar:/Users/aarong/git/jsure/jsure-common/lib/runtime/diffutils-1.2.1.jar:/Users/aarong/git/common/common/bin:/Users/aarong/git/common/common/lib/runtime/asm-5.0.2.jar:/Users/aarong/git/jsure/jsure-analysis/lib/runtime/renamedJavac.jar:/Users/aarong/git/common/common/lib/runtime/asm-tree-5.0.2.jar:/Users/aarong/git/common/common/lib/runtime/promises-5.6.0.jar:/Users/aarong/git/jsure/jsure-analysis/lib/runtime/log4j-xml-1.3alpha-8.jar:/Users/aarong/git/common/common/lib/runtime/derby-10.11.1.1.jar:/Users/aarong/git/jsure/jsure-common/bin:/Users/aarong/git/common/common/lib/runtime/ant-1.9.4.jar:/Users/aarong/git/common/common/lib/runtime/collections-generic-4.0.jar:/Users/aarong/git/jsure/jsure-analysis/lib/runtime/log4j-1.3alpha-8.jar:/Users/aarong/git/common/common/lib/runtime/asm-commons-5.0.2.jar:/Users/aarong/git/common/common/lib/runtime/commons-lang3-3.3.2.jar:/Users/aarong/git/common/common/lib/runtime/commons-io-2.4.jar
+	com.surelogic.javac.jobs.RemoteJSureRun
+
+First line in REMOTE vm = Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=512m; support was removed in 8.0
+[GC (Allocation Failure)  512K->504K(327168K), 0.0013060 secs]
+[GC (Allocation Failure)  1010K->599K(327680K), 0.0007980 secs]
+[GC (Allocation Failure)  1621K->767K(327680K), 0.0010110 secs]
+[GC (Allocation Failure)  1791K->839K(328704K), 0.0010490 secs]
+JVM started: 1.8.0_05
+Log level: INFO
+Created reader
+Created monitor
+Created log handler
+Running RemoteJSureRun
+[GC (Allocation Failure)  2887K->1015K(328704K), 0.0011650 secs]
+[GC (Allocation Failure)  3063K->1247K(331264K), 0.0012210 secs]
+[GC (Allocation Failure)  5343K->1511K(331264K), 0.0013460 secs]
+[GC (Allocation Failure)  5607K->1799K(335360K), 0.0012030 secs]
+runPath = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/TestQualifiedReceive-2015.06.16-at-11.30.54.450
+Creating run: TestQualifiedReceive-2015.06.16-at-11.30.54.450
+projects = TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects
+Loading edu.cmu.cs.fluid.make.nonabductive.proposals = false
+Loading edu.cmu.cs.fluid.load.all.classes = false
+Loading edu.cmu.cs.fluid.timeoutFlag = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BCA = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ConstantExpr = false
+Loading edu.cmu.cs.fluid.physMemoryInMB = 20480
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.EqualityAssurance = false
+Loading edu.cmu.cs.fluid.xml.diff.directory = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/promises-xml
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.UniquenessAssuranceUWM = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.IRConcurrencyDetector = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Singleton = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.CALLS = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BenchmarkingUniquenessSE = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ThreadEffectAssurance2 = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Binder = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.cliend.eclipse.TypeBasedAlias = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Nullable = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.TestIsFunctional = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.UniquenessAssuranceUWM_SE = false
+Loading edu.cmu.cs.fluid.tool-memory-mb = 2048
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.DefinitelyAssigned = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.UniquenessAssuranceSE = true
+Loading edu.cmu.cs.fluid.analysis.thread.count = 8
+Loading edu.cmu.cs.fluid.timeoutSec = 11
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.NonNullRawTypes = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LayersAssurance = false
+Loading edu.cmu.cs.fluid.default.JRE = org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Loading edu.cmu.cs.fluid.timeoutWarningSec = 30
+Loading edu.cmu.cs.fluid.modeling.problem.filters = 00000012com\.apple.*00000013com\.oracle.*00000010com\.sun.*00000014.*\.internal.*00000023.*BakedArrayList\.class00000007apple.*00000008oracle.*00000011quicktime.*00000005sun.*
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Utility = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BenchmarkingUniquenessNew_SE = false
+Loading edu.cmu.cs.fluid.scan.may.use.compression = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ParameterizedType = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Final = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LockAssurance3 = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BenchmarkingUniquenessNew = false
+Loading edu.cmu.cs.fluid.data.directory = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.NullablePreprocessor = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.EffectAssurance2 = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LV = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.StructureAssurance = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Types = false
+JSure data dir = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data
+XML diff dir   = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/promises-xml
+Looking for JRE in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+default JRE = org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Initialized job
+Created com.surelogic.analysis.threads.ThreadEffectsModule
+Starting a new group for ThreadEffectsModule
+Created com.surelogic.analysis.annotationbounds.ParameterizedTypeAnalysis
+Created com.surelogic.analysis.concurrency.driver.LockAnalysis
+Starting a new group for LockAnalysis
+Group: EXTERNALLY
+	ThreadEffectsModule
+	ParameterizedTypeAnalysis
+[GC (Allocation Failure)  9991K->2279K(335360K), 0.0017880 secs]
+Created com.surelogic.analysis.effects.EffectsAnalysis
+Created com.surelogic.analysis.uniqueness.classic.sideeffecting.UniquenessAnalysisModule
+Starting a new group for UniquenessAnalysisModule
+Group: com.surelogic.analysis.visitors.TopLevelAnalysisVisitor$1@69663380, class com.surelogic.analysis.bca.BindingContextAnalysis, EXTERNALLY
+	LockAnalysis
+	EffectsAnalysis
+Group: com.surelogic.analysis.uniqueness.classic.sideeffecting.UniquenessAnalysisModule$1@5b37e0d2, class com.surelogic.analysis.bca.BindingContextAnalysis, INTERNALLY
+	UniquenessAnalysisModule
+##TASK, Scan, 298
+Initializing ...
+##SUBTASK, Initializing ...
+monitor = com.surelogic.common.jobs.remote.AbstractRemoteSLJob$Monitor@4459eb14
+singleThread = false
+[GC (Allocation Failure)  10471K->2543K(340992K), 0.0019660 secs]
+[GC (Allocation Failure)  15789K->10773K(340992K), 0.0054370 secs]
+[GC (Allocation Failure)  23979K->23869K(351744K), 0.0087760 secs]
+Done initializing org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: 0
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/resources.jar
+[GC (Allocation Failure)  44832K->43805K(352256K), 0.0138520 secs]
+[GC (Allocation Failure)  64797K->47421K(366080K), 0.0051780 secs]
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/rt.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jsse.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jce.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/charsets.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jfr.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/dnsns.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/localedata.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunec.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunjce_provider.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunpkcs11.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/zipfs.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /System/Library/Java/Extensions/MRJToolkit.jar
+Done initializing TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects: 36
+Trying to find /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/TestQualifiedReceive-2015.06.16-at-11.30.54.450/source/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects.bin.zip
+TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects: TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects -> org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Done initializing org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: 0
+TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/resources.jar
+[GC (Allocation Failure)  81213K->54001K(366080K), 0.0070850 secs]
+TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/rt.jar
+TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jsse.jar
+TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jce.jar
+TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/charsets.jar
+TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jfr.jar
+TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/dnsns.jar
+TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/localedata.jar
+TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunec.jar
+TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunjce_provider.jar
+TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunpkcs11.jar
+TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/zipfs.jar
+TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects: Done initializing with /System/Library/Java/Extensions/MRJToolkit.jar
+TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects: Done initializing with /Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/promises-4.0.0.jar
+##SUBTASK_DONE
+##WORK, 1
+Assuming that the projects are run in dependency order
+Parsing ...
+##SUBTASK, Parsing ...
+Done adapting 0 files for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK_DONE
+##WORK, 1
+Parsing ...
+##SUBTASK, Parsing ...
+JCP: warning: [options] bootstrap class path not set in conjunction with -source 1.7
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+Adapting 36 CUTs
+[GC (Allocation Failure)  87793K->61751K(388608K), 0.0122670 secs]
+Done adapting 36 files for TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects
+##SUBTASK_DONE
+##WORK, 1
+Handling references for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Handling references for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 19 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Setting project for Object from org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 36 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 54 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 58 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 34 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 18 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 9 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 12 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 15 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 4 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 2 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK_DONE
+##WORK, 1
+Handling references for TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects
+##SUBTASK, Handling references for TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects
+Handling 20 dangling refs for TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects
+Handling 3 dangling refs for TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects
+##SUBTASK_DONE
+##WORK, 1
+Updated 261 files in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Updated 59 files in TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects
+Parsing ASTs  = 484 ms
+Handling refs = 349 ms
+[2015-06-16 11:30:56    INFO] partial bindings = 0 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+[GC (Allocation Failure)  114999K->66981K(389632K), 0.0145440 secs]
+[2015-06-16 11:30:56    INFO] full bindings = 0 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+Canonicalizing ASTs
+##SUBTASK, Canonicalizing ASTs
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+[2015-06-16 11:30:56    INFO] partial bindings = 1118 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+[2015-06-16 11:30:56    INFO] full bindings = 1634 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+Canonicalizing TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/AnonymousClass/SuperIsNotInner/StaticContext.java
+##WORK, 1
+Canonicalizing TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/ConstructorCall/Qualified/DoubleNesting/Outer1.java
+##WORK, 1
+Canonicalizing TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/AnonymousClass/SuperIsNotInner/Test.java
+##WORK, 1
+Canonicalizing TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/AnonymousClass/SuperIsLocal/ThreeLevels/DirectInner/Outer1.java
+[GC (Metadata GC Threshold)  81137K->68021K(413696K), 0.0119610 secs]
+[Full GC (Metadata GC Threshold)  68021K->66521K(167936K), 0.2871900 secs]
+##WORK, 1
+Canonicalizing TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/AnonymousClass/SuperIsMember/Unqualified/TwoLevels/Test.java
+##WORK, 1
+Canonicalizing TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/AnonymousClass/SuperIsMember/Qualified/TwoLevels/Test.java
+##WORK, 1
+Canonicalizing TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/AnonymousClass/SuperIsMember/Unqualified/TwoLevels/TestInstanceInit.java
+##WORK, 1
+Canonicalizing TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/AnonymousClass/SuperIsNotInner/Super.java
+##WORK, 1
+Canonicalizing TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/AnonymousClass/SuperIsNotInner/TestInstanceInit.java
+##WORK, 1
+Canonicalizing TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/AnonymousClass/SuperIsMember/Unqualified/TwoLevels/TestFieldInit.java
+##WORK, 1
+Canonicalizing TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/NewExpression/MemberClass/Unqualified/Outer.java
+##WORK, 1
+Canonicalizing TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/AnonymousClass/SuperIsLocal/ThreeLevels/Local/Outer.java
+##WORK, 1
+Canonicalizing TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/ConstructorCall/Qualified/DoubleNesting/E3.java
+##WORK, 1
+Canonicalizing TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/AnonymousClass/SuperIsLocal/ThreeLevels/Mixed/Outer1.java
+##WORK, 1
+Canonicalizing TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/AnonymousClass/SuperIsMember/Unqualified/OneLevel/Test.java
+##WORK, 1
+Canonicalizing TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/MethodCall/SingleNesting/Outer2.java
+##WORK, 1
+Canonicalizing TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/MethodCall/DoubleNesting/Outer1.java
+##WORK, 1
+Canonicalizing TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/AnonymousClass/SuperIsNotInner/TestFieldInit.java
+##WORK, 1
+Canonicalizing TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/MethodCall/DoubleNesting/E2.java
+##WORK, 1
+Canonicalizing TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/MethodCall/NoNesting/NormalCall.java
+##WORK, 1
+Canonicalizing TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/AnonymousClass/SuperIsLocal/OneLevel/Outer.java
+##WORK, 1
+Canonicalizing TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/ConstructorCall/Qualified/SingleNesting/E2.java
+##WORK, 1
+Canonicalizing TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/ConstructorCall/Qualified/SingleNesting/Outer1.java
+##WORK, 1
+Canonicalizing TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/AnonymousClass/SuperIsMember/Unqualified/OneLevel/TestFieldInit.java
+##WORK, 1
+Canonicalizing TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/MethodCall/SingleNesting/E2.java
+##WORK, 1
+Canonicalizing TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/ConstructorCall/Unqualified/SingleNesting/Outer2.java
+##WORK, 1
+Canonicalizing TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/ConstructorCall/Qualified/DoubleNesting/E2.java
+##WORK, 1
+Canonicalizing TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/NewExpression/MemberClass/Qualified/Outer.java
+##WORK, 1
+Canonicalizing TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/NewExpression/LocalClass/Outer.java
+##WORK, 1
+Canonicalizing TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/AnonymousClass/SuperIsMember/Qualified/OneLevel/Test.java
+##WORK, 1
+Canonicalizing TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/ConstructorCall/Unqualified/SingleNesting/Outer1.java
+##WORK, 1
+Canonicalizing TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/AnonymousClass/SuperIsLocal/TwoLevels/Local/Outer.java
+##WORK, 1
+Canonicalizing TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/AnonymousClass/SuperIsMember/Unqualified/OneLevel/TestInstanceInit.java
+##WORK, 1
+Canonicalizing TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/AnonymousClass/SuperIsLocal/TwoLevels/DirectInner/Outer1.java
+##WORK, 1
+Canonicalizing TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/ConstructorCall/Unqualified/DoubleNesting/Outer1.java
+##WORK, 1
+Canonicalizing TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/MethodCall/SingleNesting/Outer1.java
+##WORK, 1
+Binding = 137 ms
+Cleaned 0 in 10 ms
+##SUBTASK_DONE
+##WORK, 1
+Handling references for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Handling references for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 19 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK_DONE
+##WORK, 1
+Handling references for TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects
+##SUBTASK, Handling references for TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects
+Handling 19 dangling refs for TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects
+##SUBTASK_DONE
+##WORK, 1
+Updated 261 files in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Updated 59 files in TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects
+[GC (System.gc())  77514K->67041K(167936K), 0.0019300 secs]
+[Full GC (System.gc())  67041K->55542K(167936K), 0.0845950 secs]
+Creating drops
+##SUBTASK, Creating drops
+Created binary drop for java.nio.channels.ReadableByteChannel
+Created binary drop for java.security.cert.CertificateException
+Created binary drop for java.security.SignatureException
+Created binary drop for java.net.ContentHandler
+Created binary drop for java.io.IOException
+Created binary drop for java.io.InputStream
+Created binary drop for java.nio.channels.ScatteringByteChannel
+Created binary drop for java.net.URLStreamHandler
+Created source drop for file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/ConstructorCall/Qualified/DoubleNesting/E2.java
+Created binary drop for java.nio.charset.CodingErrorAction
+Created binary drop for java.net.Proxy
+Created binary drop for java.io.PrintWriter
+Created binary drop for java.nio.charset.CharsetDecoder
+Created binary drop for java.lang.CloneNotSupportedException
+Created binary drop for java.net.UnknownHostException
+Created binary drop for java.lang.SecurityException
+Created binary drop for java.util.ResourceBundle
+Created binary drop for sun.reflect.ConstructorAccessor
+Created binary drop for java.util.AbstractList
+Created binary drop for java.lang.reflect.InvocationTargetException
+Created binary drop for java.lang.CharSequence
+Created binary drop for java.util.concurrent.locks.Condition
+Created binary drop for java.nio.file.attribute.UserPrincipal
+Created binary drop for java.nio.Buffer
+Created binary drop for java.util.concurrent.Executor
+Created source drop for file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/AnonymousClass/SuperIsLocal/ThreeLevels/Mixed/Outer1.java
+Created binary drop for java.lang.Byte
+Created source drop for file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/NewExpression/MemberClass/Qualified/Outer.java
+Created binary drop for sun.security.util.Debug
+Created binary drop for java.security.cert.CertPath
+Created binary drop for java.nio.channels.InterruptibleChannel
+Created binary drop for java.security.AccessControlContext
+Created binary drop for java.lang.annotation.Annotation
+Created source drop for file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/AnonymousClass/SuperIsMember/Unqualified/OneLevel/Test.java
+Created binary drop for java.util.concurrent.TimeUnit
+Created binary drop for java.io.Writer
+Created binary drop for java.nio.file.attribute.UserPrincipalLookupService
+Created binary drop for java.lang.Exception
+Created binary drop for java.nio.file.PathMatcher
+Created binary drop for java.util.MissingResourceException
+Created binary drop for java.lang.String
+Created binary drop for java.nio.file.attribute.BasicFileAttributes
+Created binary drop for java.net.InetAddressImpl
+Created binary drop for java.util.concurrent.locks.ReadWriteLock
+Created source drop for file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/NewExpression/LocalClass/Outer.java
+Created binary drop for sun.reflect.LangReflectAccess
+Created binary drop for java.net.UnknownServiceException
+Created binary drop for java.io.FileNotFoundException
+Created binary drop for java.util.spi.LocaleNameProvider
+Created source drop for file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/MethodCall/SingleNesting/Outer2.java
+Created binary drop for java.lang.RuntimeException
+Created binary drop for java.util.zip.Inflater
+Created source drop for file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/AnonymousClass/SuperIsNotInner/Super.java
+Created binary drop for java.util.RandomAccess
+Created binary drop for java.util.zip.InflaterInputStream
+Created binary drop for java.nio.MappedByteBuffer
+Created binary drop for java.io.ObjectStreamException
+Created binary drop for java.util.Deque
+Created binary drop for java.net.URLConnection
+Created binary drop for java.nio.file.Watchable
+Created binary drop for java.util.Collection
+Created binary drop for java.lang.annotation.ElementType
+Created binary drop for java.util.concurrent.Future
+Created binary drop for sun.util.locale.LocaleExtensions
+Created binary drop for sun.util.LocaleServiceProviderPool
+Created binary drop for java.nio.channels.Channel
+Created binary drop for java.nio.file.attribute.FileStoreAttributeView
+Created binary drop for java.lang.StringBuilder
+Created binary drop for java.nio.file.attribute.FileAttributeView
+Created binary drop for sun.reflect.annotation.AnnotationType
+Created binary drop for java.io.Flushable
+Created binary drop for java.util.Queue
+Created binary drop for sun.misc.MetaIndex
+Created binary drop for java.math.BigInteger
+Created binary drop for java.io.FilterOutputStream
+Created binary drop for java.security.NoSuchProviderException
+Created binary drop for java.util.jar.Attributes
+Created binary drop for java.util.AbstractMap
+Created binary drop for java.security.InvalidKeyException
+Created binary drop for java.util.jar.Manifest
+Created source drop for file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/ConstructorCall/Qualified/DoubleNesting/E3.java
+Created source drop for file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/AnonymousClass/SuperIsNotInner/TestInstanceInit.java
+Created binary drop for java.nio.file.attribute.FileAttribute
+Created binary drop for java.util.Random
+Created binary drop for java.net.URI
+Created binary drop for sun.misc.Resource
+Created binary drop for java.lang.Character
+Created binary drop for java.io.FileFilter
+Created source drop for file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/ConstructorCall/Qualified/DoubleNesting/Outer1.java
+Created binary drop for java.nio.channels.CompletionHandler
+Created binary drop for java.util.WeakHashMap
+Created binary drop for java.io.File
+Created binary drop for java.net.InterfaceAddress
+Created source drop for file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/NewExpression/MemberClass/Unqualified/Outer.java
+Created binary drop for java.net.SocketException
+Created binary drop for java.lang.reflect.AnnotatedElement
+Created binary drop for java.security.Permission
+Created binary drop for java.nio.channels.FileLock
+Created binary drop for java.lang.NumberFormatException
+Created binary drop for java.nio.file.LinkOption
+Created source drop for file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/AnonymousClass/SuperIsLocal/ThreeLevels/Local/Outer.java
+Created binary drop for java.nio.charset.Charset
+Created binary drop for java.net.URL
+Created source drop for file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/AnonymousClass/SuperIsNotInner/StaticContext.java
+Created binary drop for java.io.DataOutput
+Created source drop for file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/AnonymousClass/SuperIsLocal/ThreeLevels/DirectInner/Outer1.java
+Created binary drop for java.security.CodeSigner
+Created binary drop for java.io.Closeable
+Created binary drop for java.nio.channels.SeekableByteChannel
+Created binary drop for java.security.Principal
+Created binary drop for java.lang.reflect.TypeVariable
+Created binary drop for java.lang.Void
+Created binary drop for sun.util.resources.OpenListResourceBundle
+Created binary drop for java.nio.file.Path
+Created binary drop for java.lang.IllegalAccessException
+Created binary drop for java.io.FilterInputStream
+Created binary drop for java.nio.channels.WritableByteChannel
+Created binary drop for java.lang.Short
+Created binary drop for java.lang.Appendable
+Created binary drop for java.util.Map
+Created binary drop for java.lang.ref.SoftReference
+Created binary drop for sun.util.locale.ParseStatus
+Created binary drop for sun.reflect.ConstantPool
+Created binary drop for java.lang.NoSuchFieldException
+Created binary drop for java.util.concurrent.ConcurrentMap
+Created binary drop for java.lang.Boolean
+Created binary drop for java.security.AccessControlException
+Created binary drop for java.lang.annotation.RetentionPolicy
+Created binary drop for java.nio.channels.AsynchronousFileChannel
+Created binary drop for java.security.ProtectionDomain
+Created binary drop for java.lang.Readable
+Created binary drop for java.lang.Enum
+Created binary drop for java.nio.file.attribute.FileTime
+Created binary drop for java.nio.ByteOrder
+Created binary drop for sun.reflect.MethodAccessor
+Created binary drop for java.lang.reflect.Constructor
+Created source drop for file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/AnonymousClass/SuperIsMember/Unqualified/TwoLevels/Test.java
+Created binary drop for java.security.CodeSource
+Created binary drop for java.lang.Iterable
+Created binary drop for java.lang.annotation.Documented
+Created binary drop for java.io.UnsupportedEncodingException
+Created binary drop for java.util.Comparator
+Created binary drop for java.net.URLStreamHandlerFactory
+Created binary drop for java.lang.Object
+Created binary drop for java.nio.file.OpenOption
+Created binary drop for java.lang.Double
+Created binary drop for java.lang.ReflectiveOperationException
+Created binary drop for java.util.Locale
+Created binary drop for sun.util.locale.Extension
+Created binary drop for java.util.AbstractSequentialList
+Created binary drop for java.util.concurrent.Callable
+Created binary drop for java.nio.file.spi.FileSystemProvider
+Created binary drop for sun.util.locale.LanguageTag
+Created binary drop for java.lang.Throwable
+Created binary drop for java.util.Dictionary
+Created binary drop for java.lang.Number
+Created binary drop for java.nio.IntBuffer
+Created source drop for file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/AnonymousClass/SuperIsMember/Qualified/TwoLevels/Test.java
+Created binary drop for java.net.ContentHandlerFactory
+Created binary drop for sun.util.locale.LocaleObjectCache
+Created binary drop for java.nio.channels.ByteChannel
+Created binary drop for java.util.AbstractCollection
+Created source drop for file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/AnonymousClass/SuperIsNotInner/Test.java
+Created binary drop for java.util.SortedMap
+Created binary drop for java.nio.file.FileSystem
+Created binary drop for java.security.PublicKey
+Created binary drop for java.nio.channels.FileChannel
+Created binary drop for java.util.AbstractSet
+Created binary drop for java.lang.Float
+Created binary drop for java.lang.reflect.AccessibleObject
+Created binary drop for java.lang.ClassValue
+Created binary drop for java.nio.file.DirectoryStream
+Created binary drop for java.security.KeyException
+Created binary drop for java.util.ArrayList
+Created binary drop for sun.reflect.CallerSensitive
+Created binary drop for java.lang.ThreadGroup
+Created binary drop for java.lang.annotation.Target
+Created binary drop for java.io.FilenameFilter
+Created source drop for file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/AnonymousClass/SuperIsNotInner/TestFieldInit.java
+Created binary drop for sun.util.locale.InternalLocaleBuilder
+Created binary drop for java.util.jar.JarFile
+Created source drop for file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/MethodCall/DoubleNesting/Outer1.java
+Created source drop for file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/AnonymousClass/SuperIsMember/Unqualified/TwoLevels/TestInstanceInit.java
+Created binary drop for java.io.OutputStream
+Created binary drop for java.nio.channels.AsynchronousChannel
+Created binary drop for sun.reflect.FieldAccessor
+Created binary drop for sun.reflect.ReflectionFactory
+Created binary drop for java.io.FileDescriptor
+Created binary drop for java.nio.channels.ClosedChannelException
+Created binary drop for java.util.Iterator
+Created binary drop for java.lang.Integer
+Created binary drop for java.lang.Long
+Created binary drop for java.net.SocketAddress
+Created binary drop for com.surelogic.RegionEffects
+Created binary drop for java.util.zip.ZipConstants
+Created binary drop for java.nio.file.WatchService
+Created binary drop for java.net.MalformedURLException
+Created binary drop for java.security.PermissionCollection
+Created binary drop for java.nio.ShortBuffer
+Created binary drop for java.lang.ThreadLocal
+Created binary drop for java.io.Serializable
+Created binary drop for java.nio.FloatBuffer
+Created binary drop for java.lang.Runnable
+Created binary drop for java.util.zip.ZipException
+Created binary drop for java.util.concurrent.ExecutorService
+Created binary drop for java.io.SyncFailedException
+Created binary drop for java.util.Vector
+Created binary drop for java.nio.charset.CoderResult
+Created source drop for file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/AnonymousClass/SuperIsMember/Unqualified/TwoLevels/TestFieldInit.java
+Created binary drop for java.lang.reflect.Method
+Created binary drop for java.security.Guard
+Created binary drop for java.nio.file.attribute.GroupPrincipal
+Created source drop for file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/AnonymousClass/SuperIsMember/Qualified/OneLevel/Test.java
+Created binary drop for java.net.URISyntaxException
+Created binary drop for java.lang.reflect.Member
+Created binary drop for java.util.LinkedList
+Created binary drop for java.nio.charset.CharsetEncoder
+Created source drop for file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/MethodCall/DoubleNesting/E2.java
+Created binary drop for java.security.cert.Certificate
+Created binary drop for sun.misc.URLClassPath
+Created binary drop for java.nio.file.WatchKey
+Created binary drop for java.net.FileNameMap
+Created source drop for file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/ConstructorCall/Qualified/SingleNesting/Outer1.java
+Created binary drop for java.lang.Comparable
+Created source drop for file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/AnonymousClass/SuperIsLocal/TwoLevels/Local/Outer.java
+Created binary drop for java.lang.Package
+Created binary drop for java.util.spi.LocaleServiceProvider
+Created binary drop for java.lang.AbstractStringBuilder
+Created binary drop for java.security.Key
+Created binary drop for java.security.DomainCombiner
+Created binary drop for java.nio.CharBuffer
+Created binary drop for java.security.cert.CertificateEncodingException
+Created binary drop for java.io.PrintStream
+Created source drop for file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/ConstructorCall/Qualified/SingleNesting/E2.java
+Created binary drop for java.nio.file.CopyOption
+Created binary drop for java.util.HashMap
+Created binary drop for java.nio.ByteBuffer
+Created binary drop for java.lang.Cloneable
+Created binary drop for java.security.GeneralSecurityException
+Created binary drop for java.net.NetworkInterface
+Created binary drop for java.io.DataOutputStream
+Created binary drop for java.lang.InstantiationException
+Created source drop for file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/AnonymousClass/SuperIsMember/Unqualified/OneLevel/TestFieldInit.java
+Created binary drop for java.lang.ref.Reference
+Created binary drop for java.lang.ref.WeakReference
+Created binary drop for java.util.Stack
+Created source drop for file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/ConstructorCall/Unqualified/SingleNesting/Outer1.java
+Created binary drop for java.lang.AutoCloseable
+Created binary drop for java.lang.ref.ReferenceQueue
+Created source drop for file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/AnonymousClass/SuperIsLocal/OneLevel/Outer.java
+Created binary drop for sun.nio.ch.Interruptible
+Created binary drop for java.lang.annotation.Retention
+Created binary drop for java.nio.file.WatchEvent
+Created binary drop for sun.util.locale.BaseLocale
+Created binary drop for sun.misc.JarIndex
+Created binary drop for java.lang.StackTraceElement
+Created binary drop for java.util.Set
+Created binary drop for java.nio.channels.spi.AbstractInterruptibleChannel
+Created binary drop for java.util.List
+Created binary drop for java.net.InetAddress
+Created binary drop for java.lang.Thread
+Created source drop for file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/AnonymousClass/SuperIsMember/Unqualified/OneLevel/TestInstanceInit.java
+Created binary drop for java.lang.reflect.Type
+Created binary drop for java.lang.Class
+Created binary drop for sun.util.locale.LocaleSyntaxException
+Created binary drop for java.nio.file.AccessMode
+Created binary drop for java.lang.reflect.GenericDeclaration
+Created binary drop for java.lang.IllegalArgumentException
+Created binary drop for java.util.Hashtable
+Created binary drop for java.lang.StringBuffer
+Created binary drop for java.util.zip.ZipEntry
+Created binary drop for java.lang.InterruptedException
+Created source drop for file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/AnonymousClass/SuperIsLocal/TwoLevels/DirectInner/Outer1.java
+Created source drop for file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/ConstructorCall/Unqualified/DoubleNesting/Outer1.java
+Created binary drop for java.nio.file.FileStore
+Created binary drop for java.lang.ClassLoader
+Created binary drop for java.nio.channels.AsynchronousCloseException
+Created binary drop for java.util.Date
+Created binary drop for java.util.ListIterator
+Created source drop for file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/MethodCall/SingleNesting/E2.java
+Created binary drop for java.util.concurrent.locks.Lock
+Created binary drop for java.util.zip.ZipFile
+Created binary drop for java.nio.DoubleBuffer
+Created binary drop for java.security.Timestamp
+Created binary drop for java.nio.channels.GatheringByteChannel
+Created binary drop for java.nio.LongBuffer
+Created binary drop for java.nio.file.attribute.AttributeView
+Created binary drop for java.util.Enumeration
+Created binary drop for java.lang.reflect.Field
+Created source drop for file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/MethodCall/NoNesting/NormalCall.java
+Created source drop for file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/ConstructorCall/Unqualified/SingleNesting/Outer2.java
+Created binary drop for java.security.NoSuchAlgorithmException
+Created binary drop for java.nio.charset.CharacterCodingException
+Created binary drop for java.lang.Deprecated
+Created source drop for file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/MethodCall/SingleNesting/Outer1.java
+Created binary drop for java.security.PrivilegedAction
+Created binary drop for java.util.zip.DataFormatException
+Created binary drop for java.util.jar.JarEntry
+##SUBTASK_DONE
+##WORK, 1
+Parsing promises
+##SUBTASK, Parsing promises
+Added 3 promises for java.lang.[] in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@799f7e29
+Added 3 promises for java.lang.[] in TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects: com.surelogic.tree.SyntaxTreeNode@50eb4a2c
+Added 12 promises for java.lang.CharSequence in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@46e309b7
+Added 3 promises for test.ConstructorCall.Qualified.DoubleNesting.Outer1 in TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects: com.surelogic.tree.SyntaxTreeNode@6443d93d
+Added 6 promises for java.lang.IllegalAccessException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@85116c1
+Added 12 promises for java.lang.reflect.InvocationTargetException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@12624678
+Added 3 promises for java.lang.Iterable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@57efbed9
+Added 7 promises for test.AnonymousClass.SuperIsMember.Unqualified.OneLevel.Test in TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects: com.surelogic.tree.SyntaxTreeNode@1234d039
+Added 7 promises for test.AnonymousClass.SuperIsNotInner.StaticContext in TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects: com.surelogic.tree.SyntaxTreeNode@6ba5b7fc
+Added 59 promises for java.lang.Byte in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7f6fd4a
+Added 7 promises for java.util.concurrent.locks.ReadWriteLock in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7e815f31
+Added 70 promises for java.lang.Double in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@637ecb67
+Added 45 promises for java.util.ResourceBundle in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4c47edb3
+Added 7 promises for test.AnonymousClass.SuperIsMember.Unqualified.TwoLevels.Test in TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects: com.surelogic.tree.SyntaxTreeNode@12101e7e
+Added 2 promises for test.MethodCall.SingleNesting.Outer2 in TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects: com.surelogic.tree.SyntaxTreeNode@5f11ff64
+Added 108 promises for java.util.AbstractMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@e8e4c1c
+Added 60 promises for java.util.AbstractList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2787f755
+Added 64 promises for java.util.Map in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@ce5924d
+Added 4 promises for test.AnonymousClass.SuperIsNotInner.Test in TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects: com.surelogic.tree.SyntaxTreeNode@48eed7ad
+Added 3 promises for java.util.Locale in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7be6d2ad
+Added 3 promises for java.nio.file.Path in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@282dd87f
+Added 87 promises for java.util.Deque in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@124ab8ed
+Added 29 promises for java.util.AbstractSequentialList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4d30ef99
+Added 3 promises for java.util.jar.Manifest in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@fce6221
+Added 29 promises for java.util.concurrent.TimeUnit in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2a549d6c
+Added 37 promises for java.lang.Boolean in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@48ca80a3
+Added 17 promises for java.util.concurrent.ConcurrentMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@76ff8630
+Added 7 promises for test.AnonymousClass.SuperIsMember.Qualified.TwoLevels.Test in TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects: com.surelogic.tree.SyntaxTreeNode@72d3334b
+Added 96 promises for java.lang.Integer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@b45a49d
+Added 5 promises for test.AnonymousClass.SuperIsLocal.ThreeLevels.DirectInner.Outer1 in TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects: com.surelogic.tree.SyntaxTreeNode@5e10578d
+Added 73 promises for java.lang.Float in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@584d3673
+Added 31 promises for java.util.SortedMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@60807b0f
+Added 22 promises for java.util.concurrent.locks.Condition in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@49cb33dc
+Added 3 promises for java.nio.file.DirectoryStream in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2ebc7b2d
+Added 4 promises for test.AnonymousClass.SuperIsMember.Unqualified.TwoLevels.TestInstanceInit in TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects: com.surelogic.tree.SyntaxTreeNode@7e8bb802
+Added 3 promises for test.AnonymousClass.SuperIsNotInner.TestFieldInit in TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects: com.surelogic.tree.SyntaxTreeNode@2be54f05
+Added 12 promises for java.lang.RuntimeException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7c07dd7
+Added 301 promises for java.lang.String in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@437d06aa
+Added 1 promises for test.AnonymousClass.SuperIsNotInner.Super in TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects: com.surelogic.tree.SyntaxTreeNode@6ad08f3a
+Added 31 promises for java.lang.Object in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@1f8defc4
+Added 7 promises for test.MethodCall.DoubleNesting.Outer1 in TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects: com.surelogic.tree.SyntaxTreeNode@5eef36d8
+Added 47 promises for java.lang.Throwable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@696763c4
+Added 1 promises for test.ConstructorCall.Qualified.DoubleNesting.E3 in TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects: com.surelogic.tree.SyntaxTreeNode@3cf59982
+Added 88 promises for java.util.jar.Attributes in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@217662f8
+Added 29 promises for java.util.Dictionary in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2611e52e
+Added 6 promises for java.util.Iterator in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@29ac15f2
+Added 6 promises for java.io.PrintWriter in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7201c652
+Added 1 promises for test.ConstructorCall.Qualified.DoubleNesting.E2 in TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects: com.surelogic.tree.SyntaxTreeNode@639d5e47
+Added 6 promises for java.lang.CloneNotSupportedException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@53e01215
+Added 3 promises for test.AnonymousClass.SuperIsNotInner.TestInstanceInit in TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects: com.surelogic.tree.SyntaxTreeNode@ca6c58d
+Added 55 promises for java.util.AbstractCollection in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3fa98f7f
+Added 12 promises for java.lang.SecurityException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3891513f
+Added 96 promises for java.lang.Long in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@64a20d35
+Added 1 promises for java.lang.ThreadLocal in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@67085f5
+Added 18 promises for test.NewExpression.MemberClass.Qualified.Outer in TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects: com.surelogic.tree.SyntaxTreeNode@2cc07b55
+Added 109 promises for java.lang.StringBuilder in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@558b723
+Added 5 promises for test.AnonymousClass.SuperIsLocal.ThreeLevels.Mixed.Outer1 in TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects: com.surelogic.tree.SyntaxTreeNode@6550b2f9
+Added 2 promises for test.MethodCall.DoubleNesting.E2 in TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects: com.surelogic.tree.SyntaxTreeNode@fbdde69
+Added 56 promises for java.util.WeakHashMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@59a91b35
+Added 6 promises for java.io.Writer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3e0b3378
+Added 18 promises for java.util.Queue in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@27fcbfd0
+Added 6 promises for java.lang.NumberFormatException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2d3ceb44
+WARNING: TreeAccessor couldn't find equals(java.lang.Object) in java.util.ArrayList
+WARNING: TreeAccessor couldn't find hashCode() in java.util.ArrayList
+Added 20 promises for test.NewExpression.LocalClass.Outer in TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects: com.surelogic.tree.SyntaxTreeNode@15e56682
+Added 10 promises for test.NewExpression.MemberClass.Unqualified.Outer in TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects: com.surelogic.tree.SyntaxTreeNode@4cf4b626
+Added 12 promises for java.lang.Exception in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4fd3deda
+Added 104 promises for java.util.ArrayList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@1146725d
+[GC (Allocation Failure)  130294K->59966K(175104K), 0.0064740 secs]
+Added 6 promises for java.lang.Appendable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@67c56947
+Added 2 promises for java.lang.ref.SoftReference in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2a58b668
+Added 22 promises for java.lang.Number in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@617b5afa
+Added 5 promises for test.AnonymousClass.SuperIsLocal.ThreeLevels.Local.Outer in TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects: com.surelogic.tree.SyntaxTreeNode@77f7233c
+Added 16 promises for java.util.AbstractSet in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2f304802
+Added 13 promises for java.lang.Enum in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@d654499
+Added 54 promises for java.util.Collection in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4840ebec
+Added 4 promises for test.AnonymousClass.SuperIsMember.Unqualified.TwoLevels.TestFieldInit in TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects: com.surelogic.tree.SyntaxTreeNode@667fb7cb
+Added 144 promises for java.lang.AbstractStringBuilder in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@193ca469
+Added 18 promises for java.net.URISyntaxException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@43c4dc9b
+Added 138 promises for java.math.BigInteger in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@306f717b
+Added 34 promises for java.util.concurrent.ExecutorService in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@26670572
+Added 7 promises for test.AnonymousClass.SuperIsMember.Qualified.OneLevel.Test in TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects: com.surelogic.tree.SyntaxTreeNode@641a768
+Added 12 promises for java.lang.Class in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@1b86b86f
+Added 4 promises for test.ConstructorCall.Unqualified.SingleNesting.Outer1 in TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects: com.surelogic.tree.SyntaxTreeNode@5c907c4d
+Added 18 promises for java.nio.CharBuffer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3c13278c
+Added 6 promises for java.lang.InterruptedException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@32a16015
+Added 139 promises for java.util.LinkedList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2057b8af
+Added 1 promises for test.ConstructorCall.Qualified.SingleNesting.Outer1 in TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects: com.surelogic.tree.SyntaxTreeNode@558bdc30
+Added 3 promises for java.util.Date in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@5c7e0e81
+Added 61 promises for java.util.HashMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3be505e3
+Added 83 promises for java.util.Hashtable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@75ec46eb
+Added 6 promises for java.io.PrintStream in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@67a27d22
+Added 6 promises for java.lang.InstantiationException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6813d22d
+Added 61 promises for java.lang.Short in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@223525e8
+Added 6 promises for java.lang.NoSuchFieldException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7d582901
+Added 4 promises for test.AnonymousClass.SuperIsMember.Unqualified.OneLevel.TestFieldInit in TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects: com.surelogic.tree.SyntaxTreeNode@4899cb09
+Added 3 promises for java.util.zip.ZipEntry in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@48a14f4f
+Added 158 promises for java.lang.StringBuffer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@33a987ec
+Added 21 promises for java.util.Stack in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@1e67b52b
+Added 2 promises for test.MethodCall.SingleNesting.E2 in TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects: com.surelogic.tree.SyntaxTreeNode@324d5486
+Added 5 promises for test.AnonymousClass.SuperIsLocal.OneLevel.Outer in TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects: com.surelogic.tree.SyntaxTreeNode@325ca77d
+Added 2 promises for test.ConstructorCall.Unqualified.SingleNesting.Outer2 in TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects: com.surelogic.tree.SyntaxTreeNode@3c1ef12a
+Added 2 promises for test.MethodCall.NoNesting.NormalCall in TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects: com.surelogic.tree.SyntaxTreeNode@2f3e84e
+Added 1 promises for java.lang.ref.ReferenceQueue in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@62998beb
+Added 1 promises for test.ConstructorCall.Qualified.SingleNesting.E2 in TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects: com.surelogic.tree.SyntaxTreeNode@6ee55b07
+Added 4 promises for test.ConstructorCall.Unqualified.DoubleNesting.Outer1 in TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects: com.surelogic.tree.SyntaxTreeNode@6d42dd94
+Added 89 promises for java.util.List in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@1a2656ca
+Added 18 promises for java.util.ListIterator in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@221cd580
+Added 170 promises for java.util.Vector in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@65c46ddb
+Added 141 promises for java.lang.Thread in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@33f1401c
+Added 20 promises for java.util.concurrent.locks.Lock in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@13867a2
+Added 54 promises for java.util.Set in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@38428d1f
+Added 12 promises for java.lang.IllegalArgumentException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3708386b
+Added 4 promises for java.util.Enumeration in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@546e51d7
+Added 4 promises for test.AnonymousClass.SuperIsMember.Unqualified.OneLevel.TestInstanceInit in TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects: com.surelogic.tree.SyntaxTreeNode@3f2f9bdb
+Added 5 promises for test.AnonymousClass.SuperIsLocal.TwoLevels.DirectInner.Outer1 in TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects: com.surelogic.tree.SyntaxTreeNode@5966b382
+Added 5 promises for test.AnonymousClass.SuperIsLocal.TwoLevels.Local.Outer in TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects: com.surelogic.tree.SyntaxTreeNode@1cdd457e
+Added 5 promises for test.MethodCall.SingleNesting.Outer1 in TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects: com.surelogic.tree.SyntaxTreeNode@35892819
+##SUBTASK_DONE
+##WORK, 1
+Scrubbing promises
+##SUBTASK, Scrubbing promises
+Creating RegionModel java.lang.Object.Instance for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+[GC (Allocation Failure)  144958K->63398K(177152K), 0.0086120 secs]
+##SUBTASK_DONE
+##WORK, 1
+Starting analyses
+Using new analysis framework -- groups
+Starting group: ThreadEffectsModule, ParameterizedTypeAnalysis
+##SUBTASK, Starting parallel ThreadEffectsModule [0]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel ThreadEffectsModule [0]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Starting parallel ParameterizedTypeAnalysis [1]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel ParameterizedTypeAnalysis [1]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Starting parallel ThreadEffectsModule [0]: 36 for TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects
+Starting parallel ThreadEffectsModule [0]: 36 for TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects
+##SUBTASK, Starting parallel ParameterizedTypeAnalysis [1]: 36 for TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects
+Starting parallel ParameterizedTypeAnalysis [1]: 36 for TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/ConstructorCall/Unqualified/SingleNesting/Outer1.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/NewExpression/LocalClass/Outer.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/AnonymousClass/SuperIsNotInner/TestInstanceInit.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/ConstructorCall/Qualified/DoubleNesting/E2.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/ConstructorCall/Unqualified/DoubleNesting/Outer1.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/MethodCall/DoubleNesting/Outer1.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/MethodCall/NoNesting/NormalCall.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/AnonymousClass/SuperIsNotInner/Super.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/ConstructorCall/Qualified/DoubleNesting/E2.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/AnonymousClass/SuperIsNotInner/Super.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/MethodCall/NoNesting/NormalCall.java
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/AnonymousClass/SuperIsNotInner/TestInstanceInit.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/ConstructorCall/Unqualified/DoubleNesting/Outer1.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/MethodCall/DoubleNesting/Outer1.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/AnonymousClass/SuperIsLocal/ThreeLevels/Mixed/Outer1.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/NewExpression/LocalClass/Outer.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/ConstructorCall/Unqualified/SingleNesting/Outer1.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/NewExpression/MemberClass/Unqualified/Outer.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/MethodCall/SingleNesting/E2.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/MethodCall/SingleNesting/E2.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/AnonymousClass/SuperIsLocal/OneLevel/Outer.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/ConstructorCall/Unqualified/SingleNesting/Outer2.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/ConstructorCall/Unqualified/SingleNesting/Outer2.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/NewExpression/MemberClass/Unqualified/Outer.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/AnonymousClass/SuperIsLocal/ThreeLevels/Mixed/Outer1.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/AnonymousClass/SuperIsLocal/OneLevel/Outer.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/MethodCall/SingleNesting/Outer1.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/ConstructorCall/Qualified/DoubleNesting/Outer1.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/ConstructorCall/Qualified/DoubleNesting/Outer1.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/AnonymousClass/SuperIsMember/Unqualified/TwoLevels/TestInstanceInit.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/MethodCall/SingleNesting/Outer1.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/MethodCall/SingleNesting/Outer2.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/AnonymousClass/SuperIsLocal/ThreeLevels/Local/Outer.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/NewExpression/MemberClass/Qualified/Outer.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/MethodCall/SingleNesting/Outer2.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/AnonymousClass/SuperIsMember/Unqualified/TwoLevels/TestInstanceInit.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/AnonymousClass/SuperIsMember/Unqualified/OneLevel/TestInstanceInit.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/AnonymousClass/SuperIsMember/Unqualified/TwoLevels/TestFieldInit.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/ConstructorCall/Qualified/DoubleNesting/E3.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/AnonymousClass/SuperIsMember/Unqualified/OneLevel/TestInstanceInit.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/MethodCall/DoubleNesting/E2.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/NewExpression/MemberClass/Qualified/Outer.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/MethodCall/DoubleNesting/E2.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/ConstructorCall/Qualified/DoubleNesting/E3.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/AnonymousClass/SuperIsLocal/ThreeLevels/Local/Outer.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/AnonymousClass/SuperIsMember/Unqualified/TwoLevels/TestFieldInit.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/ConstructorCall/Qualified/SingleNesting/Outer1.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/AnonymousClass/SuperIsMember/Qualified/OneLevel/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/AnonymousClass/SuperIsLocal/ThreeLevels/DirectInner/Outer1.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/AnonymousClass/SuperIsLocal/TwoLevels/Local/Outer.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/AnonymousClass/SuperIsMember/Qualified/OneLevel/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/AnonymousClass/SuperIsMember/Unqualified/OneLevel/Test.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/AnonymousClass/SuperIsNotInner/StaticContext.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/AnonymousClass/SuperIsLocal/ThreeLevels/DirectInner/Outer1.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/ConstructorCall/Qualified/SingleNesting/Outer1.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/AnonymousClass/SuperIsLocal/TwoLevels/Local/Outer.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/AnonymousClass/SuperIsNotInner/StaticContext.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/AnonymousClass/SuperIsMember/Unqualified/OneLevel/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/AnonymousClass/SuperIsLocal/TwoLevels/DirectInner/Outer1.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/AnonymousClass/SuperIsMember/Qualified/TwoLevels/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/AnonymousClass/SuperIsMember/Unqualified/TwoLevels/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/AnonymousClass/SuperIsLocal/TwoLevels/DirectInner/Outer1.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/ConstructorCall/Qualified/SingleNesting/E2.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/ConstructorCall/Qualified/SingleNesting/E2.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/AnonymousClass/SuperIsMember/Qualified/TwoLevels/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/AnonymousClass/SuperIsMember/Unqualified/TwoLevels/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/AnonymousClass/SuperIsMember/Unqualified/OneLevel/TestFieldInit.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/AnonymousClass/SuperIsNotInner/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/AnonymousClass/SuperIsNotInner/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/AnonymousClass/SuperIsMember/Unqualified/OneLevel/TestFieldInit.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/AnonymousClass/SuperIsNotInner/TestFieldInit.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects/src/test/AnonymousClass/SuperIsNotInner/TestFieldInit.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+Starting group: LockAnalysis, EffectsAnalysis
+com.surelogic.analysis.uniqueness.classic.sideeffecting.UniquenessAnalysisModule$1@5b37e0d2: 0
+com.surelogic.analysis.visitors.TopLevelAnalysisVisitor$1@69663380: 218
+##SUBTASK, Starting parallel LockAnalysis [2]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel LockAnalysis [2]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Looking at @RegionLock("MUTEX is this protects WaitQueue") on Object
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@5403038e on java.lang.Object
+##SUBTASK, Starting parallel EffectsAnalysis [3]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel EffectsAnalysis [3]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+[GC (Allocation Failure)  148390K->65118K(186880K), 0.0100190 secs]
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Starting parallel LockAnalysis [2]: 218 for TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects
+Starting parallel LockAnalysis [2]: 218 for TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects
+Looking at @RegionLock("MUTEX is this protects WaitQueue") on Object
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@5403038e on java.lang.Object
+##SUBTASK, Starting parallel EffectsAnalysis [3]: 218 for TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects
+Starting parallel EffectsAnalysis [3]: 218 for TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects
+##SUBTASK, Checking [ Lock policy ] test.ConstructorCall.Qualified.DoubleNesting.E2
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsMember.Unqualified.TwoLevels.Test
+##SUBTASK, Checking [ Lock policy ] test.NewExpression.MemberClass.Unqualified.Outer.Static1.Outer2.Middle
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsNotInner.StaticContext.ACE #1
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsMember.Qualified.TwoLevels.Test.Container.ACE #0
+##SUBTASK, Checking [ Lock policy ] test.ConstructorCall.Qualified.DoubleNesting.Outer1.E1
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsLocal.TwoLevels.Local.Outer
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsLocal.ThreeLevels.DirectInner.Outer1.Outer2.Outer3$Super
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsMember.Qualified.TwoLevels.Test.Container.ACE #0
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsMember.Qualified.TwoLevels.Test.Container.ACE #1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsMember.Qualified.TwoLevels.Test.Container.ACE #1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsMember.Qualified.TwoLevels.Test.Container.Middle1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsMember.Unqualified.TwoLevels.Test
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsLocal.TwoLevels.Local.Outer
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsNotInner.StaticContext.ACE #1
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsMember.Unqualified.TwoLevels.Test.Container
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsLocal.TwoLevels.Local.Outer$OuterLocal
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsNotInner.StaticContext.ACE #2
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsNotInner.StaticContext.ACE #2
+##SUBTASK, Checking [ Region effects ] test.NewExpression.MemberClass.Unqualified.Outer.Static1.Outer2.Middle
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsNotInner.StaticContext.Subclass
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsNotInner.StaticContext.Subclass
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsLocal.ThreeLevels.DirectInner.Outer1.Outer2.Outer3$Super
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsLocal.TwoLevels.Local.Outer$OuterLocal
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.NewExpression.MemberClass.Unqualified.Outer.Static1.Outer2.Middle.Inner
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsMember.Unqualified.TwoLevels.Test.Container
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsNotInner.StaticContext.Subclass.ACE #3
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsNotInner.StaticContext.Subclass.ACE #3
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsLocal.ThreeLevels.DirectInner.Outer1
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsLocal.ThreeLevels.DirectInner.Outer1
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsLocal.TwoLevels.Local.Outer$OuterLocal$Super
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsLocal.ThreeLevels.DirectInner.Outer1.Outer2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsLocal.ThreeLevels.DirectInner.Outer1.Outer2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.NewExpression.MemberClass.Unqualified.Outer.Static1.Outer2.Middle.Inner
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsLocal.ThreeLevels.DirectInner.Outer1.Outer2.Outer3
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsMember.Unqualified.TwoLevels.Test.Container.Super
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsLocal.ThreeLevels.DirectInner.Outer1.Outer2.Outer3$Super.ACE #0
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsLocal.ThreeLevels.DirectInner.Outer1.Outer2.Outer3$Super.ACE #0
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsLocal.ThreeLevels.DirectInner.Outer1.Outer2.Outer3.ACE #1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsLocal.ThreeLevels.DirectInner.Outer1.Outer2.Outer3
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsLocal.ThreeLevels.DirectInner.Outer1.Outer2.Outer3.ACE #1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsLocal.ThreeLevels.DirectInner.Outer1.Outer2.Outer3$Middle1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsLocal.TwoLevels.Local.Outer$OuterLocal$Super
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsLocal.ThreeLevels.Local.Outer
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsMember.Unqualified.TwoLevels.Test.Container.Super
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsLocal.ThreeLevels.Local.Outer
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsLocal.ThreeLevels.Local.Outer$OuterLocal1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsMember.Unqualified.TwoLevels.Test.Container.ACE #0
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsLocal.ThreeLevels.Local.Outer$OuterLocal1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsMember.Unqualified.TwoLevels.Test.Container.ACE #0
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsMember.Unqualified.TwoLevels.Test.Container.ACE #1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsMember.Unqualified.TwoLevels.Test.Container.ACE #1
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsMember.Unqualified.TwoLevels.Test.Container.Middle1
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsLocal.ThreeLevels.Local.Outer$OuterLocal1$OuterLocal2
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsLocal.ThreeLevels.DirectInner.Outer1.Outer2.Outer3$Middle1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsLocal.TwoLevels.Local.Outer$OuterLocal$Super.ACE #0
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsLocal.TwoLevels.Local.Outer$OuterLocal$Super.ACE #0
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsLocal.TwoLevels.Local.Outer$OuterLocal.ACE #1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsLocal.TwoLevels.Local.Outer$OuterLocal.ACE #1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsLocal.TwoLevels.Local.Outer$OuterLocal$Middle1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsLocal.ThreeLevels.Local.Outer$OuterLocal1$OuterLocal2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsMember.Unqualified.TwoLevels.Test.Container.Middle1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsLocal.TwoLevels.Local.Outer$OuterLocal$Middle1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsLocal.ThreeLevels.DirectInner.Outer1.Outer2.Outer3$Middle1.ACE #2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsLocal.ThreeLevels.DirectInner.Outer1.Outer2.Outer3$Middle1.ACE #2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsLocal.ThreeLevels.DirectInner.Outer1.Outer2.Outer3$Middle1.Middle2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsLocal.ThreeLevels.Local.Outer$OuterLocal1$OuterLocal2$Super
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsMember.Unqualified.TwoLevels.Test.Container.Middle1.ACE #2
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsMember.Unqualified.TwoLevels.Test.Container.Middle1.ACE #2
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsLocal.TwoLevels.Local.Outer$OuterLocal$Middle1.ACE #2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsMember.Unqualified.TwoLevels.Test.Container.Middle1.ACE #3
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsLocal.TwoLevels.Local.Outer$OuterLocal$Middle1.ACE #2
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsLocal.TwoLevels.Local.Outer$OuterLocal$Middle1.Middle2
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsMember.Unqualified.TwoLevels.Test.Container.Middle1.ACE #3
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsMember.Unqualified.TwoLevels.Test.Container.Middle1.Middle2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsLocal.ThreeLevels.DirectInner.Outer1.Outer2.Outer3$Middle1.Middle2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsLocal.TwoLevels.Local.Outer$OuterLocal$Middle1.Middle2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsLocal.ThreeLevels.Local.Outer$OuterLocal1$OuterLocal2$Super
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsLocal.ThreeLevels.DirectInner.Outer1.Outer2.Outer3$Middle1.Middle2.ACE #3
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsMember.Unqualified.TwoLevels.Test.Container.Middle1.Middle2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsLocal.ThreeLevels.DirectInner.Outer1.Outer2.Outer3$Middle1.Middle2.ACE #3
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsNotInner.TestInstanceInit.Middle1.Middle2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsLocal.TwoLevels.Local.Outer$OuterLocal$Middle1.Middle2.ACE #3
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsLocal.TwoLevels.Local.Outer$OuterLocal$Middle1.Middle2.ACE #3
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.ConstructorCall.Qualified.SingleNesting.E2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsLocal.ThreeLevels.Local.Outer$OuterLocal1$OuterLocal2$Super.ACE #0
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsLocal.ThreeLevels.Local.Outer$OuterLocal1$OuterLocal2$Super.ACE #0
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsLocal.ThreeLevels.Local.Outer$OuterLocal1$OuterLocal2.ACE #1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsLocal.ThreeLevels.Local.Outer$OuterLocal1$OuterLocal2.ACE #1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsLocal.ThreeLevels.Local.Outer$OuterLocal1$OuterLocal2$Middle1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsMember.Unqualified.TwoLevels.Test.Container.Middle1.Middle2.ACE #4
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsMember.Unqualified.TwoLevels.Test.Container.Middle1.Middle2.ACE #4
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsMember.Unqualified.TwoLevels.Test.Container.Middle1.Middle2.ACE #5
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsMember.Unqualified.TwoLevels.Test.Container.Middle1.Middle2.ACE #5
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsMember.Qualified.TwoLevels.Test
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsMember.Qualified.TwoLevels.Test
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsMember.Qualified.TwoLevels.Test.Container
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.ConstructorCall.Qualified.SingleNesting.E2
+##SUBTASK, Checking [ Region effects ] test.ConstructorCall.Qualified.DoubleNesting.E2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsLocal.ThreeLevels.Local.Outer$OuterLocal1$OuterLocal2$Middle1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsMember.Unqualified.OneLevel.TestFieldInit
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsLocal.ThreeLevels.Mixed.Outer1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsLocal.ThreeLevels.Mixed.Outer1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsLocal.ThreeLevels.Mixed.Outer1.Outer2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsLocal.ThreeLevels.Mixed.Outer1.Outer2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsLocal.ThreeLevels.Mixed.Outer1.Outer2$OuterLocal
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsMember.Unqualified.OneLevel.TestFieldInit
+##SUBTASK, Checking [ Region effects ] test.ConstructorCall.Qualified.DoubleNesting.Outer1.E1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsNotInner.TestInstanceInit.Middle1.Middle2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsMember.Unqualified.OneLevel.TestFieldInit.Super
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsMember.Unqualified.OneLevel.TestFieldInit.Super
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsNotInner.TestInstanceInit.Middle1.Middle2.ACE #2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.ConstructorCall.Qualified.DoubleNesting.E3
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsNotInner.TestInstanceInit.Middle1.Middle2.ACE #2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.NewExpression.MemberClass.Unqualified.Outer
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsMember.Unqualified.OneLevel.TestFieldInit.ACE #0
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsMember.Unqualified.OneLevel.TestFieldInit.ACE #0
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsMember.Unqualified.OneLevel.TestFieldInit.Middle1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsLocal.ThreeLevels.Mixed.Outer1.Outer2$OuterLocal
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.NewExpression.MemberClass.Unqualified.Outer
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.NewExpression.MemberClass.Unqualified.Outer.Middle
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsMember.Unqualified.OneLevel.TestFieldInit.Middle1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.NewExpression.MemberClass.Unqualified.Outer.Middle
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.ConstructorCall.Qualified.DoubleNesting.E3
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsLocal.ThreeLevels.Local.Outer$OuterLocal1$OuterLocal2$Middle1.ACE #2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsLocal.ThreeLevels.Local.Outer$OuterLocal1$OuterLocal2$Middle1.ACE #2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsLocal.ThreeLevels.Local.Outer$OuterLocal1$OuterLocal2$Middle1.Middle2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsNotInner.TestInstanceInit
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.NewExpression.MemberClass.Unqualified.Outer.Middle.Inner
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsMember.Unqualified.OneLevel.TestFieldInit.Middle1.ACE #1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsMember.Unqualified.OneLevel.TestFieldInit.Middle1.ACE #1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsMember.Unqualified.OneLevel.TestFieldInit.Middle1.Middle2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsNotInner.TestInstanceInit
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsLocal.ThreeLevels.Mixed.Outer1.Outer2$OuterLocal$Super
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsNotInner.TestInstanceInit.ACE #0
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsNotInner.TestInstanceInit.ACE #0
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsNotInner.TestInstanceInit.Middle1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.NewExpression.MemberClass.Unqualified.Outer.Middle.Inner
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsMember.Qualified.TwoLevels.Test.Container
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsMember.Qualified.TwoLevels.Test.Container.Middle1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsMember.Unqualified.OneLevel.TestFieldInit.Middle1.Middle2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsNotInner.TestInstanceInit.Middle1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.NewExpression.MemberClass.Unqualified.Outer.Static1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.NewExpression.MemberClass.Unqualified.Outer.Static1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.NewExpression.MemberClass.Unqualified.Outer.Static1.Outer2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsNotInner.TestInstanceInit.Middle1.ACE #1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsNotInner.TestInstanceInit.Middle1.ACE #1
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.NewExpression.MemberClass.Unqualified.Outer.Static1.Outer2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsMember.Unqualified.OneLevel.TestFieldInit.Middle1.Middle2.ACE #2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsMember.Unqualified.OneLevel.TestFieldInit.Middle1.Middle2.ACE #2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.ConstructorCall.Unqualified.SingleNesting.Outer1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsMember.Unqualified.OneLevel.Test.Middle1.Middle2.ACE #5
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsLocal.ThreeLevels.Mixed.Outer1.Outer2$OuterLocal$Super
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsMember.Unqualified.OneLevel.Test.Middle1.Middle2.ACE #5
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.ConstructorCall.Unqualified.SingleNesting.Outer1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.NewExpression.LocalClass.Outer
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.ConstructorCall.Unqualified.SingleNesting.Outer1.Nested
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsMember.Qualified.TwoLevels.Test.Container.Super
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsLocal.ThreeLevels.Local.Outer$OuterLocal1$OuterLocal2$Middle1.Middle2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsMember.Qualified.TwoLevels.Test.Container.Super
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsMember.Qualified.TwoLevels.Test.Container.Middle1.ACE #2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsMember.Qualified.TwoLevels.Test.Container.Middle1.ACE #2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsMember.Qualified.TwoLevels.Test.Container.Middle1.ACE #3
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.ConstructorCall.Unqualified.SingleNesting.Outer1.Nested
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsMember.Qualified.TwoLevels.Test.Container.Middle1.ACE #3
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsMember.Qualified.TwoLevels.Test.Container.Middle1.Middle2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.NewExpression.MemberClass.Qualified.Outer.Middle.Inner
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsLocal.OneLevel.Outer$Middle1.Middle2.ACE #3
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsLocal.OneLevel.Outer$Middle1.Middle2.ACE #3
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsMember.Unqualified.OneLevel.TestInstanceInit
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.ConstructorCall.Unqualified.SingleNesting.Outer1.E1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsMember.Unqualified.OneLevel.TestInstanceInit
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.NewExpression.LocalClass.Outer
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsMember.Unqualified.OneLevel.TestInstanceInit.Super
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.ConstructorCall.Unqualified.SingleNesting.Outer1.E1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsLocal.ThreeLevels.Mixed.Outer1.Outer2$OuterLocal$Super.ACE #0
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.NewExpression.MemberClass.Qualified.Outer.Middle.Inner
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsLocal.ThreeLevels.Mixed.Outer1.Outer2$OuterLocal$Super.ACE #0
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsLocal.ThreeLevels.Mixed.Outer1.Outer2$OuterLocal.ACE #1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsMember.Unqualified.OneLevel.TestInstanceInit.Super
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsLocal.ThreeLevels.Mixed.Outer1.Outer2$OuterLocal.ACE #1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsLocal.ThreeLevels.Mixed.Outer1.Outer2$OuterLocal$Middle1
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsMember.Unqualified.OneLevel.TestInstanceInit.ACE #0
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsLocal.OneLevel.Outer
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsMember.Unqualified.OneLevel.TestInstanceInit.ACE #0
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsMember.Unqualified.OneLevel.TestInstanceInit.Middle1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.NewExpression.LocalClass.Outer$LocalClass
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.NewExpression.LocalClass.Outer$LocalClass
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsLocal.OneLevel.Outer
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.NewExpression.LocalClass.Outer$LC2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsMember.Unqualified.OneLevel.TestInstanceInit.Middle1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.NewExpression.MemberClass.Qualified.Outer.Static1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.NewExpression.MemberClass.Qualified.Outer.Static1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.NewExpression.MemberClass.Qualified.Outer.Static1.Outer2
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.NewExpression.LocalClass.Outer$LC2
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsLocal.OneLevel.Outer$Super
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsLocal.ThreeLevels.Local.Outer$OuterLocal1$OuterLocal2$Middle1.Middle2.ACE #3
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.NewExpression.LocalClass.Outer$LC3
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsLocal.ThreeLevels.Mixed.Outer1.Outer2$OuterLocal$Middle1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsLocal.ThreeLevels.Local.Outer$OuterLocal1$OuterLocal2$Middle1.Middle2.ACE #3
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsNotInner.StaticContext
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsMember.Unqualified.OneLevel.TestInstanceInit.Middle1.ACE #1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.NewExpression.LocalClass.Outer$LC3
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.NewExpression.LocalClass.Outer$LC3.LC4
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsMember.Unqualified.OneLevel.TestInstanceInit.Middle1.ACE #1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsMember.Unqualified.OneLevel.TestInstanceInit.Middle1.Middle2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsLocal.OneLevel.Outer$Super
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.NewExpression.LocalClass.Outer$LC3.LC4
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.NewExpression.LocalClass.Outer$LocalClass_om2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsLocal.OneLevel.Outer$Super.ACE #0
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsLocal.OneLevel.Outer$Super.ACE #0
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsMember.Unqualified.OneLevel.TestInstanceInit.Middle1.Middle2
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsLocal.OneLevel.Outer.ACE #1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.NewExpression.LocalClass.Outer$LocalClass_om2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsLocal.OneLevel.Outer.ACE #1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsLocal.OneLevel.Outer$Middle1
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsNotInner.StaticContext
+##SUBTASK, Checking [ Region effects ] test.NewExpression.MemberClass.Qualified.Outer.Static1.Outer2
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsNotInner.StaticContext.ACE #0
+##SUBTASK, Checking [ Lock policy ] test.NewExpression.LocalClass.Outer$LocalClass_om2$MoreLocalClass_om2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsNotInner.StaticContext.ACE #0
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsLocal.OneLevel.Outer$Middle1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.NewExpression.LocalClass.Outer.Middle$LC200
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsMember.Unqualified.TwoLevels.TestInstanceInit.Container.Super
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsLocal.ThreeLevels.Mixed.Outer1.Outer2$OuterLocal$Middle1.ACE #2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsMember.Unqualified.OneLevel.TestInstanceInit.Middle1.Middle2.ACE #2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsLocal.ThreeLevels.Mixed.Outer1.Outer2$OuterLocal$Middle1.ACE #2
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsMember.Unqualified.OneLevel.TestInstanceInit.Middle1.Middle2.ACE #2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsLocal.TwoLevels.DirectInner.Outer1
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsLocal.ThreeLevels.Mixed.Outer1.Outer2$OuterLocal$Middle1.Middle2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsLocal.TwoLevels.DirectInner.Outer1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsLocal.TwoLevels.DirectInner.Outer1.Outer2
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.NewExpression.LocalClass.Outer.Middle$LC200
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsMember.Unqualified.TwoLevels.TestInstanceInit.Container.Super
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsMember.Qualified.TwoLevels.Test.Container.Middle1.Middle2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.NewExpression.LocalClass.Outer$LocalClass_om2$MoreLocalClass_om2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.NewExpression.MemberClass.Qualified.Outer.Static1.Outer2.Middle
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsMember.Unqualified.TwoLevels.TestInstanceInit.Container.ACE #0
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsMember.Unqualified.TwoLevels.TestInstanceInit.Container.ACE #0
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsMember.Unqualified.TwoLevels.TestInstanceInit.Container.Middle1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.NewExpression.LocalClass.Outer$LocalClass_om2$LC20
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsLocal.TwoLevels.DirectInner.Outer1.Outer2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.NewExpression.LocalClass.Outer$LocalClass_om2$LC20
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.NewExpression.LocalClass.Outer.Middle$LC300
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.NewExpression.LocalClass.Outer.Middle$LC300
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.NewExpression.LocalClass.Outer.Middle$LC300.LC400
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.NewExpression.LocalClass.Outer$LocalClass_om2$LC30
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsLocal.OneLevel.Outer$Middle1.ACE #2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsLocal.OneLevel.Outer$Middle1.ACE #2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsLocal.OneLevel.Outer$Middle1.Middle2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.NewExpression.LocalClass.Outer$LocalClass_om2$LC30
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.NewExpression.LocalClass.Outer$LocalClass_om2$LC30.LC40
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.NewExpression.MemberClass.Qualified.Outer.Static1.Outer2.Middle
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsLocal.TwoLevels.DirectInner.Outer1.Outer2$Super
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.NewExpression.LocalClass.Outer.Middle$LC300.LC400
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.NewExpression.LocalClass.Outer$LocalClass_om2$LC30.LC40
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsMember.Unqualified.TwoLevels.TestInstanceInit.Container.Middle1
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsLocal.ThreeLevels.Mixed.Outer1.Outer2$OuterLocal$Middle1.Middle2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.NewExpression.LocalClass.Outer.Middle
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.NewExpression.LocalClass.Outer.Middle$LocalClass_m_om2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.NewExpression.MemberClass.Qualified.Outer.Static1.Outer2.Middle.Inner
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsLocal.OneLevel.Outer$Middle1.Middle2
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsLocal.TwoLevels.DirectInner.Outer1.Outer2$Super
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsMember.Qualified.TwoLevels.Test.Container.Middle1.Middle2.ACE #4
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsMember.Unqualified.TwoLevels.TestInstanceInit.Container.Middle1.ACE #1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsMember.Qualified.TwoLevels.Test.Container.Middle1.Middle2.ACE #4
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsMember.Unqualified.TwoLevels.TestInstanceInit.Container.Middle1.ACE #1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsMember.Unqualified.TwoLevels.TestInstanceInit.Container.Middle1.Middle2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.NewExpression.LocalClass.Outer.Middle$LocalClass_m_om2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsLocal.TwoLevels.DirectInner.Outer1.Outer2$Middle1.ACE #2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsLocal.TwoLevels.DirectInner.Outer1.Outer2$Middle1.ACE #2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsLocal.TwoLevels.DirectInner.Outer1.Outer2$Middle1.Middle2
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsMember.Qualified.TwoLevels.Test.Container.Middle1.Middle2.ACE #5
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.NewExpression.LocalClass.Outer.Middle
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsLocal.TwoLevels.DirectInner.Outer1.Outer2$Super.ACE #0
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.NewExpression.MemberClass.Qualified.Outer.Static1.Outer2.Middle.Inner
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsLocal.TwoLevels.DirectInner.Outer1.Outer2$Super.ACE #0
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsLocal.TwoLevels.DirectInner.Outer1.Outer2.ACE #1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsLocal.TwoLevels.DirectInner.Outer1.Outer2.ACE #1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsLocal.TwoLevels.DirectInner.Outer1.Outer2$Middle1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsMember.Qualified.TwoLevels.Test.Container.Middle1.Middle2.ACE #5
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsNotInner.Test
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsMember.Unqualified.TwoLevels.TestInstanceInit.Container.Middle1.Middle2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsLocal.ThreeLevels.Mixed.Outer1.Outer2$OuterLocal$Middle1.Middle2.ACE #3
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsLocal.ThreeLevels.Mixed.Outer1.Outer2$OuterLocal$Middle1.Middle2.ACE #3
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.NewExpression.MemberClass.Qualified.Outer
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsLocal.TwoLevels.DirectInner.Outer1.Outer2$Middle1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsNotInner.Test
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsLocal.TwoLevels.DirectInner.Outer1.Outer2$Middle1.Middle2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.NewExpression.LocalClass.Outer.Middle$LocalClass_m_om2$MoreLocalClass
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.NewExpression.LocalClass.Outer.Middle$LocalClass_m_om
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsMember.Unqualified.TwoLevels.TestInstanceInit.Container.Middle1.Middle2.ACE #2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsMember.Unqualified.OneLevel.Test
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsMember.Unqualified.TwoLevels.TestInstanceInit.Container.Middle1.Middle2.ACE #2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsMember.Unqualified.TwoLevels.TestFieldInit
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.NewExpression.MemberClass.Qualified.Outer
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsMember.Unqualified.TwoLevels.TestFieldInit
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.NewExpression.LocalClass.Outer.Middle$LocalClass_m_om
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsMember.Unqualified.TwoLevels.TestFieldInit.Container
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.MethodCall.SingleNesting.E2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.NewExpression.LocalClass.Outer.Middle$LocalClass_m_om2$MoreLocalClass
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsNotInner.Test.ACE #0
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsNotInner.Test.ACE #0
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsNotInner.Test.ACE #1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsNotInner.Test.ACE #1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsNotInner.Test.Middle1
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsMember.Unqualified.OneLevel.Test
+##SUBTASK, Checking [ Lock policy ] test.NewExpression.LocalClass.Outer.Middle$LocalClass_m_om2$LC3000.LC4000
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.NewExpression.MemberClass.Qualified.Outer.Middle
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsMember.Unqualified.TwoLevels.TestFieldInit.Container
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.MethodCall.SingleNesting.E2
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsLocal.TwoLevels.DirectInner.Outer1.Outer2$Middle1.Middle2.ACE #3
+##SUBTASK, Checking [ Lock policy ] test.NewExpression.LocalClass.Outer.Middle$LocalClass_m_om2$LC2000
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsLocal.TwoLevels.DirectInner.Outer1.Outer2$Middle1.Middle2.ACE #3
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.ConstructorCall.Unqualified.DoubleNesting.Outer1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.NewExpression.LocalClass.Outer.Middle$LocalClass_m_om2$LC3000.LC4000
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.ConstructorCall.Unqualified.DoubleNesting.Outer1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.ConstructorCall.Unqualified.DoubleNesting.Outer1.Nested1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.ConstructorCall.Unqualified.DoubleNesting.Outer1.Nested1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.ConstructorCall.Unqualified.DoubleNesting.Outer1.Nested1.Nested2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsNotInner.Test.Middle1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.MethodCall.NoNesting.NormalCall
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.NewExpression.LocalClass.Outer.Middle$LocalClass_m_om2$LC2000
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsMember.Unqualified.TwoLevels.TestFieldInit.Container.Super
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.NewExpression.MemberClass.Qualified.Outer.Middle
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsMember.Unqualified.OneLevel.Test.Super
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsMember.Unqualified.OneLevel.Test.Super
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsMember.Unqualified.TwoLevels.TestFieldInit.Container.Super
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.MethodCall.SingleNesting.Outer2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.MethodCall.SingleNesting.Outer2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.MethodCall.SingleNesting.Outer2.E3
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsMember.Unqualified.OneLevel.Test.ACE #0
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.ConstructorCall.Unqualified.DoubleNesting.Outer1.Nested1.Nested2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.NewExpression.LocalClass.Outer.Middle$LocalClass_m_om2$LC3000
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.NewExpression.LocalClass.Outer.Middle$LocalClass_m_om2$LC3000
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsNotInner.Super
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.MethodCall.SingleNesting.Outer2.E3
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsMember.Unqualified.OneLevel.Test.ACE #0
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsMember.Unqualified.OneLevel.Test.ACE #1
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.MethodCall.NoNesting.NormalCall
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsNotInner.Super
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsMember.Unqualified.TwoLevels.TestFieldInit.Container.ACE #0
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsMember.Unqualified.OneLevel.Test.ACE #1
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsMember.Unqualified.OneLevel.Test.Middle1
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsMember.Unqualified.TwoLevels.TestFieldInit.Container.ACE #0
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsNotInner.Test.Middle1.ACE #2
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsMember.Unqualified.TwoLevels.TestFieldInit.Container.Middle1
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.ConstructorCall.Qualified.DoubleNesting.Outer1
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsNotInner.Test.Middle1.ACE #2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsNotInner.Test.Middle1.ACE #3
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.ConstructorCall.Unqualified.DoubleNesting.Outer1.Nested1.E1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.ConstructorCall.Qualified.DoubleNesting.Outer1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsNotInner.Test.Middle1.ACE #3
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsNotInner.TestFieldInit
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.ConstructorCall.Qualified.DoubleNesting.Outer1.Nested1
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsNotInner.TestFieldInit
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.ConstructorCall.Qualified.DoubleNesting.Outer1.Nested1
+##SUBTASK, Checking [ Lock policy ] test.ConstructorCall.Unqualified.SingleNesting.Outer2
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.ConstructorCall.Qualified.DoubleNesting.Outer1.Nested1.Nested2
+##SUBTASK, Checking [ Region effects ] test.ConstructorCall.Unqualified.SingleNesting.Outer2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.ConstructorCall.Unqualified.SingleNesting.Outer2.E3
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsMember.Unqualified.TwoLevels.TestFieldInit.Container.Middle1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsMember.Unqualified.OneLevel.Test.Middle1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsNotInner.TestFieldInit.ACE #0
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsNotInner.TestFieldInit.ACE #0
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsNotInner.TestFieldInit.Middle1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.ConstructorCall.Unqualified.DoubleNesting.Outer1.Nested1.E1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.ConstructorCall.Qualified.DoubleNesting.Outer1.Nested1.Nested2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.ConstructorCall.Unqualified.SingleNesting.Outer2.E3
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsMember.Unqualified.TwoLevels.TestFieldInit.Container.Middle1.Middle2.ACE #2
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsMember.Qualified.OneLevel.Test.Middle1.ACE #3
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsMember.Qualified.OneLevel.Test.Middle1.ACE #3
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsMember.Qualified.OneLevel.Test.Middle1.Middle2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsMember.Unqualified.TwoLevels.TestFieldInit.Container.Middle1.Middle2.ACE #2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsMember.Qualified.OneLevel.Test
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsNotInner.TestFieldInit.Middle1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.MethodCall.SingleNesting.Outer1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsMember.Unqualified.TwoLevels.TestFieldInit.Container.Middle1.ACE #1
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsMember.Unqualified.TwoLevels.TestFieldInit.Container.Middle1.ACE #1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsMember.Unqualified.TwoLevels.TestFieldInit.Container.Middle1.Middle2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsMember.Unqualified.OneLevel.Test.Middle1.ACE #2
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsNotInner.TestFieldInit.Middle1.ACE #1
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsMember.Unqualified.OneLevel.Test.Middle1.ACE #2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsMember.Unqualified.OneLevel.Test.Middle1.ACE #3
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsNotInner.TestFieldInit.Middle1.ACE #1
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsNotInner.TestFieldInit.Middle1.Middle2
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsMember.Unqualified.OneLevel.Test.Middle1.ACE #3
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsMember.Unqualified.OneLevel.Test.Middle1.Middle2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsNotInner.TestFieldInit.Middle1.Middle2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsMember.Unqualified.TwoLevels.TestFieldInit.Container.Middle1.Middle2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.MethodCall.SingleNesting.Outer1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsNotInner.TestFieldInit.Middle1.Middle2.ACE #2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsNotInner.TestFieldInit.Middle1.Middle2.ACE #2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.MethodCall.DoubleNesting.Outer1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsMember.Unqualified.OneLevel.Test.Middle1.Middle2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.MethodCall.SingleNesting.Outer1.Nested
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsMember.Qualified.OneLevel.Test.ACE #0
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsMember.Qualified.OneLevel.Test.ACE #0
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsMember.Qualified.OneLevel.Test.ACE #1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsMember.Qualified.OneLevel.Test.ACE #1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsMember.Qualified.OneLevel.Test.Middle1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.MethodCall.SingleNesting.Outer1.Nested
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.MethodCall.DoubleNesting.Outer1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsMember.Qualified.OneLevel.Test
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.MethodCall.SingleNesting.Outer1.E1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsMember.Unqualified.OneLevel.Test.Middle1.Middle2.ACE #4
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsMember.Unqualified.OneLevel.Test.Middle1.Middle2.ACE #4
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsMember.Qualified.OneLevel.Test.Middle1.Middle2.ACE #5
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsMember.Qualified.OneLevel.Test.Middle1.Middle2.ACE #5
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.MethodCall.DoubleNesting.E2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.MethodCall.DoubleNesting.Outer1.Nested1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.MethodCall.SingleNesting.Outer1.E1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.MethodCall.DoubleNesting.Outer1.Nested1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.MethodCall.DoubleNesting.Outer1.Nested1.Nested2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsMember.Qualified.OneLevel.Test.Super
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsMember.Qualified.OneLevel.Test.Middle1.Middle2
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsMember.Qualified.OneLevel.Test.Super
+##SUBTASK, Checking [ Region effects ] test.MethodCall.DoubleNesting.E2
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.MethodCall.DoubleNesting.Outer1.Nested1.Nested2
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.ConstructorCall.Qualified.SingleNesting.Outer1
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.ConstructorCall.Qualified.SingleNesting.Outer1
+##SUBTASK, Checking [ Lock policy ] test.MethodCall.DoubleNesting.Outer1.Nested1.E1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.ConstructorCall.Qualified.SingleNesting.Outer1.Nested
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsMember.Qualified.OneLevel.Test.Middle1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsMember.Qualified.OneLevel.Test.Middle1.Middle2.ACE #4
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsMember.Qualified.OneLevel.Test.Middle1.Middle2.ACE #4
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.ConstructorCall.Qualified.SingleNesting.Outer1.Nested
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.MethodCall.DoubleNesting.Outer1.Nested1.E1
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsMember.Qualified.OneLevel.Test.Middle1.ACE #2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsMember.Qualified.OneLevel.Test.Middle1.ACE #2
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.MethodCall.DoubleNesting.Outer1.E1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.MethodCall.DoubleNesting.Outer1.E1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsMember.Unqualified.TwoLevels.TestInstanceInit
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsMember.Unqualified.TwoLevels.TestInstanceInit
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.AnonymousClass.SuperIsMember.Unqualified.TwoLevels.TestInstanceInit.Container
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.AnonymousClass.SuperIsMember.Unqualified.TwoLevels.TestInstanceInit.Container
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+Starting group: UniquenessAnalysisModule
+##SUBTASK, Cleaning up after analysis
+Cleaning up after analysis
+[GC (System.gc())  110427K->68067K(187904K), 0.0139480 secs]
+[Full GC (System.gc())  68067K->42634K(187904K), 0.1493130 secs]
+##WORK, 1
+##SUBTASK_DONE
+Updating consistency proof
+##SUBTASK, Updating consistency proof
+Exporting results to TestQualifiedReceive-2015.06.16-at-11.30.54.450
+##SUBTASK, Exporting results to TestQualifiedReceive-2015.06.16-at-11.30.54.450
+Creating snapshot: /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/TestQualifiedReceive-2015.06.16-at-11.30.54.450/running_or_crashed_sea_snapshot.xml.gz
+[GC (Allocation Failure)  136330K->52583K(189440K), 0.0075710 secs]
+Done in 5000 ms.
+ThreadEffectsModule	: 27 ms
+ParameterizedTypeAnalysis	: 18 ms
+LockAnalysis	: 975 ms
+EffectsAnalysis	: 477 ms
+UniquenessAnalysisModule	: 0 ms
+[2015-06-16 11:31:00    INFO] partial bindings = 9678 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+[2015-06-16 11:31:00    INFO] full bindings = 3115 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+cached = 0
+totalT = 0
+#Performance data for TestQualifiedReceiverSubstitutionsAndAnonymousClassEffects
+#Tue Jun 16 11:31:00 EDT 2015
+jsure.Add.required=0
+jsure.All.analyses=557
+jsure.Binding.before.canon=137
+jsure.Binding.full.time=775
+jsure.Binding.partial.time=434
+jsure.Bindings.full=3115
+jsure.Bindings.partial=9678
+jsure.Canonicalization=740
+jsure.Cleanup=89
+jsure.Destroy.time=38
+jsure.Drop.creation=22
+jsure.Find.canon.time=9
+jsure.Parsing=836
+jsure.Promise.parsing=468
+jsure.Promise.scrubbing=1386
+jsure.Sea.export=840
+jsure.Sea.update=62
+jsure.Total.JSure.time=5000
+jsure.Total.blocks=451
+jsure.Total.canonical=7824
+jsure.Total.decls=1288
+jsure.Total.destroyed=1375
+jsure.Total.gced=0
+jsure.Total.loc=3033
+jsure.Total.nodes=73940
+jsure.Total.stmts=1049
+jsure.Total.try.destroyed=1375
+jsure.analysis.EffectsAnalysis=477
+jsure.analysis.LockAnalysis=975
+jsure.analysis.ParameterizedTypeAnalysis=18
+jsure.analysis.ThreadEffectsModule=27
+jsure.analysis.UniquenessAnalysisModule=0
+jsure.num.threads=8
+Javac making log: AnnotationRules
+##DONE
+Renaming snapshot: /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/TestQualifiedReceive-2015.06.16-at-11.30.54.450/sea_snapshot.xml.gz
+Done with JSure!
+Scanning complete (6065 ms)
+No socket to close
+Closing std streams
+Process result after waiting = 0
