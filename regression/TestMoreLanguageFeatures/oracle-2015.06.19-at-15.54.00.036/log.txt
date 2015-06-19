@@ -1,0 +1,2003 @@
+LOCAL vm : 1.8.0_05
+Path: /Users/aarong/git/jsure/jsure-analysis/bin
+Path: /Users/aarong/git/common/common/lib/runtime/commons-codec-1.10.jar
+Path: /Users/aarong/git/common/common/lib/runtime/trove-3.0.3.jar
+Path: /Users/aarong/git/common/common/lib/runtime/antlr-3.5.2-runtime.jar
+Path: /Users/aarong/git/common/common/lib/runtime/servlet-api-3.1.jar
+Path: /Users/aarong/git/jsure/jsure-common/lib/runtime/diffutils-1.2.1.jar
+Path: /Users/aarong/git/common/common/bin
+Path: /Users/aarong/git/common/common/lib/runtime/asm-5.0.2.jar
+Path: /Users/aarong/git/jsure/jsure-analysis/lib/runtime/renamedJavac.jar
+Path: /Users/aarong/git/common/common/lib/runtime/asm-tree-5.0.2.jar
+Path: /Users/aarong/git/common/common/lib/runtime/promises-5.6.0.jar
+Path: /Users/aarong/git/jsure/jsure-analysis/lib/runtime/log4j-xml-1.3alpha-8.jar
+Path: /Users/aarong/git/common/common/lib/runtime/derby-10.11.1.1.jar
+Path: /Users/aarong/git/jsure/jsure-common/bin
+Path: /Users/aarong/git/common/common/lib/runtime/ant-1.9.4.jar
+Path: /Users/aarong/git/common/common/lib/runtime/collections-generic-4.0.jar
+Path: /Users/aarong/git/jsure/jsure-analysis/lib/runtime/log4j-1.3alpha-8.jar
+Path: /Users/aarong/git/common/common/lib/runtime/asm-commons-5.0.2.jar
+Path: /Users/aarong/git/common/common/lib/runtime/commons-lang3-3.3.2.jar
+Path: /Users/aarong/git/common/common/lib/runtime/commons-io-2.4.jar
+Starting process:
+	/Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/jre/bin/java
+	-Dsl.running.in.remote.vm=true
+	-Dsurelogic.test.code=NONE
+	-XX:MaxPermSize=512m
+	-verbosegc
+	-DSureLogicX=true
+	-Dsl.run.dir=/Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/TestMoreLanguageFeat-2015.06.19-at-15.54.00.036
+	-Dfluid.ir.versioning=Versioning.Off
+	-Dfluid.directory.url=file:/Eclipses/eclipse-standard-luna-SR2-macosx-cocoa-x86_64/../../Users/aarong/git/jsure/jsure-analysis/
+	-Xmx2048m
+	-classpath
+	/Users/aarong/git/jsure/jsure-analysis/bin:/Users/aarong/git/common/common/lib/runtime/commons-codec-1.10.jar:/Users/aarong/git/common/common/lib/runtime/trove-3.0.3.jar:/Users/aarong/git/common/common/lib/runtime/antlr-3.5.2-runtime.jar:/Users/aarong/git/common/common/lib/runtime/servlet-api-3.1.jar:/Users/aarong/git/jsure/jsure-common/lib/runtime/diffutils-1.2.1.jar:/Users/aarong/git/common/common/bin:/Users/aarong/git/common/common/lib/runtime/asm-5.0.2.jar:/Users/aarong/git/jsure/jsure-analysis/lib/runtime/renamedJavac.jar:/Users/aarong/git/common/common/lib/runtime/asm-tree-5.0.2.jar:/Users/aarong/git/common/common/lib/runtime/promises-5.6.0.jar:/Users/aarong/git/jsure/jsure-analysis/lib/runtime/log4j-xml-1.3alpha-8.jar:/Users/aarong/git/common/common/lib/runtime/derby-10.11.1.1.jar:/Users/aarong/git/jsure/jsure-common/bin:/Users/aarong/git/common/common/lib/runtime/ant-1.9.4.jar:/Users/aarong/git/common/common/lib/runtime/collections-generic-4.0.jar:/Users/aarong/git/jsure/jsure-analysis/lib/runtime/log4j-1.3alpha-8.jar:/Users/aarong/git/common/common/lib/runtime/asm-commons-5.0.2.jar:/Users/aarong/git/common/common/lib/runtime/commons-lang3-3.3.2.jar:/Users/aarong/git/common/common/lib/runtime/commons-io-2.4.jar
+	com.surelogic.javac.jobs.RemoteJSureRun
+
+First line in REMOTE vm = Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=512m; support was removed in 8.0
+[GC (Allocation Failure)  512K->520K(327168K), 0.0011960 secs]
+[GC (Allocation Failure)  1019K->563K(327680K), 0.0008400 secs]
+[GC (Allocation Failure)  1587K->727K(327680K), 0.0008840 secs]
+[GC (Allocation Failure)  1751K->799K(328704K), 0.0009860 secs]
+JVM started: 1.8.0_05
+Log level: INFO
+Created reader
+Created monitor
+Created log handler
+Running RemoteJSureRun
+[GC (Allocation Failure)  2847K->1031K(328704K), 0.0012080 secs]
+[GC (Allocation Failure)  3079K->1327K(331264K), 0.0011240 secs]
+[GC (Allocation Failure)  5423K->1583K(331264K), 0.0014410 secs]
+[GC (Allocation Failure)  5679K->1783K(335360K), 0.0014180 secs]
+runPath = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/TestMoreLanguageFeat-2015.06.19-at-15.54.00.036
+Creating run: TestMoreLanguageFeat-2015.06.19-at-15.54.00.036
+projects = TestMoreLanguageFeatures
+Loading edu.cmu.cs.fluid.make.nonabductive.proposals = false
+Loading edu.cmu.cs.fluid.load.all.classes = false
+Loading edu.cmu.cs.fluid.timeoutFlag = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BCA = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ConstantExpr = false
+Loading edu.cmu.cs.fluid.physMemoryInMB = 20480
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.EqualityAssurance = false
+Loading edu.cmu.cs.fluid.xml.diff.directory = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/promises-xml
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.UniquenessAssuranceUWM = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.IRConcurrencyDetector = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Singleton = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.CALLS = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BenchmarkingUniquenessSE = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ThreadEffectAssurance2 = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Binder = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.cliend.eclipse.TypeBasedAlias = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Nullable = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.TestIsFunctional = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.UniquenessAssuranceUWM_SE = false
+Loading edu.cmu.cs.fluid.tool-memory-mb = 2048
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.DefinitelyAssigned = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.UniquenessAssuranceSE = true
+Loading edu.cmu.cs.fluid.analysis.thread.count = 8
+Loading edu.cmu.cs.fluid.timeoutSec = 11
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.NonNullRawTypes = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LayersAssurance = false
+Loading edu.cmu.cs.fluid.default.JRE = org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Loading edu.cmu.cs.fluid.timeoutWarningSec = 30
+Loading edu.cmu.cs.fluid.modeling.problem.filters = 00000012com\.apple.*00000013com\.oracle.*00000010com\.sun.*00000014.*\.internal.*00000023.*BakedArrayList\.class00000007apple.*00000008oracle.*00000011quicktime.*00000005sun.*
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Utility = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BenchmarkingUniquenessNew_SE = false
+Loading edu.cmu.cs.fluid.scan.may.use.compression = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ParameterizedType = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Final = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LockAssurance3 = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BenchmarkingUniquenessNew = false
+Loading edu.cmu.cs.fluid.data.directory = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.NullablePreprocessor = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.EffectAssurance2 = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LV = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.StructureAssurance = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Types = false
+JSure data dir = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data
+XML diff dir   = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/promises-xml
+Looking for JRE in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+default JRE = org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Initialized job
+Created com.surelogic.analysis.threads.ThreadEffectsModule
+Starting a new group for ThreadEffectsModule
+Created com.surelogic.analysis.annotationbounds.ParameterizedTypeAnalysis
+Created com.surelogic.analysis.concurrency.driver.LockAnalysis
+Starting a new group for LockAnalysis
+Group: EXTERNALLY
+	ThreadEffectsModule
+	ParameterizedTypeAnalysis
+[GC (Allocation Failure)  9975K->2315K(335360K), 0.0017930 secs]
+Created com.surelogic.analysis.effects.EffectsAnalysis
+Created com.surelogic.analysis.uniqueness.classic.sideeffecting.UniquenessAnalysisModule
+Starting a new group for UniquenessAnalysisModule
+Group: com.surelogic.analysis.visitors.TopLevelAnalysisVisitor$1@69663380, class com.surelogic.analysis.bca.BindingContextAnalysis, EXTERNALLY
+	LockAnalysis
+	EffectsAnalysis
+Group: com.surelogic.analysis.uniqueness.classic.sideeffecting.UniquenessAnalysisModule$1@5b37e0d2, class com.surelogic.analysis.bca.BindingContextAnalysis, INTERNALLY
+	UniquenessAnalysisModule
+##TASK, Scan, 378
+Initializing ...
+##SUBTASK, Initializing ...
+monitor = com.surelogic.common.jobs.remote.AbstractRemoteSLJob$Monitor@4459eb14
+singleThread = false
+[GC (Allocation Failure)  10507K->2587K(340992K), 0.0020110 secs]
+[GC (Allocation Failure)  15888K->10673K(340992K), 0.0060230 secs]
+[GC (Allocation Failure)  23954K->23897K(351744K), 0.0087560 secs]
+Done initializing org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: 0
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/resources.jar
+[GC (Allocation Failure)  44876K->43825K(352256K), 0.0143800 secs]
+[GC (Allocation Failure)  64817K->47473K(366080K), 0.0057020 secs]
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/rt.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jsse.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jce.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/charsets.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jfr.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/dnsns.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/localedata.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunec.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunjce_provider.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunpkcs11.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/zipfs.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /System/Library/Java/Extensions/MRJToolkit.jar
+Done initializing TestMoreLanguageFeatures: 46
+Trying to find /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/TestMoreLanguageFeat-2015.06.19-at-15.54.00.036/source/TestMoreLanguageFeatures.bin.zip
+TestMoreLanguageFeatures: TestMoreLanguageFeatures -> org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Done initializing org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: 0
+TestMoreLanguageFeatures: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/resources.jar
+[GC (Allocation Failure)  81265K->54069K(366080K), 0.0077370 secs]
+TestMoreLanguageFeatures: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/rt.jar
+TestMoreLanguageFeatures: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jsse.jar
+TestMoreLanguageFeatures: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jce.jar
+TestMoreLanguageFeatures: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/charsets.jar
+TestMoreLanguageFeatures: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jfr.jar
+TestMoreLanguageFeatures: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/dnsns.jar
+TestMoreLanguageFeatures: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/localedata.jar
+TestMoreLanguageFeatures: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunec.jar
+TestMoreLanguageFeatures: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunjce_provider.jar
+TestMoreLanguageFeatures: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunpkcs11.jar
+TestMoreLanguageFeatures: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/zipfs.jar
+TestMoreLanguageFeatures: Done initializing with /System/Library/Java/Extensions/MRJToolkit.jar
+TestMoreLanguageFeatures: Done initializing with /Users/aarong/git/regression/regression/TestMoreLanguageFeatures/mockito-all-1.9.0.jar
+TestMoreLanguageFeatures: Done initializing with /Users/aarong/git/regression/regression/TestMoreLanguageFeatures/promises-4.3.1.jar
+##SUBTASK_DONE
+##WORK, 1
+Assuming that the projects are run in dependency order
+Parsing ...
+##SUBTASK, Parsing ...
+Done adapting 0 files for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK_DONE
+##WORK, 1
+Parsing ...
+##SUBTASK, Parsing ...
+JCP: warning: [options] bootstrap class path not set in conjunction with -source 1.7
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+Adapting 46 CUTs
+[GC (Allocation Failure)  87861K->61374K(389120K), 0.0117570 secs]
+Done adapting 46 files for TestMoreLanguageFeatures
+##SUBTASK_DONE
+##WORK, 1
+Handling references for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Handling references for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 19 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Setting project for Object from org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 36 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 54 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 58 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 34 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 18 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 9 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 12 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 15 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 4 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 2 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK_DONE
+##WORK, 1
+Handling references for TestMoreLanguageFeatures
+##SUBTASK, Handling references for TestMoreLanguageFeatures
+Handling 44 dangling refs for TestMoreLanguageFeatures
+Handling 24 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 35 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 49 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+[GC (Allocation Failure)  115134K->69727K(389632K), 0.0179290 secs]
+Handling 94 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 122 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 44 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 13 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 13 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 1 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 19 dangling refs for TestMoreLanguageFeatures
+Handling 9 dangling refs for TestMoreLanguageFeatures
+Handling 11 dangling refs for TestMoreLanguageFeatures
+Handling 3 dangling refs for TestMoreLanguageFeatures
+Handling 2 dangling refs for TestMoreLanguageFeatures
+##SUBTASK_DONE
+##WORK, 1
+Updated 668 files in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Updated 133 files in TestMoreLanguageFeatures
+Parsing ASTs  = 412 ms
+Handling refs = 907 ms
+[2015-06-19 15:54:02    INFO] partial bindings = 0 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+[2015-06-19 15:54:02    INFO] full bindings = 0 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+Canonicalizing ASTs
+##SUBTASK, Canonicalizing ASTs
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+[GC (Metadata GC Threshold)  122942K->83639K(409088K), 0.0228280 secs]
+[Full GC (Metadata GC Threshold)  83639K->81022K(178176K), 0.2890150 secs]
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+[2015-06-19 15:54:03    INFO] partial bindings = 2161 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+[2015-06-19 15:54:03    INFO] full bindings = 512 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/SingleArcTransition.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/numericPromotion/TestPromotion.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/selfImport/Super.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/InvalidStateTransitonException.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/StateMachineFactory.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/mutualImport/Type2.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/TestGenericMethods.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/typeShadowing/F.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/selfImport/Super2.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/TestNameResolution.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/localTypeInACE/Outer.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/lub/TestLUB.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/rawGenerics/AbstractJdbc4SqlXmlValue.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/aceNonShadowing/TestACE.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/shadowing/Super.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/TestWhen.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/mutualImport/Type1.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/boxing/TestBoxing.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/overloadingStaticGenericMethods/Configuration.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/overloadingStaticGenericMethods/TestToo.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testRewriting/Test2Applet.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/MultipleArcTransition.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/rawGenerics/XmlResultProvider.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/mutualImport/ATrigger.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/localTypeInACE/Test.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/methodOnlyInACE/TestAnonClassMethods.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/TestVarargs.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/overloadingStaticGenericMethods/MockitoMaker.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/manyGenericTypesInOneFile/Test.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/shadowing/Sub.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/anyT/Generic.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testRewriting/TestApplet.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/polymorphicMethods/TestPolyMethods.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testAnnosOnEnums/Test.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/rawGenerics/TestRaw.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/rawGenerics/SqlXmlValue.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/Graph.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/typeShadowing/Outer.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/StateMachine.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/aceNonShadowing/Outer.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/lub/ID.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/overloadingStaticGenericMethods/Job.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/shadowing/TestMethodShadowing.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/lub/JobID.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/overloading/TestOverloading.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/selfImport/Outer.java
+##WORK, 1
+Binding = 430 ms
+##SUBTASK_DONE
+##WORK, 1
+Handling references for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Handling references for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 19 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK_DONE
+##WORK, 1
+Handling references for TestMoreLanguageFeatures
+##SUBTASK, Handling references for TestMoreLanguageFeatures
+Handling 21 dangling refs for TestMoreLanguageFeatures
+##SUBTASK_DONE
+##WORK, 1
+Updated 668 files in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Updated 134 files in TestMoreLanguageFeatures
+[GC (System.gc())  95156K->81526K(184320K), 0.0020310 secs]
+[Full GC (System.gc())  81526K->70169K(184320K), 0.1770580 secs]
+Creating drops
+##SUBTASK, Creating drops
+Created binary drop for java.awt.geom.Rectangle2D
+Created binary drop for java.nio.charset.CharsetDecoder
+Created binary drop for sun.awt.DisplayChangedListener
+Created binary drop for java.nio.channels.spi.AbstractInterruptibleChannel
+Created binary drop for javax.lang.model.type.TypeKind
+Created binary drop for javax.swing.text.AttributeSet
+Created binary drop for java.awt.dnd.DragSourceContext
+Created binary drop for org.mockito.internal.invocation.Invocation
+Created binary drop for java.security.Timestamp
+Created binary drop for sun.java2d.loops.DrawRect
+Created binary drop for java.lang.reflect.AccessibleObject
+Created binary drop for java.lang.Appendable
+Created binary drop for java.util.EmptyStackException
+Created binary drop for sun.java2d.pipe.ShapeSpanIterator
+Created binary drop for sun.font.CreatedFontTracker
+Created binary drop for java.awt.peer.CheckboxMenuItemPeer
+Created binary drop for java.awt.FontFormatException
+Created binary drop for java.lang.ref.WeakReference
+Created binary drop for java.awt.event.TextListener
+Created binary drop for java.awt.dnd.peer.DropTargetContextPeer
+Created binary drop for java.util.Map
+Created binary drop for java.awt.Transparency
+Created binary drop for org.mockito.ReturnValues
+Created binary drop for java.awt.font.TextHitInfo
+Created source drop for file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/rawGenerics/SqlXmlValue.java
+Created binary drop for sun.java2d.loops.SurfaceType
+Created binary drop for java.awt.event.MouseListener
+Created binary drop for java.awt.font.TransformAttribute
+Created binary drop for java.net.URI
+Created binary drop for sun.java2d.pipe.PixelDrawPipe
+Created binary drop for java.io.ObjectStreamField
+Created binary drop for java.util.concurrent.locks.AbstractQueuedSynchronizer
+Created binary drop for java.awt.color.ICC_ColorSpace
+Created binary drop for java.awt.im.InputMethodRequests
+Created source drop for file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/localTypeInACE/Test.java
+Created binary drop for java.io.ObjectStreamException
+Created binary drop for java.io.DataOutput
+Created binary drop for java.io.PrintStream
+Created binary drop for java.awt.geom.NoninvertibleTransformException
+Created binary drop for java.awt.peer.FramePeer
+Created binary drop for java.nio.channels.Channel
+Created binary drop for java.lang.ClassNotFoundException
+Created binary drop for java.awt.dnd.DragGestureEvent
+Created binary drop for sun.awt.datatransfer.DataTransferer
+Created binary drop for java.awt.Conditional
+Created binary drop for java.lang.CharSequence
+Created binary drop for java.awt.image.ImageObserver
+Created binary drop for java.io.ObjectOutputStream
+Created source drop for file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/localTypeInACE/Outer.java
+Created binary drop for java.util.ArrayList
+Created binary drop for java.io.StreamCorruptedException
+Created binary drop for javax.lang.model.type.TypeVisitor
+Created binary drop for java.awt.dnd.DragGestureRecognizer
+Created binary drop for java.awt.ComponentOrientation
+Created binary drop for java.io.ByteArrayOutputStream
+Created binary drop for java.lang.InterruptedException
+Created binary drop for sun.font.FontAccess
+Created binary drop for sun.java2d.pipe.TextPipe
+Created binary drop for java.awt.image.BufferedImage
+Created binary drop for java.util.EventListener
+Created binary drop for java.awt.TextField
+Created binary drop for java.awt.Polygon
+Created binary drop for sun.java2d.pipe.SpanShapeRenderer
+Created binary drop for com.surelogic.Unique
+Created binary drop for sun.misc.URLClassPath
+Created binary drop for javax.lang.model.type.ReferenceType
+Created binary drop for java.util.AbstractList
+Created binary drop for java.nio.file.spi.FileSystemProvider
+Created binary drop for java.awt.event.KeyListener
+Created binary drop for java.awt.event.WindowStateListener
+Created binary drop for java.lang.ref.ReferenceQueue
+Created binary drop for java.awt.Cursor
+Created binary drop for sun.java2d.pipe.DrawImagePipe
+Created binary drop for javax.lang.model.element.AnnotationValue
+Created binary drop for sun.java2d.loops.GraphicsPrimitive
+Created binary drop for sun.awt.ConstrainableGraphics
+Created binary drop for java.lang.IllegalArgumentException
+Created binary drop for java.awt.TextArea
+Created binary drop for javax.lang.model.element.AnnotationMirror
+Created binary drop for java.awt.datatransfer.FlavorListener
+Created binary drop for sun.reflect.ReflectionFactory
+Created binary drop for java.security.Key
+Created binary drop for java.util.concurrent.Future
+Created binary drop for java.util.jar.Attributes
+Created binary drop for java.awt.SecondaryLoop
+Created binary drop for java.awt.dnd.DragSourceDropEvent
+Created binary drop for java.nio.channels.GatheringByteChannel
+Created source drop for file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/methodOnlyInACE/TestAnonClassMethods.java
+Created binary drop for java.awt.Composite
+Created binary drop for sun.java2d.loops.DrawGlyphListAA
+Created binary drop for java.nio.channels.FileChannel
+Created binary drop for java.io.SerializablePermission
+Created binary drop for java.nio.file.CopyOption
+Created binary drop for java.lang.IllegalAccessException
+Created binary drop for javax.accessibility.AccessibleSelection
+Created binary drop for java.lang.SecurityException
+Created binary drop for java.lang.IllegalStateException
+Created binary drop for org.mockito.MockitoDebugger
+Created binary drop for org.mockito.internal.exceptions.VerificationAwareInvocation
+Created binary drop for sun.awt.CausedFocusEvent
+Created binary drop for org.mockito.InOrder
+Created binary drop for java.awt.Color
+Created binary drop for sun.java2d.StateTrackable
+Created binary drop for java.security.cert.CertificateException
+Created binary drop for sun.java2d.pipe.ValidatePipe
+Created binary drop for java.nio.channels.FileLock
+Created binary drop for org.mockito.stubbing.DeprecatedOngoingStubbing
+Created binary drop for sun.font.FontFamily
+Created binary drop for javax.accessibility.AccessibleBundle
+Created source drop for file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/TestVarargs.java
+Created binary drop for java.lang.Enum
+Created binary drop for org.mockito.internal.verification.api.InOrderContext
+Created binary drop for java.nio.charset.CoderResult
+Created binary drop for java.nio.file.Watchable
+Created binary drop for java.awt.GraphicsConfigTemplate
+Created binary drop for java.io.File
+Created binary drop for java.lang.Math
+Created binary drop for java.awt.Toolkit
+Created binary drop for org.mockito.internal.reporting.PrintingFriendlyInvocation
+Created binary drop for javax.accessibility.AccessibleState
+Created binary drop for org.mockito.internal.exceptions.base.StackTraceFilter
+Created binary drop for java.awt.peer.DialogPeer
+Created binary drop for javax.lang.model.element.TypeParameterElement
+Created binary drop for java.awt.Window
+Created binary drop for java.awt.Component
+Created binary drop for sun.java2d.loops.DrawPath
+Created binary drop for java.lang.AutoCloseable
+Created binary drop for java.util.spi.LocaleServiceProvider
+Created binary drop for javax.lang.model.element.Parameterizable
+Created binary drop for java.lang.reflect.Method
+Created binary drop for sun.java2d.SunGraphics2D
+Created binary drop for sun.java2d.loops.FontInfo
+Created binary drop for java.awt.LayoutManager
+Created binary drop for sun.util.locale.LocaleExtensions
+Created source drop for file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/rawGenerics/XmlResultProvider.java
+Created binary drop for java.awt.geom.RectangularShape
+Created binary drop for org.mockito.internal.invocation.realmethod.RealMethod
+Created binary drop for javax.lang.model.type.ArrayType
+Created binary drop for java.awt.font.GlyphVector
+Created binary drop for sun.font.EAttribute
+Created binary drop for java.awt.font.LineMetrics
+Created binary drop for javax.accessibility.AccessibleRole
+Created binary drop for org.mockito.stubbing.Stubber
+Created binary drop for java.lang.ClassValue
+Created binary drop for sun.java2d.loops.DrawParallelogram
+Created binary drop for java.util.Stack
+Created binary drop for java.io.DataInput
+Created binary drop for java.awt.event.WindowFocusListener
+Created binary drop for java.security.ProtectionDomain
+Created binary drop for java.awt.event.MouseMotionListener
+Created source drop for file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/Graph.java
+Created binary drop for java.util.Hashtable
+Created binary drop for java.awt.peer.PopupMenuPeer
+Created binary drop for java.io.Flushable
+Created binary drop for java.nio.channels.ScatteringByteChannel
+Created binary drop for java.io.FilterOutputStream
+Created binary drop for java.awt.PointerInfo
+Created binary drop for java.awt.color.ColorSpace
+Created binary drop for javax.lang.model.type.ExecutableType
+Created binary drop for org.mockito.exceptions.PrintableInvocation
+Created binary drop for java.util.AbstractCollection
+Created binary drop for java.security.InvalidKeyException
+Created binary drop for java.awt.font.GlyphMetrics
+Created binary drop for sun.reflect.LangReflectAccess
+Created binary drop for java.util.ListIterator
+Created binary drop for java.awt.font.FontRenderContext
+Created binary drop for java.lang.ClassLoader
+Created binary drop for java.awt.datatransfer.ClipboardOwner
+Created binary drop for java.lang.annotation.RetentionPolicy
+Created binary drop for java.io.Externalizable
+Created binary drop for java.lang.CloneNotSupportedException
+Created binary drop for sun.reflect.FieldAccessor
+Created binary drop for java.nio.file.attribute.FileAttributeView
+Created source drop for file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/lub/TestLUB.java
+Created binary drop for java.awt.Menu
+Created binary drop for java.util.zip.InflaterInputStream
+Created binary drop for javax.lang.model.element.QualifiedNameable
+Created binary drop for javax.accessibility.AccessibleText
+Created binary drop for java.awt.datatransfer.MimeType
+Created source drop for file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/typeShadowing/Outer.java
+Created binary drop for java.nio.channels.SeekableByteChannel
+Created binary drop for java.nio.file.Path
+Created binary drop for java.awt.image.ColorModel
+Created binary drop for org.mockito.listeners.InvocationListener
+Created binary drop for java.io.ObjectOutput
+Created binary drop for java.lang.Exception
+Created binary drop for java.awt.geom.Dimension2D
+Created binary drop for java.io.FileDescriptor
+Created binary drop for sun.awt.SubRegionShowable
+Created binary drop for java.io.InvalidObjectException
+Created source drop for file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/rawGenerics/AbstractJdbc4SqlXmlValue.java
+Created binary drop for java.awt.event.AWTEventListener
+Created binary drop for sun.java2d.pipe.SpanIterator
+Created binary drop for sun.java2d.loops.DrawPolygons
+Created binary drop for java.net.ContentHandlerFactory
+Created source drop for file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/overloadingStaticGenericMethods/MockitoMaker.java
+Created binary drop for java.lang.ref.SoftReference
+Created binary drop for java.awt.event.ComponentListener
+Created binary drop for java.applet.Applet
+Created binary drop for java.util.zip.Inflater
+Created binary drop for java.awt.peer.ScrollbarPeer
+Created binary drop for java.nio.file.AccessMode
+Created binary drop for javax.lang.model.type.NullType
+Created binary drop for java.util.Iterator
+Created binary drop for java.awt.PrintJob
+Created binary drop for java.applet.AppletContext
+Created binary drop for org.mockito.internal.progress.IOngoingStubbing
+Created source drop for file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/InvalidStateTransitonException.java
+Created binary drop for javax.accessibility.AccessibleRelation
+Created binary drop for java.nio.file.PathMatcher
+Created binary drop for sun.reflect.CallerSensitive
+Created binary drop for javax.lang.model.element.AnnotationValueVisitor
+Created binary drop for sun.font.AttributeValues
+Created binary drop for java.util.Dictionary
+Created binary drop for javax.lang.model.element.ElementVisitor
+Created binary drop for java.awt.event.TextEvent
+Created binary drop for java.net.UnknownHostException
+Created binary drop for java.awt.image.ImageProducer
+Created source drop for file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/StateMachineFactory.java
+Created binary drop for java.awt.dnd.DropTargetListener
+Created binary drop for org.mockito.listeners.MethodInvocationReport
+Created binary drop for sun.java2d.pipe.Region
+Created source drop for file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/mutualImport/ATrigger.java
+Created binary drop for java.net.SocketAddress
+Created binary drop for javax.accessibility.AccessibleRelationSet
+Created binary drop for java.lang.reflect.Field
+Created binary drop for java.util.concurrent.ConcurrentHashMap
+Created binary drop for java.awt.peer.WindowPeer
+Created binary drop for java.io.PrintWriter
+Created binary drop for java.nio.channels.AsynchronousCloseException
+Created binary drop for java.awt.AWTException
+Created binary drop for java.util.zip.DataFormatException
+Created binary drop for java.awt.event.PaintEvent
+Created binary drop for java.io.InvalidClassException
+Created binary drop for java.awt.CompositeContext
+Created binary drop for java.awt.peer.TextComponentPeer
+Created binary drop for java.lang.Deprecated
+Created binary drop for java.awt.Rectangle
+Created binary drop for java.awt.dnd.DropTarget
+Created binary drop for java.awt.PaintContext
+Created binary drop for java.nio.file.LinkOption
+Created binary drop for sun.reflect.ConstantPool
+Created binary drop for sun.font.FontStrikeDesc
+Created binary drop for java.lang.Boolean
+Created binary drop for java.util.zip.ZipConstants
+Created binary drop for java.awt.image.TileObserver
+Created binary drop for java.lang.Override
+Created binary drop for java.awt.Panel
+Created binary drop for java.awt.Button
+Created binary drop for java.security.AccessControlContext
+Created source drop for file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/aceNonShadowing/TestACE.java
+Created binary drop for java.util.concurrent.locks.ReadWriteLock
+Created binary drop for java.util.jar.JarFile
+Created binary drop for java.beans.PropertyChangeListener
+Created binary drop for javax.accessibility.AccessibleContext
+Created binary drop for java.awt.DisplayMode
+Created binary drop for java.awt.peer.FileDialogPeer
+Created source drop for file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/manyGenericTypesInOneFile/Test.java
+Created binary drop for sun.java2d.loops.MaskFill
+Created binary drop for sun.util.locale.Extension
+Created binary drop for java.awt.event.MouseWheelListener
+Created binary drop for sun.java2d.loops.FillSpans
+Created binary drop for java.awt.AttributeValue
+Created binary drop for java.security.Permission
+Created binary drop for java.awt.Choice
+Created binary drop for java.awt.MenuShortcut
+Created binary drop for java.net.UnknownServiceException
+Created binary drop for sun.java2d.SurfaceData
+Created binary drop for java.awt.Insets
+Created binary drop for javax.xml.transform.Result
+Created binary drop for java.awt.dnd.DragSource
+Created binary drop for java.awt.EventDispatchThread
+Created binary drop for org.hamcrest.Matcher
+Created source drop for file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/mutualImport/Type2.java
+Created source drop for file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/TestGenericMethods.java
+Created binary drop for sun.java2d.pipe.LoopBasedPipe
+Created binary drop for java.awt.image.DataBuffer
+Created binary drop for java.awt.image.BufferStrategy
+Created binary drop for javax.lang.model.type.TypeVariable
+Created source drop for file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/shadowing/Super.java
+Created binary drop for sun.java2d.loops.RenderLoops
+Created binary drop for java.awt.Shape
+Created binary drop for java.io.DataInputStream
+Created binary drop for java.awt.peer.LightweightPeer
+Created binary drop for java.util.zip.ZipException
+Created binary drop for java.awt.Paint
+Created binary drop for java.util.EventObject
+Created binary drop for java.security.CodeSigner
+Created binary drop for java.awt.Image
+Created binary drop for java.awt.RenderingHints
+Created binary drop for java.awt.font.TextAttribute
+Created binary drop for java.awt.TextComponent
+Created binary drop for java.security.PublicKey
+Created binary drop for java.nio.file.attribute.FileAttribute
+Created binary drop for java.awt.geom.Point2D
+Created binary drop for org.mockito.MockSettings
+Created binary drop for java.net.SocketException
+Created binary drop for org.mockito.internal.invocation.StubInfo
+Created binary drop for java.security.Principal
+Created binary drop for java.awt.peer.ComponentPeer
+Created binary drop for java.applet.AudioClip
+Created binary drop for sun.misc.MetaIndex
+Created binary drop for java.nio.DoubleBuffer
+Created binary drop for java.awt.peer.LabelPeer
+Created binary drop for java.awt.datatransfer.FlavorEvent
+Created source drop for file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/StateMachine.java
+Created binary drop for sun.util.locale.LocaleSyntaxException
+Created binary drop for java.nio.file.attribute.UserPrincipalLookupService
+Created binary drop for java.nio.charset.CharacterCodingException
+Created binary drop for java.awt.peer.MenuItemPeer
+Created binary drop for java.lang.UnsupportedOperationException
+Created binary drop for java.awt.event.FocusListener
+Created binary drop for java.util.concurrent.locks.AbstractOwnableSynchronizer
+Created binary drop for java.sql.SQLException
+Created binary drop for java.beans.PropertyChangeEvent
+Created binary drop for java.util.concurrent.ExecutorService
+Created binary drop for java.awt.peer.TextFieldPeer
+Created binary drop for sun.util.locale.LanguageTag
+Created binary drop for sun.java2d.DisposerTarget
+Created binary drop for java.awt.peer.ScrollPanePeer
+Created binary drop for java.text.CharacterIterator
+Created binary drop for java.net.URLStreamHandler
+Created binary drop for java.awt.peer.PanelPeer
+Created binary drop for org.mockito.internal.invocation.InvocationMatcher
+Created binary drop for java.security.DomainCombiner
+Created binary drop for java.math.BigInteger
+Created binary drop for java.beans.PropertyChangeSupport
+Created binary drop for java.awt.geom.PathIterator
+Created binary drop for java.awt.datatransfer.FlavorMap
+Created binary drop for java.security.NoSuchAlgorithmException
+Created binary drop for java.awt.event.HierarchyEvent
+Created binary drop for java.awt.event.AdjustmentListener
+Created binary drop for java.security.NoSuchProviderException
+Created binary drop for sun.font.Font2D
+Created binary drop for java.util.concurrent.locks.ReentrantLock
+Created binary drop for sun.font.StrikeMetrics
+Created binary drop for sun.util.locale.InternalLocaleBuilder
+Created binary drop for java.util.Collection
+Created binary drop for javax.lang.model.type.TypeMirror
+Created binary drop for java.awt.Container
+Created binary drop for sun.font.FontStrikeDisposer
+Created binary drop for java.io.FileNotFoundException
+Created source drop for file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testRewriting/Test2Applet.java
+Created binary drop for sun.java2d.loops.FillParallelogram
+Created binary drop for java.awt.BasicStroke
+Created binary drop for java.awt.peer.DesktopPeer
+Created binary drop for java.awt.ItemSelectable
+Created binary drop for sun.font.CharToGlyphMapper
+Created binary drop for java.nio.file.attribute.UserPrincipal
+Created binary drop for java.awt.Font
+Created binary drop for javax.accessibility.AccessibleAction
+Created binary drop for java.awt.datatransfer.Clipboard
+Created binary drop for sun.util.locale.BaseLocale
+Created binary drop for java.lang.AbstractStringBuilder
+Created binary drop for java.security.cert.CertificateEncodingException
+Created source drop for file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/lub/ID.java
+Created binary drop for java.util.Deque
+Created binary drop for java.nio.file.WatchKey
+Created binary drop for java.awt.event.HierarchyBoundsListener
+Created binary drop for java.lang.reflect.Constructor
+Created binary drop for java.awt.IllegalComponentStateException
+Created binary drop for java.awt.geom.AffineTransform
+Created binary drop for java.nio.channels.CompletionHandler
+Created binary drop for java.awt.peer.ButtonPeer
+Created binary drop for javax.accessibility.AccessibleComponent
+Created binary drop for java.nio.charset.Charset
+Created binary drop for javax.accessibility.Accessible
+Created binary drop for java.lang.annotation.Retention
+Created source drop for file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/TestWhen.java
+Created binary drop for java.lang.reflect.Type
+Created binary drop for sun.java2d.pipe.CompositePipe
+Created binary drop for java.awt.Checkbox
+Created binary drop for java.lang.InstantiationException
+Created binary drop for java.awt.Frame
+Created binary drop for java.awt.image.BufferedImageOp
+Created binary drop for java.awt.MenuItem
+Created binary drop for java.awt.FocusTraversalPolicy
+Created binary drop for sun.awt.AppContext
+Created binary drop for sun.java2d.pipe.AlphaColorPipe
+Created binary drop for java.util.AbstractSet
+Created binary drop for java.awt.dnd.DropTargetContext
+Created binary drop for sun.java2d.loops.MaskBlit
+Created binary drop for java.awt.peer.TextAreaPeer
+Created binary drop for java.lang.reflect.TypeVariable
+Created binary drop for sun.awt.EventQueueItem
+Created binary drop for sun.java2d.loops.FillRect
+Created binary drop for java.nio.Buffer
+Created binary drop for java.awt.event.ContainerEvent
+Created binary drop for java.nio.ShortBuffer
+Created binary drop for sun.java2d.pipe.LoopPipe
+Created binary drop for java.awt.datatransfer.DataFlavor
+Created binary drop for java.awt.peer.MenuPeer
+Created binary drop for java.awt.image.WritableRaster
+Created binary drop for java.lang.reflect.AnnotatedElement
+Created binary drop for java.awt.datatransfer.UnsupportedFlavorException
+Created binary drop for java.nio.CharBuffer
+Created binary drop for java.awt.peer.ChoicePeer
+Created binary drop for java.util.ResourceBundle
+Created binary drop for java.awt.CheckboxGroup
+Created binary drop for java.util.Arrays
+Created binary drop for java.io.UnsupportedEncodingException
+Created binary drop for java.security.cert.CertPath
+Created binary drop for java.awt.image.SampleModel
+Created binary drop for sun.java2d.pipe.ParallelogramPipe
+Created binary drop for java.util.concurrent.locks.Condition
+Created binary drop for java.nio.IntBuffer
+Created binary drop for java.util.spi.LocaleNameProvider
+Created binary drop for java.lang.Byte
+Created binary drop for java.awt.datatransfer.MimeTypeParameterList
+Created binary drop for java.awt.event.AdjustmentEvent
+Created binary drop for sun.java2d.DisposerRecord
+Created binary drop for java.util.Queue
+Created binary drop for java.security.PermissionCollection
+Created binary drop for java.lang.Runnable
+Created binary drop for java.io.InputStream
+Created source drop for file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/overloadingStaticGenericMethods/Job.java
+Created binary drop for java.security.CodeSource
+Created binary drop for java.util.concurrent.Executor
+Created binary drop for java.nio.MappedByteBuffer
+Created binary drop for sun.java2d.loops.DrawGlyphList
+Created binary drop for java.lang.StringBuilder
+Created source drop for file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/mutualImport/Type1.java
+Created binary drop for java.awt.dnd.DragSourceListener
+Created binary drop for java.nio.channels.AsynchronousChannel
+Created binary drop for org.mockito.stubbing.VoidMethodStubbable
+Created binary drop for java.awt.Dimension
+Created binary drop for java.awt.image.RenderedImage
+Created binary drop for java.io.Serializable
+Created binary drop for sun.awt.datatransfer.ToolkitThreadBlockedHandler
+Created binary drop for java.lang.Short
+Created binary drop for org.mockito.internal.invocation.CapturesArgumensFromInvocation
+Created binary drop for java.awt.event.ComponentEvent
+Created binary drop for java.awt.dnd.DropTargetEvent
+Created binary drop for sun.util.resources.OpenListResourceBundle
+Created binary drop for java.awt.peer.MenuBarPeer
+Created binary drop for java.lang.NoSuchFieldException
+Created binary drop for java.awt.peer.CheckboxPeer
+Created binary drop for java.awt.event.ContainerListener
+Created binary drop for java.awt.image.WritableRenderedImage
+Created binary drop for java.util.Comparator
+Created binary drop for java.lang.ref.Reference
+Created binary drop for java.awt.image.VolatileImage
+Created binary drop for java.nio.file.OpenOption
+Created binary drop for sun.java2d.loops.DrawGlyphListLCD
+Created binary drop for java.lang.reflect.InvocationTargetException
+Created binary drop for java.security.AccessControlException
+Created binary drop for java.awt.peer.ListPeer
+Created source drop for file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/typeShadowing/F.java
+Created binary drop for java.util.Properties
+Created binary drop for java.text.Annotation
+Created source drop for file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/SingleArcTransition.java
+Created binary drop for java.nio.file.attribute.AttributeView
+Created binary drop for java.io.ObjectInputStream
+Created source drop for file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/shadowing/Sub.java
+Created binary drop for sun.java2d.pipe.RegionIterator
+Created binary drop for java.nio.channels.AsynchronousFileChannel
+Created binary drop for javax.lang.model.element.Element
+Created binary drop for org.mockito.Matchers
+Created binary drop for java.security.SignatureException
+Created binary drop for javax.accessibility.AccessibleIcon
+Created binary drop for java.awt.Event
+Created source drop for file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/anyT/Generic.java
+Created binary drop for java.io.Reader
+Created binary drop for java.nio.file.attribute.BasicFileAttributes
+Created binary drop for java.util.Vector
+Created binary drop for javax.lang.model.type.PrimitiveType
+Created binary drop for javax.lang.model.element.NestingKind
+Created binary drop for java.awt.peer.ContainerPeer
+Created binary drop for sun.awt.image.PixelConverter
+Created binary drop for org.mockito.internal.invocation.MockitoMethod
+Created binary drop for org.mockito.internal.MockitoCore
+Created binary drop for java.util.Random
+Created binary drop for java.awt.datatransfer.Transferable
+Created binary drop for java.util.AbstractQueue
+Created source drop for file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/selfImport/Super2.java
+Created binary drop for javax.accessibility.AccessibleEditableText
+Created binary drop for java.nio.ByteOrder
+Created binary drop for java.awt.PageAttributes
+Created binary drop for sun.java2d.Surface
+Created binary drop for java.beans.ConstructorProperties
+Created binary drop for sun.util.locale.LocaleObjectCache
+Created binary drop for java.awt.BufferCapabilities
+Created binary drop for org.mockito.verification.VerificationWithTimeout
+Created binary drop for java.nio.charset.CharsetEncoder
+Created binary drop for sun.java2d.pipe.RenderingEngine
+Created binary drop for java.awt.image.IndexColorModel
+Created binary drop for java.util.MissingResourceException
+Created binary drop for java.awt.dnd.DragGestureListener
+Created binary drop for java.lang.Object
+Created binary drop for java.util.TooManyListenersException
+Created binary drop for sun.java2d.StateTracker
+Created binary drop for java.awt.MenuContainer
+Created binary drop for java.nio.FloatBuffer
+Created binary drop for java.nio.ByteBuffer
+Created binary drop for java.awt.font.NumericShaper
+Created binary drop for sun.nio.ch.Interruptible
+Created binary drop for sun.font.Font2DHandle
+Created binary drop for java.nio.charset.CodingErrorAction
+Created binary drop for sun.reflect.ConstructorAccessor
+Created binary drop for java.io.ObjectInputValidation
+Created binary drop for java.awt.Graphics
+Created binary drop for javax.lang.model.element.PackageElement
+Created binary drop for java.awt.image.renderable.RenderContext
+Created source drop for file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testRewriting/TestApplet.java
+Created binary drop for java.nio.channels.ByteChannel
+Created binary drop for java.util.concurrent.TimeUnit
+Created binary drop for org.mockito.internal.verification.api.VerificationData
+Created binary drop for java.lang.Iterable
+Created binary drop for java.awt.event.ItemListener
+Created binary drop for javax.lang.model.element.Modifier
+Created binary drop for java.io.DataOutputStream
+Created source drop for file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/polymorphicMethods/TestPolyMethods.java
+Created binary drop for java.nio.file.attribute.FileStoreAttributeView
+Created binary drop for java.awt.FileDialog
+Created source drop for file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/numericPromotion/TestPromotion.java
+Created binary drop for java.awt.dnd.DropTargetDragEvent
+Created binary drop for java.io.FileFilter
+Created binary drop for java.lang.annotation.Annotation
+Created binary drop for java.util.Collections
+Created binary drop for javax.lang.model.element.Name
+Created binary drop for sun.java2d.loops.FillPath
+Created binary drop for javax.lang.model.element.TypeElement
+Created binary drop for java.awt.dnd.peer.DragSourceContextPeer
+Created binary drop for java.awt.datatransfer.MimeTypeParseException
+Created binary drop for java.awt.AWTEventMulticaster
+Created binary drop for java.awt.geom.Line2D
+Created binary drop for sun.awt.util.IdentityArrayList
+Created binary drop for java.lang.ThreadGroup
+Created binary drop for java.awt.event.WindowEvent
+Created binary drop for javax.lang.model.type.ErrorType
+Created binary drop for java.awt.EventQueue
+Created source drop for file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testAnnosOnEnums/Test.java
+Created binary drop for java.io.SyncFailedException
+Created binary drop for java.awt.Graphics2D
+Created source drop for file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/shadowing/TestMethodShadowing.java
+Created source drop for file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/boxing/TestBoxing.java
+Created binary drop for java.awt.GraphicsDevice
+Created binary drop for java.util.AbstractMap
+Created binary drop for com.surelogic.Containable
+Created binary drop for java.awt.EventFilter
+Created binary drop for java.lang.Long
+Created binary drop for sun.misc.Resource
+Created binary drop for java.awt.font.GraphicAttribute
+Created binary drop for java.lang.NumberFormatException
+Created source drop for file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/rawGenerics/TestRaw.java
+Created source drop for file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/aceNonShadowing/Outer.java
+Created binary drop for java.awt.AlphaComposite
+Created binary drop for java.net.InterfaceAddress
+Created binary drop for java.lang.StringBuffer
+Created binary drop for java.awt.peer.CanvasPeer
+Created binary drop for java.lang.reflect.GenericDeclaration
+Created binary drop for java.awt.Dialog
+Created binary drop for sun.java2d.pipe.ShapeDrawPipe
+Created binary drop for java.awt.color.ProfileDataException
+Created binary drop for java.awt.image.ImageConsumer
+Created binary drop for java.security.KeyException
+Created binary drop for java.lang.Throwable
+Created binary drop for javax.lang.model.type.NoType
+Created binary drop for java.awt.dnd.DragSourceDragEvent
+Created binary drop for java.lang.Readable
+Created binary drop for java.io.FilenameFilter
+Created binary drop for javax.lang.model.element.VariableElement
+Created binary drop for java.util.Locale
+Created binary drop for java.net.InetAddressImpl
+Created binary drop for java.nio.LongBuffer
+Created binary drop for java.awt.image.Raster
+Created binary drop for java.io.ObjectInput
+Created binary drop for java.awt.AWTEvent
+Created binary drop for javax.accessibility.AccessibleValue
+Created binary drop for java.util.WeakHashMap
+Created binary drop for java.net.URLConnection
+Created binary drop for org.mockito.invocation.InvocationOnMock
+Created binary drop for java.awt.event.WindowListener
+Created binary drop for java.awt.Scrollbar
+Created binary drop for org.mockito.Mockito
+Created binary drop for javax.lang.model.type.WildcardType
+Created source drop for file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/TestNameResolution.java
+Created binary drop for sun.font.GlyphList
+Created binary drop for java.net.ContentHandler
+Created binary drop for java.awt.event.ActionListener
+Created binary drop for java.io.BufferedReader
+Created source drop for file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/lub/JobID.java
+Created binary drop for java.lang.Number
+Created binary drop for java.lang.reflect.Member
+Created binary drop for java.nio.file.attribute.FileTime
+Created binary drop for java.awt.dnd.DragSourceMotionListener
+Created binary drop for java.lang.Void
+Created binary drop for java.nio.channels.ClosedChannelException
+Created binary drop for java.io.IOException
+Created binary drop for java.awt.datatransfer.FlavorTable
+Created binary drop for org.mockito.internal.reporting.PrintSettings
+Created binary drop for java.awt.peer.MouseInfoPeer
+Created binary drop for java.lang.Package
+Created binary drop for java.io.Writer
+Created binary drop for org.mockito.internal.debugging.Location
+Created binary drop for java.lang.IllegalThreadStateException
+Created binary drop for java.awt.event.MouseWheelEvent
+Created binary drop for java.util.zip.ZipEntry
+Created binary drop for java.beans.ChangeListenerMap
+Created binary drop for java.awt.font.GlyphJustificationInfo
+Created binary drop for java.io.FilterInputStream
+Created binary drop for java.awt.geom.Path2D
+Created binary drop for sun.java2d.cmm.ProfileDeferralInfo
+Created binary drop for java.awt.event.InputEvent
+Created binary drop for java.awt.CheckboxMenuItem
+Created binary drop for java.lang.Integer
+Created binary drop for sun.java2d.pipe.AAShapePipe
+Created binary drop for java.text.AttributedCharacterIterator
+Created binary drop for java.lang.SafeVarargs
+Created binary drop for sun.misc.Unsafe
+Created binary drop for java.io.ObjectStreamClass
+Created binary drop for java.awt.im.InputContext
+Created source drop for file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/overloadingStaticGenericMethods/Configuration.java
+Created binary drop for sun.java2d.pipe.PixelFillPipe
+Created binary drop for java.awt.List
+Created binary drop for java.security.cert.Certificate
+Created binary drop for java.applet.AppletStub
+Created binary drop for sun.awt.geom.PathConsumer2D
+Created binary drop for java.awt.event.MouseEvent
+Created binary drop for java.util.jar.Manifest
+Created binary drop for java.net.Proxy
+Created binary drop for java.awt.AWTKeyStroke
+Created binary drop for java.net.InetAddress
+Created binary drop for java.lang.Thread
+Created binary drop for sun.awt.image.OffScreenImageSource
+Created binary drop for java.awt.MenuComponent
+Created source drop for file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/MultipleArcTransition.java
+Created binary drop for java.awt.MenuBar
+Created binary drop for java.lang.Float
+Created binary drop for java.util.Date
+Created binary drop for java.lang.ReflectiveOperationException
+Created binary drop for sun.reflect.MethodAccessor
+Created binary drop for java.security.PrivilegedAction
+Created binary drop for sun.util.LocaleServiceProviderPool
+Created binary drop for sun.java2d.loops.Blit
+Created binary drop for java.net.FileNameMap
+Created binary drop for java.util.InvalidPropertiesFormatException
+Created binary drop for java.awt.event.KeyEvent
+Created binary drop for java.nio.channels.WritableByteChannel
+Created binary drop for sun.java2d.SurfaceDataProxy
+Created binary drop for java.io.ObjectStreamConstants
+Created binary drop for java.nio.file.FileSystem
+Created binary drop for java.io.NotActiveException
+Created binary drop for java.awt.event.InputMethodEvent
+Created binary drop for javax.lang.model.element.ExecutableElement
+Created binary drop for sun.java2d.pipe.AATileGenerator
+Created binary drop for java.awt.image.renderable.RenderableImage
+Created binary drop for java.security.GeneralSecurityException
+Created binary drop for sun.awt.RequestFocusController
+Created binary drop for java.util.zip.ZipFile
+Created binary drop for javax.accessibility.AccessibleStateSet
+Created binary drop for java.awt.PopupMenu
+Created binary drop for sun.security.util.Debug
+Created binary drop for java.awt.JobAttributes
+Created binary drop for java.awt.dnd.DropTargetDropEvent
+Created binary drop for sun.java2d.pipe.PixelToParallelogramConverter
+Created binary drop for java.nio.channels.ReadableByteChannel
+Created binary drop for java.awt.dnd.InvalidDnDOperationException
+Created binary drop for java.lang.RuntimeException
+Created binary drop for org.mockito.stubbing.OngoingStubbing
+Created binary drop for java.lang.Class
+Created binary drop for java.awt.event.FocusEvent
+Created binary drop for java.awt.Stroke
+Created binary drop for sun.awt.image.SurfaceManager
+Created source drop for file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/selfImport/Super.java
+Created binary drop for java.security.BasicPermission
+Created binary drop for org.hamcrest.SelfDescribing
+Created binary drop for java.awt.geom.GeneralPath
+Created binary drop for java.awt.Point
+Created binary drop for java.awt.peer.FontPeer
+Created binary drop for java.net.MalformedURLException
+Created binary drop for java.awt.event.HierarchyListener
+Created binary drop for java.net.URL
+Created binary drop for java.awt.event.ItemEvent
+Created binary drop for org.mockito.verification.VerificationMode
+Created binary drop for java.security.Guard
+Created binary drop for java.awt.FontMetrics
+Created binary drop for java.beans.Transient
+Created binary drop for java.lang.SuppressWarnings
+Created binary drop for sun.java2d.DestSurfaceProvider
+Created binary drop for javax.accessibility.AccessibleTable
+Created binary drop for java.awt.GraphicsConfiguration
+Created binary drop for javax.xml.transform.Source
+Created binary drop for java.lang.ThreadLocal
+Created binary drop for java.util.Enumeration
+Created binary drop for java.nio.file.attribute.GroupPrincipal
+Created binary drop for sun.java2d.pipe.PixelToShapeConverter
+Created binary drop for java.util.concurrent.locks.Lock
+Created binary drop for java.util.Set
+Created binary drop for java.awt.color.ICC_Profile
+Created binary drop for java.util.SortedSet
+Created binary drop for java.awt.Canvas
+Created binary drop for javax.lang.model.element.ElementKind
+Created binary drop for java.net.URLStreamHandlerFactory
+Created binary drop for java.net.NetworkInterface
+Created binary drop for java.awt.event.ActionEvent
+Created binary drop for java.nio.file.WatchService
+Created binary drop for sun.java2d.Disposer
+Created binary drop for sun.reflect.annotation.AnnotationType
+Created binary drop for java.util.AbstractSequentialList
+Created binary drop for sun.font.FontStrike
+Created binary drop for java.util.SortedMap
+Created binary drop for java.lang.StackTraceElement
+Created binary drop for java.lang.Cloneable
+Created binary drop for sun.java2d.loops.CompositeType
+Created binary drop for java.lang.NullPointerException
+Created binary drop for java.io.OutputStream
+Created binary drop for sun.java2d.loops.DrawLine
+Created binary drop for java.util.jar.JarEntry
+Created binary drop for java.lang.Character
+Created binary drop for java.nio.file.FileStore
+Created binary drop for javax.lang.model.type.UnionType
+Created source drop for file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/overloadingStaticGenericMethods/TestToo.java
+Created binary drop for java.awt.ScrollPane
+Created binary drop for java.awt.dnd.DragSourceEvent
+Created binary drop for java.nio.file.WatchEvent
+Created binary drop for java.lang.Comparable
+Created binary drop for java.awt.HeadlessException
+Created binary drop for java.util.concurrent.ConcurrentMap
+Created binary drop for sun.misc.JarIndex
+Created binary drop for java.util.concurrent.Callable
+Created binary drop for java.awt.Label
+Created binary drop for java.util.List
+Created source drop for file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/overloading/TestOverloading.java
+Created binary drop for java.nio.file.DirectoryStream
+Created binary drop for java.lang.annotation.Documented
+Created binary drop for javax.lang.model.type.DeclaredType
+Created binary drop for java.sql.SQLXML
+Created binary drop for java.lang.annotation.ElementType
+Created binary drop for java.util.LinkedList
+Created binary drop for sun.java2d.StateTrackableDelegate
+Created binary drop for sun.java2d.pipe.hw.ExtendedBufferCapabilities
+Created binary drop for java.lang.IndexOutOfBoundsException
+Created binary drop for java.lang.String
+Created binary drop for java.util.HashMap
+Created binary drop for java.awt.im.InputMethodHighlight
+Created binary drop for org.mockito.stubbing.Answer
+Created binary drop for java.awt.Adjustable
+Created source drop for file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/selfImport/Outer.java
+Created binary drop for java.awt.peer.MenuComponentPeer
+Created binary drop for java.util.RandomAccess
+Created binary drop for java.awt.ImageCapabilities
+Created binary drop for java.net.URISyntaxException
+Created binary drop for sun.util.locale.ParseStatus
+Created binary drop for java.lang.Double
+Created binary drop for org.hamcrest.Description
+Created binary drop for java.lang.annotation.Target
+Created binary drop for java.awt.event.InputMethodListener
+Created binary drop for java.io.Closeable
+Created binary drop for java.awt.Desktop
+Created binary drop for java.nio.channels.InterruptibleChannel
+##SUBTASK_DONE
+##WORK, 1
+Parsing promises
+##SUBTASK, Parsing promises
+Added 3 promises for java.lang.[] in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@799f7e29
+Added 3 promises for java.lang.[] in TestMoreLanguageFeatures: com.surelogic.tree.SyntaxTreeNode@5dbf5634
+Added 6 promises for java.lang.Appendable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@63c5d078
+Added 4 promises for java.util.Enumeration in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@337123f
+Added 12 promises for java.lang.CharSequence in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@1248b23b
+Added 39 promises for java.awt.Dimension in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6f3ec4dd
+Added 6 promises for java.lang.IllegalAccessException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@a5dd463
+Added 15 promises for java.lang.ClassNotFoundException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@8f1b475
+Added 12 promises for java.lang.IllegalArgumentException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@78265e9c
+Added 59 promises for java.lang.Byte in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@188c78c6
+Added 12 promises for java.lang.SecurityException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@95efc36
+Added 12 promises for java.lang.reflect.InvocationTargetException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@62bc6eb
+Added 159 promises for java.awt.geom.Rectangle2D in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6cf16f5
+Added 86 promises for java.awt.Color in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7fca8aab
+Added 9 promises for java.awt.HeadlessException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@70c55568
+Added 1 promises for javax.lang.model.element.Modifier in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@5986001c
+Added 77 promises for java.awt.geom.RectangularShape in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@457b3c2e
+Added 6 promises for java.io.InvalidClassException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@ca90f9c
+Added 22 promises for java.util.concurrent.locks.AbstractQueuedSynchronizer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2d692d2e
+Added 7 promises for java.util.concurrent.locks.ReadWriteLock in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@1cb90bdb
+Added 21 promises for java.util.Stack in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@67e6878c
+Added 27 promises for java.awt.Shape in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7ac06e4b
+Added 89 promises for java.util.List in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@56f38c3c
+Added 83 promises for java.util.Hashtable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6a449706
+Added 3 promises for java.nio.file.DirectoryStream in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6ffaeaec
+Added 18 promises for java.util.ListIterator in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@25a5f25b
+Added 67 promises for java.awt.RenderingHints in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@35ab7c67
+Added 3 promises for java.nio.file.Path in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@10ab754f
+Added 6 promises for java.util.Iterator in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@5e10a8e2
+Added 12 promises for java.lang.IllegalStateException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@22528352
+Added 108 promises for java.util.AbstractMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@396145c2
+Added 12 promises for java.lang.UnsupportedOperationException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@490df346
+Added 13 promises for java.lang.Enum in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@357bcb69
+Added 6 promises for java.lang.CloneNotSupportedException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@44910369
+Added 30 promises for java.awt.geom.Path2D in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@549935b4
+Added 139 promises for java.util.LinkedList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@41aad000
+Added 66 promises for java.awt.geom.Point2D in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2dc774f3
+Added 22 promises for java.util.concurrent.locks.Condition in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@9929dd0
+Added 86 promises for java.util.concurrent.ConcurrentHashMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@22ababa6
+[GC (Allocation Failure)  139289K->74641K(190976K), 0.0077220 secs]
+Added 34 promises for java.util.concurrent.ExecutorService in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7e34cae7
+Added 2 promises for testBinder.TestWhen in TestMoreLanguageFeatures: com.surelogic.tree.SyntaxTreeNode@4439a16f
+Added 42 promises for java.awt.Point in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@29c2f2a9
+Added 6 promises for java.lang.InstantiationException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@34fa9f4f
+Added 16 promises for java.util.AbstractSet in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@175bc5d3
+Added 141 promises for java.lang.Thread in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@87623bb
+Added 87 promises for java.util.Deque in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@689d0374
+Added 18 promises for java.nio.CharBuffer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4b7837
+Added 29 promises for java.util.AbstractSequentialList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@36953952
+Added 6 promises for java.io.PrintStream in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@5541d3cf
+Added 6 promises for java.lang.NullPointerException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@53604409
+Added 301 promises for java.lang.String in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@49a7adfb
+Added 73 promises for java.lang.Float in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6077650
+Added 31 promises for java.lang.Object in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@19bdead6
+Added 24 promises for java.util.Arrays in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7c659433
+Added 70 promises for java.lang.Double in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6c4035b3
+Added 12 promises for java.lang.RuntimeException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@59e3d3c
+Added 6 promises for java.lang.IndexOutOfBoundsException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@1f031e4f
+Added 61 promises for java.util.HashMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@1a4fa553
+Added 73 promises for java.util.Properties in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@56e186e6
+Added 18 promises for java.awt.geom.Dimension2D in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@12d67f75
+Added 54 promises for java.util.Set in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4e0c5866
+Added 2 promises for java.lang.ref.SoftReference in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4240f8ef
+Added 29 promises for java.util.Dictionary in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@202e1975
+Added 170 promises for java.util.Vector in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7da96778
+Added 3 promises for java.lang.Iterable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4ec9ad8
+Added 31 promises for java.util.SortedMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4650d72a
+Added 64 promises for java.util.Map in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3e4f25a8
+WARNING: TreeAccessor couldn't find equals(java.lang.Object) in java.util.ArrayList
+Added 37 promises for java.lang.Boolean in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@ee06bed
+WARNING: TreeAccessor couldn't find hashCode() in java.util.ArrayList
+Added 104 promises for java.util.ArrayList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2c868124
+Added 17 promises for java.util.concurrent.ConcurrentMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7ba7ad89
+Added 6 promises for java.lang.NumberFormatException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4c0128e4
+Added 6 promises for java.lang.InterruptedException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@76fe9f81
+Added 4 promises for java.sql.SQLException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@e99db34
+Added 60 promises for java.util.AbstractList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7d554cc3
+Added 136 promises for java.awt.geom.Line2D in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@45a47438
+Added 27 promises for java.awt.Polygon in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@459cf8a6
+Added 18 promises for java.net.URISyntaxException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3026eed7
+Added 16 promises for java.util.Collections in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@33bf7721
+Added 1 promises for java.lang.ref.ReferenceQueue in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@74d06de8
+Added 45 promises for java.util.ResourceBundle in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@52b79214
+Added 3 promises for java.util.Locale in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@268749f9
+Added 88 promises for java.util.jar.Attributes in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3f2da72d
+Added 54 promises for java.util.Collection in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@356a626a
+Added 3 promises for java.util.zip.ZipEntry in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@27b417a7
+Added 20 promises for java.util.concurrent.locks.Lock in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6a50c929
+[GC (Allocation Failure)  154001K->76753K(193024K), 0.0084670 secs]
+Added 109 promises for java.lang.Math in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@41107972
+Added 6 promises for java.io.PrintWriter in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@1963ed01
+Added 109 promises for java.lang.StringBuilder in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4dce10d7
+Added 12 promises for java.lang.Exception in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6a13b495
+Added 55 promises for java.util.AbstractCollection in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@13b09159
+Added 56 promises for java.util.WeakHashMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@689ef460
+Added 6 promises for java.lang.NoSuchFieldException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@1bb0aeef
+Added 144 promises for java.lang.AbstractStringBuilder in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7db56dd8
+Added 6 promises for java.io.Writer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@77d670a8
+Added 138 promises for java.math.BigInteger in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6b8fa79e
+Added 18 promises for java.util.Queue in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@672a7c14
+Added 21 promises for java.util.AbstractQueue in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2ffd0fbf
+Added 61 promises for java.lang.Short in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3935447e
+Added 149 promises for java.awt.Rectangle in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@265f3d13
+Added 58 promises for java.util.concurrent.locks.ReentrantLock in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@59bdd01e
+Added 29 promises for java.util.concurrent.TimeUnit in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@e29b91c
+Added 96 promises for java.lang.Long in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@51ea5ca8
+Added 12 promises for java.lang.Class in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@70da2aa7
+Added 1 promises for java.lang.ThreadLocal in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@25851152
+Added 158 promises for java.lang.StringBuffer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7cc6daab
+Added 22 promises for java.util.SortedSet in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@20030ec9
+Added 47 promises for java.lang.Throwable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3790bdee
+Added 22 promises for java.lang.Number in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@587ddd10
+Added 6 promises for java.lang.IllegalThreadStateException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6ab7b988
+Added 96 promises for java.lang.Integer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@15908025
+Added 3 promises for java.util.jar.Manifest in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3ef491a4
+Added 3 promises for java.util.Date in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@a986125
+##SUBTASK_DONE
+##WORK, 1
+Scrubbing promises
+##SUBTASK, Scrubbing promises
+[GC (Allocation Failure)  156113K->80441K(201216K), 0.0110630 secs]
+Creating RegionModel java.lang.Object.Instance for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+[GC (Allocation Failure)  169529K->84142K(202240K), 0.0111930 secs]
+##SUBTASK_DONE
+##WORK, 1
+Starting analyses
+Using new analysis framework -- groups
+Starting group: ThreadEffectsModule, ParameterizedTypeAnalysis
+##SUBTASK, Starting parallel ThreadEffectsModule [0]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel ThreadEffectsModule [0]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Starting parallel ParameterizedTypeAnalysis [1]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel ParameterizedTypeAnalysis [1]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Starting parallel ThreadEffectsModule [0]: 46 for TestMoreLanguageFeatures
+Starting parallel ThreadEffectsModule [0]: 46 for TestMoreLanguageFeatures
+##SUBTASK, Starting parallel ParameterizedTypeAnalysis [1]: 46 for TestMoreLanguageFeatures
+Starting parallel ParameterizedTypeAnalysis [1]: 46 for TestMoreLanguageFeatures
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/overloadingStaticGenericMethods/Configuration.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/MultipleArcTransition.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/overloading/TestOverloading.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/anyT/Generic.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/boxing/TestBoxing.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/rawGenerics/SqlXmlValue.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/overloadingStaticGenericMethods/TestToo.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/overloadingStaticGenericMethods/Job.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/rawGenerics/SqlXmlValue.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/MultipleArcTransition.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/overloadingStaticGenericMethods/TestToo.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/overloading/TestOverloading.java
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/anyT/Generic.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/overloadingStaticGenericMethods/Job.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/selfImport/Super2.java
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/overloadingStaticGenericMethods/Configuration.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/selfImport/Super2.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/selfImport/Outer.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testRewriting/TestApplet.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/selfImport/Super.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/localTypeInACE/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testRewriting/TestApplet.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/selfImport/Super.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/selfImport/Outer.java
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/boxing/TestBoxing.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/polymorphicMethods/TestPolyMethods.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/localTypeInACE/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/mutualImport/Type1.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/typeShadowing/F.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/typeShadowing/F.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/aceNonShadowing/Outer.java
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/polymorphicMethods/TestPolyMethods.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/shadowing/TestMethodShadowing.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/shadowing/Sub.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/SingleArcTransition.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/mutualImport/Type1.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/rawGenerics/TestRaw.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/rawGenerics/TestRaw.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/shadowing/Sub.java
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/shadowing/TestMethodShadowing.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/numericPromotion/TestPromotion.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/TestNameResolution.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/aceNonShadowing/Outer.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/numericPromotion/TestPromotion.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/SingleArcTransition.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/localTypeInACE/Outer.java
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/TestNameResolution.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/rawGenerics/XmlResultProvider.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testAnnosOnEnums/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testAnnosOnEnums/Test.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/lub/JobID.java
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/rawGenerics/XmlResultProvider.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/typeShadowing/Outer.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/localTypeInACE/Outer.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/InvalidStateTransitonException.java
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/lub/JobID.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/typeShadowing/Outer.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/InvalidStateTransitonException.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/Graph.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/methodOnlyInACE/TestAnonClassMethods.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/Graph.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/rawGenerics/AbstractJdbc4SqlXmlValue.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/shadowing/Super.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/overloadingStaticGenericMethods/MockitoMaker.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/TestGenericMethods.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/shadowing/Super.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/TestGenericMethods.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/lub/TestLUB.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/rawGenerics/AbstractJdbc4SqlXmlValue.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/methodOnlyInACE/TestAnonClassMethods.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testRewriting/Test2Applet.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/lub/TestLUB.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/overloadingStaticGenericMethods/MockitoMaker.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/StateMachine.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testRewriting/Test2Applet.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/StateMachine.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/TestVarargs.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/lub/ID.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/aceNonShadowing/TestACE.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/TestVarargs.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/lub/ID.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/aceNonShadowing/TestACE.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/TestWhen.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/TestWhen.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/manyGenericTypesInOneFile/Test.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/mutualImport/ATrigger.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/mutualImport/ATrigger.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/StateMachineFactory.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/StateMachineFactory.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/mutualImport/Type2.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/mutualImport/Type2.java
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestMoreLanguageFeatures/src/testBinder/manyGenericTypesInOneFile/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+Starting group: LockAnalysis, EffectsAnalysis
+com.surelogic.analysis.uniqueness.classic.sideeffecting.UniquenessAnalysisModule$1@5b37e0d2: 1
+com.surelogic.analysis.visitors.TopLevelAnalysisVisitor$1@69663380: 75
+##SUBTASK, Starting parallel LockAnalysis [2]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel LockAnalysis [2]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Looking at @RegionLock("MUTEX is this protects WaitQueue") on Object
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@5220eb39 on java.lang.Object
+##SUBTASK, Starting parallel EffectsAnalysis [3]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel EffectsAnalysis [3]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Starting parallel LockAnalysis [2]: 75 for TestMoreLanguageFeatures
+Starting parallel LockAnalysis [2]: 75 for TestMoreLanguageFeatures
+Looking at @RegionLock("MUTEX is this protects WaitQueue") on Object
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@5220eb39 on java.lang.Object
+##SUBTASK, Starting parallel EffectsAnalysis [3]: 75 for TestMoreLanguageFeatures
+Starting parallel EffectsAnalysis [3]: 75 for TestMoreLanguageFeatures
+##SUBTASK, Checking [ Lock policy ] testBinder.shadowing.Super
+##SUBTASK, Checking [ Lock policy ] testBinder.rawGenerics.SqlXmlValue
+##SUBTASK, Checking [ Lock policy ] testBinder.MetricsSystem
+##SUBTASK, Checking [ Lock policy ] testBinder.TestNameResolution
+##SUBTASK, Checking [ Lock policy ] testBinder.MultipleArcTransition
+##SUBTASK, Checking [ Lock policy ] testBinder.rawGenerics.TestRaw.ACE #0
+##SUBTASK, Checking [ Lock policy ] testBinder.overloading.Super
+##SUBTASK, Checking [ Lock policy ] testBinder.lub.JobID
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.MetricsSystem
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.rawGenerics.SqlXmlValue
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.shadowing.Super
+##SUBTASK, Checking [ Region effects ] testBinder.rawGenerics.TestRaw.ACE #0
+##SUBTASK, Checking [ Region effects ] testBinder.MultipleArcTransition
+##SUBTASK, Checking [ Region effects ] testBinder.overloading.Super
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.lub.JobID
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testBinder.shadowing.TestMethodShadowing
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testBinder.overloading.TestOverloading
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testBinder.localTypeInACE.Test
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testBinder.selfImport.Super
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testBinder.StateMachine
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.selfImport.Super
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.StateMachine
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testRewriting.Test2Applet
+##SUBTASK, Checking [ Lock policy ] testBinder.overloadingStaticGenericMethods.Configuration
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.localTypeInACE.Test
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testBinder.localTypeInACE.Test.Inner
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testBinder.overloadingStaticGenericMethods.TestToo
+##SUBTASK, Checking [ Region effects ] testBinder.shadowing.TestMethodShadowing
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.overloadingStaticGenericMethods.Configuration
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.TestNameResolution
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.overloading.TestOverloading
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testRewriting.Test2Applet
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testBinder.lub.ID
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testBinder.aceNonShadowing.Outer
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testBinder.Info
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testBinder.shadowing.Sub
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.localTypeInACE.Test.Inner
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.lub.ID
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testBinder.TestWhen
+##SUBTASK, Checking [ Lock policy ] testBinder.selfImport.Outer
+##SUBTASK, Checking [ Region effects ] testBinder.aceNonShadowing.Outer
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.Info
+##SUBTASK, Checking [ Lock policy ] testBinder.polymorphicMethods.TestPolyMethods.ACE #0
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.shadowing.Sub
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.polymorphicMethods.TestPolyMethods.ACE #0
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testBinder.localTypeInACE.Test.Inner.ACE #0
+##SUBTASK, Checking [ Lock policy ] testBinder.anyT.Generic
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.selfImport.Outer
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testBinder.numericPromotion.TestPromotion
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.anyT.Generic
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.numericPromotion.TestPromotion
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testBinder.selfImport.Outer.Inner
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testBinder.aceNonShadowing.Outer.passwordDetails
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.aceNonShadowing.Outer.passwordDetails
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.localTypeInACE.Test.Inner.ACE #0
+##SUBTASK, Checking [ Lock policy ] testBinder.typeShadowing.Outer.Static1.Outer2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.TestWhen
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testBinder.overloadingStaticGenericMethods.Job
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testBinder.localTypeInACE.Test.Inner.ACE #0$Visitor
+##SUBTASK, Checking [ Lock policy ] testBinder.selfImport.Super2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.selfImport.Outer.Inner
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testAnnosOnEnums.Test
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testBinder.selfImport.Outer.Inner2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.typeShadowing.Outer.Static1.Outer2
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.localTypeInACE.Test.Inner.ACE #0$Visitor
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testBinder.localTypeInACE.Outer
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testBinder.typeShadowing.Outer.Static1.Outer2.Middle
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testAnnosOnEnums.Test
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.localTypeInACE.Outer
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.typeShadowing.Outer.Static1.Outer2.Middle
+##SUBTASK, Checking [ Lock policy ] testBinder.boxing.TestBoxing
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testBinder.rawGenerics.AbstractJdbc4SqlXmlValue
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.rawGenerics.AbstractJdbc4SqlXmlValue
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.selfImport.Super2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.overloadingStaticGenericMethods.TestToo
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testRewriting.TestApplet
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.overloadingStaticGenericMethods.Job
+##SUBTASK, Checking [ Lock policy ] testBinder.overloadingStaticGenericMethods.MockitoMaker
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testBinder.mutualImport.Type1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testBinder.overloadingStaticGenericMethods.TestToo.Task
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.mutualImport.Type1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testBinder.typeShadowing.F
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.overloadingStaticGenericMethods.TestToo.Task
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.typeShadowing.F
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.boxing.TestBoxing
+##SUBTASK, Checking [ Lock policy ] testBinder.localTypeInACE.Outer.Visitor
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.localTypeInACE.Outer.Visitor
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testBinder.methodOnlyInACE.TestAnonClassMethods
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testBinder.rawGenerics.TestRaw
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.selfImport.Outer.Inner2
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testBinder.overloadingStaticGenericMethods.TestToo.TaskType
+##SUBTASK, Checking [ Lock policy ] testBinder.aceNonShadowing.TestACE.passwordDetails
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.aceNonShadowing.TestACE.passwordDetails
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.rawGenerics.TestRaw
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testBinder.aceNonShadowing.TestACE.ACE #1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.overloadingStaticGenericMethods.TestToo.TaskType
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testRewriting.TestApplet
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testBinder.TestVarargs
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.aceNonShadowing.TestACE.ACE #1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testBinder.lub.TestLUB
+##SUBTASK, Checking [ Lock policy ] testBinder.manyGenericTypesInOneFile.Test.ApplicableSingleOrMultipleTransition
+##SUBTASK, Checking [ Lock policy ] testBinder.SingleArcTransition
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.manyGenericTypesInOneFile.Test.ApplicableSingleOrMultipleTransition
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testBinder.manyGenericTypesInOneFile.Transition
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.SingleArcTransition
+##SUBTASK, Checking [ Lock policy ] testBinder.polymorphicMethods.TestPolyMethods
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testBinder.aceNonShadowing.TestACE.ACE #1.ACE #0
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.aceNonShadowing.TestACE.ACE #1.ACE #0
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testBinder.manyGenericTypesInOneFile.Test
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.TestVarargs
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.manyGenericTypesInOneFile.Transition
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testBinder.manyGenericTypesInOneFile.SingleArcTransition
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.polymorphicMethods.TestPolyMethods
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.manyGenericTypesInOneFile.SingleArcTransition
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testBinder.mutualImport.Type2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testBinder.rawGenerics.XmlResultProvider
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.manyGenericTypesInOneFile.Test
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testBinder.overloadingStaticGenericMethods.MockitoMaker.StubBuilder
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.rawGenerics.XmlResultProvider
+##SUBTASK, Checking [ Region effects ] testBinder.mutualImport.Type2
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testBinder.manyGenericTypesInOneFile.Test.SingleInternalArc
+##SUBTASK, Checking [ Lock policy ] testBinder.Graph
+##SUBTASK, Checking [ Lock policy ] testBinder.typeShadowing.Outer.Middle
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testBinder.TestGenericMethods
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.typeShadowing.Outer.Middle
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.Graph
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testBinder.typeShadowing.Outer.Static1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testBinder.Graph.Node
+##SUBTASK, Checking [ Region effects ] testBinder.manyGenericTypesInOneFile.Test.SingleInternalArc
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.typeShadowing.Outer.Static1
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.Graph.Node
+##SUBTASK, Checking [ Lock policy ] testBinder.typeShadowing.Outer.Static1.Foo
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.typeShadowing.Outer.Static1.Foo
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.TestGenericMethods
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testBinder.InvalidStateTransitonException
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.InvalidStateTransitonException
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testBinder.mutualImport.ATrigger
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.mutualImport.ATrigger
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testBinder.aceNonShadowing.TestACE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.overloadingStaticGenericMethods.MockitoMaker.StubBuilder
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.aceNonShadowing.TestACE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testBinder.overloadingStaticGenericMethods.MockitoMaker.StubBuilder.ACE #0
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.methodOnlyInACE.TestAnonClassMethods
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.overloadingStaticGenericMethods.MockitoMaker.StubBuilder.ACE #0
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testBinder.methodOnlyInACE.TestAnonClassMethods.ACE #0
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.methodOnlyInACE.TestAnonClassMethods.ACE #0
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.lub.TestLUB
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.overloadingStaticGenericMethods.MockitoMaker
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testBinder.typeShadowing.Outer
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.typeShadowing.Outer
+##SUBTASK_DONE
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+Starting group: UniquenessAnalysisModule
+##SUBTASK, Starting parallel UniquenessAnalysisModule [4]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel UniquenessAnalysisModule [4]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Starting parallel UniquenessAnalysisModule [4]: 1 for TestMoreLanguageFeatures
+Starting parallel UniquenessAnalysisModule [4]: 1 for TestMoreLanguageFeatures
+##SUBTASK, Checking [ Uniqueness ] testBinder.TestWhen.TestWhen()
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Cleaning up after analysis
+Cleaning up after analysis
+[GC (System.gc())  127625K->84885K(212480K), 0.0163530 secs]
+[Full GC (System.gc())  84885K->59348K(212480K), 0.2182310 secs]
+##WORK, 1
+##SUBTASK_DONE
+Updating consistency proof
+##SUBTASK, Updating consistency proof
+Exporting results to TestMoreLanguageFeat-2015.06.19-at-15.54.00.036
+##SUBTASK, Exporting results to TestMoreLanguageFeat-2015.06.19-at-15.54.00.036
+Creating snapshot: /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/TestMoreLanguageFeat-2015.06.19-at-15.54.00.036/running_or_crashed_sea_snapshot.xml.gz
+[GC (Allocation Failure)  156628K->69305K(214016K), 0.0080860 secs]
+Done in 5874 ms.
+ThreadEffectsModule	: 22 ms
+ParameterizedTypeAnalysis	: 67 ms
+LockAnalysis	: 377 ms
+EffectsAnalysis	: 52 ms
+UniquenessAnalysisModule	: 29 ms
+[2015-06-19 15:54:07    INFO] partial bindings = 19137 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+[2015-06-19 15:54:07    INFO] full bindings = 873 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+cached = 0
+totalT = 0
+#Performance data for TestMoreLanguageFeatures
+#Fri Jun 19 15:54:07 EDT 2015
+jsure.Add.required=0
+jsure.All.analyses=470
+jsure.Binding.before.canon=430
+jsure.Binding.full.time=2345
+jsure.Binding.partial.time=1722
+jsure.Bindings.full=873
+jsure.Bindings.partial=19137
+jsure.Canonicalization=602
+jsure.Cleanup=183
+jsure.Destroy.time=17
+jsure.Drop.creation=36
+jsure.Find.canon.time=4
+jsure.Parsing=1323
+jsure.Promise.parsing=627
+jsure.Promise.scrubbing=1880
+jsure.Sea.export=650
+jsure.Sea.update=103
+jsure.Total.JSure.time=5874
+jsure.Total.blocks=126
+jsure.Total.canonical=2716
+jsure.Total.decls=403
+jsure.Total.destroyed=0
+jsure.Total.gced=0
+jsure.Total.loc=1251
+jsure.Total.nodes=183985
+jsure.Total.stmts=260
+jsure.Total.try.destroyed=599
+jsure.analysis.EffectsAnalysis=52
+jsure.analysis.LockAnalysis=377
+jsure.analysis.ParameterizedTypeAnalysis=67
+jsure.analysis.ThreadEffectsModule=22
+jsure.analysis.UniquenessAnalysisModule=29
+jsure.num.threads=8
+Javac making log: AnnotationRules
+##DONE
+Renaming snapshot: /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/TestMoreLanguageFeat-2015.06.19-at-15.54.00.036/sea_snapshot.xml.gz
+Done with JSure!
+Scanning complete (6956 ms)
+No socket to close
+Closing std streams
+Process result after waiting = 0
