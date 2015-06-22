@@ -1,0 +1,1699 @@
+LOCAL vm : 1.7.0_51
+Path: /home/edwin/qa/eclipse/plugins/com.surelogic.jsure.tests_1.0.0
+Path: /home/edwin/qa/eclipse/plugins/com.surelogic.jsure.tests_1.0.0/lib/ant-junit-1.9.4.jar
+Path: /home/edwin/qa/eclipse/plugins/com.surelogic.common_5.6.1.201506221103/lib/runtime/asm-tree-5.0.2.jar
+Path: /home/edwin/qa/eclipse/plugins/com.surelogic.jsure.common_5.6.1.201506221103/lib/runtime/diffutils-1.2.1.jar
+Path: /home/edwin/qa/eclipse/plugins/com.surelogic.common_5.6.1.201506221103/lib/runtime/derby-10.11.1.1.jar
+Path: /home/edwin/qa/eclipse/plugins/com.surelogic.common_5.6.1.201506221103/lib/runtime/asm-5.0.2.jar
+Path: /home/edwin/qa/eclipse/plugins/com.surelogic.jsure.tests_1.0.0/lib/maven-ant-tasks-2.1.3.jar
+Path: /home/edwin/qa/eclipse/plugins/com.surelogic.common_5.6.1.201506221103/lib/runtime/commons-codec-1.10.jar
+Path: /home/edwin/qa/eclipse/plugins/com.surelogic.jsure.analysis_5.6.1.201506221103
+Path: /home/edwin/qa/eclipse/plugins/com.surelogic.common_5.6.1.201506221103/lib/runtime/asm-commons-5.0.2.jar
+Path: /home/edwin/qa/eclipse/plugins/com.surelogic.common_5.6.1.201506221103/lib/runtime/collections-generic-4.0.jar
+Path: /home/edwin/qa/eclipse/plugins/com.surelogic.jsure.analysis_5.6.1.201506221103/lib/runtime/log4j-1.3alpha-8.jar
+Path: /home/edwin/qa/eclipse/plugins/com.surelogic.common_5.6.1.201506221103
+Path: /home/edwin/qa/eclipse/plugins/com.surelogic.common_5.6.1.201506221103/lib/runtime/commons-io-2.4.jar
+Path: /home/edwin/qa/eclipse/plugins/com.surelogic.jsure.analysis_5.6.1.201506221103/lib/runtime/renamedJavac.jar
+Path: /home/edwin/qa/eclipse/plugins/com.surelogic.jsure.analysis_5.6.1.201506221103/lib/runtime/log4j-xml-1.3alpha-8.jar
+Path: /home/edwin/qa/eclipse/plugins/com.surelogic.jsure.common_5.6.1.201506221103
+Path: /home/edwin/qa/eclipse/plugins/com.surelogic.common_5.6.1.201506221103/lib/runtime/ant-1.9.4.jar
+Path: /home/edwin/qa/eclipse/plugins/org.junit_4.8.2.v4_8_2_v20110321-1705/junit.jar
+Path: /home/edwin/qa/eclipse/plugins/com.surelogic.common_5.6.1.201506221103/lib/runtime/commons-lang3-3.3.2.jar
+Path: /home/edwin/qa/eclipse/plugins/com.surelogic.common_5.6.1.201506221103/lib/runtime/promises-5.6.0.jar
+Path: /home/edwin/qa/eclipse/plugins/com.surelogic.common_5.6.1.201506221103/lib/runtime/antlr-3.5.2-runtime.jar
+Path: /home/edwin/qa/eclipse/plugins/com.surelogic.common_5.6.1.201506221103/lib/runtime/servlet-api-3.1.jar
+Path: /home/edwin/qa/eclipse/plugins/com.surelogic.common_5.6.1.201506221103/lib/runtime/trove-3.0.3.jar
+Starting process:
+	/home/edwin/work/jdk1.7.0_51/jre/bin/java
+	-Dsl.running.in.remote.vm=true
+	-Dsurelogic.test.code=NONE
+	-XX:MaxPermSize=512m
+	-verbosegc
+	-Dsl.run.dir=/home/edwin/qa/workspaces/regression/TestMoreLanguageFeatures/.jsure-data/TestMoreLanguageFeat-2015.06.22-at-11.29.31.323
+	-Dfluid.ir.versioning=Versioning.Off
+	-DAnnotationRules.label=RemoteJSureRun.AnnotationRules
+	-Ddc.testing=true
+	-Dfluid.directory.url=file:/home/edwin/qa/eclipse/plugins/com.surelogic.jsure.analysis_5.6.1.201506221103/
+	-Xmx2048m
+	-classpath
+	/home/edwin/qa/eclipse/plugins/com.surelogic.jsure.tests_1.0.0:/home/edwin/qa/eclipse/plugins/com.surelogic.jsure.tests_1.0.0/lib/ant-junit-1.9.4.jar:/home/edwin/qa/eclipse/plugins/com.surelogic.common_5.6.1.201506221103/lib/runtime/asm-tree-5.0.2.jar:/home/edwin/qa/eclipse/plugins/com.surelogic.jsure.common_5.6.1.201506221103/lib/runtime/diffutils-1.2.1.jar:/home/edwin/qa/eclipse/plugins/com.surelogic.common_5.6.1.201506221103/lib/runtime/derby-10.11.1.1.jar:/home/edwin/qa/eclipse/plugins/com.surelogic.common_5.6.1.201506221103/lib/runtime/asm-5.0.2.jar:/home/edwin/qa/eclipse/plugins/com.surelogic.jsure.tests_1.0.0/lib/maven-ant-tasks-2.1.3.jar:/home/edwin/qa/eclipse/plugins/com.surelogic.common_5.6.1.201506221103/lib/runtime/commons-codec-1.10.jar:/home/edwin/qa/eclipse/plugins/com.surelogic.jsure.analysis_5.6.1.201506221103:/home/edwin/qa/eclipse/plugins/com.surelogic.common_5.6.1.201506221103/lib/runtime/asm-commons-5.0.2.jar:/home/edwin/qa/eclipse/plugins/com.surelogic.common_5.6.1.201506221103/lib/runtime/collections-generic-4.0.jar:/home/edwin/qa/eclipse/plugins/com.surelogic.jsure.analysis_5.6.1.201506221103/lib/runtime/log4j-1.3alpha-8.jar:/home/edwin/qa/eclipse/plugins/com.surelogic.common_5.6.1.201506221103:/home/edwin/qa/eclipse/plugins/com.surelogic.common_5.6.1.201506221103/lib/runtime/commons-io-2.4.jar:/home/edwin/qa/eclipse/plugins/com.surelogic.jsure.analysis_5.6.1.201506221103/lib/runtime/renamedJavac.jar:/home/edwin/qa/eclipse/plugins/com.surelogic.jsure.analysis_5.6.1.201506221103/lib/runtime/log4j-xml-1.3alpha-8.jar:/home/edwin/qa/eclipse/plugins/com.surelogic.jsure.common_5.6.1.201506221103:/home/edwin/qa/eclipse/plugins/com.surelogic.common_5.6.1.201506221103/lib/runtime/ant-1.9.4.jar:/home/edwin/qa/eclipse/plugins/org.junit_4.8.2.v4_8_2_v20110321-1705/junit.jar:/home/edwin/qa/eclipse/plugins/com.surelogic.common_5.6.1.201506221103/lib/runtime/commons-lang3-3.3.2.jar:/home/edwin/qa/eclipse/plugins/com.surelogic.common_5.6.1.201506221103/lib/runtime/promises-5.6.0.jar:/home/edwin/qa/eclipse/plugins/com.surelogic.common_5.6.1.201506221103/lib/runtime/antlr-3.5.2-runtime.jar:/home/edwin/qa/eclipse/plugins/com.surelogic.common_5.6.1.201506221103/lib/runtime/servlet-api-3.1.jar:/home/edwin/qa/eclipse/plugins/com.surelogic.common_5.6.1.201506221103/lib/runtime/trove-3.0.3.jar
+	com.surelogic.jsure.tests.RemoteJSureRunTest
+
+First line in REMOTE vm = JVM started: 1.7.0_51
+Log level: INFO
+Created reader
+Created monitor
+Created log handler
+Running RemoteJSureRunTest
+Setting up XML output
+Javac set edu.cmu.cs.fluid.default.JRE to 
+Javac set edu.cmu.cs.fluid.analysis.thread.count to 8
+Javac set com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.IRConcurrencyDetector to true
+Javac set com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ThreadEffectAssurance2 to true
+Javac set com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.StructureAssurance to true
+Javac set com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ParameterizedType to true
+Javac set com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.EqualityAssurance to true
+Javac set com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LayersAssurance to true
+Javac set com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Utility to true
+Javac set com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Singleton to true
+Javac set com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LockAssurance3 to true
+Javac set com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.EffectAssurance2 to true
+Javac set com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.UniquenessAssuranceUWM to false
+Javac set com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.UniquenessAssuranceUWM_SE to false
+Javac set com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.UniquenessAssuranceSE to true
+Javac set com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.DefinitelyAssigned to false
+Javac set com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LV to false
+Javac set com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BCA to false
+Javac set com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.CALLS to false
+Javac set com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BenchmarkingUniquenessNew to false
+Javac set com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BenchmarkingUniquenessNew_SE to false
+Javac set com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BenchmarkingUniquenessSE to false
+Javac set com.surelogic.jsure.active.com.surelogic.jsure.cliend.eclipse.TypeBasedAlias to false
+Javac set com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Types to false
+Javac set com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ConstantExpr to false
+Javac set com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Binder to false
+Javac set com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.NullablePreprocessor to true
+Javac set com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Nullable to true
+Javac set com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.NonNullRawTypes to false
+Javac set com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Final to false
+Javac set com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.TestIsFunctional to false
+runPath = /home/edwin/qa/workspaces/regression/TestMoreLanguageFeatures/.jsure-data/TestMoreLanguageFeat-2015.06.22-at-11.29.31.323
+Creating run: TestMoreLanguageFeat-2015.06.22-at-11.29.31.323
+projects = TestMoreLanguageFeatures
+Loading edu.cmu.cs.fluid.make.nonabductive.proposals = false
+Loading edu.cmu.cs.fluid.load.all.classes = false
+Loading edu.cmu.cs.fluid.timeoutFlag = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BCA = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ConstantExpr = false
+Loading edu.cmu.cs.fluid.physMemoryInMB = 16039
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.EqualityAssurance = false
+Loading edu.cmu.cs.fluid.xml.diff.directory = /home/edwin/qa/workspaces/regression/TestMoreLanguageFeatures/.jsure-data/promises-xml
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.UniquenessAssuranceUWM = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.IRConcurrencyDetector = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Singleton = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.CALLS = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BenchmarkingUniquenessSE = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ThreadEffectAssurance2 = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Binder = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.cliend.eclipse.TypeBasedAlias = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Nullable = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.TestIsFunctional = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.UniquenessAssuranceUWM_SE = false
+Loading edu.cmu.cs.fluid.tool-memory-mb = 2048
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.DefinitelyAssigned = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.UniquenessAssuranceSE = true
+Loading edu.cmu.cs.fluid.analysis.thread.count = 8
+Loading edu.cmu.cs.fluid.timeoutSec = 60
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.NonNullRawTypes = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LayersAssurance = false
+Loading edu.cmu.cs.fluid.default.JRE = org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Loading edu.cmu.cs.fluid.timeoutWarningSec = 30
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Utility = false
+Loading edu.cmu.cs.fluid.modeling.problem.filters = 00000012com\.apple.*00000013com\.oracle.*00000010com\.sun.*00000014.*\.internal.*00000007apple.*00000008oracle.*00000012org\.junit.*00000018junit\.framework.*00000011quicktime.*00000005sun.*
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BenchmarkingUniquenessNew_SE = false
+Loading edu.cmu.cs.fluid.scan.may.use.compression = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ParameterizedType = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Final = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LockAssurance3 = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BenchmarkingUniquenessNew = false
+Loading edu.cmu.cs.fluid.data.directory = /home/edwin/qa/workspaces/regression/TestMoreLanguageFeatures/.jsure-data
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.NullablePreprocessor = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.EffectAssurance2 = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.StructureAssurance = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LV = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Types = false
+JSure data dir = /home/edwin/qa/workspaces/regression/TestMoreLanguageFeatures/.jsure-data
+XML diff dir   = /home/edwin/qa/workspaces/regression/TestMoreLanguageFeatures/.jsure-data/promises-xml
+Looking for JRE in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+default JRE = org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Javac set edu.cmu.cs.fluid.default.JRE to org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Initialized job
+No path exists
+Created com.surelogic.analysis.threads.ThreadEffectsModule
+Starting a new group for ThreadEffectsModule
+Created com.surelogic.analysis.effects.EffectsAnalysis
+Starting a new group for EffectsAnalysis
+Group: EXTERNALLY
+	ThreadEffectsModule
+Created com.surelogic.analysis.uniqueness.classic.sideeffecting.UniquenessAnalysisModule
+Starting a new group for UniquenessAnalysisModule
+Group: com.surelogic.analysis.visitors.TopLevelAnalysisVisitor$1@303d8bcb, class com.surelogic.analysis.bca.BindingContextAnalysis, EXTERNALLY
+	EffectsAnalysis
+Group: com.surelogic.analysis.uniqueness.classic.sideeffecting.UniquenessAnalysisModule$1@18a4d52b, class com.surelogic.analysis.bca.BindingContextAnalysis, INTERNALLY
+	UniquenessAnalysisModule
+##TASK, Scan, 286
+Initializing ...
+##SUBTASK, Initializing ...
+monitor = com.surelogic.common.jobs.remote.AbstractRemoteSLJob$Monitor@10d54080
+singleThread = false
+[GC 65019K->16512K(246272K), 0.0167480 secs]
+Done initializing org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: 0
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /home/edwin/work/jdk1.7.0_51/jre/lib/resources.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /home/edwin/work/jdk1.7.0_51/jre/lib/rt.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /home/edwin/work/jdk1.7.0_51/jre/lib/jsse.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /home/edwin/work/jdk1.7.0_51/jre/lib/jce.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /home/edwin/work/jdk1.7.0_51/jre/lib/charsets.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /home/edwin/work/jdk1.7.0_51/jre/lib/jfr.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /home/edwin/work/jdk1.7.0_51/jre/lib/ext/sunjce_provider.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /home/edwin/work/jdk1.7.0_51/jre/lib/ext/dnsns.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /home/edwin/work/jdk1.7.0_51/jre/lib/ext/sunec.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /home/edwin/work/jdk1.7.0_51/jre/lib/ext/zipfs.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /home/edwin/work/jdk1.7.0_51/jre/lib/ext/sunpkcs11.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /home/edwin/work/jdk1.7.0_51/jre/lib/ext/localedata.jar
+Done initializing TestMoreLanguageFeatures: 46
+Trying to find /home/edwin/qa/workspaces/regression/TestMoreLanguageFeatures/.jsure-data/TestMoreLanguageFeat-2015.06.22-at-11.29.31.323/source/TestMoreLanguageFeatures.bin.zip
+TestMoreLanguageFeatures: TestMoreLanguageFeatures -> org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Done initializing org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: 0
+TestMoreLanguageFeatures: Done initializing with /home/edwin/work/jdk1.7.0_51/jre/lib/resources.jar
+[GC 81536K->50409K(311296K), 0.0383080 secs]
+TestMoreLanguageFeatures: Done initializing with /home/edwin/work/jdk1.7.0_51/jre/lib/rt.jar
+TestMoreLanguageFeatures: Done initializing with /home/edwin/work/jdk1.7.0_51/jre/lib/jsse.jar
+TestMoreLanguageFeatures: Done initializing with /home/edwin/work/jdk1.7.0_51/jre/lib/jce.jar
+TestMoreLanguageFeatures: Done initializing with /home/edwin/work/jdk1.7.0_51/jre/lib/charsets.jar
+TestMoreLanguageFeatures: Done initializing with /home/edwin/work/jdk1.7.0_51/jre/lib/jfr.jar
+TestMoreLanguageFeatures: Done initializing with /home/edwin/work/jdk1.7.0_51/jre/lib/ext/sunjce_provider.jar
+TestMoreLanguageFeatures: Done initializing with /home/edwin/work/jdk1.7.0_51/jre/lib/ext/dnsns.jar
+TestMoreLanguageFeatures: Done initializing with /home/edwin/work/jdk1.7.0_51/jre/lib/ext/sunec.jar
+TestMoreLanguageFeatures: Done initializing with /home/edwin/work/jdk1.7.0_51/jre/lib/ext/zipfs.jar
+TestMoreLanguageFeatures: Done initializing with /home/edwin/work/jdk1.7.0_51/jre/lib/ext/sunpkcs11.jar
+TestMoreLanguageFeatures: Done initializing with /home/edwin/work/jdk1.7.0_51/jre/lib/ext/localedata.jar
+TestMoreLanguageFeatures: Done initializing with /home/edwin/qa/suites/regression/TestMoreLanguageFeatures/mockito-all-1.9.0.jar
+TestMoreLanguageFeatures: Done initializing with /home/edwin/qa/suites/regression/TestMoreLanguageFeatures/promises-4.3.1.jar
+##SUBTASK_DONE
+##WORK, 1
+Assuming that the projects are run in dependency order
+Parsing ...
+##SUBTASK, Parsing ...
+Done adapting 0 files for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK_DONE
+##WORK, 1
+Parsing ...
+##SUBTASK, Parsing ...
+JCP: warning: [options] bootstrap class path not set in conjunction with -source 1.7
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+Adapting 46 CUTs
+Done adapting 46 files for TestMoreLanguageFeatures
+##SUBTASK_DONE
+##WORK, 1
+Handling references for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Handling references for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 17 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Setting project for Object from org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 34 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 52 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 52 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 33 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 23 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 12 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 13 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 16 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 4 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 2 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK_DONE
+##WORK, 1
+Handling references for TestMoreLanguageFeatures
+##SUBTASK, Handling references for TestMoreLanguageFeatures
+Handling 42 dangling refs for TestMoreLanguageFeatures
+Handling 19 dangling refs for TestMoreLanguageFeatures
+Handling 9 dangling refs for TestMoreLanguageFeatures
+Handling 11 dangling refs for TestMoreLanguageFeatures
+Handling 3 dangling refs for TestMoreLanguageFeatures
+Handling 2 dangling refs for TestMoreLanguageFeatures
+Handling 24 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 35 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 49 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 94 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 122 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+[GC 180457K->79390K(311296K), 0.0472290 secs]
+Handling 44 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 15 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 13 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 1 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK_DONE
+##WORK, 1
+Updated 667 files in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Updated 131 files in TestMoreLanguageFeatures
+Parsing ASTs  = 459 ms
+Handling refs = 1499 ms
+Canonicalizing ASTs
+##SUBTASK, Canonicalizing ASTs
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/mutualImport/Type1.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/boxing/TestBoxing.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/shadowing/TestMethodShadowing.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/numericPromotion/TestPromotion.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/overloadingStaticGenericMethods/MockitoMaker.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/Graph.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/aceNonShadowing/TestACE.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/typeShadowing/F.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/TestWhen.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/StateMachine.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/lub/JobID.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/overloadingStaticGenericMethods/Job.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/shadowing/Sub.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/lub/TestLUB.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/overloadingStaticGenericMethods/TestToo.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/rawGenerics/SqlXmlValue.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/rawGenerics/XmlResultProvider.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testRewriting/Test2Applet.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/StateMachineFactory.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/typeShadowing/Outer.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/anyT/Generic.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/lub/ID.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/mutualImport/ATrigger.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/rawGenerics/AbstractJdbc4SqlXmlValue.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/MultipleArcTransition.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/localTypeInACE/Test.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testRewriting/TestApplet.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/localTypeInACE/Outer.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/aceNonShadowing/Outer.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/selfImport/Outer.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/InvalidStateTransitonException.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/selfImport/Super.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/mutualImport/Type2.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/overloadingStaticGenericMethods/Configuration.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/selfImport/Super2.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testAnnosOnEnums/Test.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/TestNameResolution.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/overloading/TestOverloading.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/shadowing/Super.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/methodOnlyInACE/TestAnonClassMethods.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/SingleArcTransition.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/polymorphicMethods/TestPolyMethods.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/TestVarargs.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/manyGenericTypesInOneFile/Test.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/TestGenericMethods.java
+##WORK, 1
+Canonicalizing TestMoreLanguageFeatures/src/testBinder/rawGenerics/TestRaw.java
+##WORK, 1
+Binding = 141 ms
+##SUBTASK_DONE
+##WORK, 1
+Handling references for TestMoreLanguageFeatures
+##SUBTASK, Handling references for TestMoreLanguageFeatures
+Handling 19 dangling refs for TestMoreLanguageFeatures
+##SUBTASK_DONE
+##WORK, 1
+Handling references for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Handling references for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 17 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK_DONE
+##WORK, 1
+Updated 667 files in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Updated 132 files in TestMoreLanguageFeatures
+[GC 120857K->86331K(441344K), 0.0307940 secs]
+[Full GC 86331K->74444K(441344K), 0.2733570 secs]
+Creating drops
+##SUBTASK, Creating drops
+Created binary drop for java.awt.event.InputMethodListener
+Created binary drop for sun.font.FontFamily
+Created binary drop for java.awt.peer.MenuItemPeer
+Created binary drop for java.awt.FontFormatException
+Created binary drop for java.awt.AttributeValue
+Created binary drop for sun.java2d.pipe.SpanIterator
+Created binary drop for java.io.ByteArrayOutputStream
+Created binary drop for sun.java2d.pipe.CompositePipe
+Created binary drop for java.lang.NullPointerException
+Created binary drop for java.nio.file.Watchable
+Created binary drop for java.util.Stack
+Created binary drop for java.lang.IllegalStateException
+Created binary drop for java.io.ObjectInputValidation
+Created binary drop for java.util.jar.JarFile
+Created binary drop for java.awt.peer.FramePeer
+Created binary drop for java.nio.file.spi.FileSystemProvider
+Created binary drop for java.nio.channels.GatheringByteChannel
+Created source drop for file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/mutualImport/Type1.java
+Created binary drop for java.io.PrintWriter
+Created binary drop for javax.lang.model.element.AnnotationValueVisitor
+Created binary drop for java.lang.Override
+Created binary drop for sun.java2d.pipe.TextPipe
+Created binary drop for javax.lang.model.type.TypeKind
+Created binary drop for sun.awt.SubRegionShowable
+Created binary drop for sun.awt.AppContext
+Created binary drop for java.lang.ClassValue
+Created binary drop for javax.accessibility.AccessibleComponent
+Created binary drop for com.surelogic.Unique
+Created binary drop for java.nio.LongBuffer
+Created binary drop for javax.lang.model.element.QualifiedNameable
+Created binary drop for java.awt.event.HierarchyEvent
+Created binary drop for java.awt.CompositeContext
+Created binary drop for java.nio.file.OpenOption
+Created binary drop for sun.java2d.pipe.ParallelogramPipe
+Created binary drop for java.sql.SQLException
+Created source drop for file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/anyT/Generic.java
+Created source drop for file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/lub/TestLUB.java
+Created binary drop for java.security.PublicKey
+Created binary drop for java.awt.event.MouseMotionListener
+Created binary drop for java.awt.Dimension
+Created binary drop for java.awt.event.HierarchyBoundsListener
+Created binary drop for sun.reflect.ConstantPool
+Created binary drop for java.awt.AWTException
+Created binary drop for java.awt.event.MouseEvent
+Created binary drop for java.awt.peer.ListPeer
+Created binary drop for java.security.Permission
+Created binary drop for java.util.Random
+Created binary drop for java.lang.SuppressWarnings
+Created binary drop for java.awt.dnd.DragSourceDragEvent
+Created binary drop for java.awt.peer.TextAreaPeer
+Created binary drop for sun.java2d.loops.DrawGlyphListLCD
+Created binary drop for java.lang.ref.SoftReference
+Created binary drop for java.lang.reflect.InvocationTargetException
+Created binary drop for javax.lang.model.type.TypeVariable
+Created binary drop for java.security.cert.CertificateEncodingException
+Created binary drop for java.util.ArrayList
+Created binary drop for java.awt.Composite
+Created binary drop for java.nio.ByteBuffer
+Created binary drop for org.mockito.stubbing.Stubber
+Created binary drop for java.lang.IndexOutOfBoundsException
+Created binary drop for javax.accessibility.AccessibleText
+Created source drop for file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/MultipleArcTransition.java
+Created binary drop for java.nio.channels.ScatteringByteChannel
+Created binary drop for java.util.Properties
+Created binary drop for sun.util.locale.BaseLocale
+Created binary drop for sun.awt.datatransfer.ToolkitThreadBlockedHandler
+Created binary drop for sun.java2d.pipe.ValidatePipe
+Created binary drop for java.io.UnsupportedEncodingException
+Created binary drop for java.nio.file.attribute.BasicFileAttributes
+Created binary drop for java.awt.Color
+Created binary drop for java.awt.Panel
+Created source drop for file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/lub/ID.java
+Created binary drop for java.awt.event.AdjustmentListener
+Created binary drop for org.mockito.verification.VerificationMode
+Created binary drop for java.util.Queue
+Created binary drop for java.awt.AWTEvent
+Created binary drop for java.awt.peer.MenuPeer
+Created binary drop for java.lang.reflect.Field
+Created binary drop for java.awt.event.ContainerEvent
+Created binary drop for javax.lang.model.element.Name
+Created source drop for file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/overloadingStaticGenericMethods/TestToo.java
+Created source drop for file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testRewriting/Test2Applet.java
+Created binary drop for java.util.RandomAccess
+Created source drop for file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/StateMachineFactory.java
+Created binary drop for java.awt.peer.ScrollbarPeer
+Created binary drop for java.awt.im.InputContext
+Created binary drop for java.io.FileDescriptor
+Created binary drop for java.awt.SecondaryLoop
+Created binary drop for java.lang.Character
+Created binary drop for java.lang.Double
+Created binary drop for java.nio.channels.SeekableByteChannel
+Created binary drop for java.security.PrivilegedAction
+Created binary drop for java.awt.event.KeyListener
+Created binary drop for java.awt.event.MouseListener
+Created binary drop for java.lang.String
+Created binary drop for java.awt.Checkbox
+Created binary drop for java.net.InterfaceAddress
+Created binary drop for java.lang.IllegalAccessException
+Created binary drop for org.mockito.internal.exceptions.base.StackTraceFilter
+Created binary drop for java.net.NetworkInterface
+Created binary drop for sun.util.locale.InternalLocaleBuilder
+Created binary drop for sun.awt.EventQueueItem
+Created binary drop for org.mockito.internal.MockitoCore
+Created binary drop for javax.accessibility.AccessibleRole
+Created binary drop for java.net.SocketAddress
+Created binary drop for java.nio.Buffer
+Created binary drop for sun.java2d.loops.DrawParallelogram
+Created binary drop for java.awt.geom.Line2D
+Created binary drop for java.io.Writer
+Created binary drop for java.util.zip.ZipConstants
+Created binary drop for java.lang.Integer
+Created source drop for file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/rawGenerics/XmlResultProvider.java
+Created binary drop for java.io.DataInputStream
+Created binary drop for java.awt.peer.FileDialogPeer
+Created binary drop for org.mockito.internal.invocation.StubInfo
+Created binary drop for sun.font.GlyphList
+Created source drop for file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/rawGenerics/SqlXmlValue.java
+Created binary drop for java.util.ListIterator
+Created binary drop for sun.util.resources.OpenListResourceBundle
+Created binary drop for org.mockito.verification.VerificationWithTimeout
+Created binary drop for sun.awt.image.SurfaceManager
+Created binary drop for java.text.AttributedCharacterIterator
+Created binary drop for java.awt.peer.ButtonPeer
+Created binary drop for java.lang.ReflectiveOperationException
+Created binary drop for java.nio.file.attribute.FileStoreAttributeView
+Created binary drop for java.lang.StringBuffer
+Created binary drop for java.awt.im.InputMethodHighlight
+Created binary drop for java.net.Proxy
+Created binary drop for java.awt.peer.ChoicePeer
+Created binary drop for java.awt.dnd.DragSourceContext
+Created binary drop for sun.java2d.StateTrackable
+Created binary drop for java.io.FilterOutputStream
+Created binary drop for java.util.zip.Inflater
+Created source drop for file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/typeShadowing/Outer.java
+Created binary drop for java.awt.event.PaintEvent
+Created binary drop for java.awt.event.WindowEvent
+Created binary drop for java.nio.channels.spi.AbstractInterruptibleChannel
+Created binary drop for org.hamcrest.Matcher
+Created binary drop for sun.misc.MetaIndex
+Created binary drop for java.awt.image.IndexColorModel
+Created binary drop for java.awt.dnd.DropTargetContext
+Created binary drop for java.lang.StringBuilder
+Created binary drop for java.awt.PrintJob
+Created binary drop for java.awt.geom.Dimension2D
+Created binary drop for java.lang.Package
+Created binary drop for java.awt.Desktop
+Created binary drop for java.awt.peer.MouseInfoPeer
+Created binary drop for java.awt.Container
+Created binary drop for java.awt.peer.TextFieldPeer
+Created binary drop for sun.java2d.loops.DrawPath
+Created binary drop for java.awt.font.TextHitInfo
+Created binary drop for java.io.SerializablePermission
+Created binary drop for sun.util.locale.LocaleExtensions
+Created binary drop for java.awt.Component
+Created binary drop for java.awt.dnd.DropTargetDropEvent
+Created binary drop for com.surelogic.Containable
+Created binary drop for java.net.URLStreamHandler
+Created source drop for file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/boxing/TestBoxing.java
+Created binary drop for org.hamcrest.Description
+Created binary drop for java.security.SignatureException
+Created binary drop for java.security.AccessControlException
+Created binary drop for java.net.URLStreamHandlerFactory
+Created binary drop for java.awt.geom.PathIterator
+Created binary drop for java.awt.AWTEventMulticaster
+Created binary drop for java.nio.FloatBuffer
+Created binary drop for java.io.PrintStream
+Created binary drop for org.mockito.stubbing.DeprecatedOngoingStubbing
+Created binary drop for java.util.Deque
+Created binary drop for javax.accessibility.AccessibleTable
+Created binary drop for java.lang.reflect.Member
+Created binary drop for java.awt.dnd.DragGestureRecognizer
+Created binary drop for javax.lang.model.element.TypeElement
+Created binary drop for java.awt.datatransfer.MimeTypeParameterList
+Created binary drop for org.mockito.internal.reporting.PrintSettings
+Created binary drop for java.nio.file.PathMatcher
+Created binary drop for java.awt.peer.CheckboxPeer
+Created binary drop for java.awt.geom.RectangularShape
+Created source drop for file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/shadowing/TestMethodShadowing.java
+Created binary drop for java.io.ObjectStreamClass
+Created binary drop for sun.java2d.loops.DrawGlyphListAA
+Created source drop for file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/typeShadowing/F.java
+Created source drop for file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/numericPromotion/TestPromotion.java
+Created binary drop for sun.java2d.loops.FillParallelogram
+Created binary drop for sun.java2d.pipe.AlphaColorPipe
+Created binary drop for org.mockito.internal.invocation.MockitoMethod
+Created binary drop for java.nio.file.Path
+Created binary drop for java.awt.geom.Point2D
+Created binary drop for java.util.AbstractCollection
+Created source drop for file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/TestWhen.java
+Created binary drop for sun.reflect.MethodAccessor
+Created binary drop for java.lang.SafeVarargs
+Created binary drop for javax.accessibility.Accessible
+Created binary drop for java.awt.font.GraphicAttribute
+Created binary drop for java.lang.reflect.AccessibleObject
+Created binary drop for sun.font.FontStrikeDesc
+Created binary drop for java.awt.dnd.DropTargetDragEvent
+Created binary drop for java.awt.event.InputEvent
+Created binary drop for java.nio.charset.CharacterCodingException
+Created binary drop for java.applet.AppletStub
+Created binary drop for java.io.InvalidObjectException
+Created binary drop for javax.lang.model.element.ElementKind
+Created binary drop for java.awt.peer.LightweightPeer
+Created binary drop for java.io.FileNotFoundException
+Created binary drop for java.awt.peer.WindowPeer
+Created binary drop for java.util.zip.ZipEntry
+Created binary drop for java.awt.BasicStroke
+Created binary drop for org.hamcrest.SelfDescribing
+Created binary drop for java.applet.AppletContext
+Created binary drop for java.security.InvalidKeyException
+Created binary drop for org.mockito.internal.progress.IOngoingStubbing
+Created binary drop for java.awt.peer.PopupMenuPeer
+Created binary drop for sun.java2d.loops.RenderLoops
+Created binary drop for java.awt.LayoutManager
+Created binary drop for java.nio.charset.CoderResult
+Created binary drop for java.nio.file.FileStore
+Created binary drop for java.awt.Image
+Created binary drop for javax.lang.model.type.PrimitiveType
+Created binary drop for java.awt.event.KeyEvent
+Created binary drop for java.awt.peer.DesktopPeer
+Created binary drop for sun.java2d.DestSurfaceProvider
+Created binary drop for java.net.URL
+Created binary drop for java.awt.MenuItem
+Created binary drop for java.security.Principal
+Created binary drop for java.util.spi.LocaleServiceProvider
+Created binary drop for java.lang.Readable
+Created binary drop for org.mockito.internal.invocation.realmethod.RealMethod
+Created binary drop for java.awt.image.renderable.RenderableImage
+Created binary drop for java.awt.datatransfer.Transferable
+Created binary drop for sun.awt.CausedFocusEvent
+Created binary drop for java.awt.event.FocusListener
+Created binary drop for java.awt.event.AWTEventListener
+Created binary drop for java.awt.datatransfer.Clipboard
+Created binary drop for sun.reflect.ConstructorAccessor
+Created binary drop for java.awt.Graphics2D
+Created binary drop for sun.java2d.SurfaceData
+Created binary drop for sun.awt.image.PixelConverter
+Created binary drop for java.security.Key
+Created binary drop for javax.lang.model.type.TypeVisitor
+Created binary drop for java.awt.ImageCapabilities
+Created binary drop for java.util.ResourceBundle
+Created source drop for file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/StateMachine.java
+Created binary drop for java.lang.NumberFormatException
+Created binary drop for org.mockito.internal.invocation.CapturesArgumensFromInvocation
+Created binary drop for java.security.NoSuchAlgorithmException
+Created binary drop for java.nio.file.attribute.UserPrincipal
+Created binary drop for javax.accessibility.AccessibleSelection
+Created binary drop for java.awt.IllegalComponentStateException
+Created binary drop for java.awt.peer.MenuBarPeer
+Created binary drop for java.nio.channels.FileChannel
+Created binary drop for java.lang.Deprecated
+Created binary drop for java.lang.Runnable
+Created binary drop for javax.accessibility.AccessibleAction
+Created binary drop for java.awt.datatransfer.DataFlavor
+Created binary drop for javax.lang.model.element.Modifier
+Created binary drop for java.io.NotActiveException
+Created binary drop for java.awt.dnd.DropTarget
+Created binary drop for sun.java2d.loops.SurfaceType
+Created binary drop for java.util.concurrent.ConcurrentMap
+Created binary drop for java.lang.Byte
+Created binary drop for java.util.concurrent.Future
+Created binary drop for java.net.FileNameMap
+Created binary drop for java.awt.font.GlyphMetrics
+Created source drop for file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/localTypeInACE/Test.java
+Created binary drop for java.awt.image.WritableRenderedImage
+Created binary drop for java.awt.datatransfer.ClipboardOwner
+Created binary drop for sun.java2d.loops.GraphicsPrimitive
+Created binary drop for sun.java2d.cmm.ProfileDeferralInfo
+Created binary drop for java.util.TooManyListenersException
+Created binary drop for java.util.zip.InflaterInputStream
+Created binary drop for java.net.InetAddress
+Created binary drop for java.awt.image.renderable.RenderContext
+Created source drop for file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testRewriting/TestApplet.java
+Created binary drop for javax.lang.model.element.Element
+Created binary drop for javax.lang.model.type.DeclaredType
+Created binary drop for java.nio.channels.CompletionHandler
+Created binary drop for sun.util.locale.Extension
+Created binary drop for java.beans.PropertyChangeEvent
+Created binary drop for sun.java2d.loops.DrawRect
+Created binary drop for javax.lang.model.type.TypeMirror
+Created binary drop for org.mockito.internal.exceptions.VerificationAwareInvocation
+Created binary drop for sun.java2d.pipe.PixelToParallelogramConverter
+Created binary drop for java.awt.MenuBar
+Created binary drop for java.net.UnknownHostException
+Created binary drop for java.awt.image.ImageConsumer
+Created binary drop for java.awt.Transparency
+Created binary drop for java.awt.color.ICC_Profile
+Created binary drop for sun.font.Font2DHandle
+Created binary drop for java.nio.channels.ReadableByteChannel
+Created binary drop for java.io.DataOutputStream
+Created binary drop for sun.font.FontStrike
+Created binary drop for java.io.ObjectOutputStream
+Created binary drop for java.io.FileFilter
+Created binary drop for sun.java2d.DisposerTarget
+Created binary drop for java.beans.PropertyChangeSupport
+Created binary drop for javax.accessibility.AccessibleIcon
+Created binary drop for java.io.InputStream
+Created binary drop for java.security.CodeSigner
+Created binary drop for org.mockito.internal.invocation.InvocationMatcher
+Created binary drop for java.security.BasicPermission
+Created binary drop for java.awt.datatransfer.FlavorListener
+Created binary drop for java.awt.datatransfer.UnsupportedFlavorException
+Created binary drop for java.lang.SecurityException
+Created binary drop for sun.misc.Unsafe
+Created source drop for file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/mutualImport/ATrigger.java
+Created binary drop for java.net.ContentHandlerFactory
+Created binary drop for java.security.ProtectionDomain
+Created binary drop for java.io.Externalizable
+Created binary drop for sun.java2d.pipe.LoopBasedPipe
+Created binary drop for java.awt.event.ComponentEvent
+Created binary drop for java.nio.charset.Charset
+Created binary drop for java.awt.dnd.DragSourceDropEvent
+Created binary drop for java.nio.file.CopyOption
+Created binary drop for java.lang.StackTraceElement
+Created binary drop for org.mockito.invocation.InvocationOnMock
+Created binary drop for java.lang.annotation.RetentionPolicy
+Created binary drop for java.util.zip.ZipException
+Created binary drop for java.lang.AutoCloseable
+Created binary drop for java.lang.reflect.GenericDeclaration
+Created binary drop for java.awt.image.TileObserver
+Created binary drop for java.security.DomainCombiner
+Created binary drop for java.io.SyncFailedException
+Created binary drop for java.awt.dnd.InvalidDnDOperationException
+Created binary drop for java.awt.color.ColorSpace
+Created binary drop for java.io.File
+Created binary drop for java.awt.im.InputMethodRequests
+Created binary drop for java.nio.MappedByteBuffer
+Created binary drop for java.lang.CharSequence
+Created binary drop for java.net.URLConnection
+Created binary drop for java.util.AbstractSet
+Created binary drop for java.util.Map
+Created source drop for file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/rawGenerics/AbstractJdbc4SqlXmlValue.java
+Created binary drop for java.nio.file.AccessMode
+Created binary drop for java.util.AbstractMap
+Created binary drop for javax.xml.transform.Source
+Created binary drop for java.util.concurrent.locks.Condition
+Created binary drop for java.awt.event.WindowFocusListener
+Created binary drop for java.util.AbstractSequentialList
+Created binary drop for java.util.MissingResourceException
+Created binary drop for java.lang.NoSuchFieldException
+Created binary drop for java.lang.Class
+Created binary drop for java.io.FilterInputStream
+Created binary drop for java.lang.Iterable
+Created binary drop for java.awt.Shape
+Created binary drop for java.awt.Cursor
+Created binary drop for sun.font.StrikeMetrics
+Created binary drop for java.awt.image.SampleModel
+Created binary drop for java.util.jar.Manifest
+Created binary drop for sun.awt.DisplayChangedListener
+Created binary drop for java.lang.reflect.Constructor
+Created binary drop for java.awt.peer.TextComponentPeer
+Created binary drop for java.beans.PropertyChangeListener
+Created binary drop for sun.java2d.pipe.hw.ExtendedBufferCapabilities
+Created binary drop for javax.xml.transform.Result
+Created binary drop for java.awt.geom.Rectangle2D
+Created binary drop for java.awt.TextComponent
+Created binary drop for javax.lang.model.element.Parameterizable
+Created binary drop for java.util.SortedMap
+Created binary drop for java.lang.Exception
+Created binary drop for sun.util.locale.LanguageTag
+Created source drop for file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/localTypeInACE/Outer.java
+Created binary drop for java.util.Vector
+Created binary drop for sun.java2d.pipe.ShapeDrawPipe
+Created binary drop for sun.reflect.CallerSensitive
+Created binary drop for sun.java2d.pipe.Region
+Created binary drop for java.awt.font.FontRenderContext
+Created binary drop for javax.lang.model.element.AnnotationMirror
+Created source drop for file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/mutualImport/Type2.java
+Created binary drop for java.lang.IllegalThreadStateException
+Created binary drop for java.awt.event.ActionEvent
+Created binary drop for java.util.Date
+Created binary drop for java.awt.color.ProfileDataException
+Created binary drop for java.awt.dnd.DragSourceEvent
+Created binary drop for java.util.concurrent.TimeUnit
+Created binary drop for java.lang.reflect.TypeVariable
+Created binary drop for java.security.Guard
+Created binary drop for java.util.zip.DataFormatException
+Created binary drop for java.awt.dnd.DragSourceMotionListener
+Created binary drop for javax.accessibility.AccessibleBundle
+Created binary drop for java.awt.event.ContainerListener
+Created binary drop for java.util.EventObject
+Created binary drop for org.mockito.listeners.MethodInvocationReport
+Created binary drop for java.nio.file.attribute.AttributeView
+Created binary drop for java.lang.Boolean
+Created binary drop for java.nio.channels.AsynchronousChannel
+Created source drop for file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/overloadingStaticGenericMethods/Configuration.java
+Created binary drop for java.lang.CloneNotSupportedException
+Created binary drop for java.util.concurrent.ConcurrentHashMap
+Created binary drop for java.lang.annotation.Target
+Created binary drop for java.lang.Float
+Created source drop for file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/selfImport/Super2.java
+Created binary drop for java.awt.Dialog
+Created binary drop for java.awt.geom.Path2D
+Created binary drop for java.awt.GraphicsConfigTemplate
+Created binary drop for java.awt.FocusTraversalPolicy
+Created binary drop for java.util.Set
+Created binary drop for java.awt.peer.MenuComponentPeer
+Created binary drop for javax.lang.model.element.VariableElement
+Created binary drop for java.awt.GraphicsDevice
+Created binary drop for java.lang.Cloneable
+Created binary drop for sun.java2d.pipe.RenderingEngine
+Created binary drop for java.lang.reflect.Method
+Created binary drop for javax.lang.model.element.ExecutableElement
+Created binary drop for java.awt.color.ICC_ColorSpace
+Created binary drop for java.nio.channels.AsynchronousFileChannel
+Created binary drop for java.awt.Canvas
+Created binary drop for java.awt.image.VolatileImage
+Created binary drop for java.util.concurrent.Callable
+Created binary drop for java.awt.dnd.DragGestureEvent
+Created binary drop for javax.accessibility.AccessibleContext
+Created binary drop for java.awt.event.WindowListener
+Created binary drop for java.awt.event.ActionListener
+Created binary drop for java.lang.ThreadLocal
+Created binary drop for java.io.ObjectStreamField
+Created source drop for file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/lub/JobID.java
+Created binary drop for java.util.Hashtable
+Created binary drop for java.awt.FontMetrics
+Created binary drop for sun.java2d.pipe.AATileGenerator
+Created binary drop for java.awt.GraphicsConfiguration
+Created binary drop for java.awt.TextArea
+Created binary drop for java.awt.TextField
+Created binary drop for java.security.cert.CertificateException
+Created binary drop for java.io.ObjectInput
+Created binary drop for sun.java2d.pipe.SpanShapeRenderer
+Created binary drop for java.nio.file.attribute.GroupPrincipal
+Created binary drop for java.lang.annotation.Documented
+Created binary drop for javax.lang.model.type.NullType
+Created binary drop for java.util.Collection
+Created binary drop for sun.java2d.loops.DrawGlyphList
+Created binary drop for java.awt.font.TextAttribute
+Created binary drop for java.util.Enumeration
+Created binary drop for java.io.IOException
+Created binary drop for java.util.Comparator
+Created binary drop for sun.java2d.DisposerRecord
+Created binary drop for java.awt.geom.AffineTransform
+Created binary drop for sun.java2d.pipe.PixelDrawPipe
+Created source drop for file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/overloadingStaticGenericMethods/MockitoMaker.java
+Created binary drop for java.util.InvalidPropertiesFormatException
+Created binary drop for java.lang.ref.WeakReference
+Created binary drop for org.mockito.InOrder
+Created binary drop for javax.accessibility.AccessibleRelation
+Created binary drop for java.lang.ref.Reference
+Created binary drop for java.awt.dnd.DropTargetEvent
+Created source drop for file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/overloadingStaticGenericMethods/Job.java
+Created binary drop for org.mockito.MockitoDebugger
+Created binary drop for sun.java2d.pipe.PixelToShapeConverter
+Created binary drop for java.lang.ClassNotFoundException
+Created binary drop for sun.reflect.LangReflectAccess
+Created binary drop for javax.lang.model.element.AnnotationValue
+Created binary drop for java.lang.UnsupportedOperationException
+Created binary drop for java.util.AbstractQueue
+Created binary drop for java.util.concurrent.locks.ReentrantLock
+Created binary drop for org.mockito.stubbing.OngoingStubbing
+Created binary drop for java.util.concurrent.locks.AbstractQueuedSynchronizer
+Created binary drop for org.mockito.internal.verification.api.VerificationData
+Created binary drop for sun.java2d.StateTrackableDelegate
+Created source drop for file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/Graph.java
+Created binary drop for sun.java2d.loops.MaskBlit
+Created binary drop for java.awt.event.HierarchyListener
+Created binary drop for sun.java2d.pipe.AAShapePipe
+Created binary drop for org.mockito.Mockito
+Created source drop for file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/shadowing/Sub.java
+Created binary drop for java.awt.HeadlessException
+Created binary drop for java.awt.image.ImageObserver
+Created binary drop for java.awt.image.ImageProducer
+Created binary drop for java.awt.EventFilter
+Created binary drop for javax.lang.model.element.NestingKind
+Created binary drop for java.awt.dnd.peer.DragSourceContextPeer
+Created binary drop for java.awt.image.WritableRaster
+Created binary drop for java.awt.datatransfer.FlavorMap
+Created binary drop for java.lang.Comparable
+Created binary drop for java.awt.Menu
+Created binary drop for java.util.jar.Attributes
+Created binary drop for sun.awt.util.IdentityArrayList
+Created binary drop for java.util.Locale
+Created binary drop for java.security.KeyException
+Created binary drop for sun.java2d.loops.MaskFill
+Created binary drop for java.lang.reflect.AnnotatedElement
+Created binary drop for java.lang.Appendable
+Created binary drop for sun.awt.geom.PathConsumer2D
+Created binary drop for java.nio.file.WatchService
+Created binary drop for java.lang.IllegalArgumentException
+Created binary drop for java.security.Timestamp
+Created binary drop for sun.java2d.Disposer
+Created binary drop for sun.misc.Resource
+Created binary drop for java.nio.charset.CodingErrorAction
+Created binary drop for java.io.Reader
+Created binary drop for java.security.NoSuchProviderException
+Created binary drop for java.io.DataInput
+Created binary drop for javax.lang.model.type.NoType
+Created binary drop for java.awt.event.AdjustmentEvent
+Created binary drop for java.awt.MenuComponent
+Created binary drop for sun.java2d.SunGraphics2D
+Created binary drop for java.io.InvalidClassException
+Created binary drop for java.awt.image.ColorModel
+Created source drop for file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/aceNonShadowing/TestACE.java
+Created binary drop for java.util.Arrays
+Created binary drop for sun.reflect.ReflectionFactory
+Created binary drop for java.awt.Font
+Created binary drop for java.math.BigInteger
+Created binary drop for java.awt.peer.CanvasPeer
+Created binary drop for java.awt.FileDialog
+Created binary drop for java.io.ObjectOutput
+Created binary drop for java.io.OutputStream
+Created binary drop for java.awt.MenuContainer
+Created binary drop for java.sql.SQLXML
+Created binary drop for java.util.HashMap
+Created binary drop for java.lang.annotation.Annotation
+Created binary drop for java.nio.file.WatchKey
+Created binary drop for javax.accessibility.AccessibleRelationSet
+Created binary drop for java.nio.file.attribute.FileAttributeView
+Created binary drop for java.awt.datatransfer.FlavorTable
+Created binary drop for java.awt.CheckboxMenuItem
+Created binary drop for sun.util.locale.ParseStatus
+Created binary drop for sun.misc.JarIndex
+Created binary drop for java.awt.Point
+Created binary drop for java.net.UnknownServiceException
+Created binary drop for java.util.LinkedList
+Created binary drop for java.awt.PaintContext
+Created binary drop for java.nio.ShortBuffer
+Created binary drop for javax.accessibility.AccessibleState
+Created binary drop for java.nio.channels.ByteChannel
+Created binary drop for java.awt.peer.ComponentPeer
+Created binary drop for java.awt.geom.NoninvertibleTransformException
+Created binary drop for java.text.CharacterIterator
+Created binary drop for java.awt.peer.ContainerPeer
+Created binary drop for java.awt.ItemSelectable
+Created binary drop for java.awt.Window
+Created binary drop for java.io.ObjectStreamException
+Created binary drop for java.lang.reflect.Type
+Created binary drop for java.lang.ThreadGroup
+Created binary drop for java.lang.InstantiationException
+Created binary drop for java.util.spi.LocaleNameProvider
+Created binary drop for java.awt.Label
+Created binary drop for sun.java2d.pipe.DrawImagePipe
+Created binary drop for sun.awt.datatransfer.DataTransferer
+Created binary drop for java.awt.datatransfer.MimeTypeParseException
+Created binary drop for java.awt.image.DataBuffer
+Created binary drop for java.util.SortedSet
+Created source drop for file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/TestNameResolution.java
+Created binary drop for java.nio.channels.InterruptibleChannel
+Created binary drop for java.awt.Rectangle
+Created binary drop for java.awt.event.MouseWheelListener
+Created binary drop for java.lang.Number
+Created source drop for file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/overloading/TestOverloading.java
+Created binary drop for javax.lang.model.element.PackageElement
+Created binary drop for java.awt.Choice
+Created source drop for file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/SingleArcTransition.java
+Created binary drop for java.nio.file.LinkOption
+Created binary drop for org.mockito.internal.invocation.Invocation
+Created binary drop for java.awt.Adjustable
+Created binary drop for sun.java2d.pipe.RegionIterator
+Created binary drop for java.util.zip.ZipFile
+Created binary drop for java.lang.Short
+Created binary drop for java.awt.image.BufferedImage
+Created binary drop for java.awt.font.NumericShaper
+Created binary drop for java.net.SocketException
+Created source drop for file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/polymorphicMethods/TestPolyMethods.java
+Created binary drop for java.applet.AudioClip
+Created binary drop for java.nio.channels.AsynchronousCloseException
+Created binary drop for java.awt.event.ComponentListener
+Created binary drop for javax.lang.model.type.ReferenceType
+Created binary drop for java.io.BufferedReader
+Created binary drop for java.net.InetAddressImpl
+Created binary drop for java.util.concurrent.ExecutorService
+Created binary drop for java.util.Collections
+Created binary drop for java.awt.EventDispatchThread
+Created source drop for file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/shadowing/Super.java
+Created binary drop for java.awt.Stroke
+Created binary drop for java.util.Dictionary
+Created binary drop for java.awt.peer.DialogPeer
+Created binary drop for java.awt.dnd.peer.DropTargetContextPeer
+Created binary drop for sun.nio.ch.Interruptible
+Created binary drop for java.awt.event.WindowStateListener
+Created binary drop for java.net.MalformedURLException
+Created binary drop for java.awt.Toolkit
+Created binary drop for java.nio.file.attribute.FileAttribute
+Created binary drop for java.awt.event.FocusEvent
+Created source drop for file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/TestVarargs.java
+Created binary drop for org.mockito.MockSettings
+Created binary drop for javax.swing.text.AttributeSet
+Created binary drop for java.awt.Event
+Created binary drop for java.awt.font.GlyphVector
+Created binary drop for java.io.ObjectInputStream
+Created binary drop for javax.lang.model.element.TypeParameterElement
+Created binary drop for java.beans.ConstructorProperties
+Created binary drop for org.mockito.internal.reporting.PrintingFriendlyInvocation
+Created binary drop for java.awt.CheckboxGroup
+Created binary drop for sun.font.Font2D
+Created binary drop for sun.font.CharToGlyphMapper
+Created binary drop for java.awt.ScrollPane
+Created binary drop for java.awt.RenderingHints
+Created binary drop for java.awt.Paint
+Created binary drop for org.mockito.stubbing.Answer
+Created binary drop for sun.java2d.pipe.LoopPipe
+Created binary drop for java.applet.Applet
+Created binary drop for java.util.EventListener
+Created binary drop for java.util.concurrent.Executor
+Created binary drop for java.awt.Graphics
+Created source drop for file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/TestGenericMethods.java
+Created binary drop for java.awt.Polygon
+Created binary drop for java.awt.BufferCapabilities
+Created binary drop for java.awt.event.ItemEvent
+Created binary drop for java.awt.JobAttributes
+Created binary drop for javax.lang.model.element.ElementVisitor
+Created source drop for file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/rawGenerics/TestRaw.java
+Created binary drop for java.nio.file.attribute.FileTime
+Created binary drop for java.nio.DoubleBuffer
+Created binary drop for java.awt.PointerInfo
+Created binary drop for java.security.cert.CertPath
+Created binary drop for java.util.jar.JarEntry
+Created binary drop for sun.security.util.Debug
+Created binary drop for java.lang.AbstractStringBuilder
+Created binary drop for java.awt.peer.FontPeer
+Created binary drop for java.nio.ByteOrder
+Created binary drop for sun.font.AttributeValues
+Created binary drop for java.nio.channels.ClosedChannelException
+Created source drop for file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/manyGenericTypesInOneFile/Test.java
+Created binary drop for java.util.WeakHashMap
+Created binary drop for sun.font.CreatedFontTracker
+Created binary drop for java.awt.event.ItemListener
+Created binary drop for org.mockito.Matchers
+Created binary drop for java.io.DataOutput
+Created binary drop for java.awt.peer.LabelPeer
+Created binary drop for java.io.Closeable
+Created binary drop for java.text.Annotation
+Created binary drop for sun.java2d.loops.FillSpans
+Created binary drop for java.beans.ChangeListenerMap
+Created binary drop for java.lang.annotation.ElementType
+Created binary drop for sun.util.LocaleServiceProviderPool
+Created binary drop for sun.awt.ConstrainableGraphics
+Created binary drop for java.nio.charset.CharsetEncoder
+Created binary drop for java.awt.Frame
+Created binary drop for java.util.concurrent.locks.Lock
+Created binary drop for java.awt.AlphaComposite
+Created binary drop for java.util.List
+Created binary drop for java.awt.dnd.DragGestureListener
+Created binary drop for java.awt.peer.CheckboxMenuItemPeer
+Created binary drop for org.mockito.internal.debugging.Location
+Created binary drop for java.security.cert.Certificate
+Created binary drop for java.awt.dnd.DragSource
+Created binary drop for java.net.ContentHandler
+Created binary drop for java.awt.image.BufferedImageOp
+Created binary drop for java.nio.file.FileSystem
+Created binary drop for java.lang.Object
+Created binary drop for java.awt.datatransfer.FlavorEvent
+Created binary drop for sun.java2d.loops.FillPath
+Created binary drop for java.nio.channels.FileLock
+Created binary drop for sun.java2d.loops.DrawLine
+Created binary drop for javax.lang.model.type.UnionType
+Created binary drop for java.awt.event.TextEvent
+Created binary drop for java.lang.annotation.Retention
+Created binary drop for java.nio.file.WatchEvent
+Created binary drop for javax.accessibility.AccessibleEditableText
+Created binary drop for java.beans.Transient
+Created binary drop for java.awt.PopupMenu
+Created source drop for file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/aceNonShadowing/Outer.java
+Created binary drop for java.util.AbstractList
+Created binary drop for java.awt.event.TextListener
+Created binary drop for java.lang.Enum
+Created binary drop for sun.awt.image.OffScreenImageSource
+Created binary drop for java.awt.font.GlyphJustificationInfo
+Created binary drop for java.awt.dnd.DropTargetListener
+Created binary drop for java.lang.ref.ReferenceQueue
+Created binary drop for java.lang.ClassLoader
+Created binary drop for java.awt.datatransfer.MimeType
+Created binary drop for org.mockito.stubbing.VoidMethodStubbable
+Created binary drop for java.io.StreamCorruptedException
+Created binary drop for java.lang.Void
+Created source drop for file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/methodOnlyInACE/TestAnonClassMethods.java
+Created binary drop for java.awt.font.TransformAttribute
+Created binary drop for javax.lang.model.type.ErrorType
+Created binary drop for sun.util.locale.LocaleObjectCache
+Created binary drop for sun.reflect.annotation.AnnotationType
+Created binary drop for java.awt.geom.GeneralPath
+Created binary drop for java.awt.image.Raster
+Created binary drop for org.mockito.listeners.InvocationListener
+Created binary drop for java.security.GeneralSecurityException
+Created binary drop for java.awt.Insets
+Created binary drop for java.awt.EventQueue
+Created binary drop for org.mockito.ReturnValues
+Created binary drop for sun.java2d.pipe.ShapeSpanIterator
+Created binary drop for java.awt.image.RenderedImage
+Created binary drop for java.awt.List
+Created source drop for file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testAnnosOnEnums/Test.java
+Created binary drop for java.nio.channels.Channel
+Created binary drop for sun.java2d.loops.CompositeType
+Created binary drop for java.awt.Button
+Created binary drop for javax.accessibility.AccessibleStateSet
+Created binary drop for sun.java2d.pipe.PixelFillPipe
+Created binary drop for sun.java2d.SurfaceDataProxy
+Created binary drop for sun.java2d.loops.FillRect
+Created binary drop for java.awt.MenuShortcut
+Created binary drop for java.io.Serializable
+Created binary drop for javax.lang.model.type.ArrayType
+Created binary drop for javax.lang.model.type.WildcardType
+Created binary drop for java.awt.image.BufferStrategy
+Created binary drop for javax.accessibility.AccessibleValue
+Created binary drop for javax.lang.model.type.ExecutableType
+Created binary drop for java.lang.Math
+Created binary drop for java.net.URI
+Created binary drop for sun.java2d.loops.Blit
+Created binary drop for java.awt.Scrollbar
+Created binary drop for java.lang.InterruptedException
+Created binary drop for java.awt.dnd.DragSourceListener
+Created binary drop for java.util.Iterator
+Created binary drop for java.awt.Conditional
+Created binary drop for java.awt.font.LineMetrics
+Created binary drop for java.awt.event.InputMethodEvent
+Created binary drop for java.io.Flushable
+Created binary drop for java.io.ObjectStreamConstants
+Created binary drop for java.nio.file.attribute.UserPrincipalLookupService
+Created binary drop for sun.java2d.StateTracker
+Created binary drop for java.nio.CharBuffer
+Created binary drop for java.awt.ComponentOrientation
+Created binary drop for java.nio.IntBuffer
+Created binary drop for java.awt.AWTKeyStroke
+Created binary drop for sun.awt.RequestFocusController
+Created binary drop for java.awt.peer.PanelPeer
+Created source drop for file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/selfImport/Outer.java
+Created binary drop for java.security.AccessControlContext
+Created binary drop for sun.java2d.Surface
+Created binary drop for java.nio.file.DirectoryStream
+Created binary drop for sun.reflect.FieldAccessor
+Created binary drop for java.io.FilenameFilter
+Created binary drop for java.net.URISyntaxException
+Created binary drop for java.util.EmptyStackException
+Created binary drop for java.lang.RuntimeException
+Created binary drop for sun.util.locale.LocaleSyntaxException
+Created binary drop for sun.java2d.loops.DrawPolygons
+Created binary drop for java.security.CodeSource
+Created binary drop for java.awt.PageAttributes
+Created binary drop for java.lang.Thread
+Created binary drop for java.awt.event.MouseWheelEvent
+Created binary drop for sun.java2d.loops.FontInfo
+Created source drop for file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/InvalidStateTransitonException.java
+Created binary drop for java.lang.Throwable
+Created source drop for file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/selfImport/Super.java
+Created binary drop for sun.misc.URLClassPath
+Created binary drop for java.awt.peer.ScrollPanePeer
+Created binary drop for java.awt.DisplayMode
+Created binary drop for sun.font.FontStrikeDisposer
+Created binary drop for java.lang.Long
+Created binary drop for java.security.PermissionCollection
+Created binary drop for org.mockito.exceptions.PrintableInvocation
+Created binary drop for org.mockito.internal.verification.api.InOrderContext
+Created binary drop for sun.font.FontAccess
+Created binary drop for java.nio.charset.CharsetDecoder
+Created binary drop for sun.font.EAttribute
+Created binary drop for java.nio.channels.WritableByteChannel
+Created binary drop for java.util.concurrent.locks.AbstractOwnableSynchronizer
+##SUBTASK_DONE
+##WORK, 1
+Parsing promises
+##SUBTASK, Parsing promises
+Added 3 promises for java.lang.[] in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2050a756
+Added 3 promises for java.lang.[] in TestMoreLanguageFeatures: com.surelogic.tree.SyntaxTreeNode@5907004c
+Added 12 promises for java.lang.IllegalStateException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3a621fc3
+Added 12 promises for java.lang.reflect.InvocationTargetException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@507a3c6c
+Added 4 promises for java.sql.SQLException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@bda5af5
+Added 6 promises for java.lang.NullPointerException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@58fe933c
+Added 21 promises for java.util.Stack in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@1929b95e
+Added 2 promises for java.lang.ref.SoftReference in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4d20c229
+Added 55 promises for java.util.AbstractCollection in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@409ac440
+Added 86 promises for java.awt.Color in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@1ac2d7d9
+Added 39 promises for java.awt.Dimension in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4e4579b
+Added 6 promises for java.io.PrintWriter in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@aac04ed
+Added 6 promises for java.lang.IllegalAccessException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6a4e9213
+Added 73 promises for java.util.Properties in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@20fe35fd
+WARNING: TreeAccessor couldn't find equals(java.lang.Object) in java.util.ArrayList
+WARNING: TreeAccessor couldn't find hashCode() in java.util.ArrayList
+Added 18 promises for java.util.Queue in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4563260a
+Added 4 promises for java.util.Enumeration in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@549f33e3
+Added 3 promises for java.nio.file.Path in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@13ac4d6d
+Added 104 promises for java.util.ArrayList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@729c8def
+Added 12 promises for java.lang.UnsupportedOperationException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@10dad30c
+Added 70 promises for java.lang.Double in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@122a5c23
+Added 6 promises for java.lang.NumberFormatException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@5f3b1fff
+Added 96 promises for java.lang.Integer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@18fe5942
+Added 58 promises for java.util.concurrent.locks.ReentrantLock in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@934d5a2
+Added 12 promises for java.lang.SecurityException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2982a8ab
+Added 136 promises for java.awt.geom.Line2D in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3ebaf436
+Added 12 promises for java.lang.CharSequence in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@69353b38
+Added 24 promises for java.util.Arrays in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@13d03ca8
+Added 66 promises for java.awt.geom.Point2D in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@5724561f
+Added 2 promises for testBinder.TestWhen in TestMoreLanguageFeatures: com.surelogic.tree.SyntaxTreeNode@54217c70
+Added 138 promises for java.math.BigInteger in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@5f9b7e0e
+Added 37 promises for java.lang.Boolean in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@49a01676
+Added 87 promises for java.util.Deque in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6626cccc
+Added 15 promises for java.lang.ClassNotFoundException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@50213505
+Added 42 promises for java.awt.Point in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@17218b8d
+Added 3 promises for java.lang.Iterable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3c346a8c
+Added 21 promises for java.util.AbstractQueue in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@5ca595f1
+Added 301 promises for java.lang.String in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@5f435901
+Added 16 promises for java.util.AbstractSet in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2223b6a2
+Added 6 promises for java.lang.Appendable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@22ea422c
+Added 77 promises for java.awt.geom.RectangularShape in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@36727611
+Added 6 promises for java.io.InvalidClassException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2b0f5d6c
+Added 12 promises for java.lang.IllegalArgumentException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4f81a7e4
+Added 12 promises for java.lang.Class in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@75fb113
+Added 6 promises for java.lang.InstantiationException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@78206337
+Added 22 promises for java.lang.Number in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@42d0a46b
+Added 158 promises for java.lang.StringBuffer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@461541fb
+Added 12 promises for java.lang.Exception in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4958774c
+Added 59 promises for java.lang.Byte in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@29275c79
+Added 45 promises for java.util.ResourceBundle in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4c9d7a2e
+Added 1 promises for javax.lang.model.element.Modifier in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2f9782bf
+Added 22 promises for java.util.SortedSet in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@51c24ac9
+Added 17 promises for java.util.concurrent.ConcurrentMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7ec10c7b
+Added 6 promises for java.lang.IndexOutOfBoundsException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@210a7227
+Added 6 promises for java.io.Writer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3ae4695d
+Added 109 promises for java.lang.StringBuilder in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7defafc8
+Added 18 promises for java.util.ListIterator in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@551444c8
+Added 18 promises for java.awt.geom.Dimension2D in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@28781d83
+Added 139 promises for java.util.LinkedList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@24ec4987
+Added 170 promises for java.util.Vector in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4287d2ea
+Added 6 promises for java.io.PrintStream in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@13cd4abe
+Added 6 promises for java.util.Iterator in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4b6e907a
+Added 9 promises for java.awt.HeadlessException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6507eb18
+Added 18 promises for java.nio.CharBuffer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3b87be3
+Added 3 promises for java.util.zip.ZipEntry in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6581a654
+Added 3 promises for java.nio.file.DirectoryStream in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7f3d8103
+Added 108 promises for java.util.AbstractMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3195e45d
+Added 88 promises for java.util.jar.Attributes in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@1299dd5
+Added 86 promises for java.util.concurrent.ConcurrentHashMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@348eb090
+Added 22 promises for java.util.concurrent.locks.Condition in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@77434c98
+Added 3 promises for java.util.Locale in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@f55dfff
+Added 18 promises for java.net.URISyntaxException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@710afce3
+Added 12 promises for java.lang.RuntimeException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@75d3c00
+Added 64 promises for java.util.Map in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@b66b2f6
+Added 29 promises for java.util.AbstractSequentialList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@19e502d8
+Added 73 promises for java.lang.Float in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@40d672c5
+Added 6 promises for java.lang.NoSuchFieldException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@65d58516
+Added 27 promises for java.awt.Shape in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@79b58aee
+Added 3 promises for java.util.jar.Manifest in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@70f4f7ea
+Added 13 promises for java.lang.Enum in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@666dfddb
+Added 141 promises for java.lang.Thread in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@20f15113
+Added 3 promises for java.util.Date in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@71a60d09
+Added 29 promises for java.util.concurrent.TimeUnit in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@60d397c1
+Added 109 promises for java.lang.Math in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@1164b9cc
+Added 6 promises for java.lang.CloneNotSupportedException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@1db770
+Added 47 promises for java.lang.Throwable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@66f7deba
+Added 159 promises for java.awt.geom.Rectangle2D in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@521a0834
+Added 6 promises for java.lang.InterruptedException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@25f9ffaf
+Added 34 promises for java.util.concurrent.ExecutorService in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@50cad4be
+Added 31 promises for java.lang.Object in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3c2e19e5
+Added 31 promises for java.util.SortedMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6afe50ad
+Added 96 promises for java.lang.Long in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@57db052b
+Added 30 promises for java.awt.geom.Path2D in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@1c6d61cd
+Added 6 promises for java.lang.IllegalThreadStateException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4cc056e
+Added 1 promises for java.lang.ThreadLocal in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7826f36b
+Added 27 promises for java.awt.Polygon in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@232f77a1
+Added 149 promises for java.awt.Rectangle in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@8986039
+Added 60 promises for java.util.AbstractList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2560c30b
+Added 20 promises for java.util.concurrent.locks.Lock in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@25416916
+Added 22 promises for java.util.concurrent.locks.AbstractQueuedSynchronizer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7e325f17
+Added 54 promises for java.util.Set in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@378c23db
+Added 67 promises for java.awt.RenderingHints in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@50722a6a
+Added 89 promises for java.util.List in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@d8c0b67
+Added 61 promises for java.util.HashMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@403750f6
+Added 83 promises for java.util.Hashtable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@a17b698
+Added 61 promises for java.lang.Short in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@21f34f43
+Added 54 promises for java.util.Collection in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@749dd1b1
+Added 56 promises for java.util.WeakHashMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@5d40b2a6
+Added 16 promises for java.util.Collections in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4911252f
+Added 29 promises for java.util.Dictionary in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@185a9665
+Added 144 promises for java.lang.AbstractStringBuilder in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@26b0a240
+Added 1 promises for java.lang.ref.ReferenceQueue in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2ba57585
+##SUBTASK_DONE
+##WORK, 1
+Scrubbing promises
+##SUBTASK, Scrubbing promises
+Creating RegionModel java.lang.Object.Instance for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+[GC 334540K->89285K(441344K), 0.0289590 secs]
+##SUBTASK_DONE
+##WORK, 1
+Starting analyses
+Using new analysis framework -- groups
+Starting group: ThreadEffectsModule
+##SUBTASK, Starting parallel ThreadEffectsModule [0]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel ThreadEffectsModule [0]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Starting parallel ThreadEffectsModule [0]: 46 for TestMoreLanguageFeatures
+Starting parallel ThreadEffectsModule [0]: 46 for TestMoreLanguageFeatures
+##SUBTASK, Checking [ Thread effects ] file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/overloadingStaticGenericMethods/Configuration.java
+##SUBTASK, Checking [ Thread effects ] file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/mutualImport/Type1.java
+##SUBTASK, Checking [ Thread effects ] file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/typeShadowing/F.java
+##SUBTASK, Checking [ Thread effects ] file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/StateMachine.java
+##SUBTASK, Checking [ Thread effects ] file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/lub/TestLUB.java
+##SUBTASK, Checking [ Thread effects ] file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/overloadingStaticGenericMethods/TestToo.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/anyT/Generic.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/aceNonShadowing/Outer.java
+##SUBTASK, Checking [ Thread effects ] file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/polymorphicMethods/TestPolyMethods.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/lub/ID.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/selfImport/Super2.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/lub/JobID.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/overloadingStaticGenericMethods/Job.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/overloadingStaticGenericMethods/MockitoMaker.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/boxing/TestBoxing.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/shadowing/TestMethodShadowing.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/numericPromotion/TestPromotion.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/TestWhen.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/mutualImport/ATrigger.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/rawGenerics/AbstractJdbc4SqlXmlValue.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/mutualImport/Type2.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/localTypeInACE/Outer.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testRewriting/Test2Applet.java
+##SUBTASK, Checking [ Thread effects ] file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/MultipleArcTransition.java
+##SUBTASK, Checking [ Thread effects ] file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/methodOnlyInACE/TestAnonClassMethods.java
+##SUBTASK, Checking [ Thread effects ] file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/Graph.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/shadowing/Sub.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/aceNonShadowing/TestACE.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/TestNameResolution.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/overloading/TestOverloading.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/SingleArcTransition.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/TestGenericMethods.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/rawGenerics/TestRaw.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/manyGenericTypesInOneFile/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/localTypeInACE/Test.java
+##SUBTASK, Checking [ Thread effects ] file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/shadowing/Super.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/TestVarargs.java
+##SUBTASK, Checking [ Thread effects ] file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/rawGenerics/SqlXmlValue.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/rawGenerics/XmlResultProvider.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testAnnosOnEnums/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/StateMachineFactory.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testRewriting/TestApplet.java
+##SUBTASK, Checking [ Thread effects ] file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/selfImport/Outer.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/selfImport/Super.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/InvalidStateTransitonException.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/home/edwin/qa/suites/regression/TestMoreLanguageFeatures/src/testBinder/typeShadowing/Outer.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+Starting group: EffectsAnalysis
+com.surelogic.analysis.visitors.TopLevelAnalysisVisitor$1@303d8bcb: 75
+com.surelogic.analysis.uniqueness.classic.sideeffecting.UniquenessAnalysisModule$1@18a4d52b: 1
+##SUBTASK, Starting parallel EffectsAnalysis [1]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel EffectsAnalysis [1]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Starting parallel EffectsAnalysis [1]: 75 for TestMoreLanguageFeatures
+Starting parallel EffectsAnalysis [1]: 75 for TestMoreLanguageFeatures
+##SUBTASK, Checking [ Region effects ] testBinder.mutualImport.Type1
+##SUBTASK, Checking [ Region effects ] testBinder.overloadingStaticGenericMethods.MockitoMaker
+##SUBTASK, Checking [ Region effects ] testBinder.TestVarargs
+##SUBTASK, Checking [ Region effects ] testBinder.aceNonShadowing.TestACE.ACE #1.ACE #0
+##SUBTASK, Checking [ Region effects ] testBinder.Graph.Node
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.boxing.TestBoxing
+##SUBTASK, Checking [ Region effects ] testBinder.TestNameResolution
+##SUBTASK, Checking [ Region effects ] testBinder.aceNonShadowing.Outer
+##SUBTASK, Checking [ Region effects ] testBinder.overloadingStaticGenericMethods.MockitoMaker.StubBuilder.ACE #0
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.Graph
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.aceNonShadowing.Outer.passwordDetails
+##SUBTASK, Checking [ Region effects ] testBinder.aceNonShadowing.TestACE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.anyT.Generic
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.lub.TestLUB
+##SUBTASK, Checking [ Region effects ] testBinder.methodOnlyInACE.TestAnonClassMethods
+##SUBTASK, Checking [ Region effects ] testBinder.shadowing.Sub
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.aceNonShadowing.TestACE.passwordDetails
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.TestGenericMethods
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.aceNonShadowing.TestACE.ACE #1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.methodOnlyInACE.TestAnonClassMethods.ACE #0
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.rawGenerics.TestRaw
+##SUBTASK, Checking [ Region effects ] testAnnosOnEnums.Test
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.selfImport.Outer
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.selfImport.Outer.Inner
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.selfImport.Outer.Inner2
+##SUBTASK, Checking [ Region effects ] testBinder.rawGenerics.SqlXmlValue
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.rawGenerics.TestRaw.ACE #0
+##SUBTASK, Checking [ Region effects ] testBinder.rawGenerics.XmlResultProvider
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.shadowing.TestMethodShadowing
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.manyGenericTypesInOneFile.Test.ApplicableSingleOrMultipleTransition
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.InvalidStateTransitonException
+##SUBTASK, Checking [ Region effects ] testBinder.numericPromotion.TestPromotion
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.selfImport.Super
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.manyGenericTypesInOneFile.Transition
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.manyGenericTypesInOneFile.SingleArcTransition
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.manyGenericTypesInOneFile.Test
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.TestWhen
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.mutualImport.ATrigger
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.manyGenericTypesInOneFile.Test.SingleInternalArc
+##SUBTASK, Checking [ Region effects ] testBinder.overloading.TestOverloading
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.typeShadowing.Outer
+##SUBTASK, Checking [ Region effects ] testBinder.StateMachine
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.Info
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.typeShadowing.Outer.Middle
+##SUBTASK, Checking [ Region effects ] testBinder.polymorphicMethods.TestPolyMethods
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.typeShadowing.Outer.Static1
+##SUBTASK, Checking [ Region effects ] testBinder.lub.ID
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.localTypeInACE.Test
+##SUBTASK, Checking [ Region effects ] testBinder.polymorphicMethods.TestPolyMethods.ACE #0
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.localTypeInACE.Test.Inner
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.typeShadowing.Outer.Static1.Foo
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.typeShadowing.Outer.Static1.Outer2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.overloadingStaticGenericMethods.TestToo
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.SingleArcTransition
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.typeShadowing.Outer.Static1.Outer2.Middle
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.typeShadowing.F
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.localTypeInACE.Test.Inner.ACE #0$Visitor
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.overloadingStaticGenericMethods.TestToo.Task
+##SUBTASK, Checking [ Region effects ] testBinder.localTypeInACE.Test.Inner.ACE #0
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.overloadingStaticGenericMethods.TestToo.TaskType
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.shadowing.Super
+##SUBTASK, Checking [ Region effects ] testBinder.localTypeInACE.Outer.Visitor
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.rawGenerics.AbstractJdbc4SqlXmlValue
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.MetricsSystem
+##SUBTASK, Checking [ Region effects ] testRewriting.TestApplet
+##SUBTASK, Checking [ Region effects ] testRewriting.Test2Applet
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.mutualImport.Type2
+##SUBTASK, Checking [ Region effects ] testBinder.overloadingStaticGenericMethods.Configuration
+##SUBTASK, Checking [ Region effects ] testBinder.selfImport.Super2
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.lub.JobID
+##SUBTASK, Checking [ Region effects ] testBinder.overloading.Super
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.overloadingStaticGenericMethods.Job
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.localTypeInACE.Outer
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.overloadingStaticGenericMethods.MockitoMaker.StubBuilder
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testBinder.MultipleArcTransition
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+Starting group: UniquenessAnalysisModule
+##SUBTASK, Starting parallel UniquenessAnalysisModule [2]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel UniquenessAnalysisModule [2]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Starting parallel UniquenessAnalysisModule [2]: 1 for TestMoreLanguageFeatures
+Starting parallel UniquenessAnalysisModule [2]: 1 for TestMoreLanguageFeatures
+##SUBTASK, Checking [ Uniqueness ] testBinder.TestWhen.TestWhen()
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Cleaning up after analysis
+Cleaning up after analysis
+[GC 207638K->92769K(701440K), 0.0335280 secs]
+[Full GC 92769K->61872K(701440K), 0.2261740 secs]
+##WORK, 1
+##SUBTASK_DONE
+Updating consistency proof
+##SUBTASK, Updating consistency proof
+Exporting results to TestMoreLanguageFeat-2015.06.22-at-11.29.31.323
+##SUBTASK, Exporting results to TestMoreLanguageFeat-2015.06.22-at-11.29.31.323
+Creating snapshot: /home/edwin/qa/workspaces/regression/TestMoreLanguageFeatures/.jsure-data/TestMoreLanguageFeat-2015.06.22-at-11.29.31.323/running_or_crashed_sea_snapshot.xml.gz
+Done in 8616 ms.
+ThreadEffectsModule	: 15 ms
+EffectsAnalysis	: 265 ms
+UniquenessAnalysisModule	: 23 ms
+cached = 0
+totalT = 0
+#Performance data for TestMoreLanguageFeatures
+#Mon Jun 22 11:29:42 EDT 2015
+jsure.Add.required=0
+jsure.All.analyses=429
+jsure.Binding.before.canon=141
+jsure.Binding.full.time=765
+jsure.Binding.partial.time=831
+jsure.Bindings.full=879
+jsure.Bindings.partial=19189
+jsure.Canonicalization=702
+jsure.Cleanup=311
+jsure.Destroy.time=29
+jsure.Drop.creation=126
+jsure.Find.canon.time=4
+jsure.Parsing=1964
+jsure.Promise.parsing=1016
+jsure.Promise.scrubbing=3093
+jsure.Sea.export=871
+jsure.Sea.update=104
+jsure.Total.JSure.time=8616
+jsure.Total.blocks=126
+jsure.Total.canonical=2716
+jsure.Total.decls=403
+jsure.Total.destroyed=0
+jsure.Total.gced=0
+jsure.Total.loc=1251
+jsure.Total.nodes=183894
+jsure.Total.stmts=260
+jsure.Total.try.destroyed=599
+jsure.analysis.EffectsAnalysis=265
+jsure.analysis.ThreadEffectsModule=15
+jsure.analysis.UniquenessAnalysisModule=23
+jsure.num.threads=8
+Javac making log: RemoteJSureRun.AnnotationRules
+Creating JUnitXMLOutput: RemoteJSureRun.AnnotationRules
+Creating TestOutput RemoteJSureRun.AnnotationRules (com.surelogic.test.SilentTestOutput@1075746, com.surelogic.test.xml.JUnitXMLOutput@8f2b531)
+##DONE
+Renaming snapshot: /home/edwin/qa/workspaces/regression/TestMoreLanguageFeatures/.jsure-data/TestMoreLanguageFeat-2015.06.22-at-11.29.31.323/sea_snapshot.xml.gz
+Done with JSure!
+Closing AnnotationRules log
+Closed JUnitXMLOutput RemoteJSureRun.AnnotationRules
+Scanning complete (10261 ms)
+No socket to close
+Closing std streams
+Process result after waiting = 0

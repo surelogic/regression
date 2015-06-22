@@ -1,0 +1,1186 @@
+LOCAL vm : 1.7.0_51
+Path: /home/edwin/qa/eclipse/plugins/com.surelogic.jsure.tests_1.0.0
+Path: /home/edwin/qa/eclipse/plugins/com.surelogic.jsure.tests_1.0.0/lib/ant-junit-1.9.4.jar
+Path: /home/edwin/qa/eclipse/plugins/com.surelogic.common_5.6.1.201506221103/lib/runtime/asm-tree-5.0.2.jar
+Path: /home/edwin/qa/eclipse/plugins/com.surelogic.jsure.common_5.6.1.201506221103/lib/runtime/diffutils-1.2.1.jar
+Path: /home/edwin/qa/eclipse/plugins/com.surelogic.common_5.6.1.201506221103/lib/runtime/derby-10.11.1.1.jar
+Path: /home/edwin/qa/eclipse/plugins/com.surelogic.common_5.6.1.201506221103/lib/runtime/asm-5.0.2.jar
+Path: /home/edwin/qa/eclipse/plugins/com.surelogic.jsure.tests_1.0.0/lib/maven-ant-tasks-2.1.3.jar
+Path: /home/edwin/qa/eclipse/plugins/com.surelogic.common_5.6.1.201506221103/lib/runtime/commons-codec-1.10.jar
+Path: /home/edwin/qa/eclipse/plugins/com.surelogic.jsure.analysis_5.6.1.201506221103
+Path: /home/edwin/qa/eclipse/plugins/com.surelogic.common_5.6.1.201506221103/lib/runtime/asm-commons-5.0.2.jar
+Path: /home/edwin/qa/eclipse/plugins/com.surelogic.common_5.6.1.201506221103/lib/runtime/collections-generic-4.0.jar
+Path: /home/edwin/qa/eclipse/plugins/com.surelogic.jsure.analysis_5.6.1.201506221103/lib/runtime/log4j-1.3alpha-8.jar
+Path: /home/edwin/qa/eclipse/plugins/com.surelogic.common_5.6.1.201506221103
+Path: /home/edwin/qa/eclipse/plugins/com.surelogic.common_5.6.1.201506221103/lib/runtime/commons-io-2.4.jar
+Path: /home/edwin/qa/eclipse/plugins/com.surelogic.jsure.analysis_5.6.1.201506221103/lib/runtime/renamedJavac.jar
+Path: /home/edwin/qa/eclipse/plugins/com.surelogic.jsure.analysis_5.6.1.201506221103/lib/runtime/log4j-xml-1.3alpha-8.jar
+Path: /home/edwin/qa/eclipse/plugins/com.surelogic.jsure.common_5.6.1.201506221103
+Path: /home/edwin/qa/eclipse/plugins/com.surelogic.common_5.6.1.201506221103/lib/runtime/ant-1.9.4.jar
+Path: /home/edwin/qa/eclipse/plugins/org.junit_4.8.2.v4_8_2_v20110321-1705/junit.jar
+Path: /home/edwin/qa/eclipse/plugins/com.surelogic.common_5.6.1.201506221103/lib/runtime/commons-lang3-3.3.2.jar
+Path: /home/edwin/qa/eclipse/plugins/com.surelogic.common_5.6.1.201506221103/lib/runtime/promises-5.6.0.jar
+Path: /home/edwin/qa/eclipse/plugins/com.surelogic.common_5.6.1.201506221103/lib/runtime/antlr-3.5.2-runtime.jar
+Path: /home/edwin/qa/eclipse/plugins/com.surelogic.common_5.6.1.201506221103/lib/runtime/servlet-api-3.1.jar
+Path: /home/edwin/qa/eclipse/plugins/com.surelogic.common_5.6.1.201506221103/lib/runtime/trove-3.0.3.jar
+Starting process:
+	/home/edwin/work/jdk1.7.0_51/jre/bin/java
+	-Dsl.running.in.remote.vm=true
+	-Dsurelogic.test.code=NONE
+	-XX:MaxPermSize=512m
+	-verbosegc
+	-Dsl.run.dir=/home/edwin/qa/workspaces/regression/TestUniqueInRegion/.jsure-data/TestUniqueInRegion-2015.06.22-at-11.47.21.452
+	-Dfluid.ir.versioning=Versioning.Off
+	-DAnnotationRules.label=RemoteJSureRun.AnnotationRules
+	-Ddc.testing=true
+	-Dfluid.directory.url=file:/home/edwin/qa/eclipse/plugins/com.surelogic.jsure.analysis_5.6.1.201506221103/
+	-Xmx2048m
+	-classpath
+	/home/edwin/qa/eclipse/plugins/com.surelogic.jsure.tests_1.0.0:/home/edwin/qa/eclipse/plugins/com.surelogic.jsure.tests_1.0.0/lib/ant-junit-1.9.4.jar:/home/edwin/qa/eclipse/plugins/com.surelogic.common_5.6.1.201506221103/lib/runtime/asm-tree-5.0.2.jar:/home/edwin/qa/eclipse/plugins/com.surelogic.jsure.common_5.6.1.201506221103/lib/runtime/diffutils-1.2.1.jar:/home/edwin/qa/eclipse/plugins/com.surelogic.common_5.6.1.201506221103/lib/runtime/derby-10.11.1.1.jar:/home/edwin/qa/eclipse/plugins/com.surelogic.common_5.6.1.201506221103/lib/runtime/asm-5.0.2.jar:/home/edwin/qa/eclipse/plugins/com.surelogic.jsure.tests_1.0.0/lib/maven-ant-tasks-2.1.3.jar:/home/edwin/qa/eclipse/plugins/com.surelogic.common_5.6.1.201506221103/lib/runtime/commons-codec-1.10.jar:/home/edwin/qa/eclipse/plugins/com.surelogic.jsure.analysis_5.6.1.201506221103:/home/edwin/qa/eclipse/plugins/com.surelogic.common_5.6.1.201506221103/lib/runtime/asm-commons-5.0.2.jar:/home/edwin/qa/eclipse/plugins/com.surelogic.common_5.6.1.201506221103/lib/runtime/collections-generic-4.0.jar:/home/edwin/qa/eclipse/plugins/com.surelogic.jsure.analysis_5.6.1.201506221103/lib/runtime/log4j-1.3alpha-8.jar:/home/edwin/qa/eclipse/plugins/com.surelogic.common_5.6.1.201506221103:/home/edwin/qa/eclipse/plugins/com.surelogic.common_5.6.1.201506221103/lib/runtime/commons-io-2.4.jar:/home/edwin/qa/eclipse/plugins/com.surelogic.jsure.analysis_5.6.1.201506221103/lib/runtime/renamedJavac.jar:/home/edwin/qa/eclipse/plugins/com.surelogic.jsure.analysis_5.6.1.201506221103/lib/runtime/log4j-xml-1.3alpha-8.jar:/home/edwin/qa/eclipse/plugins/com.surelogic.jsure.common_5.6.1.201506221103:/home/edwin/qa/eclipse/plugins/com.surelogic.common_5.6.1.201506221103/lib/runtime/ant-1.9.4.jar:/home/edwin/qa/eclipse/plugins/org.junit_4.8.2.v4_8_2_v20110321-1705/junit.jar:/home/edwin/qa/eclipse/plugins/com.surelogic.common_5.6.1.201506221103/lib/runtime/commons-lang3-3.3.2.jar:/home/edwin/qa/eclipse/plugins/com.surelogic.common_5.6.1.201506221103/lib/runtime/promises-5.6.0.jar:/home/edwin/qa/eclipse/plugins/com.surelogic.common_5.6.1.201506221103/lib/runtime/antlr-3.5.2-runtime.jar:/home/edwin/qa/eclipse/plugins/com.surelogic.common_5.6.1.201506221103/lib/runtime/servlet-api-3.1.jar:/home/edwin/qa/eclipse/plugins/com.surelogic.common_5.6.1.201506221103/lib/runtime/trove-3.0.3.jar
+	com.surelogic.jsure.tests.RemoteJSureRunTest
+
+First line in REMOTE vm = JVM started: 1.7.0_51
+Log level: INFO
+Created reader
+Created monitor
+Created log handler
+Running RemoteJSureRunTest
+Setting up XML output
+Javac set edu.cmu.cs.fluid.default.JRE to 
+Javac set edu.cmu.cs.fluid.analysis.thread.count to 8
+Javac set com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.IRConcurrencyDetector to true
+Javac set com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ThreadEffectAssurance2 to true
+Javac set com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.StructureAssurance to true
+Javac set com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ParameterizedType to true
+Javac set com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.EqualityAssurance to true
+Javac set com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LayersAssurance to true
+Javac set com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Utility to true
+Javac set com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Singleton to true
+Javac set com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LockAssurance3 to true
+Javac set com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.EffectAssurance2 to true
+Javac set com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.UniquenessAssuranceUWM to false
+Javac set com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.UniquenessAssuranceUWM_SE to false
+Javac set com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.UniquenessAssuranceSE to true
+Javac set com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.DefinitelyAssigned to false
+Javac set com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LV to false
+Javac set com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BCA to false
+Javac set com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.CALLS to false
+Javac set com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BenchmarkingUniquenessNew to false
+Javac set com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BenchmarkingUniquenessNew_SE to false
+Javac set com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BenchmarkingUniquenessSE to false
+Javac set com.surelogic.jsure.active.com.surelogic.jsure.cliend.eclipse.TypeBasedAlias to false
+Javac set com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Types to false
+Javac set com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ConstantExpr to false
+Javac set com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Binder to false
+Javac set com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.NullablePreprocessor to true
+Javac set com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Nullable to true
+Javac set com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.NonNullRawTypes to false
+Javac set com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Final to false
+Javac set com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.TestIsFunctional to false
+runPath = /home/edwin/qa/workspaces/regression/TestUniqueInRegion/.jsure-data/TestUniqueInRegion-2015.06.22-at-11.47.21.452
+Creating run: TestUniqueInRegion-2015.06.22-at-11.47.21.452
+projects = TestUniqueInRegion
+Loading edu.cmu.cs.fluid.make.nonabductive.proposals = false
+Loading edu.cmu.cs.fluid.load.all.classes = false
+Loading edu.cmu.cs.fluid.timeoutFlag = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BCA = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ConstantExpr = false
+Loading edu.cmu.cs.fluid.physMemoryInMB = 16039
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.EqualityAssurance = false
+Loading edu.cmu.cs.fluid.xml.diff.directory = /home/edwin/qa/workspaces/regression/TestUniqueInRegion/.jsure-data/promises-xml
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.UniquenessAssuranceUWM = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.IRConcurrencyDetector = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Singleton = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.CALLS = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BenchmarkingUniquenessSE = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ThreadEffectAssurance2 = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Binder = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.cliend.eclipse.TypeBasedAlias = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Nullable = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.TestIsFunctional = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.UniquenessAssuranceUWM_SE = false
+Loading edu.cmu.cs.fluid.tool-memory-mb = 2048
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.DefinitelyAssigned = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.UniquenessAssuranceSE = true
+Loading edu.cmu.cs.fluid.analysis.thread.count = 8
+Loading edu.cmu.cs.fluid.timeoutSec = 60
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.NonNullRawTypes = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LayersAssurance = false
+Loading edu.cmu.cs.fluid.default.JRE = org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Loading edu.cmu.cs.fluid.timeoutWarningSec = 30
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Utility = false
+Loading edu.cmu.cs.fluid.modeling.problem.filters = 00000012com\.apple.*00000013com\.oracle.*00000010com\.sun.*00000014.*\.internal.*00000007apple.*00000008oracle.*00000012org\.junit.*00000018junit\.framework.*00000011quicktime.*00000005sun.*
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BenchmarkingUniquenessNew_SE = false
+Loading edu.cmu.cs.fluid.scan.may.use.compression = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ParameterizedType = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Final = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LockAssurance3 = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BenchmarkingUniquenessNew = false
+Loading edu.cmu.cs.fluid.data.directory = /home/edwin/qa/workspaces/regression/TestUniqueInRegion/.jsure-data
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.NullablePreprocessor = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.EffectAssurance2 = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.StructureAssurance = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LV = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Types = false
+JSure data dir = /home/edwin/qa/workspaces/regression/TestUniqueInRegion/.jsure-data
+XML diff dir   = /home/edwin/qa/workspaces/regression/TestUniqueInRegion/.jsure-data/promises-xml
+Looking for JRE in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+default JRE = org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Javac set edu.cmu.cs.fluid.default.JRE to org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Initialized job
+No path exists
+Created com.surelogic.analysis.threads.ThreadEffectsModule
+Starting a new group for ThreadEffectsModule
+Created com.surelogic.analysis.annotationbounds.ParameterizedTypeAnalysis
+Created com.surelogic.analysis.concurrency.driver.LockAnalysis
+Starting a new group for LockAnalysis
+Group: EXTERNALLY
+	ThreadEffectsModule
+	ParameterizedTypeAnalysis
+Created com.surelogic.analysis.effects.EffectsAnalysis
+Created com.surelogic.analysis.uniqueness.classic.sideeffecting.UniquenessAnalysisModule
+Starting a new group for UniquenessAnalysisModule
+Group: com.surelogic.analysis.visitors.TopLevelAnalysisVisitor$1@4fff1abc, class com.surelogic.analysis.bca.BindingContextAnalysis, EXTERNALLY
+	LockAnalysis
+	EffectsAnalysis
+Group: com.surelogic.analysis.uniqueness.classic.sideeffecting.UniquenessAnalysisModule$1@753455ab, class com.surelogic.analysis.bca.BindingContextAnalysis, INTERNALLY
+	UniquenessAnalysisModule
+##TASK, Scan, 202
+Initializing ...
+##SUBTASK, Initializing ...
+monitor = com.surelogic.common.jobs.remote.AbstractRemoteSLJob$Monitor@5b5ba6f1
+singleThread = false
+[GC 64993K->16376K(246272K), 0.0253010 secs]
+Done initializing org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: 0
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /home/edwin/work/jdk1.7.0_51/jre/lib/resources.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /home/edwin/work/jdk1.7.0_51/jre/lib/rt.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /home/edwin/work/jdk1.7.0_51/jre/lib/jsse.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /home/edwin/work/jdk1.7.0_51/jre/lib/jce.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /home/edwin/work/jdk1.7.0_51/jre/lib/charsets.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /home/edwin/work/jdk1.7.0_51/jre/lib/jfr.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /home/edwin/work/jdk1.7.0_51/jre/lib/ext/sunjce_provider.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /home/edwin/work/jdk1.7.0_51/jre/lib/ext/dnsns.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /home/edwin/work/jdk1.7.0_51/jre/lib/ext/sunec.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /home/edwin/work/jdk1.7.0_51/jre/lib/ext/zipfs.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /home/edwin/work/jdk1.7.0_51/jre/lib/ext/sunpkcs11.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /home/edwin/work/jdk1.7.0_51/jre/lib/ext/localedata.jar
+Done initializing TestUniqueInRegion: 24
+Trying to find /home/edwin/qa/workspaces/regression/TestUniqueInRegion/.jsure-data/TestUniqueInRegion-2015.06.22-at-11.47.21.452/source/TestUniqueInRegion.bin.zip
+TestUniqueInRegion: TestUniqueInRegion -> org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Done initializing org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: 0
+TestUniqueInRegion: Done initializing with /home/edwin/work/jdk1.7.0_51/jre/lib/resources.jar
+[GC 81400K->50441K(311296K), 0.0335280 secs]
+TestUniqueInRegion: Done initializing with /home/edwin/work/jdk1.7.0_51/jre/lib/rt.jar
+TestUniqueInRegion: Done initializing with /home/edwin/work/jdk1.7.0_51/jre/lib/jsse.jar
+TestUniqueInRegion: Done initializing with /home/edwin/work/jdk1.7.0_51/jre/lib/jce.jar
+TestUniqueInRegion: Done initializing with /home/edwin/work/jdk1.7.0_51/jre/lib/charsets.jar
+TestUniqueInRegion: Done initializing with /home/edwin/work/jdk1.7.0_51/jre/lib/jfr.jar
+TestUniqueInRegion: Done initializing with /home/edwin/work/jdk1.7.0_51/jre/lib/ext/sunjce_provider.jar
+TestUniqueInRegion: Done initializing with /home/edwin/work/jdk1.7.0_51/jre/lib/ext/dnsns.jar
+TestUniqueInRegion: Done initializing with /home/edwin/work/jdk1.7.0_51/jre/lib/ext/sunec.jar
+TestUniqueInRegion: Done initializing with /home/edwin/work/jdk1.7.0_51/jre/lib/ext/zipfs.jar
+TestUniqueInRegion: Done initializing with /home/edwin/work/jdk1.7.0_51/jre/lib/ext/sunpkcs11.jar
+TestUniqueInRegion: Done initializing with /home/edwin/work/jdk1.7.0_51/jre/lib/ext/localedata.jar
+TestUniqueInRegion: Done initializing with /home/edwin/qa/suites/regression/TestUniqueInRegion/promises-4.0.0.jar
+##SUBTASK_DONE
+##WORK, 1
+Assuming that the projects are run in dependency order
+Parsing ...
+##SUBTASK, Parsing ...
+Done adapting 0 files for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK_DONE
+##WORK, 1
+Parsing ...
+##SUBTASK, Parsing ...
+JCP: warning: [options] bootstrap class path not set in conjunction with -source 1.7
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+Adapting 24 CUTs
+Done adapting 24 files for TestUniqueInRegion
+##SUBTASK_DONE
+##WORK, 1
+Handling references for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Handling references for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 19 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Setting project for Object from org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 36 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 54 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 58 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 34 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 18 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 9 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 12 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 15 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 4 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 2 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK_DONE
+##WORK, 1
+Handling references for TestUniqueInRegion
+##SUBTASK, Handling references for TestUniqueInRegion
+Handling 28 dangling refs for TestUniqueInRegion
+Handling 3 dangling refs for TestUniqueInRegion
+##SUBTASK_DONE
+##WORK, 1
+Updated 262 files in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Updated 55 files in TestUniqueInRegion
+Parsing ASTs  = 554 ms
+Handling refs = 704 ms
+Canonicalizing ASTs
+##SUBTASK, Canonicalizing ASTs
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+Canonicalizing TestUniqueInRegion/src/test/fancy/accessibility/differentPackages/p1/Super.java
+##WORK, 1
+Canonicalizing TestUniqueInRegion/src/test/simple/accessibility/samePackage/ParentIsSuper.java
+##WORK, 1
+Canonicalizing TestUniqueInRegion/src/test/simple/TestSimple.java
+##WORK, 1
+Canonicalizing TestUniqueInRegion/src/test/fancy/accessibility/samePackage/PublicDelegate.java
+##WORK, 1
+Canonicalizing TestUniqueInRegion/src/test/simple/accessibility/differentPackages/p2/ParentIsSuper.java
+##WORK, 1
+Canonicalizing TestUniqueInRegion/src/test/fancy/accessibility/samePackage/ParentIsSuper.java
+##WORK, 1
+Canonicalizing TestUniqueInRegion/src/test/fancy/TestFancy.java
+##WORK, 1
+Canonicalizing TestUniqueInRegion/src/test/fancy/accessibility/samePackage/ProtectedDelegate.java
+##WORK, 1
+Canonicalizing TestUniqueInRegion/src/test/fancy/accessibility/differentPackages/p1/PublicDelegate.java
+##WORK, 1
+Canonicalizing TestUniqueInRegion/src/test/fancy/accessibility/differentPackages/p1/PrivateDelegate.java
+##WORK, 1
+Canonicalizing TestUniqueInRegion/src/test/fancy/accessibility/differentPackages/p2/ParentIsSuper.java
+##WORK, 1
+Canonicalizing TestUniqueInRegion/src/test/fancy/respectsHierarchy/C.java
+##WORK, 1
+Canonicalizing TestUniqueInRegion/src/test/Test.java
+##WORK, 1
+Canonicalizing TestUniqueInRegion/src/test/simple/accessibility/samePackage/Super.java
+##WORK, 1
+Canonicalizing TestUniqueInRegion/src/test/fancy/accessibility/samePackage/Super.java
+##WORK, 1
+Canonicalizing TestUniqueInRegion/src/test/norepeats/C.java
+##WORK, 1
+Canonicalizing TestUniqueInRegion/src/test/fancy/accessibility/differentPackages/p1/ProtectedDelegate.java
+##WORK, 1
+Canonicalizing TestUniqueInRegion/src/test/fancy/accessibility/samePackage/PrivateDelegate.java
+##WORK, 1
+Canonicalizing TestUniqueInRegion/src/test/fancy/respectsHierarchy/Test.java
+##WORK, 1
+Canonicalizing TestUniqueInRegion/src/test/fancy/C.java
+##WORK, 1
+Canonicalizing TestUniqueInRegion/src/test/simple/nonFinal/Test.java
+##WORK, 1
+Canonicalizing TestUniqueInRegion/src/test/simple/accessibility/differentPackages/p1/Super.java
+##WORK, 1
+Canonicalizing TestUniqueInRegion/src/test/fancy/accessibility/differentPackages/p1/DefaultDelegate.java
+##WORK, 1
+Canonicalizing TestUniqueInRegion/src/test/fancy/accessibility/samePackage/DefaultDelegate.java
+##WORK, 1
+Binding = 153 ms
+Cleaned 0 in 28 ms
+##SUBTASK_DONE
+##WORK, 1
+Handling references for TestUniqueInRegion
+##SUBTASK, Handling references for TestUniqueInRegion
+Handling 19 dangling refs for TestUniqueInRegion
+##SUBTASK_DONE
+##WORK, 1
+Handling references for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Handling references for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 19 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK_DONE
+##WORK, 1
+Updated 262 files in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Updated 55 files in TestUniqueInRegion
+[GC 159922K->69295K(311296K), 0.0317820 secs]
+[Full GC 69295K->58709K(311296K), 0.1325040 secs]
+Creating drops
+##SUBTASK, Creating drops
+Created binary drop for sun.util.locale.Extension
+Created binary drop for com.surelogic.UniqueInRegion
+Created binary drop for sun.misc.JarIndex
+Created binary drop for java.lang.InstantiationException
+Created binary drop for java.util.concurrent.Executor
+Created binary drop for java.lang.Package
+Created binary drop for java.lang.reflect.Constructor
+Created binary drop for java.security.NoSuchAlgorithmException
+Created binary drop for java.security.cert.CertificateEncodingException
+Created binary drop for java.io.Closeable
+Created binary drop for java.util.concurrent.Callable
+Created binary drop for java.net.InterfaceAddress
+Created binary drop for java.nio.file.WatchKey
+Created binary drop for java.util.Set
+Created binary drop for java.lang.ref.SoftReference
+Created binary drop for java.io.FileNotFoundException
+Created binary drop for java.nio.channels.FileLock
+Created binary drop for java.nio.channels.GatheringByteChannel
+Created binary drop for java.lang.Readable
+Created binary drop for java.lang.Throwable
+Created binary drop for java.util.Deque
+Created binary drop for sun.security.util.Debug
+Created binary drop for java.lang.ClassValue
+Created binary drop for java.lang.Character
+Created binary drop for java.lang.Deprecated
+Created binary drop for java.security.ProtectionDomain
+Created binary drop for java.util.Random
+Created binary drop for java.lang.IllegalArgumentException
+Created binary drop for java.lang.Runnable
+Created binary drop for java.nio.channels.spi.AbstractInterruptibleChannel
+Created binary drop for java.net.URLConnection
+Created binary drop for java.util.zip.DataFormatException
+Created binary drop for java.util.Date
+Created binary drop for java.nio.file.CopyOption
+Created binary drop for java.lang.Enum
+Created binary drop for java.lang.ReflectiveOperationException
+Created binary drop for java.util.concurrent.ExecutorService
+Created binary drop for java.util.WeakHashMap
+Created binary drop for java.nio.file.DirectoryStream
+Created binary drop for java.util.Iterator
+Created binary drop for java.nio.file.FileSystem
+Created binary drop for java.util.concurrent.locks.ReadWriteLock
+Created binary drop for java.nio.channels.AsynchronousChannel
+Created binary drop for java.nio.charset.CoderResult
+Created source drop for file:/home/edwin/qa/suites/regression/TestUniqueInRegion/src/test/simple/accessibility/differentPackages/p1/Super.java
+Created source drop for file:/home/edwin/qa/suites/regression/TestUniqueInRegion/src/test/fancy/accessibility/samePackage/PrivateDelegate.java
+Created binary drop for java.util.Enumeration
+Created binary drop for java.nio.charset.Charset
+Created binary drop for java.security.Guard
+Created binary drop for java.security.Timestamp
+Created binary drop for java.nio.file.attribute.UserPrincipal
+Created binary drop for java.net.SocketAddress
+Created binary drop for java.security.Permission
+Created binary drop for java.io.PrintWriter
+Created binary drop for java.lang.ref.ReferenceQueue
+Created binary drop for java.security.NoSuchProviderException
+Created source drop for file:/home/edwin/qa/suites/regression/TestUniqueInRegion/src/test/fancy/respectsHierarchy/Test.java
+Created source drop for file:/home/edwin/qa/suites/regression/TestUniqueInRegion/src/test/fancy/accessibility/differentPackages/p1/Super.java
+Created binary drop for java.lang.IllegalAccessException
+Created binary drop for java.io.FileFilter
+Created binary drop for sun.reflect.ReflectionFactory
+Created binary drop for java.nio.file.attribute.UserPrincipalLookupService
+Created binary drop for java.nio.channels.ReadableByteChannel
+Created binary drop for sun.reflect.ConstructorAccessor
+Created binary drop for java.net.InetAddressImpl
+Created binary drop for java.lang.reflect.GenericDeclaration
+Created binary drop for java.lang.Long
+Created binary drop for java.util.zip.Inflater
+Created binary drop for java.util.zip.ZipException
+Created binary drop for java.security.PrivilegedAction
+Created binary drop for java.nio.channels.ClosedChannelException
+Created binary drop for java.util.LinkedList
+Created binary drop for java.security.CodeSigner
+Created binary drop for java.net.ContentHandlerFactory
+Created binary drop for sun.reflect.LangReflectAccess
+Created binary drop for java.lang.Object
+Created binary drop for java.lang.StackTraceElement
+Created binary drop for java.net.InetAddress
+Created binary drop for java.net.Proxy
+Created binary drop for java.nio.IntBuffer
+Created binary drop for java.lang.annotation.Annotation
+Created binary drop for java.util.Stack
+Created binary drop for java.nio.ShortBuffer
+Created binary drop for java.nio.file.WatchService
+Created binary drop for java.security.KeyException
+Created binary drop for java.io.InputStream
+Created binary drop for java.net.NetworkInterface
+Created binary drop for com.surelogic.Region
+Created binary drop for java.io.FilterOutputStream
+Created binary drop for java.util.concurrent.Future
+Created binary drop for java.lang.Float
+Created binary drop for java.net.URL
+Created binary drop for sun.util.locale.LocaleExtensions
+Created binary drop for java.nio.Buffer
+Created binary drop for java.nio.channels.AsynchronousFileChannel
+Created binary drop for java.util.List
+Created binary drop for sun.util.locale.InternalLocaleBuilder
+Created binary drop for java.lang.ref.WeakReference
+Created binary drop for java.io.FileDescriptor
+Created binary drop for java.nio.file.attribute.FileAttributeView
+Created binary drop for java.net.URLStreamHandlerFactory
+Created binary drop for sun.reflect.ConstantPool
+Created binary drop for java.nio.channels.ScatteringByteChannel
+Created binary drop for java.io.FilterInputStream
+Created binary drop for java.lang.StringBuilder
+Created binary drop for java.security.Principal
+Created binary drop for java.util.Collection
+Created binary drop for java.lang.NoSuchFieldException
+Created binary drop for java.util.MissingResourceException
+Created binary drop for java.lang.Number
+Created binary drop for sun.util.locale.LanguageTag
+Created binary drop for java.lang.annotation.Retention
+Created binary drop for java.lang.Double
+Created binary drop for java.security.cert.CertificateException
+Created binary drop for java.lang.CharSequence
+Created binary drop for java.lang.reflect.InvocationTargetException
+Created binary drop for java.nio.channels.ByteChannel
+Created binary drop for java.nio.CharBuffer
+Created binary drop for java.util.concurrent.locks.Condition
+Created source drop for file:/home/edwin/qa/suites/regression/TestUniqueInRegion/src/test/fancy/respectsHierarchy/C.java
+Created binary drop for sun.util.LocaleServiceProviderPool
+Created binary drop for java.lang.annotation.RetentionPolicy
+Created binary drop for java.net.URISyntaxException
+Created binary drop for java.util.RandomAccess
+Created binary drop for java.io.ObjectStreamException
+Created binary drop for java.io.Flushable
+Created binary drop for java.net.MalformedURLException
+Created source drop for file:/home/edwin/qa/suites/regression/TestUniqueInRegion/src/test/simple/accessibility/samePackage/ParentIsSuper.java
+Created binary drop for java.lang.annotation.Target
+Created binary drop for java.lang.ClassLoader
+Created binary drop for java.io.DataOutputStream
+Created binary drop for java.util.jar.Attributes
+Created binary drop for java.nio.file.attribute.FileStoreAttributeView
+Created binary drop for java.nio.FloatBuffer
+Created binary drop for java.nio.file.attribute.GroupPrincipal
+Created binary drop for java.lang.Boolean
+Created binary drop for java.security.cert.CertPath
+Created binary drop for java.lang.RuntimeException
+Created binary drop for java.nio.file.attribute.FileAttribute
+Created binary drop for java.nio.file.spi.FileSystemProvider
+Created binary drop for java.io.DataOutput
+Created binary drop for java.lang.annotation.ElementType
+Created binary drop for java.util.concurrent.ConcurrentMap
+Created binary drop for java.util.ListIterator
+Created binary drop for java.nio.channels.CompletionHandler
+Created binary drop for java.nio.channels.SeekableByteChannel
+Created source drop for file:/home/edwin/qa/suites/regression/TestUniqueInRegion/src/test/simple/TestSimple.java
+Created binary drop for java.util.SortedMap
+Created binary drop for java.nio.file.attribute.BasicFileAttributes
+Created binary drop for java.lang.reflect.AccessibleObject
+Created binary drop for sun.util.locale.LocaleObjectCache
+Created binary drop for sun.reflect.annotation.AnnotationType
+Created binary drop for java.lang.Integer
+Created binary drop for java.util.Locale
+Created source drop for file:/home/edwin/qa/suites/regression/TestUniqueInRegion/src/test/fancy/accessibility/samePackage/PublicDelegate.java
+Created binary drop for java.nio.file.Path
+Created binary drop for java.nio.DoubleBuffer
+Created binary drop for java.util.zip.InflaterInputStream
+Created binary drop for java.security.InvalidKeyException
+Created source drop for file:/home/edwin/qa/suites/regression/TestUniqueInRegion/src/test/simple/accessibility/differentPackages/p2/ParentIsSuper.java
+Created binary drop for java.lang.ThreadGroup
+Created binary drop for java.net.URLStreamHandler
+Created binary drop for java.lang.InterruptedException
+Created binary drop for sun.util.locale.LocaleSyntaxException
+Created binary drop for java.nio.channels.AsynchronousCloseException
+Created binary drop for java.util.HashMap
+Created binary drop for java.lang.Class
+Created binary drop for java.lang.NumberFormatException
+Created binary drop for java.security.Key
+Created binary drop for java.net.URI
+Created binary drop for java.util.jar.Manifest
+Created binary drop for java.io.UnsupportedEncodingException
+Created binary drop for java.security.SignatureException
+Created binary drop for java.net.FileNameMap
+Created source drop for file:/home/edwin/qa/suites/regression/TestUniqueInRegion/src/test/Test.java
+Created binary drop for java.lang.String
+Created binary drop for sun.reflect.MethodAccessor
+Created binary drop for java.lang.Iterable
+Created binary drop for java.lang.reflect.TypeVariable
+Created binary drop for java.lang.AutoCloseable
+Created binary drop for com.surelogic.InRegion
+Created binary drop for java.util.ArrayList
+Created binary drop for java.nio.LongBuffer
+Created source drop for file:/home/edwin/qa/suites/regression/TestUniqueInRegion/src/test/simple/accessibility/samePackage/Super.java
+Created binary drop for java.io.IOException
+Created binary drop for java.util.ResourceBundle
+Created binary drop for java.util.Vector
+Created binary drop for java.lang.Void
+Created binary drop for java.security.GeneralSecurityException
+Created binary drop for java.lang.Appendable
+Created binary drop for java.util.Dictionary
+Created binary drop for java.nio.file.attribute.FileTime
+Created binary drop for java.util.concurrent.TimeUnit
+Created binary drop for sun.nio.ch.Interruptible
+Created binary drop for java.util.concurrent.locks.Lock
+Created binary drop for java.nio.ByteBuffer
+Created source drop for file:/home/edwin/qa/suites/regression/TestUniqueInRegion/src/test/fancy/accessibility/samePackage/Super.java
+Created binary drop for java.lang.CloneNotSupportedException
+Created binary drop for java.nio.file.LinkOption
+Created binary drop for java.util.AbstractList
+Created binary drop for java.nio.MappedByteBuffer
+Created binary drop for java.lang.Thread
+Created source drop for file:/home/edwin/qa/suites/regression/TestUniqueInRegion/src/test/fancy/accessibility/samePackage/ParentIsSuper.java
+Created binary drop for java.io.SyncFailedException
+Created binary drop for com.surelogic.Borrowed
+Created binary drop for java.nio.file.AccessMode
+Created binary drop for java.lang.SuppressWarnings
+Created binary drop for java.nio.charset.CharacterCodingException
+Created binary drop for java.io.Serializable
+Created binary drop for java.security.cert.Certificate
+Created source drop for file:/home/edwin/qa/suites/regression/TestUniqueInRegion/src/test/fancy/TestFancy.java
+Created binary drop for java.util.AbstractMap
+Created binary drop for java.util.jar.JarEntry
+Created source drop for file:/home/edwin/qa/suites/regression/TestUniqueInRegion/src/test/fancy/accessibility/samePackage/ProtectedDelegate.java
+Created binary drop for java.nio.charset.CharsetEncoder
+Created binary drop for java.util.zip.ZipFile
+Created binary drop for sun.misc.Resource
+Created source drop for file:/home/edwin/qa/suites/regression/TestUniqueInRegion/src/test/fancy/accessibility/differentPackages/p1/PrivateDelegate.java
+Created binary drop for java.nio.charset.CodingErrorAction
+Created binary drop for java.nio.file.attribute.AttributeView
+Created binary drop for java.nio.channels.InterruptibleChannel
+Created binary drop for sun.util.locale.ParseStatus
+Created binary drop for sun.misc.MetaIndex
+Created binary drop for sun.util.locale.BaseLocale
+Created source drop for file:/home/edwin/qa/suites/regression/TestUniqueInRegion/src/test/fancy/C.java
+Created binary drop for java.math.BigInteger
+Created binary drop for java.nio.charset.CharsetDecoder
+Created binary drop for sun.misc.URLClassPath
+Created binary drop for java.util.zip.ZipEntry
+Created binary drop for java.util.Queue
+Created binary drop for sun.reflect.CallerSensitive
+Created binary drop for java.lang.Comparable
+Created binary drop for java.net.UnknownHostException
+Created binary drop for java.lang.reflect.Field
+Created binary drop for sun.util.resources.OpenListResourceBundle
+Created binary drop for java.util.Map
+Created binary drop for java.util.AbstractSequentialList
+Created binary drop for java.util.Comparator
+Created binary drop for java.util.AbstractCollection
+Created binary drop for java.lang.annotation.Documented
+Created source drop for file:/home/edwin/qa/suites/regression/TestUniqueInRegion/src/test/simple/nonFinal/Test.java
+Created binary drop for java.security.AccessControlException
+Created binary drop for java.security.PermissionCollection
+Created binary drop for java.lang.ThreadLocal
+Created binary drop for java.lang.reflect.AnnotatedElement
+Created binary drop for java.lang.SecurityException
+Created binary drop for java.lang.reflect.Method
+Created binary drop for java.nio.file.Watchable
+Created binary drop for java.lang.Byte
+Created binary drop for java.net.UnknownServiceException
+Created binary drop for java.io.PrintStream
+Created binary drop for sun.reflect.FieldAccessor
+Created binary drop for java.lang.AbstractStringBuilder
+Created source drop for file:/home/edwin/qa/suites/regression/TestUniqueInRegion/src/test/fancy/accessibility/differentPackages/p1/DefaultDelegate.java
+Created binary drop for java.io.File
+Created binary drop for com.surelogic.Unique
+Created binary drop for java.net.SocketException
+Created binary drop for java.nio.file.FileStore
+Created binary drop for java.util.zip.ZipConstants
+Created binary drop for com.surelogic.RegionEffects
+Created binary drop for java.nio.channels.Channel
+Created binary drop for java.io.FilenameFilter
+Created binary drop for java.lang.StringBuffer
+Created source drop for file:/home/edwin/qa/suites/regression/TestUniqueInRegion/src/test/norepeats/C.java
+Created binary drop for com.surelogic.Starts
+Created binary drop for java.nio.ByteOrder
+Created binary drop for java.util.AbstractSet
+Created binary drop for java.lang.Cloneable
+Created source drop for file:/home/edwin/qa/suites/regression/TestUniqueInRegion/src/test/fancy/accessibility/samePackage/DefaultDelegate.java
+Created binary drop for java.security.DomainCombiner
+Created binary drop for java.nio.channels.FileChannel
+Created binary drop for java.lang.Exception
+Created binary drop for java.util.Hashtable
+Created binary drop for java.nio.file.OpenOption
+Created binary drop for java.nio.file.WatchEvent
+Created binary drop for java.nio.file.PathMatcher
+Created binary drop for com.surelogic.Regions
+Created binary drop for java.nio.channels.WritableByteChannel
+Created binary drop for java.util.spi.LocaleServiceProvider
+Created binary drop for java.io.OutputStream
+Created binary drop for java.lang.ref.Reference
+Created binary drop for java.security.AccessControlContext
+Created source drop for file:/home/edwin/qa/suites/regression/TestUniqueInRegion/src/test/fancy/accessibility/differentPackages/p1/ProtectedDelegate.java
+Created binary drop for java.util.jar.JarFile
+Created binary drop for java.net.ContentHandler
+Created source drop for file:/home/edwin/qa/suites/regression/TestUniqueInRegion/src/test/fancy/accessibility/differentPackages/p2/ParentIsSuper.java
+Created binary drop for java.util.spi.LocaleNameProvider
+Created binary drop for java.lang.Short
+Created binary drop for java.lang.reflect.Type
+Created source drop for file:/home/edwin/qa/suites/regression/TestUniqueInRegion/src/test/fancy/accessibility/differentPackages/p1/PublicDelegate.java
+Created binary drop for java.io.Writer
+Created binary drop for java.security.PublicKey
+Created binary drop for java.lang.reflect.Member
+Created binary drop for java.security.CodeSource
+##SUBTASK_DONE
+##WORK, 1
+Parsing promises
+##SUBTASK, Parsing promises
+Added 3 promises for java.lang.[] in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@f1a0fad
+Added 3 promises for java.lang.[] in TestUniqueInRegion: com.surelogic.tree.SyntaxTreeNode@2b4a5b2e
+Added 6 promises for java.lang.InstantiationException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@5cd4a279
+Added 7 promises for java.util.concurrent.locks.ReadWriteLock in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@666dfddb
+Added 4 promises for java.util.Enumeration in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@573560a0
+Added 70 promises for java.lang.Double in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7c7996db
+Added 2 promises for java.lang.ref.SoftReference in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3ea5f94
+Added 6 promises for java.io.PrintWriter in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@5a5adcb1
+Added 6 promises for java.util.Iterator in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@fc9037f
+Added 87 promises for java.util.Deque in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4b0f290f
+Added 8 promises for test.fancy.accessibility.differentPackages.p1.Super in TestUniqueInRegion: com.surelogic.tree.SyntaxTreeNode@356a69d
+Added 56 promises for java.util.WeakHashMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@71268d7e
+Added 2 promises for test.fancy.accessibility.samePackage.PrivateDelegate in TestUniqueInRegion: com.surelogic.tree.SyntaxTreeNode@6a856a79
+Added 54 promises for java.util.Set in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@17cea0f5
+Added 12 promises for java.lang.CharSequence in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@1ba21c1
+Javac making log: RemoteJSureRun.AnnotationRules
+Added 12 promises for java.lang.reflect.InvocationTargetException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@489039da
+Added 3 promises for java.util.Date in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@119cb48
+Creating JUnitXMLOutput: RemoteJSureRun.AnnotationRules
+Creating TestOutput RemoteJSureRun.AnnotationRules (com.surelogic.test.SilentTestOutput@2c1c5c2e, com.surelogic.test.xml.JUnitXMLOutput@79e7e6a1)
+Added 73 promises for java.lang.Float in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@ed2bc5a
+Added 18 promises for java.nio.CharBuffer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@703e1588
+Added 47 promises for java.lang.Throwable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@599556aa
+Added 13 promises for java.lang.Enum in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@17ba2255
+Added 3 promises for java.util.Locale in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@19f5a60
+Added 30 promises for test.fancy.respectsHierarchy.Test in TestUniqueInRegion: com.surelogic.tree.SyntaxTreeNode@712f46da
+Added 8 promises for test.simple.accessibility.differentPackages.p1.Super in TestUniqueInRegion: com.surelogic.tree.SyntaxTreeNode@55d4222
+Added 22 promises for java.util.concurrent.locks.Condition in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@24d19fe5
+Added 6 promises for java.lang.IllegalAccessException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3bb49b48
+Added 12 promises for java.lang.IllegalArgumentException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@586ecd2c
+Added 8 promises for test.fancy.respectsHierarchy.C in TestUniqueInRegion: com.surelogic.tree.SyntaxTreeNode@70ea4a6b
+Added 34 promises for java.util.concurrent.ExecutorService in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@70e00c84
+Added 37 promises for java.lang.Boolean in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@25eff84d
+Added 54 promises for java.util.Collection in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7e176c5e
+Added 89 promises for java.util.List in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@59c95544
+Added 24 promises for test.simple.accessibility.differentPackages.p2.ParentIsSuper in TestUniqueInRegion: com.surelogic.tree.SyntaxTreeNode@6c565c85
+Added 3 promises for java.nio.file.DirectoryStream in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7f559c0b
+Added 96 promises for java.lang.Long in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4067e699
+Added 1 promises for java.lang.ref.ReferenceQueue in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@56a00a64
+Added 88 promises for java.util.jar.Attributes in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@16659995
+Added 139 promises for java.util.LinkedList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7ef5b8b1
+Added 17 promises for java.util.concurrent.ConcurrentMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7f152bf4
+Added 24 promises for test.simple.accessibility.samePackage.ParentIsSuper in TestUniqueInRegion: com.surelogic.tree.SyntaxTreeNode@1559d61b
+Added 31 promises for java.lang.Object in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@56337936
+Added 6 promises for java.lang.InterruptedException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6d0f2ab8
+Added 21 promises for java.util.Stack in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@db18be0
+Added 20 promises for test.simple.TestSimple in TestUniqueInRegion: com.surelogic.tree.SyntaxTreeNode@2cfbdee5
+Added 2 promises for test.fancy.accessibility.samePackage.PublicDelegate in TestUniqueInRegion: com.surelogic.tree.SyntaxTreeNode@67477051
+Added 18 promises for java.net.URISyntaxException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4f5f57f5
+Added 31 promises for java.util.SortedMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@691618bc
+Added 3 promises for java.nio.file.Path in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@57c62d0d
+Added 96 promises for java.lang.Integer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@49ff30ad
+Added 12 promises for java.lang.Class in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6fc8fce8
+Added 12 promises for java.lang.RuntimeException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@336edd1d
+Added 7 promises for test.Test in TestUniqueInRegion: com.surelogic.tree.SyntaxTreeNode@1bf36742
+Added 3 promises for java.util.jar.Manifest in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2e1f3792
+Added 109 promises for java.lang.StringBuilder in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@5e26ccc1
+Added 18 promises for java.util.ListIterator in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2455d128
+Added 6 promises for java.lang.NoSuchFieldException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@57ad85ed
+Added 61 promises for java.util.HashMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@5290339b
+Added 90 promises for test.fancy.accessibility.samePackage.ParentIsSuper in TestUniqueInRegion: com.surelogic.tree.SyntaxTreeNode@70edab58
+Added 6 promises for java.lang.NumberFormatException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@fc3b79c
+Added 22 promises for java.lang.Number in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@110fbbf2
+Added 7 promises for test.fancy.C in TestUniqueInRegion: com.surelogic.tree.SyntaxTreeNode@38cf9a71
+Added 20 promises for java.util.concurrent.locks.Lock in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6f176041
+Added 3 promises for java.util.zip.ZipEntry in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@65e92309
+Added 29 promises for java.util.Dictionary in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6342c729
+Added 6 promises for java.lang.CloneNotSupportedException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@e52c554
+Added 29 promises for java.util.concurrent.TimeUnit in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7783ae27
+Added 26 promises for test.fancy.TestFancy in TestUniqueInRegion: com.surelogic.tree.SyntaxTreeNode@1c6f9ac7
+Added 2 promises for test.fancy.accessibility.samePackage.ProtectedDelegate in TestUniqueInRegion: com.surelogic.tree.SyntaxTreeNode@14a2b5f9
+Added 2 promises for test.fancy.accessibility.differentPackages.p1.PrivateDelegate in TestUniqueInRegion: com.surelogic.tree.SyntaxTreeNode@3c4f7563
+Added 2 promises for test.fancy.accessibility.differentPackages.p1.DefaultDelegate in TestUniqueInRegion: com.surelogic.tree.SyntaxTreeNode@5ec3dfdc
+Added 29 promises for java.util.AbstractSequentialList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@e4a0721
+Added 55 promises for java.util.AbstractCollection in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2bfa4440
+Added 60 promises for java.util.AbstractList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@358be550
+Added 2 promises for test.fancy.accessibility.samePackage.DefaultDelegate in TestUniqueInRegion: com.surelogic.tree.SyntaxTreeNode@6afedf49
+Added 16 promises for java.util.AbstractSet in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@52d2343d
+Added 10 promises for test.simple.nonFinal.Test in TestUniqueInRegion: com.surelogic.tree.SyntaxTreeNode@2f66531d
+Added 6 promises for java.lang.Appendable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6569f8e2
+Added 1 promises for java.lang.ThreadLocal in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4c643aa
+Added 2 promises for test.fancy.accessibility.differentPackages.p1.PublicDelegate in TestUniqueInRegion: com.surelogic.tree.SyntaxTreeNode@3c4f7563
+Added 8 promises for test.fancy.accessibility.samePackage.Super in TestUniqueInRegion: com.surelogic.tree.SyntaxTreeNode@1e4877ec
+Added 12 promises for java.lang.SecurityException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@318603db
+Added 6 promises for java.io.PrintStream in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@e4ae330
+Added 144 promises for java.lang.AbstractStringBuilder in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@74fff2f8
+Added 18 promises for java.util.Queue in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6cf024e
+Added 59 promises for java.lang.Byte in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6ab3b320
+Added 301 promises for java.lang.String in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6d2c0f26
+Added 138 promises for java.math.BigInteger in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4fd686fc
+Added 3 promises for java.lang.Iterable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@37d08490
+Added 141 promises for java.lang.Thread in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@5d9559db
+Added 64 promises for java.util.Map in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@17f759c0
+Added 83 promises for java.util.Hashtable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@46f81a50
+Added 2 promises for test.fancy.accessibility.differentPackages.p1.ProtectedDelegate in TestUniqueInRegion: com.surelogic.tree.SyntaxTreeNode@634c9442
+WARNING: TreeAccessor couldn't find equals(java.lang.Object) in java.util.ArrayList
+WARNING: TreeAccessor couldn't find hashCode() in java.util.ArrayList
+Added 6 promises for java.io.Writer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4ecd31f2
+Added 61 promises for java.lang.Short in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@1d783f7b
+Added 104 promises for java.util.ArrayList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@36afac1d
+Added 8 promises for test.simple.accessibility.samePackage.Super in TestUniqueInRegion: com.surelogic.tree.SyntaxTreeNode@631e1d43
+Added 158 promises for java.lang.StringBuffer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2650163
+Added 12 promises for java.lang.Exception in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@418db5fe
+Added 108 promises for java.util.AbstractMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4d0e58cc
+Added 7 promises for test.norepeats.C in TestUniqueInRegion: com.surelogic.tree.SyntaxTreeNode@5a9b32ce
+Added 45 promises for java.util.ResourceBundle in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3c68cff9
+[GC 188757K->65310K(311296K), 0.0091260 secs]
+Added 90 promises for test.fancy.accessibility.differentPackages.p2.ParentIsSuper in TestUniqueInRegion: com.surelogic.tree.SyntaxTreeNode@187b83c7
+Added 170 promises for java.util.Vector in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7b08b7e0
+##SUBTASK_DONE
+##WORK, 1
+Scrubbing promises
+##SUBTASK, Scrubbing promises
+Creating RegionModel java.lang.Object.Instance for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+[2015-06-22 11:47:28    INFO] Couldn't find region NON_EXISTENT in com.surelogic.tree.SyntaxTreeNode@2cfbdee5 -- @ Regions ( { @ Region ( # ) , @ Region ( # ) , @ Region ( # ) } ) @ SuppressWarnings ( "unused" ) public class TestSimple extends java.lang.Object { public  TestSimple () { # } final public int finalField #; public volatile int volatileField #; public int normalField #; @ UniqueInRegion ( # ) final private java.lang.Object good1 #; @ UniqueInRegion ( # ) final private int [] good2 #; @ UniqueInRegion ( # ) final private int bad1 #; @ UniqueInRegion ( # ) private volatile java.lang.Object bad2 #; @ UniqueInRegion ( # ) private java.lang.Object good3 #; @ UniqueInRegion ( # ) final private java.lang.Object good10 #; @ UniqueInRegion ( # ) final private java.lang.Object good11 #; @ UniqueInRegion ( # ) final private java.lang.Object good12 #; @ UniqueInRegion ( # ) final private java.lang.Object bad10 #; @ UniqueInRegion ( # ) final private java.lang.Object good20 #; @ UniqueInRegion ( # ) final private java.lang.Object good21 #; @ UniqueInRegion ( # ) final private java.lang.Object bad20 #; @ UniqueInRegion ( # ) final private java.lang.Object bad21 #; @ UniqueInRegion ( # ) final private java.lang.Object good30 #; @ UniqueInRegion ( # ) final private java.lang.Object good31 #; @ UniqueInRegion ( # ) final private static java.lang.Object good32 #; @ UniqueInRegion ( # ) final private static java.lang.Object bad30 #; }
+for project TestUniqueInRegion (in method edu.cmu.cs.fluid.java.bind.ClassMemberSearch.findClassBodyMembers(-) thread "pool-1-thread-1")
+[2015-06-22 11:47:28    INFO] Couldn't find region NON_EXISTENT in com.surelogic.tree.SyntaxTreeNode@2cfbdee5 -- @ Regions ( { @ Region ( # ) , @ Region ( # ) , @ Region ( # ) } ) @ SuppressWarnings ( "unused" ) public class TestSimple extends java.lang.Object { public  TestSimple () { # } final public int finalField #; public volatile int volatileField #; public int normalField #; @ UniqueInRegion ( # ) final private java.lang.Object good1 #; @ UniqueInRegion ( # ) final private int [] good2 #; @ UniqueInRegion ( # ) final private int bad1 #; @ UniqueInRegion ( # ) private volatile java.lang.Object bad2 #; @ UniqueInRegion ( # ) private java.lang.Object good3 #; @ UniqueInRegion ( # ) final private java.lang.Object good10 #; @ UniqueInRegion ( # ) final private java.lang.Object good11 #; @ UniqueInRegion ( # ) final private java.lang.Object good12 #; @ UniqueInRegion ( # ) final private java.lang.Object bad10 #; @ UniqueInRegion ( # ) final private java.lang.Object good20 #; @ UniqueInRegion ( # ) final private java.lang.Object good21 #; @ UniqueInRegion ( # ) final private java.lang.Object bad20 #; @ UniqueInRegion ( # ) final private java.lang.Object bad21 #; @ UniqueInRegion ( # ) final private java.lang.Object good30 #; @ UniqueInRegion ( # ) final private java.lang.Object good31 #; @ UniqueInRegion ( # ) final private static java.lang.Object good32 #; @ UniqueInRegion ( # ) final private static java.lang.Object bad30 #; }
+for project TestUniqueInRegion (in method edu.cmu.cs.fluid.java.bind.ClassMemberSearch.findClassBodyMembers(-) thread "pool-1-thread-1")
+Got ImplicitRegions for TestSimple
+Got ImplicitRegions for Test
+[2015-06-22 11:47:28    INFO] Couldn't find region X in com.surelogic.tree.SyntaxTreeNode@1c6f9ac7 -- @ Regions ( { @ Region ( # ) , @ Region ( # ) , @ Region ( # ) } ) @ SuppressWarnings ( "unused" ) public class TestFancy extends java.lang.Object { public  TestFancy () { # } final public int finalField #; public volatile int volatileField #; public int normalField #; @ UniqueInRegion ( # ) final private java.lang.Object good1 #; @ UniqueInRegion ( # ) final private int [] good2 #; @ UniqueInRegion ( # ) final private int bad1 #; @ UniqueInRegion ( # ) final private java.lang.Object good10 #; @ UniqueInRegion ( # ) private java.lang.Object bad10 #; @ UniqueInRegion ( # ) final private java.lang.Object bad20 #; @ UniqueInRegion ( # ) final private java.lang.Object bad21 #; @ UniqueInRegion ( # ) final private java.lang.Object bad22 #; @ UniqueInRegion ( # ) final private java.lang.Object good30 #; @ UniqueInRegion ( # ) final private test.fancy.C bad30 #; @ UniqueInRegion ( # ) final private java.lang.Object bad40 #; @ UniqueInRegion ( # ) final private test.fancy.C bad41 #; @ UniqueInRegion ( # ) final private java.lang.Object good50 #; @ UniqueInRegion ( # ) final private java.lang.Object bad50 #; @ UniqueInRegion ( # ) final private java.lang.Object bad51 #; @ UniqueInRegion ( # ) final private test.fancy.C good51 #; @ UniqueInRegion ( # ) final private test.fancy.C bad52 #; @ UniqueInRegion ( # ) final private test.fancy.C bad53 #; @ UniqueInRegion ( # ) final private java.lang.Object good60 #; @ UniqueInRegion ( # ) final private java.lang.Object good61 #; @ UniqueInRegion ( # ) final private static java.lang.Object good62 #; @ UniqueInRegion ( # ) final private static java.lang.Object bad60 #; @ UniqueInRegion ( # ) final private test.fancy.C bad70 #; }
+for project TestUniqueInRegion (in method edu.cmu.cs.fluid.java.bind.ClassMemberSearch.findClassBodyMembers(-) thread "pool-1-thread-1")
+[2015-06-22 11:47:28    INFO] Couldn't find region Y in com.surelogic.tree.SyntaxTreeNode@56337936 -- public synchronized binary class Object extends java.lang.Object { public binary Object () <compiled>; final native public binary java.lang.Class <#> getClass() <compiled>; native public binary int hashCode() <compiled>; public binary boolean equals(# # arg0) <compiled>; native protected binary java.lang.Object clone() throws java.lang.CloneNotSupportedException <compiled>; public binary java.lang.String toString() <compiled>; final native public binary void notify() <compiled>; final native public binary void notifyAll() <compiled>; final native public binary void wait(# # arg0) throws java.lang.InterruptedException <compiled>; final public binary void wait(# # arg0, # # arg1) throws java.lang.InterruptedException <compiled>; final public binary void wait() throws java.lang.InterruptedException <compiled>; protected binary void finalize() throws java.lang.Throwable <compiled>; }
+for project org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7 (in method edu.cmu.cs.fluid.java.bind.ClassMemberSearch.findClassBodyMembers(-) thread "pool-1-thread-1")
+[2015-06-22 11:47:28    INFO] Couldn't find region X in com.surelogic.tree.SyntaxTreeNode@56337936 -- public synchronized binary class Object extends java.lang.Object { public binary Object () <compiled>; final native public binary java.lang.Class <#> getClass() <compiled>; native public binary int hashCode() <compiled>; public binary boolean equals(# # arg0) <compiled>; native protected binary java.lang.Object clone() throws java.lang.CloneNotSupportedException <compiled>; public binary java.lang.String toString() <compiled>; final native public binary void notify() <compiled>; final native public binary void notifyAll() <compiled>; final native public binary void wait(# # arg0) throws java.lang.InterruptedException <compiled>; final public binary void wait(# # arg0, # # arg1) throws java.lang.InterruptedException <compiled>; final public binary void wait() throws java.lang.InterruptedException <compiled>; protected binary void finalize() throws java.lang.Throwable <compiled>; }
+for project org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7 (in method edu.cmu.cs.fluid.java.bind.ClassMemberSearch.findClassBodyMembers(-) thread "pool-1-thread-1")
+[2015-06-22 11:47:28    INFO] Couldn't find region Y in com.surelogic.tree.SyntaxTreeNode@1c6f9ac7 -- @ Regions ( { @ Region ( # ) , @ Region ( # ) , @ Region ( # ) } ) @ SuppressWarnings ( "unused" ) public class TestFancy extends java.lang.Object { public  TestFancy () { # } final public int finalField #; public volatile int volatileField #; public int normalField #; @ UniqueInRegion ( # ) final private java.lang.Object good1 #; @ UniqueInRegion ( # ) final private int [] good2 #; @ UniqueInRegion ( # ) final private int bad1 #; @ UniqueInRegion ( # ) final private java.lang.Object good10 #; @ UniqueInRegion ( # ) private java.lang.Object bad10 #; @ UniqueInRegion ( # ) final private java.lang.Object bad20 #; @ UniqueInRegion ( # ) final private java.lang.Object bad21 #; @ UniqueInRegion ( # ) final private java.lang.Object bad22 #; @ UniqueInRegion ( # ) final private java.lang.Object good30 #; @ UniqueInRegion ( # ) final private test.fancy.C bad30 #; @ UniqueInRegion ( # ) final private java.lang.Object bad40 #; @ UniqueInRegion ( # ) final private test.fancy.C bad41 #; @ UniqueInRegion ( # ) final private java.lang.Object good50 #; @ UniqueInRegion ( # ) final private java.lang.Object bad50 #; @ UniqueInRegion ( # ) final private java.lang.Object bad51 #; @ UniqueInRegion ( # ) final private test.fancy.C good51 #; @ UniqueInRegion ( # ) final private test.fancy.C bad52 #; @ UniqueInRegion ( # ) final private test.fancy.C bad53 #; @ UniqueInRegion ( # ) final private java.lang.Object good60 #; @ UniqueInRegion ( # ) final private java.lang.Object good61 #; @ UniqueInRegion ( # ) final private static java.lang.Object good62 #; @ UniqueInRegion ( # ) final private static java.lang.Object bad60 #; @ UniqueInRegion ( # ) final private test.fancy.C bad70 #; }
+for project TestUniqueInRegion (in method edu.cmu.cs.fluid.java.bind.ClassMemberSearch.findClassBodyMembers(-) thread "pool-1-thread-1")
+##SUBTASK_DONE
+##WORK, 1
+Starting analyses
+Using new analysis framework -- groups
+Starting group: ThreadEffectsModule, ParameterizedTypeAnalysis
+##SUBTASK, Starting parallel ThreadEffectsModule [0]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel ThreadEffectsModule [0]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Starting parallel ParameterizedTypeAnalysis [1]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel ParameterizedTypeAnalysis [1]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Starting parallel ThreadEffectsModule [0]: 24 for TestUniqueInRegion
+Starting parallel ThreadEffectsModule [0]: 24 for TestUniqueInRegion
+##SUBTASK, Starting parallel ParameterizedTypeAnalysis [1]: 24 for TestUniqueInRegion
+Starting parallel ParameterizedTypeAnalysis [1]: 24 for TestUniqueInRegion
+##SUBTASK, Checking [ Thread effects ] file:/home/edwin/qa/suites/regression/TestUniqueInRegion/src/test/simple/TestSimple.java
+##SUBTASK, Checking [ Thread effects ] file:/home/edwin/qa/suites/regression/TestUniqueInRegion/src/test/simple/accessibility/differentPackages/p1/Super.java
+##SUBTASK, Checking [ Thread effects ] file:/home/edwin/qa/suites/regression/TestUniqueInRegion/src/test/fancy/accessibility/differentPackages/p1/Super.java
+##SUBTASK, Checking [ Thread effects ] file:/home/edwin/qa/suites/regression/TestUniqueInRegion/src/test/fancy/accessibility/samePackage/PrivateDelegate.java
+##SUBTASK, Checking [ Thread effects ] file:/home/edwin/qa/suites/regression/TestUniqueInRegion/src/test/fancy/respectsHierarchy/C.java
+##SUBTASK, Checking [ Thread effects ] file:/home/edwin/qa/suites/regression/TestUniqueInRegion/src/test/fancy/accessibility/differentPackages/p1/PrivateDelegate.java
+##SUBTASK, Checking [ Thread effects ] file:/home/edwin/qa/suites/regression/TestUniqueInRegion/src/test/fancy/accessibility/samePackage/ParentIsSuper.java
+##SUBTASK, Checking [ Thread effects ] file:/home/edwin/qa/suites/regression/TestUniqueInRegion/src/test/fancy/accessibility/differentPackages/p1/DefaultDelegate.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/home/edwin/qa/suites/regression/TestUniqueInRegion/src/test/fancy/accessibility/differentPackages/p1/Super.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/home/edwin/qa/suites/regression/TestUniqueInRegion/src/test/simple/TestSimple.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/home/edwin/qa/suites/regression/TestUniqueInRegion/src/test/simple/accessibility/samePackage/ParentIsSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/home/edwin/qa/suites/regression/TestUniqueInRegion/src/test/simple/accessibility/differentPackages/p1/Super.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/home/edwin/qa/suites/regression/TestUniqueInRegion/src/test/fancy/respectsHierarchy/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/home/edwin/qa/suites/regression/TestUniqueInRegion/src/test/fancy/respectsHierarchy/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/home/edwin/qa/suites/regression/TestUniqueInRegion/src/test/fancy/accessibility/samePackage/PublicDelegate.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/home/edwin/qa/suites/regression/TestUniqueInRegion/src/test/fancy/respectsHierarchy/Test.java
+##SUBTASK, Checking [ Annotation bounds ] file:/home/edwin/qa/suites/regression/TestUniqueInRegion/src/test/fancy/accessibility/samePackage/PrivateDelegate.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/home/edwin/qa/suites/regression/TestUniqueInRegion/src/test/fancy/accessibility/differentPackages/p1/PrivateDelegate.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/home/edwin/qa/suites/regression/TestUniqueInRegion/src/test/fancy/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/home/edwin/qa/suites/regression/TestUniqueInRegion/src/test/fancy/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/home/edwin/qa/suites/regression/TestUniqueInRegion/src/test/fancy/accessibility/differentPackages/p1/DefaultDelegate.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/home/edwin/qa/suites/regression/TestUniqueInRegion/src/test/norepeats/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/home/edwin/qa/suites/regression/TestUniqueInRegion/src/test/norepeats/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/home/edwin/qa/suites/regression/TestUniqueInRegion/src/test/fancy/accessibility/samePackage/DefaultDelegate.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/home/edwin/qa/suites/regression/TestUniqueInRegion/src/test/fancy/accessibility/samePackage/DefaultDelegate.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/home/edwin/qa/suites/regression/TestUniqueInRegion/src/test/fancy/accessibility/differentPackages/p1/ProtectedDelegate.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/home/edwin/qa/suites/regression/TestUniqueInRegion/src/test/fancy/accessibility/differentPackages/p1/ProtectedDelegate.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/home/edwin/qa/suites/regression/TestUniqueInRegion/src/test/fancy/accessibility/differentPackages/p2/ParentIsSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/home/edwin/qa/suites/regression/TestUniqueInRegion/src/test/fancy/accessibility/samePackage/PublicDelegate.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/home/edwin/qa/suites/regression/TestUniqueInRegion/src/test/simple/accessibility/samePackage/ParentIsSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/home/edwin/qa/suites/regression/TestUniqueInRegion/src/test/fancy/accessibility/differentPackages/p2/ParentIsSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/home/edwin/qa/suites/regression/TestUniqueInRegion/src/test/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/home/edwin/qa/suites/regression/TestUniqueInRegion/src/test/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/home/edwin/qa/suites/regression/TestUniqueInRegion/src/test/simple/accessibility/samePackage/Super.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/home/edwin/qa/suites/regression/TestUniqueInRegion/src/test/simple/accessibility/samePackage/Super.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/home/edwin/qa/suites/regression/TestUniqueInRegion/src/test/fancy/accessibility/samePackage/Super.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/home/edwin/qa/suites/regression/TestUniqueInRegion/src/test/fancy/accessibility/samePackage/Super.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/home/edwin/qa/suites/regression/TestUniqueInRegion/src/test/fancy/accessibility/samePackage/ProtectedDelegate.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/home/edwin/qa/suites/regression/TestUniqueInRegion/src/test/fancy/accessibility/samePackage/ProtectedDelegate.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/home/edwin/qa/suites/regression/TestUniqueInRegion/src/test/fancy/accessibility/differentPackages/p1/PublicDelegate.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/home/edwin/qa/suites/regression/TestUniqueInRegion/src/test/fancy/accessibility/differentPackages/p1/PublicDelegate.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/home/edwin/qa/suites/regression/TestUniqueInRegion/src/test/fancy/accessibility/samePackage/ParentIsSuper.java
+##SUBTASK, Checking [ Thread effects ] file:/home/edwin/qa/suites/regression/TestUniqueInRegion/src/test/fancy/TestFancy.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/home/edwin/qa/suites/regression/TestUniqueInRegion/src/test/fancy/TestFancy.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/home/edwin/qa/suites/regression/TestUniqueInRegion/src/test/simple/nonFinal/Test.java
+##SUBTASK, Checking [ Thread effects ] file:/home/edwin/qa/suites/regression/TestUniqueInRegion/src/test/simple/accessibility/differentPackages/p2/ParentIsSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/home/edwin/qa/suites/regression/TestUniqueInRegion/src/test/simple/nonFinal/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/home/edwin/qa/suites/regression/TestUniqueInRegion/src/test/simple/accessibility/differentPackages/p2/ParentIsSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+Starting group: LockAnalysis, EffectsAnalysis
+com.surelogic.analysis.uniqueness.classic.sideeffecting.UniquenessAnalysisModule$1@753455ab: 26
+com.surelogic.analysis.visitors.TopLevelAnalysisVisitor$1@4fff1abc: 26
+##SUBTASK, Starting parallel LockAnalysis [2]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel LockAnalysis [2]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Looking at @RegionLock("MUTEX is this protects WaitQueue") on Object
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@63114109 on java.lang.Object
+##SUBTASK, Starting parallel EffectsAnalysis [3]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel EffectsAnalysis [3]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Starting parallel LockAnalysis [2]: 26 for TestUniqueInRegion
+Starting parallel LockAnalysis [2]: 26 for TestUniqueInRegion
+Looking at @RegionLock("MUTEX is this protects WaitQueue") on Object
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@63114109 on java.lang.Object
+##SUBTASK, Starting parallel EffectsAnalysis [3]: 26 for TestUniqueInRegion
+Starting parallel EffectsAnalysis [3]: 26 for TestUniqueInRegion
+##SUBTASK, Checking [ Lock policy ] test.simple.accessibility.differentPackages.p1.Super
+##SUBTASK, Checking [ Lock policy ] test.fancy.accessibility.differentPackages.p1.DefaultDelegate
+##SUBTASK, Checking [ Lock policy ] test.fancy.accessibility.differentPackages.p1.PrivateDelegate
+##SUBTASK, Checking [ Lock policy ] test.simple.TestSimple
+##SUBTASK, Checking [ Lock policy ] test.fancy.accessibility.samePackage.ParentIsSuper.PrivateInnerDelegate
+##SUBTASK, Checking [ Lock policy ] test.fancy.C
+##SUBTASK, Checking [ Lock policy ] test.fancy.TestFancy
+##SUBTASK, Checking [ Lock policy ] test.fancy.accessibility.differentPackages.p1.ProtectedDelegate
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.fancy.accessibility.samePackage.ParentIsSuper.PrivateInnerDelegate
+##SUBTASK, Checking [ Region effects ] test.fancy.accessibility.differentPackages.p1.DefaultDelegate
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.fancy.accessibility.differentPackages.p1.ProtectedDelegate
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.fancy.accessibility.differentPackages.p1.PrivateDelegate
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.simple.accessibility.differentPackages.p1.Super
+##SUBTASK, Checking [ Lock policy ] test.simple.nonFinal.Test
+##SUBTASK, Checking [ Lock policy ] test.fancy.accessibility.differentPackages.p2.ParentIsSuper
+##SUBTASK, Checking [ Lock policy ] test.norepeats.C
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.fancy.accessibility.samePackage.PrivateDelegate
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.fancy.accessibility.samePackage.ProtectedDelegate
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.fancy.accessibility.samePackage.PrivateDelegate
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.norepeats.C
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.fancy.accessibility.samePackage.DefaultDelegate
+##SUBTASK, Checking [ Lock policy ] test.fancy.respectsHierarchy.Test
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.fancy.C
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.fancy.accessibility.samePackage.ProtectedDelegate
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.fancy.accessibility.samePackage.DefaultDelegate
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.fancy.accessibility.differentPackages.p2.ParentIsSuper.PrivateInnerDelegate
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.simple.nonFinal.Test
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.simple.TestSimple
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.fancy.accessibility.differentPackages.p1.PublicDelegate
+##SUBTASK, Checking [ Lock policy ] test.Test
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.fancy.TestFancy
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.fancy.accessibility.samePackage.PublicDelegate
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.fancy.accessibility.differentPackages.p1.Super
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.fancy.accessibility.differentPackages.p2.ParentIsSuper.PrivateInnerDelegate
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.fancy.accessibility.differentPackages.p1.Super
+##SUBTASK, Checking [ Region effects ] test.fancy.accessibility.differentPackages.p1.PublicDelegate
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.fancy.respectsHierarchy.C
+##SUBTASK, Checking [ Lock policy ] test.fancy.accessibility.samePackage.Super
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.fancy.accessibility.samePackage.Super
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.fancy.accessibility.samePackage.ParentIsSuper
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.fancy.respectsHierarchy.C
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.simple.accessibility.samePackage.ParentIsSuper
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.fancy.accessibility.samePackage.PublicDelegate
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.simple.accessibility.differentPackages.p2.ParentIsSuper
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.Test
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.simple.accessibility.samePackage.Super
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.simple.accessibility.samePackage.ParentIsSuper
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.simple.accessibility.samePackage.Super
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.fancy.respectsHierarchy.Test
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.simple.accessibility.differentPackages.p2.ParentIsSuper
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.fancy.accessibility.differentPackages.p2.ParentIsSuper
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.fancy.accessibility.samePackage.ParentIsSuper
+##SUBTASK_DONE
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+Starting group: UniquenessAnalysisModule
+##SUBTASK, Starting parallel UniquenessAnalysisModule [4]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel UniquenessAnalysisModule [4]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Starting parallel UniquenessAnalysisModule [4]: 26 for TestUniqueInRegion
+Starting parallel UniquenessAnalysisModule [4]: 26 for TestUniqueInRegion
+##SUBTASK, Checking [ Uniqueness ] test.fancy.accessibility.samePackage.PrivateDelegate.PrivateDelegate()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.fancy.respectsHierarchy.Test.Test()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.fancy.respectsHierarchy.C.C()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.simple.accessibility.samePackage.ParentIsSuper.ParentIsSuper()
+[GC 195358K->68883K(311296K), 0.0114830 secs]
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.simple.TestSimple.TestSimple()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.simple.TestSimple.(unknown)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.fancy.accessibility.samePackage.PublicDelegate.PublicDelegate()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.simple.accessibility.differentPackages.p2.ParentIsSuper.ParentIsSuper()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.Test.Test()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.Test.(unknown)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.fancy.accessibility.samePackage.ParentIsSuper.ParentIsSuper()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.fancy.accessibility.samePackage.ParentIsSuper.PrivateInnerDelegate.PrivateInnerDelegate()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.fancy.TestFancy.TestFancy()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.fancy.TestFancy.(unknown)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.fancy.accessibility.samePackage.ProtectedDelegate.ProtectedDelegate()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.fancy.accessibility.differentPackages.p1.PrivateDelegate.PrivateDelegate()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.fancy.C.C(int,int)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.simple.nonFinal.Test.(unknown)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.simple.nonFinal.Test.Test()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.fancy.accessibility.differentPackages.p1.DefaultDelegate.DefaultDelegate()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.norepeats.C.C()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.fancy.accessibility.samePackage.DefaultDelegate.DefaultDelegate()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.fancy.accessibility.differentPackages.p1.ProtectedDelegate.ProtectedDelegate()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.fancy.accessibility.differentPackages.p2.ParentIsSuper.PrivateInnerDelegate.PrivateInnerDelegate()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.fancy.accessibility.differentPackages.p2.ParentIsSuper.ParentIsSuper()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.fancy.accessibility.differentPackages.p1.PublicDelegate.PublicDelegate()
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Cleaning up after analysis
+Cleaning up after analysis
+[GC 116364K->70595K(441344K), 0.0200610 secs]
+[Full GC 70595K->40768K(441344K), 0.1355100 secs]
+##WORK, 1
+##SUBTASK_DONE
+Updating consistency proof
+##SUBTASK, Updating consistency proof
+Exporting results to TestUniqueInRegion-2015.06.22-at-11.47.21.452
+##SUBTASK, Exporting results to TestUniqueInRegion-2015.06.22-at-11.47.21.452
+Creating snapshot: /home/edwin/qa/workspaces/regression/TestUniqueInRegion/.jsure-data/TestUniqueInRegion-2015.06.22-at-11.47.21.452/running_or_crashed_sea_snapshot.xml.gz
+Done in 7629 ms.
+ThreadEffectsModule	: 25 ms
+ParameterizedTypeAnalysis	: 25 ms
+LockAnalysis	: 383 ms
+EffectsAnalysis	: 46 ms
+UniquenessAnalysisModule	: 1127 ms
+cached = 0
+totalT = 0
+#Performance data for TestUniqueInRegion
+#Mon Jun 22 11:47:31 EDT 2015
+jsure.Add.required=0
+jsure.All.analyses=1492
+jsure.Binding.before.canon=153
+jsure.Binding.full.time=599
+jsure.Binding.partial.time=631
+jsure.Bindings.full=1524
+jsure.Bindings.partial=9268
+jsure.Canonicalization=419
+jsure.Cleanup=166
+jsure.Destroy.time=21
+jsure.Drop.creation=32
+jsure.Find.canon.time=10
+jsure.Parsing=1263
+jsure.Promise.parsing=785
+jsure.Promise.scrubbing=2604
+jsure.Sea.export=811
+jsure.Sea.update=57
+jsure.Total.JSure.time=7629
+jsure.Total.blocks=26
+jsure.Total.canonical=3471
+jsure.Total.decls=640
+jsure.Total.destroyed=1321
+jsure.Total.gced=0
+jsure.Total.loc=1489
+jsure.Total.nodes=66831
+jsure.Total.stmts=54
+jsure.Total.try.destroyed=1321
+jsure.analysis.EffectsAnalysis=46
+jsure.analysis.LockAnalysis=383
+jsure.analysis.ParameterizedTypeAnalysis=25
+jsure.analysis.ThreadEffectsModule=25
+jsure.analysis.UniquenessAnalysisModule=1127
+jsure.num.threads=8
+##DONE
+Renaming snapshot: /home/edwin/qa/workspaces/regression/TestUniqueInRegion/.jsure-data/TestUniqueInRegion-2015.06.22-at-11.47.21.452/sea_snapshot.xml.gz
+Done with JSure!
+Closing AnnotationRules log
+Closed JUnitXMLOutput RemoteJSureRun.AnnotationRules
+Scanning complete (9191 ms)
+No socket to close
+Closing std streams
+Process result after waiting = 0
