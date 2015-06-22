@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
-<projects path="TestEmbeddedPromises-2015.02.02-at-12.53.58.317"
- location="/Users/aarong/Work/Eclipse-Workspaces/Eclipse-kepler/Fluid Regression"
+<projects path="TestFinalAndEffectiv-2015.06.22-at-16.09.29.604"
+ location="/Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression"
 
- date="-2015.02.02-at-12.53.58.317">
+ date="-2015.06.22-at-16.09.29.604">
 
   <project id="0"
    name="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"
@@ -64,12 +64,12 @@
   </project>
 
   <project id="1"
-   name="TestEmbeddedPromises"
-   location="/Users/aarong/git/regression/regression/TestEmbeddedPromises"
-   asSource="true"
-   sourceLevel="7">
+   name="TestFinalAndEffectivelyFinal"
+   location="/Users/aarong/git/regression/regression/TestFinalAndEffectivelyFinal"
+   sourceLevel="7"
+   asSource="true">
 
-    <project name="TestEmbeddedPromises"/>
+    <project name="TestFinalAndEffectivelyFinal"/>
 
     <source path="src"
      bin-path="bin"
@@ -77,23 +77,36 @@
 
     <project name="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
 
-    <jar path="/Users/aarong/git/regression/regression/TestEmbeddedPromises/promises-4.3.1.jar"
-     orig-path="/Users/aarong/git/regression/regression/TestEmbeddedPromises/promises-4.3.1.jar"/>
+    <jar path="/Users/aarong/git/regression/regression/TestFinalAndEffectivelyFinal/promises-5.6.0.jar"
+     orig-path="/Users/aarong/git/regression/regression/TestFinalAndEffectivelyFinal/promises-5.6.0.jar"/>
 
-    <jar path="/Users/aarong/git/regression/regression/TestEmbeddedPromises/embedPromises.jar"
-     orig-path="/Users/aarong/git/regression/regression/TestEmbeddedPromises/embedPromises.jar"/>
+    <java-source-file path="TestFinalAndEffectivelyFinal/src/test/fields/Class.java"
+     qname="test.fields.Class"
+     location="/Users/aarong/git/regression/regression/TestFinalAndEffectivelyFinal/src/test/fields/Class.java"/>
 
-    <java-source-file path="TestEmbeddedPromises/src/use/Use.java"
-     qname="use.Use"
-     location="/Users/aarong/git/regression/regression/TestEmbeddedPromises/src/use/Use.java"/>
+    <java-source-file path="TestFinalAndEffectivelyFinal/src/test/fields/Interface.java"
+     qname="test.fields.Interface"
+     location="/Users/aarong/git/regression/regression/TestFinalAndEffectivelyFinal/src/test/fields/Interface.java"/>
 
-  <package name="use"/>
+    <java-source-file path="TestFinalAndEffectivelyFinal/src/test/locals/Locals.java"
+     qname="test.locals.Locals"
+     location="/Users/aarong/git/regression/regression/TestFinalAndEffectivelyFinal/src/test/locals/Locals.java"/>
 
-  <option name="asSource"
-   value="true"/>
+    <java-source-file path="TestFinalAndEffectivelyFinal/src/test/params/Params.java"
+     qname="test.params.Params"
+     location="/Users/aarong/git/regression/regression/TestFinalAndEffectivelyFinal/src/test/params/Params.java"/>
+
+  <package name="test.fields"/>
+
+  <package name="test.locals"/>
+
+  <package name="test.params"/>
 
   <option name="sourceLevel"
    value="7"/>
+
+  <option name="asSource"
+   value="true"/>
 
   </project>
 
