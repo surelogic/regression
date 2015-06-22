@@ -15,11 +15,9 @@ public class B {
   @RegionEffects("none")
   @Starts("nothing")
   B(@Initialized(through = "Object") A myPeer) {
-    @Vouch("NonNull")
-    A cast = myPeer;
+    A cast = Cast.toNonNull(myPeer);
     peer = cast;
-    @Vouch("Nullable")
-    A cast2 = myPeer;
+    A cast2 = Cast.toNullable(myPeer);
     peer2 = cast2;
   }
 
