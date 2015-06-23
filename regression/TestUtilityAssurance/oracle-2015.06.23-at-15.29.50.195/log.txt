@@ -1,0 +1,1704 @@
+LOCAL vm : 1.8.0_05
+Path: /Users/aarong/git/jsure/jsure-analysis/bin
+Path: /Users/aarong/git/common/common/lib/runtime/commons-codec-1.10.jar
+Path: /Users/aarong/git/common/common/lib/runtime/trove-3.0.3.jar
+Path: /Users/aarong/git/common/common/lib/runtime/antlr-3.5.2-runtime.jar
+Path: /Users/aarong/git/common/common/lib/runtime/servlet-api-3.1.jar
+Path: /Users/aarong/git/jsure/jsure-common/lib/runtime/diffutils-1.2.1.jar
+Path: /Users/aarong/git/common/common/bin
+Path: /Users/aarong/git/common/common/lib/runtime/asm-5.0.2.jar
+Path: /Users/aarong/git/jsure/jsure-analysis/lib/runtime/renamedJavac.jar
+Path: /Users/aarong/git/common/common/lib/runtime/asm-tree-5.0.2.jar
+Path: /Users/aarong/git/common/common/lib/runtime/promises-5.6.0.jar
+Path: /Users/aarong/git/jsure/jsure-analysis/lib/runtime/log4j-xml-1.3alpha-8.jar
+Path: /Users/aarong/git/common/common/lib/runtime/derby-10.11.1.1.jar
+Path: /Users/aarong/git/jsure/jsure-common/bin
+Path: /Users/aarong/git/common/common/lib/runtime/ant-1.9.4.jar
+Path: /Users/aarong/git/common/common/lib/runtime/collections-generic-4.0.jar
+Path: /Users/aarong/git/jsure/jsure-analysis/lib/runtime/log4j-1.3alpha-8.jar
+Path: /Users/aarong/git/common/common/lib/runtime/asm-commons-5.0.2.jar
+Path: /Users/aarong/git/common/common/lib/runtime/commons-lang3-3.3.2.jar
+Path: /Users/aarong/git/common/common/lib/runtime/commons-io-2.4.jar
+Starting process:
+	/Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/jre/bin/java
+	-Dsl.running.in.remote.vm=true
+	-Dsurelogic.test.code=NONE
+	-XX:MaxPermSize=512m
+	-verbosegc
+	-DSureLogicX=true
+	-Dsl.run.dir=/Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/TestUtilityAssurance-2015.06.23-at-15.29.50.195
+	-Dfluid.ir.versioning=Versioning.Off
+	-Dfluid.directory.url=file:/Eclipses/eclipse-standard-luna-SR2-macosx-cocoa-x86_64/../../Users/aarong/git/jsure/jsure-analysis/
+	-Xmx2048m
+	-classpath
+	/Users/aarong/git/jsure/jsure-analysis/bin:/Users/aarong/git/common/common/lib/runtime/commons-codec-1.10.jar:/Users/aarong/git/common/common/lib/runtime/trove-3.0.3.jar:/Users/aarong/git/common/common/lib/runtime/antlr-3.5.2-runtime.jar:/Users/aarong/git/common/common/lib/runtime/servlet-api-3.1.jar:/Users/aarong/git/jsure/jsure-common/lib/runtime/diffutils-1.2.1.jar:/Users/aarong/git/common/common/bin:/Users/aarong/git/common/common/lib/runtime/asm-5.0.2.jar:/Users/aarong/git/jsure/jsure-analysis/lib/runtime/renamedJavac.jar:/Users/aarong/git/common/common/lib/runtime/asm-tree-5.0.2.jar:/Users/aarong/git/common/common/lib/runtime/promises-5.6.0.jar:/Users/aarong/git/jsure/jsure-analysis/lib/runtime/log4j-xml-1.3alpha-8.jar:/Users/aarong/git/common/common/lib/runtime/derby-10.11.1.1.jar:/Users/aarong/git/jsure/jsure-common/bin:/Users/aarong/git/common/common/lib/runtime/ant-1.9.4.jar:/Users/aarong/git/common/common/lib/runtime/collections-generic-4.0.jar:/Users/aarong/git/jsure/jsure-analysis/lib/runtime/log4j-1.3alpha-8.jar:/Users/aarong/git/common/common/lib/runtime/asm-commons-5.0.2.jar:/Users/aarong/git/common/common/lib/runtime/commons-lang3-3.3.2.jar:/Users/aarong/git/common/common/lib/runtime/commons-io-2.4.jar
+	com.surelogic.javac.jobs.RemoteJSureRun
+
+First line in REMOTE vm = Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=512m; support was removed in 8.0
+[GC (Allocation Failure)  512K->512K(327168K), 0.0014070 secs]
+[GC (Allocation Failure)  1012K->635K(327680K), 0.0015620 secs]
+[GC (Allocation Failure)  1659K->739K(327680K), 0.0022510 secs]
+[GC (Allocation Failure)  1763K->787K(328704K), 0.0015340 secs]
+JVM started: 1.8.0_05
+Log level: INFO
+Created reader
+Created monitor
+Created log handler
+Running RemoteJSureRun
+[GC (Allocation Failure)  2835K->995K(328704K), 0.0011640 secs]
+[GC (Allocation Failure)  3043K->1243K(331264K), 0.0012900 secs]
+[GC (Allocation Failure)  5339K->1515K(331264K), 0.0019390 secs]
+[GC (Allocation Failure)  5611K->1699K(335360K), 0.0015150 secs]
+runPath = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/TestUtilityAssurance-2015.06.23-at-15.29.50.195
+Creating run: TestUtilityAssurance-2015.06.23-at-15.29.50.195
+projects = TestUtilityAssurance
+Loading edu.cmu.cs.fluid.make.nonabductive.proposals = false
+Loading edu.cmu.cs.fluid.load.all.classes = false
+Loading edu.cmu.cs.fluid.timeoutFlag = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BCA = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ConstantExpr = false
+Loading edu.cmu.cs.fluid.physMemoryInMB = 20480
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.EqualityAssurance = true
+Loading edu.cmu.cs.fluid.xml.diff.directory = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/promises-xml
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.UniquenessAssuranceUWM = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.IRConcurrencyDetector = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Singleton = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.CALLS = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BenchmarkingUniquenessSE = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ThreadEffectAssurance2 = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Binder = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.cliend.eclipse.TypeBasedAlias = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Nullable = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.TestIsFunctional = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.UniquenessAssuranceUWM_SE = false
+Loading edu.cmu.cs.fluid.tool-memory-mb = 2048
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.DefinitelyAssigned = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.UniquenessAssuranceSE = true
+Loading edu.cmu.cs.fluid.analysis.thread.count = 8
+Loading edu.cmu.cs.fluid.timeoutSec = 11
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.NonNullRawTypes = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LayersAssurance = true
+Loading edu.cmu.cs.fluid.default.JRE = org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Loading edu.cmu.cs.fluid.timeoutWarningSec = 30
+Loading edu.cmu.cs.fluid.modeling.problem.filters = 00000012com\.apple.*00000013com\.oracle.*00000010com\.sun.*00000014.*\.internal.*00000023.*BakedArrayList\.class00000007apple.*00000008oracle.*00000011quicktime.*00000005sun.*
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Utility = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BenchmarkingUniquenessNew_SE = false
+Loading edu.cmu.cs.fluid.scan.may.use.compression = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ParameterizedType = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Final = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LockAssurance3 = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BenchmarkingUniquenessNew = false
+Loading edu.cmu.cs.fluid.data.directory = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.NullablePreprocessor = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.EffectAssurance2 = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LV = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.StructureAssurance = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Types = false
+JSure data dir = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data
+XML diff dir   = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/promises-xml
+Looking for JRE in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+default JRE = org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Initialized job
+Created com.surelogic.analysis.concurrency.detector.ConcurrencyDetector
+Starting a new group for ConcurrencyDetector
+Created com.surelogic.analysis.threads.ThreadEffectsModule
+Created com.surelogic.analysis.structure.StructureAnalysis
+Created com.surelogic.analysis.annotationbounds.ParameterizedTypeAnalysis
+Created com.surelogic.analysis.equality.EqualityAnalysis
+Created com.surelogic.analysis.layers.LayersAnalysis
+Created com.surelogic.analysis.utility.UtilityAnalysis
+Starting a new group for UtilityAnalysis
+Group: EXTERNALLY
+	ConcurrencyDetector
+	ThreadEffectsModule
+	StructureAnalysis
+	ParameterizedTypeAnalysis
+	EqualityAnalysis
+	LayersAnalysis
+Created com.surelogic.analysis.singleton.SingletonAnalysis
+[GC (Allocation Failure)  9891K->2283K(335360K), 0.0017740 secs]
+Created com.surelogic.analysis.concurrency.driver.LockAnalysis
+Created com.surelogic.analysis.effects.EffectsAnalysis
+Created com.surelogic.analysis.uniqueness.classic.sideeffecting.UniquenessAnalysisModule
+Starting a new group for UniquenessAnalysisModule
+Group: com.surelogic.analysis.visitors.TopLevelAnalysisVisitor$1@69663380, EXTERNALLY
+	UtilityAnalysis
+	SingletonAnalysis
+	LockAnalysis
+	EffectsAnalysis
+Created com.surelogic.analysis.nullable.NullablePreprocessorModule
+Starting a new group for NullablePreprocessorModule
+Group: com.surelogic.analysis.uniqueness.classic.sideeffecting.UniquenessAnalysisModule$1@5b37e0d2, class com.surelogic.analysis.bca.BindingContextAnalysis, INTERNALLY
+	UniquenessAnalysisModule
+Created com.surelogic.analysis.nullable.NullableModule2
+Starting a new group for NullableModule2
+Group: EXTERNALLY
+	NullablePreprocessorModule
+Group: com.surelogic.analysis.granules.FlowUnitGranulator@4459eb14, EXTERNALLY
+	NullableModule2
+##TASK, Scan, 314
+Initializing ...
+##SUBTASK, Initializing ...
+monitor = com.surelogic.common.jobs.remote.AbstractRemoteSLJob$Monitor@5a2e4553
+singleThread = false
+[GC (Allocation Failure)  10475K->2547K(340992K), 0.0018010 secs]
+[GC (Allocation Failure)  15802K->10497K(340992K), 0.0057350 secs]
+[GC (Allocation Failure)  23779K->23707K(351744K), 0.0087640 secs]
+Done initializing org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: 0
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/resources.jar
+[GC (Allocation Failure)  44699K->43769K(352256K), 0.0139790 secs]
+[GC (Allocation Failure)  64761K->47385K(366080K), 0.0051940 secs]
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/rt.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jsse.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jce.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/charsets.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jfr.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/dnsns.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/localedata.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunec.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunjce_provider.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunpkcs11.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/zipfs.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /System/Library/Java/Extensions/MRJToolkit.jar
+Done initializing TestUtilityAssurance: 19
+Trying to find /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/TestUtilityAssurance-2015.06.23-at-15.29.50.195/source/TestUtilityAssurance.bin.zip
+TestUtilityAssurance: TestUtilityAssurance -> org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Done initializing org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: 0
+TestUtilityAssurance: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/resources.jar
+[GC (Allocation Failure)  81177K->54101K(366080K), 0.0074160 secs]
+TestUtilityAssurance: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/rt.jar
+TestUtilityAssurance: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jsse.jar
+TestUtilityAssurance: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jce.jar
+TestUtilityAssurance: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/charsets.jar
+TestUtilityAssurance: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jfr.jar
+TestUtilityAssurance: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/dnsns.jar
+TestUtilityAssurance: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/localedata.jar
+TestUtilityAssurance: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunec.jar
+TestUtilityAssurance: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunjce_provider.jar
+TestUtilityAssurance: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunpkcs11.jar
+TestUtilityAssurance: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/zipfs.jar
+TestUtilityAssurance: Done initializing with /System/Library/Java/Extensions/MRJToolkit.jar
+TestUtilityAssurance: Done initializing with /Users/aarong/git/regression/regression/TestUtilityAssurance/promises-5.6.0.jar
+##SUBTASK_DONE
+##WORK, 1
+Assuming that the projects are run in dependency order
+Parsing ...
+##SUBTASK, Parsing ...
+Done adapting 0 files for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK_DONE
+##WORK, 1
+Parsing ...
+##SUBTASK, Parsing ...
+JCP: warning: [options] bootstrap class path not set in conjunction with -source 1.7
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+Adapting 19 CUTs
+[GC (Allocation Failure)  87893K->60713K(389120K), 0.0109660 secs]
+Done adapting 19 files for TestUtilityAssurance
+##SUBTASK_DONE
+##WORK, 1
+Handling references for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Handling references for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 21 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Setting project for Object from org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 44 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 55 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 51 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 32 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 17 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 8 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 12 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 15 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 4 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 2 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK_DONE
+##WORK, 1
+Handling references for TestUtilityAssurance
+##SUBTASK, Handling references for TestUtilityAssurance
+Handling 25 dangling refs for TestUtilityAssurance
+Handling 5 dangling refs for TestUtilityAssurance
+##SUBTASK_DONE
+##WORK, 1
+Updated 264 files in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Updated 49 files in TestUtilityAssurance
+Parsing ASTs  = 345 ms
+Handling refs = 358 ms
+[2015-06-23 15:30:00    INFO] partial bindings = 0 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+[2015-06-23 15:30:00    INFO] full bindings = 0 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+Canonicalizing ASTs
+##SUBTASK, Canonicalizing ASTs
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+[2015-06-23 15:30:00    INFO] partial bindings = 158 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+[2015-06-23 15:30:00    INFO] full bindings = 134 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+Canonicalizing TestUtilityAssurance/src/constructors/ConstructorHasArgs.java
+##WORK, 1
+Canonicalizing TestUtilityAssurance/src/test/NotPublic.java
+##WORK, 1
+Canonicalizing TestUtilityAssurance/src/constructors/ThrowsError.java
+##WORK, 1
+Canonicalizing TestUtilityAssurance/src/test/Implements2.java
+##WORK, 1
+Canonicalizing TestUtilityAssurance/src/constructors/PrivateConstructor.java
+##WORK, 1
+Canonicalizing TestUtilityAssurance/src/test/Other.java
+##WORK, 1
+Canonicalizing TestUtilityAssurance/src/test/NotFinal.java
+##WORK, 1
+Canonicalizing TestUtilityAssurance/src/constructors/TooManyConstructors.java
+##WORK, 1
+Canonicalizing TestUtilityAssurance/src/test/I.java
+##WORK, 1
+Canonicalizing TestUtilityAssurance/src/test/J.java
+##WORK, 1
+Canonicalizing TestUtilityAssurance/src/constructors/PublicConstructor.java
+##WORK, 1
+Canonicalizing TestUtilityAssurance/src/test/Implements1.java
+##WORK, 1
+Canonicalizing TestUtilityAssurance/src/constructors/ThrowsWrong.java
+##WORK, 1
+Canonicalizing TestUtilityAssurance/src/test/TestStatic.java
+##WORK, 1
+Canonicalizing TestUtilityAssurance/src/test/NotFromObject.java
+##WORK, 1
+Canonicalizing TestUtilityAssurance/src/constructors/BusyConstructor.java
+##WORK, 1
+Canonicalizing TestUtilityAssurance/src/calls/T.java
+##WORK, 1
+Canonicalizing TestUtilityAssurance/src/test/Public.java
+##WORK, 1
+Canonicalizing TestUtilityAssurance/src/constructors/NoConstructor.java
+##WORK, 1
+Binding = 65 ms
+##SUBTASK_DONE
+##WORK, 1
+Handling references for TestUtilityAssurance
+##SUBTASK, Handling references for TestUtilityAssurance
+Handling 21 dangling refs for TestUtilityAssurance
+##SUBTASK_DONE
+##WORK, 1
+Handling references for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Handling references for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 21 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK_DONE
+##WORK, 1
+Updated 264 files in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Updated 49 files in TestUtilityAssurance
+[GC (System.gc())  99813K->65325K(389632K), 0.0109300 secs]
+[Full GC (System.gc())  65325K->54291K(389632K), 0.1052090 secs]
+Creating drops
+##SUBTASK, Creating drops
+Created binary drop for com.surelogic.Utility
+Created binary drop for java.lang.Iterable
+Created binary drop for java.net.InterfaceAddress
+Created binary drop for java.net.InetAddress
+Created binary drop for sun.util.locale.LanguageTag
+Created binary drop for java.nio.charset.CharacterCodingException
+Created binary drop for java.io.SyncFailedException
+Created binary drop for java.io.Writer
+Created binary drop for java.util.Stack
+Created binary drop for java.nio.channels.FileChannel
+Created binary drop for java.security.KeyException
+Created source drop for file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/test/Public.java
+Created binary drop for java.io.UnsupportedEncodingException
+Created binary drop for java.lang.AutoCloseable
+Created binary drop for java.nio.LongBuffer
+Created binary drop for java.net.ContentHandlerFactory
+Created binary drop for java.security.NoSuchProviderException
+Created binary drop for java.util.concurrent.ConcurrentMap
+Created binary drop for java.lang.annotation.RetentionPolicy
+Created binary drop for java.nio.file.WatchKey
+Created binary drop for java.nio.channels.AsynchronousChannel
+Created binary drop for java.nio.file.attribute.AttributeView
+Created binary drop for java.nio.file.LinkOption
+Created binary drop for java.lang.NoSuchFieldException
+Created binary drop for java.util.Iterator
+Created binary drop for java.lang.Long
+Created binary drop for java.util.Deque
+Created binary drop for java.nio.channels.spi.AbstractInterruptibleChannel
+Created binary drop for java.security.AccessControlContext
+Created binary drop for java.lang.Short
+Created source drop for file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/calls/T.java
+Created binary drop for java.lang.annotation.Target
+Created binary drop for java.util.HashMap
+Created binary drop for java.io.FileDescriptor
+Created binary drop for java.util.Dictionary
+Created binary drop for java.util.AbstractList
+Created binary drop for java.security.cert.Certificate
+Created binary drop for java.nio.CharBuffer
+Created binary drop for sun.util.locale.LocaleObjectCache
+Created binary drop for sun.reflect.annotation.AnnotationType
+Created binary drop for java.io.FileNotFoundException
+Created binary drop for sun.util.locale.BaseLocale
+Created binary drop for sun.util.locale.ParseStatus
+Created binary drop for java.lang.Byte
+Created source drop for file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/test/TestStatic.java
+Created binary drop for java.io.FilterInputStream
+Created binary drop for java.lang.Number
+Created binary drop for java.lang.ref.SoftReference
+Created binary drop for sun.nio.ch.Interruptible
+Created binary drop for java.net.SocketException
+Created binary drop for sun.misc.JarIndex
+Created binary drop for java.nio.file.PathMatcher
+Created binary drop for java.util.spi.LocaleServiceProvider
+Created binary drop for java.lang.reflect.AccessibleObject
+Created binary drop for java.lang.InstantiationException
+Created binary drop for java.util.MissingResourceException
+Created binary drop for java.nio.file.attribute.UserPrincipalLookupService
+Created binary drop for java.nio.file.AccessMode
+Created binary drop for java.nio.channels.ReadableByteChannel
+Created source drop for file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/test/NotFromObject.java
+Created binary drop for java.nio.charset.CoderResult
+Created binary drop for java.lang.ClassLoader
+Created binary drop for java.lang.Deprecated
+Created binary drop for sun.reflect.ReflectionFactory
+Created binary drop for java.nio.ByteBuffer
+Created binary drop for java.lang.RuntimeException
+Created binary drop for java.nio.channels.Channel
+Created source drop for file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/constructors/BusyConstructor.java
+Created binary drop for java.security.Guard
+Created binary drop for sun.util.locale.LocaleSyntaxException
+Created binary drop for java.lang.String
+Created binary drop for java.io.FilterOutputStream
+Created binary drop for java.lang.annotation.ElementType
+Created binary drop for java.util.AbstractSequentialList
+Created source drop for file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/test/Implements2.java
+Created binary drop for java.util.zip.ZipEntry
+Created binary drop for java.util.ArrayList
+Created binary drop for java.lang.reflect.Method
+Created binary drop for java.lang.AssertionError
+Created source drop for file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/constructors/ThrowsWrong.java
+Created binary drop for java.nio.file.FileSystem
+Created binary drop for java.lang.Package
+Created binary drop for java.lang.ReflectiveOperationException
+Created binary drop for java.io.Closeable
+Created binary drop for java.security.cert.CertPath
+Created binary drop for sun.misc.MetaIndex
+Created binary drop for java.lang.IllegalArgumentException
+Created binary drop for java.security.GeneralSecurityException
+Created source drop for file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/constructors/PrivateConstructor.java
+Created source drop for file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/constructors/NoConstructor.java
+Created binary drop for java.security.InvalidKeyException
+Created binary drop for java.net.FileNameMap
+Created binary drop for java.util.SortedMap
+Created binary drop for java.util.RandomAccess
+Created binary drop for sun.reflect.CallerSensitive
+Created binary drop for sun.reflect.ConstantPool
+Created binary drop for java.lang.Integer
+Created binary drop for java.lang.reflect.Type
+Created binary drop for java.security.cert.CertificateEncodingException
+Created source drop for file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/test/NotPublic.java
+Created binary drop for java.io.Serializable
+Created binary drop for java.io.PrintStream
+Created binary drop for java.lang.CloneNotSupportedException
+Created binary drop for java.lang.Enum
+Created binary drop for java.util.WeakHashMap
+Created binary drop for java.util.Map
+Created binary drop for java.util.zip.InflaterInputStream
+Created binary drop for java.lang.StringBuffer
+Created binary drop for java.nio.charset.CharsetDecoder
+Created binary drop for java.lang.CharSequence
+Created binary drop for java.lang.SuppressWarnings
+Created binary drop for sun.util.locale.InternalLocaleBuilder
+Created binary drop for java.net.InetAddressImpl
+Created binary drop for sun.util.locale.LocaleExtensions
+Created binary drop for sun.misc.Resource
+Created binary drop for java.lang.Thread
+Created binary drop for java.net.URLStreamHandler
+Created binary drop for java.io.OutputStream
+Created binary drop for java.util.zip.ZipConstants
+Created binary drop for java.nio.channels.AsynchronousFileChannel
+Created binary drop for java.nio.file.attribute.FileStoreAttributeView
+Created binary drop for java.net.URISyntaxException
+Created binary drop for java.util.Date
+Created binary drop for java.util.List
+Created binary drop for java.nio.MappedByteBuffer
+Created binary drop for java.io.FileFilter
+Created binary drop for java.nio.IntBuffer
+Created binary drop for java.lang.Double
+Created source drop for file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/test/NotFinal.java
+Created binary drop for java.net.URL
+Created binary drop for java.nio.channels.ByteChannel
+Created binary drop for java.lang.SecurityException
+Created binary drop for java.util.jar.Attributes
+Created binary drop for java.nio.file.spi.FileSystemProvider
+Created binary drop for java.io.DataOutput
+Created binary drop for java.lang.Cloneable
+Created binary drop for sun.util.resources.OpenListResourceBundle
+Created binary drop for java.lang.Float
+Created binary drop for java.lang.StringBuilder
+Created binary drop for java.lang.StackTraceElement
+Created binary drop for java.lang.ref.WeakReference
+Created binary drop for java.util.Queue
+Created binary drop for java.nio.file.attribute.FileAttribute
+Created binary drop for java.lang.ref.Reference
+Created binary drop for java.nio.file.FileStore
+Created binary drop for java.nio.Buffer
+Created binary drop for java.nio.channels.WritableByteChannel
+Created binary drop for java.util.concurrent.TimeUnit
+Created binary drop for java.security.AccessControlException
+Created binary drop for java.util.concurrent.Callable
+Created binary drop for java.nio.file.Path
+Created source drop for file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/constructors/TooManyConstructors.java
+Created binary drop for java.net.URLConnection
+Created binary drop for java.util.Locale
+Created binary drop for java.lang.Exception
+Created binary drop for java.lang.Appendable
+Created source drop for file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/constructors/ThrowsError.java
+Created binary drop for sun.reflect.MethodAccessor
+Created binary drop for java.security.DomainCombiner
+Created binary drop for java.nio.file.CopyOption
+Created binary drop for sun.reflect.FieldAccessor
+Created binary drop for java.util.Random
+Created binary drop for java.lang.NumberFormatException
+Created binary drop for java.util.AbstractMap
+Created binary drop for java.nio.file.OpenOption
+Created binary drop for java.nio.channels.CompletionHandler
+Created binary drop for java.net.SocketAddress
+Created binary drop for java.security.PermissionCollection
+Created binary drop for java.nio.file.attribute.BasicFileAttributes
+Created binary drop for java.util.zip.ZipFile
+Created binary drop for java.lang.annotation.Annotation
+Created binary drop for java.net.MalformedURLException
+Created binary drop for java.security.Key
+Created binary drop for java.lang.reflect.Member
+Created binary drop for java.util.concurrent.locks.Lock
+Created binary drop for java.util.zip.ZipException
+Created binary drop for java.util.jar.Manifest
+Created binary drop for java.util.Hashtable
+Created binary drop for java.net.UnknownServiceException
+Created binary drop for java.security.Permission
+Created binary drop for java.security.Principal
+Created binary drop for java.security.PrivilegedAction
+Created binary drop for java.lang.reflect.AnnotatedElement
+Created binary drop for java.nio.charset.CharsetEncoder
+Created binary drop for java.nio.FloatBuffer
+Created binary drop for java.security.CodeSigner
+Created source drop for file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/test/I.java
+Created binary drop for java.lang.Boolean
+Created binary drop for java.lang.reflect.Constructor
+Created binary drop for java.lang.IllegalAccessException
+Created binary drop for java.util.concurrent.ExecutorService
+Created binary drop for java.nio.file.attribute.UserPrincipal
+Created binary drop for java.nio.file.Watchable
+Created binary drop for java.lang.ClassValue
+Created binary drop for java.lang.Throwable
+Created source drop for file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/test/J.java
+Created binary drop for java.util.jar.JarEntry
+Created binary drop for java.util.concurrent.locks.Condition
+Created binary drop for java.util.Vector
+Created binary drop for java.lang.AbstractStringBuilder
+Created binary drop for java.io.FilenameFilter
+Created binary drop for java.util.concurrent.Executor
+Created binary drop for java.nio.ShortBuffer
+Created binary drop for java.nio.channels.ScatteringByteChannel
+Created binary drop for java.net.URI
+Created binary drop for sun.reflect.ConstructorAccessor
+Created binary drop for java.lang.Character
+Created binary drop for java.lang.Error
+Created binary drop for java.nio.channels.SeekableByteChannel
+Created binary drop for java.lang.InterruptedException
+Created binary drop for java.nio.charset.Charset
+Created binary drop for java.lang.reflect.TypeVariable
+Created binary drop for java.util.jar.JarFile
+Created binary drop for java.lang.Comparable
+Created binary drop for java.nio.channels.FileLock
+Created binary drop for java.net.Proxy
+Created binary drop for java.nio.ByteOrder
+Created binary drop for java.util.Enumeration
+Created binary drop for java.security.Timestamp
+Created binary drop for java.io.PrintWriter
+Created binary drop for java.net.UnknownHostException
+Created binary drop for sun.reflect.LangReflectAccess
+Created binary drop for java.io.ObjectStreamException
+Created binary drop for java.nio.file.DirectoryStream
+Created binary drop for java.security.PublicKey
+Created binary drop for java.lang.reflect.Field
+Created binary drop for java.util.ListIterator
+Created binary drop for java.security.cert.CertificateException
+Created binary drop for java.nio.channels.GatheringByteChannel
+Created binary drop for java.net.NetworkInterface
+Created binary drop for java.lang.Readable
+Created binary drop for java.util.ResourceBundle
+Created binary drop for java.net.ContentHandler
+Created binary drop for java.lang.ThreadLocal
+Created binary drop for java.math.BigInteger
+Created binary drop for java.nio.charset.CodingErrorAction
+Created binary drop for java.lang.Class
+Created binary drop for java.util.concurrent.Future
+Created binary drop for java.util.AbstractSet
+Created binary drop for java.lang.Object
+Created binary drop for java.io.File
+Created binary drop for java.lang.Void
+Created binary drop for sun.util.LocaleServiceProviderPool
+Created binary drop for java.nio.file.attribute.FileTime
+Created binary drop for java.io.Flushable
+Created binary drop for java.net.URLStreamHandlerFactory
+Created binary drop for java.nio.DoubleBuffer
+Created binary drop for java.util.zip.Inflater
+Created binary drop for java.util.concurrent.locks.ReadWriteLock
+Created binary drop for java.nio.file.attribute.FileAttributeView
+Created binary drop for java.util.Set
+Created source drop for file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/test/Implements1.java
+Created binary drop for java.nio.file.attribute.GroupPrincipal
+Created binary drop for java.nio.file.WatchService
+Created binary drop for java.io.DataOutputStream
+Created binary drop for java.util.Collection
+Created binary drop for java.nio.channels.ClosedChannelException
+Created binary drop for java.security.SignatureException
+Created binary drop for sun.util.locale.Extension
+Created binary drop for java.security.ProtectionDomain
+Created binary drop for java.security.NoSuchAlgorithmException
+Created binary drop for java.lang.Runnable
+Created binary drop for java.nio.channels.InterruptibleChannel
+Created binary drop for java.util.spi.LocaleNameProvider
+Created binary drop for java.util.LinkedList
+Created binary drop for java.lang.reflect.GenericDeclaration
+Created binary drop for java.util.AbstractCollection
+Created binary drop for java.nio.file.WatchEvent
+Created binary drop for sun.misc.URLClassPath
+Created binary drop for sun.security.util.Debug
+Created source drop for file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/constructors/PublicConstructor.java
+Created binary drop for java.io.InputStream
+Created binary drop for java.io.IOException
+Created binary drop for java.lang.ref.ReferenceQueue
+Created binary drop for java.util.Comparator
+Created binary drop for java.security.CodeSource
+Created source drop for file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/constructors/ConstructorHasArgs.java
+Created source drop for file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/test/Other.java
+Created binary drop for java.lang.annotation.Documented
+Created binary drop for java.lang.annotation.Retention
+Created binary drop for java.lang.reflect.InvocationTargetException
+Created binary drop for java.lang.ThreadGroup
+Created binary drop for java.util.zip.DataFormatException
+Created binary drop for java.nio.channels.AsynchronousCloseException
+##SUBTASK_DONE
+##WORK, 1
+Parsing promises
+##SUBTASK, Parsing promises
+Added 3 promises for java.lang.[] in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@799f7e29
+Added 3 promises for java.lang.[] in TestUtilityAssurance: com.surelogic.tree.SyntaxTreeNode@25243bc1
+Added 12 promises for java.lang.IllegalArgumentException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@ef69644
+Added 6 promises for java.lang.CloneNotSupportedException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@1baffc9b
+Added 21 promises for java.util.Stack in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4534ea16
+Added 17 promises for java.util.concurrent.ConcurrentMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@48d9a932
+Added 29 promises for java.util.AbstractSequentialList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@1a924cdc
+Added 64 promises for java.util.Map in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6095ed7c
+Added 61 promises for java.lang.Short in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@77c8ac5a
+WARNING: TreeAccessor couldn't find equals(java.lang.Object) in java.util.ArrayList
+WARNING: TreeAccessor couldn't find hashCode() in java.util.ArrayList
+Added 6 promises for java.lang.NoSuchFieldException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3340940f
+Added 104 promises for java.util.ArrayList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@13b459dc
+Added 1 promises for constructors.ThrowsWrong in TestUtilityAssurance: com.surelogic.tree.SyntaxTreeNode@347900cd
+Added 87 promises for java.util.Deque in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@acfbddd
+Added 59 promises for java.lang.Byte in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@734b70d5
+Added 22 promises for java.lang.Number in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@22e5002
+Added 61 promises for java.util.HashMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4a625e94
+Added 141 promises for java.lang.Thread in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@13b47fda
+Added 31 promises for java.util.SortedMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@513780a6
+Added 60 promises for java.util.AbstractList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@41f968f4
+Added 18 promises for java.net.URISyntaxException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@18033d5a
+Added 6 promises for java.lang.InstantiationException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@235011a
+Added 1 promises for test.Implements2 in TestUtilityAssurance: com.surelogic.tree.SyntaxTreeNode@1a0a5dd2
+Added 96 promises for java.lang.Long in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@47d91754
+Added 12 promises for java.lang.SecurityException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@42ecdb5
+Added 70 promises for java.lang.Double in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4b2d617f
+Added 12 promises for java.lang.RuntimeException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@1e8cc715
+Added 3 promises for java.util.zip.ZipEntry in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2d825c3c
+Added 88 promises for java.util.jar.Attributes in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@286802c4
+Added 3 promises for java.nio.file.Path in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@47404fa2
+Added 18 promises for java.nio.CharBuffer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@1da723e9
+Added 89 promises for java.util.List in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@f7665e4
+Added 1 promises for test.NotPublic in TestUtilityAssurance: com.surelogic.tree.SyntaxTreeNode@2e966cfe
+Added 24 promises for java.lang.AssertionError in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@691e3422
+Added 18 promises for java.util.Queue in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@42205b99
+Added 1 promises for constructors.PrivateConstructor in TestUtilityAssurance: com.surelogic.tree.SyntaxTreeNode@10910c24
+Added 3 promises for java.util.Locale in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6ec2ca7f
+Added 13 promises for java.lang.Enum in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@60256f69
+Added 108 promises for java.util.AbstractMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2afeb931
+Added 1 promises for constructors.ThrowsError in TestUtilityAssurance: com.surelogic.tree.SyntaxTreeNode@6dc2aa14
+Added 20 promises for java.util.concurrent.locks.Lock in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@13202dba
+Added 6 promises for java.lang.NumberFormatException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2c0e34a8
+Added 22 promises for java.util.concurrent.locks.Condition in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3861ab7c
+Added 6 promises for java.util.Iterator in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@415f25d4
+Added 37 promises for java.lang.Boolean in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@376d4cd0
+Added 1 promises for test.TestStatic in TestUtilityAssurance: com.surelogic.tree.SyntaxTreeNode@6c5aafc9
+Added 7 promises for java.util.concurrent.locks.ReadWriteLock in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@d103b53
+[GC (Allocation Failure)  108051K->57659K(392704K), 0.0051620 secs]
+Added 1 promises for constructors.PublicConstructor in TestUtilityAssurance: com.surelogic.tree.SyntaxTreeNode@597d67d6
+Added 3 promises for java.lang.Iterable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2451b80c
+Added 1 promises for test.Implements1 in TestUtilityAssurance: com.surelogic.tree.SyntaxTreeNode@efa2f67
+Added 1 promises for test.NotFromObject in TestUtilityAssurance: com.surelogic.tree.SyntaxTreeNode@616a1d76
+Added 1 promises for constructors.BusyConstructor in TestUtilityAssurance: com.surelogic.tree.SyntaxTreeNode@7f1b8e5c
+Added 6 promises for java.io.Writer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@512a6cc6
+Added 54 promises for java.util.Collection in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@79c1a8c1
+Added 1 promises for test.Public in TestUtilityAssurance: com.surelogic.tree.SyntaxTreeNode@4e91a82c
+Added 1 promises for constructors.ConstructorHasArgs in TestUtilityAssurance: com.surelogic.tree.SyntaxTreeNode@64a25e99
+Added 6 promises for java.lang.InterruptedException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@5d1da590
+Added 1 promises for calls.T in TestUtilityAssurance: com.surelogic.tree.SyntaxTreeNode@46629711
+Added 158 promises for java.lang.StringBuffer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@5984a1e9
+Added 96 promises for java.lang.Integer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@fcd8a21
+Added 29 promises for java.util.Dictionary in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@1a4b228b
+Added 301 promises for java.lang.String in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6c781760
+Added 139 promises for java.util.LinkedList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@36e24101
+Added 2 promises for java.lang.ref.SoftReference in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@45de1cd6
+Added 83 promises for java.util.Hashtable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@15d826f7
+Added 6 promises for java.io.PrintWriter in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@1506df6f
+Added 29 promises for java.util.concurrent.TimeUnit in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@1a394076
+Added 3 promises for java.util.Date in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3ebe3701
+Added 1 promises for test.NotFinal in TestUtilityAssurance: com.surelogic.tree.SyntaxTreeNode@2842f84b
+Added 6 promises for java.io.PrintStream in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7b5bfc1a
+Added 3 promises for java.nio.file.DirectoryStream in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7fcb514f
+Added 3 promises for java.util.jar.Manifest in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7ce3ffd7
+Added 1 promises for constructors.NoConstructor in TestUtilityAssurance: com.surelogic.tree.SyntaxTreeNode@9370622
+Added 138 promises for java.math.BigInteger in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@9b9fb16
+Added 18 promises for java.util.ListIterator in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@1d3eebb8
+Added 56 promises for java.util.WeakHashMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@65223520
+Added 4 promises for java.util.Enumeration in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@332cdb54
+Added 12 promises for java.lang.Class in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2c562c70
+Added 12 promises for java.lang.CharSequence in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@560bc8c4
+Added 34 promises for java.util.concurrent.ExecutorService in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7cf7da42
+Added 47 promises for java.lang.Throwable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7abf45a8
+Added 16 promises for java.util.AbstractSet in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3782841a
+Added 55 promises for java.util.AbstractCollection in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@f789e35
+Added 45 promises for java.util.ResourceBundle in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2bb0d48a
+Added 1 promises for java.lang.ThreadLocal in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4d490521
+Added 73 promises for java.lang.Float in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7b915a5a
+Added 109 promises for java.lang.StringBuilder in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6581895
+Added 31 promises for java.lang.Object in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@37a1e2cc
+Added 6 promises for java.lang.Appendable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@20cc5791
+Added 1 promises for java.lang.ref.ReferenceQueue in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@189338ac
+Added 12 promises for java.lang.reflect.InvocationTargetException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@52296fa1
+Added 1 promises for constructors.TooManyConstructors in TestUtilityAssurance: com.surelogic.tree.SyntaxTreeNode@6f0fdc34
+Added 12 promises for java.lang.Exception in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@72a4ae8d
+Added 54 promises for java.util.Set in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7fb08ee3
+Added 6 promises for java.lang.IllegalAccessException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@50c263be
+[GC (Allocation Failure)  112955K->58679K(391680K), 0.0050710 secs]
+Added 12 promises for java.lang.Error in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3d10f516
+Added 170 promises for java.util.Vector in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@871777c
+Added 144 promises for java.lang.AbstractStringBuilder in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@720e5347
+##SUBTASK_DONE
+##WORK, 1
+Scrubbing promises
+##SUBTASK, Scrubbing promises
+Creating RegionModel java.lang.Object.Instance for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+[GC (Allocation Failure)  113975K->61557K(413184K), 0.0077290 secs]
+##SUBTASK_DONE
+##WORK, 1
+Starting analyses
+Using new analysis framework -- groups
+Starting group: ConcurrencyDetector, ThreadEffectsModule, StructureAnalysis, ParameterizedTypeAnalysis, EqualityAnalysis, LayersAnalysis
+##SUBTASK, Starting parallel ConcurrencyDetector [0]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel ConcurrencyDetector [0]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Starting parallel ThreadEffectsModule [1]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel ThreadEffectsModule [1]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Starting parallel StructureAnalysis [2]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel StructureAnalysis [2]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Starting parallel ParameterizedTypeAnalysis [3]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel ParameterizedTypeAnalysis [3]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Starting parallel EqualityAnalysis [4]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel EqualityAnalysis [4]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Starting parallel LayersAnalysis [5]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel LayersAnalysis [5]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Starting parallel ConcurrencyDetector [0]: 19 for TestUtilityAssurance
+Starting parallel ConcurrencyDetector [0]: 19 for TestUtilityAssurance
+##SUBTASK, Starting parallel ThreadEffectsModule [1]: 19 for TestUtilityAssurance
+Starting parallel ThreadEffectsModule [1]: 19 for TestUtilityAssurance
+##SUBTASK, Starting parallel StructureAnalysis [2]: 19 for TestUtilityAssurance
+Starting parallel StructureAnalysis [2]: 19 for TestUtilityAssurance
+##SUBTASK, Starting parallel ParameterizedTypeAnalysis [3]: 19 for TestUtilityAssurance
+Starting parallel ParameterizedTypeAnalysis [3]: 19 for TestUtilityAssurance
+##SUBTASK, Starting parallel EqualityAnalysis [4]: 19 for TestUtilityAssurance
+Starting parallel EqualityAnalysis [4]: 19 for TestUtilityAssurance
+##SUBTASK, Starting parallel LayersAnalysis [5]: 19 for TestUtilityAssurance
+Starting parallel LayersAnalysis [5]: 19 for TestUtilityAssurance
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/constructors/TooManyConstructors.java
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/test/Public.java
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/constructors/BusyConstructor.java
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/test/J.java
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/test/NotPublic.java
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/test/TestStatic.java
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/constructors/ThrowsWrong.java
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/test/NotFromObject.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/constructors/TooManyConstructors.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/test/NotPublic.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/constructors/ThrowsWrong.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/constructors/BusyConstructor.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/test/J.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/test/NotFromObject.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/test/TestStatic.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/test/Public.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/constructors/BusyConstructor.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/test/NotPublic.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/test/NotPublic.java
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/test/Public.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/constructors/ThrowsWrong.java
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/test/NotFromObject.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/constructors/BusyConstructor.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/constructors/TooManyConstructors.java
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/test/J.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/test/NotFromObject.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/constructors/ThrowsWrong.java
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/test/Public.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/test/TestStatic.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/test/TestStatic.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/test/NotFromObject.java
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/constructors/BusyConstructor.java
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/constructors/TooManyConstructors.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/test/J.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/test/NotPublic.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/test/J.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/test/Public.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/constructors/ThrowsWrong.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/test/TestStatic.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/constructors/TooManyConstructors.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/test/NotFromObject.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/constructors/TooManyConstructors.java
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/test/J.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/test/TestStatic.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/test/Public.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/test/NotPublic.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/constructors/BusyConstructor.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/constructors/ThrowsWrong.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/test/Implements1.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/test/Implements1.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/test/Implements1.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/test/Implements1.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/test/Implements1.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/test/Implements1.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/constructors/PublicConstructor.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/constructors/PublicConstructor.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/constructors/PublicConstructor.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/constructors/PublicConstructor.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/constructors/PublicConstructor.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/constructors/PublicConstructor.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/constructors/PrivateConstructor.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/constructors/PrivateConstructor.java
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/constructors/ConstructorHasArgs.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/constructors/PrivateConstructor.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/constructors/PrivateConstructor.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/constructors/ConstructorHasArgs.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/constructors/PrivateConstructor.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/constructors/ConstructorHasArgs.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/constructors/PrivateConstructor.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/constructors/ThrowsError.java
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/constructors/ConstructorHasArgs.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/constructors/ConstructorHasArgs.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/constructors/NoConstructor.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/constructors/ThrowsError.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/constructors/NoConstructor.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/constructors/ThrowsError.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/constructors/NoConstructor.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/constructors/NoConstructor.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/constructors/ConstructorHasArgs.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/constructors/NoConstructor.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/constructors/NoConstructor.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/constructors/ThrowsError.java
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/test/NotFinal.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/constructors/ThrowsError.java
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/test/Other.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/test/NotFinal.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/test/NotFinal.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/test/Other.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/constructors/ThrowsError.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/test/Other.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/test/NotFinal.java
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/test/Implements2.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/test/Other.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/test/Implements2.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/test/Other.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/test/Implements2.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/test/NotFinal.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/test/Implements2.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/test/Other.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/test/NotFinal.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/test/Implements2.java
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/calls/T.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/test/Implements2.java
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/test/I.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/test/I.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/test/I.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/test/I.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/test/I.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/test/I.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/calls/T.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/calls/T.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/calls/T.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/calls/T.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/calls/T.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+Starting group: UtilityAnalysis, SingletonAnalysis, LockAnalysis, EffectsAnalysis
+com.surelogic.analysis.uniqueness.classic.sideeffecting.UniquenessAnalysisModule$1@5b37e0d2: 0
+com.surelogic.analysis.visitors.TopLevelAnalysisVisitor$1@69663380: 33
+com.surelogic.analysis.granules.FlowUnitGranulator@4459eb14: 65
+##SUBTASK, Starting parallel UtilityAnalysis [6]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel UtilityAnalysis [6]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Starting parallel SingletonAnalysis [7]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel SingletonAnalysis [7]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Starting parallel LockAnalysis [8]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel LockAnalysis [8]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Looking at @RegionLock("MUTEX is this protects WaitQueue") on Object
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@7c3c0b79 on java.lang.Object
+##SUBTASK, Starting parallel EffectsAnalysis [9]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel EffectsAnalysis [9]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Starting parallel UtilityAnalysis [6]: 33 for TestUtilityAssurance
+Starting parallel UtilityAnalysis [6]: 33 for TestUtilityAssurance
+##SUBTASK, Starting parallel SingletonAnalysis [7]: 33 for TestUtilityAssurance
+Starting parallel SingletonAnalysis [7]: 33 for TestUtilityAssurance
+##SUBTASK, Starting parallel LockAnalysis [8]: 33 for TestUtilityAssurance
+Starting parallel LockAnalysis [8]: 33 for TestUtilityAssurance
+Looking at @RegionLock("MUTEX is this protects WaitQueue") on Object
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@7c3c0b79 on java.lang.Object
+##SUBTASK, Starting parallel EffectsAnalysis [9]: 33 for TestUtilityAssurance
+Starting parallel EffectsAnalysis [9]: 33 for TestUtilityAssurance
+##SUBTASK, Checking [ Utility class ] test.Implements2
+##SUBTASK, Checking [ Utility class ] test.TestStatic
+##SUBTASK, Checking [ Utility class ] constructors.ThrowsWrong
+##SUBTASK, Checking [ Utility class ] test.NotFinal
+##SUBTASK, Checking [ Utility class ] calls.T.Q.ACE #2
+##SUBTASK, Checking [ Utility class ] constructors.BusyConstructor
+##SUBTASK, Checking [ Utility class ] calls.T.Q.QQ.ACE #5
+##SUBTASK, Checking [ Utility class ] test.Public
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] calls.T.Q.ACE #2
+##SUBTASK, Checking [ Singleton class ] calls.T.Q.QQ.ACE #5
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] calls.T.Q.ACE #2
+##SUBTASK, Checking [ Lock policy ] calls.T.Q.QQ.ACE #5
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.Implements2
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestStatic
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.Implements2
+##SUBTASK, Checking [ Singleton class ] constructors.ThrowsWrong
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.Public
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] calls.T.Q.ACE #2
+##SUBTASK, Checking [ Lock policy ] constructors.ThrowsWrong
+##SUBTASK, Checking [ Singleton class ] constructors.BusyConstructor
+##SUBTASK, Checking [ Singleton class ] test.NotFinal
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] constructors.BusyConstructor
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.Public
+##SUBTASK, Checking [ Lock policy ] test.NotFinal
+##SUBTASK, Checking [ Lock policy ] test.TestStatic
+##SUBTASK, Checking [ Utility class ] calls.T.Q.ACE #3
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] calls.T.Q.ACE #3
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] calls.T.Q.ACE #3
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] calls.T.Q.ACE #3
+##SUBTASK, Checking [ Region effects ] calls.T.Q.QQ.ACE #5
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] calls.T.Q.QQ
+##SUBTASK, Checking [ Utility class ] calls.T.Q.QQ.QQQ
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] calls.T.Q.QQ
+##SUBTASK, Checking [ Singleton class ] calls.T.Q.QQ.QQQ
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] calls.T.Q.QQ
+##SUBTASK, Checking [ Lock policy ] calls.T.Q.QQ.QQQ
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.NotFinal
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.Implements2
+##SUBTASK, Checking [ Region effects ] test.Public
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] constructors.ThrowsWrong
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] constructors.PrivateConstructor
+##SUBTASK, Checking [ Utility class ] constructors.TooManyConstructors
+##SUBTASK, Checking [ Utility class ] calls.T.U
+##SUBTASK, Checking [ Utility class ] calls.T
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] calls.T.U
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] calls.T.U
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] constructors.TooManyConstructors
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] constructors.TooManyConstructors
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] constructors.PrivateConstructor
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] constructors.PrivateConstructor
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] constructors.PrivateConstructor
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestStatic
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] constructors.TooManyConstructors
+##SUBTASK, Checking [ Utility class ] constructors.NoConstructor
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] constructors.NoConstructor
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] constructors.NoConstructor
+##SUBTASK, Checking [ Utility class ] constructors.ThrowsError
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] constructors.ThrowsError
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] constructors.BusyConstructor
+##SUBTASK, Checking [ Lock policy ] constructors.ThrowsError
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] calls.T.U
+##SUBTASK, Checking [ Region effects ] constructors.NoConstructor
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.NotFromObject
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.NotPublic
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] calls.T.U.UU
+##SUBTASK, Checking [ Singleton class ] test.NotFromObject
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] calls.T.U.UU
+##SUBTASK, Checking [ Lock policy ] test.NotFromObject
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] constructors.ThrowsError
+##SUBTASK, Checking [ Singleton class ] test.NotPublic
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] calls.T
+##SUBTASK, Checking [ Lock policy ] calls.T.U.UU
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.NotPublic
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] calls.T
+##SUBTASK, Checking [ Region effects ] test.NotFromObject
+##SUBTASK, Checking [ Utility class ] test.I
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.NotPublic
+##SUBTASK, Checking [ Region effects ] calls.T.U.UU
+##SUBTASK, Checking [ Utility class ] calls.T.U.UU.UUU
+##SUBTASK, Checking [ Singleton class ] test.I
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] calls.T.U.UU.UUU
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.I
+##SUBTASK, Checking [ Utility class ] calls.T.Q
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.J
+##SUBTASK, Checking [ Singleton class ] calls.T.Q
+##SUBTASK, Checking [ Region effects ] test.I
+##SUBTASK, Checking [ Lock policy ] calls.T.U.UU.UUU
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] constructors.PublicConstructor
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] calls.T.Q
+##SUBTASK, Checking [ Singleton class ] test.J
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.J
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] constructors.PublicConstructor
+##SUBTASK, Checking [ Region effects ] calls.T.U.UU.UUU
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.J
+##SUBTASK, Checking [ Lock policy ] constructors.PublicConstructor
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.Implements1
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.Implements1
+##SUBTASK, Checking [ Region effects ] constructors.PublicConstructor
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] calls.T.Q.QQ
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] calls.T
+##SUBTASK, Checking [ Region effects ] calls.T.Q.QQ.QQQ
+##SUBTASK, Checking [ Lock policy ] test.Implements1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] constructors.ConstructorHasArgs
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] constructors.ConstructorHasArgs
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.Implements1
+##SUBTASK, Checking [ Lock policy ] constructors.ConstructorHasArgs
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] calls.T.Q
+##SUBTASK, Checking [ Region effects ] constructors.ConstructorHasArgs
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.Other
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] calls.T.Q.QQ.ACE #4
+##SUBTASK, Checking [ Utility class ] calls.T.Q.QQ.QQQ.ACE #6
+##SUBTASK, Checking [ Utility class ] calls.T.ACE #0
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.Other
+##SUBTASK, Checking [ Singleton class ] calls.T.Q.QQ.ACE #4
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] calls.T.Q.QQ.QQQ.ACE #6
+##SUBTASK, Checking [ Singleton class ] calls.T.ACE #0
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] calls.T.Q.QQ.QQQ.ACE #6
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] calls.T.Q.QQ.ACE #4
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] calls.T.Q.QQ.QQQ.ACE #6
+##SUBTASK, Checking [ Lock policy ] calls.T.ACE #0
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.Other
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] calls.T.Q.QQ.QQQ.ACE #7
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] calls.T.Q.QQ.ACE #4
+##SUBTASK, Checking [ Singleton class ] calls.T.Q.QQ.QQQ.ACE #7
+##SUBTASK, Checking [ Region effects ] calls.T.ACE #0
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] calls.T.Q.QQ.QQQ.ACE #7
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.Other
+##SUBTASK, Checking [ Utility class ] calls.T.ACE #1
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] calls.T.Q.QQ.QQQ.ACE #7
+##SUBTASK, Checking [ Singleton class ] calls.T.ACE #1
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] calls.T.ACE #1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] calls.T.ACE #1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+Starting group: UniquenessAnalysisModule
+Starting group: NullablePreprocessorModule
+##SUBTASK, Starting parallel NullablePreprocessorModule [11]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel NullablePreprocessorModule [11]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Starting parallel NullablePreprocessorModule [11]: 19 for TestUtilityAssurance
+Starting parallel NullablePreprocessorModule [11]: 19 for TestUtilityAssurance
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/test/Public.java
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/test/NotPublic.java
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/constructors/ThrowsWrong.java
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/test/TestStatic.java
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/test/Implements2.java
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/constructors/PrivateConstructor.java
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/constructors/BusyConstructor.java
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/test/J.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/test/Implements1.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/test/NotFinal.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/calls/T.java
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/constructors/ConstructorHasArgs.java
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/constructors/NoConstructor.java
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/constructors/PublicConstructor.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/constructors/TooManyConstructors.java
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/test/NotFromObject.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/test/Other.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/constructors/ThrowsError.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestUtilityAssurance/src/test/I.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+Starting group: NullableModule2
+##SUBTASK, Starting parallel NullableModule2 [12]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel NullableModule2 [12]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Starting parallel NullableModule2 [12]: 65 for TestUtilityAssurance
+Starting parallel NullableModule2 [12]: 65 for TestUtilityAssurance
+##SUBTASK, Checking [ Nullable ] test.Public.Public()
+##SUBTASK, Checking [ Nullable ] test.NotFinal.NotFinal()
+##SUBTASK, Checking [ Nullable ] test.TestStatic.badMethod2(java.lang.Object)
+##SUBTASK, Checking [ Nullable ] test.J.<clinit>
+##SUBTASK, Checking [ Nullable ] calls.T.Q.QQ.m2()
+##SUBTASK, Checking [ Nullable ] constructors.ThrowsWrong.ThrowsWrong()
+##SUBTASK, Checking [ Nullable ] calls.T.U.UU.UUU.<clinit>
+##SUBTASK, Checking [ Nullable ] calls.T.Q.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] calls.T.U.UU.<clinit>
+##SUBTASK, Checking [ Nullable ] test.Implements1.Implements1()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] calls.T.U.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] calls.T.Q.Q()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.NotFinal.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.Public.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] constructors.TooManyConstructors.TooManyConstructors()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] calls.T.T()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.Implements1.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] constructors.PublicConstructor.PublicConstructor()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] calls.T.Q.m1()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestStatic.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] calls.T.Q.QQ.QQQ.QQQ()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] constructors.ThrowsWrong.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] constructors.PrivateConstructor.PrivateConstructor()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.NotFromObject.NotFromObject()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] calls.T.Q.QQ.QQQ.m1()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] constructors.PrivateConstructor.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] constructors.NoConstructor.NoConstructor()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.NotFromObject.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] calls.T.Q.QQ.QQQ.m2()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] constructors.BusyConstructor.BusyConstructor()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] calls.T.Q.QQ.QQQ.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] constructors.NoConstructor.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.NotPublic.NotPublic()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] calls.T.Q.m2()
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] constructors.PublicConstructor.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] constructors.ConstructorHasArgs.ConstructorHasArgs(int)
+##SUBTASK, Checking [ Nullable ] constructors.TooManyConstructors.TooManyConstructors(int)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] calls.T.Q.QQ.QQ()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.NotPublic.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] constructors.BusyConstructor.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] calls.T.factory2()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] constructors.ConstructorHasArgs.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.Other.Other()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] calls.T.U.U()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.Implements2.Implements2()
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] calls.T.factory()
+##SUBTASK, Checking [ Nullable ] calls.T.U.UU.UU()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] constructors.TooManyConstructors.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] constructors.ThrowsError.ThrowsError()
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.Other.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestStatic.TestStatic()
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] calls.T.Q.ACE #2.<clinit>
+##SUBTASK, Checking [ Nullable ] calls.T.Q.QQ.QQQ.ACE #6.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] calls.T.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] calls.T.Q.QQ.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] calls.T.U.UU.UUU.UUU()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] constructors.ThrowsError.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.I.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestStatic.goodMethod2()
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestStatic.badMethod1()
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] calls.T.Q.QQ.m1()
+##SUBTASK, Checking [ Nullable ] test.Implements2.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] calls.T.ACE #0.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] calls.T.Q.QQ.ACE #4.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestStatic.goodMethod1(int)
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Cleaning up after analysis
+Cleaning up after analysis
+[GC (System.gc())  123294K->63119K(406016K), 0.0065810 secs]
+[Full GC (System.gc())  63119K->36914K(406016K), 0.1242230 secs]
+##WORK, 1
+##SUBTASK_DONE
+Updating consistency proof
+##SUBTASK, Updating consistency proof
+Exporting results to TestUtilityAssurance-2015.06.23-at-15.29.50.195
+##SUBTASK, Exporting results to TestUtilityAssurance-2015.06.23-at-15.29.50.195
+Creating snapshot: /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/TestUtilityAssurance-2015.06.23-at-15.29.50.195/running_or_crashed_sea_snapshot.xml.gz
+Done in 3707 ms.
+ConcurrencyDetector	: 18 ms
+ThreadEffectsModule	: 11 ms
+StructureAnalysis	: 2 ms
+ParameterizedTypeAnalysis	: 4 ms
+EqualityAnalysis	: 50 ms
+LayersAnalysis	: 132 ms
+UtilityAnalysis	: 30 ms
+SingletonAnalysis	: 0 ms
+LockAnalysis	: 204 ms
+EffectsAnalysis	: 18 ms
+UniquenessAnalysisModule	: 0 ms
+NullablePreprocessorModule	: 11 ms
+NullableModule2	: 827 ms
+[2015-06-23 15:30:03    INFO] partial bindings = 6820 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+[2015-06-23 15:30:03    INFO] full bindings = 243 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+cached = 0
+totalT = 0
+#Performance data for TestUtilityAssurance
+#Tue Jun 23 15:30:03 EDT 2015
+jsure.Add.required=0
+jsure.All.analyses=389
+jsure.Binding.before.canon=65
+jsure.Binding.full.time=218
+jsure.Binding.partial.time=223
+jsure.Bindings.full=243
+jsure.Bindings.partial=6820
+jsure.Canonicalization=141
+jsure.Cleanup=119
+jsure.Destroy.time=5
+jsure.Drop.creation=19
+jsure.Find.canon.time=3
+jsure.Parsing=707
+jsure.Promise.parsing=488
+jsure.Promise.scrubbing=1276
+jsure.Sea.export=508
+jsure.Sea.update=60
+jsure.Total.JSure.time=3707
+jsure.Total.blocks=40
+jsure.Total.canonical=888
+jsure.Total.decls=137
+jsure.Total.destroyed=0
+jsure.Total.gced=0
+jsure.Total.loc=328
+jsure.Total.nodes=62455
+jsure.Total.stmts=77
+jsure.Total.try.destroyed=142
+jsure.analysis.ConcurrencyDetector=18
+jsure.analysis.EffectsAnalysis=18
+jsure.analysis.EqualityAnalysis=50
+jsure.analysis.LayersAnalysis=132
+jsure.analysis.LockAnalysis=204
+jsure.analysis.NullableModule2=827
+jsure.analysis.NullablePreprocessorModule=11
+jsure.analysis.ParameterizedTypeAnalysis=4
+jsure.analysis.SingletonAnalysis=0
+jsure.analysis.StructureAnalysis=2
+jsure.analysis.ThreadEffectsModule=11
+jsure.analysis.UniquenessAnalysisModule=0
+jsure.analysis.UtilityAnalysis=30
+jsure.num.threads=8
+Javac making log: AnnotationRules
+##DONE
+Renaming snapshot: /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/TestUtilityAssurance-2015.06.23-at-15.29.50.195/sea_snapshot.xml.gz
+Done with JSure!
+Scanning complete (4894 ms)
+No socket to close
+Closing std streams
+Process result after waiting = 0
