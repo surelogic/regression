@@ -1,0 +1,2501 @@
+LOCAL vm : 1.8.0_05
+Path: /Users/aarong/git/jsure/jsure-analysis/bin
+Path: /Users/aarong/git/common/common/lib/runtime/commons-codec-1.10.jar
+Path: /Users/aarong/git/common/common/lib/runtime/trove-3.0.3.jar
+Path: /Users/aarong/git/common/common/lib/runtime/antlr-3.5.2-runtime.jar
+Path: /Users/aarong/git/common/common/lib/runtime/servlet-api-3.1.jar
+Path: /Users/aarong/git/jsure/jsure-common/lib/runtime/diffutils-1.2.1.jar
+Path: /Users/aarong/git/common/common/bin
+Path: /Users/aarong/git/common/common/lib/runtime/asm-5.0.2.jar
+Path: /Users/aarong/git/jsure/jsure-analysis/lib/runtime/renamedJavac.jar
+Path: /Users/aarong/git/common/common/lib/runtime/asm-tree-5.0.2.jar
+Path: /Users/aarong/git/common/common/lib/runtime/promises-5.6.0.jar
+Path: /Users/aarong/git/jsure/jsure-analysis/lib/runtime/log4j-xml-1.3alpha-8.jar
+Path: /Users/aarong/git/common/common/lib/runtime/derby-10.11.1.1.jar
+Path: /Users/aarong/git/jsure/jsure-common/bin
+Path: /Users/aarong/git/common/common/lib/runtime/ant-1.9.4.jar
+Path: /Users/aarong/git/common/common/lib/runtime/collections-generic-4.0.jar
+Path: /Users/aarong/git/jsure/jsure-analysis/lib/runtime/log4j-1.3alpha-8.jar
+Path: /Users/aarong/git/common/common/lib/runtime/asm-commons-5.0.2.jar
+Path: /Users/aarong/git/common/common/lib/runtime/commons-lang3-3.3.2.jar
+Path: /Users/aarong/git/common/common/lib/runtime/commons-io-2.4.jar
+Starting process:
+	/Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/jre/bin/java
+	-Dsl.running.in.remote.vm=true
+	-Dsurelogic.test.code=NONE
+	-XX:MaxPermSize=512m
+	-verbosegc
+	-DSureLogicX=true
+	-Dsl.run.dir=/Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/TestRegionSanityChec-2015.06.23-at-15.18.23.323
+	-Dfluid.ir.versioning=Versioning.Off
+	-Dfluid.directory.url=file:/Eclipses/eclipse-standard-luna-SR2-macosx-cocoa-x86_64/../../Users/aarong/git/jsure/jsure-analysis/
+	-Xmx2048m
+	-classpath
+	/Users/aarong/git/jsure/jsure-analysis/bin:/Users/aarong/git/common/common/lib/runtime/commons-codec-1.10.jar:/Users/aarong/git/common/common/lib/runtime/trove-3.0.3.jar:/Users/aarong/git/common/common/lib/runtime/antlr-3.5.2-runtime.jar:/Users/aarong/git/common/common/lib/runtime/servlet-api-3.1.jar:/Users/aarong/git/jsure/jsure-common/lib/runtime/diffutils-1.2.1.jar:/Users/aarong/git/common/common/bin:/Users/aarong/git/common/common/lib/runtime/asm-5.0.2.jar:/Users/aarong/git/jsure/jsure-analysis/lib/runtime/renamedJavac.jar:/Users/aarong/git/common/common/lib/runtime/asm-tree-5.0.2.jar:/Users/aarong/git/common/common/lib/runtime/promises-5.6.0.jar:/Users/aarong/git/jsure/jsure-analysis/lib/runtime/log4j-xml-1.3alpha-8.jar:/Users/aarong/git/common/common/lib/runtime/derby-10.11.1.1.jar:/Users/aarong/git/jsure/jsure-common/bin:/Users/aarong/git/common/common/lib/runtime/ant-1.9.4.jar:/Users/aarong/git/common/common/lib/runtime/collections-generic-4.0.jar:/Users/aarong/git/jsure/jsure-analysis/lib/runtime/log4j-1.3alpha-8.jar:/Users/aarong/git/common/common/lib/runtime/asm-commons-5.0.2.jar:/Users/aarong/git/common/common/lib/runtime/commons-lang3-3.3.2.jar:/Users/aarong/git/common/common/lib/runtime/commons-io-2.4.jar
+	com.surelogic.javac.jobs.RemoteJSureRun
+
+First line in REMOTE vm = Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=512m; support was removed in 8.0
+[GC (Allocation Failure)  512K->520K(327168K), 0.0021530 secs]
+[GC (Allocation Failure)  1026K->603K(327680K), 0.0010330 secs]
+[GC (Allocation Failure)  1625K->755K(327680K), 0.0011440 secs]
+[GC (Allocation Failure)  1779K->787K(328704K), 0.0010910 secs]
+JVM started: 1.8.0_05
+Log level: INFO
+Created reader
+Created monitor
+Created log handler
+Running RemoteJSureRun
+[GC (Allocation Failure)  2835K->1003K(328704K), 0.0010920 secs]
+[GC (Allocation Failure)  3051K->1267K(331264K), 0.0011640 secs]
+[GC (Allocation Failure)  5363K->1595K(331264K), 0.0015240 secs]
+[GC (Allocation Failure)  5691K->1747K(335360K), 0.0010840 secs]
+runPath = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/TestRegionSanityChec-2015.06.23-at-15.18.23.323
+Creating run: TestRegionSanityChec-2015.06.23-at-15.18.23.323
+projects = TestRegionSanityChecks
+Loading edu.cmu.cs.fluid.make.nonabductive.proposals = false
+Loading edu.cmu.cs.fluid.load.all.classes = false
+Loading edu.cmu.cs.fluid.timeoutFlag = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BCA = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ConstantExpr = false
+Loading edu.cmu.cs.fluid.physMemoryInMB = 20480
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.EqualityAssurance = true
+Loading edu.cmu.cs.fluid.xml.diff.directory = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/promises-xml
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.UniquenessAssuranceUWM = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.IRConcurrencyDetector = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Singleton = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.CALLS = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BenchmarkingUniquenessSE = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ThreadEffectAssurance2 = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Binder = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.cliend.eclipse.TypeBasedAlias = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Nullable = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.TestIsFunctional = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.UniquenessAssuranceUWM_SE = false
+Loading edu.cmu.cs.fluid.tool-memory-mb = 2048
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.DefinitelyAssigned = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.UniquenessAssuranceSE = true
+Loading edu.cmu.cs.fluid.analysis.thread.count = 8
+Loading edu.cmu.cs.fluid.timeoutSec = 11
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.NonNullRawTypes = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LayersAssurance = true
+Loading edu.cmu.cs.fluid.default.JRE = org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Loading edu.cmu.cs.fluid.timeoutWarningSec = 30
+Loading edu.cmu.cs.fluid.modeling.problem.filters = 00000012com\.apple.*00000013com\.oracle.*00000010com\.sun.*00000014.*\.internal.*00000023.*BakedArrayList\.class00000007apple.*00000008oracle.*00000011quicktime.*00000005sun.*
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Utility = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BenchmarkingUniquenessNew_SE = false
+Loading edu.cmu.cs.fluid.scan.may.use.compression = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ParameterizedType = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Final = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LockAssurance3 = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BenchmarkingUniquenessNew = false
+Loading edu.cmu.cs.fluid.data.directory = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.NullablePreprocessor = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.EffectAssurance2 = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LV = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.StructureAssurance = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Types = false
+JSure data dir = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data
+XML diff dir   = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/promises-xml
+Looking for JRE in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+default JRE = org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Initialized job
+Created com.surelogic.analysis.concurrency.detector.ConcurrencyDetector
+Starting a new group for ConcurrencyDetector
+Created com.surelogic.analysis.threads.ThreadEffectsModule
+Created com.surelogic.analysis.structure.StructureAnalysis
+Created com.surelogic.analysis.annotationbounds.ParameterizedTypeAnalysis
+Created com.surelogic.analysis.equality.EqualityAnalysis
+Created com.surelogic.analysis.layers.LayersAnalysis
+Created com.surelogic.analysis.utility.UtilityAnalysis
+Starting a new group for UtilityAnalysis
+Group: EXTERNALLY
+	ConcurrencyDetector
+	ThreadEffectsModule
+	StructureAnalysis
+	ParameterizedTypeAnalysis
+	EqualityAnalysis
+	LayersAnalysis
+Created com.surelogic.analysis.singleton.SingletonAnalysis
+[GC (Allocation Failure)  9939K->2275K(335360K), 0.0017960 secs]
+Created com.surelogic.analysis.concurrency.driver.LockAnalysis
+Created com.surelogic.analysis.effects.EffectsAnalysis
+Created com.surelogic.analysis.uniqueness.classic.sideeffecting.UniquenessAnalysisModule
+Starting a new group for UniquenessAnalysisModule
+Group: com.surelogic.analysis.visitors.TopLevelAnalysisVisitor$1@69663380, EXTERNALLY
+	UtilityAnalysis
+	SingletonAnalysis
+	LockAnalysis
+	EffectsAnalysis
+Created com.surelogic.analysis.nullable.NullablePreprocessorModule
+Starting a new group for NullablePreprocessorModule
+Group: com.surelogic.analysis.uniqueness.classic.sideeffecting.UniquenessAnalysisModule$1@5b37e0d2, class com.surelogic.analysis.bca.BindingContextAnalysis, INTERNALLY
+	UniquenessAnalysisModule
+Created com.surelogic.analysis.nullable.NullableModule2
+Starting a new group for NullableModule2
+Group: EXTERNALLY
+	NullablePreprocessorModule
+Group: com.surelogic.analysis.granules.FlowUnitGranulator@4459eb14, EXTERNALLY
+	NullableModule2
+##TASK, Scan, 682
+Initializing ...
+##SUBTASK, Initializing ...
+monitor = com.surelogic.common.jobs.remote.AbstractRemoteSLJob$Monitor@5a2e4553
+singleThread = false
+[GC (Allocation Failure)  10467K->2595K(340992K), 0.0019740 secs]
+[GC (Allocation Failure)  15801K->10433K(340992K), 0.0052630 secs]
+[GC (Allocation Failure)  23718K->23654K(350720K), 0.0089210 secs]
+[GC (Allocation Failure)  44134K->43849K(351744K), 0.0128870 secs]
+Done initializing org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: 0
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/resources.jar
+[GC (Allocation Failure)  64329K->47265K(365056K), 0.0049800 secs]
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/rt.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jsse.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jce.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/charsets.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jfr.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/dnsns.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/localedata.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunec.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunjce_provider.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunpkcs11.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/zipfs.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /System/Library/Java/Extensions/MRJToolkit.jar
+Done initializing TestRegionSanityChecks: 42
+Trying to find /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/TestRegionSanityChec-2015.06.23-at-15.18.23.323/source/TestRegionSanityChecks.bin.zip
+TestRegionSanityChecks: TestRegionSanityChecks -> org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Done initializing org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: 0
+TestRegionSanityChecks: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/resources.jar
+[GC (Allocation Failure)  80033K->53677K(365056K), 0.0073170 secs]
+TestRegionSanityChecks: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/rt.jar
+TestRegionSanityChecks: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jsse.jar
+TestRegionSanityChecks: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jce.jar
+TestRegionSanityChecks: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/charsets.jar
+TestRegionSanityChecks: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jfr.jar
+TestRegionSanityChecks: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/dnsns.jar
+TestRegionSanityChecks: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/localedata.jar
+TestRegionSanityChecks: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunec.jar
+TestRegionSanityChecks: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunjce_provider.jar
+TestRegionSanityChecks: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunpkcs11.jar
+TestRegionSanityChecks: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/zipfs.jar
+TestRegionSanityChecks: Done initializing with /System/Library/Java/Extensions/MRJToolkit.jar
+TestRegionSanityChecks: Done initializing with /Users/aarong/git/regression/regression/TestRegionSanityChecks/promises-5.6.0.jar
+##SUBTASK_DONE
+##WORK, 1
+Assuming that the projects are run in dependency order
+Parsing ...
+##SUBTASK, Parsing ...
+Done adapting 0 files for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK_DONE
+##WORK, 1
+Parsing ...
+##SUBTASK, Parsing ...
+JCP: warning: [options] bootstrap class path not set in conjunction with -source 1.7
+[GC (Allocation Failure)  86445K->61507K(386560K), 0.0126400 secs]
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+Adapting 42 CUTs
+Done adapting 42 files for TestRegionSanityChecks
+##SUBTASK_DONE
+##WORK, 1
+Handling references for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Handling references for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 21 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Setting project for Object from org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 44 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 55 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 51 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 32 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 17 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 8 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 12 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 15 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 4 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+[GC (Allocation Failure)  113219K->66670K(387584K), 0.0132180 secs]
+Handling 2 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK_DONE
+##WORK, 1
+Handling references for TestRegionSanityChecks
+##SUBTASK, Handling references for TestRegionSanityChecks
+Handling 25 dangling refs for TestRegionSanityChecks
+Handling 5 dangling refs for TestRegionSanityChecks
+##SUBTASK_DONE
+##WORK, 1
+Updated 262 files in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Updated 72 files in TestRegionSanityChecks
+Parsing ASTs  = 489 ms
+Handling refs = 377 ms
+[2015-06-23 15:18:25    INFO] partial bindings = 0 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+[2015-06-23 15:18:25    INFO] full bindings = 0 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+Canonicalizing ASTs
+##SUBTASK, Canonicalizing ASTs
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+[2015-06-23 15:18:25    INFO] partial bindings = 71 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+[2015-06-23 15:18:25    INFO] full bindings = 1468 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+Canonicalizing TestRegionSanityChecks/src/region/accessibility/samePackage/PublicSuper.java
+##WORK, 1
+Canonicalizing TestRegionSanityChecks/src/inRegion/accessibility/samePackage/ParentIsPublicSuper.java
+##WORK, 1
+Canonicalizing TestRegionSanityChecks/src/region/accessibility/differentPackages/p1/ParentIsDefaultSuper.java
+##WORK, 1
+Canonicalizing TestRegionSanityChecks/src/region/visibility/Super.java
+##WORK, 1
+Canonicalizing TestRegionSanityChecks/src/inRegion/accessibility/samePackage/ParentIsDefaultSuper.java
+##WORK, 1
+Canonicalizing TestRegionSanityChecks/src/inRegion/accessibility/samePackage/DefaultSuper.java
+##WORK, 1
+Canonicalizing TestRegionSanityChecks/src/region/visibility/Test.java
+##WORK, 1
+Canonicalizing TestRegionSanityChecks/src/region/noCycles/Test.java
+##WORK, 1
+Canonicalizing TestRegionSanityChecks/src/region/accessibility/samePackage/DefaultSuper.java
+##WORK, 1
+Canonicalizing TestRegionSanityChecks/src/inRegion/accessibility/differentPackages/p2/ParentIsDefaultSuper2.java
+##WORK, 1
+Canonicalizing TestRegionSanityChecks/src/region/accessibility/differentPackages/p2/ParentIsPublicSuper.java
+##WORK, 1
+Canonicalizing TestRegionSanityChecks/src/region/nonFieldParent/Test.java
+##WORK, 1
+Canonicalizing TestRegionSanityChecks/src/inRegion/staticParents/Test.java
+##WORK, 1
+Canonicalizing TestRegionSanityChecks/src/inRegion/parentMustExist/Other.java
+##WORK, 1
+Canonicalizing TestRegionSanityChecks/src/inRegion/accessibility/differentPackages/p1/PublicSuper.java
+##WORK, 1
+Canonicalizing TestRegionSanityChecks/src/region/parentMustExist/Test.java
+##WORK, 1
+Canonicalizing TestRegionSanityChecks/src/region/parentMustExist/Other.java
+##WORK, 1
+Canonicalizing TestRegionSanityChecks/src/inRegion/nonFieldParent/Super.java
+##WORK, 1
+Canonicalizing TestRegionSanityChecks/src/region/accessibility/samePackage/ParentIsPublicSuper.java
+##WORK, 1
+Canonicalizing TestRegionSanityChecks/src/inRegion/finalFields/C.java
+##WORK, 1
+Canonicalizing TestRegionSanityChecks/src/region/parentMustExist/Super.java
+##WORK, 1
+Canonicalizing TestRegionSanityChecks/src/inRegion/parentMustExist/Child.java
+##WORK, 1
+Canonicalizing TestRegionSanityChecks/src/inRegion/parentMustExist/Super.java
+##WORK, 1
+Canonicalizing TestRegionSanityChecks/src/region/staticParents/Test.java
+##WORK, 1
+Canonicalizing TestRegionSanityChecks/src/inRegion/accessibility/samePackage/PublicSuper.java
+##WORK, 1
+Canonicalizing TestRegionSanityChecks/src/inRegion/staticParents/Super.java
+##WORK, 1
+Canonicalizing TestRegionSanityChecks/src/region/nonFieldParent/Super.java
+##WORK, 1
+Canonicalizing TestRegionSanityChecks/src/region/uniqueRegion/Test.java
+##WORK, 1
+Canonicalizing TestRegionSanityChecks/src/region/uniqueRegion/Super.java
+##WORK, 1
+Canonicalizing TestRegionSanityChecks/src/region/staticParents/Super.java
+##WORK, 1
+Canonicalizing TestRegionSanityChecks/src/inRegion/nonFieldParent/Test.java
+##WORK, 1
+Canonicalizing TestRegionSanityChecks/src/region/accessibility/differentPackages/p1/PublicSuper.java
+##WORK, 1
+Canonicalizing TestRegionSanityChecks/src/inRegion/accessibility/differentPackages/p2/ParentIsPublicSuper.java
+##WORK, 1
+Canonicalizing TestRegionSanityChecks/src/region/accessibility/differentPackages/p2/ParentIsDefaultSuper2.java
+##WORK, 1
+Canonicalizing TestRegionSanityChecks/src/inRegion/parentMustExist/Test.java
+##WORK, 1
+Canonicalizing TestRegionSanityChecks/src/inRegion/visibility/Test.java
+##WORK, 1
+Canonicalizing TestRegionSanityChecks/src/region/accessibility/samePackage/ParentIsDefaultSuper.java
+##WORK, 1
+Canonicalizing TestRegionSanityChecks/src/region/accessibility/differentPackages/p1/DefaultSuper.java
+##WORK, 1
+Canonicalizing TestRegionSanityChecks/src/inRegion/visibility/Super.java
+##WORK, 1
+Canonicalizing TestRegionSanityChecks/src/inRegion/accessibility/differentPackages/p1/ParentIsDefaultSuper.java
+##WORK, 1
+Canonicalizing TestRegionSanityChecks/src/region/parentMustExist/Child.java
+##WORK, 1
+Canonicalizing TestRegionSanityChecks/src/inRegion/accessibility/differentPackages/p1/DefaultSuper.java
+##WORK, 1
+Binding = 83 ms
+##SUBTASK_DONE
+##WORK, 1
+Handling references for TestRegionSanityChecks
+##SUBTASK, Handling references for TestRegionSanityChecks
+Handling 21 dangling refs for TestRegionSanityChecks
+##SUBTASK_DONE
+##WORK, 1
+Handling references for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Handling references for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 21 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK_DONE
+##WORK, 1
+Updated 262 files in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Updated 72 files in TestRegionSanityChecks
+[GC (System.gc())  80144K->66991K(411648K), 0.0103220 secs]
+[Full GC (System.gc())  66991K->55051K(411648K), 0.1031140 secs]
+Creating drops
+##SUBTASK, Creating drops
+Created binary drop for java.lang.Character
+Created binary drop for java.util.Deque
+Created source drop for file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/parentMustExist/Test.java
+Created binary drop for java.nio.file.attribute.FileAttributeView
+Created binary drop for java.security.NoSuchProviderException
+Created binary drop for java.util.MissingResourceException
+Created source drop for file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/accessibility/differentPackages/p1/PublicSuper.java
+Created binary drop for java.lang.Enum
+Created binary drop for java.security.DomainCombiner
+Created binary drop for java.lang.NumberFormatException
+Created binary drop for java.security.AccessControlContext
+Created binary drop for java.lang.Cloneable
+Created binary drop for java.util.concurrent.locks.Lock
+Created source drop for file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/visibility/Test.java
+Created source drop for file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/accessibility/samePackage/ParentIsDefaultSuper.java
+Created binary drop for java.nio.channels.FileLock
+Created binary drop for java.net.UnknownHostException
+Created binary drop for java.util.AbstractSet
+Created binary drop for java.util.Date
+Created binary drop for java.nio.FloatBuffer
+Created binary drop for sun.util.resources.OpenListResourceBundle
+Created binary drop for java.nio.channels.ByteChannel
+Created source drop for file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/parentMustExist/Super.java
+Created source drop for file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/accessibility/differentPackages/p2/ParentIsPublicSuper.java
+Created binary drop for java.nio.ByteBuffer
+Created binary drop for java.util.concurrent.ConcurrentMap
+Created binary drop for java.io.FilterOutputStream
+Created source drop for file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/staticParents/Test.java
+Created binary drop for java.lang.Comparable
+Created binary drop for java.nio.file.attribute.FileStoreAttributeView
+Created binary drop for java.nio.file.WatchKey
+Created binary drop for java.net.FileNameMap
+Created binary drop for java.io.Serializable
+Created binary drop for java.security.cert.CertificateEncodingException
+Created binary drop for java.util.SortedMap
+Created binary drop for java.lang.Object
+Created binary drop for java.lang.StackTraceElement
+Created binary drop for sun.misc.MetaIndex
+Created binary drop for java.util.Vector
+Created source drop for file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/staticParents/Test.java
+Created binary drop for java.security.Key
+Created binary drop for java.util.spi.LocaleNameProvider
+Created binary drop for java.net.URL
+Created binary drop for java.util.jar.Manifest
+Created source drop for file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/uniqueRegion/Super.java
+Created binary drop for sun.security.util.Debug
+Created binary drop for java.net.NetworkInterface
+Created binary drop for java.util.AbstractCollection
+Created binary drop for sun.misc.Resource
+Created binary drop for java.util.Locale
+Created binary drop for java.lang.Double
+Created binary drop for java.lang.ClassValue
+Created binary drop for java.security.PrivilegedAction
+Created binary drop for com.surelogic.InRegion
+Created binary drop for java.util.concurrent.Callable
+Created binary drop for java.nio.file.CopyOption
+Created binary drop for java.security.AccessControlException
+Created binary drop for java.lang.InstantiationException
+Created binary drop for java.lang.ref.SoftReference
+Created binary drop for sun.nio.ch.Interruptible
+Created binary drop for java.lang.Void
+Created binary drop for java.nio.channels.Channel
+Created binary drop for java.nio.file.spi.FileSystemProvider
+Created binary drop for java.net.MalformedURLException
+Created binary drop for java.nio.file.DirectoryStream
+Created binary drop for sun.util.locale.Extension
+Created binary drop for java.lang.reflect.Method
+Created binary drop for java.util.jar.JarFile
+Created binary drop for java.lang.reflect.Member
+Created binary drop for java.util.zip.ZipFile
+Created binary drop for java.nio.file.WatchEvent
+Created source drop for file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/accessibility/differentPackages/p1/DefaultSuper.java
+Created binary drop for java.io.FilenameFilter
+Created binary drop for java.security.Guard
+Created binary drop for java.lang.ref.ReferenceQueue
+Created source drop for file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/parentMustExist/Other.java
+Created source drop for file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/visibility/Super.java
+Created binary drop for java.nio.file.attribute.AttributeView
+Created source drop for file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/accessibility/samePackage/PublicSuper.java
+Created binary drop for java.lang.Integer
+Created binary drop for java.math.BigInteger
+Created source drop for file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/accessibility/samePackage/ParentIsPublicSuper.java
+Created binary drop for java.lang.CloneNotSupportedException
+Created binary drop for sun.reflect.ConstantPool
+Created binary drop for java.lang.Class
+Created binary drop for java.lang.IllegalAccessException
+Created binary drop for java.nio.charset.CharacterCodingException
+Created binary drop for java.security.PublicKey
+Created binary drop for sun.misc.JarIndex
+Created source drop for file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/parentMustExist/Other.java
+Created binary drop for java.io.SyncFailedException
+Created binary drop for java.lang.Short
+Created source drop for file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/nonFieldParent/Super.java
+Created binary drop for java.security.KeyException
+Created binary drop for java.io.Writer
+Created binary drop for java.lang.StringBuffer
+Created binary drop for java.net.InetAddress
+Created binary drop for java.lang.Runnable
+Created binary drop for java.util.HashMap
+Created source drop for file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/accessibility/differentPackages/p2/ParentIsDefaultSuper2.java
+Created binary drop for java.net.InetAddressImpl
+Created binary drop for java.util.Comparator
+Created binary drop for java.util.Stack
+Created binary drop for java.security.InvalidKeyException
+Created binary drop for java.lang.Thread
+Created source drop for file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/accessibility/samePackage/PublicSuper.java
+Created binary drop for sun.util.locale.LocaleObjectCache
+Created binary drop for java.lang.ThreadLocal
+Created binary drop for java.lang.Exception
+Created binary drop for sun.util.locale.ParseStatus
+Created binary drop for java.nio.LongBuffer
+Created binary drop for java.lang.annotation.Documented
+Created binary drop for java.lang.AbstractStringBuilder
+Created binary drop for java.lang.Iterable
+Created binary drop for java.util.WeakHashMap
+Created binary drop for java.nio.charset.CharsetDecoder
+Created binary drop for java.nio.file.attribute.GroupPrincipal
+Created binary drop for java.io.ObjectStreamException
+Created binary drop for java.util.concurrent.Executor
+Created binary drop for java.util.jar.JarEntry
+Created binary drop for java.util.Hashtable
+Created binary drop for java.lang.reflect.Type
+Created binary drop for java.util.zip.ZipConstants
+Created binary drop for java.util.Iterator
+Created binary drop for java.nio.file.attribute.FileAttribute
+Created source drop for file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/accessibility/differentPackages/p1/ParentIsDefaultSuper.java
+Created binary drop for java.io.IOException
+Created binary drop for java.nio.file.WatchService
+Created binary drop for java.net.URISyntaxException
+Created binary drop for java.nio.file.attribute.BasicFileAttributes
+Created binary drop for java.util.jar.Attributes
+Created binary drop for java.util.Enumeration
+Created binary drop for java.lang.Appendable
+Created binary drop for java.util.zip.ZipEntry
+Created binary drop for java.nio.MappedByteBuffer
+Created binary drop for java.nio.file.OpenOption
+Created binary drop for java.nio.IntBuffer
+Created binary drop for java.io.UnsupportedEncodingException
+Created binary drop for java.security.cert.Certificate
+Created binary drop for java.lang.Package
+Created binary drop for java.io.PrintStream
+Created binary drop for java.lang.ThreadGroup
+Created binary drop for java.lang.reflect.Constructor
+Created binary drop for java.security.GeneralSecurityException
+Created binary drop for java.util.AbstractList
+Created binary drop for java.nio.charset.Charset
+Created source drop for file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/staticParents/Super.java
+Created binary drop for java.nio.channels.CompletionHandler
+Created binary drop for java.nio.charset.CharsetEncoder
+Created binary drop for java.lang.Float
+Created binary drop for java.nio.ShortBuffer
+Created binary drop for sun.reflect.ReflectionFactory
+Created source drop for file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/accessibility/differentPackages/p1/ParentIsDefaultSuper.java
+Created source drop for file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/visibility/Super.java
+Created binary drop for java.util.ResourceBundle
+Created binary drop for java.nio.file.FileSystem
+Created binary drop for java.nio.file.PathMatcher
+Created binary drop for java.nio.channels.WritableByteChannel
+Created binary drop for java.nio.channels.InterruptibleChannel
+Created binary drop for java.lang.IllegalArgumentException
+Created source drop for file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/parentMustExist/Child.java
+Created binary drop for java.nio.CharBuffer
+Created binary drop for java.nio.channels.ReadableByteChannel
+Created binary drop for com.surelogic.Regions
+Created binary drop for java.nio.file.AccessMode
+Created binary drop for java.net.UnknownServiceException
+Created binary drop for java.io.DataOutput
+Created binary drop for java.net.Proxy
+Created binary drop for java.util.Collection
+Created source drop for file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/accessibility/samePackage/ParentIsDefaultSuper.java
+Created binary drop for java.security.CodeSigner
+Created binary drop for java.util.zip.Inflater
+Created source drop for file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/visibility/Test.java
+Created source drop for file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/accessibility/samePackage/DefaultSuper.java
+Created binary drop for java.nio.file.attribute.UserPrincipal
+Created binary drop for java.io.DataOutputStream
+Created binary drop for java.lang.annotation.RetentionPolicy
+Created binary drop for java.util.concurrent.TimeUnit
+Created binary drop for java.lang.Readable
+Created binary drop for java.lang.reflect.AnnotatedElement
+Created source drop for file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/parentMustExist/Test.java
+Created binary drop for java.util.ArrayList
+Created binary drop for java.net.ContentHandler
+Created binary drop for java.lang.annotation.Annotation
+Created binary drop for java.nio.channels.FileChannel
+Created binary drop for java.nio.channels.ScatteringByteChannel
+Created binary drop for java.nio.file.attribute.FileTime
+Created binary drop for java.util.ListIterator
+Created binary drop for java.lang.ClassLoader
+Created binary drop for java.security.Principal
+Created binary drop for java.lang.SecurityException
+Created binary drop for java.nio.charset.CoderResult
+Created binary drop for java.net.SocketAddress
+Created source drop for file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/accessibility/samePackage/ParentIsPublicSuper.java
+Created binary drop for java.lang.Byte
+Created binary drop for java.lang.InterruptedException
+Created binary drop for sun.util.locale.BaseLocale
+Created binary drop for java.util.Dictionary
+Created binary drop for java.io.FilterInputStream
+Created source drop for file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/noCycles/Test.java
+Created binary drop for java.net.ContentHandlerFactory
+Created binary drop for java.io.OutputStream
+Created binary drop for java.nio.file.attribute.UserPrincipalLookupService
+Created binary drop for java.lang.reflect.TypeVariable
+Created binary drop for java.lang.Number
+Created source drop for file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/nonFieldParent/Super.java
+Created binary drop for java.io.Closeable
+Created source drop for file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/uniqueRegion/Test.java
+Created binary drop for java.security.CodeSource
+Created binary drop for java.io.FileDescriptor
+Created binary drop for java.nio.file.Path
+Created binary drop for java.util.AbstractSequentialList
+Created binary drop for sun.misc.URLClassPath
+Created binary drop for java.net.InterfaceAddress
+Created binary drop for java.security.cert.CertPath
+Created binary drop for java.lang.Throwable
+Created binary drop for sun.util.locale.LocaleExtensions
+Created binary drop for java.nio.channels.AsynchronousFileChannel
+Created binary drop for sun.reflect.ConstructorAccessor
+Created source drop for file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/finalFields/C.java
+Created binary drop for java.util.Queue
+Created binary drop for java.lang.ReflectiveOperationException
+Created binary drop for java.lang.ref.Reference
+Created binary drop for java.nio.Buffer
+Created binary drop for java.net.URI
+Created binary drop for java.io.FileFilter
+Created binary drop for java.util.AbstractMap
+Created binary drop for java.nio.file.LinkOption
+Created binary drop for java.util.concurrent.locks.ReadWriteLock
+Created binary drop for sun.util.locale.InternalLocaleBuilder
+Created binary drop for java.lang.SuppressWarnings
+Created binary drop for java.nio.channels.GatheringByteChannel
+Created binary drop for java.security.Timestamp
+Created binary drop for sun.reflect.CallerSensitive
+Created binary drop for java.util.List
+Created binary drop for java.lang.reflect.Field
+Created source drop for file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/staticParents/Super.java
+Created binary drop for java.util.concurrent.locks.Condition
+Created binary drop for java.nio.channels.spi.AbstractInterruptibleChannel
+Created binary drop for sun.reflect.MethodAccessor
+Created binary drop for sun.util.locale.LocaleSyntaxException
+Created binary drop for java.nio.file.Watchable
+Created binary drop for java.util.LinkedList
+Created binary drop for java.lang.reflect.GenericDeclaration
+Created binary drop for java.io.InputStream
+Created binary drop for java.lang.reflect.InvocationTargetException
+Created source drop for file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/accessibility/differentPackages/p1/DefaultSuper.java
+Created source drop for file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/parentMustExist/Super.java
+Created binary drop for java.lang.annotation.Target
+Created binary drop for java.nio.file.FileStore
+Created binary drop for java.nio.charset.CodingErrorAction
+Created binary drop for java.lang.StringBuilder
+Created binary drop for java.io.File
+Created binary drop for java.util.Map
+Created binary drop for java.lang.reflect.AccessibleObject
+Created binary drop for java.io.Flushable
+Created binary drop for java.lang.String
+Created binary drop for java.util.Random
+Created source drop for file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/parentMustExist/Child.java
+Created binary drop for java.lang.ref.WeakReference
+Created binary drop for java.lang.Long
+Created binary drop for java.nio.channels.AsynchronousCloseException
+Created binary drop for java.lang.annotation.Retention
+Created binary drop for java.lang.Deprecated
+Created binary drop for java.util.zip.InflaterInputStream
+Created binary drop for java.util.concurrent.ExecutorService
+Created source drop for file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/nonFieldParent/Test.java
+Created binary drop for java.nio.DoubleBuffer
+Created binary drop for java.io.FileNotFoundException
+Created binary drop for java.net.URLStreamHandlerFactory
+Created binary drop for java.security.ProtectionDomain
+Created binary drop for sun.util.locale.LanguageTag
+Created binary drop for java.util.zip.DataFormatException
+Created binary drop for java.util.spi.LocaleServiceProvider
+Created binary drop for java.security.SignatureException
+Created binary drop for java.util.concurrent.Future
+Created source drop for file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/accessibility/samePackage/DefaultSuper.java
+Created binary drop for java.lang.annotation.ElementType
+Created source drop for file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/accessibility/differentPackages/p1/PublicSuper.java
+Created source drop for file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/accessibility/differentPackages/p2/ParentIsPublicSuper.java
+Created source drop for file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/accessibility/differentPackages/p2/ParentIsDefaultSuper2.java
+Created binary drop for java.io.PrintWriter
+Created binary drop for java.util.zip.ZipException
+Created binary drop for java.security.PermissionCollection
+Created binary drop for java.lang.NoSuchFieldException
+Created binary drop for java.util.RandomAccess
+Created binary drop for java.net.SocketException
+Created binary drop for java.security.cert.CertificateException
+Created binary drop for java.util.Set
+Created binary drop for java.lang.Boolean
+Created binary drop for java.nio.ByteOrder
+Created binary drop for java.security.NoSuchAlgorithmException
+Created binary drop for java.nio.channels.AsynchronousChannel
+Created binary drop for sun.reflect.annotation.AnnotationType
+Created binary drop for java.lang.AutoCloseable
+Created binary drop for java.lang.CharSequence
+Created binary drop for java.nio.channels.ClosedChannelException
+Created binary drop for sun.util.LocaleServiceProviderPool
+Created binary drop for java.nio.channels.SeekableByteChannel
+Created binary drop for sun.reflect.FieldAccessor
+Created binary drop for java.net.URLStreamHandler
+Created binary drop for com.surelogic.Region
+Created binary drop for sun.reflect.LangReflectAccess
+Created binary drop for java.lang.RuntimeException
+Created binary drop for java.security.Permission
+Created source drop for file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/nonFieldParent/Test.java
+Created binary drop for java.net.URLConnection
+##SUBTASK_DONE
+##WORK, 1
+Parsing promises
+##SUBTASK, Parsing promises
+Added 3 promises for java.lang.[] in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@799f7e29
+Added 3 promises for java.lang.[] in TestRegionSanityChecks: com.surelogic.tree.SyntaxTreeNode@5034f5dd
+Javac making log: AnnotationRules
+Added 7 promises for region.parentMustExist.Test in TestRegionSanityChecks: com.surelogic.tree.SyntaxTreeNode@41eaf694
+Added 8 promises for region.accessibility.differentPackages.p1.PublicSuper in TestRegionSanityChecks: com.surelogic.tree.SyntaxTreeNode@44ed4f30
+Added 6 promises for java.lang.NumberFormatException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@46e2d801
+Added 17 promises for java.util.concurrent.ConcurrentMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@62bbf670
+Added 64 promises for java.util.Map in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@56f99bbc
+Added 10 promises for inRegion.staticParents.Test in TestRegionSanityChecks: com.surelogic.tree.SyntaxTreeNode@3725ddf5
+Added 87 promises for java.util.Deque in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@354c5852
+Added 2 promises for java.lang.ref.SoftReference in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4a9fb5ca
+Added 31 promises for java.lang.Object in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@b9d8368
+Added 72 promises for inRegion.visibility.Test in TestRegionSanityChecks: com.surelogic.tree.SyntaxTreeNode@70eb4b8
+Added 72 promises for inRegion.accessibility.differentPackages.p2.ParentIsPublicSuper in TestRegionSanityChecks: com.surelogic.tree.SyntaxTreeNode@2258b43c
+Added 1 promises for region.parentMustExist.Other in TestRegionSanityChecks: com.surelogic.tree.SyntaxTreeNode@62699bb2
+Added 8 promises for inRegion.accessibility.differentPackages.p1.PublicSuper in TestRegionSanityChecks: com.surelogic.tree.SyntaxTreeNode@6eda8ead
+Added 13 promises for java.lang.Enum in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3974d1a6
+Added 1 promises for inRegion.nonFieldParent.Super in TestRegionSanityChecks: com.surelogic.tree.SyntaxTreeNode@1fbb1a23
+Added 1 promises for inRegion.parentMustExist.Super in TestRegionSanityChecks: com.surelogic.tree.SyntaxTreeNode@537ad938
+Added 6 promises for java.lang.NoSuchFieldException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6b54d905
+Added 6 promises for java.io.Writer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@b4ce803
+Added 55 promises for java.util.AbstractCollection in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@301cf4e3
+Added 7 promises for java.util.concurrent.locks.ReadWriteLock in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@748cebb6
+Added 31 promises for java.util.SortedMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@477beebd
+Added 108 promises for java.util.AbstractMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3fe763f4
+Added 10 promises for region.staticParents.Test in TestRegionSanityChecks: com.surelogic.tree.SyntaxTreeNode@56eaa654
+Added 3 promises for java.util.Locale in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@167530b4
+Added 72 promises for region.accessibility.samePackage.ParentIsDefaultSuper in TestRegionSanityChecks: com.surelogic.tree.SyntaxTreeNode@36084496
+Added 3 promises for java.util.jar.Manifest in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@213357a4
+Added 1 promises for inRegion.parentMustExist.Other in TestRegionSanityChecks: com.surelogic.tree.SyntaxTreeNode@54f893b9
+Added 4 promises for java.util.Enumeration in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@63293ab1
+Added 80 promises for region.accessibility.samePackage.PublicSuper in TestRegionSanityChecks: com.surelogic.tree.SyntaxTreeNode@5fce1082
+Added 6 promises for java.lang.Appendable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@60f28b21
+Added 6 promises for java.lang.InstantiationException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6e7c44c4
+Added 70 promises for java.lang.Double in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6029e5d9
+Added 18 promises for java.net.URISyntaxException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4185213d
+Added 8 promises for region.accessibility.differentPackages.p1.DefaultSuper in TestRegionSanityChecks: com.surelogic.tree.SyntaxTreeNode@243e3639
+Added 6 promises for java.lang.IllegalAccessException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@12f0fbc9
+Added 96 promises for java.lang.Integer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2e87c55
+Added 72 promises for region.accessibility.samePackage.ParentIsPublicSuper in TestRegionSanityChecks: com.surelogic.tree.SyntaxTreeNode@7f4724e7
+Added 8 promises for inRegion.visibility.Super in TestRegionSanityChecks: com.surelogic.tree.SyntaxTreeNode@31959a71
+Added 73 promises for java.lang.Float in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@29718d98
+Added 60 promises for java.util.AbstractList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@530d7236
+WARNING: TreeAccessor couldn't find equals(java.lang.Object) in java.util.ArrayList
+WARNING: TreeAccessor couldn't find hashCode() in java.util.ArrayList
+Added 6 promises for java.lang.InterruptedException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@47681476
+Added 1 promises for region.parentMustExist.Child in TestRegionSanityChecks: com.surelogic.tree.SyntaxTreeNode@21c19df4
+Added 104 promises for java.util.ArrayList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@19518489
+Added 12 promises for java.lang.Class in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@d13b262
+Added 72 promises for inRegion.accessibility.samePackage.ParentIsPublicSuper in TestRegionSanityChecks: com.surelogic.tree.SyntaxTreeNode@65078479
+Added 29 promises for java.util.Dictionary in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@51894489
+Added 6 promises for java.lang.CloneNotSupportedException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4f4f7a0e
+Added 18 promises for java.nio.CharBuffer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6ee5ee89
+Added 138 promises for java.math.BigInteger in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@258007c4
+Added 80 promises for inRegion.accessibility.samePackage.PublicSuper in TestRegionSanityChecks: com.surelogic.tree.SyntaxTreeNode@52fe72e2
+[GC (Allocation Failure)  127755K->58467K(411648K), 0.0049430 secs]
+Added 18 promises for java.util.ListIterator in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@17d57d00
+Added 61 promises for java.util.HashMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@672d38c8
+Added 1 promises for java.lang.ThreadLocal in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6268cac4
+Added 6 promises for java.io.PrintStream in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3584ed8
+Added 54 promises for java.util.Collection in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@58eaef0e
+Added 3 promises for inRegion.finalFields.C in TestRegionSanityChecks: com.surelogic.tree.SyntaxTreeNode@413585ae
+Added 18 promises for java.util.Queue in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7d247b24
+Added 72 promises for region.accessibility.differentPackages.p2.ParentIsDefaultSuper2 in TestRegionSanityChecks: com.surelogic.tree.SyntaxTreeNode@1318a981
+Added 8 promises for region.visibility.Super in TestRegionSanityChecks: com.surelogic.tree.SyntaxTreeNode@4012dc0c
+Added 8 promises for inRegion.accessibility.differentPackages.p1.DefaultSuper in TestRegionSanityChecks: com.surelogic.tree.SyntaxTreeNode@67ba83c0
+Added 21 promises for java.util.Stack in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@540b01fc
+Added 22 promises for java.util.concurrent.locks.Condition in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@68c15265
+Added 141 promises for java.lang.Thread in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@63369717
+Added 12 promises for java.lang.reflect.InvocationTargetException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4294456f
+Added 1 promises for region.parentMustExist.Super in TestRegionSanityChecks: com.surelogic.tree.SyntaxTreeNode@d7a9efc
+Added 96 promises for java.lang.Long in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@522403b2
+Added 45 promises for java.util.ResourceBundle in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7519c19c
+Added 3 promises for java.lang.Iterable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@55aae25c
+Added 12 promises for java.lang.IllegalArgumentException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@16d2c63b
+Added 144 promises for java.lang.AbstractStringBuilder in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@37c0d85b
+Added 83 promises for java.util.Hashtable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@49710c4c
+Added 20 promises for java.util.concurrent.locks.Lock in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3d261d26
+Added 22 promises for java.lang.Number in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@79749272
+Added 3 promises for java.util.Date in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@1e15f9ce
+Added 1 promises for region.uniqueRegion.Super in TestRegionSanityChecks: com.surelogic.tree.SyntaxTreeNode@6e56e72f
+Added 6 promises for java.util.Iterator in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@53401d05
+Added 54 promises for java.util.Set in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@67421251
+Added 16 promises for java.util.AbstractSet in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4ad6c579
+Added 56 promises for java.util.WeakHashMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@73561131
+Added 109 promises for java.lang.StringBuilder in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3fe51ce4
+Added 37 promises for java.lang.Boolean in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@58e86f56
+Added 61 promises for java.lang.Short in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6feb2ba9
+Added 72 promises for inRegion.accessibility.samePackage.ParentIsDefaultSuper in TestRegionSanityChecks: com.surelogic.tree.SyntaxTreeNode@5037cba3
+Added 12 promises for java.lang.Exception in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@51391993
+Added 1 promises for inRegion.parentMustExist.Child in TestRegionSanityChecks: com.surelogic.tree.SyntaxTreeNode@21731251
+Added 12 promises for java.lang.CharSequence in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@1c424046
+Added 6 promises for java.io.PrintWriter in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@368690bf
+Added 80 promises for region.accessibility.samePackage.DefaultSuper in TestRegionSanityChecks: com.surelogic.tree.SyntaxTreeNode@6e908b19
+Added 70 promises for region.visibility.Test in TestRegionSanityChecks: com.surelogic.tree.SyntaxTreeNode@3370b896
+Added 2 promises for inRegion.staticParents.Super in TestRegionSanityChecks: com.surelogic.tree.SyntaxTreeNode@6774df9e
+Added 2 promises for region.staticParents.Super in TestRegionSanityChecks: com.surelogic.tree.SyntaxTreeNode@90569a3
+Added 170 promises for java.util.Vector in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2038a668
+Added 12 promises for java.lang.RuntimeException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@5c0ab949
+Added 1 promises for region.nonFieldParent.Super in TestRegionSanityChecks: com.surelogic.tree.SyntaxTreeNode@5e8db06e
+Added 88 promises for java.util.jar.Attributes in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@33a95ad6
+Added 4 promises for region.uniqueRegion.Test in TestRegionSanityChecks: com.surelogic.tree.SyntaxTreeNode@5554d290
+Added 5 promises for region.nonFieldParent.Test in TestRegionSanityChecks: com.surelogic.tree.SyntaxTreeNode@58da36cb
+Added 3 promises for java.nio.file.DirectoryStream in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@522a8f18
+Added 72 promises for region.accessibility.differentPackages.p2.ParentIsPublicSuper in TestRegionSanityChecks: com.surelogic.tree.SyntaxTreeNode@7b1a603f
+Added 3 promises for java.nio.file.Path in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@628f8ec2
+Added 34 promises for java.util.concurrent.ExecutorService in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@155eb3f2
+Added 1 promises for java.lang.ref.ReferenceQueue in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7688ee0c
+Added 5 promises for inRegion.nonFieldParent.Test in TestRegionSanityChecks: com.surelogic.tree.SyntaxTreeNode@3e3c832
+Added 59 promises for java.lang.Byte in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@800c674
+Added 29 promises for java.util.AbstractSequentialList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4c7ceaab
+Added 47 promises for java.lang.Throwable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@bb177e3
+[GC (Allocation Failure)  131171K->60564K(438784K), 0.0058170 secs]
+Added 80 promises for inRegion.accessibility.samePackage.DefaultSuper in TestRegionSanityChecks: com.surelogic.tree.SyntaxTreeNode@2b6a750b
+Added 12 promises for java.lang.SecurityException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@603a66b3
+Added 6 promises for region.noCycles.Test in TestRegionSanityChecks: com.surelogic.tree.SyntaxTreeNode@441db8d1
+Added 301 promises for java.lang.String in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@783cf8f3
+Added 72 promises for inRegion.accessibility.differentPackages.p2.ParentIsDefaultSuper2 in TestRegionSanityChecks: com.surelogic.tree.SyntaxTreeNode@32a5522a
+Added 89 promises for java.util.List in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@333f174d
+Added 139 promises for java.util.LinkedList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@ddfa930
+Added 158 promises for java.lang.StringBuffer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7dcdbff7
+Added 3 promises for java.util.zip.ZipEntry in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@42dce623
+Added 29 promises for java.util.concurrent.TimeUnit in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3c8b05a7
+Added 7 promises for inRegion.parentMustExist.Test in TestRegionSanityChecks: com.surelogic.tree.SyntaxTreeNode@1d56e2a8
+##SUBTASK_DONE
+##WORK, 1
+Scrubbing promises
+##SUBTASK, Scrubbing promises
+Creating RegionModel java.lang.Object.Instance for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+[2015-06-23 15:18:26    INFO] Couldn't find region NoSuchRegion in com.surelogic.tree.SyntaxTreeNode@41eaf694 --   /* is CONSISTENT */  @ Regions ( { @ Region ( # ) ,   /* is UNBOUND */  @ Region ( # ) ,   /* is CONSISTENT */  @ Region ( # ) ,   /* is CONSISTENT */  @ Region ( # ) ,   /* is UNBOUND */  @ Region ( # ) ,   /* is UNBOUND */  @ Region ( # ) ,   /* is CONSISTENT */  @ Region ( # ) } ) public class Test extends region.parentMustExist.Super { public  Test () { # } }
+for project TestRegionSanityChecks (in method edu.cmu.cs.fluid.java.bind.ClassMemberSearch.findClassBodyMembers(-) thread "pool-1-thread-1")
+[2015-06-23 15:18:26    INFO] Couldn't find region ChildRegion in com.surelogic.tree.SyntaxTreeNode@41eaf694 --   /* is CONSISTENT */  @ Regions ( { @ Region ( # ) ,   /* is UNBOUND */  @ Region ( # ) ,   /* is CONSISTENT */  @ Region ( # ) ,   /* is CONSISTENT */  @ Region ( # ) ,   /* is UNBOUND */  @ Region ( # ) ,   /* is UNBOUND */  @ Region ( # ) ,   /* is CONSISTENT */  @ Region ( # ) } ) public class Test extends region.parentMustExist.Super { public  Test () { # } }
+for project TestRegionSanityChecks (in method edu.cmu.cs.fluid.java.bind.ClassMemberSearch.findClassBodyMembers(-) thread "pool-1-thread-1")
+[2015-06-23 15:18:26    INFO] Couldn't find region UnrelatedRegion in com.surelogic.tree.SyntaxTreeNode@41eaf694 --   /* is CONSISTENT */  @ Regions ( { @ Region ( # ) ,   /* is UNBOUND */  @ Region ( # ) ,   /* is CONSISTENT */  @ Region ( # ) ,   /* is CONSISTENT */  @ Region ( # ) ,   /* is UNBOUND */  @ Region ( # ) ,   /* is UNBOUND */  @ Region ( # ) ,   /* is CONSISTENT */  @ Region ( # ) } ) public class Test extends region.parentMustExist.Super { public  Test () { # } }
+for project TestRegionSanityChecks (in method edu.cmu.cs.fluid.java.bind.ClassMemberSearch.findClassBodyMembers(-) thread "pool-1-thread-1")
+[2015-06-23 15:18:26    INFO] Couldn't find region BAD in com.surelogic.tree.SyntaxTreeNode@441db8d1 --   /* is UNBOUND */  @ Regions ( {   /* is CONSISTENT */  @ Region ( # ) ,   /* is CONSISTENT */  @ Region ( # ) ,   /* is UNBOUND */  @ Region ( # ) ,   /* is CONSISTENT */  @ Region ( # ) ,   /* is UNBOUND */  @ Region ( # ) ,   /* is UNBOUND */  @ Region ( # ) } ) public class Test extends java.lang.Object { public  Test () { # } }
+for project TestRegionSanityChecks (in method edu.cmu.cs.fluid.java.bind.ClassMemberSearch.findClassBodyMembers(-) thread "pool-1-thread-1")
+[2015-06-23 15:18:26    INFO] Couldn't find region R3 in com.surelogic.tree.SyntaxTreeNode@441db8d1 --   /* is UNBOUND */  @ Regions ( {   /* is CONSISTENT */  @ Region ( # ) ,   /* is CONSISTENT */  @ Region ( # ) ,   /* is UNBOUND */  @ Region ( # ) ,   /* is CONSISTENT */  @ Region ( # ) ,   /* is UNBOUND */  @ Region ( # ) ,   /* is UNBOUND */  @ Region ( # ) } ) public class Test extends java.lang.Object { public  Test () { # } }
+for project TestRegionSanityChecks (in method edu.cmu.cs.fluid.java.bind.ClassMemberSearch.findClassBodyMembers(-) thread "pool-1-thread-1")
+[2015-06-23 15:18:26    INFO] Couldn't find region R5 in com.surelogic.tree.SyntaxTreeNode@441db8d1 --   /* is UNBOUND */  @ Regions ( {   /* is CONSISTENT */  @ Region ( # ) ,   /* is CONSISTENT */  @ Region ( # ) ,   /* is UNBOUND */  @ Region ( # ) ,   /* is CONSISTENT */  @ Region ( # ) ,   /* is UNBOUND */  @ Region ( # ) ,   /* is UNBOUND */  @ Region ( # ) } ) public class Test extends java.lang.Object { public  Test () { # } }
+for project TestRegionSanityChecks (in method edu.cmu.cs.fluid.java.bind.ClassMemberSearch.findClassBodyMembers(-) thread "pool-1-thread-1")
+[2015-06-23 15:18:27    INFO] Couldn't find region NoSuchRegion in com.surelogic.tree.SyntaxTreeNode@1d56e2a8 -- @ Regions ( { @ Region ( # ) } ) public class Test extends inRegion.parentMustExist.Super { public  Test () { # } @ SuppressWarnings ( # )   /* is CONSISTENT */  @ InRegion ( # ) private int field1 #; @ SuppressWarnings ( # )   /* is CONSISTENT */  @ InRegion ( # ) private int field2 #; @ SuppressWarnings ( # )   /* is CONSISTENT */  @ InRegion ( # ) private int field3 #; @ SuppressWarnings ( # )   /* is CONSISTENT */  @ InRegion ( # ) private int field4 #; @ SuppressWarnings ( # )   /* is CONSISTENT */  @ InRegion ( # ) private int field5 #; @ SuppressWarnings ( # )   /* is CONSISTENT */  @ InRegion ( # ) private int field6 #; }
+for project TestRegionSanityChecks (in method edu.cmu.cs.fluid.java.bind.ClassMemberSearch.findClassBodyMembers(-) thread "pool-1-thread-1")
+[2015-06-23 15:18:27    INFO] Couldn't find region ChildRegion in com.surelogic.tree.SyntaxTreeNode@1d56e2a8 -- @ Regions ( { @ Region ( # ) } ) public class Test extends inRegion.parentMustExist.Super { public  Test () { # } @ SuppressWarnings ( # )   /* is CONSISTENT */  @ InRegion ( # ) private int field1 #; @ SuppressWarnings ( # )   /* is CONSISTENT */  @ InRegion ( # ) private int field2 #; @ SuppressWarnings ( # )   /* is CONSISTENT */  @ InRegion ( # ) private int field3 #; @ SuppressWarnings ( # )   /* is CONSISTENT */  @ InRegion ( # ) private int field4 #; @ SuppressWarnings ( # )   /* is CONSISTENT */  @ InRegion ( # ) private int field5 #; @ SuppressWarnings ( # )   /* is CONSISTENT */  @ InRegion ( # ) private int field6 #; }
+for project TestRegionSanityChecks (in method edu.cmu.cs.fluid.java.bind.ClassMemberSearch.findClassBodyMembers(-) thread "pool-1-thread-1")
+[2015-06-23 15:18:27    INFO] Couldn't find region UnrelatedRegion in com.surelogic.tree.SyntaxTreeNode@1d56e2a8 -- @ Regions ( { @ Region ( # ) } ) public class Test extends inRegion.parentMustExist.Super { public  Test () { # } @ SuppressWarnings ( # )   /* is CONSISTENT */  @ InRegion ( # ) private int field1 #; @ SuppressWarnings ( # )   /* is CONSISTENT */  @ InRegion ( # ) private int field2 #; @ SuppressWarnings ( # )   /* is CONSISTENT */  @ InRegion ( # ) private int field3 #; @ SuppressWarnings ( # )   /* is CONSISTENT */  @ InRegion ( # ) private int field4 #; @ SuppressWarnings ( # )   /* is CONSISTENT */  @ InRegion ( # ) private int field5 #; @ SuppressWarnings ( # )   /* is CONSISTENT */  @ InRegion ( # ) private int field6 #; }
+for project TestRegionSanityChecks (in method edu.cmu.cs.fluid.java.bind.ClassMemberSearch.findClassBodyMembers(-) thread "pool-1-thread-1")
+[GC (Allocation Failure)  162452K->65053K(439296K), 0.0090480 secs]
+##SUBTASK_DONE
+##WORK, 1
+Starting analyses
+Using new analysis framework -- groups
+Starting group: ConcurrencyDetector, ThreadEffectsModule, StructureAnalysis, ParameterizedTypeAnalysis, EqualityAnalysis, LayersAnalysis
+##SUBTASK, Starting parallel ConcurrencyDetector [0]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel ConcurrencyDetector [0]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Starting parallel ThreadEffectsModule [1]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel ThreadEffectsModule [1]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Starting parallel StructureAnalysis [2]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel StructureAnalysis [2]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Starting parallel ParameterizedTypeAnalysis [3]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel ParameterizedTypeAnalysis [3]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Starting parallel EqualityAnalysis [4]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel EqualityAnalysis [4]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Starting parallel LayersAnalysis [5]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel LayersAnalysis [5]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Starting parallel ConcurrencyDetector [0]: 42 for TestRegionSanityChecks
+Starting parallel ConcurrencyDetector [0]: 42 for TestRegionSanityChecks
+##SUBTASK, Starting parallel ThreadEffectsModule [1]: 42 for TestRegionSanityChecks
+Starting parallel ThreadEffectsModule [1]: 42 for TestRegionSanityChecks
+##SUBTASK, Starting parallel StructureAnalysis [2]: 42 for TestRegionSanityChecks
+Starting parallel StructureAnalysis [2]: 42 for TestRegionSanityChecks
+##SUBTASK, Starting parallel ParameterizedTypeAnalysis [3]: 42 for TestRegionSanityChecks
+Starting parallel ParameterizedTypeAnalysis [3]: 42 for TestRegionSanityChecks
+##SUBTASK, Starting parallel EqualityAnalysis [4]: 42 for TestRegionSanityChecks
+Starting parallel EqualityAnalysis [4]: 42 for TestRegionSanityChecks
+##SUBTASK, Starting parallel LayersAnalysis [5]: 42 for TestRegionSanityChecks
+Starting parallel LayersAnalysis [5]: 42 for TestRegionSanityChecks
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/visibility/Super.java
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/accessibility/differentPackages/p2/ParentIsPublicSuper.java
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/accessibility/differentPackages/p1/PublicSuper.java
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/nonFieldParent/Super.java
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/finalFields/C.java
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/visibility/Test.java
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/accessibility/differentPackages/p1/DefaultSuper.java
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/accessibility/differentPackages/p1/ParentIsDefaultSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/accessibility/differentPackages/p1/ParentIsDefaultSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/finalFields/C.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/visibility/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/nonFieldParent/Super.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/accessibility/differentPackages/p2/ParentIsPublicSuper.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/accessibility/differentPackages/p1/DefaultSuper.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/visibility/Super.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/accessibility/differentPackages/p1/PublicSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/accessibility/differentPackages/p1/ParentIsDefaultSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/accessibility/differentPackages/p1/ParentIsDefaultSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/finalFields/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/finalFields/C.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/finalFields/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/visibility/Super.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/accessibility/differentPackages/p1/PublicSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/accessibility/differentPackages/p1/DefaultSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/accessibility/differentPackages/p1/PublicSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/visibility/Super.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/accessibility/differentPackages/p2/ParentIsPublicSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/accessibility/differentPackages/p2/ParentIsPublicSuper.java
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/accessibility/differentPackages/p1/ParentIsDefaultSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/nonFieldParent/Super.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/nonFieldParent/Super.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/visibility/Super.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/accessibility/differentPackages/p1/PublicSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/accessibility/differentPackages/p1/DefaultSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/visibility/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/nonFieldParent/Super.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/accessibility/differentPackages/p1/DefaultSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/visibility/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/accessibility/differentPackages/p2/ParentIsPublicSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/visibility/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/nonFieldParent/Super.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/accessibility/differentPackages/p1/DefaultSuper.java
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/accessibility/differentPackages/p1/ParentIsDefaultSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/visibility/Super.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/accessibility/differentPackages/p1/PublicSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/visibility/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/finalFields/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/accessibility/differentPackages/p2/ParentIsPublicSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/parentMustExist/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/parentMustExist/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/parentMustExist/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/parentMustExist/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/parentMustExist/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/parentMustExist/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/accessibility/samePackage/ParentIsDefaultSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/accessibility/samePackage/ParentIsDefaultSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/accessibility/samePackage/ParentIsDefaultSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/accessibility/samePackage/ParentIsDefaultSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/accessibility/samePackage/ParentIsDefaultSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/accessibility/samePackage/ParentIsDefaultSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/staticParents/Super.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/staticParents/Super.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/staticParents/Super.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/staticParents/Super.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/staticParents/Super.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/accessibility/differentPackages/p2/ParentIsDefaultSuper2.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/parentMustExist/Super.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/parentMustExist/Super.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/parentMustExist/Super.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/parentMustExist/Super.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/parentMustExist/Super.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/parentMustExist/Super.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/staticParents/Super.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/accessibility/differentPackages/p1/ParentIsDefaultSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/accessibility/differentPackages/p1/ParentIsDefaultSuper.java
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/parentMustExist/Child.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/parentMustExist/Child.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/parentMustExist/Child.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/parentMustExist/Child.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/staticParents/Super.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/staticParents/Super.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/staticParents/Super.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/staticParents/Super.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/staticParents/Super.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/staticParents/Super.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/accessibility/differentPackages/p1/ParentIsDefaultSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/accessibility/differentPackages/p1/ParentIsDefaultSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/accessibility/differentPackages/p1/ParentIsDefaultSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/accessibility/differentPackages/p1/ParentIsDefaultSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/accessibility/differentPackages/p2/ParentIsDefaultSuper2.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/nonFieldParent/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/accessibility/differentPackages/p2/ParentIsDefaultSuper2.java
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/visibility/Super.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/visibility/Super.java
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/accessibility/differentPackages/p1/DefaultSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/parentMustExist/Child.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/accessibility/differentPackages/p1/DefaultSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/parentMustExist/Child.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/visibility/Super.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/visibility/Super.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/accessibility/differentPackages/p2/ParentIsDefaultSuper2.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/nonFieldParent/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/accessibility/samePackage/ParentIsDefaultSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/visibility/Super.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/staticParents/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/accessibility/differentPackages/p1/DefaultSuper.java
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/visibility/Super.java
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/staticParents/Test.java
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/nonFieldParent/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/nonFieldParent/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/staticParents/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/nonFieldParent/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/accessibility/differentPackages/p2/ParentIsDefaultSuper2.java
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/accessibility/samePackage/PublicSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/accessibility/samePackage/ParentIsDefaultSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/nonFieldParent/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/accessibility/samePackage/PublicSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/staticParents/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/staticParents/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/accessibility/differentPackages/p1/DefaultSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/accessibility/samePackage/ParentIsDefaultSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/staticParents/Test.java
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/accessibility/differentPackages/p1/DefaultSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/accessibility/samePackage/ParentIsDefaultSuper.java
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/accessibility/samePackage/PublicSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/staticParents/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/accessibility/differentPackages/p2/ParentIsDefaultSuper2.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/staticParents/Test.java
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/accessibility/differentPackages/p1/DefaultSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/accessibility/samePackage/ParentIsDefaultSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/accessibility/samePackage/PublicSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/staticParents/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/accessibility/samePackage/PublicSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/staticParents/Test.java
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/uniqueRegion/Super.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/staticParents/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/uniqueRegion/Super.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/accessibility/samePackage/PublicSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/uniqueRegion/Super.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/staticParents/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/accessibility/samePackage/ParentIsDefaultSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/accessibility/samePackage/PublicSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/accessibility/samePackage/DefaultSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/accessibility/samePackage/DefaultSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/accessibility/samePackage/PublicSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/accessibility/samePackage/DefaultSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/accessibility/samePackage/DefaultSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/accessibility/samePackage/PublicSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/accessibility/samePackage/PublicSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/accessibility/samePackage/DefaultSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/accessibility/samePackage/DefaultSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/uniqueRegion/Super.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/uniqueRegion/Super.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/accessibility/samePackage/ParentIsPublicSuper.java
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/parentMustExist/Super.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/parentMustExist/Super.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/parentMustExist/Super.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/parentMustExist/Super.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/parentMustExist/Super.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/uniqueRegion/Super.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/parentMustExist/Super.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/accessibility/samePackage/PublicSuper.java
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/parentMustExist/Child.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/parentMustExist/Other.java
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/visibility/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/parentMustExist/Other.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/accessibility/samePackage/ParentIsPublicSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/visibility/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/parentMustExist/Other.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/parentMustExist/Other.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/accessibility/samePackage/PublicSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/parentMustExist/Other.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/parentMustExist/Other.java
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/accessibility/differentPackages/p1/PublicSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/accessibility/differentPackages/p1/PublicSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/accessibility/differentPackages/p1/PublicSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/accessibility/samePackage/ParentIsPublicSuper.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/parentMustExist/Child.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/accessibility/samePackage/ParentIsPublicSuper.java
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/accessibility/differentPackages/p2/ParentIsDefaultSuper2.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/accessibility/differentPackages/p1/PublicSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/accessibility/differentPackages/p1/PublicSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/accessibility/differentPackages/p1/PublicSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/accessibility/differentPackages/p2/ParentIsPublicSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/accessibility/differentPackages/p2/ParentIsDefaultSuper2.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/accessibility/differentPackages/p2/ParentIsPublicSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/visibility/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/visibility/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/accessibility/differentPackages/p2/ParentIsPublicSuper.java
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/accessibility/samePackage/ParentIsPublicSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/parentMustExist/Child.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/parentMustExist/Child.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/accessibility/differentPackages/p2/ParentIsPublicSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/accessibility/differentPackages/p2/ParentIsDefaultSuper2.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/accessibility/differentPackages/p2/ParentIsDefaultSuper2.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/accessibility/differentPackages/p2/ParentIsPublicSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/visibility/Test.java
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/accessibility/differentPackages/p2/ParentIsPublicSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/accessibility/samePackage/ParentIsPublicSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/parentMustExist/Child.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/parentMustExist/Child.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/accessibility/differentPackages/p2/ParentIsDefaultSuper2.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/visibility/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/accessibility/differentPackages/p2/ParentIsDefaultSuper2.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/accessibility/samePackage/DefaultSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/parentMustExist/Test.java
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/nonFieldParent/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/accessibility/samePackage/DefaultSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/nonFieldParent/Test.java
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/parentMustExist/Other.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/parentMustExist/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/nonFieldParent/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/nonFieldParent/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/parentMustExist/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/parentMustExist/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/parentMustExist/Other.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/parentMustExist/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/accessibility/samePackage/DefaultSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/accessibility/samePackage/DefaultSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/nonFieldParent/Test.java
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/parentMustExist/Other.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/parentMustExist/Other.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/nonFieldParent/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/parentMustExist/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/parentMustExist/Other.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/parentMustExist/Other.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/accessibility/samePackage/DefaultSuper.java
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/accessibility/samePackage/ParentIsPublicSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/nonFieldParent/Super.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/nonFieldParent/Super.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/accessibility/samePackage/ParentIsPublicSuper.java
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/uniqueRegion/Test.java
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/noCycles/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/uniqueRegion/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/noCycles/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/accessibility/samePackage/ParentIsPublicSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/accessibility/samePackage/ParentIsPublicSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/nonFieldParent/Super.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/noCycles/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/uniqueRegion/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/noCycles/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/accessibility/samePackage/ParentIsPublicSuper.java
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/accessibility/samePackage/DefaultSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/noCycles/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/noCycles/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/accessibility/samePackage/ParentIsPublicSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/nonFieldParent/Super.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/nonFieldParent/Super.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/uniqueRegion/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/nonFieldParent/Super.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/uniqueRegion/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/uniqueRegion/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+Starting group: UtilityAnalysis, SingletonAnalysis, LockAnalysis, EffectsAnalysis
+com.surelogic.analysis.uniqueness.classic.sideeffecting.UniquenessAnalysisModule$1@5b37e0d2: 0
+com.surelogic.analysis.visitors.TopLevelAnalysisVisitor$1@69663380: 46
+com.surelogic.analysis.granules.FlowUnitGranulator@4459eb14: 92
+##SUBTASK, Starting parallel UtilityAnalysis [6]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel UtilityAnalysis [6]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Starting parallel SingletonAnalysis [7]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel SingletonAnalysis [7]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Starting parallel LockAnalysis [8]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel LockAnalysis [8]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Looking at @RegionLock("MUTEX is this protects WaitQueue") on Object
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@632d6f62 on java.lang.Object
+##SUBTASK, Starting parallel EffectsAnalysis [9]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel EffectsAnalysis [9]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Starting parallel UtilityAnalysis [6]: 46 for TestRegionSanityChecks
+Starting parallel UtilityAnalysis [6]: 46 for TestRegionSanityChecks
+##SUBTASK, Starting parallel SingletonAnalysis [7]: 46 for TestRegionSanityChecks
+Starting parallel SingletonAnalysis [7]: 46 for TestRegionSanityChecks
+##SUBTASK, Starting parallel LockAnalysis [8]: 46 for TestRegionSanityChecks
+Starting parallel LockAnalysis [8]: 46 for TestRegionSanityChecks
+Looking at @RegionLock("MUTEX is this protects WaitQueue") on Object
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@632d6f62 on java.lang.Object
+##SUBTASK, Starting parallel EffectsAnalysis [9]: 46 for TestRegionSanityChecks
+Starting parallel EffectsAnalysis [9]: 46 for TestRegionSanityChecks
+##SUBTASK, Checking [ Utility class ] region.accessibility.differentPackages.p1.PublicSuper
+##SUBTASK, Checking [ Utility class ] region.visibility.Super
+##SUBTASK, Checking [ Utility class ] region.uniqueRegion.Super
+##SUBTASK, Checking [ Utility class ] region.accessibility.differentPackages.p2.ParentIsDefaultSuper2
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] region.accessibility.differentPackages.p1.PublicSuper
+##SUBTASK, Checking [ Utility class ] inRegion.accessibility.samePackage.ParentIsPublicSuper
+##SUBTASK, Checking [ Utility class ] region.parentMustExist.Other
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] inRegion.accessibility.differentPackages.p2.ParentIsPublicSuper
+##SUBTASK, Checking [ Utility class ] inRegion.visibility.Super
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] inRegion.accessibility.samePackage.ParentIsPublicSuper
+##SUBTASK, Checking [ Lock policy ] region.accessibility.differentPackages.p1.PublicSuper
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] region.accessibility.differentPackages.p2.ParentIsDefaultSuper2
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] region.accessibility.differentPackages.p2.ParentIsDefaultSuper2
+##SUBTASK, Checking [ Singleton class ] region.uniqueRegion.Super
+##SUBTASK, Checking [ Singleton class ] region.parentMustExist.Other
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] inRegion.accessibility.samePackage.ParentIsPublicSuper
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] region.parentMustExist.Other
+##SUBTASK, Checking [ Singleton class ] inRegion.accessibility.differentPackages.p2.ParentIsPublicSuper
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] inRegion.accessibility.differentPackages.p2.ParentIsPublicSuper
+##SUBTASK, Checking [ Lock policy ] region.uniqueRegion.Super
+##SUBTASK, Checking [ Singleton class ] region.visibility.Super
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] region.visibility.Super
+##SUBTASK, Checking [ Singleton class ] inRegion.visibility.Super
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] inRegion.visibility.Super
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] inRegion.visibility.Super
+##SUBTASK, Checking [ Region effects ] region.parentMustExist.Other
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] region.accessibility.differentPackages.p1.PublicSuper
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] region.accessibility.differentPackages.p2.ParentIsDefaultSuper2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] region.uniqueRegion.Super
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] region.visibility.Super
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] region.accessibility.differentPackages.p1.DefaultSuper
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] inRegion.accessibility.samePackage.PublicSuper
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] inRegion.accessibility.samePackage.PublicSuper
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] region.accessibility.samePackage.PublicSuper
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] region.accessibility.samePackage.PublicSuper
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] region.accessibility.differentPackages.p1.DefaultSuper
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] region.accessibility.differentPackages.p1.DefaultSuper
+##SUBTASK, Checking [ Utility class ] region.parentMustExist.Child
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] region.parentMustExist.Child
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] region.parentMustExist.Child
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] region.accessibility.differentPackages.p1.DefaultSuper
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] inRegion.accessibility.samePackage.PublicSuper
+##SUBTASK, Checking [ Utility class ] inRegion.parentMustExist.Other
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] inRegion.parentMustExist.Other
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] inRegion.parentMustExist.Other
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] inRegion.accessibility.samePackage.PublicSuper
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] inRegion.parentMustExist.Other
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] inRegion.accessibility.samePackage.PublicSuper.Inner_ParentIsPublicSuper
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] inRegion.finalFields.C
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] inRegion.finalFields.C
+##SUBTASK, Checking [ Singleton class ] inRegion.accessibility.samePackage.PublicSuper.Inner_ParentIsPublicSuper
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] inRegion.accessibility.samePackage.PublicSuper.Inner_ParentIsPublicSuper
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] inRegion.nonFieldParent.Super
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] inRegion.nonFieldParent.Super
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] inRegion.nonFieldParent.Super
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] region.parentMustExist.Child
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] inRegion.nonFieldParent.Super
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] inRegion.accessibility.samePackage.ParentIsPublicSuper
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] region.accessibility.samePackage.PublicSuper
+##SUBTASK, Checking [ Region effects ] inRegion.accessibility.differentPackages.p2.ParentIsPublicSuper
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] region.accessibility.samePackage.PublicSuper
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] region.accessibility.samePackage.PublicSuper.Inner_ParentIsPublicSuper
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] region.accessibility.samePackage.PublicSuper.Inner_ParentIsPublicSuper
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] region.accessibility.samePackage.PublicSuper.Inner_ParentIsPublicSuper
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] region.accessibility.samePackage.PublicSuper.Inner_ParentIsPublicSuper
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] inRegion.accessibility.samePackage.ParentIsDefaultSuper
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] inRegion.accessibility.samePackage.ParentIsDefaultSuper
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] inRegion.accessibility.differentPackages.p1.ParentIsDefaultSuper
+##SUBTASK, Checking [ Utility class ] region.parentMustExist.Test
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] inRegion.staticParents.Test
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] inRegion.staticParents.Test
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] inRegion.staticParents.Test
+##SUBTASK, Checking [ Lock policy ] inRegion.finalFields.C
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] region.staticParents.Test
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] inRegion.accessibility.samePackage.ParentIsDefaultSuper
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] inRegion.finalFields.C
+##SUBTASK, Checking [ Singleton class ] inRegion.accessibility.differentPackages.p1.ParentIsDefaultSuper
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] inRegion.accessibility.differentPackages.p1.ParentIsDefaultSuper
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] region.staticParents.Super
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] region.parentMustExist.Test
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] region.parentMustExist.Test
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] inRegion.accessibility.differentPackages.p1.ParentIsDefaultSuper
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] inRegion.staticParents.Super
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] inRegion.staticParents.Test
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] region.staticParents.Test
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] region.staticParents.Test
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] region.staticParents.Test
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] region.accessibility.samePackage.DefaultSuper
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] region.accessibility.samePackage.DefaultSuper
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] region.accessibility.samePackage.DefaultSuper
+##SUBTASK, Checking [ Singleton class ] region.staticParents.Super
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] region.staticParents.Super
+##SUBTASK, Checking [ Utility class ] region.parentMustExist.Super
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] region.parentMustExist.Super
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] region.parentMustExist.Super
+##SUBTASK, Checking [ Region effects ] region.parentMustExist.Test
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] inRegion.staticParents.Super
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] inRegion.staticParents.Super
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] inRegion.visibility.Test
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] inRegion.staticParents.Super
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] region.accessibility.differentPackages.p1.ParentIsDefaultSuper
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] region.accessibility.differentPackages.p1.ParentIsDefaultSuper
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] region.accessibility.differentPackages.p1.ParentIsDefaultSuper
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] region.staticParents.Super
+##SUBTASK, Checking [ Region effects ] region.accessibility.samePackage.DefaultSuper
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] inRegion.accessibility.differentPackages.p1.DefaultSuper
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] inRegion.accessibility.differentPackages.p1.DefaultSuper
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] region.parentMustExist.Super
+##SUBTASK, Checking [ Singleton class ] inRegion.visibility.Test
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] inRegion.visibility.Test
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] inRegion.parentMustExist.Child
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] inRegion.parentMustExist.Child
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] inRegion.parentMustExist.Child
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] inRegion.accessibility.samePackage.PublicSuper.Inner_ParentIsPublicSuper
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] region.accessibility.differentPackages.p1.ParentIsDefaultSuper
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] region.accessibility.differentPackages.p2.ParentIsPublicSuper
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] region.accessibility.differentPackages.p2.ParentIsPublicSuper
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] region.accessibility.differentPackages.p2.ParentIsPublicSuper
+##SUBTASK, Checking [ Utility class ] region.accessibility.samePackage.DefaultSuper.Inner_ParentIsDefaultSuper
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] inRegion.accessibility.differentPackages.p1.DefaultSuper
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] inRegion.parentMustExist.Child
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] region.accessibility.differentPackages.p2.ParentIsPublicSuper
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] region.accessibility.samePackage.DefaultSuper.Inner_ParentIsDefaultSuper
+##SUBTASK, Checking [ Utility class ] inRegion.accessibility.samePackage.DefaultSuper.Inner_ParentIsDefaultSuper
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] region.noCycles.Test
+##SUBTASK, Checking [ Utility class ] inRegion.accessibility.differentPackages.p2.ParentIsDefaultSuper2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] inRegion.accessibility.differentPackages.p2.ParentIsDefaultSuper2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] inRegion.accessibility.differentPackages.p2.ParentIsDefaultSuper2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] inRegion.accessibility.differentPackages.p1.DefaultSuper
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] inRegion.nonFieldParent.Test
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] inRegion.nonFieldParent.Test
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] inRegion.nonFieldParent.Test
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] region.noCycles.Test
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] region.noCycles.Test
+##SUBTASK, Checking [ Singleton class ] inRegion.accessibility.samePackage.DefaultSuper.Inner_ParentIsDefaultSuper
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] inRegion.accessibility.samePackage.DefaultSuper.Inner_ParentIsDefaultSuper
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] region.accessibility.samePackage.DefaultSuper.Inner_ParentIsDefaultSuper
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] region.noCycles.Test
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] region.nonFieldParent.Super
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] region.nonFieldParent.Super
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] region.accessibility.samePackage.DefaultSuper.Inner_ParentIsDefaultSuper
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] inRegion.accessibility.differentPackages.p1.PublicSuper
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] inRegion.accessibility.differentPackages.p1.PublicSuper
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] inRegion.accessibility.differentPackages.p1.PublicSuper
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] inRegion.accessibility.samePackage.ParentIsDefaultSuper
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] region.visibility.Test
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] region.visibility.Test
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] region.visibility.Test
+##SUBTASK, Checking [ Lock policy ] region.nonFieldParent.Super
+##SUBTASK, Checking [ Region effects ] inRegion.nonFieldParent.Test
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] inRegion.parentMustExist.Test
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] inRegion.parentMustExist.Test
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] inRegion.parentMustExist.Test
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] inRegion.visibility.Test
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] inRegion.parentMustExist.Test
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] region.accessibility.samePackage.ParentIsPublicSuper
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] region.accessibility.samePackage.ParentIsPublicSuper
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] region.accessibility.samePackage.ParentIsPublicSuper
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] region.accessibility.samePackage.ParentIsPublicSuper
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] region.accessibility.samePackage.ParentIsDefaultSuper
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] region.accessibility.samePackage.ParentIsDefaultSuper
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] inRegion.accessibility.differentPackages.p1.PublicSuper
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] region.visibility.Test
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] region.nonFieldParent.Super
+##SUBTASK, Checking [ Utility class ] inRegion.accessibility.samePackage.DefaultSuper
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] inRegion.accessibility.samePackage.DefaultSuper
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] inRegion.accessibility.samePackage.DefaultSuper
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] region.uniqueRegion.Test
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] region.uniqueRegion.Test
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] region.uniqueRegion.Test
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] inRegion.accessibility.samePackage.DefaultSuper
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] region.accessibility.samePackage.ParentIsDefaultSuper
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] region.uniqueRegion.Test
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] region.accessibility.samePackage.ParentIsDefaultSuper
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] inRegion.accessibility.differentPackages.p2.ParentIsDefaultSuper2
+##SUBTASK, Checking [ Utility class ] inRegion.parentMustExist.Super
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] inRegion.parentMustExist.Super
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] inRegion.parentMustExist.Super
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] inRegion.parentMustExist.Super
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] region.nonFieldParent.Test
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] region.nonFieldParent.Test
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] region.nonFieldParent.Test
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] inRegion.accessibility.samePackage.DefaultSuper.Inner_ParentIsDefaultSuper
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] region.nonFieldParent.Test
+##SUBTASK_DONE
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+Starting group: UniquenessAnalysisModule
+Starting group: NullablePreprocessorModule
+##SUBTASK, Starting parallel NullablePreprocessorModule [11]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel NullablePreprocessorModule [11]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Starting parallel NullablePreprocessorModule [11]: 42 for TestRegionSanityChecks
+Starting parallel NullablePreprocessorModule [11]: 42 for TestRegionSanityChecks
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/accessibility/differentPackages/p1/PublicSuper.java
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/accessibility/differentPackages/p1/DefaultSuper.java
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/nonFieldParent/Super.java
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/accessibility/samePackage/PublicSuper.java
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/accessibility/differentPackages/p2/ParentIsPublicSuper.java
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/visibility/Super.java
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/visibility/Super.java
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/finalFields/C.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/visibility/Test.java
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/parentMustExist/Child.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/accessibility/samePackage/ParentIsDefaultSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/staticParents/Super.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/accessibility/differentPackages/p1/DefaultSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/parentMustExist/Super.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/accessibility/samePackage/ParentIsPublicSuper.java
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/parentMustExist/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/parentMustExist/Child.java
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/visibility/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/accessibility/samePackage/ParentIsDefaultSuper.java
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/accessibility/samePackage/DefaultSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/parentMustExist/Super.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/staticParents/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/staticParents/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/uniqueRegion/Super.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/accessibility/differentPackages/p2/ParentIsDefaultSuper2.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/accessibility/samePackage/PublicSuper.java
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/parentMustExist/Other.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/parentMustExist/Other.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/nonFieldParent/Test.java
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/accessibility/differentPackages/p1/ParentIsDefaultSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/staticParents/Super.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/accessibility/differentPackages/p1/ParentIsDefaultSuper.java
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/parentMustExist/Test.java
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/noCycles/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/nonFieldParent/Super.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/uniqueRegion/Test.java
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/accessibility/samePackage/ParentIsPublicSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/accessibility/samePackage/DefaultSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/accessibility/differentPackages/p1/PublicSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/accessibility/differentPackages/p2/ParentIsPublicSuper.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/inRegion/accessibility/differentPackages/p2/ParentIsDefaultSuper2.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestRegionSanityChecks/src/region/nonFieldParent/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+Starting group: NullableModule2
+##SUBTASK, Starting parallel NullableModule2 [12]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel NullableModule2 [12]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Starting parallel NullableModule2 [12]: 92 for TestRegionSanityChecks
+Starting parallel NullableModule2 [12]: 92 for TestRegionSanityChecks
+##SUBTASK, Checking [ Nullable ] region.accessibility.differentPackages.p1.PublicSuper.PublicSuper()
+##SUBTASK, Checking [ Nullable ] inRegion.visibility.Super.<clinit>
+##SUBTASK, Checking [ Nullable ] region.parentMustExist.Super.Super()
+##SUBTASK, Checking [ Nullable ] region.accessibility.differentPackages.p2.ParentIsDefaultSuper2.ParentIsDefaultSuper2()
+##SUBTASK, Checking [ Nullable ] region.visibility.Super.Super()
+##SUBTASK, Checking [ Nullable ] region.accessibility.samePackage.DefaultSuper.DefaultSuper()
+##SUBTASK, Checking [ Nullable ] inRegion.accessibility.samePackage.ParentIsPublicSuper.ParentIsPublicSuper()
+##SUBTASK, Checking [ Nullable ] inRegion.finalFields.C.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] region.staticParents.Super.Super()
+##SUBTASK, Checking [ Nullable ] region.accessibility.samePackage.PublicSuper.PublicSuper()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] region.accessibility.differentPackages.p1.PublicSuper.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] region.staticParents.Super.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] region.parentMustExist.Super.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] region.parentMustExist.Test.Test()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] inRegion.accessibility.differentPackages.p1.DefaultSuper.DefaultSuper()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] inRegion.parentMustExist.Child.Child()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] region.accessibility.differentPackages.p2.ParentIsDefaultSuper2.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] region.accessibility.samePackage.DefaultSuper.Inner_ParentIsDefaultSuper.Inner_ParentIsDefaultSuper()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] inRegion.accessibility.samePackage.PublicSuper.PublicSuper()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] region.accessibility.samePackage.PublicSuper.Inner_ParentIsPublicSuper.Inner_ParentIsPublicSuper()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] inRegion.accessibility.differentPackages.p1.DefaultSuper.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] inRegion.parentMustExist.Child.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] region.visibility.Super.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] region.parentMustExist.Test.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] inRegion.visibility.Test.Test()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] inRegion.nonFieldParent.Test.Test()
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] inRegion.accessibility.samePackage.PublicSuper.Inner_ParentIsPublicSuper.Inner_ParentIsPublicSuper()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] region.accessibility.samePackage.PublicSuper.Inner_ParentIsPublicSuper.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] region.accessibility.samePackage.PublicSuper.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] inRegion.parentMustExist.Other.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] inRegion.nonFieldParent.Super.Super()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] region.parentMustExist.Child.Child()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] inRegion.nonFieldParent.Super.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] inRegion.accessibility.samePackage.ParentIsPublicSuper.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] region.accessibility.samePackage.DefaultSuper.Inner_ParentIsDefaultSuper.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] region.parentMustExist.Child.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] region.accessibility.samePackage.DefaultSuper.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] inRegion.accessibility.samePackage.ParentIsDefaultSuper.ParentIsDefaultSuper()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] inRegion.accessibility.differentPackages.p1.PublicSuper.PublicSuper()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] inRegion.accessibility.differentPackages.p1.PublicSuper.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] region.accessibility.differentPackages.p2.ParentIsPublicSuper.ParentIsPublicSuper()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] inRegion.nonFieldParent.Test.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] region.accessibility.differentPackages.p2.ParentIsPublicSuper.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] inRegion.accessibility.differentPackages.p2.ParentIsDefaultSuper2.ParentIsDefaultSuper2()
+##SUBTASK, Checking [ Nullable ] inRegion.accessibility.samePackage.DefaultSuper.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] inRegion.parentMustExist.Test.Test()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] inRegion.parentMustExist.Other.Other()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] inRegion.parentMustExist.Test.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] region.accessibility.samePackage.ParentIsPublicSuper.ParentIsPublicSuper()
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] region.accessibility.samePackage.ParentIsPublicSuper.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] region.noCycles.Test.Test()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] region.noCycles.Test.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] region.nonFieldParent.Super.Super()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] inRegion.accessibility.samePackage.ParentIsDefaultSuper.<clinit>
+##SUBTASK, Checking [ Nullable ] inRegion.accessibility.differentPackages.p1.ParentIsDefaultSuper.ParentIsDefaultSuper()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] region.nonFieldParent.Super.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] region.uniqueRegion.Test.Test()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] inRegion.accessibility.differentPackages.p1.ParentIsDefaultSuper.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] inRegion.staticParents.Super.Super()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] region.uniqueRegion.Test.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] inRegion.finalFields.C.C()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] inRegion.staticParents.Super.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] region.accessibility.differentPackages.p1.ParentIsDefaultSuper.ParentIsDefaultSuper()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] region.accessibility.differentPackages.p1.ParentIsDefaultSuper.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] region.visibility.Test.Test()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] inRegion.accessibility.samePackage.PublicSuper.Inner_ParentIsPublicSuper.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] inRegion.accessibility.differentPackages.p2.ParentIsPublicSuper.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] region.visibility.Test.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] inRegion.accessibility.samePackage.DefaultSuper.DefaultSuper()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] inRegion.accessibility.samePackage.DefaultSuper.Inner_ParentIsDefaultSuper.Inner_ParentIsDefaultSuper()
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] inRegion.visibility.Test.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] inRegion.accessibility.differentPackages.p2.ParentIsDefaultSuper2.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] inRegion.accessibility.samePackage.PublicSuper.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] region.uniqueRegion.Super.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] region.parentMustExist.Other.Other()
+##SUBTASK, Checking [ Nullable ] region.accessibility.differentPackages.p1.DefaultSuper.DefaultSuper()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] region.parentMustExist.Other.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] region.accessibility.differentPackages.p1.DefaultSuper.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] inRegion.visibility.Super.Super()
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] inRegion.staticParents.Test.Test()
+##SUBTASK, Checking [ Nullable ] region.staticParents.Test.Test()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] region.staticParents.Test.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] inRegion.staticParents.Test.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] region.uniqueRegion.Super.Super()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] region.accessibility.samePackage.ParentIsDefaultSuper.ParentIsDefaultSuper()
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] region.nonFieldParent.Test.Test()
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] region.accessibility.samePackage.ParentIsDefaultSuper.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] inRegion.parentMustExist.Super.Super()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] region.nonFieldParent.Test.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] inRegion.parentMustExist.Super.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] inRegion.accessibility.differentPackages.p2.ParentIsPublicSuper.ParentIsPublicSuper()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] inRegion.accessibility.samePackage.DefaultSuper.Inner_ParentIsDefaultSuper.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Cleaning up after analysis
+Cleaning up after analysis
+[GC (System.gc())  128616K->68146K(479232K), 0.0073350 secs]
+[Full GC (System.gc())  68146K->42169K(479232K), 0.1518350 secs]
+##WORK, 1
+##SUBTASK_DONE
+Updating consistency proof
+##SUBTASK, Updating consistency proof
+Exporting results to TestRegionSanityChec-2015.06.23-at-15.18.23.323
+##SUBTASK, Exporting results to TestRegionSanityChec-2015.06.23-at-15.18.23.323
+Creating snapshot: /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/TestRegionSanityChec-2015.06.23-at-15.18.23.323/running_or_crashed_sea_snapshot.xml.gz
+Done in 4533 ms.
+ConcurrencyDetector	: 26 ms
+ThreadEffectsModule	: 17 ms
+StructureAnalysis	: 2 ms
+ParameterizedTypeAnalysis	: 12 ms
+EqualityAnalysis	: 48 ms
+LayersAnalysis	: 142 ms
+UtilityAnalysis	: 1 ms
+SingletonAnalysis	: 1 ms
+LockAnalysis	: 299 ms
+EffectsAnalysis	: 33 ms
+UniquenessAnalysisModule	: 0 ms
+NullablePreprocessorModule	: 21 ms
+NullableModule2	: 1088 ms
+[2015-06-23 15:18:29    INFO] partial bindings = 8698 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+[2015-06-23 15:18:29    INFO] full bindings = 2871 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+cached = 0
+totalT = 0
+#Performance data for TestRegionSanityChecks
+#Tue Jun 23 15:18:29 EDT 2015
+jsure.Add.required=0
+jsure.All.analyses=539
+jsure.Binding.before.canon=83
+jsure.Binding.full.time=367
+jsure.Binding.partial.time=302
+jsure.Bindings.full=2871
+jsure.Bindings.partial=8698
+jsure.Canonicalization=222
+jsure.Cleanup=117
+jsure.Destroy.time=17
+jsure.Drop.creation=26
+jsure.Find.canon.time=8
+jsure.Parsing=871
+jsure.Promise.parsing=515
+jsure.Promise.scrubbing=1464
+jsure.Sea.export=704
+jsure.Sea.update=75
+jsure.Total.JSure.time=4533
+jsure.Total.blocks=46
+jsure.Total.canonical=6551
+jsure.Total.decls=1080
+jsure.Total.destroyed=0
+jsure.Total.gced=0
+jsure.Total.loc=2479
+jsure.Total.nodes=68395
+jsure.Total.stmts=92
+jsure.Total.try.destroyed=351
+jsure.analysis.ConcurrencyDetector=26
+jsure.analysis.EffectsAnalysis=33
+jsure.analysis.EqualityAnalysis=48
+jsure.analysis.LayersAnalysis=142
+jsure.analysis.LockAnalysis=299
+jsure.analysis.NullableModule2=1088
+jsure.analysis.NullablePreprocessorModule=21
+jsure.analysis.ParameterizedTypeAnalysis=12
+jsure.analysis.SingletonAnalysis=1
+jsure.analysis.StructureAnalysis=2
+jsure.analysis.ThreadEffectsModule=17
+jsure.analysis.UniquenessAnalysisModule=0
+jsure.analysis.UtilityAnalysis=1
+jsure.num.threads=8
+##DONE
+Renaming snapshot: /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/TestRegionSanityChec-2015.06.23-at-15.18.23.323/sea_snapshot.xml.gz
+Done with JSure!
+Scanning complete (5623 ms)
+No socket to close
+Closing std streams
+Process result after waiting = 0

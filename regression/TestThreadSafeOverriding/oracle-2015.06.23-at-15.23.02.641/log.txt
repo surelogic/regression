@@ -1,0 +1,2403 @@
+LOCAL vm : 1.8.0_05
+Path: /Users/aarong/git/jsure/jsure-analysis/bin
+Path: /Users/aarong/git/common/common/lib/runtime/commons-codec-1.10.jar
+Path: /Users/aarong/git/common/common/lib/runtime/trove-3.0.3.jar
+Path: /Users/aarong/git/common/common/lib/runtime/antlr-3.5.2-runtime.jar
+Path: /Users/aarong/git/common/common/lib/runtime/servlet-api-3.1.jar
+Path: /Users/aarong/git/jsure/jsure-common/lib/runtime/diffutils-1.2.1.jar
+Path: /Users/aarong/git/common/common/bin
+Path: /Users/aarong/git/common/common/lib/runtime/asm-5.0.2.jar
+Path: /Users/aarong/git/jsure/jsure-analysis/lib/runtime/renamedJavac.jar
+Path: /Users/aarong/git/common/common/lib/runtime/asm-tree-5.0.2.jar
+Path: /Users/aarong/git/common/common/lib/runtime/promises-5.6.0.jar
+Path: /Users/aarong/git/jsure/jsure-analysis/lib/runtime/log4j-xml-1.3alpha-8.jar
+Path: /Users/aarong/git/common/common/lib/runtime/derby-10.11.1.1.jar
+Path: /Users/aarong/git/jsure/jsure-common/bin
+Path: /Users/aarong/git/common/common/lib/runtime/ant-1.9.4.jar
+Path: /Users/aarong/git/common/common/lib/runtime/collections-generic-4.0.jar
+Path: /Users/aarong/git/jsure/jsure-analysis/lib/runtime/log4j-1.3alpha-8.jar
+Path: /Users/aarong/git/common/common/lib/runtime/asm-commons-5.0.2.jar
+Path: /Users/aarong/git/common/common/lib/runtime/commons-lang3-3.3.2.jar
+Path: /Users/aarong/git/common/common/lib/runtime/commons-io-2.4.jar
+Starting process:
+	/Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/jre/bin/java
+	-Dsl.running.in.remote.vm=true
+	-Dsurelogic.test.code=NONE
+	-XX:MaxPermSize=512m
+	-verbosegc
+	-DSureLogicX=true
+	-Dsl.run.dir=/Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/TestThreadSafeOverri-2015.06.23-at-15.23.02.641
+	-Dfluid.ir.versioning=Versioning.Off
+	-Dfluid.directory.url=file:/Eclipses/eclipse-standard-luna-SR2-macosx-cocoa-x86_64/../../Users/aarong/git/jsure/jsure-analysis/
+	-Xmx2048m
+	-classpath
+	/Users/aarong/git/jsure/jsure-analysis/bin:/Users/aarong/git/common/common/lib/runtime/commons-codec-1.10.jar:/Users/aarong/git/common/common/lib/runtime/trove-3.0.3.jar:/Users/aarong/git/common/common/lib/runtime/antlr-3.5.2-runtime.jar:/Users/aarong/git/common/common/lib/runtime/servlet-api-3.1.jar:/Users/aarong/git/jsure/jsure-common/lib/runtime/diffutils-1.2.1.jar:/Users/aarong/git/common/common/bin:/Users/aarong/git/common/common/lib/runtime/asm-5.0.2.jar:/Users/aarong/git/jsure/jsure-analysis/lib/runtime/renamedJavac.jar:/Users/aarong/git/common/common/lib/runtime/asm-tree-5.0.2.jar:/Users/aarong/git/common/common/lib/runtime/promises-5.6.0.jar:/Users/aarong/git/jsure/jsure-analysis/lib/runtime/log4j-xml-1.3alpha-8.jar:/Users/aarong/git/common/common/lib/runtime/derby-10.11.1.1.jar:/Users/aarong/git/jsure/jsure-common/bin:/Users/aarong/git/common/common/lib/runtime/ant-1.9.4.jar:/Users/aarong/git/common/common/lib/runtime/collections-generic-4.0.jar:/Users/aarong/git/jsure/jsure-analysis/lib/runtime/log4j-1.3alpha-8.jar:/Users/aarong/git/common/common/lib/runtime/asm-commons-5.0.2.jar:/Users/aarong/git/common/common/lib/runtime/commons-lang3-3.3.2.jar:/Users/aarong/git/common/common/lib/runtime/commons-io-2.4.jar
+	com.surelogic.javac.jobs.RemoteJSureRun
+
+First line in REMOTE vm = Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=512m; support was removed in 8.0
+[GC (Allocation Failure)  512K->512K(327168K), 0.0015980 secs]
+[GC (Allocation Failure)  1012K->571K(327680K), 0.0009500 secs]
+[GC (Allocation Failure)  1595K->779K(327680K), 0.0012440 secs]
+[GC (Allocation Failure)  1803K->855K(328704K), 0.0008350 secs]
+JVM started: 1.8.0_05
+Log level: INFO
+Created reader
+Created monitor
+Created log handler
+Running RemoteJSureRun
+[GC (Allocation Failure)  2903K->1063K(328704K), 0.0011560 secs]
+[GC (Allocation Failure)  3111K->1311K(331264K), 0.0012330 secs]
+[GC (Allocation Failure)  5407K->1663K(331264K), 0.0013820 secs]
+[GC (Allocation Failure)  5759K->1823K(335360K), 0.0012370 secs]
+runPath = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/TestThreadSafeOverri-2015.06.23-at-15.23.02.641
+Creating run: TestThreadSafeOverri-2015.06.23-at-15.23.02.641
+projects = TestThreadSafeOverriding
+Loading edu.cmu.cs.fluid.make.nonabductive.proposals = false
+Loading edu.cmu.cs.fluid.load.all.classes = false
+Loading edu.cmu.cs.fluid.timeoutFlag = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BCA = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ConstantExpr = false
+Loading edu.cmu.cs.fluid.physMemoryInMB = 20480
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.EqualityAssurance = true
+Loading edu.cmu.cs.fluid.xml.diff.directory = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/promises-xml
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.UniquenessAssuranceUWM = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.IRConcurrencyDetector = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Singleton = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.CALLS = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BenchmarkingUniquenessSE = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ThreadEffectAssurance2 = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Binder = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.cliend.eclipse.TypeBasedAlias = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Nullable = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.TestIsFunctional = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.UniquenessAssuranceUWM_SE = false
+Loading edu.cmu.cs.fluid.tool-memory-mb = 2048
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.DefinitelyAssigned = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.UniquenessAssuranceSE = true
+Loading edu.cmu.cs.fluid.analysis.thread.count = 8
+Loading edu.cmu.cs.fluid.timeoutSec = 11
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.NonNullRawTypes = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LayersAssurance = true
+Loading edu.cmu.cs.fluid.default.JRE = org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Loading edu.cmu.cs.fluid.timeoutWarningSec = 30
+Loading edu.cmu.cs.fluid.modeling.problem.filters = 00000012com\.apple.*00000013com\.oracle.*00000010com\.sun.*00000014.*\.internal.*00000023.*BakedArrayList\.class00000007apple.*00000008oracle.*00000011quicktime.*00000005sun.*
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Utility = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BenchmarkingUniquenessNew_SE = false
+Loading edu.cmu.cs.fluid.scan.may.use.compression = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ParameterizedType = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Final = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LockAssurance3 = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BenchmarkingUniquenessNew = false
+Loading edu.cmu.cs.fluid.data.directory = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.NullablePreprocessor = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.EffectAssurance2 = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LV = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.StructureAssurance = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Types = false
+JSure data dir = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data
+XML diff dir   = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/promises-xml
+Looking for JRE in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+default JRE = org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Initialized job
+Created com.surelogic.analysis.concurrency.detector.ConcurrencyDetector
+Starting a new group for ConcurrencyDetector
+Created com.surelogic.analysis.threads.ThreadEffectsModule
+Created com.surelogic.analysis.structure.StructureAnalysis
+Created com.surelogic.analysis.annotationbounds.ParameterizedTypeAnalysis
+Created com.surelogic.analysis.equality.EqualityAnalysis
+Created com.surelogic.analysis.layers.LayersAnalysis
+Created com.surelogic.analysis.utility.UtilityAnalysis
+Starting a new group for UtilityAnalysis
+Group: EXTERNALLY
+	ConcurrencyDetector
+	ThreadEffectsModule
+	StructureAnalysis
+	ParameterizedTypeAnalysis
+	EqualityAnalysis
+	LayersAnalysis
+Created com.surelogic.analysis.singleton.SingletonAnalysis
+[GC (Allocation Failure)  10015K->2375K(335360K), 0.0018410 secs]
+Created com.surelogic.analysis.concurrency.driver.LockAnalysis
+Created com.surelogic.analysis.effects.EffectsAnalysis
+Created com.surelogic.analysis.uniqueness.classic.sideeffecting.UniquenessAnalysisModule
+Starting a new group for UniquenessAnalysisModule
+Group: com.surelogic.analysis.visitors.TopLevelAnalysisVisitor$1@69663380, EXTERNALLY
+	UtilityAnalysis
+	SingletonAnalysis
+	LockAnalysis
+	EffectsAnalysis
+Created com.surelogic.analysis.nullable.NullablePreprocessorModule
+Starting a new group for NullablePreprocessorModule
+Group: com.surelogic.analysis.uniqueness.classic.sideeffecting.UniquenessAnalysisModule$1@5b37e0d2, class com.surelogic.analysis.bca.BindingContextAnalysis, INTERNALLY
+	UniquenessAnalysisModule
+Created com.surelogic.analysis.nullable.NullableModule2
+Starting a new group for NullableModule2
+Group: EXTERNALLY
+	NullablePreprocessorModule
+Group: com.surelogic.analysis.granules.FlowUnitGranulator@4459eb14, EXTERNALLY
+	NullableModule2
+##TASK, Scan, 170
+Initializing ...
+##SUBTASK, Initializing ...
+monitor = com.surelogic.common.jobs.remote.AbstractRemoteSLJob$Monitor@5a2e4553
+singleThread = false
+[GC (Allocation Failure)  10567K->2687K(340992K), 0.0019030 secs]
+[GC (Allocation Failure)  15958K->10605K(340992K), 0.0052820 secs]
+[GC (Allocation Failure)  23885K->23832K(351744K), 0.0087410 secs]
+Done initializing org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: 0
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/resources.jar
+[GC (Allocation Failure)  44824K->43893K(352256K), 0.0127710 secs]
+[GC (Allocation Failure)  64885K->47501K(366080K), 0.0053250 secs]
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/rt.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jsse.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jce.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/charsets.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jfr.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/dnsns.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/localedata.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunec.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunjce_provider.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunpkcs11.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/zipfs.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /System/Library/Java/Extensions/MRJToolkit.jar
+Done initializing TestThreadSafeOverriding: 10
+Trying to find /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/TestThreadSafeOverri-2015.06.23-at-15.23.02.641/source/TestThreadSafeOverriding.bin.zip
+TestThreadSafeOverriding: TestThreadSafeOverriding -> org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Done initializing org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: 0
+TestThreadSafeOverriding: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/resources.jar
+[GC (Allocation Failure)  81293K->54101K(366080K), 0.0072940 secs]
+TestThreadSafeOverriding: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/rt.jar
+TestThreadSafeOverriding: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jsse.jar
+TestThreadSafeOverriding: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jce.jar
+TestThreadSafeOverriding: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/charsets.jar
+TestThreadSafeOverriding: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jfr.jar
+TestThreadSafeOverriding: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/dnsns.jar
+TestThreadSafeOverriding: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/localedata.jar
+TestThreadSafeOverriding: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunec.jar
+TestThreadSafeOverriding: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunjce_provider.jar
+TestThreadSafeOverriding: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunpkcs11.jar
+TestThreadSafeOverriding: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/zipfs.jar
+TestThreadSafeOverriding: Done initializing with /System/Library/Java/Extensions/MRJToolkit.jar
+TestThreadSafeOverriding: Done initializing with /Users/aarong/git/regression/regression/TestThreadSafeOverriding/promises-5.6.0.jar
+##SUBTASK_DONE
+##WORK, 1
+Assuming that the projects are run in dependency order
+Parsing ...
+##SUBTASK, Parsing ...
+Done adapting 0 files for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK_DONE
+##WORK, 1
+Parsing ...
+##SUBTASK, Parsing ...
+JCP: warning: [options] bootstrap class path not set in conjunction with -source 1.7
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+Adapting 10 CUTs
+[GC (Allocation Failure)  87893K->61575K(387584K), 0.0121040 secs]
+Done adapting 10 files for TestThreadSafeOverriding
+##SUBTASK_DONE
+##WORK, 1
+Handling references for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Handling references for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 21 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Setting project for Object from org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 44 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 55 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 51 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 32 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 17 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 8 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 12 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 15 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 4 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 2 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK_DONE
+##WORK, 1
+Handling references for TestThreadSafeOverriding
+##SUBTASK, Handling references for TestThreadSafeOverriding
+Handling 24 dangling refs for TestThreadSafeOverriding
+Handling 6 dangling refs for TestThreadSafeOverriding
+##SUBTASK_DONE
+##WORK, 1
+Updated 261 files in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Updated 40 files in TestThreadSafeOverriding
+Parsing ASTs  = 372 ms
+Handling refs = 338 ms
+[2015-06-23 15:23:04    INFO] partial bindings = 0 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+[2015-06-23 15:23:04    INFO] full bindings = 0 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+Canonicalizing ASTs
+##SUBTASK, Canonicalizing ASTs
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+[2015-06-23 15:23:04    INFO] partial bindings = 272 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+[2015-06-23 15:23:04    INFO] full bindings = 347 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+Canonicalizing TestThreadSafeOverriding/src/test/clazz/explicit/AA.java
+##WORK, 1
+Canonicalizing TestThreadSafeOverriding/src/test/clazz/implicit/C.java
+##WORK, 1
+Canonicalizing TestThreadSafeOverriding/src/test/iface/subClasses/implicit/I.java
+##WORK, 1
+Canonicalizing TestThreadSafeOverriding/src/testRecognition/interfaces/C.java
+##WORK, 1
+Canonicalizing TestThreadSafeOverriding/src/test/iface/subInterfaces/explicit/AA.java
+##WORK, 1
+Canonicalizing TestThreadSafeOverriding/src/test/iface/subInterfaces/explicit/I.java
+##WORK, 1
+Canonicalizing TestThreadSafeOverriding/src/test/iface/subClasses/explicit/I.java
+##WORK, 1
+Canonicalizing TestThreadSafeOverriding/src/testRecognition/classes/C.java
+##WORK, 1
+Canonicalizing TestThreadSafeOverriding/src/test/clazz/explicit/C.java
+##WORK, 1
+Canonicalizing TestThreadSafeOverriding/src/test/iface/subInterfaces/implicit/I.java
+##WORK, 1
+Binding = 58 ms
+##SUBTASK_DONE
+##WORK, 1
+Handling references for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Handling references for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 21 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK_DONE
+##WORK, 1
+Handling references for TestThreadSafeOverriding
+##SUBTASK, Handling references for TestThreadSafeOverriding
+Handling 21 dangling refs for TestThreadSafeOverriding
+##SUBTASK_DONE
+##WORK, 1
+Updated 261 files in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Updated 40 files in TestThreadSafeOverriding
+[GC (System.gc())  103873K->65729K(389120K), 0.0139210 secs]
+[Full GC (System.gc())  65729K->54521K(389120K), 0.0989410 secs]
+Creating drops
+##SUBTASK, Creating drops
+Created binary drop for java.lang.Comparable
+Created binary drop for sun.reflect.FieldAccessor
+Created binary drop for java.io.FilterOutputStream
+Created binary drop for java.util.AbstractMap
+Created binary drop for java.math.BigInteger
+Created binary drop for java.util.LinkedList
+Created binary drop for sun.reflect.ConstructorAccessor
+Created binary drop for java.io.IOException
+Created binary drop for java.nio.file.Path
+Created binary drop for sun.util.locale.ParseStatus
+Created binary drop for java.lang.ClassValue
+Created binary drop for java.lang.ref.ReferenceQueue
+Created binary drop for java.nio.channels.AsynchronousFileChannel
+Created binary drop for java.util.Dictionary
+Created binary drop for java.lang.reflect.Field
+Created binary drop for java.nio.file.Watchable
+Created binary drop for java.nio.file.attribute.FileAttribute
+Created binary drop for java.net.UnknownHostException
+Created binary drop for java.io.PrintWriter
+Created binary drop for java.util.SortedMap
+Created binary drop for java.security.cert.CertPath
+Created binary drop for java.lang.Long
+Created binary drop for java.util.concurrent.ConcurrentMap
+Created binary drop for java.security.DomainCombiner
+Created binary drop for java.util.concurrent.TimeUnit
+Created binary drop for java.lang.IllegalAccessException
+Created binary drop for java.util.concurrent.locks.ReadWriteLock
+Created binary drop for java.nio.file.CopyOption
+Created binary drop for java.util.concurrent.Callable
+Created binary drop for java.io.DataOutputStream
+Created binary drop for java.nio.channels.AsynchronousCloseException
+Created binary drop for java.security.InvalidKeyException
+Created binary drop for java.util.Stack
+Created binary drop for java.nio.channels.SeekableByteChannel
+Created binary drop for java.nio.Buffer
+Created binary drop for java.nio.channels.FileLock
+Created binary drop for java.net.InetAddressImpl
+Created binary drop for java.lang.InstantiationException
+Created binary drop for java.net.URLStreamHandler
+Created binary drop for java.security.Permission
+Created binary drop for java.util.concurrent.locks.Condition
+Created binary drop for java.lang.IllegalArgumentException
+Created binary drop for java.util.AbstractSequentialList
+Created binary drop for java.lang.Void
+Created binary drop for java.nio.charset.CharacterCodingException
+Created binary drop for java.security.AccessControlException
+Created binary drop for java.lang.ClassLoader
+Created binary drop for java.nio.channels.ClosedChannelException
+Created binary drop for java.security.NoSuchProviderException
+Created binary drop for java.net.URLConnection
+Created binary drop for java.lang.RuntimeException
+Created binary drop for java.security.NoSuchAlgorithmException
+Created binary drop for java.lang.Character
+Created binary drop for java.security.GeneralSecurityException
+Created binary drop for java.net.NetworkInterface
+Created binary drop for java.util.Map
+Created binary drop for sun.util.resources.OpenListResourceBundle
+Created binary drop for java.lang.StringBuilder
+Created binary drop for sun.reflect.ReflectionFactory
+Created binary drop for java.nio.channels.InterruptibleChannel
+Created binary drop for java.lang.ThreadGroup
+Created binary drop for java.nio.file.attribute.UserPrincipal
+Created binary drop for java.lang.Boolean
+Created binary drop for java.nio.file.attribute.FileAttributeView
+Created binary drop for java.util.concurrent.Future
+Created binary drop for java.lang.reflect.Type
+Created binary drop for java.security.AccessControlContext
+Created binary drop for java.lang.ref.Reference
+Created binary drop for java.util.zip.ZipFile
+Created source drop for file:/Users/aarong/git/regression/regression/TestThreadSafeOverriding/src/test/clazz/implicit/C.java
+Created binary drop for java.nio.channels.CompletionHandler
+Created binary drop for java.lang.NumberFormatException
+Created binary drop for java.lang.Short
+Created binary drop for sun.reflect.CallerSensitive
+Created binary drop for java.lang.Throwable
+Created source drop for file:/Users/aarong/git/regression/regression/TestThreadSafeOverriding/src/test/iface/subInterfaces/explicit/I.java
+Created binary drop for java.lang.AutoCloseable
+Created binary drop for java.lang.Iterable
+Created binary drop for java.util.List
+Created binary drop for java.nio.file.attribute.FileTime
+Created binary drop for java.io.SyncFailedException
+Created binary drop for java.util.Set
+Created binary drop for java.net.FileNameMap
+Created binary drop for java.nio.channels.ReadableByteChannel
+Created binary drop for sun.misc.MetaIndex
+Created binary drop for java.nio.file.LinkOption
+Created binary drop for java.security.Guard
+Created binary drop for java.security.Timestamp
+Created binary drop for java.util.jar.Attributes
+Created binary drop for sun.reflect.LangReflectAccess
+Created binary drop for java.security.PrivilegedAction
+Created binary drop for java.net.UnknownServiceException
+Created binary drop for java.util.AbstractSet
+Created binary drop for sun.nio.ch.Interruptible
+Created binary drop for java.util.zip.InflaterInputStream
+Created binary drop for java.nio.ShortBuffer
+Created binary drop for java.nio.charset.CharsetEncoder
+Created binary drop for java.lang.Integer
+Created binary drop for java.nio.charset.CoderResult
+Created binary drop for java.lang.reflect.TypeVariable
+Created binary drop for java.net.URLStreamHandlerFactory
+Created binary drop for java.util.zip.ZipEntry
+Created binary drop for sun.misc.URLClassPath
+Created binary drop for java.nio.CharBuffer
+Created binary drop for java.util.AbstractCollection
+Created binary drop for java.security.cert.CertificateException
+Created binary drop for java.util.Vector
+Created binary drop for java.util.jar.JarFile
+Created binary drop for java.lang.String
+Created binary drop for java.util.ListIterator
+Created binary drop for java.util.Queue
+Created binary drop for sun.util.locale.LanguageTag
+Created binary drop for java.nio.ByteOrder
+Created binary drop for java.lang.Cloneable
+Created binary drop for java.util.WeakHashMap
+Created binary drop for java.nio.channels.spi.AbstractInterruptibleChannel
+Created binary drop for java.nio.file.FileStore
+Created binary drop for sun.reflect.ConstantPool
+Created binary drop for java.nio.file.DirectoryStream
+Created binary drop for java.io.PrintStream
+Created binary drop for java.lang.AbstractStringBuilder
+Created binary drop for java.lang.annotation.RetentionPolicy
+Created binary drop for java.io.ObjectStreamException
+Created binary drop for java.nio.file.PathMatcher
+Created source drop for file:/Users/aarong/git/regression/regression/TestThreadSafeOverriding/src/test/iface/subClasses/implicit/I.java
+Created binary drop for java.io.UnsupportedEncodingException
+Created binary drop for java.util.zip.ZipException
+Created binary drop for java.util.HashMap
+Created binary drop for sun.security.util.Debug
+Created binary drop for java.nio.charset.CharsetDecoder
+Created binary drop for sun.reflect.MethodAccessor
+Created binary drop for sun.util.locale.LocaleExtensions
+Created binary drop for java.lang.reflect.AnnotatedElement
+Created binary drop for java.io.FilterInputStream
+Created binary drop for sun.misc.JarIndex
+Created source drop for file:/Users/aarong/git/regression/regression/TestThreadSafeOverriding/src/test/clazz/explicit/AA.java
+Created binary drop for java.nio.DoubleBuffer
+Created binary drop for java.io.OutputStream
+Created binary drop for java.io.Writer
+Created binary drop for sun.util.locale.BaseLocale
+Created binary drop for java.lang.Double
+Created binary drop for java.nio.charset.CodingErrorAction
+Created binary drop for java.io.FileDescriptor
+Created binary drop for java.lang.reflect.Constructor
+Created binary drop for java.nio.file.spi.FileSystemProvider
+Created binary drop for java.security.PublicKey
+Created binary drop for java.lang.annotation.Retention
+Created binary drop for java.util.ResourceBundle
+Created binary drop for com.surelogic.Unique
+Created binary drop for java.util.Locale
+Created binary drop for java.security.SignatureException
+Created binary drop for java.nio.charset.Charset
+Created binary drop for java.util.Enumeration
+Created binary drop for java.lang.ref.SoftReference
+Created binary drop for java.lang.Enum
+Created binary drop for sun.util.locale.InternalLocaleBuilder
+Created binary drop for java.lang.Appendable
+Created binary drop for java.lang.InterruptedException
+Created binary drop for java.nio.file.WatchKey
+Created binary drop for java.nio.ByteBuffer
+Created binary drop for java.nio.file.WatchService
+Created binary drop for java.util.concurrent.ExecutorService
+Created binary drop for java.nio.file.FileSystem
+Created binary drop for java.nio.channels.GatheringByteChannel
+Created binary drop for sun.reflect.annotation.AnnotationType
+Created binary drop for java.lang.NoSuchFieldException
+Created source drop for file:/Users/aarong/git/regression/regression/TestThreadSafeOverriding/src/test/clazz/explicit/C.java
+Created binary drop for java.nio.file.attribute.BasicFileAttributes
+Created binary drop for java.io.FileFilter
+Created binary drop for java.lang.Deprecated
+Created binary drop for java.io.Serializable
+Created binary drop for java.nio.file.WatchEvent
+Created binary drop for java.lang.Float
+Created binary drop for java.util.ArrayList
+Created binary drop for java.util.jar.JarEntry
+Created binary drop for java.util.spi.LocaleServiceProvider
+Created binary drop for java.lang.Runnable
+Created source drop for file:/Users/aarong/git/regression/regression/TestThreadSafeOverriding/src/testRecognition/classes/C.java
+Created binary drop for java.nio.file.OpenOption
+Created binary drop for java.lang.annotation.Target
+Created binary drop for java.nio.file.AccessMode
+Created binary drop for java.security.PermissionCollection
+Created source drop for file:/Users/aarong/git/regression/regression/TestThreadSafeOverriding/src/testRecognition/interfaces/C.java
+Created binary drop for java.net.URISyntaxException
+Created binary drop for java.lang.annotation.Documented
+Created binary drop for java.util.RandomAccess
+Created binary drop for com.surelogic.NotThreadSafe
+Created binary drop for java.lang.Class
+Created binary drop for java.security.ProtectionDomain
+Created binary drop for java.io.InputStream
+Created binary drop for java.net.InetAddress
+Created binary drop for java.io.Flushable
+Created binary drop for java.util.MissingResourceException
+Created binary drop for java.nio.channels.WritableByteChannel
+Created binary drop for java.nio.FloatBuffer
+Created binary drop for java.lang.annotation.Annotation
+Created binary drop for java.lang.reflect.AccessibleObject
+Created binary drop for java.net.SocketAddress
+Created binary drop for java.lang.Thread
+Created binary drop for java.lang.Readable
+Created binary drop for sun.util.locale.Extension
+Created binary drop for java.lang.ReflectiveOperationException
+Created binary drop for java.lang.StackTraceElement
+Created binary drop for java.lang.CharSequence
+Created binary drop for java.lang.Byte
+Created binary drop for com.surelogic.Part
+Created source drop for file:/Users/aarong/git/regression/regression/TestThreadSafeOverriding/src/test/iface/subInterfaces/implicit/I.java
+Created source drop for file:/Users/aarong/git/regression/regression/TestThreadSafeOverriding/src/test/iface/subInterfaces/explicit/AA.java
+Created binary drop for java.net.URL
+Created binary drop for java.io.DataOutput
+Created binary drop for java.security.CodeSource
+Created binary drop for java.lang.ThreadLocal
+Created binary drop for java.io.FileNotFoundException
+Created binary drop for java.lang.Object
+Created binary drop for java.nio.LongBuffer
+Created binary drop for java.lang.Exception
+Created binary drop for java.nio.channels.ByteChannel
+Created binary drop for sun.util.locale.LocaleObjectCache
+Created binary drop for java.util.concurrent.locks.Lock
+Created binary drop for java.lang.Package
+Created binary drop for java.nio.channels.AsynchronousChannel
+Created binary drop for java.security.cert.CertificateEncodingException
+Created binary drop for java.net.Proxy
+Created binary drop for java.security.Key
+Created binary drop for java.net.ContentHandler
+Created binary drop for java.util.Date
+Created binary drop for sun.util.LocaleServiceProviderPool
+Created binary drop for com.surelogic.ThreadSafe
+Created binary drop for java.nio.channels.ScatteringByteChannel
+Created binary drop for java.lang.reflect.InvocationTargetException
+Created binary drop for java.lang.reflect.GenericDeclaration
+Created binary drop for java.util.zip.DataFormatException
+Created binary drop for java.io.File
+Created binary drop for java.lang.Number
+Created binary drop for java.util.Random
+Created binary drop for java.net.URI
+Created binary drop for java.security.KeyException
+Created binary drop for java.util.Comparator
+Created binary drop for java.net.SocketException
+Created binary drop for java.util.spi.LocaleNameProvider
+Created binary drop for java.nio.channels.FileChannel
+Created binary drop for java.util.zip.ZipConstants
+Created binary drop for java.lang.SecurityException
+Created binary drop for java.nio.file.attribute.FileStoreAttributeView
+Created binary drop for java.security.CodeSigner
+Created binary drop for java.util.Deque
+Created binary drop for sun.util.locale.LocaleSyntaxException
+Created binary drop for java.net.ContentHandlerFactory
+Created binary drop for java.util.concurrent.Executor
+Created binary drop for java.lang.CloneNotSupportedException
+Created binary drop for java.util.Hashtable
+Created binary drop for sun.misc.Resource
+Created binary drop for java.util.Collection
+Created binary drop for java.nio.IntBuffer
+Created binary drop for java.lang.reflect.Method
+Created binary drop for java.util.jar.Manifest
+Created binary drop for java.nio.file.attribute.UserPrincipalLookupService
+Created binary drop for java.net.InterfaceAddress
+Created binary drop for java.nio.MappedByteBuffer
+Created binary drop for java.nio.file.attribute.GroupPrincipal
+Created binary drop for java.net.MalformedURLException
+Created binary drop for java.lang.reflect.Member
+Created binary drop for java.nio.file.attribute.AttributeView
+Created binary drop for java.util.zip.Inflater
+Created binary drop for java.security.Principal
+Created binary drop for java.io.Closeable
+Created binary drop for java.util.AbstractList
+Created binary drop for java.io.FilenameFilter
+Created binary drop for java.util.Iterator
+Created binary drop for java.lang.annotation.ElementType
+Created binary drop for java.nio.channels.Channel
+Created binary drop for java.lang.StringBuffer
+Created source drop for file:/Users/aarong/git/regression/regression/TestThreadSafeOverriding/src/test/iface/subClasses/explicit/I.java
+Created binary drop for java.security.cert.Certificate
+Created binary drop for java.lang.ref.WeakReference
+##SUBTASK_DONE
+##WORK, 1
+Parsing promises
+##SUBTASK, Parsing promises
+Added 3 promises for java.lang.[] in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@799f7e29
+Added 3 promises for java.lang.[] in TestThreadSafeOverriding: com.surelogic.tree.SyntaxTreeNode@19f040ba
+Added 3 promises for java.util.zip.ZipEntry in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3759caec
+Added 1 promises for java.lang.ref.ReferenceQueue in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@38d95cdc
+Added 29 promises for java.util.Dictionary in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7c86542e
+Added 31 promises for java.util.SortedMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@1c38284c
+Added 6 promises for java.lang.IllegalAccessException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@59301dc4
+Added 55 promises for java.util.AbstractCollection in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4ed467df
+Added 12 promises for java.lang.IllegalArgumentException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4e5c8f5d
+Added 6 promises for java.lang.InstantiationException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@727adff8
+Added 7 promises for java.util.concurrent.locks.ReadWriteLock in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4865ed0c
+Added 3 promises for java.nio.file.DirectoryStream in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@1ce55374
+Added 17 promises for java.util.concurrent.ConcurrentMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@69d386e7
+Added 6 promises for java.lang.NumberFormatException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@149f736f
+Added 10 promises for test.iface.subInterfaces.explicit.I in TestThreadSafeOverriding: com.surelogic.tree.SyntaxTreeNode@1c9b5bf
+Added 21 promises for java.util.Stack in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@560d748f
+Added 29 promises for java.util.AbstractSequentialList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@5851bea7
+Added 108 promises for java.util.AbstractMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@505f10b9
+Added 16 promises for java.util.AbstractSet in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2453702b
+Added 89 promises for java.util.List in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2e82b94
+Added 61 promises for java.lang.Short in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@23a83dd
+Added 6 promises for java.io.PrintWriter in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6de99342
+Added 24 promises for test.clazz.explicit.C in TestThreadSafeOverriding: com.surelogic.tree.SyntaxTreeNode@52710bd8
+Added 18 promises for java.nio.CharBuffer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@62023f32
+Added 25 promises for testRecognition.classes.C in TestThreadSafeOverriding: com.surelogic.tree.SyntaxTreeNode@5c2202d
+Added 6 promises for java.io.PrintStream in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3e866b83
+Added 109 promises for java.lang.StringBuilder in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2b9f9734
+Added 88 promises for java.util.jar.Attributes in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@85f3b3c
+Added 12 promises for java.lang.Class in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@686adde2
+Added 96 promises for java.lang.Long in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@1ce21c54
+Added 54 promises for java.util.Set in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@404ba236
+Added 22 promises for test.clazz.implicit.C in TestThreadSafeOverriding: com.surelogic.tree.SyntaxTreeNode@14e257ec
+Added 3 promises for java.lang.Iterable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2b2eb3a6
+Added 139 promises for java.util.LinkedList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@11dbfc8f
+Added 22 promises for java.util.concurrent.locks.Condition in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@1e3fe308
+Added 20 promises for java.util.concurrent.locks.Lock in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@21257f74
+Added 5 promises for test.iface.subInterfaces.implicit.I in TestThreadSafeOverriding: com.surelogic.tree.SyntaxTreeNode@682134f7
+Added 12 promises for java.lang.RuntimeException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@60d2f0
+Added 45 promises for java.util.ResourceBundle in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6eb2ea73
+[GC (Allocation Failure)  107257K->57777K(392192K), 0.0045010 secs]
+Added 141 promises for java.lang.Thread in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@1acecb0b
+Added 64 promises for java.util.Map in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@5791df68
+Added 2 promises for java.lang.ref.SoftReference in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@34d6a4db
+Added 3 promises for java.util.Date in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@1ae329f7
+Added 12 promises for java.lang.reflect.InvocationTargetException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@66a7f0d5
+Added 138 promises for java.math.BigInteger in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6e513c10
+Added 12 promises for java.lang.SecurityException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@70aeb106
+Added 1 promises for java.lang.ThreadLocal in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@12bafc5a
+Added 12 promises for java.lang.Exception in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@736364d9
+Added 3 promises for java.nio.file.Path in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6202a2f4
+Added 87 promises for java.util.Deque in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2a9bfca3
+Added 47 promises for java.lang.Throwable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@777f0b19
+Added 31 promises for java.lang.Object in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@45af4dd
+Added 29 promises for java.util.concurrent.TimeUnit in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@60d61812
+Added 18 promises for java.util.Queue in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@14a16e30
+Added 54 promises for java.util.Collection in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@39ce08b8
+Added 22 promises for java.lang.Number in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@49c8a688
+Added 83 promises for java.util.Hashtable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6f7f487a
+Added 22 promises for test.iface.subClasses.implicit.I in TestThreadSafeOverriding: com.surelogic.tree.SyntaxTreeNode@10fd06c
+Added 301 promises for java.lang.String in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@775a33b7
+Added 37 promises for java.lang.Boolean in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2230bb13
+Added 96 promises for java.lang.Integer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@a0f3f4c
+Added 6 promises for java.lang.NoSuchFieldException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@49dfebf4
+Added 60 promises for java.util.AbstractList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@667049d8
+Added 6 promises for java.lang.CloneNotSupportedException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@5bc9ee0d
+Added 61 promises for java.util.HashMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@76601176
+Added 3 promises for java.util.jar.Manifest in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@9641371
+Added 56 promises for java.util.WeakHashMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@65c5745a
+Added 18 promises for java.util.ListIterator in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@15711c2c
+Added 144 promises for java.lang.AbstractStringBuilder in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@464eeebd
+Added 12 promises for testRecognition.interfaces.C in TestThreadSafeOverriding: com.surelogic.tree.SyntaxTreeNode@18861e8d
+Added 6 promises for java.util.Iterator in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@27a83f91
+Added 2 promises for test.clazz.explicit.AA in TestThreadSafeOverriding: com.surelogic.tree.SyntaxTreeNode@69e450cf
+Added 6 promises for java.lang.InterruptedException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4ba766e7
+Added 6 promises for java.io.Writer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@d9fe4e6
+Added 70 promises for java.lang.Double in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@46aacd3e
+Added 12 promises for java.lang.CharSequence in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@30ac108e
+Added 59 promises for java.lang.Byte in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@58f036b4
+Added 6 promises for java.lang.Appendable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@275fce8d
+Added 170 promises for java.util.Vector in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4854e9ac
+Added 4 promises for test.iface.subInterfaces.explicit.AA in TestThreadSafeOverriding: com.surelogic.tree.SyntaxTreeNode@5972472c
+[GC (Allocation Failure)  112561K->59342K(391680K), 0.0044480 secs]
+Added 34 promises for java.util.concurrent.ExecutorService in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@735fd11e
+Added 13 promises for java.lang.Enum in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@10cd629a
+Added 73 promises for java.lang.Float in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2847b79f
+Added 3 promises for java.util.Locale in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4a811409
+Added 4 promises for java.util.Enumeration in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@599ae90a
+Added 158 promises for java.lang.StringBuffer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@37308241
+WARNING: TreeAccessor couldn't find equals(java.lang.Object) in java.util.ArrayList
+WARNING: TreeAccessor couldn't find hashCode() in java.util.ArrayList
+Added 26 promises for test.iface.subClasses.explicit.I in TestThreadSafeOverriding: com.surelogic.tree.SyntaxTreeNode@6384ed4d
+Added 104 promises for java.util.ArrayList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@65f13580
+Added 18 promises for java.net.URISyntaxException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@168b3bf3
+##SUBTASK_DONE
+##WORK, 1
+Scrubbing promises
+##SUBTASK, Scrubbing promises
+Creating RegionModel java.lang.Object.Instance for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+[GC (Allocation Failure)  114126K->62075K(412160K), 0.0062010 secs]
+##SUBTASK_DONE
+##WORK, 1
+Starting analyses
+Using new analysis framework -- groups
+Starting group: ConcurrencyDetector, ThreadEffectsModule, StructureAnalysis, ParameterizedTypeAnalysis, EqualityAnalysis, LayersAnalysis
+##SUBTASK, Starting parallel ConcurrencyDetector [0]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel ConcurrencyDetector [0]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Starting parallel ThreadEffectsModule [1]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel ThreadEffectsModule [1]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Starting parallel StructureAnalysis [2]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel StructureAnalysis [2]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Starting parallel ParameterizedTypeAnalysis [3]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel ParameterizedTypeAnalysis [3]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Starting parallel EqualityAnalysis [4]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel EqualityAnalysis [4]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Starting parallel LayersAnalysis [5]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel LayersAnalysis [5]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Starting parallel ConcurrencyDetector [0]: 10 for TestThreadSafeOverriding
+Starting parallel ConcurrencyDetector [0]: 10 for TestThreadSafeOverriding
+##SUBTASK, Starting parallel ThreadEffectsModule [1]: 10 for TestThreadSafeOverriding
+Starting parallel ThreadEffectsModule [1]: 10 for TestThreadSafeOverriding
+##SUBTASK, Starting parallel StructureAnalysis [2]: 10 for TestThreadSafeOverriding
+Starting parallel StructureAnalysis [2]: 10 for TestThreadSafeOverriding
+##SUBTASK, Starting parallel ParameterizedTypeAnalysis [3]: 10 for TestThreadSafeOverriding
+Starting parallel ParameterizedTypeAnalysis [3]: 10 for TestThreadSafeOverriding
+##SUBTASK, Starting parallel EqualityAnalysis [4]: 10 for TestThreadSafeOverriding
+Starting parallel EqualityAnalysis [4]: 10 for TestThreadSafeOverriding
+##SUBTASK, Starting parallel LayersAnalysis [5]: 10 for TestThreadSafeOverriding
+Starting parallel LayersAnalysis [5]: 10 for TestThreadSafeOverriding
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestThreadSafeOverriding/src/test/clazz/explicit/AA.java
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestThreadSafeOverriding/src/test/iface/subClasses/implicit/I.java
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestThreadSafeOverriding/src/test/iface/subInterfaces/implicit/I.java
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestThreadSafeOverriding/src/testRecognition/classes/C.java
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestThreadSafeOverriding/src/test/iface/subInterfaces/explicit/AA.java
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestThreadSafeOverriding/src/test/iface/subClasses/explicit/I.java
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestThreadSafeOverriding/src/testRecognition/interfaces/C.java
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestThreadSafeOverriding/src/test/clazz/implicit/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestThreadSafeOverriding/src/test/iface/subInterfaces/implicit/I.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestThreadSafeOverriding/src/testRecognition/interfaces/C.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestThreadSafeOverriding/src/test/iface/subInterfaces/explicit/AA.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestThreadSafeOverriding/src/test/iface/subClasses/implicit/I.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestThreadSafeOverriding/src/testRecognition/classes/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestThreadSafeOverriding/src/test/clazz/explicit/AA.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestThreadSafeOverriding/src/test/clazz/implicit/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestThreadSafeOverriding/src/test/iface/subClasses/explicit/I.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestThreadSafeOverriding/src/test/iface/subInterfaces/implicit/I.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestThreadSafeOverriding/src/test/iface/subInterfaces/implicit/I.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestThreadSafeOverriding/src/test/iface/subClasses/explicit/I.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestThreadSafeOverriding/src/test/iface/subInterfaces/implicit/I.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestThreadSafeOverriding/src/testRecognition/interfaces/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestThreadSafeOverriding/src/test/iface/subInterfaces/explicit/AA.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestThreadSafeOverriding/src/testRecognition/interfaces/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestThreadSafeOverriding/src/test/clazz/explicit/AA.java
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestThreadSafeOverriding/src/test/iface/subClasses/implicit/I.java
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestThreadSafeOverriding/src/test/iface/subClasses/explicit/I.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestThreadSafeOverriding/src/testRecognition/classes/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestThreadSafeOverriding/src/testRecognition/classes/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestThreadSafeOverriding/src/testRecognition/interfaces/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestThreadSafeOverriding/src/test/iface/subClasses/implicit/I.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestThreadSafeOverriding/src/test/clazz/explicit/AA.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestThreadSafeOverriding/src/test/clazz/explicit/AA.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestThreadSafeOverriding/src/test/iface/subClasses/explicit/I.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestThreadSafeOverriding/src/test/clazz/implicit/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestThreadSafeOverriding/src/test/iface/subInterfaces/explicit/AA.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestThreadSafeOverriding/src/test/iface/subInterfaces/explicit/AA.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestThreadSafeOverriding/src/test/clazz/implicit/C.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestThreadSafeOverriding/src/test/iface/subClasses/implicit/I.java
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestThreadSafeOverriding/src/testRecognition/classes/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestThreadSafeOverriding/src/test/clazz/implicit/C.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestThreadSafeOverriding/src/testRecognition/interfaces/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestThreadSafeOverriding/src/test/iface/subInterfaces/explicit/AA.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestThreadSafeOverriding/src/test/clazz/implicit/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestThreadSafeOverriding/src/test/clazz/explicit/AA.java
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestThreadSafeOverriding/src/test/iface/subInterfaces/implicit/I.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestThreadSafeOverriding/src/test/iface/subClasses/explicit/I.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestThreadSafeOverriding/src/testRecognition/classes/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestThreadSafeOverriding/src/test/iface/subClasses/implicit/I.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestThreadSafeOverriding/src/test/iface/subInterfaces/explicit/I.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestThreadSafeOverriding/src/test/iface/subInterfaces/explicit/I.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestThreadSafeOverriding/src/test/iface/subInterfaces/explicit/I.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestThreadSafeOverriding/src/test/iface/subInterfaces/explicit/I.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestThreadSafeOverriding/src/test/iface/subInterfaces/explicit/I.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestThreadSafeOverriding/src/test/iface/subInterfaces/explicit/I.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestThreadSafeOverriding/src/test/clazz/explicit/C.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestThreadSafeOverriding/src/test/clazz/explicit/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestThreadSafeOverriding/src/test/clazz/explicit/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestThreadSafeOverriding/src/test/clazz/explicit/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestThreadSafeOverriding/src/test/clazz/explicit/C.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestThreadSafeOverriding/src/test/clazz/explicit/C.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+Starting group: UtilityAnalysis, SingletonAnalysis, LockAnalysis, EffectsAnalysis
+com.surelogic.analysis.uniqueness.classic.sideeffecting.UniquenessAnalysisModule$1@5b37e0d2: 57
+com.surelogic.analysis.visitors.TopLevelAnalysisVisitor$1@69663380: 108
+com.surelogic.analysis.granules.FlowUnitGranulator@4459eb14: 174
+##SUBTASK, Starting parallel UtilityAnalysis [6]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel UtilityAnalysis [6]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Starting parallel SingletonAnalysis [7]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel SingletonAnalysis [7]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Starting parallel LockAnalysis [8]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel LockAnalysis [8]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Looking at @RegionLock("MUTEX is this protects WaitQueue") on Object
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@1b0e8b25 on java.lang.Object
+##SUBTASK, Starting parallel EffectsAnalysis [9]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel EffectsAnalysis [9]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Starting parallel UtilityAnalysis [6]: 108 for TestThreadSafeOverriding
+Starting parallel UtilityAnalysis [6]: 108 for TestThreadSafeOverriding
+##SUBTASK, Starting parallel SingletonAnalysis [7]: 108 for TestThreadSafeOverriding
+Starting parallel SingletonAnalysis [7]: 108 for TestThreadSafeOverriding
+##SUBTASK, Starting parallel LockAnalysis [8]: 108 for TestThreadSafeOverriding
+Starting parallel LockAnalysis [8]: 108 for TestThreadSafeOverriding
+Looking at @RegionLock("MUTEX is this protects WaitQueue") on Object
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@1b0e8b25 on java.lang.Object
+##SUBTASK, Starting parallel EffectsAnalysis [9]: 108 for TestThreadSafeOverriding
+Starting parallel EffectsAnalysis [9]: 108 for TestThreadSafeOverriding
+##SUBTASK, Checking [ Utility class ] test.clazz.implicit.C
+##SUBTASK, Checking [ Utility class ] testRecognition.classes.D
+##SUBTASK, Checking [ Utility class ] test.clazz.implicit.Z
+##SUBTASK, Checking [ Utility class ] test.clazz.implicit.X
+##SUBTASK, Checking [ Utility class ] test.iface.subInterfaces.explicit.C
+##SUBTASK, Checking [ Utility class ] test.iface.subInterfaces.explicit.J
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] testRecognition.classes.D
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testRecognition.classes.D
+##SUBTASK, Checking [ Utility class ] test.clazz.implicit.XX
+##SUBTASK, Checking [ Utility class ] test.iface.subClasses.implicit.C4
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.iface.subClasses.implicit.C4
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.iface.subClasses.implicit.C4
+##SUBTASK, Checking [ Singleton class ] test.clazz.implicit.X
+##SUBTASK, Checking [ Singleton class ] test.clazz.implicit.C
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.clazz.implicit.Z
+##SUBTASK, Checking [ Singleton class ] test.iface.subInterfaces.explicit.C
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.clazz.implicit.C
+##SUBTASK, Checking [ Lock policy ] test.clazz.implicit.X
+##SUBTASK, Checking [ Singleton class ] test.clazz.implicit.XX
+##SUBTASK, Checking [ Lock policy ] test.clazz.implicit.Z
+##SUBTASK, Checking [ Singleton class ] test.iface.subInterfaces.explicit.J
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.iface.subInterfaces.explicit.C
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.iface.subInterfaces.explicit.J
+##SUBTASK, Checking [ Lock policy ] test.clazz.implicit.XX
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.iface.subInterfaces.explicit.C
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.iface.subInterfaces.explicit.D
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.iface.subInterfaces.explicit.D
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.iface.subInterfaces.explicit.D
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.iface.subInterfaces.explicit.D
+##SUBTASK, Checking [ Region effects ] test.iface.subInterfaces.explicit.J
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.iface.subClasses.implicit.I
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.iface.subInterfaces.explicit.K
+##SUBTASK, Checking [ Singleton class ] test.iface.subClasses.implicit.I
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.iface.subInterfaces.explicit.K
+##SUBTASK, Checking [ Lock policy ] test.iface.subClasses.implicit.I
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.iface.subInterfaces.explicit.K
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.iface.subInterfaces.explicit.K
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.iface.subInterfaces.explicit.X
+##SUBTASK, Checking [ Region effects ] test.iface.subClasses.implicit.I
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.iface.subInterfaces.explicit.X
+##SUBTASK, Checking [ Utility class ] test.iface.subClasses.implicit.J
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.iface.subInterfaces.explicit.X
+##SUBTASK, Checking [ Singleton class ] test.iface.subClasses.implicit.J
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.iface.subClasses.implicit.J
+##SUBTASK, Checking [ Region effects ] test.iface.subInterfaces.explicit.X
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.iface.subClasses.implicit.J
+##SUBTASK, Checking [ Utility class ] test.iface.subInterfaces.explicit.Y
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.iface.subClasses.implicit.C1
+##SUBTASK, Checking [ Singleton class ] test.iface.subInterfaces.explicit.Y
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.iface.subClasses.implicit.C1
+##SUBTASK, Checking [ Lock policy ] test.iface.subInterfaces.explicit.Y
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.iface.subClasses.implicit.C1
+##SUBTASK, Checking [ Region effects ] test.iface.subInterfaces.explicit.Y
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.iface.subInterfaces.explicit.Z
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.iface.subInterfaces.explicit.Z
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.iface.subInterfaces.explicit.Z
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.iface.subInterfaces.explicit.Z
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.iface.subInterfaces.explicit.A
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.iface.subInterfaces.explicit.A
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.iface.subInterfaces.explicit.A
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.iface.subInterfaces.explicit.A
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.iface.subInterfaces.explicit.B
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.iface.subInterfaces.explicit.B
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.iface.subInterfaces.explicit.B
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.iface.subInterfaces.explicit.B
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.iface.subClasses.implicit.C1
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.clazz.implicit.C
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testRecognition.classes.D
+##SUBTASK, Checking [ Region effects ] test.iface.subClasses.implicit.C4
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.clazz.implicit.Z
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.clazz.implicit.XX
+##SUBTASK, Checking [ Region effects ] test.clazz.implicit.X
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.iface.subClasses.implicit.C2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] testRecognition.classes.E
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] testRecognition.classes.E
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testRecognition.classes.E
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.clazz.implicit.D
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.clazz.implicit.D
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.iface.subClasses.implicit.D1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.iface.subClasses.implicit.C2
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.clazz.implicit.ZZ
+##SUBTASK, Checking [ Utility class ] test.clazz.implicit.Y
+##SUBTASK, Checking [ Lock policy ] test.iface.subClasses.implicit.C2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.clazz.implicit.D
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testRecognition.classes.E
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] testRecognition.classes.F
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] testRecognition.classes.F
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testRecognition.classes.F
+##SUBTASK, Checking [ Singleton class ] test.iface.subClasses.implicit.D1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.iface.subClasses.implicit.D1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.clazz.implicit.D
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.clazz.implicit.E
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.clazz.implicit.ZZ
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.clazz.implicit.ZZ
+##SUBTASK, Checking [ Singleton class ] test.clazz.implicit.Y
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.clazz.implicit.Y
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.clazz.implicit.ZZ
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.clazz.implicit.Foo
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.clazz.implicit.Foo
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.clazz.implicit.Foo
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.clazz.implicit.Foo
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.iface.subClasses.implicit.D1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.clazz.implicit.E
+##SUBTASK, Checking [ Region effects ] testRecognition.classes.F
+##SUBTASK, Checking [ Region effects ] test.clazz.implicit.Y
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.iface.subClasses.implicit.C2
+##SUBTASK, Checking [ Lock policy ] test.clazz.implicit.E
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.clazz.explicit.CC2
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] testRecognition.classes.G
+##SUBTASK, Checking [ Utility class ] test.iface.subClasses.implicit.D2
+##SUBTASK, Checking [ Utility class ] test.iface.subClasses.implicit.C3
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.iface.subInterfaces.explicit.I
+##SUBTASK, Checking [ Region effects ] test.clazz.implicit.E
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.iface.subClasses.implicit.C3
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.iface.subClasses.implicit.C3
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.clazz.implicit.F
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.clazz.implicit.F
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.clazz.implicit.F
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.iface.subClasses.implicit.C3
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.clazz.explicit.CC2
+##SUBTASK, Checking [ Singleton class ] testRecognition.classes.G
+##SUBTASK, Checking [ Singleton class ] test.iface.subClasses.implicit.D2
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.clazz.implicit.F
+##SUBTASK, Checking [ Singleton class ] test.iface.subInterfaces.explicit.I
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testRecognition.classes.G
+##SUBTASK, Checking [ Lock policy ] test.iface.subInterfaces.explicit.I
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.clazz.explicit.X
+##SUBTASK, Checking [ Lock policy ] test.iface.subClasses.implicit.D2
+##SUBTASK, Checking [ Lock policy ] test.clazz.explicit.CC2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.clazz.implicit.W
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.clazz.explicit.E
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.iface.subInterfaces.explicit.I
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.clazz.explicit.X
+##SUBTASK, Checking [ Singleton class ] test.clazz.implicit.W
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testRecognition.classes.G
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.iface.subInterfaces.implicit.Y
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.clazz.implicit.W
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.clazz.explicit.X
+##SUBTASK, Checking [ Region effects ] test.clazz.explicit.CC2
+##SUBTASK, Checking [ Utility class ] testRecognition.classes.H
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] testRecognition.classes.H
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testRecognition.classes.H
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.iface.subInterfaces.implicit.Y
+##SUBTASK, Checking [ Utility class ] testRecognition.interfaces.D
+##SUBTASK, Checking [ Singleton class ] test.clazz.explicit.E
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.clazz.implicit.W
+##SUBTASK, Checking [ Region effects ] test.iface.subClasses.implicit.D2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.clazz.implicit.WW
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.clazz.implicit.WW
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.clazz.explicit.C
+##SUBTASK, Checking [ Utility class ] test.iface.subClasses.implicit.D3
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.iface.subInterfaces.implicit.Y
+##SUBTASK, Checking [ Region effects ] test.clazz.explicit.X
+##SUBTASK, Checking [ Singleton class ] testRecognition.interfaces.D
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.clazz.explicit.XX
+##SUBTASK, Checking [ Region effects ] testRecognition.classes.H
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.clazz.implicit.WW
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.iface.subClasses.implicit.D3
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.iface.subClasses.implicit.D3
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.iface.subInterfaces.implicit.Y
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.clazz.explicit.C
+##SUBTASK, Checking [ Utility class ] testRecognition.classes.I
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] testRecognition.classes.I
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testRecognition.classes.I
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.clazz.implicit.WW
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.iface.subClasses.implicit.D3
+##SUBTASK, Checking [ Lock policy ] testRecognition.interfaces.D
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.clazz.explicit.E
+##SUBTASK, Checking [ Singleton class ] test.clazz.explicit.XX
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.iface.subClasses.implicit.E2
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.iface.subClasses.implicit.E2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.clazz.explicit.C
+##SUBTASK, Checking [ Region effects ] testRecognition.classes.I
+##SUBTASK, Checking [ Region effects ] testRecognition.interfaces.D
+##SUBTASK, Checking [ Utility class ] test.iface.subClasses.implicit.D4
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] testRecognition.classes.J
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] testRecognition.classes.J
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.iface.subClasses.implicit.E2
+##SUBTASK, Checking [ Utility class ] test.iface.subInterfaces.implicit.Z
+##SUBTASK, Checking [ Region effects ] test.clazz.explicit.E
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testRecognition.classes.J
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.clazz.explicit.C
+##SUBTASK, Checking [ Singleton class ] test.iface.subClasses.implicit.D4
+##SUBTASK, Checking [ Lock policy ] test.clazz.explicit.XX
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] testRecognition.interfaces.E
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.iface.subClasses.implicit.E2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testRecognition.classes.J
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.iface.subClasses.implicit.E3
+##SUBTASK, Checking [ Singleton class ] testRecognition.interfaces.E
+##SUBTASK, Checking [ Utility class ] test.clazz.explicit.F
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.clazz.explicit.F
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.clazz.explicit.F
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.clazz.explicit.D
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.clazz.explicit.D
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.clazz.explicit.D
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.clazz.explicit.F
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.clazz.explicit.W
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.clazz.explicit.W
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.clazz.explicit.W
+##SUBTASK, Checking [ Lock policy ] test.iface.subClasses.implicit.D4
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.iface.subInterfaces.implicit.Z
+##SUBTASK, Checking [ Region effects ] test.clazz.explicit.XX
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.clazz.explicit.D
+##SUBTASK, Checking [ Singleton class ] test.iface.subClasses.implicit.E3
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.iface.subClasses.implicit.E3
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testRecognition.interfaces.E
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] testRecognition.classes.K
+##SUBTASK, Checking [ Utility class ] test.clazz.explicit.Y
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] testRecognition.classes.K
+##SUBTASK, Checking [ Region effects ] test.clazz.explicit.W
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.clazz.explicit.Y
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.iface.subInterfaces.implicit.Z
+##SUBTASK, Checking [ Region effects ] testRecognition.interfaces.E
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.clazz.explicit.Y
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.iface.subClasses.implicit.E3
+##SUBTASK, Checking [ Lock policy ] testRecognition.classes.K
+##SUBTASK, Checking [ Region effects ] test.iface.subClasses.implicit.D4
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.clazz.explicit.WW
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.clazz.explicit.WW
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] testRecognition.interfaces.F
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] testRecognition.interfaces.F
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testRecognition.interfaces.F
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.iface.subInterfaces.implicit.Z
+##SUBTASK, Checking [ Utility class ] test.iface.subClasses.implicit.E4
+##SUBTASK, Checking [ Utility class ] test.iface.subClasses.implicit.E1
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.clazz.explicit.WW
+##SUBTASK, Checking [ Region effects ] test.clazz.explicit.Y
+##SUBTASK, Checking [ Region effects ] testRecognition.classes.K
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.iface.subClasses.implicit.E4
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testRecognition.interfaces.F
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] testRecognition.classes.Not
+##SUBTASK, Checking [ Utility class ] test.clazz.explicit.Z
+##SUBTASK, Checking [ Singleton class ] test.iface.subClasses.implicit.E1
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.iface.subClasses.implicit.E4
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.iface.subInterfaces.implicit.A
+##SUBTASK, Checking [ Utility class ] testRecognition.interfaces.G
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.iface.subInterfaces.implicit.A
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] testRecognition.classes.Not
+##SUBTASK, Checking [ Singleton class ] test.clazz.explicit.Z
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.clazz.explicit.Z
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.clazz.explicit.WW
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.iface.subInterfaces.implicit.A
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.iface.subInterfaces.implicit.A
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] testRecognition.interfaces.G
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testRecognition.classes.Not
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.iface.subClasses.implicit.E1
+##SUBTASK, Checking [ Region effects ] test.iface.subClasses.implicit.E4
+##SUBTASK, Checking [ Utility class ] testRecognition.interfaces.K
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] testRecognition.interfaces.K
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testRecognition.interfaces.K
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.clazz.explicit.AA
+##SUBTASK, Checking [ Utility class ] test.iface.subInterfaces.implicit.B
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testRecognition.interfaces.G
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testRecognition.classes.Not
+##SUBTASK, Checking [ Region effects ] testRecognition.interfaces.G
+##SUBTASK, Checking [ Region effects ] testRecognition.interfaces.K
+##SUBTASK, Checking [ Singleton class ] test.clazz.explicit.AA
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] testRecognition.classes.Both1
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] testRecognition.interfaces.H
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.clazz.explicit.Z
+##SUBTASK, Checking [ Region effects ] test.iface.subClasses.implicit.E1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] testRecognition.interfaces.Not
+##SUBTASK, Checking [ Lock policy ] test.clazz.explicit.AA
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.iface.subInterfaces.implicit.B
+##SUBTASK, Checking [ Singleton class ] testRecognition.classes.Both1
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] testRecognition.interfaces.Not
+##SUBTASK, Checking [ Singleton class ] testRecognition.interfaces.H
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.clazz.explicit.ZZ
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.clazz.explicit.AA
+##SUBTASK, Checking [ Lock policy ] testRecognition.classes.Both1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testRecognition.interfaces.Not
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testRecognition.interfaces.Not
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.clazz.explicit.BB
+##SUBTASK, Checking [ Singleton class ] test.clazz.explicit.ZZ
+##SUBTASK, Checking [ Lock policy ] test.iface.subInterfaces.implicit.B
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.clazz.explicit.ZZ
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testRecognition.interfaces.H
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.clazz.explicit.BB
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testRecognition.interfaces.H
+##SUBTASK, Checking [ Region effects ] testRecognition.classes.Both1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.clazz.explicit.BB
+##SUBTASK, Checking [ Region effects ] test.iface.subInterfaces.implicit.B
+##SUBTASK, Checking [ Utility class ] testRecognition.interfaces.Both
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.clazz.explicit.ZZ
+##SUBTASK, Checking [ Utility class ] test.iface.subInterfaces.implicit.C
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] testRecognition.interfaces.Both
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] testRecognition.interfaces.I
+##SUBTASK, Checking [ Lock policy ] testRecognition.interfaces.Both
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.clazz.explicit.Foo
+##SUBTASK, Checking [ Utility class ] testRecognition.classes.Both2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.iface.subInterfaces.implicit.C
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.clazz.explicit.BB
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testRecognition.interfaces.Both
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.clazz.explicit.Foo
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.clazz.explicit.BB2
+##SUBTASK, Checking [ Lock policy ] test.clazz.explicit.Foo
+##SUBTASK, Checking [ Lock policy ] test.iface.subInterfaces.implicit.C
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.iface.subInterfaces.implicit.C
+##SUBTASK, Checking [ Singleton class ] testRecognition.interfaces.I
+##SUBTASK, Checking [ Utility class ] test.iface.subInterfaces.implicit.I
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] testRecognition.classes.Both2
+##SUBTASK, Checking [ Singleton class ] test.clazz.explicit.BB2
+##SUBTASK, Checking [ Lock policy ] testRecognition.interfaces.I
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.iface.subInterfaces.implicit.I
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.clazz.explicit.Foo
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.clazz.explicit.BB2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testRecognition.classes.Both2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] testRecognition.classes.C
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] testRecognition.classes.C
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testRecognition.classes.C
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.clazz.explicit.BB2
+##SUBTASK, Checking [ Region effects ] testRecognition.interfaces.I
+##SUBTASK, Checking [ Lock policy ] test.iface.subInterfaces.implicit.I
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.iface.subInterfaces.implicit.D
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testRecognition.classes.Both2
+##SUBTASK, Checking [ Utility class ] test.clazz.explicit.CC
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.iface.subInterfaces.implicit.I
+##SUBTASK, Checking [ Singleton class ] test.clazz.explicit.CC
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] testRecognition.interfaces.J
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.iface.subInterfaces.implicit.J
+##SUBTASK, Checking [ Region effects ] testRecognition.classes.C
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.clazz.explicit.CC
+##SUBTASK, Checking [ Singleton class ] test.iface.subInterfaces.implicit.D
+##SUBTASK, Checking [ Singleton class ] testRecognition.interfaces.J
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.iface.subInterfaces.implicit.J
+##SUBTASK, Checking [ Utility class ] testRecognition.classes.Both3
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.iface.subClasses.explicit.I
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.iface.subClasses.explicit.D2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.iface.subInterfaces.implicit.D
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.clazz.explicit.CC
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.iface.subClasses.explicit.D2
+##SUBTASK, Checking [ Lock policy ] testRecognition.interfaces.J
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] testRecognition.classes.Both3
+##SUBTASK, Checking [ Lock policy ] test.iface.subInterfaces.implicit.J
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testRecognition.classes.Both3
+##SUBTASK, Checking [ Singleton class ] test.iface.subClasses.explicit.I
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.iface.subClasses.explicit.E1
+##SUBTASK, Checking [ Region effects ] test.iface.subInterfaces.implicit.J
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.iface.subClasses.explicit.D2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.iface.subClasses.explicit.I
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testRecognition.classes.Both3
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.iface.subInterfaces.implicit.K
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.iface.subInterfaces.implicit.D
+##SUBTASK, Checking [ Utility class ] testRecognition.interfaces.C
+##SUBTASK, Checking [ Singleton class ] test.iface.subClasses.explicit.E1
+##SUBTASK, Checking [ Region effects ] test.iface.subClasses.explicit.I
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testRecognition.interfaces.J
+##SUBTASK, Checking [ Singleton class ] test.iface.subInterfaces.implicit.K
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.iface.subClasses.explicit.J
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] testRecognition.interfaces.C
+##SUBTASK, Checking [ Utility class ] test.iface.subInterfaces.explicit.AA
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.iface.subInterfaces.explicit.AA
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.iface.subInterfaces.explicit.AA
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.iface.subInterfaces.explicit.AA
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.iface.subInterfaces.explicit.BB
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.iface.subInterfaces.explicit.BB
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.iface.subInterfaces.explicit.BB
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.iface.subClasses.explicit.J
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.iface.subClasses.explicit.J
+##SUBTASK, Checking [ Lock policy ] test.iface.subClasses.explicit.E1
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.iface.subInterfaces.implicit.K
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.iface.subClasses.explicit.J
+##SUBTASK, Checking [ Region effects ] test.iface.subClasses.explicit.D2
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.iface.subClasses.explicit.C1
+##SUBTASK, Checking [ Region effects ] test.iface.subInterfaces.explicit.BB
+##SUBTASK, Checking [ Region effects ] test.iface.subInterfaces.implicit.K
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.iface.subClasses.explicit.C1
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testRecognition.interfaces.C
+##SUBTASK, Checking [ Utility class ] test.iface.subClasses.explicit.D3
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.iface.subClasses.explicit.C1
+##SUBTASK, Checking [ Utility class ] test.iface.subInterfaces.explicit.BB2
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.iface.subClasses.explicit.D3
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.iface.subClasses.explicit.D3
+##SUBTASK, Checking [ Region effects ] test.iface.subClasses.explicit.E1
+##SUBTASK, Checking [ Region effects ] testRecognition.interfaces.C
+##SUBTASK, Checking [ Utility class ] test.iface.subInterfaces.implicit.X
+##SUBTASK, Checking [ Singleton class ] test.iface.subInterfaces.explicit.BB2
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.iface.subInterfaces.implicit.X
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.iface.subInterfaces.implicit.X
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.iface.subInterfaces.explicit.BB2
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.iface.subInterfaces.implicit.X
+##SUBTASK, Checking [ Utility class ] test.iface.subClasses.explicit.E2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.iface.subInterfaces.explicit.BB2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.iface.subClasses.explicit.C1
+##SUBTASK, Checking [ Utility class ] test.iface.subInterfaces.explicit.CC
+##SUBTASK, Checking [ Utility class ] test.iface.subClasses.explicit.C2
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.iface.subClasses.explicit.E2
+##SUBTASK, Checking [ Singleton class ] test.iface.subClasses.explicit.C2
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.iface.subClasses.explicit.E3
+##SUBTASK, Checking [ Singleton class ] test.iface.subInterfaces.explicit.CC
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.iface.subClasses.explicit.D3
+##SUBTASK, Checking [ Lock policy ] test.iface.subClasses.explicit.E2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.iface.subClasses.explicit.C2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.iface.subInterfaces.explicit.CC
+##SUBTASK, Checking [ Utility class ] test.iface.subClasses.explicit.C4
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.iface.subClasses.explicit.E3
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.iface.subInterfaces.explicit.CC
+##SUBTASK, Checking [ Utility class ] test.iface.subClasses.explicit.D4
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.iface.subClasses.explicit.D4
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.iface.subClasses.explicit.D4
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.iface.subClasses.explicit.C4
+##SUBTASK, Checking [ Region effects ] test.iface.subClasses.explicit.E2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.iface.subClasses.explicit.C2
+##SUBTASK, Checking [ Lock policy ] test.iface.subClasses.explicit.E3
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.iface.subInterfaces.explicit.CC2
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.iface.subInterfaces.explicit.CC2
+##SUBTASK, Checking [ Lock policy ] test.iface.subClasses.explicit.C4
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.iface.subClasses.explicit.C3
+##SUBTASK, Checking [ Lock policy ] test.iface.subInterfaces.explicit.CC2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.iface.subClasses.explicit.C3
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.iface.subClasses.explicit.C3
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.iface.subClasses.explicit.D4
+##SUBTASK, Checking [ Region effects ] test.iface.subInterfaces.explicit.CC2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.iface.subInterfaces.explicit.DD
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.iface.subInterfaces.explicit.DD
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.iface.subClasses.explicit.E3
+##SUBTASK, Checking [ Lock policy ] test.iface.subInterfaces.explicit.DD
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.iface.subClasses.explicit.C4
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.iface.subClasses.explicit.E4
+##SUBTASK, Checking [ Region effects ] test.iface.subInterfaces.explicit.DD
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.iface.subClasses.explicit.C3
+##SUBTASK, Checking [ Singleton class ] test.iface.subClasses.explicit.E4
+##SUBTASK, Checking [ Utility class ] test.iface.subInterfaces.explicit.DD2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.iface.subClasses.explicit.D1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.iface.subClasses.explicit.E4
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.iface.subInterfaces.explicit.DD2
+##SUBTASK, Checking [ Singleton class ] test.iface.subClasses.explicit.D1
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.iface.subInterfaces.explicit.DD2
+##SUBTASK, Checking [ Lock policy ] test.iface.subClasses.explicit.D1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.iface.subInterfaces.explicit.DD2
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.iface.subClasses.explicit.D1
+##SUBTASK, Checking [ Region effects ] test.iface.subClasses.explicit.E4
+##SUBTASK_DONE
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+Starting group: UniquenessAnalysisModule
+##SUBTASK, Starting parallel UniquenessAnalysisModule [10]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel UniquenessAnalysisModule [10]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Starting parallel UniquenessAnalysisModule [10]: 57 for TestThreadSafeOverriding
+Starting parallel UniquenessAnalysisModule [10]: 57 for TestThreadSafeOverriding
+##SUBTASK, Checking [ Uniqueness ] test.clazz.implicit.X.X()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.clazz.implicit.Foo.Foo()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.clazz.implicit.C.C()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.clazz.implicit.Z.Z()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.clazz.implicit.XX.XX()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.clazz.implicit.E.E()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.clazz.implicit.WW.WW()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.clazz.implicit.ZZ.ZZ()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.clazz.implicit.W.W()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.clazz.implicit.Y.Y()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.clazz.implicit.D.D()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.clazz.implicit.F.F()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.iface.subClasses.implicit.C2.C2()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.iface.subClasses.implicit.E1.E1()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.iface.subClasses.implicit.D4.D4()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.iface.subClasses.implicit.C4.C4()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.iface.subClasses.implicit.D1.D1()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.iface.subClasses.implicit.D3.D3()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.iface.subClasses.implicit.E2.E2()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.iface.subClasses.implicit.E3.E3()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.iface.subClasses.implicit.E4.E4()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.iface.subClasses.implicit.C3.C3()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.iface.subClasses.implicit.C1.C1()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.iface.subClasses.implicit.D2.D2()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.clazz.explicit.E.E()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.clazz.explicit.ZZ.ZZ()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.clazz.explicit.W.W()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.clazz.explicit.XX.XX()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.clazz.explicit.Foo.Foo()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.clazz.explicit.X.X()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.clazz.explicit.Y.Y()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.clazz.explicit.WW.WW()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.clazz.explicit.D.D()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.clazz.explicit.F.F()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.clazz.explicit.C.C()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.clazz.explicit.Z.Z()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] testRecognition.classes.J.J()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] testRecognition.classes.K.K()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] testRecognition.classes.D.D()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] testRecognition.classes.C.C()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] testRecognition.classes.H.H()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] testRecognition.classes.F.F()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] testRecognition.classes.I.I()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] testRecognition.classes.E.E()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] testRecognition.classes.G.G()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.iface.subClasses.explicit.C3.C3()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.iface.subClasses.explicit.D1.D1()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.iface.subClasses.explicit.D4.D4()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.iface.subClasses.explicit.E3.E3()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.iface.subClasses.explicit.E4.E4()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.iface.subClasses.explicit.E1.E1()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.iface.subClasses.explicit.C2.C2()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.iface.subClasses.explicit.C4.C4()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.iface.subClasses.explicit.D2.D2()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.iface.subClasses.explicit.E2.E2()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.iface.subClasses.explicit.D3.D3()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.iface.subClasses.explicit.C1.C1()
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+Starting group: NullablePreprocessorModule
+##SUBTASK, Starting parallel NullablePreprocessorModule [11]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel NullablePreprocessorModule [11]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Starting parallel NullablePreprocessorModule [11]: 10 for TestThreadSafeOverriding
+Starting parallel NullablePreprocessorModule [11]: 10 for TestThreadSafeOverriding
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestThreadSafeOverriding/src/test/clazz/implicit/C.java
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestThreadSafeOverriding/src/testRecognition/classes/C.java
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestThreadSafeOverriding/src/test/iface/subClasses/implicit/I.java
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestThreadSafeOverriding/src/test/clazz/explicit/AA.java
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestThreadSafeOverriding/src/test/clazz/explicit/C.java
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestThreadSafeOverriding/src/test/iface/subInterfaces/explicit/I.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestThreadSafeOverriding/src/testRecognition/interfaces/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestThreadSafeOverriding/src/test/iface/subInterfaces/explicit/AA.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestThreadSafeOverriding/src/test/iface/subInterfaces/implicit/I.java
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestThreadSafeOverriding/src/test/iface/subClasses/explicit/I.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+Starting group: NullableModule2
+##SUBTASK, Starting parallel NullableModule2 [12]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel NullableModule2 [12]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Starting parallel NullableModule2 [12]: 174 for TestThreadSafeOverriding
+Starting parallel NullableModule2 [12]: 174 for TestThreadSafeOverriding
+##SUBTASK, Checking [ Nullable ] test.clazz.implicit.C.C()
+##SUBTASK, Checking [ Nullable ] test.clazz.explicit.Y.<clinit>
+##SUBTASK, Checking [ Nullable ] test.clazz.implicit.ZZ.<clinit>
+##SUBTASK, Checking [ Nullable ] test.clazz.explicit.BB2.<clinit>
+##SUBTASK, Checking [ Nullable ] test.iface.subClasses.implicit.E2.E2()
+##SUBTASK, Checking [ Nullable ] test.iface.subClasses.implicit.D3.D3()
+##SUBTASK, Checking [ Nullable ] test.iface.subClasses.implicit.C4.<clinit>
+##SUBTASK, Checking [ Nullable ] test.clazz.implicit.WW.WW()
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.clazz.implicit.Foo.Foo()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.iface.subClasses.implicit.D1.D1()
+##SUBTASK, Checking [ Nullable ] test.clazz.explicit.Z.Z()
+##SUBTASK, Checking [ Nullable ] test.clazz.explicit.CC.CC()
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.clazz.implicit.Foo.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.clazz.implicit.WW.<clinit>
+##SUBTASK, Checking [ Nullable ] test.clazz.explicit.CC.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.clazz.explicit.Z.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.iface.subInterfaces.explicit.I.<clinit>
+##SUBTASK, Checking [ Nullable ] test.clazz.implicit.X.X()
+##SUBTASK, Checking [ Nullable ] test.iface.subClasses.implicit.D1.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.clazz.explicit.ZZ.ZZ()
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.clazz.implicit.C.<clinit>
+##SUBTASK, Checking [ Nullable ] test.iface.subInterfaces.explicit.J.<clinit>
+##SUBTASK, Checking [ Nullable ] test.iface.subClasses.implicit.D2.D2()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.iface.subClasses.implicit.E2.<clinit>
+##SUBTASK, Checking [ Nullable ] test.clazz.explicit.CC2.CC2()
+##SUBTASK, Checking [ Nullable ] test.iface.subClasses.implicit.D3.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.iface.subInterfaces.explicit.K.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.iface.subClasses.implicit.E3.E3()
+##SUBTASK, Checking [ Nullable ] test.iface.subClasses.implicit.D4.D4()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.iface.subInterfaces.explicit.X.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.iface.subInterfaces.explicit.Y.<clinit>
+##SUBTASK, Checking [ Nullable ] test.clazz.implicit.D.D()
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.iface.subInterfaces.explicit.Z.<clinit>
+##SUBTASK, Checking [ Nullable ] test.clazz.implicit.X.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.clazz.explicit.ZZ.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.iface.subInterfaces.explicit.A.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.clazz.implicit.XX.XX()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.iface.subClasses.implicit.D2.<clinit>
+##SUBTASK, Checking [ Nullable ] test.clazz.explicit.Foo.Foo()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.iface.subInterfaces.explicit.B.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.iface.subClasses.implicit.E3.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.iface.subClasses.implicit.D4.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.iface.subInterfaces.explicit.C.<clinit>
+##SUBTASK, Checking [ Nullable ] test.clazz.explicit.CC2.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.iface.subClasses.implicit.E4.E4()
+##SUBTASK, Checking [ Nullable ] test.iface.subClasses.implicit.E1.E1()
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.clazz.explicit.C.C()
+##SUBTASK, Checking [ Nullable ] test.iface.subInterfaces.explicit.D.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.iface.subClasses.implicit.I.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.iface.subClasses.implicit.J.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.clazz.implicit.XX.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.iface.subClasses.implicit.C1.C1()
+##SUBTASK, Checking [ Nullable ] test.clazz.implicit.D.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.clazz.implicit.Y.Y()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.clazz.implicit.E.E()
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.iface.subClasses.implicit.E1.<clinit>
+##SUBTASK, Checking [ Nullable ] test.iface.subClasses.implicit.E4.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.clazz.explicit.Foo.<clinit>
+##SUBTASK, Checking [ Nullable ] test.clazz.explicit.C.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.clazz.explicit.AA.AA()
+##SUBTASK, Checking [ Nullable ] test.clazz.explicit.F.F()
+##SUBTASK, Checking [ Nullable ] test.clazz.explicit.D.D()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] testRecognition.classes.C.C()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.iface.subClasses.implicit.C1.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.clazz.implicit.Y.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.iface.subClasses.implicit.C2.C2()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.clazz.implicit.Z.Z()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.clazz.explicit.F.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.clazz.explicit.W.W()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] testRecognition.classes.C.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.clazz.implicit.Z.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.clazz.implicit.ZZ.ZZ()
+##SUBTASK, Checking [ Nullable ] testRecognition.classes.D.D()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.iface.subClasses.implicit.C2.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.clazz.implicit.E.<clinit>
+##SUBTASK, Checking [ Nullable ] test.clazz.explicit.D.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.iface.subClasses.implicit.C3.C3()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.clazz.explicit.AA.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.clazz.implicit.F.F()
+##SUBTASK, Checking [ Nullable ] test.clazz.explicit.E.E()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.clazz.explicit.BB.BB()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] testRecognition.interfaces.Both.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] testRecognition.classes.D.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.iface.subInterfaces.implicit.I.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] testRecognition.classes.E.E()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.iface.subClasses.implicit.C3.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.iface.subInterfaces.implicit.J.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.iface.subClasses.implicit.C4.C4()
+##SUBTASK, Checking [ Nullable ] test.clazz.implicit.F.<clinit>
+##SUBTASK, Checking [ Nullable ] test.clazz.explicit.E.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.iface.subInterfaces.implicit.K.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.clazz.explicit.WW.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.clazz.explicit.BB.<clinit>
+##SUBTASK, Checking [ Nullable ] test.iface.subInterfaces.implicit.X.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.clazz.implicit.W.W()
+##SUBTASK, Checking [ Nullable ] test.clazz.explicit.BB2.BB2()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.clazz.explicit.X.X()
+##SUBTASK, Checking [ Nullable ] test.iface.subInterfaces.implicit.Y.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.clazz.explicit.W.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.iface.subInterfaces.implicit.Z.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.clazz.explicit.WW.WW()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.iface.subInterfaces.implicit.A.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.clazz.explicit.XX.XX()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.iface.subInterfaces.implicit.B.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] testRecognition.classes.E.<clinit>
+##SUBTASK, Checking [ Nullable ] test.iface.subInterfaces.implicit.C.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] testRecognition.classes.F.F()
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.iface.subInterfaces.implicit.D.<clinit>
+##SUBTASK, Checking [ Nullable ] test.iface.subClasses.explicit.C2.C2()
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.iface.subInterfaces.explicit.AA.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.clazz.explicit.X.<clinit>
+##SUBTASK, Checking [ Nullable ] test.clazz.implicit.W.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.iface.subInterfaces.explicit.BB.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.clazz.explicit.XX.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.iface.subInterfaces.explicit.BB2.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.clazz.explicit.Y.Y()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.iface.subInterfaces.explicit.CC.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.iface.subInterfaces.explicit.CC2.<clinit>
+##SUBTASK, Checking [ Nullable ] testRecognition.classes.F.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.iface.subClasses.explicit.C2.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.iface.subInterfaces.explicit.DD.<clinit>
+##SUBTASK, Checking [ Nullable ] testRecognition.classes.G.G()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.iface.subClasses.explicit.C3.C3()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.iface.subInterfaces.explicit.DD2.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.iface.subClasses.explicit.I.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] testRecognition.classes.J.J()
+##SUBTASK, Checking [ Nullable ] testRecognition.classes.Both3.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] testRecognition.interfaces.G.<clinit>
+##SUBTASK, Checking [ Nullable ] test.iface.subClasses.explicit.D3.<clinit>
+##SUBTASK, Checking [ Nullable ] test.iface.subClasses.explicit.J.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.iface.subClasses.explicit.D4.D4()
+##SUBTASK, Checking [ Nullable ] testRecognition.interfaces.H.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.iface.subClasses.explicit.C1.C1()
+##SUBTASK, Checking [ Nullable ] testRecognition.interfaces.C.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] testRecognition.interfaces.I.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.iface.subClasses.explicit.C3.<clinit>
+##SUBTASK, Checking [ Nullable ] testRecognition.interfaces.D.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] testRecognition.interfaces.J.<clinit>
+##SUBTASK, Checking [ Nullable ] testRecognition.classes.G.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.iface.subClasses.explicit.C4.C4()
+##SUBTASK, Checking [ Nullable ] testRecognition.interfaces.E.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] testRecognition.interfaces.K.<clinit>
+##SUBTASK, Checking [ Nullable ] testRecognition.classes.H.H()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] testRecognition.classes.J.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] testRecognition.interfaces.F.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] testRecognition.interfaces.Not.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] testRecognition.classes.K.K()
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] testRecognition.classes.Not.<clinit>
+##SUBTASK, Checking [ Nullable ] testRecognition.classes.Both2.Both2()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.iface.subClasses.explicit.D4.<clinit>
+##SUBTASK, Checking [ Nullable ] test.iface.subClasses.explicit.C1.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.iface.subClasses.explicit.E1.E1()
+##SUBTASK, Checking [ Nullable ] test.iface.subClasses.explicit.C4.<clinit>
+##SUBTASK, Checking [ Nullable ] testRecognition.classes.Both1.Both1()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.iface.subClasses.explicit.D1.D1()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.iface.subClasses.explicit.D2.D2()
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] testRecognition.classes.H.<clinit>
+##SUBTASK, Checking [ Nullable ] testRecognition.classes.K.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] testRecognition.classes.I.I()
+##SUBTASK, Checking [ Nullable ] testRecognition.classes.Not.Not()
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] testRecognition.classes.Both2.<clinit>
+##SUBTASK, Checking [ Nullable ] test.iface.subClasses.explicit.E1.<clinit>
+##SUBTASK, Checking [ Nullable ] test.iface.subClasses.explicit.D1.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.iface.subClasses.explicit.E2.E2()
+##SUBTASK, Checking [ Nullable ] testRecognition.classes.Both3.Both3()
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.iface.subClasses.explicit.D2.<clinit>
+##SUBTASK, Checking [ Nullable ] testRecognition.classes.Both1.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.iface.subClasses.explicit.D3.D3()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] testRecognition.classes.I.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.iface.subClasses.explicit.E2.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.iface.subClasses.explicit.E3.E3()
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.iface.subClasses.explicit.E3.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.iface.subClasses.explicit.E4.E4()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.iface.subClasses.explicit.E4.<clinit>
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Cleaning up after analysis
+Cleaning up after analysis
+[GC (Allocation Failure)  138875K->64460K(412672K), 0.0076730 secs]
+[GC (System.gc())  64801K->64304K(442368K), 0.0033350 secs]
+[Full GC (System.gc())  64304K->38125K(442368K), 0.1401210 secs]
+##WORK, 1
+##SUBTASK_DONE
+Updating consistency proof
+##SUBTASK, Updating consistency proof
+Exporting results to TestThreadSafeOverri-2015.06.23-at-15.23.02.641
+##SUBTASK, Exporting results to TestThreadSafeOverri-2015.06.23-at-15.23.02.641
+Creating snapshot: /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/TestThreadSafeOverri-2015.06.23-at-15.23.02.641/running_or_crashed_sea_snapshot.xml.gz
+Done in 4115 ms.
+ConcurrencyDetector	: 15 ms
+ThreadEffectsModule	: 11 ms
+StructureAnalysis	: 1 ms
+ParameterizedTypeAnalysis	: 6 ms
+EqualityAnalysis	: 40 ms
+LayersAnalysis	: 141 ms
+UtilityAnalysis	: 2 ms
+SingletonAnalysis	: 7 ms
+LockAnalysis	: 243 ms
+EffectsAnalysis	: 46 ms
+UniquenessAnalysisModule	: 234 ms
+NullablePreprocessorModule	: 5 ms
+NullableModule2	: 365 ms
+[2015-06-23 15:23:08    INFO] partial bindings = 7174 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+[2015-06-23 15:23:08    INFO] full bindings = 637 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+cached = 0
+totalT = 0
+#Performance data for TestThreadSafeOverriding
+#Tue Jun 23 15:23:08 EDT 2015
+jsure.Add.required=0
+jsure.All.analyses=624
+jsure.Binding.before.canon=58
+jsure.Binding.full.time=243
+jsure.Binding.partial.time=280
+jsure.Bindings.full=637
+jsure.Bindings.partial=7174
+jsure.Canonicalization=158
+jsure.Cleanup=116
+jsure.Destroy.time=18
+jsure.Drop.creation=18
+jsure.Find.canon.time=2
+jsure.Parsing=714
+jsure.Promise.parsing=459
+jsure.Promise.scrubbing=1336
+jsure.Sea.export=624
+jsure.Sea.update=66
+jsure.Total.JSure.time=4115
+jsure.Total.blocks=66
+jsure.Total.canonical=1749
+jsure.Total.decls=184
+jsure.Total.destroyed=0
+jsure.Total.gced=0
+jsure.Total.loc=704
+jsure.Total.nodes=63642
+jsure.Total.stmts=132
+jsure.Total.try.destroyed=228
+jsure.analysis.ConcurrencyDetector=15
+jsure.analysis.EffectsAnalysis=46
+jsure.analysis.EqualityAnalysis=40
+jsure.analysis.LayersAnalysis=141
+jsure.analysis.LockAnalysis=243
+jsure.analysis.NullableModule2=365
+jsure.analysis.NullablePreprocessorModule=5
+jsure.analysis.ParameterizedTypeAnalysis=6
+jsure.analysis.SingletonAnalysis=7
+jsure.analysis.StructureAnalysis=1
+jsure.analysis.ThreadEffectsModule=11
+jsure.analysis.UniquenessAnalysisModule=234
+jsure.analysis.UtilityAnalysis=2
+jsure.num.threads=8
+Javac making log: AnnotationRules
+##DONE
+Renaming snapshot: /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/TestThreadSafeOverri-2015.06.23-at-15.23.02.641/sea_snapshot.xml.gz
+Done with JSure!
+Scanning complete (5235 ms)
+No socket to close
+Closing std streams
+Process result after waiting = 0

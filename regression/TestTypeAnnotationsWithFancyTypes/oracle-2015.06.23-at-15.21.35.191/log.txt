@@ -1,0 +1,2322 @@
+LOCAL vm : 1.8.0_05
+Path: /Users/aarong/git/jsure/jsure-analysis/bin
+Path: /Users/aarong/git/common/common/lib/runtime/commons-codec-1.10.jar
+Path: /Users/aarong/git/common/common/lib/runtime/trove-3.0.3.jar
+Path: /Users/aarong/git/common/common/lib/runtime/antlr-3.5.2-runtime.jar
+Path: /Users/aarong/git/common/common/lib/runtime/servlet-api-3.1.jar
+Path: /Users/aarong/git/jsure/jsure-common/lib/runtime/diffutils-1.2.1.jar
+Path: /Users/aarong/git/common/common/bin
+Path: /Users/aarong/git/common/common/lib/runtime/asm-5.0.2.jar
+Path: /Users/aarong/git/jsure/jsure-analysis/lib/runtime/renamedJavac.jar
+Path: /Users/aarong/git/common/common/lib/runtime/asm-tree-5.0.2.jar
+Path: /Users/aarong/git/common/common/lib/runtime/promises-5.6.0.jar
+Path: /Users/aarong/git/jsure/jsure-analysis/lib/runtime/log4j-xml-1.3alpha-8.jar
+Path: /Users/aarong/git/common/common/lib/runtime/derby-10.11.1.1.jar
+Path: /Users/aarong/git/jsure/jsure-common/bin
+Path: /Users/aarong/git/common/common/lib/runtime/ant-1.9.4.jar
+Path: /Users/aarong/git/common/common/lib/runtime/collections-generic-4.0.jar
+Path: /Users/aarong/git/jsure/jsure-analysis/lib/runtime/log4j-1.3alpha-8.jar
+Path: /Users/aarong/git/common/common/lib/runtime/asm-commons-5.0.2.jar
+Path: /Users/aarong/git/common/common/lib/runtime/commons-lang3-3.3.2.jar
+Path: /Users/aarong/git/common/common/lib/runtime/commons-io-2.4.jar
+Starting process:
+	/Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/jre/bin/java
+	-Dsl.running.in.remote.vm=true
+	-Dsurelogic.test.code=NONE
+	-XX:MaxPermSize=512m
+	-verbosegc
+	-DSureLogicX=true
+	-Dsl.run.dir=/Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/TestTypeAnnotationsW-2015.06.23-at-15.21.35.191
+	-Dfluid.ir.versioning=Versioning.Off
+	-Dfluid.directory.url=file:/Eclipses/eclipse-standard-luna-SR2-macosx-cocoa-x86_64/../../Users/aarong/git/jsure/jsure-analysis/
+	-Xmx2048m
+	-classpath
+	/Users/aarong/git/jsure/jsure-analysis/bin:/Users/aarong/git/common/common/lib/runtime/commons-codec-1.10.jar:/Users/aarong/git/common/common/lib/runtime/trove-3.0.3.jar:/Users/aarong/git/common/common/lib/runtime/antlr-3.5.2-runtime.jar:/Users/aarong/git/common/common/lib/runtime/servlet-api-3.1.jar:/Users/aarong/git/jsure/jsure-common/lib/runtime/diffutils-1.2.1.jar:/Users/aarong/git/common/common/bin:/Users/aarong/git/common/common/lib/runtime/asm-5.0.2.jar:/Users/aarong/git/jsure/jsure-analysis/lib/runtime/renamedJavac.jar:/Users/aarong/git/common/common/lib/runtime/asm-tree-5.0.2.jar:/Users/aarong/git/common/common/lib/runtime/promises-5.6.0.jar:/Users/aarong/git/jsure/jsure-analysis/lib/runtime/log4j-xml-1.3alpha-8.jar:/Users/aarong/git/common/common/lib/runtime/derby-10.11.1.1.jar:/Users/aarong/git/jsure/jsure-common/bin:/Users/aarong/git/common/common/lib/runtime/ant-1.9.4.jar:/Users/aarong/git/common/common/lib/runtime/collections-generic-4.0.jar:/Users/aarong/git/jsure/jsure-analysis/lib/runtime/log4j-1.3alpha-8.jar:/Users/aarong/git/common/common/lib/runtime/asm-commons-5.0.2.jar:/Users/aarong/git/common/common/lib/runtime/commons-lang3-3.3.2.jar:/Users/aarong/git/common/common/lib/runtime/commons-io-2.4.jar
+	com.surelogic.javac.jobs.RemoteJSureRun
+
+First line in REMOTE vm = Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=512m; support was removed in 8.0
+[GC (Allocation Failure)  512K->520K(327168K), 0.0012040 secs]
+[GC (Allocation Failure)  1020K->635K(327680K), 0.0008830 secs]
+[GC (Allocation Failure)  1659K->787K(327680K), 0.0013430 secs]
+[GC (Allocation Failure)  1811K->827K(328704K), 0.0009310 secs]
+JVM started: 1.8.0_05
+Log level: INFO
+Created reader
+Created monitor
+Created log handler
+Running RemoteJSureRun
+[GC (Allocation Failure)  2875K->1059K(328704K), 0.0012780 secs]
+[GC (Allocation Failure)  3107K->1307K(331264K), 0.0011300 secs]
+[GC (Allocation Failure)  5403K->1627K(331264K), 0.0014980 secs]
+[GC (Allocation Failure)  5723K->1787K(335360K), 0.0012470 secs]
+runPath = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/TestTypeAnnotationsW-2015.06.23-at-15.21.35.191
+Creating run: TestTypeAnnotationsW-2015.06.23-at-15.21.35.191
+projects = TestTypeAnnotationsWithFancyTypes
+Loading edu.cmu.cs.fluid.make.nonabductive.proposals = false
+Loading edu.cmu.cs.fluid.load.all.classes = false
+Loading edu.cmu.cs.fluid.timeoutFlag = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BCA = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ConstantExpr = false
+Loading edu.cmu.cs.fluid.physMemoryInMB = 20480
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.EqualityAssurance = true
+Loading edu.cmu.cs.fluid.xml.diff.directory = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/promises-xml
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.UniquenessAssuranceUWM = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.IRConcurrencyDetector = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Singleton = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.CALLS = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BenchmarkingUniquenessSE = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ThreadEffectAssurance2 = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Binder = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.cliend.eclipse.TypeBasedAlias = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Nullable = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.TestIsFunctional = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.UniquenessAssuranceUWM_SE = false
+Loading edu.cmu.cs.fluid.tool-memory-mb = 2048
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.DefinitelyAssigned = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.UniquenessAssuranceSE = true
+Loading edu.cmu.cs.fluid.analysis.thread.count = 8
+Loading edu.cmu.cs.fluid.timeoutSec = 11
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.NonNullRawTypes = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LayersAssurance = true
+Loading edu.cmu.cs.fluid.default.JRE = org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Loading edu.cmu.cs.fluid.timeoutWarningSec = 30
+Loading edu.cmu.cs.fluid.modeling.problem.filters = 00000012com\.apple.*00000013com\.oracle.*00000010com\.sun.*00000014.*\.internal.*00000023.*BakedArrayList\.class00000007apple.*00000008oracle.*00000011quicktime.*00000005sun.*
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Utility = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BenchmarkingUniquenessNew_SE = false
+Loading edu.cmu.cs.fluid.scan.may.use.compression = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ParameterizedType = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Final = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LockAssurance3 = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BenchmarkingUniquenessNew = false
+Loading edu.cmu.cs.fluid.data.directory = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.NullablePreprocessor = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.EffectAssurance2 = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LV = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.StructureAssurance = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Types = false
+JSure data dir = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data
+XML diff dir   = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/promises-xml
+Looking for JRE in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+default JRE = org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Initialized job
+Created com.surelogic.analysis.concurrency.detector.ConcurrencyDetector
+Starting a new group for ConcurrencyDetector
+Created com.surelogic.analysis.threads.ThreadEffectsModule
+Created com.surelogic.analysis.structure.StructureAnalysis
+Created com.surelogic.analysis.annotationbounds.ParameterizedTypeAnalysis
+Created com.surelogic.analysis.equality.EqualityAnalysis
+Created com.surelogic.analysis.layers.LayersAnalysis
+Created com.surelogic.analysis.utility.UtilityAnalysis
+Starting a new group for UtilityAnalysis
+Group: EXTERNALLY
+	ConcurrencyDetector
+	ThreadEffectsModule
+	StructureAnalysis
+	ParameterizedTypeAnalysis
+	EqualityAnalysis
+	LayersAnalysis
+Created com.surelogic.analysis.singleton.SingletonAnalysis
+[GC (Allocation Failure)  9979K->2339K(335360K), 0.0017880 secs]
+Created com.surelogic.analysis.concurrency.driver.LockAnalysis
+Created com.surelogic.analysis.effects.EffectsAnalysis
+Created com.surelogic.analysis.uniqueness.classic.sideeffecting.UniquenessAnalysisModule
+Starting a new group for UniquenessAnalysisModule
+Group: com.surelogic.analysis.visitors.TopLevelAnalysisVisitor$1@69663380, EXTERNALLY
+	UtilityAnalysis
+	SingletonAnalysis
+	LockAnalysis
+	EffectsAnalysis
+Created com.surelogic.analysis.nullable.NullablePreprocessorModule
+Starting a new group for NullablePreprocessorModule
+Group: com.surelogic.analysis.uniqueness.classic.sideeffecting.UniquenessAnalysisModule$1@5b37e0d2, class com.surelogic.analysis.bca.BindingContextAnalysis, INTERNALLY
+	UniquenessAnalysisModule
+Created com.surelogic.analysis.nullable.NullableModule2
+Starting a new group for NullableModule2
+Group: EXTERNALLY
+	NullablePreprocessorModule
+Group: com.surelogic.analysis.granules.FlowUnitGranulator@4459eb14, EXTERNALLY
+	NullableModule2
+##TASK, Scan, 74
+Initializing ...
+##SUBTASK, Initializing ...
+monitor = com.surelogic.common.jobs.remote.AbstractRemoteSLJob$Monitor@5a2e4553
+singleThread = false
+[GC (Allocation Failure)  10531K->2595K(340992K), 0.0018100 secs]
+[GC (Allocation Failure)  15820K->10585K(340992K), 0.0056900 secs]
+[GC (Allocation Failure)  23866K->23788K(351744K), 0.0086720 secs]
+Done initializing org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: 0
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/resources.jar
+[GC (Allocation Failure)  44780K->43849K(352256K), 0.0133920 secs]
+[GC (Allocation Failure)  64841K->47485K(366080K), 0.0052350 secs]
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/rt.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jsse.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jce.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/charsets.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jfr.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/dnsns.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/localedata.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunec.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunjce_provider.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunpkcs11.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/zipfs.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /System/Library/Java/Extensions/MRJToolkit.jar
+Done initializing TestTypeAnnotationsWithFancyTypes: 4
+Trying to find /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/TestTypeAnnotationsW-2015.06.23-at-15.21.35.191/source/TestTypeAnnotationsWithFancyTypes.bin.zip
+TestTypeAnnotationsWithFancyTypes: TestTypeAnnotationsWithFancyTypes -> org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Done initializing org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: 0
+TestTypeAnnotationsWithFancyTypes: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/resources.jar
+[GC (Allocation Failure)  81277K->54073K(366080K), 0.0073680 secs]
+TestTypeAnnotationsWithFancyTypes: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/rt.jar
+TestTypeAnnotationsWithFancyTypes: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jsse.jar
+TestTypeAnnotationsWithFancyTypes: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jce.jar
+TestTypeAnnotationsWithFancyTypes: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/charsets.jar
+TestTypeAnnotationsWithFancyTypes: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jfr.jar
+TestTypeAnnotationsWithFancyTypes: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/dnsns.jar
+TestTypeAnnotationsWithFancyTypes: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/localedata.jar
+TestTypeAnnotationsWithFancyTypes: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunec.jar
+TestTypeAnnotationsWithFancyTypes: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunjce_provider.jar
+TestTypeAnnotationsWithFancyTypes: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunpkcs11.jar
+TestTypeAnnotationsWithFancyTypes: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/zipfs.jar
+TestTypeAnnotationsWithFancyTypes: Done initializing with /System/Library/Java/Extensions/MRJToolkit.jar
+TestTypeAnnotationsWithFancyTypes: Done initializing with /Users/aarong/git/regression/regression/TestTypeAnnotationsWithFancyTypes/promises-5.6.0.jar
+##SUBTASK_DONE
+##WORK, 1
+Assuming that the projects are run in dependency order
+Parsing ...
+##SUBTASK, Parsing ...
+Done adapting 0 files for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK_DONE
+##WORK, 1
+Parsing ...
+##SUBTASK, Parsing ...
+JCP: warning: [options] bootstrap class path not set in conjunction with -source 1.7
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+Adapting 4 CUTs
+[GC (Allocation Failure)  87865K->61504K(387584K), 0.0144130 secs]
+Done adapting 4 files for TestTypeAnnotationsWithFancyTypes
+##SUBTASK_DONE
+##WORK, 1
+Handling references for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Handling references for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 21 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Setting project for Object from org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 44 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 55 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 51 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 32 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 17 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 8 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 12 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 15 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 4 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 2 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK_DONE
+##WORK, 1
+Handling references for TestTypeAnnotationsWithFancyTypes
+##SUBTASK, Handling references for TestTypeAnnotationsWithFancyTypes
+Handling 27 dangling refs for TestTypeAnnotationsWithFancyTypes
+Handling 6 dangling refs for TestTypeAnnotationsWithFancyTypes
+##SUBTASK_DONE
+##WORK, 1
+Updated 261 files in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Updated 37 files in TestTypeAnnotationsWithFancyTypes
+Parsing ASTs  = 415 ms
+Handling refs = 365 ms
+[2015-06-23 15:21:37    INFO] partial bindings = 0 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+[2015-06-23 15:21:37    INFO] full bindings = 0 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+Canonicalizing ASTs
+##SUBTASK, Canonicalizing ASTs
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+[2015-06-23 15:21:37    INFO] partial bindings = 670 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+[2015-06-23 15:21:37    INFO] full bindings = 736 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+Canonicalizing TestTypeAnnotationsWithFancyTypes/src/test/TestThreadSafe.java
+##WORK, 1
+Canonicalizing TestTypeAnnotationsWithFancyTypes/src/test/TestImmutable.java
+##WORK, 1
+Canonicalizing TestTypeAnnotationsWithFancyTypes/src/test/TestThreadSafe2.java
+##WORK, 1
+Canonicalizing TestTypeAnnotationsWithFancyTypes/src/test/TestContainable.java
+##WORK, 1
+Binding = 110 ms
+##SUBTASK_DONE
+##WORK, 1
+Handling references for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Handling references for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+[GC (Metadata GC Threshold)  106552K->66086K(389120K), 0.0136770 secs]
+[Full GC (Metadata GC Threshold)  66086K->64831K(140288K), 0.1768510 secs]
+Handling 21 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK_DONE
+##WORK, 1
+Handling references for TestTypeAnnotationsWithFancyTypes
+##SUBTASK, Handling references for TestTypeAnnotationsWithFancyTypes
+Handling 21 dangling refs for TestTypeAnnotationsWithFancyTypes
+##SUBTASK_DONE
+##WORK, 1
+Updated 261 files in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Updated 37 files in TestTypeAnnotationsWithFancyTypes
+[GC (System.gc())  69309K->64959K(141824K), 0.0012440 secs]
+[Full GC (System.gc())  64959K->54254K(141824K), 0.0983230 secs]
+Creating drops
+##SUBTASK, Creating drops
+Created binary drop for sun.misc.JarIndex
+Created binary drop for java.lang.AbstractStringBuilder
+Created binary drop for java.util.Random
+Created binary drop for java.io.Writer
+Created binary drop for java.security.CodeSigner
+Created binary drop for java.io.IOException
+Created binary drop for java.util.zip.ZipEntry
+Created binary drop for java.util.HashMap
+Created binary drop for java.nio.channels.AsynchronousChannel
+Created binary drop for java.lang.ref.SoftReference
+Created binary drop for java.util.jar.Attributes
+Created binary drop for com.surelogic.Part
+Created binary drop for java.lang.annotation.Annotation
+Created binary drop for sun.reflect.ReflectionFactory
+Created binary drop for java.net.MalformedURLException
+Created binary drop for java.io.DataOutputStream
+Created binary drop for sun.util.locale.LocaleObjectCache
+Created binary drop for java.lang.Double
+Created binary drop for java.lang.ClassLoader
+Created binary drop for java.lang.InstantiationException
+Created binary drop for java.io.InputStream
+Created binary drop for java.nio.channels.FileChannel
+Created binary drop for java.nio.charset.Charset
+Created binary drop for java.lang.Throwable
+Created binary drop for java.lang.annotation.Retention
+Created binary drop for sun.util.locale.LanguageTag
+Created binary drop for java.lang.Void
+Created binary drop for java.io.FileDescriptor
+Created binary drop for java.nio.file.CopyOption
+Created binary drop for java.nio.file.FileSystem
+Created binary drop for java.util.AbstractCollection
+Created binary drop for java.nio.charset.CoderResult
+Created binary drop for java.lang.Cloneable
+Created binary drop for java.lang.Appendable
+Created binary drop for java.util.SortedMap
+Created binary drop for java.security.Principal
+Created binary drop for java.nio.file.FileStore
+Created binary drop for sun.reflect.annotation.AnnotationType
+Created source drop for file:/Users/aarong/git/regression/regression/TestTypeAnnotationsWithFancyTypes/src/test/TestImmutable.java
+Created binary drop for java.lang.StringBuilder
+Created binary drop for java.net.URLStreamHandler
+Created binary drop for java.util.concurrent.Executor
+Created binary drop for java.io.FileFilter
+Created binary drop for java.util.spi.LocaleNameProvider
+Created binary drop for java.net.SocketAddress
+Created binary drop for java.io.DataOutput
+Created binary drop for java.util.zip.DataFormatException
+Created binary drop for java.lang.RuntimeException
+Created binary drop for java.lang.Runnable
+Created binary drop for java.util.zip.ZipFile
+Created binary drop for java.nio.charset.CharsetDecoder
+Created binary drop for java.lang.reflect.InvocationTargetException
+Created binary drop for sun.misc.URLClassPath
+Created binary drop for java.nio.charset.CharacterCodingException
+Created binary drop for java.io.FileNotFoundException
+Created binary drop for java.nio.FloatBuffer
+Created binary drop for java.util.concurrent.locks.Lock
+Created binary drop for java.util.MissingResourceException
+Created binary drop for java.io.SyncFailedException
+Created binary drop for java.lang.reflect.Method
+Created binary drop for java.nio.charset.CodingErrorAction
+Created binary drop for java.net.URLStreamHandlerFactory
+Created binary drop for java.security.cert.Certificate
+Created binary drop for sun.reflect.FieldAccessor
+Created binary drop for java.util.AbstractMap
+Created binary drop for java.lang.IllegalArgumentException
+Created binary drop for com.surelogic.ThreadSafe
+Created binary drop for java.lang.Iterable
+Created binary drop for sun.reflect.ConstructorAccessor
+Created binary drop for java.io.UnsupportedEncodingException
+Created binary drop for sun.nio.ch.Interruptible
+Created binary drop for java.util.concurrent.ConcurrentMap
+Created binary drop for java.security.Permission
+Created binary drop for java.lang.reflect.Member
+Created binary drop for sun.reflect.MethodAccessor
+Created binary drop for java.nio.ShortBuffer
+Created binary drop for java.security.Key
+Created binary drop for java.util.jar.Manifest
+Created binary drop for java.nio.file.Watchable
+Created binary drop for java.lang.NumberFormatException
+Created binary drop for java.nio.file.attribute.FileTime
+Created binary drop for java.io.OutputStream
+Created binary drop for com.surelogic.Unique
+Created binary drop for java.lang.reflect.TypeVariable
+Created binary drop for java.lang.CharSequence
+Created binary drop for java.lang.Boolean
+Created binary drop for java.nio.channels.CompletionHandler
+Created binary drop for java.security.InvalidKeyException
+Created binary drop for java.util.Iterator
+Created binary drop for java.net.ContentHandler
+Created binary drop for java.lang.Class
+Created binary drop for sun.misc.Resource
+Created binary drop for java.lang.ThreadLocal
+Created binary drop for java.util.concurrent.locks.Condition
+Created binary drop for java.lang.ref.Reference
+Created binary drop for java.nio.file.attribute.UserPrincipalLookupService
+Created binary drop for java.security.GeneralSecurityException
+Created binary drop for sun.util.locale.BaseLocale
+Created binary drop for java.io.PrintStream
+Created binary drop for java.lang.Thread
+Created binary drop for java.util.concurrent.Future
+Created binary drop for java.net.ContentHandlerFactory
+Created binary drop for java.lang.Readable
+Created binary drop for java.nio.file.WatchEvent
+Created binary drop for java.lang.ReflectiveOperationException
+Created binary drop for java.nio.file.attribute.FileStoreAttributeView
+Created binary drop for java.nio.file.attribute.UserPrincipal
+Created binary drop for java.security.CodeSource
+Created binary drop for java.nio.channels.AsynchronousCloseException
+Created binary drop for sun.util.resources.OpenListResourceBundle
+Created binary drop for java.lang.StringBuffer
+Created binary drop for java.lang.Byte
+Created binary drop for sun.util.locale.Extension
+Created binary drop for java.net.URLConnection
+Created binary drop for java.util.zip.ZipConstants
+Created binary drop for java.net.InetAddress
+Created binary drop for java.security.Guard
+Created binary drop for sun.reflect.CallerSensitive
+Created binary drop for java.io.Closeable
+Created source drop for file:/Users/aarong/git/regression/regression/TestTypeAnnotationsWithFancyTypes/src/test/TestContainable.java
+Created binary drop for java.lang.AutoCloseable
+Created binary drop for java.nio.LongBuffer
+Created binary drop for java.util.Date
+Created binary drop for java.security.cert.CertPath
+Created binary drop for java.lang.reflect.Field
+Created source drop for file:/Users/aarong/git/regression/regression/TestTypeAnnotationsWithFancyTypes/src/test/TestThreadSafe.java
+Created binary drop for java.nio.Buffer
+Created binary drop for java.util.Enumeration
+Created binary drop for java.lang.Deprecated
+Created binary drop for java.nio.ByteOrder
+Created binary drop for java.lang.StackTraceElement
+Created binary drop for sun.util.LocaleServiceProviderPool
+Created binary drop for java.nio.file.WatchKey
+Created binary drop for sun.util.locale.LocaleSyntaxException
+Created binary drop for java.nio.channels.ReadableByteChannel
+Created binary drop for java.util.ListIterator
+Created binary drop for java.lang.Integer
+Created binary drop for java.security.PrivilegedAction
+Created binary drop for java.nio.CharBuffer
+Created binary drop for java.lang.Comparable
+Created binary drop for java.nio.file.AccessMode
+Created binary drop for java.net.InetAddressImpl
+Created binary drop for java.io.FilterInputStream
+Created binary drop for sun.util.locale.InternalLocaleBuilder
+Created binary drop for java.security.PublicKey
+Created binary drop for java.net.UnknownHostException
+Created source drop for file:/Users/aarong/git/regression/regression/TestTypeAnnotationsWithFancyTypes/src/test/TestThreadSafe2.java
+Created binary drop for java.lang.ref.WeakReference
+Created binary drop for java.io.ObjectStreamException
+Created binary drop for java.nio.channels.ScatteringByteChannel
+Created binary drop for java.util.zip.InflaterInputStream
+Created binary drop for java.net.NetworkInterface
+Created binary drop for java.io.PrintWriter
+Created binary drop for java.lang.String
+Created binary drop for java.util.Dictionary
+Created binary drop for java.lang.Exception
+Created binary drop for java.lang.SecurityException
+Created binary drop for java.nio.ByteBuffer
+Created binary drop for java.nio.channels.InterruptibleChannel
+Created binary drop for java.nio.channels.GatheringByteChannel
+Created binary drop for java.security.SignatureException
+Created binary drop for java.nio.DoubleBuffer
+Created binary drop for java.nio.file.PathMatcher
+Created binary drop for java.lang.annotation.ElementType
+Created binary drop for java.util.Deque
+Created binary drop for java.nio.channels.spi.AbstractInterruptibleChannel
+Created binary drop for java.nio.file.attribute.FileAttributeView
+Created binary drop for java.lang.Long
+Created binary drop for sun.security.util.Debug
+Created binary drop for java.util.Queue
+Created binary drop for sun.misc.MetaIndex
+Created binary drop for java.lang.Package
+Created binary drop for sun.reflect.ConstantPool
+Created binary drop for java.util.jar.JarFile
+Created binary drop for sun.util.locale.LocaleExtensions
+Created binary drop for java.security.AccessControlException
+Created binary drop for java.lang.reflect.AccessibleObject
+Created binary drop for java.util.AbstractSequentialList
+Created binary drop for java.net.SocketException
+Created binary drop for java.lang.annotation.Target
+Created binary drop for java.security.AccessControlContext
+Created binary drop for java.util.WeakHashMap
+Created binary drop for java.nio.MappedByteBuffer
+Created binary drop for java.util.List
+Created binary drop for java.security.PermissionCollection
+Created binary drop for java.lang.reflect.Constructor
+Created binary drop for java.lang.Object
+Created binary drop for java.util.concurrent.TimeUnit
+Created binary drop for com.surelogic.RegionLock
+Created binary drop for java.lang.NoSuchFieldException
+Created binary drop for java.util.ArrayList
+Created binary drop for java.nio.file.attribute.FileAttribute
+Created binary drop for java.util.concurrent.locks.ReadWriteLock
+Created binary drop for java.io.File
+Created binary drop for java.lang.InterruptedException
+Created binary drop for java.util.Locale
+Created binary drop for java.lang.CloneNotSupportedException
+Created binary drop for java.lang.reflect.Type
+Created binary drop for java.security.NoSuchAlgorithmException
+Created binary drop for java.util.Set
+Created binary drop for java.lang.ClassValue
+Created binary drop for java.lang.Enum
+Created binary drop for java.security.cert.CertificateEncodingException
+Created binary drop for java.security.ProtectionDomain
+Created binary drop for java.nio.channels.SeekableByteChannel
+Created binary drop for java.lang.Float
+Created binary drop for java.net.UnknownServiceException
+Created binary drop for java.net.URISyntaxException
+Created binary drop for java.util.zip.Inflater
+Created binary drop for java.lang.ThreadGroup
+Created binary drop for java.nio.file.LinkOption
+Created binary drop for java.nio.file.WatchService
+Created binary drop for java.net.URL
+Created binary drop for java.nio.file.OpenOption
+Created binary drop for java.lang.reflect.GenericDeclaration
+Created binary drop for java.nio.charset.CharsetEncoder
+Created binary drop for java.nio.file.spi.FileSystemProvider
+Created binary drop for java.lang.reflect.AnnotatedElement
+Created binary drop for java.util.concurrent.ExecutorService
+Created binary drop for java.nio.file.DirectoryStream
+Created binary drop for java.security.Timestamp
+Created binary drop for java.util.Map
+Created binary drop for java.nio.channels.WritableByteChannel
+Created binary drop for java.util.LinkedList
+Created binary drop for java.util.Comparator
+Created binary drop for java.nio.file.attribute.GroupPrincipal
+Created binary drop for java.nio.channels.AsynchronousFileChannel
+Created binary drop for java.lang.Character
+Created binary drop for java.util.zip.ZipException
+Created binary drop for java.lang.annotation.Documented
+Created binary drop for com.surelogic.Immutable
+Created binary drop for java.util.spi.LocaleServiceProvider
+Created binary drop for java.nio.file.attribute.AttributeView
+Created binary drop for java.lang.annotation.RetentionPolicy
+Created binary drop for java.nio.channels.FileLock
+Created binary drop for java.net.InterfaceAddress
+Created binary drop for java.security.cert.CertificateException
+Created binary drop for java.math.BigInteger
+Created binary drop for java.nio.channels.ByteChannel
+Created binary drop for java.lang.Short
+Created binary drop for java.util.concurrent.Callable
+Created binary drop for java.net.URI
+Created binary drop for java.util.Collection
+Created binary drop for java.util.Vector
+Created binary drop for java.util.AbstractList
+Created binary drop for java.security.DomainCombiner
+Created binary drop for java.util.jar.JarEntry
+Created binary drop for java.security.NoSuchProviderException
+Created binary drop for java.nio.file.attribute.BasicFileAttributes
+Created binary drop for java.nio.channels.Channel
+Created binary drop for java.net.FileNameMap
+Created binary drop for java.security.KeyException
+Created binary drop for java.util.RandomAccess
+Created binary drop for java.util.AbstractSet
+Created binary drop for java.net.Proxy
+Created binary drop for java.util.Hashtable
+Created binary drop for java.io.FilterOutputStream
+Created binary drop for java.lang.Number
+Created binary drop for sun.reflect.LangReflectAccess
+Created binary drop for com.surelogic.Containable
+Created binary drop for java.util.ResourceBundle
+Created binary drop for java.util.Stack
+Created binary drop for java.nio.IntBuffer
+Created binary drop for java.io.FilenameFilter
+Created binary drop for java.lang.IllegalAccessException
+Created binary drop for java.nio.channels.ClosedChannelException
+Created binary drop for sun.util.locale.ParseStatus
+Created binary drop for java.lang.ref.ReferenceQueue
+Created binary drop for java.io.Flushable
+Created binary drop for java.nio.file.Path
+Created binary drop for com.surelogic.Vouch
+Created binary drop for java.io.Serializable
+##SUBTASK_DONE
+##WORK, 1
+Parsing promises
+##SUBTASK, Parsing promises
+Added 3 promises for java.lang.[] in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@799f7e29
+Added 3 promises for java.lang.[] in TestTypeAnnotationsWithFancyTypes: com.surelogic.tree.SyntaxTreeNode@7f572c37
+Added 2 promises for java.lang.ref.SoftReference in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@45381ad3
+Added 18 promises for java.nio.CharBuffer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@36e77f77
+Added 22 promises for java.util.concurrent.locks.Condition in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@27e70d02
+Added 6 promises for java.io.PrintStream in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@309f4d80
+Added 70 promises for java.lang.Double in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@44f3eab7
+Added 3 promises for java.util.Locale in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@5d97d378
+Added 29 promises for java.util.Dictionary in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4e238698
+Added 18 promises for java.net.URISyntaxException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4caf5ccf
+Added 61 promises for java.lang.Short in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@f1dbb37
+Added 31 promises for java.lang.Object in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@16dde7cd
+Added 144 promises for java.lang.AbstractStringBuilder in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@d3f1621
+Added 27 promises for test.TestImmutable in TestTypeAnnotationsWithFancyTypes: com.surelogic.tree.SyntaxTreeNode@2708d227
+Added 3 promises for java.util.zip.ZipEntry in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2d9e0a7c
+Added 18 promises for java.util.Queue in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4c0e991e
+Added 34 promises for java.util.concurrent.ExecutorService in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@37dc521d
+Added 54 promises for java.util.Collection in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@738973ff
+Added 17 promises for java.util.concurrent.ConcurrentMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@767b511f
+Added 90 promises for test.TestContainable in TestTypeAnnotationsWithFancyTypes: com.surelogic.tree.SyntaxTreeNode@175318ba
+Added 88 promises for test.TestThreadSafe2 in TestTypeAnnotationsWithFancyTypes: com.surelogic.tree.SyntaxTreeNode@52880995
+Added 6 promises for java.lang.InstantiationException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4e435e7d
+Added 3 promises for java.util.Date in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7051bbb0
+Added 12 promises for java.lang.CharSequence in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2364b3c6
+Added 4 promises for java.util.Enumeration in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2b47f10c
+Added 64 promises for java.util.Map in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@1b387f1
+Added 56 promises for java.util.WeakHashMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7e580b00
+Added 45 promises for java.util.ResourceBundle in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@73f68c60
+Added 31 promises for java.util.SortedMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@20edb0d3
+Added 96 promises for java.lang.Integer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@1c8ad749
+WARNING: TreeAccessor couldn't find equals(java.lang.Object) in java.util.ArrayList
+WARNING: TreeAccessor couldn't find hashCode() in java.util.ArrayList
+Added 12 promises for java.lang.reflect.InvocationTargetException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@17d9b8b2
+Added 3 promises for java.nio.file.Path in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4aafa101
+Added 16 promises for java.util.AbstractSet in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@792d7b
+Added 6 promises for java.lang.Appendable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@20b8b472
+Added 61 promises for java.util.HashMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@329ef571
+Added 37 promises for java.lang.Boolean in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@36f3a21a
+Added 141 promises for java.lang.Thread in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6c5524de
+Added 12 promises for java.lang.RuntimeException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6048082c
+Added 60 promises for java.util.AbstractList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4e5aea22
+Added 104 promises for java.util.ArrayList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6e201f3a
+Added 59 promises for java.lang.Byte in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@141af4ac
+Added 1 promises for java.lang.ref.ReferenceQueue in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@31f29db8
+Added 88 promises for java.util.jar.Attributes in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@361c1315
+[GC (Allocation Failure)  117742K->58054K(152576K), 0.0038900 secs]
+Added 3 promises for java.util.jar.Manifest in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@22da2031
+Added 21 promises for java.util.Stack in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@199e7700
+Added 22 promises for java.lang.Number in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@1a761d7b
+Added 12 promises for java.lang.Class in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@518c0d7a
+Added 6 promises for java.lang.IllegalAccessException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@19678273
+Added 1 promises for java.lang.ThreadLocal in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@764d162c
+Added 108 promises for java.util.AbstractMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@76926af8
+Added 27 promises for test.TestThreadSafe in TestTypeAnnotationsWithFancyTypes: com.surelogic.tree.SyntaxTreeNode@53db6703
+Added 3 promises for java.lang.Iterable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@76675235
+Added 6 promises for java.io.PrintWriter in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@60db5b79
+Added 6 promises for java.io.Writer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2741070f
+Added 6 promises for java.lang.NumberFormatException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4e1a416
+Added 12 promises for java.lang.Exception in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7bfb042a
+Added 6 promises for java.util.Iterator in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@339853f8
+Added 13 promises for java.lang.Enum in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@311a0079
+Added 109 promises for java.lang.StringBuilder in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@559037bd
+Added 73 promises for java.lang.Float in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@53d3c5b2
+Added 158 promises for java.lang.StringBuffer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@fc6e579
+Added 20 promises for java.util.concurrent.locks.Lock in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@1100226c
+Added 47 promises for java.lang.Throwable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@66cbceed
+Added 96 promises for java.lang.Long in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@1e38c577
+Added 12 promises for java.lang.SecurityException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@55ccdda5
+Added 29 promises for java.util.AbstractSequentialList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3d2402ae
+Added 89 promises for java.util.List in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@431087e8
+Added 6 promises for java.lang.CloneNotSupportedException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@5de0c37f
+Added 139 promises for java.util.LinkedList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3d5eb7d8
+Added 55 promises for java.util.AbstractCollection in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4b44ccc0
+Added 301 promises for java.lang.String in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@713ca2fe
+Added 18 promises for java.util.ListIterator in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@259766df
+Added 83 promises for java.util.Hashtable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@58b3feed
+Added 54 promises for java.util.Set in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@50b0b54c
+Added 6 promises for java.lang.NoSuchFieldException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@50def0d0
+Added 7 promises for java.util.concurrent.locks.ReadWriteLock in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@5ddc4ae5
+Added 138 promises for java.math.BigInteger in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4524a313
+Added 12 promises for java.lang.IllegalArgumentException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@44d9f10f
+Added 87 promises for java.util.Deque in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4c0df2fc
+Added 170 promises for java.util.Vector in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2a0b919
+Added 29 promises for java.util.concurrent.TimeUnit in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@56d806dd
+Added 6 promises for java.lang.InterruptedException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7cf6903e
+Added 3 promises for java.nio.file.DirectoryStream in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6fc58f37
+##SUBTASK_DONE
+##WORK, 1
+Scrubbing promises
+##SUBTASK, Scrubbing promises
+[GC (Allocation Failure)  121542K->60111K(160768K), 0.0066730 secs]
+Creating RegionModel java.lang.Object.Instance for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+[GC (Allocation Failure)  133839K->63302K(161792K), 0.0105800 secs]
+##SUBTASK_DONE
+##WORK, 1
+Starting analyses
+Using new analysis framework -- groups
+Starting group: ConcurrencyDetector, ThreadEffectsModule, StructureAnalysis, ParameterizedTypeAnalysis, EqualityAnalysis, LayersAnalysis
+##SUBTASK, Starting parallel ConcurrencyDetector [0]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel ConcurrencyDetector [0]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Starting parallel ThreadEffectsModule [1]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel ThreadEffectsModule [1]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Starting parallel StructureAnalysis [2]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel StructureAnalysis [2]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Starting parallel ParameterizedTypeAnalysis [3]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel ParameterizedTypeAnalysis [3]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Starting parallel EqualityAnalysis [4]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel EqualityAnalysis [4]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Starting parallel LayersAnalysis [5]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel LayersAnalysis [5]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Starting parallel ConcurrencyDetector [0]: 4 for TestTypeAnnotationsWithFancyTypes
+Starting parallel ConcurrencyDetector [0]: 4 for TestTypeAnnotationsWithFancyTypes
+##SUBTASK, Starting parallel ThreadEffectsModule [1]: 4 for TestTypeAnnotationsWithFancyTypes
+Starting parallel ThreadEffectsModule [1]: 4 for TestTypeAnnotationsWithFancyTypes
+##SUBTASK, Starting parallel StructureAnalysis [2]: 4 for TestTypeAnnotationsWithFancyTypes
+Starting parallel StructureAnalysis [2]: 4 for TestTypeAnnotationsWithFancyTypes
+##SUBTASK, Starting parallel ParameterizedTypeAnalysis [3]: 4 for TestTypeAnnotationsWithFancyTypes
+Starting parallel ParameterizedTypeAnalysis [3]: 4 for TestTypeAnnotationsWithFancyTypes
+##SUBTASK, Starting parallel EqualityAnalysis [4]: 4 for TestTypeAnnotationsWithFancyTypes
+Starting parallel EqualityAnalysis [4]: 4 for TestTypeAnnotationsWithFancyTypes
+##SUBTASK, Starting parallel LayersAnalysis [5]: 4 for TestTypeAnnotationsWithFancyTypes
+Starting parallel LayersAnalysis [5]: 4 for TestTypeAnnotationsWithFancyTypes
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestTypeAnnotationsWithFancyTypes/src/test/TestThreadSafe2.java
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestTypeAnnotationsWithFancyTypes/src/test/TestThreadSafe.java
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestTypeAnnotationsWithFancyTypes/src/test/TestImmutable.java
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestTypeAnnotationsWithFancyTypes/src/test/TestContainable.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestTypeAnnotationsWithFancyTypes/src/test/TestImmutable.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestTypeAnnotationsWithFancyTypes/src/test/TestContainable.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestTypeAnnotationsWithFancyTypes/src/test/TestThreadSafe2.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestTypeAnnotationsWithFancyTypes/src/test/TestThreadSafe.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestTypeAnnotationsWithFancyTypes/src/test/TestThreadSafe2.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestTypeAnnotationsWithFancyTypes/src/test/TestContainable.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestTypeAnnotationsWithFancyTypes/src/test/TestImmutable.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestTypeAnnotationsWithFancyTypes/src/test/TestThreadSafe.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestTypeAnnotationsWithFancyTypes/src/test/TestImmutable.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestTypeAnnotationsWithFancyTypes/src/test/TestContainable.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestTypeAnnotationsWithFancyTypes/src/test/TestThreadSafe2.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestTypeAnnotationsWithFancyTypes/src/test/TestThreadSafe.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestTypeAnnotationsWithFancyTypes/src/test/TestImmutable.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestTypeAnnotationsWithFancyTypes/src/test/TestThreadSafe.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestTypeAnnotationsWithFancyTypes/src/test/TestThreadSafe2.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestTypeAnnotationsWithFancyTypes/src/test/TestImmutable.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestTypeAnnotationsWithFancyTypes/src/test/TestThreadSafe.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestTypeAnnotationsWithFancyTypes/src/test/TestThreadSafe2.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestTypeAnnotationsWithFancyTypes/src/test/TestContainable.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestTypeAnnotationsWithFancyTypes/src/test/TestContainable.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+Starting group: UtilityAnalysis, SingletonAnalysis, LockAnalysis, EffectsAnalysis
+com.surelogic.analysis.uniqueness.classic.sideeffecting.UniquenessAnalysisModule$1@5b37e0d2: 43
+com.surelogic.analysis.visitors.TopLevelAnalysisVisitor$1@69663380: 109
+com.surelogic.analysis.granules.FlowUnitGranulator@4459eb14: 202
+##SUBTASK, Starting parallel UtilityAnalysis [6]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel UtilityAnalysis [6]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Starting parallel SingletonAnalysis [7]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel SingletonAnalysis [7]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Starting parallel LockAnalysis [8]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel LockAnalysis [8]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Looking at @RegionLock("MUTEX is this protects WaitQueue") on Object
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@19e3fc75 on java.lang.Object
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@45c2fb17 on test.TestThreadSafe2.Test02a
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@153df10d on test.TestThreadSafe2.Test05
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@445995d8 on test.TestThreadSafe2.Test18<T extends test.TestThreadSafe2 . CClass&test.TestThreadSafe2 . Interface1&test.TestThreadSafe2 . Interface2&test.TestThreadSafe2 . CInterface1&test.TestThreadSafe2 . CInterface2 in test.TestThreadSafe2.Test18>
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@58081ad6 on test.TestThreadSafe2.Test03
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@488c7634 on test.TestThreadSafe2.Test07
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@4b06b4d9 on test.TestThreadSafe2.Test09<T extends test.TestThreadSafe2 . Class in test.TestThreadSafe2.Test09>
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@3ed83631 on test.TestThreadSafe2.Test02b
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@1545d4c3 on test.TestThreadSafe2.Test14<T extends test.TestThreadSafe2 . CInterface1 in test.TestThreadSafe2.Test14>
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@9053553 on test.TestThreadSafe2.Test16<T extends test.TestThreadSafe2 . Class&test.TestThreadSafe2 . Interface1&test.TestThreadSafe2 . Interface2&test.TestThreadSafe2 . CInterface1&test.TestThreadSafe2 . CInterface2 in test.TestThreadSafe2.Test16>
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@15d9214 on test.TestThreadSafe2.Test13<T extends test.TestThreadSafe2 . Interface1 in test.TestThreadSafe2.Test13>
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@48c8624b on test.TestThreadSafe2.Test15<T extends test.TestThreadSafe2 . Class&test.TestThreadSafe2 . Interface1&test.TestThreadSafe2 . Interface2 in test.TestThreadSafe2.Test15>
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@32a82a2c on test.TestThreadSafe2.Test20<T extends test.TestThreadSafe2 . Interface1&test.TestThreadSafe2 . Interface2&test.TestThreadSafe2 . CInterface1&test.TestThreadSafe2 . CInterface2 in test.TestThreadSafe2.Test20>
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@6a006f0a on test.TestThreadSafe2.Test04
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@6ca6bd on test.TestThreadSafe2.Test08
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@4db3cf6 on test.TestThreadSafe2.Test06
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@221fbb7e on test.TestThreadSafe2.Test19<T extends test.TestThreadSafe2 . Interface1&test.TestThreadSafe2 . Interface2 in test.TestThreadSafe2.Test19>
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@41b9d390 on test.TestThreadSafe2.Test12<T extends test.TestThreadSafe2 . Interface1 in test.TestThreadSafe2.Test12>
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@44f8bb6b on test.TestThreadSafe2.Test10<T extends test.TestThreadSafe2 . Class in test.TestThreadSafe2.Test10>
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@1456e5d1 on test.TestThreadSafe2.Test17<T extends test.TestThreadSafe2 . CClass&test.TestThreadSafe2 . Interface1&test.TestThreadSafe2 . Interface2 in test.TestThreadSafe2.Test17>
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@172c5817 on test.TestThreadSafe2.Test11<T extends test.TestThreadSafe2 . CClass in test.TestThreadSafe2.Test11>
+##SUBTASK, Starting parallel EffectsAnalysis [9]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel EffectsAnalysis [9]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Starting parallel UtilityAnalysis [6]: 109 for TestTypeAnnotationsWithFancyTypes
+Starting parallel UtilityAnalysis [6]: 109 for TestTypeAnnotationsWithFancyTypes
+##SUBTASK, Starting parallel SingletonAnalysis [7]: 109 for TestTypeAnnotationsWithFancyTypes
+Starting parallel SingletonAnalysis [7]: 109 for TestTypeAnnotationsWithFancyTypes
+##SUBTASK, Starting parallel LockAnalysis [8]: 109 for TestTypeAnnotationsWithFancyTypes
+Starting parallel LockAnalysis [8]: 109 for TestTypeAnnotationsWithFancyTypes
+Looking at @RegionLock("MUTEX is this protects WaitQueue") on Object
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@19e3fc75 on java.lang.Object
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@45c2fb17 on test.TestThreadSafe2.Test02a
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@153df10d on test.TestThreadSafe2.Test05
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@445995d8 on test.TestThreadSafe2.Test18<T extends test.TestThreadSafe2 . CClass&test.TestThreadSafe2 . Interface1&test.TestThreadSafe2 . Interface2&test.TestThreadSafe2 . CInterface1&test.TestThreadSafe2 . CInterface2 in test.TestThreadSafe2.Test18>
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@58081ad6 on test.TestThreadSafe2.Test03
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@488c7634 on test.TestThreadSafe2.Test07
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@4b06b4d9 on test.TestThreadSafe2.Test09<T extends test.TestThreadSafe2 . Class in test.TestThreadSafe2.Test09>
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@3ed83631 on test.TestThreadSafe2.Test02b
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@1545d4c3 on test.TestThreadSafe2.Test14<T extends test.TestThreadSafe2 . CInterface1 in test.TestThreadSafe2.Test14>
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@9053553 on test.TestThreadSafe2.Test16<T extends test.TestThreadSafe2 . Class&test.TestThreadSafe2 . Interface1&test.TestThreadSafe2 . Interface2&test.TestThreadSafe2 . CInterface1&test.TestThreadSafe2 . CInterface2 in test.TestThreadSafe2.Test16>
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@15d9214 on test.TestThreadSafe2.Test13<T extends test.TestThreadSafe2 . Interface1 in test.TestThreadSafe2.Test13>
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@48c8624b on test.TestThreadSafe2.Test15<T extends test.TestThreadSafe2 . Class&test.TestThreadSafe2 . Interface1&test.TestThreadSafe2 . Interface2 in test.TestThreadSafe2.Test15>
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@32a82a2c on test.TestThreadSafe2.Test20<T extends test.TestThreadSafe2 . Interface1&test.TestThreadSafe2 . Interface2&test.TestThreadSafe2 . CInterface1&test.TestThreadSafe2 . CInterface2 in test.TestThreadSafe2.Test20>
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@6a006f0a on test.TestThreadSafe2.Test04
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@6ca6bd on test.TestThreadSafe2.Test08
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@4db3cf6 on test.TestThreadSafe2.Test06
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@221fbb7e on test.TestThreadSafe2.Test19<T extends test.TestThreadSafe2 . Interface1&test.TestThreadSafe2 . Interface2 in test.TestThreadSafe2.Test19>
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@41b9d390 on test.TestThreadSafe2.Test12<T extends test.TestThreadSafe2 . Interface1 in test.TestThreadSafe2.Test12>
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@44f8bb6b on test.TestThreadSafe2.Test10<T extends test.TestThreadSafe2 . Class in test.TestThreadSafe2.Test10>
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@1456e5d1 on test.TestThreadSafe2.Test17<T extends test.TestThreadSafe2 . CClass&test.TestThreadSafe2 . Interface1&test.TestThreadSafe2 . Interface2 in test.TestThreadSafe2.Test17>
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@172c5817 on test.TestThreadSafe2.Test11<T extends test.TestThreadSafe2 . CClass in test.TestThreadSafe2.Test11>
+##SUBTASK, Starting parallel EffectsAnalysis [9]: 109 for TestTypeAnnotationsWithFancyTypes
+Starting parallel EffectsAnalysis [9]: 109 for TestTypeAnnotationsWithFancyTypes
+##SUBTASK, Checking [ Utility class ] test.TestImmutable
+##SUBTASK, Checking [ Utility class ] test.TestThreadSafe.Test06
+##SUBTASK, Checking [ Utility class ] test.TestThreadSafe.Test13
+##SUBTASK, Checking [ Utility class ] test.TestThreadSafe.Test07
+##SUBTASK, Checking [ Utility class ] test.TestThreadSafe.Test20
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.TestContainable
+##SUBTASK, Checking [ Utility class ] test.TestContainable.Test20
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe.Test06
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe.Test13
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.TestThreadSafe.Test09
+##SUBTASK, Checking [ Singleton class ] test.TestImmutable
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestImmutable
+##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe.Test07
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe.Test20
+##SUBTASK, Checking [ Singleton class ] test.TestContainable.Test20
+##SUBTASK, Checking [ Singleton class ] test.TestContainable
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestThreadSafe.Test06
+##SUBTASK, Checking [ Lock policy ] test.TestThreadSafe.Test13
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestThreadSafe.Test07
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe.Test09
+##SUBTASK, Checking [ Lock policy ] test.TestThreadSafe.Test20
+##SUBTASK, Checking [ Lock policy ] test.TestContainable.Test20
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestContainable
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestThreadSafe.Test09
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestImmutable
+##SUBTASK, Checking [ Region effects ] test.TestContainable
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.TestContainable.CClass
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestContainable.CClass
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestContainable.CClass
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestThreadSafe.Test13
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.TestImmutable.IClass
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestImmutable.IClass
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestImmutable.IClass
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.TestThreadSafe.Test14
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe.Test14
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestThreadSafe.Test14
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestThreadSafe.Test07
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.TestThreadSafe.Test08
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe.Test08
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestThreadSafe.Test08
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestImmutable.IClass
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.TestImmutable.IInterface1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestImmutable.IInterface1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestImmutable.IInterface1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestImmutable.IInterface1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.TestImmutable.IInterface2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestImmutable.IInterface2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestImmutable.IInterface2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestImmutable.IInterface2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.TestImmutable.Class
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestImmutable.Class
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestImmutable.Class
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestImmutable.Class
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.TestImmutable.Interface1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestImmutable.Interface1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestImmutable.Interface1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestImmutable.Interface1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.TestImmutable.Interface2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestImmutable.Interface2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestImmutable.Interface2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestImmutable.Interface2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.TestImmutable.Test01
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestImmutable.Test01
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestImmutable.Test01
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestContainable.CClass
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.TestContainable.CInterface1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestContainable.CInterface1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestContainable.CInterface1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestContainable.CInterface1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.TestContainable.CInterface2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestContainable.CInterface2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestContainable.CInterface2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestContainable.CInterface2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.TestContainable.Class
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestContainable.Class
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestContainable.Class
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestContainable.Class
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.TestContainable.Interface1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestContainable.Interface1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestContainable.Interface1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestContainable.Interface1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.TestContainable.Interface2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestContainable.Interface2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestContainable.Interface2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestContainable.Interface2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.TestContainable.Test01
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestContainable.Test01
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestContainable.Test01
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestContainable.Test01
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.TestContainable.Test02a
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestContainable.Test02a
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestContainable.Test02a
+##SUBTASK, Checking [ Region effects ] test.TestImmutable.Test01
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestThreadSafe.Test08
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestThreadSafe.Test06
+##SUBTASK, Checking [ Utility class ] test.TestImmutable.Test02
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestImmutable.Test02
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestImmutable.Test02
+##SUBTASK, Checking [ Utility class ] test.TestThreadSafe.Interface1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe.Interface1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestThreadSafe.Interface1
+##SUBTASK, Checking [ Utility class ] test.TestThreadSafe.Test11
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe.Test11
+##SUBTASK, Checking [ Region effects ] test.TestThreadSafe.Interface1
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestThreadSafe.Test11
+##SUBTASK, Checking [ Utility class ] test.TestThreadSafe.Interface2
+##SUBTASK, Checking [ Region effects ] test.TestContainable.Test02a
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe.Interface2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestThreadSafe.Interface2
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestThreadSafe.Interface2
+##SUBTASK, Checking [ Utility class ] test.TestContainable.Test02b
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestContainable.Test02b
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestContainable.Test02b
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestImmutable.Test02
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.TestImmutable.Test03
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestImmutable.Test03
+##SUBTASK, Checking [ Utility class ] test.TestThreadSafe.Test01
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe.Test01
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestThreadSafe.Test01
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestThreadSafe.Test11
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestImmutable.Test03
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.TestThreadSafe.Test12
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestThreadSafe.Test14
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestContainable.Test02b
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestThreadSafe.Test09
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.TestThreadSafe.Test15
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe.Test12
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestThreadSafe.Test12
+##SUBTASK, Checking [ Region effects ] test.TestThreadSafe.Test20
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.TestThreadSafe.Test10
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.TestThreadSafe2
+##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe.Test15
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestThreadSafe.Test15
+##SUBTASK, Checking [ Region effects ] test.TestContainable.Test20
+##SUBTASK, Checking [ Utility class ] test.TestContainable.Test03
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestContainable.Test03
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestContainable.Test03
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestThreadSafe.Test01
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestThreadSafe2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.TestThreadSafe.Test02
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe.Test02
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestThreadSafe.Test02
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestThreadSafe2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.TestThreadSafe2.CClass
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe2.CClass
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestThreadSafe.Test15
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestContainable.Test03
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestThreadSafe.Test12
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.TestThreadSafe.Test16
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe.Test10
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe.Test16
+##SUBTASK, Checking [ Lock policy ] test.TestThreadSafe2.CClass
+##SUBTASK, Checking [ Utility class ] test.TestThreadSafe
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe
+##SUBTASK, Checking [ Region effects ] test.TestImmutable.Test03
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.TestContainable.Test04
+##SUBTASK, Checking [ Lock policy ] test.TestThreadSafe.Test10
+##SUBTASK, Checking [ Lock policy ] test.TestThreadSafe.Test16
+##SUBTASK, Checking [ Region effects ] test.TestThreadSafe.Test02
+##SUBTASK, Checking [ Lock policy ] test.TestThreadSafe
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.TestThreadSafe.Test03
+##SUBTASK, Checking [ Utility class ] test.TestImmutable.Test04
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestContainable.Test04
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestContainable.Test04
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestThreadSafe
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestImmutable.Test04
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe.Test03
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestThreadSafe.Test03
+##SUBTASK, Checking [ Region effects ] test.TestThreadSafe2.CClass
+##SUBTASK, Checking [ Lock policy ] test.TestImmutable.Test04
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.TestThreadSafe2.CInterface1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe2.CInterface1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestThreadSafe2.CInterface1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestContainable.Test04
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestThreadSafe2.CInterface1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.TestThreadSafe2.CInterface2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe2.CInterface2
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.TestThreadSafe.TSClass
+##SUBTASK, Checking [ Region effects ] test.TestImmutable.Test04
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestThreadSafe2.CInterface2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.TestContainable.Test05
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.TestImmutable.Test05
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestThreadSafe.Test03
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestThreadSafe2.CInterface2
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestThreadSafe.Test10
+##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe.TSClass
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestContainable.Test05
+##SUBTASK, Checking [ Utility class ] test.TestThreadSafe.Test04
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.TestThreadSafe2.Class
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestImmutable.Test05
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestThreadSafe.Test16
+##SUBTASK, Checking [ Lock policy ] test.TestImmutable.Test05
+##SUBTASK, Checking [ Utility class ] test.TestImmutable.Test07
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestImmutable.Test07
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestImmutable.Test07
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe2.Class
+##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe.Test04
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestThreadSafe.Test04
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestContainable.Test05
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestImmutable.Test07
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestImmutable.Test05
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.TestImmutable.Test08
+##SUBTASK, Checking [ Lock policy ] test.TestThreadSafe.TSClass
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestImmutable.Test08
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestImmutable.Test08
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestThreadSafe.Test04
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestThreadSafe.TSClass
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestThreadSafe2.Class
+##SUBTASK, Checking [ Utility class ] test.TestThreadSafe.TSInterface1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe.TSInterface1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestThreadSafe.TSInterface1
+##SUBTASK, Checking [ Utility class ] test.TestThreadSafe.Test17
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe.Test17
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.TestThreadSafe.Test05
+##SUBTASK, Checking [ Utility class ] test.TestImmutable.Test06
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestThreadSafe.TSInterface1
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestThreadSafe2.Class
+##SUBTASK, Checking [ Lock policy ] test.TestThreadSafe.Test17
+##SUBTASK, Checking [ Utility class ] test.TestThreadSafe.TSInterface2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe.TSInterface2
+##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe.Test05
+##SUBTASK, Checking [ Region effects ] test.TestImmutable.Test08
+##SUBTASK, Checking [ Singleton class ] test.TestImmutable.Test06
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestImmutable.Test06
+##SUBTASK, Checking [ Region effects ] test.TestContainable.Test05
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.TestImmutable.Test09
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestImmutable.Test09
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestThreadSafe.Test05
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestThreadSafe.TSInterface2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.TestThreadSafe2.Interface1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe2.Interface1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestThreadSafe2.Interface1
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestThreadSafe2.Interface1
+##SUBTASK, Checking [ Utility class ] test.TestContainable.Test06
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestContainable.Test06
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.TestThreadSafe2.Interface2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestImmutable.Test06
+##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe2.Interface2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestThreadSafe2.Interface2
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestThreadSafe.Test17
+##SUBTASK, Checking [ Region effects ] test.TestThreadSafe.TSInterface2
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestContainable.Test06
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestImmutable.Test09
+##SUBTASK, Checking [ Utility class ] test.TestThreadSafe.Test18
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe.Test18
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestThreadSafe.Test18
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestThreadSafe.Test05
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.TestThreadSafe2.Test07
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe2.Test07
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestThreadSafe2.Test07
+##SUBTASK, Checking [ Utility class ] test.TestThreadSafe.Class
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe.Class
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestThreadSafe.Class
+##SUBTASK, Checking [ Region effects ] test.TestThreadSafe2.Interface2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.TestThreadSafe2.Test02a
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe2.Test02a
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestThreadSafe2.Test02a
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestImmutable.Test09
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestThreadSafe2.Test07
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.TestImmutable.Test10
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.TestThreadSafe2.Test08
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.TestImmutable.Test14
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestImmutable.Test10
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestImmutable.Test10
+##SUBTASK, Checking [ Region effects ] test.TestContainable.Test06
+##SUBTASK, Checking [ Region effects ] test.TestThreadSafe.Class
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestThreadSafe.Test18
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestImmutable.Test10
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.TestThreadSafe.Test19
+##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe2.Test08
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestThreadSafe2.Test08
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.TestImmutable.Test11
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestThreadSafe2.Test02a
+##SUBTASK, Checking [ Singleton class ] test.TestImmutable.Test14
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestImmutable.Test14
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.TestContainable.Test07
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe.Test19
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestThreadSafe.Test19
+##SUBTASK, Checking [ Singleton class ] test.TestImmutable.Test11
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestImmutable.Test11
+##SUBTASK, Checking [ Utility class ] test.TestThreadSafe2.Test02b
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe2.Test02b
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestThreadSafe2.Test02b
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestContainable.Test07
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestContainable.Test07
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestImmutable.Test14
+##SUBTASK, Checking [ Region effects ] test.TestThreadSafe2.Test02b
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestThreadSafe.Test19
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestContainable.Test07
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestImmutable.Test11
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.TestImmutable.Test17
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestThreadSafe2.Test08
+##SUBTASK, Checking [ Singleton class ] test.TestImmutable.Test17
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.TestContainable.Test08
+##SUBTASK, Checking [ Utility class ] test.TestImmutable.Test12
+##SUBTASK, Checking [ Utility class ] test.TestImmutable.Test15
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.TestThreadSafe2.Test03
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.TestThreadSafe2.Test09
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestContainable.Test08
+##SUBTASK, Checking [ Singleton class ] test.TestImmutable.Test12
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestImmutable.Test15
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe2.Test09
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestImmutable.Test12
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestImmutable.Test17
+##SUBTASK, Checking [ Lock policy ] test.TestContainable.Test08
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestThreadSafe2.Test09
+##SUBTASK, Checking [ Lock policy ] test.TestImmutable.Test15
+##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe2.Test03
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestThreadSafe2.Test03
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestImmutable.Test17
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestImmutable.Test12
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestImmutable.Test15
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.TestImmutable.Test13
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestImmutable.Test13
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestImmutable.Test13
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestContainable.Test08
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.TestImmutable.Test16
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestImmutable.Test16
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.TestContainable.Test09
+##SUBTASK, Checking [ Utility class ] test.TestImmutable.Test18
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestThreadSafe2.Test09
+##SUBTASK, Checking [ Region effects ] test.TestThreadSafe2.Test03
+##SUBTASK, Checking [ Singleton class ] test.TestImmutable.Test18
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestImmutable.Test13
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.TestThreadSafe2.Test10
+##SUBTASK, Checking [ Singleton class ] test.TestContainable.Test09
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestImmutable.Test18
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestContainable.Test09
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe2.Test10
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestThreadSafe2.Test10
+##SUBTASK, Checking [ Lock policy ] test.TestImmutable.Test16
+##SUBTASK, Checking [ Utility class ] test.TestThreadSafe2.Test04
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe2.Test04
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestThreadSafe2.Test04
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestImmutable.Test18
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.TestImmutable.Test19
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestImmutable.Test16
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestContainable.Test09
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestThreadSafe2.Test10
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.TestContainable.Test10
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestContainable.Test10
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestThreadSafe2.Test04
+##SUBTASK, Checking [ Utility class ] test.TestThreadSafe2.Test11
+##SUBTASK, Checking [ Singleton class ] test.TestImmutable.Test19
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.TestThreadSafe2.Test14
+##SUBTASK, Checking [ Lock policy ] test.TestContainable.Test10
+##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe2.Test11
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.TestThreadSafe2.Test05
+##SUBTASK, Checking [ Lock policy ] test.TestThreadSafe2.Test11
+##SUBTASK, Checking [ Lock policy ] test.TestImmutable.Test19
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe2.Test05
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestThreadSafe2.Test05
+##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe2.Test14
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestThreadSafe2.Test14
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestContainable.Test10
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestImmutable.Test19
+##SUBTASK, Checking [ Utility class ] test.TestContainable.Test11
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestContainable.Test11
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.TestImmutable.Test20
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestImmutable.Test20
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestImmutable.Test20
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestThreadSafe2.Test05
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.TestThreadSafe2.Test06
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe2.Test06
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestThreadSafe2.Test06
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestContainable.Test11
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestThreadSafe2.Test14
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestImmutable.Test20
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.TestThreadSafe2.Test15
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe2.Test15
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.TestThreadSafe2.Test17
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe2.Test17
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestThreadSafe2.Test17
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestThreadSafe2.Test11
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.TestThreadSafe2.Test12
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestThreadSafe2.Test06
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestThreadSafe2.Test15
+##SUBTASK, Checking [ Utility class ] test.TestThreadSafe2.Test19
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe2.Test19
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestThreadSafe2.Test19
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestThreadSafe2.Test17
+##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe2.Test12
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestContainable.Test11
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.TestThreadSafe2.Test18
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestThreadSafe2.Test12
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestThreadSafe2.Test19
+##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe2.Test18
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestThreadSafe2.Test18
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.TestThreadSafe2.Test20
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe2.Test20
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestThreadSafe2.Test20
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.TestContainable.Test12
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestContainable.Test12
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestContainable.Test12
+##SUBTASK, Checking [ Region effects ] test.TestThreadSafe2.Test15
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.TestThreadSafe2.Test16
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe2.Test16
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestThreadSafe2.Test16
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestThreadSafe2.Test18
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestThreadSafe2.Test12
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.TestThreadSafe2.Test13
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe2.Test13
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestThreadSafe2.Test13
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestThreadSafe2.Test20
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestThreadSafe2.Test16
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestContainable.Test12
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestThreadSafe2.Test13
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.TestContainable.Test13
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestContainable.Test13
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestContainable.Test13
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestContainable.Test13
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.TestContainable.Test14
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestContainable.Test14
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestContainable.Test14
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestContainable.Test14
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.TestContainable.Test15
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestContainable.Test15
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestContainable.Test15
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestContainable.Test15
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.TestContainable.Test16
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestContainable.Test16
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestContainable.Test16
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestContainable.Test16
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.TestContainable.Test17
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestContainable.Test17
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestContainable.Test17
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestContainable.Test17
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.TestContainable.Test18
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestContainable.Test18
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestContainable.Test18
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestContainable.Test18
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] test.TestContainable.Test19
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.TestContainable.Test19
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] test.TestContainable.Test19
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] test.TestContainable.Test19
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+Starting group: UniquenessAnalysisModule
+##SUBTASK, Starting parallel UniquenessAnalysisModule [10]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel UniquenessAnalysisModule [10]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Starting parallel UniquenessAnalysisModule [10]: 43 for TestTypeAnnotationsWithFancyTypes
+Starting parallel UniquenessAnalysisModule [10]: 43 for TestTypeAnnotationsWithFancyTypes
+##SUBTASK, Checking [ Uniqueness ] test.TestContainable.Test14.Test14(T)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.TestContainable.Test02a.Test02a(int [])
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.TestContainable.Test15.Test15(T)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.TestContainable.Test11.Test11(T)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.TestContainable.Test10.Test10(T)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.TestContainable.Test03.Test03(test.TestContainable . Class)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.TestContainable.Test05.Test05(test.TestContainable . CClass)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.TestContainable.Test12.Test12(T)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.TestContainable.Test02b.Test02b(test.TestContainable . CClass [])
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.TestContainable.Test06.Test06(test.TestContainable . Interface1)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.TestContainable.CClass.CClass()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.TestContainable.Test16.Test16(T)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.TestContainable.Test17.Test17(T)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.TestContainable.Test20.Test20(T)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.TestContainable.Test07.Test07(test.TestContainable . Interface1)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.TestContainable.Test13.Test13(T)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.TestContainable.Test09.Test09(T)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.TestContainable.Test01.Test01(int)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.TestContainable.Test19.Test19(T)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.TestContainable.Test18.Test18(T)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.TestContainable.Test04.Test04(test.TestContainable . Class)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.TestContainable.Test08.Test08(test.TestContainable . CInterface1)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.TestThreadSafe2.Test04.Test04(test.TestThreadSafe2 . Class)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.TestThreadSafe2.CClass.CClass()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.TestThreadSafe2.Test06.Test06(test.TestThreadSafe2 . Interface1)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.TestThreadSafe2.Test12.Test12(T)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.TestThreadSafe2.Test02a.Test02a(int [])
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.TestThreadSafe2.Test15.Test15(T)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.TestThreadSafe2.Test09.Test09(T)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.TestThreadSafe2.Test14.Test14(T)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.TestThreadSafe2.Test18.Test18(T)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.TestThreadSafe2.Test03.Test03(test.TestThreadSafe2 . Class)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.TestThreadSafe2.Test05.Test05(test.TestThreadSafe2 . CClass)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.TestThreadSafe2.Test16.Test16(T)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.TestThreadSafe2.Test07.Test07(test.TestThreadSafe2 . Interface1)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.TestThreadSafe2.Test02b.Test02b(java.lang.Object [])
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.TestThreadSafe2.Test10.Test10(T)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.TestThreadSafe2.Test20.Test20(T)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.TestThreadSafe2.Test19.Test19(T)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.TestThreadSafe2.Test08.Test08(test.TestThreadSafe2 . CInterface1)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.TestThreadSafe2.Test11.Test11(T)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.TestThreadSafe2.Test13.Test13(T)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.TestThreadSafe2.Test17.Test17(T)
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+Starting group: NullablePreprocessorModule
+##SUBTASK, Starting parallel NullablePreprocessorModule [11]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel NullablePreprocessorModule [11]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Starting parallel NullablePreprocessorModule [11]: 4 for TestTypeAnnotationsWithFancyTypes
+Starting parallel NullablePreprocessorModule [11]: 4 for TestTypeAnnotationsWithFancyTypes
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestTypeAnnotationsWithFancyTypes/src/test/TestImmutable.java
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestTypeAnnotationsWithFancyTypes/src/test/TestThreadSafe.java
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestTypeAnnotationsWithFancyTypes/src/test/TestThreadSafe2.java
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestTypeAnnotationsWithFancyTypes/src/test/TestContainable.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+Starting group: NullableModule2
+##SUBTASK, Starting parallel NullableModule2 [12]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel NullableModule2 [12]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Starting parallel NullableModule2 [12]: 202 for TestTypeAnnotationsWithFancyTypes
+Starting parallel NullableModule2 [12]: 202 for TestTypeAnnotationsWithFancyTypes
+##SUBTASK, Checking [ Nullable ] test.TestContainable.TestContainable()
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.<clinit>
+##SUBTASK, Checking [ Nullable ] test.TestContainable.Test14.<clinit>
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Test14.<clinit>
+##SUBTASK, Checking [ Nullable ] test.TestImmutable.TestImmutable()
+##SUBTASK, Checking [ Nullable ] test.TestContainable.Test08.Test08(test.TestContainable . CInterface1)
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Test08.<clinit>
+##SUBTASK, Checking [ Nullable ] test.TestContainable.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Test15.Test15(T)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Test09.Test09(T)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.TestThreadSafe()
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.TestThreadSafe2()
+##SUBTASK, Checking [ Nullable ] test.TestContainable.Test15.Test15(T)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.CClass.CClass()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.TSClass.TSClass()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestImmutable.IClass.IClass()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.CClass.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.CInterface1.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.CInterface2.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Class.Class()
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.TSClass.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestImmutable.IClass.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.TSInterface1.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestImmutable.IInterface1.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.TSInterface2.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestImmutable.IInterface2.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Class.Class()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestImmutable.Class.Class()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Test15.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Class.<clinit>
+##SUBTASK, Checking [ Nullable ] test.TestContainable.CClass.CClass()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestContainable.Test15.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestContainable.Test16.Test16(T)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Class.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestImmutable.Class.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Interface1.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestImmutable.Interface1.<clinit>
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Test16.Test16(T)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestContainable.Test08.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Interface1.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestContainable.Test09.Test09(T)
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestContainable.CClass.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestContainable.CInterface1.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestContainable.CInterface2.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestContainable.Class.Class()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestContainable.Test16.<clinit>
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Interface2.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Test02a.Test02a(int [])
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Test16.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestContainable.Class.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestContainable.Test17.Test17(T)
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Test17.Test17(T)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Test09.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Test10.Test10(T)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestImmutable.Interface2.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestImmutable.Test01.Test01(int)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestContainable.Test17.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Interface2.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Test01.Test01(int)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Test10.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestContainable.Test18.Test18(T)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Test11.Test11(T)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Test02a.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Test02b.Test02b(java.lang.Object [])
+##SUBTASK, Checking [ Nullable ] test.TestContainable.Interface1.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestImmutable.Test01.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestContainable.Test09.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Test01.<clinit>
+##SUBTASK, Checking [ Nullable ] test.TestImmutable.Test02.Test02(int [])
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestContainable.Test10.Test10(T)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Test17.<clinit>
+##SUBTASK, Checking [ Nullable ] test.TestContainable.Test18.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestContainable.Test19.Test19(T)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Test02.Test02(int [])
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Test02b.<clinit>
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Test18.Test18(T)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Test03.Test03(test.TestThreadSafe2 . Class)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestContainable.Test10.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Test11.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestImmutable.Test02.<clinit>
+##SUBTASK, Checking [ Nullable ] test.TestContainable.Interface2.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestContainable.Test11.Test11(T)
+##SUBTASK, Checking [ Nullable ] test.TestContainable.Test19.<clinit>
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Test12.Test12(T)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestContainable.Test20.Test20(T)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestContainable.Test01.Test01(int)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestImmutable.Test03.Test03(test.TestImmutable . Class)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Test03.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Test04.Test04(test.TestThreadSafe2 . Class)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestContainable.Test11.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestContainable.Test12.Test12(T)
+##SUBTASK, Checking [ Nullable ] test.TestContainable.Test20.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestContainable.Test01.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Test18.<clinit>
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Test12.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestContainable.Test02a.Test02a(int [])
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Test19.Test19(T)
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Test13.Test13(T)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestImmutable.Test03.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Test08.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestImmutable.Test04.Test04(test.TestImmutable . Class)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Test09.Test09(T)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestContainable.Test12.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestContainable.Test13.Test13(T)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestContainable.Test02a.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestContainable.Test02b.Test02b(test.TestContainable . CClass [])
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Test04.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Test09.<clinit>
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Test05.Test05(test.TestThreadSafe2 . CClass)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestImmutable.Test04.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Test10.Test10(T)
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Test13.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestImmutable.Test05.Test05(test.TestImmutable . IClass)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestContainable.Test13.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Test14.Test14(T)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestContainable.Test14.Test14(T)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestContainable.Test02b.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestContainable.Test03.Test03(test.TestContainable . Class)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Test19.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Test20.Test20(T)
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Test10.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Test11.Test11(T)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Test15.Test15(T)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Test05.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Test06.Test06(test.TestThreadSafe2 . Interface1)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Test02.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Test03.Test03(test.TestThreadSafe . Class)
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Test20.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Test11.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Test12.Test12(T)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestContainable.Test03.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestContainable.Test04.Test04(test.TestContainable . Class)
+##SUBTASK, Checking [ Nullable ] test.TestImmutable.Test05.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Test12.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestImmutable.Test06.Test06(test.TestImmutable . Interface1)
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Test03.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Test13.Test13(T)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Test04.Test04(test.TestThreadSafe . Class)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Test06.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Test07.Test07(test.TestThreadSafe2 . Interface1)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Test13.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Test14.Test14(T)
+##SUBTASK, Checking [ Nullable ] test.TestImmutable.Test09.Test09(T)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestImmutable.Test06.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Test07.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestImmutable.Test07.Test07(test.TestImmutable . Interface1)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Test08.Test08(test.TestThreadSafe2 . CInterface1)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Test14.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Test16.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Test17.Test17(T)
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Test18.Test18(T)
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Test15.<clinit>
+##SUBTASK, Checking [ Nullable ] test.TestImmutable.Test09.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestImmutable.Test10.Test10(T)
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Test17.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Test04.<clinit>
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Test18.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Test05.Test05(test.TestThreadSafe . TSClass)
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Test19.Test19(T)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestImmutable.Test07.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestImmutable.Test08.Test08(test.TestImmutable . IInterface1)
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestContainable.Test04.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Test19.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Test16.Test16(T)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Test20.Test20(T)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestContainable.Test05.Test05(test.TestContainable . CClass)
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Test05.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestImmutable.Test08.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Test06.Test06(test.TestThreadSafe . Interface1)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestImmutable.Test15.Test15(T)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Test20.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestImmutable.Test10.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestImmutable.Test11.Test11(T)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestContainable.Test05.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestContainable.Test06.Test06(test.TestContainable . Interface1)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Test06.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Test07.Test07(test.TestThreadSafe . Interface1)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestImmutable.Test15.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestContainable.Test06.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestImmutable.Test11.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestContainable.Test07.Test07(test.TestContainable . Interface1)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestImmutable.Test12.Test12(T)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Test07.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Test08.Test08(test.TestThreadSafe . TSInterface1)
+##SUBTASK, Checking [ Nullable ] test.TestImmutable.Test16.Test16(T)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestContainable.Test07.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestImmutable.Test18.Test18(T)
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestImmutable.Test16.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestImmutable.Test17.Test17(T)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestImmutable.Test12.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestImmutable.Test13.Test13(T)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestImmutable.Test18.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestImmutable.Test19.<clinit>
+##SUBTASK, Checking [ Nullable ] test.TestImmutable.Test19.Test19(T)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestImmutable.Test20.Test20(T)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestImmutable.Test13.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestImmutable.Test17.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestImmutable.Test14.Test14(T)
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestImmutable.Test20.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestImmutable.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] test.TestImmutable.Test14.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Cleaning up after analysis
+Cleaning up after analysis
+[GC (System.gc())  125076K->66732K(172032K), 0.0124580 secs]
+[Full GC (System.gc())  66732K->41459K(172032K), 0.1565550 secs]
+##WORK, 1
+##SUBTASK_DONE
+Updating consistency proof
+##SUBTASK, Updating consistency proof
+Exporting results to TestTypeAnnotationsW-2015.06.23-at-15.21.35.191
+##SUBTASK, Exporting results to TestTypeAnnotationsW-2015.06.23-at-15.21.35.191
+Creating snapshot: /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/TestTypeAnnotationsW-2015.06.23-at-15.21.35.191/running_or_crashed_sea_snapshot.xml.gz
+[GC (Allocation Failure)  123891K->48696K(174080K), 0.0061890 secs]
+Done in 4961 ms.
+ConcurrencyDetector	: 12 ms
+ThreadEffectsModule	: 10 ms
+StructureAnalysis	: 2 ms
+ParameterizedTypeAnalysis	: 34 ms
+EqualityAnalysis	: 19 ms
+LayersAnalysis	: 82 ms
+UtilityAnalysis	: 2 ms
+SingletonAnalysis	: 2 ms
+LockAnalysis	: 718 ms
+EffectsAnalysis	: 27 ms
+UniquenessAnalysisModule	: 302 ms
+NullablePreprocessorModule	: 11 ms
+NullableModule2	: 554 ms
+[2015-06-23 15:21:41    INFO] partial bindings = 8353 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+[2015-06-23 15:21:41    INFO] full bindings = 1389 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+cached = 0
+totalT = 0
+#Performance data for TestTypeAnnotationsWithFancyTypes
+#Tue Jun 23 15:21:41 EDT 2015
+jsure.Add.required=0
+jsure.All.analyses=839
+jsure.Binding.before.canon=110
+jsure.Binding.full.time=319
+jsure.Binding.partial.time=302
+jsure.Bindings.full=1389
+jsure.Bindings.partial=8353
+jsure.Canonicalization=471
+jsure.Cleanup=102
+jsure.Destroy.time=23
+jsure.Drop.creation=17
+jsure.Find.canon.time=5
+jsure.Parsing=784
+jsure.Promise.parsing=474
+jsure.Promise.scrubbing=1357
+jsure.Sea.export=836
+jsure.Sea.update=81
+jsure.Total.JSure.time=4961
+jsure.Total.blocks=93
+jsure.Total.canonical=2834
+jsure.Total.decls=497
+jsure.Total.destroyed=0
+jsure.Total.gced=0
+jsure.Total.loc=1029
+jsure.Total.nodes=66188
+jsure.Total.stmts=267
+jsure.Total.try.destroyed=893
+jsure.analysis.ConcurrencyDetector=12
+jsure.analysis.EffectsAnalysis=27
+jsure.analysis.EqualityAnalysis=19
+jsure.analysis.LayersAnalysis=82
+jsure.analysis.LockAnalysis=718
+jsure.analysis.NullableModule2=554
+jsure.analysis.NullablePreprocessorModule=11
+jsure.analysis.ParameterizedTypeAnalysis=34
+jsure.analysis.SingletonAnalysis=2
+jsure.analysis.StructureAnalysis=2
+jsure.analysis.ThreadEffectsModule=10
+jsure.analysis.UniquenessAnalysisModule=302
+jsure.analysis.UtilityAnalysis=2
+jsure.num.threads=8
+Javac making log: AnnotationRules
+##DONE
+Renaming snapshot: /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/TestTypeAnnotationsW-2015.06.23-at-15.21.35.191/sea_snapshot.xml.gz
+Done with JSure!
+Scanning complete (6084 ms)
+No socket to close
+Closing std streams
+Process result after waiting = 0
