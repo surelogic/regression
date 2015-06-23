@@ -1,0 +1,2790 @@
+LOCAL vm : 1.8.0_05
+Path: /Users/aarong/git/jsure/jsure-analysis/bin
+Path: /Users/aarong/git/common/common/lib/runtime/commons-codec-1.10.jar
+Path: /Users/aarong/git/common/common/lib/runtime/trove-3.0.3.jar
+Path: /Users/aarong/git/common/common/lib/runtime/antlr-3.5.2-runtime.jar
+Path: /Users/aarong/git/common/common/lib/runtime/servlet-api-3.1.jar
+Path: /Users/aarong/git/jsure/jsure-common/lib/runtime/diffutils-1.2.1.jar
+Path: /Users/aarong/git/common/common/bin
+Path: /Users/aarong/git/common/common/lib/runtime/asm-5.0.2.jar
+Path: /Users/aarong/git/jsure/jsure-analysis/lib/runtime/renamedJavac.jar
+Path: /Users/aarong/git/common/common/lib/runtime/asm-tree-5.0.2.jar
+Path: /Users/aarong/git/common/common/lib/runtime/promises-5.6.0.jar
+Path: /Users/aarong/git/jsure/jsure-analysis/lib/runtime/log4j-xml-1.3alpha-8.jar
+Path: /Users/aarong/git/common/common/lib/runtime/derby-10.11.1.1.jar
+Path: /Users/aarong/git/jsure/jsure-common/bin
+Path: /Users/aarong/git/common/common/lib/runtime/ant-1.9.4.jar
+Path: /Users/aarong/git/common/common/lib/runtime/collections-generic-4.0.jar
+Path: /Users/aarong/git/jsure/jsure-analysis/lib/runtime/log4j-1.3alpha-8.jar
+Path: /Users/aarong/git/common/common/lib/runtime/asm-commons-5.0.2.jar
+Path: /Users/aarong/git/common/common/lib/runtime/commons-lang3-3.3.2.jar
+Path: /Users/aarong/git/common/common/lib/runtime/commons-io-2.4.jar
+Starting process:
+	/Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/jre/bin/java
+	-Dsl.running.in.remote.vm=true
+	-Dsurelogic.test.code=NONE
+	-XX:MaxPermSize=512m
+	-verbosegc
+	-DSureLogicX=true
+	-Dsl.run.dir=/Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/TestImmutableOverrid-2015.06.23-at-13.23.59.719
+	-Dfluid.ir.versioning=Versioning.Off
+	-Dfluid.directory.url=file:/Eclipses/eclipse-standard-luna-SR2-macosx-cocoa-x86_64/../../Users/aarong/git/jsure/jsure-analysis/
+	-Xmx2048m
+	-classpath
+	/Users/aarong/git/jsure/jsure-analysis/bin:/Users/aarong/git/common/common/lib/runtime/commons-codec-1.10.jar:/Users/aarong/git/common/common/lib/runtime/trove-3.0.3.jar:/Users/aarong/git/common/common/lib/runtime/antlr-3.5.2-runtime.jar:/Users/aarong/git/common/common/lib/runtime/servlet-api-3.1.jar:/Users/aarong/git/jsure/jsure-common/lib/runtime/diffutils-1.2.1.jar:/Users/aarong/git/common/common/bin:/Users/aarong/git/common/common/lib/runtime/asm-5.0.2.jar:/Users/aarong/git/jsure/jsure-analysis/lib/runtime/renamedJavac.jar:/Users/aarong/git/common/common/lib/runtime/asm-tree-5.0.2.jar:/Users/aarong/git/common/common/lib/runtime/promises-5.6.0.jar:/Users/aarong/git/jsure/jsure-analysis/lib/runtime/log4j-xml-1.3alpha-8.jar:/Users/aarong/git/common/common/lib/runtime/derby-10.11.1.1.jar:/Users/aarong/git/jsure/jsure-common/bin:/Users/aarong/git/common/common/lib/runtime/ant-1.9.4.jar:/Users/aarong/git/common/common/lib/runtime/collections-generic-4.0.jar:/Users/aarong/git/jsure/jsure-analysis/lib/runtime/log4j-1.3alpha-8.jar:/Users/aarong/git/common/common/lib/runtime/asm-commons-5.0.2.jar:/Users/aarong/git/common/common/lib/runtime/commons-lang3-3.3.2.jar:/Users/aarong/git/common/common/lib/runtime/commons-io-2.4.jar
+	com.surelogic.javac.jobs.RemoteJSureRun
+
+First line in REMOTE vm = Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=512m; support was removed in 8.0
+[GC (Allocation Failure)  512K->472K(327168K), 0.0012840 secs]
+[GC (Allocation Failure)  978K->583K(327680K), 0.0007700 secs]
+[GC (Allocation Failure)  1605K->751K(327680K), 0.0009650 secs]
+[GC (Allocation Failure)  1775K->839K(328704K), 0.0010750 secs]
+JVM started: 1.8.0_05
+Log level: INFO
+Created reader
+Created monitor
+Created log handler
+Running RemoteJSureRun
+[GC (Allocation Failure)  2886K->1031K(328704K), 0.0010870 secs]
+[GC (Allocation Failure)  3079K->1247K(331264K), 0.0012300 secs]
+[GC (Allocation Failure)  5343K->1575K(331264K), 0.0014380 secs]
+[GC (Allocation Failure)  5671K->1759K(335360K), 0.0015240 secs]
+runPath = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/TestImmutableOverrid-2015.06.23-at-13.23.59.719
+Creating run: TestImmutableOverrid-2015.06.23-at-13.23.59.719
+projects = TestImmutableOverriding2
+Loading edu.cmu.cs.fluid.make.nonabductive.proposals = false
+Loading edu.cmu.cs.fluid.load.all.classes = false
+Loading edu.cmu.cs.fluid.timeoutFlag = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BCA = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ConstantExpr = false
+Loading edu.cmu.cs.fluid.physMemoryInMB = 20480
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.EqualityAssurance = true
+Loading edu.cmu.cs.fluid.xml.diff.directory = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/promises-xml
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.UniquenessAssuranceUWM = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.IRConcurrencyDetector = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Singleton = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.CALLS = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BenchmarkingUniquenessSE = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ThreadEffectAssurance2 = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Binder = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.cliend.eclipse.TypeBasedAlias = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Nullable = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.TestIsFunctional = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.UniquenessAssuranceUWM_SE = false
+Loading edu.cmu.cs.fluid.tool-memory-mb = 2048
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.DefinitelyAssigned = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.UniquenessAssuranceSE = true
+Loading edu.cmu.cs.fluid.analysis.thread.count = 8
+Loading edu.cmu.cs.fluid.timeoutSec = 11
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.NonNullRawTypes = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LayersAssurance = true
+Loading edu.cmu.cs.fluid.default.JRE = org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Loading edu.cmu.cs.fluid.timeoutWarningSec = 30
+Loading edu.cmu.cs.fluid.modeling.problem.filters = 00000012com\.apple.*00000013com\.oracle.*00000010com\.sun.*00000014.*\.internal.*00000023.*BakedArrayList\.class00000007apple.*00000008oracle.*00000011quicktime.*00000005sun.*
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Utility = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BenchmarkingUniquenessNew_SE = false
+Loading edu.cmu.cs.fluid.scan.may.use.compression = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ParameterizedType = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Final = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LockAssurance3 = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BenchmarkingUniquenessNew = false
+Loading edu.cmu.cs.fluid.data.directory = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.NullablePreprocessor = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.EffectAssurance2 = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LV = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.StructureAssurance = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Types = false
+JSure data dir = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data
+XML diff dir   = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/promises-xml
+Looking for JRE in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+default JRE = org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Initialized job
+Created com.surelogic.analysis.concurrency.detector.ConcurrencyDetector
+Starting a new group for ConcurrencyDetector
+Created com.surelogic.analysis.threads.ThreadEffectsModule
+Created com.surelogic.analysis.structure.StructureAnalysis
+Created com.surelogic.analysis.annotationbounds.ParameterizedTypeAnalysis
+Created com.surelogic.analysis.equality.EqualityAnalysis
+Created com.surelogic.analysis.layers.LayersAnalysis
+Created com.surelogic.analysis.utility.UtilityAnalysis
+Starting a new group for UtilityAnalysis
+Group: EXTERNALLY
+	ConcurrencyDetector
+	ThreadEffectsModule
+	StructureAnalysis
+	ParameterizedTypeAnalysis
+	EqualityAnalysis
+	LayersAnalysis
+Created com.surelogic.analysis.singleton.SingletonAnalysis
+[GC (Allocation Failure)  9951K->2311K(335360K), 0.0017780 secs]
+Created com.surelogic.analysis.concurrency.driver.LockAnalysis
+Created com.surelogic.analysis.effects.EffectsAnalysis
+Created com.surelogic.analysis.uniqueness.classic.sideeffecting.UniquenessAnalysisModule
+Starting a new group for UniquenessAnalysisModule
+Group: com.surelogic.analysis.visitors.TopLevelAnalysisVisitor$1@69663380, EXTERNALLY
+	UtilityAnalysis
+	SingletonAnalysis
+	LockAnalysis
+	EffectsAnalysis
+Created com.surelogic.analysis.nullable.NullablePreprocessorModule
+Starting a new group for NullablePreprocessorModule
+Group: com.surelogic.analysis.uniqueness.classic.sideeffecting.UniquenessAnalysisModule$1@5b37e0d2, class com.surelogic.analysis.bca.BindingContextAnalysis, INTERNALLY
+	UniquenessAnalysisModule
+Created com.surelogic.analysis.nullable.NullableModule2
+Starting a new group for NullableModule2
+Group: EXTERNALLY
+	NullablePreprocessorModule
+Group: com.surelogic.analysis.granules.FlowUnitGranulator@4459eb14, EXTERNALLY
+	NullableModule2
+##TASK, Scan, 394
+Initializing ...
+##SUBTASK, Initializing ...
+monitor = com.surelogic.common.jobs.remote.AbstractRemoteSLJob$Monitor@5a2e4553
+singleThread = false
+[GC (Allocation Failure)  10503K->2583K(340992K), 0.0017830 secs]
+[GC (Allocation Failure)  15798K->10549K(340992K), 0.0053910 secs]
+[GC (Allocation Failure)  23829K->23768K(351744K), 0.0090210 secs]
+Done initializing org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: 0
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/resources.jar
+[GC (Allocation Failure)  44760K->43821K(352256K), 0.0138640 secs]
+[GC (Allocation Failure)  64813K->47405K(366080K), 0.0051380 secs]
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/rt.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jsse.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jce.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/charsets.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jfr.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/dnsns.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/localedata.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunec.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunjce_provider.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunpkcs11.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/zipfs.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /System/Library/Java/Extensions/MRJToolkit.jar
+Done initializing TestImmutableOverriding2: 24
+Trying to find /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/TestImmutableOverrid-2015.06.23-at-13.23.59.719/source/TestImmutableOverriding2.bin.zip
+TestImmutableOverriding2: TestImmutableOverriding2 -> org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Done initializing org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: 0
+TestImmutableOverriding2: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/resources.jar
+[GC (Allocation Failure)  81197K->54081K(366080K), 0.0074530 secs]
+TestImmutableOverriding2: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/rt.jar
+TestImmutableOverriding2: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jsse.jar
+TestImmutableOverriding2: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jce.jar
+TestImmutableOverriding2: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/charsets.jar
+TestImmutableOverriding2: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jfr.jar
+TestImmutableOverriding2: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/dnsns.jar
+TestImmutableOverriding2: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/localedata.jar
+TestImmutableOverriding2: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunec.jar
+TestImmutableOverriding2: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunjce_provider.jar
+TestImmutableOverriding2: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunpkcs11.jar
+TestImmutableOverriding2: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/zipfs.jar
+TestImmutableOverriding2: Done initializing with /System/Library/Java/Extensions/MRJToolkit.jar
+TestImmutableOverriding2: Done initializing with /Users/aarong/git/regression/regression/TestImmutableOverriding2/promises-5.6.0.jar
+##SUBTASK_DONE
+##WORK, 1
+Assuming that the projects are run in dependency order
+Parsing ...
+##SUBTASK, Parsing ...
+Done adapting 0 files for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK_DONE
+##WORK, 1
+Parsing ...
+##SUBTASK, Parsing ...
+JCP: warning: [options] bootstrap class path not set in conjunction with -source 1.7
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+Adapting 24 CUTs
+[GC (Allocation Failure)  87873K->61434K(388096K), 0.0118170 secs]
+Done adapting 24 files for TestImmutableOverriding2
+##SUBTASK_DONE
+##WORK, 1
+Handling references for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Handling references for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 21 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Setting project for Object from org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 44 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 55 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 51 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 32 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 17 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 8 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 12 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 15 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 4 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 2 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK_DONE
+##WORK, 1
+Handling references for TestImmutableOverriding2
+##SUBTASK, Handling references for TestImmutableOverriding2
+Handling 24 dangling refs for TestImmutableOverriding2
+Handling 5 dangling refs for TestImmutableOverriding2
+##SUBTASK_DONE
+##WORK, 1
+Updated 261 files in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Updated 53 files in TestImmutableOverriding2
+Parsing ASTs  = 361 ms
+Handling refs = 379 ms
+[2015-06-23 13:24:01    INFO] partial bindings = 0 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+[2015-06-23 13:24:01    INFO] full bindings = 0 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+Canonicalizing ASTs
+##SUBTASK, Canonicalizing ASTs
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+[2015-06-23 13:24:01    INFO] partial bindings = 298 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+[2015-06-23 13:24:01    INFO] full bindings = 622 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+Canonicalizing TestImmutableOverriding2/src/rootIsThreadSafe/interfaces/rootIsStatic/C.java
+##WORK, 1
+Canonicalizing TestImmutableOverriding2/src/rootIsThreadSafe/classes/rootIsInstance/C.java
+##WORK, 1
+Canonicalizing TestImmutableOverriding2/src/rootIsThreadSafe/interfaces/rootIsNothing/C.java
+##WORK, 1
+Canonicalizing TestImmutableOverriding2/src/rootIsImmutable/classes/interfaceIsInstance/C.java
+##WORK, 1
+Canonicalizing TestImmutableOverriding2/src/rootIsImmutable/classes/rootIsStatic/C.java
+##WORK, 1
+Canonicalizing TestImmutableOverriding2/src/rootIsThreadSafe/classes/rootIsBoth/C.java
+##WORK, 1
+Canonicalizing TestImmutableOverriding2/src/rootIsThreadSafe/classes/rootIsNothing/C.java
+##WORK, 1
+Canonicalizing TestImmutableOverriding2/src/rootIsThreadSafe/classes/rootIsStatic/C.java
+##WORK, 1
+Canonicalizing TestImmutableOverriding2/src/rootIsImmutable/interfaces/rootIsNothing/C.java
+##WORK, 1
+Canonicalizing TestImmutableOverriding2/src/rootIsThreadSafe/classes/interfaceIsInstance/C.java
+##WORK, 1
+Canonicalizing TestImmutableOverriding2/src/rootIsThreadSafe/classes/interfaceIsBoth/C.java
+##WORK, 1
+Canonicalizing TestImmutableOverriding2/src/rootIsImmutable/classes/rootIsBoth/C.java
+##WORK, 1
+Canonicalizing TestImmutableOverriding2/src/rootIsThreadSafe/classes/interfaceIsStatic/C.java
+##WORK, 1
+Canonicalizing TestImmutableOverriding2/src/rootIsImmutable/classes/interfaceIsStatic/C.java
+##WORK, 1
+Canonicalizing TestImmutableOverriding2/src/rootIsThreadSafe/interfaces/rootIsInstance/C.java
+##WORK, 1
+Canonicalizing TestImmutableOverriding2/src/rootIsThreadSafe/interfaces/rootIsBoth/C.java
+##WORK, 1
+Canonicalizing TestImmutableOverriding2/src/rootIsImmutable/classes/rootIsInstance/C.java
+##WORK, 1
+Canonicalizing TestImmutableOverriding2/src/rootIsImmutable/classes/rootIsNothing/C.java
+##WORK, 1
+Canonicalizing TestImmutableOverriding2/src/rootIsThreadSafe/classes/interfaceIsNothing/C.java
+##WORK, 1
+Canonicalizing TestImmutableOverriding2/src/rootIsImmutable/interfaces/rootIsInstance/C.java
+##WORK, 1
+Canonicalizing TestImmutableOverriding2/src/rootIsImmutable/interfaces/rootIsBoth/C.java
+##WORK, 1
+Canonicalizing TestImmutableOverriding2/src/rootIsImmutable/classes/interfaceIsBoth/C.java
+##WORK, 1
+Canonicalizing TestImmutableOverriding2/src/rootIsImmutable/interfaces/rootIsStatic/C.java
+##WORK, 1
+Canonicalizing TestImmutableOverriding2/src/rootIsImmutable/classes/interfaceIsNothing/C.java
+##WORK, 1
+Binding = 66 ms
+##SUBTASK_DONE
+##WORK, 1
+Handling references for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Handling references for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 21 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK_DONE
+##WORK, 1
+Handling references for TestImmutableOverriding2
+##SUBTASK, Handling references for TestImmutableOverriding2
+Handling 21 dangling refs for TestImmutableOverriding2
+##SUBTASK_DONE
+##WORK, 1
+Updated 261 files in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Updated 53 files in TestImmutableOverriding2
+[GC (System.gc())  104820K->65758K(389120K), 0.0142280 secs]
+[Full GC (System.gc())  65758K->54727K(389120K), 0.1035570 secs]
+Creating drops
+##SUBTASK, Creating drops
+Created binary drop for java.net.SocketAddress
+Created binary drop for java.io.FilterOutputStream
+Created binary drop for java.lang.Runnable
+Created binary drop for java.lang.ClassValue
+Created binary drop for java.lang.Throwable
+Created binary drop for java.nio.file.Path
+Created binary drop for java.net.ContentHandlerFactory
+Created binary drop for java.lang.annotation.Retention
+Created binary drop for java.net.InetAddressImpl
+Created binary drop for java.util.concurrent.ExecutorService
+Created binary drop for java.lang.InterruptedException
+Created binary drop for java.nio.file.WatchEvent
+Created binary drop for java.nio.IntBuffer
+Created binary drop for java.nio.charset.CodingErrorAction
+Created binary drop for java.util.zip.InflaterInputStream
+Created binary drop for java.util.Queue
+Created binary drop for java.util.zip.ZipEntry
+Created binary drop for java.lang.Double
+Created binary drop for java.util.ListIterator
+Created binary drop for java.lang.Cloneable
+Created binary drop for sun.util.locale.LocaleObjectCache
+Created source drop for file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/interfaces/rootIsStatic/C.java
+Created binary drop for java.net.URL
+Created binary drop for java.security.CodeSource
+Created binary drop for java.lang.annotation.ElementType
+Created binary drop for java.net.NetworkInterface
+Created binary drop for java.nio.file.attribute.FileAttribute
+Created binary drop for java.io.ObjectStreamException
+Created binary drop for java.util.spi.LocaleServiceProvider
+Created binary drop for java.nio.file.attribute.BasicFileAttributes
+Created binary drop for java.lang.Boolean
+Created binary drop for java.lang.ref.WeakReference
+Created binary drop for java.lang.CloneNotSupportedException
+Created binary drop for java.security.NoSuchProviderException
+Created binary drop for java.net.ContentHandler
+Created binary drop for java.util.Date
+Created binary drop for java.lang.Number
+Created binary drop for java.lang.IllegalArgumentException
+Created binary drop for java.lang.InstantiationException
+Created binary drop for java.lang.reflect.TypeVariable
+Created source drop for file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/interfaces/rootIsInstance/C.java
+Created binary drop for java.nio.channels.ByteChannel
+Created source drop for file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/classes/rootIsInstance/C.java
+Created binary drop for java.nio.file.attribute.FileTime
+Created binary drop for java.nio.channels.AsynchronousChannel
+Created binary drop for java.nio.channels.FileLock
+Created binary drop for java.lang.reflect.Type
+Created binary drop for java.nio.Buffer
+Created binary drop for java.util.zip.ZipException
+Created binary drop for sun.util.locale.LocaleSyntaxException
+Created source drop for file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/interfaces/rootIsNothing/C.java
+Created binary drop for java.lang.reflect.GenericDeclaration
+Created binary drop for java.util.jar.JarEntry
+Created binary drop for java.nio.channels.InterruptibleChannel
+Created binary drop for java.security.InvalidKeyException
+Created binary drop for java.lang.ThreadLocal
+Created binary drop for java.security.PermissionCollection
+Created binary drop for java.util.HashMap
+Created binary drop for java.nio.channels.ScatteringByteChannel
+Created binary drop for java.security.AccessControlContext
+Created source drop for file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/classes/rootIsStatic/C.java
+Created binary drop for java.util.concurrent.Callable
+Created binary drop for java.lang.Deprecated
+Created binary drop for java.io.SyncFailedException
+Created binary drop for java.nio.channels.ReadableByteChannel
+Created binary drop for java.util.zip.ZipConstants
+Created binary drop for java.lang.reflect.Method
+Created binary drop for java.lang.CharSequence
+Created binary drop for java.nio.file.attribute.FileAttributeView
+Created binary drop for java.nio.file.attribute.UserPrincipal
+Created source drop for file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/classes/rootIsStatic/C.java
+Created binary drop for java.lang.StringBuilder
+Created binary drop for java.security.Principal
+Created binary drop for java.lang.Class
+Created binary drop for java.util.Stack
+Created binary drop for java.util.AbstractCollection
+Created binary drop for java.security.cert.CertPath
+Created binary drop for java.lang.reflect.AccessibleObject
+Created binary drop for java.nio.file.attribute.GroupPrincipal
+Created binary drop for sun.security.util.Debug
+Created binary drop for java.nio.file.Watchable
+Created binary drop for java.lang.AutoCloseable
+Created binary drop for java.io.FilenameFilter
+Created binary drop for java.nio.file.WatchService
+Created binary drop for java.nio.channels.Channel
+Created binary drop for sun.util.LocaleServiceProviderPool
+Created binary drop for sun.util.locale.LocaleExtensions
+Created binary drop for sun.reflect.LangReflectAccess
+Created binary drop for java.net.URLStreamHandlerFactory
+Created binary drop for java.nio.ShortBuffer
+Created binary drop for java.lang.StackTraceElement
+Created binary drop for java.lang.SecurityException
+Created binary drop for java.util.AbstractMap
+Created binary drop for sun.util.locale.LanguageTag
+Created binary drop for java.nio.file.PathMatcher
+Created binary drop for java.io.Serializable
+Created binary drop for java.nio.channels.spi.AbstractInterruptibleChannel
+Created binary drop for java.lang.ref.SoftReference
+Created binary drop for java.nio.file.DirectoryStream
+Created binary drop for java.util.SortedMap
+Created binary drop for java.lang.Integer
+Created binary drop for java.lang.annotation.Target
+Created binary drop for com.surelogic.Immutable
+Created binary drop for java.lang.Package
+Created binary drop for java.nio.file.FileStore
+Created source drop for file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/classes/interfaceIsInstance/C.java
+Created binary drop for java.net.InterfaceAddress
+Created binary drop for java.nio.charset.Charset
+Created binary drop for sun.reflect.FieldAccessor
+Created source drop for file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/interfaces/rootIsNothing/C.java
+Created binary drop for java.io.OutputStream
+Created binary drop for java.lang.Iterable
+Created binary drop for sun.util.resources.OpenListResourceBundle
+Created binary drop for sun.reflect.CallerSensitive
+Created binary drop for java.nio.file.attribute.FileStoreAttributeView
+Created binary drop for java.util.concurrent.ConcurrentMap
+Created binary drop for java.security.PrivilegedAction
+Created binary drop for java.net.URLStreamHandler
+Created binary drop for sun.misc.URLClassPath
+Created binary drop for java.io.InputStream
+Created binary drop for java.security.DomainCombiner
+Created binary drop for java.lang.Float
+Created binary drop for java.io.FileDescriptor
+Created binary drop for java.io.Closeable
+Created binary drop for java.util.concurrent.locks.Lock
+Created source drop for file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/classes/rootIsBoth/C.java
+Created source drop for file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/classes/interfaceIsBoth/C.java
+Created binary drop for java.lang.reflect.InvocationTargetException
+Created binary drop for java.util.LinkedList
+Created binary drop for java.security.PublicKey
+Created binary drop for java.util.ResourceBundle
+Created binary drop for java.security.cert.Certificate
+Created source drop for file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/classes/interfaceIsInstance/C.java
+Created binary drop for java.util.Map
+Created source drop for file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/classes/rootIsNothing/C.java
+Created binary drop for java.lang.ReflectiveOperationException
+Created source drop for file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/interfaces/rootIsBoth/C.java
+Created binary drop for java.util.Vector
+Created binary drop for java.lang.Exception
+Created binary drop for java.security.Guard
+Created binary drop for java.lang.Comparable
+Created binary drop for java.nio.file.WatchKey
+Created binary drop for java.net.UnknownServiceException
+Created binary drop for java.nio.charset.CharacterCodingException
+Created binary drop for java.security.GeneralSecurityException
+Created binary drop for java.nio.CharBuffer
+Created binary drop for java.security.Key
+Created binary drop for java.nio.file.FileSystem
+Created binary drop for java.util.concurrent.locks.ReadWriteLock
+Created source drop for file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/classes/rootIsBoth/C.java
+Created binary drop for java.util.AbstractSet
+Created binary drop for java.io.PrintStream
+Created binary drop for java.nio.channels.GatheringByteChannel
+Created binary drop for java.nio.channels.CompletionHandler
+Created binary drop for java.util.jar.Attributes
+Created source drop for file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/classes/interfaceIsStatic/C.java
+Created source drop for file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/classes/rootIsInstance/C.java
+Created binary drop for java.util.Dictionary
+Created binary drop for java.nio.channels.AsynchronousCloseException
+Created binary drop for java.lang.Short
+Created binary drop for java.lang.Enum
+Created binary drop for java.lang.Long
+Created binary drop for java.nio.charset.CharsetEncoder
+Created binary drop for java.nio.DoubleBuffer
+Created binary drop for java.nio.ByteOrder
+Created binary drop for java.security.SignatureException
+Created binary drop for java.nio.channels.ClosedChannelException
+Created binary drop for sun.reflect.ConstructorAccessor
+Created binary drop for java.util.AbstractSequentialList
+Created binary drop for java.lang.Readable
+Created binary drop for java.security.AccessControlException
+Created binary drop for java.util.Random
+Created binary drop for java.net.URLConnection
+Created binary drop for java.net.MalformedURLException
+Created binary drop for sun.nio.ch.Interruptible
+Created binary drop for java.util.AbstractList
+Created binary drop for java.io.FileFilter
+Created binary drop for java.security.ProtectionDomain
+Created binary drop for java.util.concurrent.locks.Condition
+Created binary drop for java.util.RandomAccess
+Created binary drop for java.lang.Byte
+Created binary drop for java.net.SocketException
+Created binary drop for java.lang.ClassLoader
+Created binary drop for java.nio.file.AccessMode
+Created binary drop for java.io.FileNotFoundException
+Created binary drop for java.util.Locale
+Created binary drop for java.lang.Thread
+Created binary drop for sun.reflect.ConstantPool
+Created binary drop for java.security.NoSuchAlgorithmException
+Created binary drop for java.security.cert.CertificateException
+Created source drop for file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/classes/interfaceIsNothing/C.java
+Created binary drop for java.nio.file.attribute.UserPrincipalLookupService
+Created binary drop for java.io.File
+Created binary drop for java.util.Iterator
+Created binary drop for java.nio.ByteBuffer
+Created binary drop for java.net.URI
+Created binary drop for java.io.DataOutput
+Created binary drop for java.net.UnknownHostException
+Created binary drop for java.lang.Appendable
+Created binary drop for java.io.Flushable
+Created source drop for file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/classes/interfaceIsStatic/C.java
+Created binary drop for java.util.zip.DataFormatException
+Created binary drop for java.io.DataOutputStream
+Created binary drop for java.lang.annotation.RetentionPolicy
+Created binary drop for java.io.FilterInputStream
+Created binary drop for sun.misc.JarIndex
+Created binary drop for java.util.Collection
+Created binary drop for java.io.UnsupportedEncodingException
+Created binary drop for sun.util.locale.ParseStatus
+Created binary drop for java.util.concurrent.TimeUnit
+Created binary drop for java.util.concurrent.Future
+Created binary drop for java.lang.reflect.Member
+Created binary drop for java.io.Writer
+Created source drop for file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/classes/interfaceIsNothing/C.java
+Created binary drop for java.util.MissingResourceException
+Created binary drop for java.lang.AbstractStringBuilder
+Created binary drop for java.lang.StringBuffer
+Created source drop for file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/interfaces/rootIsBoth/C.java
+Created binary drop for java.nio.file.attribute.AttributeView
+Created binary drop for java.security.Permission
+Created binary drop for java.lang.NoSuchFieldException
+Created binary drop for java.lang.Object
+Created binary drop for java.nio.LongBuffer
+Created source drop for file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/classes/interfaceIsBoth/C.java
+Created binary drop for java.util.Set
+Created binary drop for java.nio.channels.AsynchronousFileChannel
+Created binary drop for java.io.IOException
+Created binary drop for java.lang.annotation.Documented
+Created source drop for file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/interfaces/rootIsStatic/C.java
+Created binary drop for sun.reflect.annotation.AnnotationType
+Created binary drop for sun.misc.MetaIndex
+Created binary drop for java.lang.ref.ReferenceQueue
+Created binary drop for java.net.InetAddress
+Created binary drop for java.util.List
+Created binary drop for java.net.FileNameMap
+Created binary drop for java.security.cert.CertificateEncodingException
+Created binary drop for java.lang.NumberFormatException
+Created binary drop for java.nio.channels.FileChannel
+Created binary drop for java.nio.channels.SeekableByteChannel
+Created binary drop for java.nio.channels.WritableByteChannel
+Created binary drop for java.math.BigInteger
+Created binary drop for java.util.spi.LocaleNameProvider
+Created binary drop for java.util.concurrent.Executor
+Created binary drop for java.lang.RuntimeException
+Created binary drop for java.util.Comparator
+Created binary drop for java.util.jar.JarFile
+Created binary drop for sun.util.locale.InternalLocaleBuilder
+Created binary drop for java.lang.Character
+Created binary drop for java.security.KeyException
+Created source drop for file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/interfaces/rootIsInstance/C.java
+Created binary drop for java.lang.IllegalAccessException
+Created binary drop for java.lang.annotation.Annotation
+Created binary drop for java.io.PrintWriter
+Created binary drop for java.nio.file.OpenOption
+Created binary drop for com.surelogic.ThreadSafe
+Created binary drop for java.util.zip.Inflater
+Created binary drop for sun.reflect.ReflectionFactory
+Created binary drop for java.nio.charset.CharsetDecoder
+Created binary drop for java.util.Hashtable
+Created binary drop for java.util.Deque
+Created binary drop for sun.misc.Resource
+Created binary drop for sun.util.locale.Extension
+Created binary drop for java.lang.reflect.AnnotatedElement
+Created binary drop for sun.util.locale.BaseLocale
+Created binary drop for java.net.Proxy
+Created binary drop for java.util.WeakHashMap
+Created binary drop for java.lang.ThreadGroup
+Created binary drop for java.security.CodeSigner
+Created binary drop for java.lang.reflect.Field
+Created binary drop for java.lang.ref.Reference
+Created binary drop for java.nio.file.LinkOption
+Created binary drop for java.lang.String
+Created binary drop for java.util.zip.ZipFile
+Created binary drop for java.nio.FloatBuffer
+Created binary drop for java.net.URISyntaxException
+Created binary drop for java.nio.MappedByteBuffer
+Created binary drop for com.surelogic.Part
+Created binary drop for java.lang.Void
+Created binary drop for java.nio.charset.CoderResult
+Created binary drop for sun.reflect.MethodAccessor
+Created binary drop for java.util.ArrayList
+Created binary drop for java.util.Enumeration
+Created binary drop for java.nio.file.spi.FileSystemProvider
+Created source drop for file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/classes/rootIsNothing/C.java
+Created binary drop for java.nio.file.CopyOption
+Created binary drop for java.lang.reflect.Constructor
+Created binary drop for java.util.jar.Manifest
+Created binary drop for java.security.Timestamp
+##SUBTASK_DONE
+##WORK, 1
+Parsing promises
+##SUBTASK, Parsing promises
+Added 3 promises for java.lang.[] in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@799f7e29
+Added 3 promises for java.lang.[] in TestImmutableOverriding2: com.surelogic.tree.SyntaxTreeNode@aa10649
+Added 3 promises for java.util.Date in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@776d7e6c
+Added 3 promises for java.nio.file.Path in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@49a7b63c
+Added 3 promises for java.util.zip.ZipEntry in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@5f1bf38
+Added 47 promises for java.lang.Throwable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@d432a05
+Added 4 promises for rootIsThreadSafe.interfaces.rootIsStatic.C in TestImmutableOverriding2: com.surelogic.tree.SyntaxTreeNode@2d983449
+Added 18 promises for java.util.ListIterator in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@a456424
+Added 6 promises for java.lang.InterruptedException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@22c6ddcb
+Added 3 promises for rootIsThreadSafe.interfaces.rootIsNothing.C in TestImmutableOverriding2: com.surelogic.tree.SyntaxTreeNode@71f3d36a
+Added 6 promises for java.lang.CloneNotSupportedException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7bd94609
+Added 37 promises for java.lang.Boolean in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4a4b035a
+Added 4 promises for rootIsThreadSafe.classes.rootIsInstance.C in TestImmutableOverriding2: com.surelogic.tree.SyntaxTreeNode@3a9e1c7c
+Added 6 promises for java.lang.InstantiationException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6b89cd24
+Added 34 promises for java.util.concurrent.ExecutorService in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@799979d4
+Added 22 promises for java.lang.Number in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7427cbcc
+Added 1 promises for java.lang.ThreadLocal in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@60502c1b
+Added 70 promises for java.lang.Double in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6b007780
+Added 12 promises for java.lang.Class in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2ff4c1ee
+Added 18 promises for java.util.Queue in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@5cdc6a46
+Added 4 promises for rootIsThreadSafe.interfaces.rootIsInstance.C in TestImmutableOverriding2: com.surelogic.tree.SyntaxTreeNode@585f4c1c
+Added 109 promises for java.lang.StringBuilder in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4de28a03
+Added 4 promises for rootIsImmutable.classes.interfaceIsInstance.C in TestImmutableOverriding2: com.surelogic.tree.SyntaxTreeNode@15791ed0
+Added 4 promises for rootIsImmutable.classes.interfaceIsStatic.C in TestImmutableOverriding2: com.surelogic.tree.SyntaxTreeNode@2030ea6a
+Added 21 promises for java.util.Stack in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@652aa3df
+Added 12 promises for java.lang.IllegalArgumentException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6be23c48
+Added 17 promises for java.util.concurrent.ConcurrentMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@18bc54cc
+Added 96 promises for java.lang.Long in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@29e7c17a
+Added 61 promises for java.util.HashMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6879639a
+Added 29 promises for java.util.AbstractSequentialList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@1db4c03b
+Added 12 promises for java.lang.SecurityException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@59570fae
+Added 12 promises for java.lang.reflect.InvocationTargetException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3a8f5130
+Added 3 promises for java.nio.file.DirectoryStream in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@5b736861
+Added 4 promises for rootIsImmutable.classes.rootIsStatic.C in TestImmutableOverriding2: com.surelogic.tree.SyntaxTreeNode@5f6fb211
+Added 4 promises for rootIsThreadSafe.classes.rootIsStatic.C in TestImmutableOverriding2: com.surelogic.tree.SyntaxTreeNode@499d7bce
+Added 60 promises for java.util.AbstractList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6d1b22df
+Added 4 promises for rootIsThreadSafe.classes.interfaceIsStatic.C in TestImmutableOverriding2: com.surelogic.tree.SyntaxTreeNode@4ce75793
+Added 12 promises for java.lang.CharSequence in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@501418dd
+Added 12 promises for java.lang.Exception in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3b72c76c
+Added 45 promises for java.util.ResourceBundle in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@55b06b85
+Added 4 promises for rootIsThreadSafe.interfaces.rootIsBoth.C in TestImmutableOverriding2: com.surelogic.tree.SyntaxTreeNode@6898a6a7
+Added 96 promises for java.lang.Integer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@5584e0c8
+Added 29 promises for java.util.concurrent.TimeUnit in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@1f7d4df0
+Added 139 promises for java.util.LinkedList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@1587478c
+Added 4 promises for rootIsImmutable.classes.rootIsBoth.C in TestImmutableOverriding2: com.surelogic.tree.SyntaxTreeNode@651a4db0
+Added 55 promises for java.util.AbstractCollection in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@71ba1f3d
+Added 6 promises for java.lang.NoSuchFieldException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@105a658d
+Added 18 promises for java.nio.CharBuffer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@5767140b
+Added 2 promises for java.lang.ref.SoftReference in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@b06ca8
+Added 4 promises for rootIsThreadSafe.classes.rootIsBoth.C in TestImmutableOverriding2: com.surelogic.tree.SyntaxTreeNode@46ee4789
+Added 3 promises for rootIsThreadSafe.classes.rootIsNothing.C in TestImmutableOverriding2: com.surelogic.tree.SyntaxTreeNode@e5ff8c1
+Added 13 promises for java.lang.Enum in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4846777f
+Added 7 promises for java.util.concurrent.locks.ReadWriteLock in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@502a7133
+Added 31 promises for java.util.SortedMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3f9c3bbb
+Added 54 promises for java.util.Set in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@35ec1407
+[GC (Allocation Failure)  107975K->58015K(392192K), 0.0040050 secs]
+Added 3 promises for java.lang.Iterable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@41831683
+Added 4 promises for rootIsImmutable.classes.rootIsInstance.C in TestImmutableOverriding2: com.surelogic.tree.SyntaxTreeNode@20a04f0e
+Added 108 promises for java.util.AbstractMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@72dcb1e8
+Added 4 promises for rootIsThreadSafe.classes.interfaceIsBoth.C in TestImmutableOverriding2: com.surelogic.tree.SyntaxTreeNode@5a996749
+Added 54 promises for java.util.Collection in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@1f9d966c
+Added 3 promises for rootIsImmutable.interfaces.rootIsNothing.C in TestImmutableOverriding2: com.surelogic.tree.SyntaxTreeNode@29224556
+Added 73 promises for java.lang.Float in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@54512c12
+Added 20 promises for java.util.concurrent.locks.Lock in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7afcfd75
+Added 4 promises for rootIsThreadSafe.classes.interfaceIsInstance.C in TestImmutableOverriding2: com.surelogic.tree.SyntaxTreeNode@16e5cc6c
+Added 6 promises for java.util.Iterator in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7aa52a64
+Added 31 promises for java.lang.Object in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3662af15
+Added 88 promises for java.util.jar.Attributes in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@5576a688
+Added 6 promises for java.lang.Appendable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@27a74f0b
+Added 64 promises for java.util.Map in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@e01d755
+Added 59 promises for java.lang.Byte in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@5d4477b
+Added 3 promises for rootIsImmutable.classes.rootIsNothing.C in TestImmutableOverriding2: com.surelogic.tree.SyntaxTreeNode@37ce3d9a
+Added 3 promises for rootIsThreadSafe.classes.interfaceIsNothing.C in TestImmutableOverriding2: com.surelogic.tree.SyntaxTreeNode@6c63d5a
+Added 6 promises for java.io.Writer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@483463a2
+WARNING: TreeAccessor couldn't find equals(java.lang.Object) in java.util.ArrayList
+WARNING: TreeAccessor couldn't find hashCode() in java.util.ArrayList
+Added 89 promises for java.util.List in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@5c6addab
+Added 6 promises for java.lang.NumberFormatException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@72f0e3d1
+Added 104 promises for java.util.ArrayList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@20651c48
+Added 170 promises for java.util.Vector in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@39e571e4
+Added 6 promises for java.io.PrintStream in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@16999d93
+Added 6 promises for java.io.PrintWriter in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2a187625
+Added 4 promises for java.util.Enumeration in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@1fab427a
+Added 56 promises for java.util.WeakHashMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2428aa6
+Added 3 promises for java.util.jar.Manifest in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@ac6efe9
+Added 61 promises for java.lang.Short in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@288a2174
+Added 16 promises for java.util.AbstractSet in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@c7a823
+Added 144 promises for java.lang.AbstractStringBuilder in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4e2be59
+Added 4 promises for rootIsImmutable.classes.interfaceIsBoth.C in TestImmutableOverriding2: com.surelogic.tree.SyntaxTreeNode@585c6d78
+Added 4 promises for rootIsImmutable.interfaces.rootIsStatic.C in TestImmutableOverriding2: com.surelogic.tree.SyntaxTreeNode@4d39fd8b
+Added 138 promises for java.math.BigInteger in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3dfb5c0a
+Added 22 promises for java.util.concurrent.locks.Condition in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@ab3b2e2
+Added 29 promises for java.util.Dictionary in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@709e57ec
+Added 12 promises for java.lang.RuntimeException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@25dd159f
+Added 1 promises for java.lang.ref.ReferenceQueue in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7ab8aff8
+Added 6 promises for java.lang.IllegalAccessException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@5e736202
+Added 4 promises for rootIsImmutable.interfaces.rootIsInstance.C in TestImmutableOverriding2: com.surelogic.tree.SyntaxTreeNode@1bc2653c
+Added 3 promises for java.util.Locale in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@a97bcd5
+Added 3 promises for rootIsImmutable.classes.interfaceIsNothing.C in TestImmutableOverriding2: com.surelogic.tree.SyntaxTreeNode@3a777ac3
+Added 141 promises for java.lang.Thread in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@56df1e2e
+[GC (Allocation Failure)  112799K->59676K(391680K), 0.0044210 secs]
+Added 83 promises for java.util.Hashtable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@491fff30
+Added 4 promises for rootIsImmutable.interfaces.rootIsBoth.C in TestImmutableOverriding2: com.surelogic.tree.SyntaxTreeNode@3f3d30be
+Added 301 promises for java.lang.String in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@35eab661
+Added 18 promises for java.net.URISyntaxException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@8346529
+Added 158 promises for java.lang.StringBuffer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@26fd66f
+Added 87 promises for java.util.Deque in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@74419e26
+##SUBTASK_DONE
+##WORK, 1
+Scrubbing promises
+##SUBTASK, Scrubbing promises
+Creating RegionModel java.lang.Object.Instance for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+[GC (Allocation Failure)  114460K->62298K(412160K), 0.0072870 secs]
+##SUBTASK_DONE
+##WORK, 1
+Starting analyses
+Using new analysis framework -- groups
+Starting group: ConcurrencyDetector, ThreadEffectsModule, StructureAnalysis, ParameterizedTypeAnalysis, EqualityAnalysis, LayersAnalysis
+##SUBTASK, Starting parallel ConcurrencyDetector [0]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel ConcurrencyDetector [0]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Starting parallel ThreadEffectsModule [1]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel ThreadEffectsModule [1]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Starting parallel StructureAnalysis [2]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel StructureAnalysis [2]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Starting parallel ParameterizedTypeAnalysis [3]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel ParameterizedTypeAnalysis [3]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Starting parallel EqualityAnalysis [4]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel EqualityAnalysis [4]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Starting parallel LayersAnalysis [5]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel LayersAnalysis [5]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Starting parallel ConcurrencyDetector [0]: 24 for TestImmutableOverriding2
+Starting parallel ConcurrencyDetector [0]: 24 for TestImmutableOverriding2
+##SUBTASK, Starting parallel ThreadEffectsModule [1]: 24 for TestImmutableOverriding2
+Starting parallel ThreadEffectsModule [1]: 24 for TestImmutableOverriding2
+##SUBTASK, Starting parallel StructureAnalysis [2]: 24 for TestImmutableOverriding2
+Starting parallel StructureAnalysis [2]: 24 for TestImmutableOverriding2
+##SUBTASK, Starting parallel ParameterizedTypeAnalysis [3]: 24 for TestImmutableOverriding2
+Starting parallel ParameterizedTypeAnalysis [3]: 24 for TestImmutableOverriding2
+##SUBTASK, Starting parallel EqualityAnalysis [4]: 24 for TestImmutableOverriding2
+Starting parallel EqualityAnalysis [4]: 24 for TestImmutableOverriding2
+##SUBTASK, Starting parallel LayersAnalysis [5]: 24 for TestImmutableOverriding2
+Starting parallel LayersAnalysis [5]: 24 for TestImmutableOverriding2
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/interfaces/rootIsBoth/C.java
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/classes/interfaceIsBoth/C.java
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/classes/interfaceIsInstance/C.java
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/classes/rootIsStatic/C.java
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/interfaces/rootIsInstance/C.java
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/classes/rootIsInstance/C.java
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/interfaces/rootIsStatic/C.java
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/interfaces/rootIsNothing/C.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/classes/rootIsInstance/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/classes/interfaceIsInstance/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/interfaces/rootIsBoth/C.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/interfaces/rootIsNothing/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/interfaces/rootIsStatic/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/classes/rootIsStatic/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/classes/interfaceIsBoth/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/interfaces/rootIsInstance/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/interfaces/rootIsBoth/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/interfaces/rootIsInstance/C.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/classes/interfaceIsBoth/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/interfaces/rootIsStatic/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/classes/interfaceIsBoth/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/classes/rootIsInstance/C.java
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/classes/rootIsStatic/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/interfaces/rootIsInstance/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/classes/interfaceIsInstance/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/classes/interfaceIsInstance/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/interfaces/rootIsBoth/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/interfaces/rootIsInstance/C.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/classes/interfaceIsBoth/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/interfaces/rootIsNothing/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/interfaces/rootIsNothing/C.java
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/interfaces/rootIsBoth/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/classes/interfaceIsInstance/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/interfaces/rootIsNothing/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/classes/rootIsStatic/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/classes/rootIsInstance/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/interfaces/rootIsStatic/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/classes/rootIsInstance/C.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/interfaces/rootIsStatic/C.java
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/classes/rootIsStatic/C.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/interfaces/rootIsNothing/C.java
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/interfaces/rootIsStatic/C.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/interfaces/rootIsBoth/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/interfaces/rootIsInstance/C.java
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/classes/rootIsInstance/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/classes/interfaceIsInstance/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/classes/interfaceIsBoth/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/classes/rootIsStatic/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/classes/rootIsBoth/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/classes/rootIsBoth/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/classes/rootIsBoth/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/classes/rootIsBoth/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/classes/rootIsBoth/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/classes/rootIsBoth/C.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/classes/rootIsNothing/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/interfaces/rootIsNothing/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/classes/rootIsNothing/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/interfaces/rootIsNothing/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/classes/rootIsNothing/C.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/interfaces/rootIsNothing/C.java
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/classes/rootIsNothing/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/classes/rootIsInstance/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/interfaces/rootIsNothing/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/classes/rootIsInstance/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/interfaces/rootIsNothing/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/interfaces/rootIsNothing/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/classes/rootIsNothing/C.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/classes/rootIsInstance/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/classes/rootIsNothing/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/classes/rootIsInstance/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/classes/rootIsBoth/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/classes/rootIsInstance/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/classes/rootIsBoth/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/classes/rootIsInstance/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/classes/rootIsBoth/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/classes/rootIsBoth/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/classes/interfaceIsInstance/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/classes/interfaceIsInstance/C.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/classes/interfaceIsInstance/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/classes/interfaceIsInstance/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/classes/rootIsStatic/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/classes/rootIsBoth/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/classes/rootIsStatic/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/classes/interfaceIsInstance/C.java
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/classes/interfaceIsStatic/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/classes/rootIsStatic/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/classes/interfaceIsInstance/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/classes/interfaceIsStatic/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/classes/rootIsBoth/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/classes/interfaceIsStatic/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/classes/interfaceIsStatic/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/classes/interfaceIsStatic/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/interfaces/rootIsBoth/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/classes/rootIsStatic/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/interfaces/rootIsBoth/C.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/interfaces/rootIsStatic/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/classes/interfaceIsNothing/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/interfaces/rootIsStatic/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/classes/interfaceIsNothing/C.java
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/interfaces/rootIsInstance/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/classes/interfaceIsStatic/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/interfaces/rootIsBoth/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/interfaces/rootIsBoth/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/classes/rootIsStatic/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/interfaces/rootIsBoth/C.java
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/classes/interfaceIsNothing/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/interfaces/rootIsBoth/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/interfaces/rootIsInstance/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/interfaces/rootIsInstance/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/interfaces/rootIsInstance/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/classes/interfaceIsBoth/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/interfaces/rootIsInstance/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/interfaces/rootIsStatic/C.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/classes/interfaceIsBoth/C.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/classes/interfaceIsNothing/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/classes/rootIsStatic/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/classes/interfaceIsBoth/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/classes/interfaceIsNothing/C.java
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/interfaces/rootIsStatic/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/interfaces/rootIsInstance/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/classes/interfaceIsNothing/C.java
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/classes/interfaceIsBoth/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/classes/interfaceIsNothing/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/classes/interfaceIsBoth/C.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/classes/interfaceIsBoth/C.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/interfaces/rootIsStatic/C.java
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/classes/interfaceIsNothing/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/classes/interfaceIsNothing/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/interfaces/rootIsStatic/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/classes/rootIsNothing/C.java
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/classes/interfaceIsNothing/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/classes/interfaceIsNothing/C.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/classes/rootIsNothing/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/classes/interfaceIsNothing/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/classes/rootIsNothing/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/classes/rootIsNothing/C.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/classes/rootIsNothing/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/classes/rootIsNothing/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/classes/interfaceIsStatic/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/classes/interfaceIsStatic/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/classes/interfaceIsStatic/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/classes/interfaceIsStatic/C.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/classes/interfaceIsStatic/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/classes/interfaceIsStatic/C.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+Starting group: UtilityAnalysis, SingletonAnalysis, LockAnalysis, EffectsAnalysis
+com.surelogic.analysis.uniqueness.classic.sideeffecting.UniquenessAnalysisModule$1@5b37e0d2: 0
+com.surelogic.analysis.visitors.TopLevelAnalysisVisitor$1@69663380: 120
+com.surelogic.analysis.granules.FlowUnitGranulator@4459eb14: 192
+##SUBTASK, Starting parallel UtilityAnalysis [6]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel UtilityAnalysis [6]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Starting parallel SingletonAnalysis [7]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel SingletonAnalysis [7]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Starting parallel LockAnalysis [8]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel LockAnalysis [8]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Looking at @RegionLock("MUTEX is this protects WaitQueue") on Object
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@e5e62c5 on java.lang.Object
+##SUBTASK, Starting parallel EffectsAnalysis [9]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel EffectsAnalysis [9]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Starting parallel UtilityAnalysis [6]: 120 for TestImmutableOverriding2
+Starting parallel UtilityAnalysis [6]: 120 for TestImmutableOverriding2
+##SUBTASK, Starting parallel SingletonAnalysis [7]: 120 for TestImmutableOverriding2
+Starting parallel SingletonAnalysis [7]: 120 for TestImmutableOverriding2
+##SUBTASK, Starting parallel LockAnalysis [8]: 120 for TestImmutableOverriding2
+Starting parallel LockAnalysis [8]: 120 for TestImmutableOverriding2
+Looking at @RegionLock("MUTEX is this protects WaitQueue") on Object
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@e5e62c5 on java.lang.Object
+##SUBTASK, Starting parallel EffectsAnalysis [9]: 120 for TestImmutableOverriding2
+Starting parallel EffectsAnalysis [9]: 120 for TestImmutableOverriding2
+##SUBTASK, Checking [ Utility class ] rootIsImmutable.classes.interfaceIsInstance.C
+##SUBTASK, Checking [ Utility class ] rootIsThreadSafe.classes.rootIsInstance.E
+##SUBTASK, Checking [ Utility class ] rootIsThreadSafe.classes.interfaceIsBoth.C
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] rootIsThreadSafe.interfaces.rootIsStatic.F
+##SUBTASK, Checking [ Utility class ] rootIsThreadSafe.interfaces.rootIsStatic.C
+##SUBTASK, Checking [ Utility class ] rootIsThreadSafe.interfaces.rootIsInstance.D
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] rootIsThreadSafe.interfaces.rootIsStatic.F
+##SUBTASK, Checking [ Utility class ] rootIsThreadSafe.interfaces.rootIsBoth.C
+##SUBTASK, Checking [ Singleton class ] rootIsThreadSafe.classes.interfaceIsBoth.C
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] rootIsThreadSafe.interfaces.rootIsNothing.C
+##SUBTASK, Checking [ Singleton class ] rootIsThreadSafe.classes.rootIsInstance.E
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] rootIsThreadSafe.interfaces.rootIsStatic.F
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] rootIsThreadSafe.classes.interfaceIsBoth.C
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] rootIsThreadSafe.interfaces.rootIsBoth.C
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] rootIsThreadSafe.interfaces.rootIsBoth.C
+##SUBTASK, Checking [ Singleton class ] rootIsThreadSafe.interfaces.rootIsStatic.C
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] rootIsThreadSafe.interfaces.rootIsStatic.C
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] rootIsThreadSafe.interfaces.rootIsNothing.C
+##SUBTASK, Checking [ Lock policy ] rootIsThreadSafe.classes.rootIsInstance.E
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] rootIsImmutable.classes.interfaceIsInstance.C
+##SUBTASK, Checking [ Lock policy ] rootIsThreadSafe.interfaces.rootIsNothing.C
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] rootIsImmutable.classes.interfaceIsInstance.C
+##SUBTASK, Checking [ Singleton class ] rootIsThreadSafe.interfaces.rootIsInstance.D
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] rootIsThreadSafe.interfaces.rootIsInstance.D
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] rootIsThreadSafe.interfaces.rootIsNothing.C
+##SUBTASK, Checking [ Region effects ] rootIsThreadSafe.interfaces.rootIsInstance.D
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] rootIsThreadSafe.interfaces.rootIsInstance.E
+##SUBTASK, Checking [ Utility class ] rootIsThreadSafe.interfaces.rootIsNothing.D
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] rootIsThreadSafe.interfaces.rootIsInstance.E
+##SUBTASK, Checking [ Singleton class ] rootIsThreadSafe.interfaces.rootIsNothing.D
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] rootIsThreadSafe.interfaces.rootIsInstance.E
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] rootIsThreadSafe.interfaces.rootIsNothing.D
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] rootIsThreadSafe.interfaces.rootIsNothing.D
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] rootIsThreadSafe.interfaces.rootIsNothing.E
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] rootIsThreadSafe.interfaces.rootIsNothing.E
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] rootIsThreadSafe.interfaces.rootIsNothing.E
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] rootIsThreadSafe.interfaces.rootIsStatic.C
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] rootIsThreadSafe.interfaces.rootIsBoth.C
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] rootIsThreadSafe.interfaces.rootIsInstance.E
+##SUBTASK, Checking [ Region effects ] rootIsThreadSafe.classes.interfaceIsBoth.C
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] rootIsImmutable.classes.interfaceIsInstance.C
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] rootIsThreadSafe.interfaces.rootIsStatic.D
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] rootIsThreadSafe.interfaces.rootIsBoth.D
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] rootIsImmutable.classes.interfaceIsInstance.D
+##SUBTASK, Checking [ Utility class ] rootIsThreadSafe.classes.interfaceIsBoth.D
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] rootIsThreadSafe.interfaces.rootIsNothing.E
+##SUBTASK, Checking [ Utility class ] rootIsThreadSafe.interfaces.rootIsInstance.F
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] rootIsThreadSafe.interfaces.rootIsNothing.F
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] rootIsImmutable.classes.interfaceIsInstance.D
+##SUBTASK, Checking [ Singleton class ] rootIsThreadSafe.interfaces.rootIsStatic.D
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] rootIsThreadSafe.interfaces.rootIsStatic.F
+##SUBTASK, Checking [ Singleton class ] rootIsThreadSafe.interfaces.rootIsBoth.D
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] rootIsThreadSafe.interfaces.rootIsNothing.F
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] rootIsThreadSafe.interfaces.rootIsNothing.F
+##SUBTASK, Checking [ Singleton class ] rootIsThreadSafe.classes.interfaceIsBoth.D
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] rootIsThreadSafe.classes.interfaceIsBoth.D
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] rootIsThreadSafe.interfaces.rootIsInstance.F
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] rootIsThreadSafe.interfaces.rootIsNothing.F
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] rootIsImmutable.classes.interfaceIsInstance.D
+##SUBTASK, Checking [ Utility class ] rootIsThreadSafe.interfaces.rootIsNothing.G
+##SUBTASK, Checking [ Lock policy ] rootIsThreadSafe.interfaces.rootIsStatic.D
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] rootIsThreadSafe.interfaces.rootIsBoth.D
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] rootIsThreadSafe.interfaces.rootIsNothing.G
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] rootIsThreadSafe.interfaces.rootIsStatic.D
+##SUBTASK, Checking [ Region effects ] rootIsThreadSafe.interfaces.rootIsBoth.D
+##SUBTASK, Checking [ Utility class ] rootIsThreadSafe.interfaces.rootIsStatic.G
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] rootIsThreadSafe.interfaces.rootIsNothing.G
+##SUBTASK, Checking [ Utility class ] rootIsThreadSafe.interfaces.rootIsStatic.E
+##SUBTASK, Checking [ Lock policy ] rootIsThreadSafe.interfaces.rootIsInstance.F
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] rootIsThreadSafe.interfaces.rootIsNothing.G
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] rootIsThreadSafe.interfaces.rootIsStatic.G
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] rootIsThreadSafe.interfaces.rootIsBoth.E
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] rootIsThreadSafe.interfaces.rootIsBoth.E
+##SUBTASK, Checking [ Lock policy ] rootIsThreadSafe.interfaces.rootIsStatic.G
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] rootIsThreadSafe.interfaces.rootIsStatic.G
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] rootIsThreadSafe.classes.rootIsInstance.C
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] rootIsThreadSafe.classes.rootIsInstance.C
+##SUBTASK, Checking [ Region effects ] rootIsThreadSafe.interfaces.rootIsInstance.F
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] rootIsThreadSafe.interfaces.rootIsInstance.G
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] rootIsThreadSafe.interfaces.rootIsStatic.E
+##SUBTASK, Checking [ Singleton class ] rootIsThreadSafe.interfaces.rootIsInstance.G
+##SUBTASK, Checking [ Utility class ] rootIsImmutable.classes.rootIsStatic.C
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] rootIsImmutable.classes.rootIsStatic.C
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] rootIsImmutable.classes.rootIsStatic.C
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] rootIsThreadSafe.classes.rootIsInstance.C
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] rootIsThreadSafe.interfaces.rootIsBoth.E
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] rootIsThreadSafe.interfaces.rootIsInstance.G
+##SUBTASK, Checking [ Lock policy ] rootIsThreadSafe.interfaces.rootIsStatic.E
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] rootIsThreadSafe.interfaces.rootIsBoth.E
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] rootIsThreadSafe.interfaces.rootIsInstance.G
+##SUBTASK, Checking [ Region effects ] rootIsThreadSafe.interfaces.rootIsStatic.E
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] rootIsThreadSafe.interfaces.rootIsBoth.F
+##SUBTASK, Checking [ Utility class ] rootIsThreadSafe.classes.rootIsInstance.G
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] rootIsThreadSafe.interfaces.rootIsBoth.F
+##SUBTASK, Checking [ Singleton class ] rootIsThreadSafe.classes.rootIsInstance.G
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] rootIsThreadSafe.interfaces.rootIsBoth.F
+##SUBTASK, Checking [ Lock policy ] rootIsThreadSafe.classes.rootIsInstance.G
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] rootIsThreadSafe.interfaces.rootIsBoth.F
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] rootIsThreadSafe.interfaces.rootIsBoth.G
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] rootIsThreadSafe.interfaces.rootIsBoth.G
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] rootIsThreadSafe.interfaces.rootIsBoth.G
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] rootIsThreadSafe.interfaces.rootIsBoth.G
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] rootIsImmutable.classes.rootIsBoth.C
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] rootIsImmutable.classes.rootIsBoth.C
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] rootIsImmutable.classes.rootIsBoth.C
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] rootIsThreadSafe.classes.interfaceIsBoth.D
+##SUBTASK, Checking [ Region effects ] rootIsImmutable.classes.interfaceIsInstance.D
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] rootIsImmutable.classes.rootIsBoth.C
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] rootIsThreadSafe.classes.rootIsInstance.C
+##SUBTASK, Checking [ Region effects ] rootIsImmutable.classes.rootIsStatic.C
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] rootIsThreadSafe.classes.rootIsInstance.G
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] rootIsThreadSafe.classes.rootIsInstance.E
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] rootIsThreadSafe.interfaces.rootIsInstance.C
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] rootIsThreadSafe.classes.rootIsInstance.F
+##SUBTASK, Checking [ Utility class ] rootIsThreadSafe.classes.interfaceIsBoth.E
+##SUBTASK, Checking [ Utility class ] rootIsImmutable.classes.rootIsStatic.D
+##SUBTASK, Checking [ Utility class ] rootIsImmutable.classes.rootIsBoth.D
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] rootIsThreadSafe.interfaces.rootIsInstance.C
+##SUBTASK, Checking [ Utility class ] rootIsImmutable.classes.interfaceIsInstance.E
+##SUBTASK, Checking [ Utility class ] rootIsThreadSafe.classes.rootIsInstance.D
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] rootIsImmutable.classes.rootIsBoth.D
+##SUBTASK, Checking [ Singleton class ] rootIsImmutable.classes.rootIsStatic.D
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] rootIsThreadSafe.classes.interfaceIsBoth.E
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] rootIsThreadSafe.classes.interfaceIsBoth.E
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] rootIsThreadSafe.classes.rootIsInstance.F
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] rootIsThreadSafe.interfaces.rootIsInstance.C
+##SUBTASK, Checking [ Singleton class ] rootIsThreadSafe.classes.rootIsInstance.D
+##SUBTASK, Checking [ Singleton class ] rootIsImmutable.classes.interfaceIsInstance.E
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] rootIsImmutable.classes.rootIsBoth.D
+##SUBTASK, Checking [ Lock policy ] rootIsThreadSafe.classes.rootIsInstance.F
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] rootIsImmutable.classes.rootIsStatic.D
+##SUBTASK, Checking [ Region effects ] rootIsThreadSafe.interfaces.rootIsInstance.C
+##SUBTASK, Checking [ Lock policy ] rootIsImmutable.classes.interfaceIsInstance.E
+##SUBTASK, Checking [ Lock policy ] rootIsThreadSafe.classes.rootIsInstance.D
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] rootIsThreadSafe.classes.interfaceIsBoth.E
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] rootIsImmutable.classes.rootIsBoth.D
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] rootIsThreadSafe.classes.interfaceIsBoth.F
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] rootIsThreadSafe.classes.interfaceIsBoth.F
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] rootIsThreadSafe.classes.rootIsInstance.D
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] rootIsImmutable.classes.rootIsStatic.D
+##SUBTASK, Checking [ Utility class ] rootIsImmutable.classes.rootIsBoth.E
+##SUBTASK, Checking [ Region effects ] rootIsThreadSafe.classes.rootIsInstance.F
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] rootIsImmutable.classes.rootIsBoth.E
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] rootIsImmutable.classes.interfaceIsInstance.E
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] rootIsImmutable.classes.interfaceIsStatic.C
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] rootIsThreadSafe.classes.interfaceIsNothing.E
+##SUBTASK, Checking [ Utility class ] rootIsImmutable.interfaces.rootIsBoth.C
+##SUBTASK, Checking [ Utility class ] rootIsImmutable.classes.rootIsStatic.E
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] rootIsThreadSafe.classes.interfaceIsBoth.F
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] rootIsThreadSafe.classes.rootIsStatic.D
+##SUBTASK, Checking [ Lock policy ] rootIsImmutable.classes.rootIsBoth.E
+##SUBTASK, Checking [ Singleton class ] rootIsImmutable.classes.interfaceIsStatic.C
+##SUBTASK, Checking [ Singleton class ] rootIsThreadSafe.classes.interfaceIsNothing.E
+##SUBTASK, Checking [ Utility class ] rootIsImmutable.classes.interfaceIsInstance.F
+##SUBTASK, Checking [ Singleton class ] rootIsImmutable.classes.rootIsStatic.E
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] rootIsImmutable.classes.interfaceIsInstance.F
+##SUBTASK, Checking [ Region effects ] rootIsThreadSafe.classes.interfaceIsBoth.F
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] rootIsImmutable.classes.interfaceIsStatic.C
+##SUBTASK, Checking [ Lock policy ] rootIsThreadSafe.classes.interfaceIsNothing.E
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] rootIsImmutable.classes.interfaceIsInstance.F
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] rootIsImmutable.classes.rootIsStatic.E
+##SUBTASK, Checking [ Singleton class ] rootIsImmutable.interfaces.rootIsBoth.C
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] rootIsImmutable.interfaces.rootIsBoth.C
+##SUBTASK, Checking [ Region effects ] rootIsImmutable.classes.rootIsBoth.E
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] rootIsImmutable.classes.interfaceIsInstance.F
+##SUBTASK, Checking [ Region effects ] rootIsImmutable.classes.interfaceIsStatic.C
+##SUBTASK, Checking [ Singleton class ] rootIsThreadSafe.classes.rootIsStatic.D
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] rootIsImmutable.classes.interfaceIsStatic.D
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] rootIsImmutable.classes.rootIsBoth.F
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] rootIsImmutable.classes.rootIsStatic.E
+##SUBTASK, Checking [ Region effects ] rootIsImmutable.interfaces.rootIsBoth.C
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] rootIsImmutable.classes.rootIsBoth.F
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] rootIsImmutable.classes.rootIsBoth.F
+##SUBTASK, Checking [ Region effects ] rootIsThreadSafe.classes.interfaceIsNothing.E
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] rootIsImmutable.classes.interfaceIsStatic.D
+##SUBTASK, Checking [ Lock policy ] rootIsThreadSafe.classes.rootIsStatic.D
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] rootIsThreadSafe.classes.interfaceIsBoth.G
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] rootIsImmutable.classes.interfaceIsStatic.D
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] rootIsThreadSafe.classes.interfaceIsNothing.F
+##SUBTASK, Checking [ Utility class ] rootIsImmutable.classes.rootIsStatic.F
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] rootIsImmutable.classes.interfaceIsInstance.G
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] rootIsImmutable.classes.rootIsStatic.F
+##SUBTASK, Checking [ Region effects ] rootIsImmutable.classes.rootIsBoth.F
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] rootIsThreadSafe.classes.interfaceIsNothing.F
+##SUBTASK, Checking [ Utility class ] rootIsImmutable.interfaces.rootIsBoth.D
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] rootIsImmutable.classes.interfaceIsStatic.D
+##SUBTASK, Checking [ Singleton class ] rootIsImmutable.classes.interfaceIsInstance.G
+##SUBTASK, Checking [ Singleton class ] rootIsThreadSafe.classes.interfaceIsBoth.G
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] rootIsImmutable.classes.rootIsStatic.F
+##SUBTASK, Checking [ Lock policy ] rootIsThreadSafe.classes.interfaceIsNothing.F
+##SUBTASK, Checking [ Singleton class ] rootIsImmutable.interfaces.rootIsBoth.D
+##SUBTASK, Checking [ Region effects ] rootIsThreadSafe.classes.rootIsStatic.D
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] rootIsImmutable.classes.rootIsBoth.G
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] rootIsImmutable.classes.interfaceIsInstance.G
+##SUBTASK, Checking [ Utility class ] rootIsImmutable.classes.interfaceIsStatic.E
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] rootIsImmutable.classes.interfaceIsStatic.E
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] rootIsThreadSafe.classes.interfaceIsBoth.G
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] rootIsImmutable.classes.rootIsStatic.F
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] rootIsImmutable.classes.rootIsBoth.G
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] rootIsImmutable.interfaces.rootIsBoth.D
+##SUBTASK, Checking [ Utility class ] rootIsImmutable.classes.rootIsStatic.G
+##SUBTASK, Checking [ Utility class ] rootIsThreadSafe.classes.rootIsStatic.E
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] rootIsImmutable.classes.interfaceIsStatic.E
+##SUBTASK, Checking [ Region effects ] rootIsThreadSafe.classes.interfaceIsNothing.F
+##SUBTASK, Checking [ Region effects ] rootIsImmutable.classes.interfaceIsInstance.G
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] rootIsThreadSafe.classes.interfaceIsBoth.G
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] rootIsThreadSafe.classes.interfaceIsNothing.G
+##SUBTASK, Checking [ Utility class ] rootIsImmutable.interfaces.rootIsNothing.C
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] rootIsImmutable.classes.rootIsBoth.G
+##SUBTASK, Checking [ Utility class ] rootIsThreadSafe.classes.rootIsNothing.C
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] rootIsImmutable.interfaces.rootIsBoth.D
+##SUBTASK, Checking [ Singleton class ] rootIsThreadSafe.classes.rootIsStatic.E
+##SUBTASK, Checking [ Singleton class ] rootIsThreadSafe.classes.rootIsNothing.C
+##SUBTASK, Checking [ Region effects ] rootIsImmutable.classes.interfaceIsStatic.E
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] rootIsImmutable.interfaces.rootIsNothing.C
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] rootIsImmutable.classes.rootIsStatic.G
+##SUBTASK, Checking [ Utility class ] rootIsImmutable.interfaces.rootIsBoth.E
+##SUBTASK, Checking [ Lock policy ] rootIsThreadSafe.classes.rootIsStatic.E
+##SUBTASK, Checking [ Lock policy ] rootIsThreadSafe.classes.rootIsNothing.C
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] rootIsImmutable.interfaces.rootIsNothing.C
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] rootIsImmutable.classes.rootIsBoth.G
+##SUBTASK, Checking [ Singleton class ] rootIsThreadSafe.classes.interfaceIsNothing.G
+##SUBTASK, Checking [ Region effects ] rootIsImmutable.interfaces.rootIsNothing.C
+##SUBTASK, Checking [ Utility class ] rootIsImmutable.classes.interfaceIsStatic.F
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] rootIsThreadSafe.classes.rootIsStatic.E
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] rootIsImmutable.classes.rootIsInstance.C
+##SUBTASK, Checking [ Singleton class ] rootIsImmutable.interfaces.rootIsBoth.E
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] rootIsImmutable.interfaces.rootIsNothing.D
+##SUBTASK, Checking [ Singleton class ] rootIsImmutable.classes.interfaceIsStatic.F
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] rootIsImmutable.interfaces.rootIsBoth.E
+##SUBTASK, Checking [ Region effects ] rootIsThreadSafe.classes.rootIsNothing.C
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] rootIsThreadSafe.classes.rootIsStatic.F
+##SUBTASK, Checking [ Lock policy ] rootIsImmutable.classes.rootIsStatic.G
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] rootIsImmutable.classes.rootIsInstance.C
+##SUBTASK, Checking [ Lock policy ] rootIsImmutable.classes.interfaceIsStatic.F
+##SUBTASK, Checking [ Singleton class ] rootIsImmutable.interfaces.rootIsNothing.D
+##SUBTASK, Checking [ Lock policy ] rootIsThreadSafe.classes.interfaceIsNothing.G
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] rootIsImmutable.interfaces.rootIsBoth.E
+##SUBTASK, Checking [ Singleton class ] rootIsThreadSafe.classes.rootIsStatic.F
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] rootIsImmutable.classes.rootIsInstance.C
+##SUBTASK, Checking [ Utility class ] rootIsImmutable.interfaces.rootIsBoth.F
+##SUBTASK, Checking [ Region effects ] rootIsImmutable.classes.rootIsStatic.G
+##SUBTASK, Checking [ Lock policy ] rootIsImmutable.interfaces.rootIsNothing.D
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] rootIsThreadSafe.classes.rootIsNothing.D
+##SUBTASK, Checking [ Lock policy ] rootIsThreadSafe.classes.rootIsStatic.F
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] rootIsThreadSafe.classes.rootIsStatic.C
+##SUBTASK, Checking [ Region effects ] rootIsImmutable.classes.interfaceIsStatic.F
+##SUBTASK, Checking [ Singleton class ] rootIsImmutable.interfaces.rootIsBoth.F
+##SUBTASK, Checking [ Region effects ] rootIsImmutable.interfaces.rootIsNothing.D
+##SUBTASK, Checking [ Region effects ] rootIsThreadSafe.classes.interfaceIsNothing.G
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] rootIsImmutable.interfaces.rootIsNothing.E
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] rootIsImmutable.classes.rootIsInstance.C
+##SUBTASK, Checking [ Singleton class ] rootIsThreadSafe.classes.rootIsNothing.D
+##SUBTASK, Checking [ Singleton class ] rootIsThreadSafe.classes.rootIsStatic.C
+##SUBTASK, Checking [ Singleton class ] rootIsImmutable.interfaces.rootIsNothing.E
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] rootIsImmutable.interfaces.rootIsBoth.F
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] rootIsImmutable.classes.interfaceIsStatic.G
+##SUBTASK, Checking [ Region effects ] rootIsThreadSafe.classes.rootIsStatic.F
+##SUBTASK, Checking [ Lock policy ] rootIsImmutable.interfaces.rootIsNothing.E
+##SUBTASK, Checking [ Utility class ] rootIsThreadSafe.classes.interfaceIsStatic.C
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] rootIsImmutable.classes.rootIsInstance.D
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] rootIsThreadSafe.classes.rootIsNothing.D
+##SUBTASK, Checking [ Lock policy ] rootIsThreadSafe.classes.rootIsStatic.C
+##SUBTASK, Checking [ Region effects ] rootIsImmutable.interfaces.rootIsNothing.E
+##SUBTASK, Checking [ Singleton class ] rootIsImmutable.classes.rootIsInstance.D
+##SUBTASK, Checking [ Utility class ] rootIsThreadSafe.classes.rootIsStatic.G
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] rootIsImmutable.interfaces.rootIsBoth.F
+##SUBTASK, Checking [ Singleton class ] rootIsImmutable.classes.interfaceIsStatic.G
+##SUBTASK, Checking [ Singleton class ] rootIsThreadSafe.classes.interfaceIsStatic.C
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] rootIsImmutable.classes.rootIsInstance.D
+##SUBTASK, Checking [ Singleton class ] rootIsThreadSafe.classes.rootIsStatic.G
+##SUBTASK, Checking [ Lock policy ] rootIsImmutable.classes.interfaceIsStatic.G
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] rootIsThreadSafe.classes.rootIsNothing.D
+##SUBTASK, Checking [ Lock policy ] rootIsThreadSafe.classes.interfaceIsStatic.C
+##SUBTASK, Checking [ Utility class ] rootIsImmutable.interfaces.rootIsBoth.G
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] rootIsImmutable.interfaces.rootIsNothing.F
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] rootIsThreadSafe.classes.interfaceIsStatic.C
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] rootIsImmutable.interfaces.rootIsNothing.F
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] rootIsImmutable.interfaces.rootIsNothing.F
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] rootIsThreadSafe.classes.rootIsStatic.G
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] rootIsImmutable.interfaces.rootIsNothing.F
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] rootIsImmutable.classes.rootIsInstance.D
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] rootIsImmutable.interfaces.rootIsBoth.G
+##SUBTASK, Checking [ Utility class ] rootIsImmutable.interfaces.rootIsNothing.G
+##SUBTASK, Checking [ Utility class ] rootIsThreadSafe.classes.rootIsNothing.E
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] rootIsThreadSafe.classes.rootIsStatic.C
+##SUBTASK, Checking [ Utility class ] rootIsThreadSafe.classes.interfaceIsStatic.D
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] rootIsImmutable.classes.interfaceIsStatic.G
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] rootIsImmutable.classes.rootIsInstance.E
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] rootIsImmutable.interfaces.rootIsBoth.G
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] rootIsImmutable.interfaces.rootIsNothing.G
+##SUBTASK, Checking [ Utility class ] rootIsThreadSafe.classes.interfaceIsNothing.C
+##SUBTASK, Checking [ Singleton class ] rootIsThreadSafe.classes.rootIsNothing.E
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] rootIsThreadSafe.classes.rootIsNothing.E
+##SUBTASK, Checking [ Region effects ] rootIsThreadSafe.classes.rootIsStatic.G
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] rootIsThreadSafe.classes.interfaceIsStatic.D
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] rootIsThreadSafe.classes.interfaceIsNothing.C
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] rootIsImmutable.interfaces.rootIsBoth.G
+##SUBTASK, Checking [ Region effects ] rootIsThreadSafe.classes.rootIsNothing.E
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] rootIsImmutable.classes.rootIsInstance.E
+##SUBTASK, Checking [ Lock policy ] rootIsImmutable.interfaces.rootIsNothing.G
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] rootIsImmutable.interfaces.rootIsStatic.C
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] rootIsThreadSafe.classes.interfaceIsNothing.C
+##SUBTASK, Checking [ Singleton class ] rootIsImmutable.interfaces.rootIsStatic.C
+##SUBTASK, Checking [ Utility class ] rootIsThreadSafe.classes.rootIsNothing.F
+##SUBTASK, Checking [ Region effects ] rootIsImmutable.interfaces.rootIsNothing.G
+##SUBTASK, Checking [ Utility class ] rootIsImmutable.classes.interfaceIsNothing.C
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] rootIsThreadSafe.classes.interfaceIsStatic.D
+##SUBTASK, Checking [ Lock policy ] rootIsImmutable.interfaces.rootIsStatic.C
+##SUBTASK, Checking [ Region effects ] rootIsThreadSafe.classes.interfaceIsNothing.C
+##SUBTASK, Checking [ Singleton class ] rootIsThreadSafe.classes.rootIsNothing.F
+##SUBTASK, Checking [ Utility class ] rootIsThreadSafe.classes.rootIsBoth.C
+##SUBTASK, Checking [ Singleton class ] rootIsImmutable.classes.interfaceIsNothing.C
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] rootIsImmutable.classes.rootIsInstance.E
+##SUBTASK, Checking [ Region effects ] rootIsImmutable.interfaces.rootIsStatic.C
+##SUBTASK, Checking [ Lock policy ] rootIsImmutable.classes.interfaceIsNothing.C
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] rootIsImmutable.classes.interfaceIsNothing.C
+##SUBTASK, Checking [ Utility class ] rootIsThreadSafe.classes.interfaceIsNothing.D
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] rootIsImmutable.classes.interfaceIsNothing.D
+##SUBTASK, Checking [ Lock policy ] rootIsThreadSafe.classes.rootIsNothing.F
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] rootIsThreadSafe.classes.interfaceIsNothing.D
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] rootIsImmutable.classes.rootIsInstance.E
+##SUBTASK, Checking [ Singleton class ] rootIsThreadSafe.classes.rootIsBoth.C
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] rootIsThreadSafe.classes.interfaceIsStatic.D
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] rootIsThreadSafe.classes.rootIsBoth.C
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] rootIsThreadSafe.classes.interfaceIsNothing.D
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] rootIsThreadSafe.classes.interfaceIsStatic.E
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] rootIsThreadSafe.classes.rootIsNothing.F
+##SUBTASK, Checking [ Utility class ] rootIsImmutable.classes.rootIsInstance.F
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] rootIsImmutable.interfaces.rootIsStatic.D
+##SUBTASK, Checking [ Utility class ] rootIsThreadSafe.classes.rootIsNothing.G
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] rootIsThreadSafe.classes.rootIsBoth.C
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] rootIsImmutable.classes.interfaceIsNothing.D
+##SUBTASK, Checking [ Singleton class ] rootIsThreadSafe.classes.interfaceIsStatic.E
+##SUBTASK, Checking [ Singleton class ] rootIsImmutable.classes.rootIsInstance.F
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] rootIsThreadSafe.classes.interfaceIsNothing.D
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] rootIsThreadSafe.classes.rootIsNothing.G
+##SUBTASK, Checking [ Utility class ] rootIsThreadSafe.classes.rootIsBoth.D
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] rootIsThreadSafe.classes.rootIsBoth.D
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] rootIsThreadSafe.classes.interfaceIsStatic.E
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] rootIsImmutable.classes.interfaceIsNothing.D
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] rootIsThreadSafe.classes.rootIsBoth.D
+##SUBTASK, Checking [ Lock policy ] rootIsImmutable.classes.rootIsInstance.F
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] rootIsThreadSafe.classes.rootIsNothing.G
+##SUBTASK, Checking [ Singleton class ] rootIsImmutable.interfaces.rootIsStatic.D
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] rootIsImmutable.classes.interfaceIsNothing.D
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] rootIsImmutable.classes.rootIsInstance.F
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] rootIsThreadSafe.classes.interfaceIsStatic.E
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] rootIsImmutable.classes.interfaceIsNothing.E
+##SUBTASK, Checking [ Region effects ] rootIsThreadSafe.classes.rootIsBoth.D
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] rootIsImmutable.classes.rootIsInstance.G
+##SUBTASK, Checking [ Region effects ] rootIsThreadSafe.classes.rootIsNothing.G
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] rootIsImmutable.interfaces.rootIsStatic.D
+##SUBTASK, Checking [ Utility class ] rootIsThreadSafe.classes.rootIsBoth.E
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] rootIsImmutable.interfaces.rootIsStatic.D
+##SUBTASK, Checking [ Singleton class ] rootIsImmutable.classes.interfaceIsNothing.E
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] rootIsImmutable.classes.rootIsInstance.G
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] rootIsThreadSafe.classes.interfaceIsInstance.C
+##SUBTASK, Checking [ Singleton class ] rootIsThreadSafe.classes.rootIsBoth.E
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] rootIsThreadSafe.classes.rootIsBoth.E
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] rootIsImmutable.classes.rootIsInstance.G
+##SUBTASK, Checking [ Utility class ] rootIsImmutable.interfaces.rootIsStatic.E
+##SUBTASK, Checking [ Lock policy ] rootIsImmutable.classes.interfaceIsNothing.E
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] rootIsThreadSafe.classes.interfaceIsStatic.F
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] rootIsImmutable.interfaces.rootIsStatic.E
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] rootIsThreadSafe.classes.rootIsBoth.E
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] rootIsImmutable.interfaces.rootIsStatic.E
+##SUBTASK, Checking [ Singleton class ] rootIsThreadSafe.classes.interfaceIsInstance.C
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] rootIsThreadSafe.classes.interfaceIsStatic.F
+##SUBTASK, Checking [ Lock policy ] rootIsThreadSafe.classes.interfaceIsInstance.C
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] rootIsImmutable.classes.rootIsInstance.G
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] rootIsThreadSafe.classes.rootIsBoth.F
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] rootIsThreadSafe.classes.interfaceIsInstance.C
+##SUBTASK, Checking [ Region effects ] rootIsImmutable.interfaces.rootIsStatic.E
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] rootIsImmutable.classes.interfaceIsNothing.E
+##SUBTASK, Checking [ Singleton class ] rootIsThreadSafe.classes.rootIsBoth.F
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] rootIsThreadSafe.classes.interfaceIsStatic.F
+##SUBTASK, Checking [ Utility class ] rootIsImmutable.interfaces.rootIsStatic.F
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] rootIsImmutable.classes.interfaceIsNothing.F
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] rootIsThreadSafe.classes.interfaceIsInstance.D
+##SUBTASK, Checking [ Singleton class ] rootIsImmutable.interfaces.rootIsStatic.F
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] rootIsThreadSafe.classes.rootIsBoth.F
+##SUBTASK, Checking [ Singleton class ] rootIsImmutable.classes.interfaceIsNothing.F
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] rootIsImmutable.interfaces.rootIsStatic.F
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] rootIsImmutable.classes.interfaceIsNothing.F
+##SUBTASK, Checking [ Region effects ] rootIsThreadSafe.classes.interfaceIsStatic.F
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] rootIsImmutable.interfaces.rootIsStatic.F
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] rootIsThreadSafe.classes.interfaceIsInstance.D
+##SUBTASK, Checking [ Region effects ] rootIsThreadSafe.classes.rootIsBoth.F
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] rootIsThreadSafe.classes.interfaceIsInstance.D
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] rootIsImmutable.interfaces.rootIsStatic.G
+##SUBTASK, Checking [ Utility class ] rootIsThreadSafe.classes.interfaceIsStatic.G
+##SUBTASK, Checking [ Region effects ] rootIsImmutable.classes.interfaceIsNothing.F
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] rootIsThreadSafe.classes.interfaceIsStatic.G
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] rootIsImmutable.interfaces.rootIsStatic.G
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] rootIsImmutable.interfaces.rootIsStatic.G
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] rootIsThreadSafe.classes.interfaceIsStatic.G
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] rootIsThreadSafe.classes.interfaceIsInstance.D
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] rootIsThreadSafe.classes.rootIsBoth.G
+##SUBTASK, Checking [ Utility class ] rootIsImmutable.classes.interfaceIsNothing.G
+##SUBTASK, Checking [ Region effects ] rootIsImmutable.interfaces.rootIsStatic.G
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] rootIsThreadSafe.classes.interfaceIsInstance.E
+##SUBTASK, Checking [ Singleton class ] rootIsThreadSafe.classes.rootIsBoth.G
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] rootIsThreadSafe.classes.interfaceIsStatic.G
+##SUBTASK, Checking [ Singleton class ] rootIsImmutable.classes.interfaceIsNothing.G
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] rootIsImmutable.classes.interfaceIsNothing.G
+##SUBTASK, Checking [ Utility class ] rootIsImmutable.interfaces.rootIsInstance.C
+##SUBTASK, Checking [ Lock policy ] rootIsThreadSafe.classes.rootIsBoth.G
+##SUBTASK, Checking [ Singleton class ] rootIsThreadSafe.classes.interfaceIsInstance.E
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] rootIsImmutable.interfaces.rootIsInstance.C
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] rootIsImmutable.interfaces.rootIsInstance.C
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] rootIsThreadSafe.classes.interfaceIsInstance.E
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] rootIsImmutable.classes.interfaceIsNothing.G
+##SUBTASK, Checking [ Region effects ] rootIsThreadSafe.classes.rootIsBoth.G
+##SUBTASK, Checking [ Utility class ] rootIsImmutable.interfaces.rootIsInstance.E
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] rootIsImmutable.interfaces.rootIsInstance.E
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] rootIsImmutable.classes.rootIsNothing.D
+##SUBTASK, Checking [ Region effects ] rootIsImmutable.interfaces.rootIsInstance.C
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] rootIsThreadSafe.classes.interfaceIsInstance.E
+##SUBTASK, Checking [ Lock policy ] rootIsImmutable.interfaces.rootIsInstance.E
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] rootIsImmutable.interfaces.rootIsInstance.D
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] rootIsImmutable.classes.interfaceIsBoth.C
+##SUBTASK, Checking [ Region effects ] rootIsImmutable.interfaces.rootIsInstance.E
+##SUBTASK, Checking [ Singleton class ] rootIsImmutable.interfaces.rootIsInstance.D
+##SUBTASK, Checking [ Singleton class ] rootIsImmutable.classes.rootIsNothing.D
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] rootIsImmutable.interfaces.rootIsInstance.F
+##SUBTASK, Checking [ Utility class ] rootIsThreadSafe.classes.interfaceIsInstance.F
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] rootIsImmutable.classes.interfaceIsBoth.C
+##SUBTASK, Checking [ Lock policy ] rootIsImmutable.interfaces.rootIsInstance.D
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] rootIsImmutable.interfaces.rootIsInstance.F
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] rootIsImmutable.classes.interfaceIsBoth.C
+##SUBTASK, Checking [ Region effects ] rootIsImmutable.interfaces.rootIsInstance.D
+##SUBTASK, Checking [ Lock policy ] rootIsImmutable.classes.rootIsNothing.D
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] rootIsImmutable.interfaces.rootIsInstance.F
+##SUBTASK, Checking [ Singleton class ] rootIsThreadSafe.classes.interfaceIsInstance.F
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] rootIsImmutable.interfaces.rootIsInstance.G
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] rootIsImmutable.interfaces.rootIsInstance.F
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] rootIsImmutable.interfaces.rootIsInstance.G
+##SUBTASK, Checking [ Region effects ] rootIsImmutable.classes.interfaceIsBoth.C
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] rootIsImmutable.classes.rootIsNothing.D
+##SUBTASK, Checking [ Lock policy ] rootIsThreadSafe.classes.interfaceIsInstance.F
+##SUBTASK, Checking [ Lock policy ] rootIsImmutable.interfaces.rootIsInstance.G
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] rootIsImmutable.classes.rootIsNothing.E
+##SUBTASK, Checking [ Region effects ] rootIsImmutable.interfaces.rootIsInstance.G
+##SUBTASK, Checking [ Utility class ] rootIsImmutable.classes.interfaceIsBoth.D
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] rootIsImmutable.classes.rootIsNothing.E
+##SUBTASK, Checking [ Singleton class ] rootIsImmutable.classes.interfaceIsBoth.D
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] rootIsThreadSafe.classes.interfaceIsInstance.F
+##SUBTASK, Checking [ Utility class ] rootIsImmutable.classes.rootIsNothing.C
+##SUBTASK, Checking [ Lock policy ] rootIsImmutable.classes.rootIsNothing.E
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] rootIsImmutable.classes.interfaceIsBoth.D
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] rootIsImmutable.classes.rootIsNothing.C
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] rootIsImmutable.classes.rootIsNothing.C
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] rootIsThreadSafe.classes.interfaceIsInstance.G
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] rootIsThreadSafe.classes.interfaceIsInstance.G
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] rootIsImmutable.classes.rootIsNothing.E
+##SUBTASK, Checking [ Region effects ] rootIsImmutable.classes.rootIsNothing.C
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] rootIsThreadSafe.classes.interfaceIsInstance.G
+##SUBTASK, Checking [ Region effects ] rootIsImmutable.classes.interfaceIsBoth.D
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] rootIsImmutable.classes.interfaceIsBoth.E
+##SUBTASK, Checking [ Utility class ] rootIsImmutable.classes.rootIsNothing.F
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] rootIsImmutable.classes.interfaceIsBoth.E
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] rootIsImmutable.classes.rootIsNothing.F
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] rootIsThreadSafe.classes.interfaceIsInstance.G
+##SUBTASK, Checking [ Lock policy ] rootIsImmutable.classes.rootIsNothing.F
+##SUBTASK, Checking [ Lock policy ] rootIsImmutable.classes.interfaceIsBoth.E
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] rootIsImmutable.classes.rootIsNothing.F
+##SUBTASK, Checking [ Region effects ] rootIsImmutable.classes.interfaceIsBoth.E
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] rootIsImmutable.classes.rootIsNothing.G
+##SUBTASK, Checking [ Utility class ] rootIsImmutable.classes.interfaceIsBoth.F
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] rootIsImmutable.classes.interfaceIsBoth.F
+##SUBTASK, Checking [ Singleton class ] rootIsImmutable.classes.rootIsNothing.G
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] rootIsImmutable.classes.interfaceIsBoth.F
+##SUBTASK, Checking [ Lock policy ] rootIsImmutable.classes.rootIsNothing.G
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] rootIsImmutable.classes.rootIsNothing.G
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] rootIsImmutable.classes.interfaceIsBoth.F
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] rootIsImmutable.classes.interfaceIsBoth.G
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] rootIsImmutable.classes.interfaceIsBoth.G
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] rootIsImmutable.classes.interfaceIsBoth.G
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] rootIsImmutable.classes.interfaceIsBoth.G
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+Starting group: UniquenessAnalysisModule
+Starting group: NullablePreprocessorModule
+##SUBTASK, Starting parallel NullablePreprocessorModule [11]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel NullablePreprocessorModule [11]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Starting parallel NullablePreprocessorModule [11]: 24 for TestImmutableOverriding2
+Starting parallel NullablePreprocessorModule [11]: 24 for TestImmutableOverriding2
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/interfaces/rootIsStatic/C.java
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/classes/interfaceIsInstance/C.java
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/classes/interfaceIsBoth/C.java
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/interfaces/rootIsNothing/C.java
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/classes/rootIsBoth/C.java
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/interfaces/rootIsNothing/C.java
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/interfaces/rootIsBoth/C.java
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/classes/rootIsStatic/C.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/classes/rootIsInstance/C.java
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/classes/rootIsNothing/C.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/interfaces/rootIsInstance/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/classes/rootIsStatic/C.java
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/classes/interfaceIsInstance/C.java
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/interfaces/rootIsBoth/C.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/classes/interfaceIsNothing/C.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/classes/interfaceIsStatic/C.java
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/interfaces/rootIsStatic/C.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/classes/interfaceIsStatic/C.java
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/interfaces/rootIsInstance/C.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsThreadSafe/classes/interfaceIsNothing/C.java
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/classes/rootIsBoth/C.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/classes/interfaceIsBoth/C.java
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/classes/rootIsNothing/C.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestImmutableOverriding2/src/rootIsImmutable/classes/rootIsInstance/C.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+Starting group: NullableModule2
+##SUBTASK, Starting parallel NullableModule2 [12]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel NullableModule2 [12]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Starting parallel NullableModule2 [12]: 192 for TestImmutableOverriding2
+Starting parallel NullableModule2 [12]: 192 for TestImmutableOverriding2
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.classes.interfaceIsInstance.E.E()
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.classes.rootIsInstance.G.G()
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.classes.rootIsNothing.F.F()
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.classes.rootIsBoth.F.F()
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.classes.interfaceIsBoth.E.E()
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.interfaces.rootIsStatic.C.<clinit>
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.classes.interfaceIsStatic.E.<clinit>
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.classes.interfaceIsInstance.G.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.interfaces.rootIsStatic.D.<clinit>
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.interfaces.rootIsBoth.C.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.classes.interfaceIsStatic.F.F()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.interfaces.rootIsBoth.D.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.interfaces.rootIsBoth.E.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.interfaces.rootIsStatic.E.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.interfaces.rootIsBoth.F.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.interfaces.rootIsStatic.F.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.interfaces.rootIsBoth.G.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.interfaces.rootIsStatic.G.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.classes.rootIsBoth.C.C()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.classes.rootIsInstance.C.C()
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.classes.rootIsInstance.G.<clinit>
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.classes.rootIsBoth.F.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.classes.interfaceIsBoth.E.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.classes.rootIsInstance.C.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.classes.rootIsBoth.G.G()
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.classes.interfaceIsStatic.C.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.classes.interfaceIsBoth.F.F()
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.classes.rootIsNothing.F.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.classes.interfaceIsStatic.F.<clinit>
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.classes.rootIsInstance.D.D()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.classes.rootIsNothing.G.G()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.classes.interfaceIsStatic.G.G()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.classes.interfaceIsInstance.E.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.classes.interfaceIsStatic.D.D()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.classes.interfaceIsInstance.F.F()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.classes.rootIsBoth.C.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.classes.rootIsBoth.D.D()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.classes.interfaceIsBoth.F.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.classes.rootIsBoth.G.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.classes.interfaceIsBoth.G.G()
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.classes.rootIsInstance.D.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.classes.interfaceIsStatic.G.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.classes.interfaceIsStatic.D.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.classes.rootIsInstance.E.E()
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.classes.interfaceIsInstance.F.<clinit>
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.classes.interfaceIsStatic.E.E()
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.classes.rootIsNothing.G.<clinit>
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.classes.interfaceIsInstance.G.G()
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.classes.rootIsBoth.D.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.classes.rootIsBoth.E.E()
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.interfaces.rootIsBoth.C.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.interfaces.rootIsBoth.D.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.interfaces.rootIsBoth.E.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.interfaces.rootIsBoth.F.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.interfaces.rootIsBoth.G.<clinit>
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.classes.interfaceIsInstance.C.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.classes.rootIsInstance.C.C()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.classes.interfaceIsInstance.D.D()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.classes.interfaceIsStatic.E.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.classes.rootIsInstance.E.<clinit>
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.classes.interfaceIsNothing.C.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.classes.interfaceIsStatic.F.F()
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.classes.interfaceIsInstance.G.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.classes.rootIsInstance.F.F()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.interfaces.rootIsNothing.C.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.interfaces.rootIsNothing.D.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.classes.interfaceIsNothing.D.D()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.classes.interfaceIsBoth.G.<clinit>
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.interfaces.rootIsNothing.E.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.classes.rootIsNothing.C.C()
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.classes.interfaceIsStatic.F.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.classes.rootIsBoth.E.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.classes.interfaceIsStatic.G.G()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.classes.interfaceIsInstance.D.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.classes.interfaceIsNothing.D.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.classes.interfaceIsInstance.E.E()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.classes.interfaceIsNothing.E.E()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.classes.rootIsNothing.C.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.classes.rootIsNothing.D.D()
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.classes.rootIsInstance.F.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.classes.rootIsInstance.G.G()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.classes.interfaceIsStatic.G.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.classes.interfaceIsNothing.C.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.classes.interfaceIsInstance.E.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.classes.interfaceIsNothing.D.D()
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.classes.interfaceIsInstance.F.F()
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.classes.interfaceIsNothing.E.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.classes.interfaceIsNothing.F.F()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.classes.rootIsNothing.D.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.classes.rootIsNothing.E.E()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.classes.rootIsInstance.G.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.interfaces.rootIsInstance.C.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.interfaces.rootIsInstance.D.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.classes.rootIsInstance.C.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.classes.rootIsInstance.D.D()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.interfaces.rootIsInstance.E.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.classes.interfaceIsNothing.D.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.interfaces.rootIsInstance.F.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.classes.interfaceIsNothing.E.E()
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.interfaces.rootIsInstance.G.<clinit>
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.interfaces.rootIsNothing.F.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.interfaces.rootIsNothing.C.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.classes.interfaceIsNothing.F.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.interfaces.rootIsNothing.D.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.interfaces.rootIsNothing.E.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.classes.interfaceIsNothing.G.G()
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.classes.interfaceIsInstance.F.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.classes.interfaceIsInstance.G.G()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.classes.rootIsNothing.E.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.classes.rootIsInstance.D.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.classes.rootIsInstance.E.E()
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.classes.interfaceIsNothing.E.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.classes.interfaceIsNothing.F.F()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.interfaces.rootIsNothing.F.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.interfaces.rootIsNothing.G.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.interfaces.rootIsNothing.G.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.classes.rootIsBoth.C.C()
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.classes.rootIsStatic.C.C()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.classes.interfaceIsNothing.G.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.classes.interfaceIsBoth.C.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.classes.interfaceIsBoth.D.D()
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.classes.rootIsInstance.E.<clinit>
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.classes.interfaceIsBoth.F.F()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.classes.rootIsInstance.F.F()
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.classes.rootIsBoth.C.<clinit>
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.classes.rootIsStatic.C.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.classes.rootIsBoth.D.D()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.classes.interfaceIsBoth.D.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.classes.interfaceIsBoth.F.<clinit>
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.classes.interfaceIsBoth.E.E()
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.classes.interfaceIsBoth.G.G()
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.classes.rootIsInstance.F.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.interfaces.rootIsInstance.F.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.interfaces.rootIsStatic.E.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.interfaces.rootIsInstance.G.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.classes.rootIsNothing.C.C()
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.interfaces.rootIsStatic.F.<clinit>
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.classes.rootIsStatic.D.D()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.interfaces.rootIsStatic.G.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.classes.interfaceIsNothing.F.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.interfaces.rootIsInstance.C.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.classes.interfaceIsNothing.G.G()
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.interfaces.rootIsInstance.D.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.interfaces.rootIsInstance.E.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.classes.rootIsBoth.D.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.classes.interfaceIsBoth.E.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.classes.rootIsNothing.E.E()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.classes.rootIsBoth.E.E()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.classes.interfaceIsBoth.G.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.classes.rootIsNothing.C.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.interfaces.rootIsStatic.C.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.classes.rootIsNothing.D.D()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.interfaces.rootIsStatic.D.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.classes.rootIsStatic.D.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.classes.rootIsStatic.E.E()
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.classes.rootIsNothing.E.<clinit>
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.classes.rootIsBoth.E.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.classes.rootIsBoth.F.F()
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.classes.rootIsNothing.F.F()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.classes.rootIsNothing.D.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.classes.rootIsNothing.F.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.classes.interfaceIsNothing.G.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.classes.interfaceIsStatic.C.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.classes.rootIsNothing.G.G()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.classes.rootIsStatic.E.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.classes.rootIsStatic.F.F()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.classes.interfaceIsStatic.D.D()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.classes.rootIsBoth.F.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.classes.rootIsBoth.G.G()
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.classes.rootIsStatic.F.<clinit>
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.classes.interfaceIsStatic.D.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.classes.rootIsNothing.G.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.classes.rootIsStatic.G.G()
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.classes.interfaceIsStatic.E.E()
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.classes.rootIsBoth.G.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.classes.interfaceIsBoth.C.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.classes.interfaceIsBoth.D.D()
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.classes.rootIsStatic.G.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.classes.interfaceIsBoth.D.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.classes.rootIsStatic.C.C()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.classes.rootIsStatic.C.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.classes.rootIsStatic.D.D()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.classes.rootIsStatic.D.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.classes.rootIsStatic.E.E()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.classes.rootIsStatic.E.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.classes.rootIsStatic.F.F()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.classes.rootIsStatic.F.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.classes.rootIsStatic.G.G()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsThreadSafe.classes.rootIsStatic.G.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.classes.interfaceIsInstance.C.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.classes.interfaceIsInstance.D.D()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] rootIsImmutable.classes.interfaceIsInstance.D.<clinit>
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Cleaning up after analysis
+Cleaning up after analysis
+[GC (System.gc())  134600K->64223K(412672K), 0.0076230 secs]
+[Full GC (System.gc())  64223K->37887K(412672K), 0.1307550 secs]
+##WORK, 1
+##SUBTASK_DONE
+Updating consistency proof
+##SUBTASK, Updating consistency proof
+Exporting results to TestImmutableOverrid-2015.06.23-at-13.23.59.719
+##SUBTASK, Exporting results to TestImmutableOverrid-2015.06.23-at-13.23.59.719
+Creating snapshot: /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/TestImmutableOverrid-2015.06.23-at-13.23.59.719/running_or_crashed_sea_snapshot.xml.gz
+[GC (Allocation Failure)  114687K->46094K(411648K), 0.0074900 secs]
+Done in 3926 ms.
+ConcurrencyDetector	: 14 ms
+ThreadEffectsModule	: 10 ms
+StructureAnalysis	: 2 ms
+ParameterizedTypeAnalysis	: 7 ms
+EqualityAnalysis	: 47 ms
+LayersAnalysis	: 132 ms
+UtilityAnalysis	: 2 ms
+SingletonAnalysis	: 2 ms
+LockAnalysis	: 220 ms
+EffectsAnalysis	: 27 ms
+UniquenessAnalysisModule	: 0 ms
+NullablePreprocessorModule	: 12 ms
+NullableModule2	: 840 ms
+[2015-06-23 13:24:04    INFO] partial bindings = 7370 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+[2015-06-23 13:24:04    INFO] full bindings = 1036 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+cached = 0
+totalT = 0
+#Performance data for TestImmutableOverriding2
+#Tue Jun 23 13:24:04 EDT 2015
+jsure.Add.required=0
+jsure.All.analyses=449
+jsure.Binding.before.canon=66
+jsure.Binding.full.time=352
+jsure.Binding.partial.time=248
+jsure.Bindings.full=1036
+jsure.Bindings.partial=7370
+jsure.Canonicalization=189
+jsure.Cleanup=120
+jsure.Destroy.time=23
+jsure.Drop.creation=22
+jsure.Find.canon.time=3
+jsure.Parsing=744
+jsure.Promise.parsing=487
+jsure.Promise.scrubbing=1267
+jsure.Sea.export=603
+jsure.Sea.update=45
+jsure.Total.JSure.time=3926
+jsure.Total.blocks=72
+jsure.Total.canonical=1855
+jsure.Total.decls=216
+jsure.Total.destroyed=0
+jsure.Total.gced=0
+jsure.Total.loc=435
+jsure.Total.nodes=64722
+jsure.Total.stmts=144
+jsure.Total.try.destroyed=705
+jsure.analysis.ConcurrencyDetector=14
+jsure.analysis.EffectsAnalysis=27
+jsure.analysis.EqualityAnalysis=47
+jsure.analysis.LayersAnalysis=132
+jsure.analysis.LockAnalysis=220
+jsure.analysis.NullableModule2=840
+jsure.analysis.NullablePreprocessorModule=12
+jsure.analysis.ParameterizedTypeAnalysis=7
+jsure.analysis.SingletonAnalysis=2
+jsure.analysis.StructureAnalysis=2
+jsure.analysis.ThreadEffectsModule=10
+jsure.analysis.UniquenessAnalysisModule=0
+jsure.analysis.UtilityAnalysis=2
+jsure.num.threads=8
+Javac making log: AnnotationRules
+##DONE
+Renaming snapshot: /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/TestImmutableOverrid-2015.06.23-at-13.23.59.719/sea_snapshot.xml.gz
+Done with JSure!
+Scanning complete (5007 ms)
+No socket to close
+Closing std streams
+Process result after waiting = 0

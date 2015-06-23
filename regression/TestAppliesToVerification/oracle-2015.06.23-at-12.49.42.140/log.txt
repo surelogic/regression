@@ -1,0 +1,2613 @@
+LOCAL vm : 1.8.0_05
+Path: /Users/aarong/git/jsure/jsure-analysis/bin
+Path: /Users/aarong/git/common/common/lib/runtime/commons-codec-1.10.jar
+Path: /Users/aarong/git/common/common/lib/runtime/trove-3.0.3.jar
+Path: /Users/aarong/git/common/common/lib/runtime/antlr-3.5.2-runtime.jar
+Path: /Users/aarong/git/common/common/lib/runtime/servlet-api-3.1.jar
+Path: /Users/aarong/git/jsure/jsure-common/lib/runtime/diffutils-1.2.1.jar
+Path: /Users/aarong/git/common/common/bin
+Path: /Users/aarong/git/common/common/lib/runtime/asm-5.0.2.jar
+Path: /Users/aarong/git/jsure/jsure-analysis/lib/runtime/renamedJavac.jar
+Path: /Users/aarong/git/common/common/lib/runtime/asm-tree-5.0.2.jar
+Path: /Users/aarong/git/common/common/lib/runtime/promises-5.6.0.jar
+Path: /Users/aarong/git/jsure/jsure-analysis/lib/runtime/log4j-xml-1.3alpha-8.jar
+Path: /Users/aarong/git/common/common/lib/runtime/derby-10.11.1.1.jar
+Path: /Users/aarong/git/jsure/jsure-common/bin
+Path: /Users/aarong/git/common/common/lib/runtime/ant-1.9.4.jar
+Path: /Users/aarong/git/common/common/lib/runtime/collections-generic-4.0.jar
+Path: /Users/aarong/git/jsure/jsure-analysis/lib/runtime/log4j-1.3alpha-8.jar
+Path: /Users/aarong/git/common/common/lib/runtime/asm-commons-5.0.2.jar
+Path: /Users/aarong/git/common/common/lib/runtime/commons-lang3-3.3.2.jar
+Path: /Users/aarong/git/common/common/lib/runtime/commons-io-2.4.jar
+Starting process:
+	/Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/jre/bin/java
+	-Dsl.running.in.remote.vm=true
+	-Dsurelogic.test.code=NONE
+	-XX:MaxPermSize=512m
+	-verbosegc
+	-DSureLogicX=true
+	-Dsl.run.dir=/Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/TestAppliesToVerific-2015.06.23-at-12.49.42.140
+	-Dfluid.ir.versioning=Versioning.Off
+	-Dfluid.directory.url=file:/Eclipses/eclipse-standard-luna-SR2-macosx-cocoa-x86_64/../../Users/aarong/git/jsure/jsure-analysis/
+	-Xmx2048m
+	-classpath
+	/Users/aarong/git/jsure/jsure-analysis/bin:/Users/aarong/git/common/common/lib/runtime/commons-codec-1.10.jar:/Users/aarong/git/common/common/lib/runtime/trove-3.0.3.jar:/Users/aarong/git/common/common/lib/runtime/antlr-3.5.2-runtime.jar:/Users/aarong/git/common/common/lib/runtime/servlet-api-3.1.jar:/Users/aarong/git/jsure/jsure-common/lib/runtime/diffutils-1.2.1.jar:/Users/aarong/git/common/common/bin:/Users/aarong/git/common/common/lib/runtime/asm-5.0.2.jar:/Users/aarong/git/jsure/jsure-analysis/lib/runtime/renamedJavac.jar:/Users/aarong/git/common/common/lib/runtime/asm-tree-5.0.2.jar:/Users/aarong/git/common/common/lib/runtime/promises-5.6.0.jar:/Users/aarong/git/jsure/jsure-analysis/lib/runtime/log4j-xml-1.3alpha-8.jar:/Users/aarong/git/common/common/lib/runtime/derby-10.11.1.1.jar:/Users/aarong/git/jsure/jsure-common/bin:/Users/aarong/git/common/common/lib/runtime/ant-1.9.4.jar:/Users/aarong/git/common/common/lib/runtime/collections-generic-4.0.jar:/Users/aarong/git/jsure/jsure-analysis/lib/runtime/log4j-1.3alpha-8.jar:/Users/aarong/git/common/common/lib/runtime/asm-commons-5.0.2.jar:/Users/aarong/git/common/common/lib/runtime/commons-lang3-3.3.2.jar:/Users/aarong/git/common/common/lib/runtime/commons-io-2.4.jar
+	com.surelogic.javac.jobs.RemoteJSureRun
+
+First line in REMOTE vm = Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=512m; support was removed in 8.0
+[GC (Allocation Failure)  512K->504K(327168K), 0.0012620 secs]
+[GC (Allocation Failure)  1004K->603K(327680K), 0.0007720 secs]
+[GC (Allocation Failure)  1627K->751K(327680K), 0.0008820 secs]
+[GC (Allocation Failure)  1775K->815K(328704K), 0.0009780 secs]
+JVM started: 1.8.0_05
+Log level: INFO
+Created reader
+Created monitor
+Created log handler
+Running RemoteJSureRun
+[GC (Allocation Failure)  2863K->1055K(328704K), 0.0011320 secs]
+[GC (Allocation Failure)  3103K->1255K(331264K), 0.0010550 secs]
+[GC (Allocation Failure)  5351K->1639K(331264K), 0.0014300 secs]
+[GC (Allocation Failure)  5735K->1807K(335360K), 0.0014020 secs]
+runPath = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/TestAppliesToVerific-2015.06.23-at-12.49.42.140
+Creating run: TestAppliesToVerific-2015.06.23-at-12.49.42.140
+projects = TestAppliesToVerification
+Loading edu.cmu.cs.fluid.make.nonabductive.proposals = false
+Loading edu.cmu.cs.fluid.load.all.classes = false
+Loading edu.cmu.cs.fluid.timeoutFlag = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BCA = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ConstantExpr = false
+Loading edu.cmu.cs.fluid.physMemoryInMB = 20480
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.EqualityAssurance = true
+Loading edu.cmu.cs.fluid.xml.diff.directory = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/promises-xml
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.UniquenessAssuranceUWM = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.IRConcurrencyDetector = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Singleton = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.CALLS = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BenchmarkingUniquenessSE = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ThreadEffectAssurance2 = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Binder = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.cliend.eclipse.TypeBasedAlias = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Nullable = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.TestIsFunctional = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.UniquenessAssuranceUWM_SE = false
+Loading edu.cmu.cs.fluid.tool-memory-mb = 2048
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.DefinitelyAssigned = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.UniquenessAssuranceSE = true
+Loading edu.cmu.cs.fluid.analysis.thread.count = 8
+Loading edu.cmu.cs.fluid.timeoutSec = 11
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.NonNullRawTypes = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LayersAssurance = true
+Loading edu.cmu.cs.fluid.default.JRE = org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Loading edu.cmu.cs.fluid.timeoutWarningSec = 30
+Loading edu.cmu.cs.fluid.modeling.problem.filters = 00000012com\.apple.*00000013com\.oracle.*00000010com\.sun.*00000014.*\.internal.*00000023.*BakedArrayList\.class00000007apple.*00000008oracle.*00000011quicktime.*00000005sun.*
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Utility = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BenchmarkingUniquenessNew_SE = false
+Loading edu.cmu.cs.fluid.scan.may.use.compression = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ParameterizedType = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Final = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LockAssurance3 = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BenchmarkingUniquenessNew = false
+Loading edu.cmu.cs.fluid.data.directory = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.NullablePreprocessor = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.EffectAssurance2 = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LV = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.StructureAssurance = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Types = false
+JSure data dir = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data
+XML diff dir   = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/promises-xml
+Looking for JRE in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+default JRE = org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Initialized job
+Created com.surelogic.analysis.concurrency.detector.ConcurrencyDetector
+Starting a new group for ConcurrencyDetector
+Created com.surelogic.analysis.threads.ThreadEffectsModule
+Created com.surelogic.analysis.structure.StructureAnalysis
+Created com.surelogic.analysis.annotationbounds.ParameterizedTypeAnalysis
+Created com.surelogic.analysis.equality.EqualityAnalysis
+Created com.surelogic.analysis.layers.LayersAnalysis
+Created com.surelogic.analysis.utility.UtilityAnalysis
+Starting a new group for UtilityAnalysis
+Group: EXTERNALLY
+	ConcurrencyDetector
+	ThreadEffectsModule
+	StructureAnalysis
+	ParameterizedTypeAnalysis
+	EqualityAnalysis
+	LayersAnalysis
+Created com.surelogic.analysis.singleton.SingletonAnalysis
+[GC (Allocation Failure)  9999K->2327K(335360K), 0.0017420 secs]
+Created com.surelogic.analysis.concurrency.driver.LockAnalysis
+Created com.surelogic.analysis.effects.EffectsAnalysis
+Created com.surelogic.analysis.uniqueness.classic.sideeffecting.UniquenessAnalysisModule
+Starting a new group for UniquenessAnalysisModule
+Group: com.surelogic.analysis.visitors.TopLevelAnalysisVisitor$1@69663380, EXTERNALLY
+	UtilityAnalysis
+	SingletonAnalysis
+	LockAnalysis
+	EffectsAnalysis
+Created com.surelogic.analysis.nullable.NullablePreprocessorModule
+Starting a new group for NullablePreprocessorModule
+Group: com.surelogic.analysis.uniqueness.classic.sideeffecting.UniquenessAnalysisModule$1@5b37e0d2, class com.surelogic.analysis.bca.BindingContextAnalysis, INTERNALLY
+	UniquenessAnalysisModule
+Created com.surelogic.analysis.nullable.NullableModule2
+Starting a new group for NullableModule2
+Group: EXTERNALLY
+	NullablePreprocessorModule
+Group: com.surelogic.analysis.granules.FlowUnitGranulator@4459eb14, EXTERNALLY
+	NullableModule2
+##TASK, Scan, 762
+Initializing ...
+##SUBTASK, Initializing ...
+monitor = com.surelogic.common.jobs.remote.AbstractRemoteSLJob$Monitor@5a2e4553
+singleThread = false
+[GC (Allocation Failure)  10519K->2623K(340992K), 0.0017860 secs]
+[GC (Allocation Failure)  15860K->10573K(340992K), 0.0057310 secs]
+[GC (Allocation Failure)  23850K->23792K(351744K), 0.0090870 secs]
+Done initializing org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: 0
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/resources.jar
+[GC (Allocation Failure)  44784K->43853K(352256K), 0.0124750 secs]
+[GC (Allocation Failure)  64845K->47437K(366080K), 0.0052030 secs]
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/rt.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jsse.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jce.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/charsets.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jfr.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/dnsns.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/localedata.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunec.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunjce_provider.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunpkcs11.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/zipfs.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /System/Library/Java/Extensions/MRJToolkit.jar
+Done initializing TestAppliesToVerification: 47
+Trying to find /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/TestAppliesToVerific-2015.06.23-at-12.49.42.140/source/TestAppliesToVerification.bin.zip
+TestAppliesToVerification: TestAppliesToVerification -> org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Done initializing org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: 0
+TestAppliesToVerification: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/resources.jar
+[GC (Allocation Failure)  81229K->54077K(366080K), 0.0073410 secs]
+TestAppliesToVerification: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/rt.jar
+TestAppliesToVerification: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jsse.jar
+TestAppliesToVerification: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jce.jar
+TestAppliesToVerification: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/charsets.jar
+TestAppliesToVerification: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jfr.jar
+TestAppliesToVerification: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/dnsns.jar
+TestAppliesToVerification: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/localedata.jar
+TestAppliesToVerification: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunec.jar
+TestAppliesToVerification: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunjce_provider.jar
+TestAppliesToVerification: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunpkcs11.jar
+TestAppliesToVerification: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/zipfs.jar
+TestAppliesToVerification: Done initializing with /System/Library/Java/Extensions/MRJToolkit.jar
+TestAppliesToVerification: Done initializing with /Users/aarong/git/regression/regression/TestAppliesToVerification/promises-5.6.0.jar
+##SUBTASK_DONE
+##WORK, 1
+Assuming that the projects are run in dependency order
+Parsing ...
+##SUBTASK, Parsing ...
+Done adapting 0 files for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK_DONE
+##WORK, 1
+Parsing ...
+##SUBTASK, Parsing ...
+JCP: warning: [options] bootstrap class path not set in conjunction with -source 1.7
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+Adapting 47 CUTs
+[GC (Allocation Failure)  87869K->61483K(387584K), 0.0115730 secs]
+Done adapting 47 files for TestAppliesToVerification
+##SUBTASK_DONE
+##WORK, 1
+Handling references for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Handling references for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 21 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Setting project for Object from org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 44 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 55 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 51 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 32 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 17 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 8 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 12 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 15 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 4 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 2 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK_DONE
+##WORK, 1
+Handling references for TestAppliesToVerification
+##SUBTASK, Handling references for TestAppliesToVerification
+Handling 25 dangling refs for TestAppliesToVerification
+Handling 5 dangling refs for TestAppliesToVerification
+##SUBTASK_DONE
+##WORK, 1
+Updated 261 files in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Updated 77 files in TestAppliesToVerification
+Parsing ASTs  = 365 ms
+Handling refs = 357 ms
+[2015-06-23 12:49:44    INFO] partial bindings = 0 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+[2015-06-23 12:49:44    INFO] full bindings = 0 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+Canonicalizing ASTs
+##SUBTASK, Canonicalizing ASTs
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+[2015-06-23 12:49:44    INFO] partial bindings = 195 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+[2015-06-23 12:49:44    INFO] full bindings = 322 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+Canonicalizing TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/IAppliesToStaticHasStatic.java
+##WORK, 1
+Canonicalizing TestAppliesToVerification/src/testImmutable/AppliesToInstanceAndStatic.java
+##WORK, 1
+Canonicalizing TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToBothEmpty.java
+##WORK, 1
+Canonicalizing TestAppliesToVerification/src/testImmutable/AppliesToStatic.java
+##WORK, 1
+Canonicalizing TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToBothHasInstance.java
+##WORK, 1
+Canonicalizing TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToInstanceEmpty.java
+##WORK, 1
+Canonicalizing TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToStaticHasStatic.java
+##WORK, 1
+Canonicalizing TestAppliesToVerification/src/testTrivialMessages/testImmutable/IAppliesToBothEmpty.java
+##WORK, 1
+Canonicalizing TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/IAppliesToStaticEmpty.java
+##WORK, 1
+Canonicalizing TestAppliesToVerification/src/helpers/MutClass.java
+##WORK, 1
+Canonicalizing TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/IAppliesToInstanceEmpty.java
+##WORK, 1
+Canonicalizing TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToBothHasStatic.java
+##WORK, 1
+Canonicalizing TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToStaticHasBoth.java
+##WORK, 1
+Canonicalizing TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToBothEmpty.java
+##WORK, 1
+Canonicalizing TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToStaticHasStatic.java
+##WORK, 1
+Canonicalizing TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToInstanceHasInstance.java
+##WORK, 1
+Canonicalizing TestAppliesToVerification/src/testTrivialMessages/testImmutable/IAppliesToStaticHasStatic.java
+##WORK, 1
+Canonicalizing TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToInstanceHasStatic.java
+##WORK, 1
+Canonicalizing TestAppliesToVerification/src/testThreadSafe/AppliesToInstance.java
+##WORK, 1
+Canonicalizing TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToInstanceHasBoth.java
+##WORK, 1
+Canonicalizing TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToInstanceHasBoth.java
+##WORK, 1
+Canonicalizing TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToBothHasStatic.java
+##WORK, 1
+Canonicalizing TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToBothHasBoth.java
+##WORK, 1
+Canonicalizing TestAppliesToVerification/src/testTrivialMessages/testImmutable/IAppliesToStaticEmpty.java
+##WORK, 1
+Canonicalizing TestAppliesToVerification/src/testImmutable/AppliesToInstance.java
+##WORK, 1
+Canonicalizing TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToStaticEmpty.java
+##WORK, 1
+Canonicalizing TestAppliesToVerification/src/testTrivialMessages/testImmutable/IAppliesToInstanceHasStatic.java
+##WORK, 1
+Canonicalizing TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToInstanceHasInstance.java
+##WORK, 1
+Canonicalizing TestAppliesToVerification/src/testThreadSafe/AppliesToInstanceAndStatic.java
+##WORK, 1
+Canonicalizing TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToBothHasInstance.java
+##WORK, 1
+Canonicalizing TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/IAppliesToBothEmpty.java
+##WORK, 1
+Canonicalizing TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToStaticHasInstance.java
+##WORK, 1
+Canonicalizing TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToStaticHasBoth.java
+##WORK, 1
+Canonicalizing TestAppliesToVerification/src/testTrivialMessages/testImmutable/IAppliesToBothHasStatic.java
+##WORK, 1
+Canonicalizing TestAppliesToVerification/src/testThreadSafe/AppliesToStatic.java
+##WORK, 1
+Canonicalizing TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/IAppliesToInstanceHasStatic.java
+##WORK, 1
+Canonicalizing TestAppliesToVerification/src/testTrivialMessages/testImmutable/IAppliesToInstanceEmpty.java
+##WORK, 1
+Canonicalizing TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToStaticHasInstance.java
+##WORK, 1
+Canonicalizing TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToBothHasBoth.java
+##WORK, 1
+Canonicalizing TestAppliesToVerification/src/testThreadSafe/AppliesToDefault.java
+##WORK, 1
+Canonicalizing TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/IAppliesToBothHasStatic.java
+##WORK, 1
+Canonicalizing TestAppliesToVerification/src/helpers/ImmutableClass.java
+##WORK, 1
+Canonicalizing TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToInstanceEmpty.java
+##WORK, 1
+Canonicalizing TestAppliesToVerification/src/testImmutable/AppliesToDefault.java
+##WORK, 1
+Canonicalizing TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToInstanceHasStatic.java
+##WORK, 1
+Canonicalizing TestAppliesToVerification/src/helpers/TS.java
+##WORK, 1
+Canonicalizing TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToStaticEmpty.java
+##WORK, 1
+Binding = 45 ms
+##SUBTASK_DONE
+##WORK, 1
+Handling references for TestAppliesToVerification
+##SUBTASK, Handling references for TestAppliesToVerification
+Handling 21 dangling refs for TestAppliesToVerification
+##SUBTASK_DONE
+##WORK, 1
+Handling references for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Handling references for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 21 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK_DONE
+##WORK, 1
+Updated 261 files in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Updated 77 files in TestAppliesToVerification
+[GC (System.gc())  104744K->65820K(389120K), 0.0129900 secs]
+[Full GC (System.gc())  65820K->54671K(389120K), 0.1124020 secs]
+Creating drops
+##SUBTASK, Creating drops
+Created binary drop for java.nio.file.attribute.FileStoreAttributeView
+Created binary drop for java.security.GeneralSecurityException
+Created binary drop for java.io.FileDescriptor
+Created binary drop for java.nio.file.attribute.UserPrincipal
+Created binary drop for sun.util.locale.InternalLocaleBuilder
+Created binary drop for java.nio.charset.CharsetDecoder
+Created binary drop for java.nio.DoubleBuffer
+Created binary drop for java.security.cert.CertPath
+Created binary drop for java.nio.channels.ScatteringByteChannel
+Created binary drop for java.lang.InterruptedException
+Created binary drop for java.lang.ref.ReferenceQueue
+Created binary drop for java.nio.file.AccessMode
+Created binary drop for java.nio.ByteBuffer
+Created binary drop for java.lang.Integer
+Created source drop for file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToBothEmpty.java
+Created binary drop for java.lang.CharSequence
+Created binary drop for java.util.MissingResourceException
+Created binary drop for java.nio.file.FileSystem
+Created binary drop for java.nio.channels.AsynchronousChannel
+Created binary drop for java.lang.reflect.AccessibleObject
+Created binary drop for java.util.zip.ZipConstants
+Created source drop for file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testImmutable/AppliesToInstanceAndStatic.java
+Created binary drop for sun.util.locale.BaseLocale
+Created binary drop for java.nio.Buffer
+Created binary drop for java.lang.ThreadGroup
+Created binary drop for java.lang.Short
+Created source drop for file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToBothEmpty.java
+Created binary drop for java.lang.AutoCloseable
+Created binary drop for java.nio.channels.FileChannel
+Created binary drop for java.io.Flushable
+Created binary drop for java.nio.file.WatchService
+Created binary drop for java.lang.reflect.GenericDeclaration
+Created source drop for file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/IAppliesToStaticEmpty.java
+Created binary drop for java.lang.CloneNotSupportedException
+Created binary drop for java.lang.ref.SoftReference
+Created binary drop for sun.util.LocaleServiceProviderPool
+Created binary drop for java.net.NetworkInterface
+Created binary drop for java.nio.file.CopyOption
+Created binary drop for java.lang.IllegalAccessException
+Created binary drop for java.lang.SecurityException
+Created binary drop for java.util.jar.JarEntry
+Created binary drop for java.util.Hashtable
+Created binary drop for java.net.InetAddress
+Created binary drop for java.io.InputStream
+Created binary drop for java.nio.file.attribute.FileAttribute
+Created source drop for file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/IAppliesToBothHasStatic.java
+Created binary drop for java.nio.file.Path
+Created binary drop for sun.reflect.MethodAccessor
+Created binary drop for java.net.URI
+Created binary drop for java.util.zip.ZipException
+Created binary drop for java.util.zip.Inflater
+Created binary drop for java.lang.annotation.Documented
+Created binary drop for java.util.AbstractCollection
+Created binary drop for java.lang.Exception
+Created binary drop for java.lang.reflect.TypeVariable
+Created binary drop for java.util.ArrayList
+Created binary drop for java.nio.file.attribute.GroupPrincipal
+Created source drop for file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testImmutable/AppliesToStatic.java
+Created binary drop for java.lang.annotation.Retention
+Created binary drop for java.io.FileNotFoundException
+Created binary drop for java.nio.channels.SeekableByteChannel
+Created binary drop for java.nio.charset.Charset
+Created source drop for file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/IAppliesToBothHasStatic.java
+Created binary drop for java.util.zip.ZipFile
+Created binary drop for java.lang.ref.Reference
+Created binary drop for java.util.concurrent.Future
+Created binary drop for java.lang.Character
+Created binary drop for java.nio.IntBuffer
+Created binary drop for com.surelogic.ThreadSafe
+Created binary drop for java.io.IOException
+Created binary drop for java.nio.CharBuffer
+Created binary drop for java.nio.charset.CharsetEncoder
+Created binary drop for java.nio.file.LinkOption
+Created binary drop for java.io.ObjectStreamException
+Created binary drop for java.util.zip.ZipEntry
+Created binary drop for java.lang.Readable
+Created binary drop for sun.util.locale.Extension
+Created binary drop for java.lang.Runnable
+Created binary drop for java.net.URLConnection
+Created binary drop for java.lang.Float
+Created binary drop for java.util.jar.Attributes
+Created binary drop for java.lang.annotation.Annotation
+Created binary drop for com.surelogic.RegionLock
+Created source drop for file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/helpers/MutClass.java
+Created source drop for file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/IAppliesToBothEmpty.java
+Created binary drop for java.util.Random
+Created binary drop for java.lang.Double
+Created binary drop for java.net.InetAddressImpl
+Created binary drop for java.security.CodeSigner
+Created binary drop for java.net.ContentHandler
+Created binary drop for java.security.DomainCombiner
+Created binary drop for java.util.ListIterator
+Created source drop for file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToBothHasInstance.java
+Created binary drop for java.security.NoSuchProviderException
+Created binary drop for java.util.Set
+Created binary drop for java.util.concurrent.Executor
+Created binary drop for java.util.Enumeration
+Created binary drop for java.nio.file.attribute.AttributeView
+Created binary drop for java.io.Serializable
+Created binary drop for sun.reflect.FieldAccessor
+Created binary drop for java.util.Stack
+Created binary drop for sun.misc.JarIndex
+Created binary drop for java.util.spi.LocaleNameProvider
+Created binary drop for java.nio.channels.AsynchronousFileChannel
+Created binary drop for java.nio.ShortBuffer
+Created binary drop for java.lang.RuntimeException
+Created source drop for file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/IAppliesToInstanceEmpty.java
+Created binary drop for java.lang.NumberFormatException
+Created binary drop for java.security.Permission
+Created binary drop for java.util.jar.JarFile
+Created binary drop for java.io.Closeable
+Created binary drop for java.util.ResourceBundle
+Created binary drop for sun.util.locale.LocaleObjectCache
+Created binary drop for java.nio.channels.Channel
+Created binary drop for java.net.URISyntaxException
+Created binary drop for java.nio.file.OpenOption
+Created binary drop for java.security.PermissionCollection
+Created binary drop for java.nio.file.attribute.UserPrincipalLookupService
+Created binary drop for java.io.FileFilter
+Created source drop for file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToBothHasStatic.java
+Created source drop for file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToInstanceEmpty.java
+Created binary drop for java.util.LinkedList
+Created binary drop for java.nio.channels.ReadableByteChannel
+Created binary drop for java.lang.StackTraceElement
+Created source drop for file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToStaticHasStatic.java
+Created binary drop for java.nio.charset.CodingErrorAction
+Created binary drop for java.security.Key
+Created binary drop for java.net.URLStreamHandlerFactory
+Created binary drop for com.surelogic.Part
+Created binary drop for java.lang.Void
+Created binary drop for java.io.FilenameFilter
+Created source drop for file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/IAppliesToStaticHasStatic.java
+Created binary drop for sun.util.locale.LocaleSyntaxException
+Created binary drop for java.nio.channels.FileLock
+Created binary drop for java.nio.channels.WritableByteChannel
+Created source drop for file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToStaticHasStatic.java
+Created binary drop for java.lang.InstantiationException
+Created source drop for file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToInstanceHasInstance.java
+Created binary drop for java.util.Date
+Created binary drop for java.util.concurrent.Callable
+Created binary drop for java.net.Proxy
+Created source drop for file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToStaticHasBoth.java
+Created binary drop for sun.util.locale.ParseStatus
+Created binary drop for java.security.Principal
+Created binary drop for java.nio.file.WatchKey
+Created binary drop for java.util.concurrent.ExecutorService
+Created binary drop for java.security.cert.CertificateException
+Created binary drop for java.lang.annotation.RetentionPolicy
+Created binary drop for java.util.concurrent.locks.Lock
+Created binary drop for java.lang.ReflectiveOperationException
+Created binary drop for sun.util.locale.LanguageTag
+Created binary drop for sun.misc.Resource
+Created source drop for file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testThreadSafe/AppliesToInstanceAndStatic.java
+Created source drop for file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/IAppliesToInstanceHasStatic.java
+Created binary drop for java.nio.file.FileStore
+Created binary drop for java.util.AbstractSequentialList
+Created binary drop for java.util.AbstractList
+Created binary drop for java.io.OutputStream
+Created source drop for file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testThreadSafe/AppliesToStatic.java
+Created binary drop for java.util.RandomAccess
+Created binary drop for java.util.Dictionary
+Created binary drop for java.util.WeakHashMap
+Created binary drop for java.util.Queue
+Created binary drop for java.io.FilterInputStream
+Created binary drop for java.nio.file.attribute.FileAttributeView
+Created binary drop for java.util.jar.Manifest
+Created binary drop for java.lang.Comparable
+Created binary drop for java.lang.AbstractStringBuilder
+Created binary drop for java.security.NoSuchAlgorithmException
+Created binary drop for java.net.URL
+Created source drop for file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/IAppliesToBothEmpty.java
+Created source drop for file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToBothHasInstance.java
+Created binary drop for java.net.InterfaceAddress
+Created binary drop for java.util.zip.DataFormatException
+Created binary drop for java.lang.Object
+Created binary drop for java.io.PrintStream
+Created binary drop for java.security.PrivilegedAction
+Created binary drop for java.security.cert.Certificate
+Created binary drop for java.net.URLStreamHandler
+Created binary drop for java.lang.Number
+Created binary drop for java.util.concurrent.locks.ReadWriteLock
+Created binary drop for java.util.Map
+Created binary drop for java.nio.ByteOrder
+Created source drop for file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToStaticHasInstance.java
+Created binary drop for java.io.UnsupportedEncodingException
+Created binary drop for java.util.Locale
+Created binary drop for sun.security.util.Debug
+Created source drop for file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToStaticHasBoth.java
+Created binary drop for java.util.Vector
+Created binary drop for java.util.concurrent.ConcurrentMap
+Created binary drop for java.security.cert.CertificateEncodingException
+Created source drop for file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/helpers/ImmutableClass.java
+Created binary drop for java.nio.channels.CompletionHandler
+Created binary drop for java.security.SignatureException
+Created binary drop for java.security.PublicKey
+Created binary drop for java.lang.StringBuilder
+Created binary drop for java.net.SocketException
+Created binary drop for java.util.AbstractMap
+Created source drop for file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToInstanceEmpty.java
+Created binary drop for sun.misc.URLClassPath
+Created binary drop for java.util.Deque
+Created binary drop for java.util.Collection
+Created binary drop for java.lang.reflect.Constructor
+Created binary drop for java.util.zip.InflaterInputStream
+Created binary drop for java.lang.Boolean
+Created binary drop for java.security.AccessControlException
+Created binary drop for java.lang.reflect.InvocationTargetException
+Created binary drop for java.lang.Iterable
+Created binary drop for java.lang.reflect.AnnotatedElement
+Created binary drop for java.lang.IllegalArgumentException
+Created binary drop for java.lang.ClassLoader
+Created binary drop for java.nio.file.PathMatcher
+Created source drop for file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/IAppliesToStaticHasStatic.java
+Created binary drop for java.nio.channels.GatheringByteChannel
+Created source drop for file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToInstanceHasBoth.java
+Created binary drop for sun.nio.ch.Interruptible
+Created source drop for file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testImmutable/AppliesToDefault.java
+Created binary drop for sun.reflect.annotation.AnnotationType
+Created binary drop for java.security.InvalidKeyException
+Created binary drop for java.util.Comparator
+Created binary drop for java.lang.ThreadLocal
+Created binary drop for java.lang.annotation.Target
+Created source drop for file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/IAppliesToInstanceEmpty.java
+Created binary drop for java.security.Timestamp
+Created binary drop for java.nio.file.spi.FileSystemProvider
+Created binary drop for java.lang.Enum
+Created binary drop for java.lang.String
+Created binary drop for sun.misc.MetaIndex
+Created binary drop for java.nio.FloatBuffer
+Created binary drop for java.util.AbstractSet
+Created binary drop for java.nio.channels.AsynchronousCloseException
+Created binary drop for java.lang.Package
+Created source drop for file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToBothHasBoth.java
+Created source drop for file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToBothHasStatic.java
+Created binary drop for java.nio.MappedByteBuffer
+Created binary drop for java.net.SocketAddress
+Created source drop for file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToStaticHasInstance.java
+Created binary drop for java.lang.StringBuffer
+Created binary drop for sun.util.resources.OpenListResourceBundle
+Created binary drop for java.util.SortedMap
+Created binary drop for sun.reflect.ReflectionFactory
+Created binary drop for sun.reflect.LangReflectAccess
+Created source drop for file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToBothHasBoth.java
+Created binary drop for sun.reflect.ConstructorAccessor
+Created binary drop for java.lang.NoSuchFieldException
+Created binary drop for java.math.BigInteger
+Created binary drop for java.lang.Thread
+Created source drop for file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToInstanceHasStatic.java
+Created binary drop for java.net.UnknownServiceException
+Created binary drop for java.lang.annotation.ElementType
+Created binary drop for java.nio.charset.CoderResult
+Created binary drop for sun.reflect.CallerSensitive
+Created binary drop for java.lang.Appendable
+Created source drop for file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/helpers/TS.java
+Created binary drop for java.security.CodeSource
+Created binary drop for java.net.ContentHandlerFactory
+Created binary drop for java.lang.Throwable
+Created source drop for file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testThreadSafe/AppliesToInstance.java
+Created binary drop for java.io.File
+Created binary drop for java.nio.file.attribute.BasicFileAttributes
+Created binary drop for java.nio.channels.InterruptibleChannel
+Created source drop for file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToInstanceHasStatic.java
+Created source drop for file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToInstanceHasBoth.java
+Created binary drop for java.nio.file.Watchable
+Created binary drop for java.security.KeyException
+Created binary drop for java.lang.Cloneable
+Created binary drop for java.security.Guard
+Created binary drop for java.lang.Deprecated
+Created binary drop for java.lang.ref.WeakReference
+Created source drop for file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/IAppliesToStaticEmpty.java
+Created binary drop for java.io.PrintWriter
+Created binary drop for java.lang.reflect.Method
+Created binary drop for java.io.Writer
+Created binary drop for java.lang.reflect.Field
+Created source drop for file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testImmutable/AppliesToInstance.java
+Created binary drop for java.io.SyncFailedException
+Created binary drop for java.nio.charset.CharacterCodingException
+Created binary drop for java.nio.file.DirectoryStream
+Created binary drop for java.lang.reflect.Member
+Created binary drop for java.net.MalformedURLException
+Created binary drop for java.net.UnknownHostException
+Created binary drop for java.nio.LongBuffer
+Created binary drop for java.lang.Long
+Created binary drop for com.surelogic.Immutable
+Created source drop for file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testThreadSafe/AppliesToDefault.java
+Created binary drop for java.util.Iterator
+Created binary drop for java.net.FileNameMap
+Created binary drop for java.io.DataOutput
+Created binary drop for java.nio.file.WatchEvent
+Created binary drop for java.nio.file.attribute.FileTime
+Created binary drop for java.util.concurrent.locks.Condition
+Created binary drop for java.nio.channels.spi.AbstractInterruptibleChannel
+Created binary drop for java.util.spi.LocaleServiceProvider
+Created source drop for file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToStaticEmpty.java
+Created binary drop for java.util.List
+Created binary drop for java.lang.Byte
+Created binary drop for java.io.FilterOutputStream
+Created binary drop for sun.reflect.ConstantPool
+Created binary drop for java.lang.ClassValue
+Created binary drop for java.nio.channels.ClosedChannelException
+Created binary drop for java.security.AccessControlContext
+Created binary drop for sun.util.locale.LocaleExtensions
+Created binary drop for java.io.DataOutputStream
+Created binary drop for java.lang.reflect.Type
+Created binary drop for java.nio.channels.ByteChannel
+Created binary drop for java.security.ProtectionDomain
+Created source drop for file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToStaticEmpty.java
+Created binary drop for java.util.concurrent.TimeUnit
+Created binary drop for java.util.HashMap
+Created source drop for file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/IAppliesToInstanceHasStatic.java
+Created source drop for file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToInstanceHasInstance.java
+Created binary drop for java.lang.Class
+##SUBTASK_DONE
+##WORK, 1
+Parsing promises
+##SUBTASK, Parsing promises
+Added 3 promises for java.lang.[] in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@799f7e29
+Added 3 promises for java.lang.[] in TestAppliesToVerification: com.surelogic.tree.SyntaxTreeNode@a10c1b5
+Added 6 promises for java.lang.InterruptedException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@717e1ded
+Added 1 promises for testTrivialMessages.testThreadSafe.IAppliesToStaticEmpty in TestAppliesToVerification: com.surelogic.tree.SyntaxTreeNode@3e468208
+Added 1 promises for testTrivialMessages.testImmutable.AppliesToBothEmpty in TestAppliesToVerification: com.surelogic.tree.SyntaxTreeNode@516ea6c7
+Added 1 promises for testTrivialMessages.testThreadSafe.IAppliesToInstanceEmpty in TestAppliesToVerification: com.surelogic.tree.SyntaxTreeNode@6ee77332
+Added 1 promises for java.lang.ref.ReferenceQueue in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@51bf6079
+Added 6 promises for java.lang.IllegalAccessException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@448cd2d1
+Added 12 promises for java.lang.Exception in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@67bdc948
+Added 12 promises for java.lang.CharSequence in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4e403902
+Added 1 promises for testTrivialMessages.testThreadSafe.IAppliesToBothHasStatic in TestAppliesToVerification: com.surelogic.tree.SyntaxTreeNode@1b63fb6f
+Added 3 promises for java.nio.file.Path in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@33e42c01
+Added 61 promises for java.lang.Short in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6ad03cd2
+Added 96 promises for java.lang.Integer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7d2a9af0
+Added 1 promises for testTrivialMessages.testImmutable.AppliesToBothHasStatic in TestAppliesToVerification: com.surelogic.tree.SyntaxTreeNode@325fc3a5
+Added 1 promises for testImmutable.AppliesToInstanceAndStatic in TestAppliesToVerification: com.surelogic.tree.SyntaxTreeNode@73b6d7bf
+Added 45 promises for java.util.ResourceBundle in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@10b7fab7
+Added 1 promises for testTrivialMessages.testThreadSafe.AppliesToBothEmpty in TestAppliesToVerification: com.surelogic.tree.SyntaxTreeNode@3eaf6fab
+Added 1 promises for testTrivialMessages.testThreadSafe.AppliesToStaticHasBoth in TestAppliesToVerification: com.surelogic.tree.SyntaxTreeNode@407dfe87
+Added 12 promises for java.lang.SecurityException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@8947dad
+Added 2 promises for java.lang.ref.SoftReference in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@27c97d4a
+Added 18 promises for java.nio.CharBuffer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@424cea1
+Added 55 promises for java.util.AbstractCollection in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@5a2b12bc
+Added 54 promises for java.util.Set in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3b6e7fb7
+Added 83 promises for java.util.Hashtable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6a03061d
+Added 1 promises for testImmutable.AppliesToStatic in TestAppliesToVerification: com.surelogic.tree.SyntaxTreeNode@7276b26e
+WARNING: TreeAccessor couldn't find equals(java.lang.Object) in java.util.ArrayList
+WARNING: TreeAccessor couldn't find hashCode() in java.util.ArrayList
+Added 3 promises for java.util.zip.ZipEntry in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4ee6fe35
+Added 70 promises for java.lang.Double in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3bc7bae6
+Added 104 promises for java.util.ArrayList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@399bf400
+Added 6 promises for java.lang.CloneNotSupportedException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2f9ef392
+Added 1 promises for testTrivialMessages.testThreadSafe.AppliesToBothHasInstance in TestAppliesToVerification: com.surelogic.tree.SyntaxTreeNode@63260711
+Added 2 promises for testThreadSafe.AppliesToInstanceAndStatic in TestAppliesToVerification: com.surelogic.tree.SyntaxTreeNode@7c5127a6
+Added 21 promises for java.util.Stack in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4a5c5093
+Added 1 promises for testTrivialMessages.testImmutable.IAppliesToBothHasStatic in TestAppliesToVerification: com.surelogic.tree.SyntaxTreeNode@7492952
+Added 1 promises for testTrivialMessages.testThreadSafe.IAppliesToStaticHasStatic in TestAppliesToVerification: com.surelogic.tree.SyntaxTreeNode@57f54319
+Added 88 promises for java.util.jar.Attributes in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4feeb24a
+Added 1 promises for testTrivialMessages.testImmutable.AppliesToInstanceEmpty in TestAppliesToVerification: com.surelogic.tree.SyntaxTreeNode@f76108a
+Added 6 promises for java.lang.InstantiationException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3ac987a2
+Added 18 promises for java.util.Queue in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7cdc4ab2
+Added 1 promises for testTrivialMessages.testThreadSafe.AppliesToStaticHasStatic in TestAppliesToVerification: com.surelogic.tree.SyntaxTreeNode@28e02207
+Added 1 promises for testTrivialMessages.testImmutable.IAppliesToBothEmpty in TestAppliesToVerification: com.surelogic.tree.SyntaxTreeNode@47b2f041
+Added 1 promises for testTrivialMessages.testImmutable.AppliesToBothHasInstance in TestAppliesToVerification: com.surelogic.tree.SyntaxTreeNode@597770f7
+Added 73 promises for java.lang.Float in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@72e2856e
+Added 6 promises for java.io.PrintStream in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2cde37e6
+Added 3 promises for java.util.Date in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4e3d4a72
+Added 18 promises for java.util.ListIterator in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@107e44e5
+Added 144 promises for java.lang.AbstractStringBuilder in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@31aeca68
+Added 12 promises for java.lang.RuntimeException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@f9b12ce
+Added 31 promises for java.lang.Object in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@68dc186f
+Added 29 promises for java.util.Dictionary in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3f693e5c
+Added 6 promises for java.lang.NumberFormatException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@e5172b
+Added 4 promises for java.util.Enumeration in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6352b374
+Added 12 promises for java.lang.reflect.InvocationTargetException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@1ad794ba
+Added 64 promises for java.util.Map in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@10963275
+[GC (Allocation Failure)  107407K->58039K(392192K), 0.0047320 secs]
+Added 18 promises for java.net.URISyntaxException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@f1b27ca
+Added 1 promises for testTrivialMessages.testThreadSafe.AppliesToInstanceHasBoth in TestAppliesToVerification: com.surelogic.tree.SyntaxTreeNode@f266b3e
+Added 1 promises for testTrivialMessages.testImmutable.AppliesToStaticHasStatic in TestAppliesToVerification: com.surelogic.tree.SyntaxTreeNode@4ac86c2c
+Added 16 promises for java.util.AbstractSet in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@5fbc4fdb
+Added 1 promises for testTrivialMessages.testThreadSafe.AppliesToInstanceHasInstance in TestAppliesToVerification: com.surelogic.tree.SyntaxTreeNode@6897b715
+Added 13 promises for java.lang.Enum in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@18456031
+Added 1 promises for testTrivialMessages.testThreadSafe.AppliesToBothHasStatic in TestAppliesToVerification: com.surelogic.tree.SyntaxTreeNode@ad20dc9
+Added 170 promises for java.util.Vector in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6efad65
+Added 1 promises for testTrivialMessages.testImmutable.IAppliesToStaticHasStatic in TestAppliesToVerification: com.surelogic.tree.SyntaxTreeNode@40a25fcd
+Added 1 promises for helpers.ImmutableClass in TestAppliesToVerification: com.surelogic.tree.SyntaxTreeNode@17cf0bba
+Added 1 promises for java.lang.ThreadLocal in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@64ae051d
+Added 1 promises for testTrivialMessages.testThreadSafe.AppliesToInstanceEmpty in TestAppliesToVerification: com.surelogic.tree.SyntaxTreeNode@248be1e7
+Added 60 promises for java.util.AbstractList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@140cb71
+Added 6 promises for java.lang.Appendable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@35124851
+Added 34 promises for java.util.concurrent.ExecutorService in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@28b6bb5c
+Added 1 promises for testThreadSafe.AppliesToInstance in TestAppliesToVerification: com.surelogic.tree.SyntaxTreeNode@3eed19e7
+Added 139 promises for java.util.LinkedList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3bf93641
+Added 1 promises for testTrivialMessages.testImmutable.AppliesToInstanceHasBoth in TestAppliesToVerification: com.surelogic.tree.SyntaxTreeNode@71061c0f
+Added 1 promises for testTrivialMessages.testThreadSafe.IAppliesToBothEmpty in TestAppliesToVerification: com.surelogic.tree.SyntaxTreeNode@1669e880
+Added 1 promises for testTrivialMessages.testThreadSafe.AppliesToStaticHasInstance in TestAppliesToVerification: com.surelogic.tree.SyntaxTreeNode@53645068
+Added 1 promises for testTrivialMessages.testImmutable.AppliesToStaticHasBoth in TestAppliesToVerification: com.surelogic.tree.SyntaxTreeNode@48dd3c81
+Added 20 promises for java.util.concurrent.locks.Lock in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@11b9e7b
+Added 1 promises for testTrivialMessages.testThreadSafe.IAppliesToInstanceHasStatic in TestAppliesToVerification: com.surelogic.tree.SyntaxTreeNode@2f234ece
+Added 2 promises for testThreadSafe.AppliesToStatic in TestAppliesToVerification: com.surelogic.tree.SyntaxTreeNode@1625e8b1
+Added 3 promises for java.util.jar.Manifest in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4ca16b0e
+Added 54 promises for java.util.Collection in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@151a3ef9
+Added 158 promises for java.lang.StringBuffer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4df6c1fb
+Added 22 promises for java.lang.Number in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@1e0a5eed
+Added 138 promises for java.math.BigInteger in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4eb1db7e
+Added 37 promises for java.lang.Boolean in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3af54fa8
+Added 1 promises for testTrivialMessages.testThreadSafe.AppliesToInstanceHasStatic in TestAppliesToVerification: com.surelogic.tree.SyntaxTreeNode@250d10d7
+Added 17 promises for java.util.concurrent.ConcurrentMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@78303a34
+Added 1 promises for testTrivialMessages.testImmutable.AppliesToBothHasBoth in TestAppliesToVerification: com.surelogic.tree.SyntaxTreeNode@3b2093a6
+Added 3 promises for java.lang.Iterable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2ed6c573
+Added 47 promises for java.lang.Throwable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@1632075f
+Added 1 promises for testTrivialMessages.testImmutable.IAppliesToStaticEmpty in TestAppliesToVerification: com.surelogic.tree.SyntaxTreeNode@fb178f3
+Added 1 promises for testImmutable.AppliesToInstance in TestAppliesToVerification: com.surelogic.tree.SyntaxTreeNode@6aa0d39f
+Added 29 promises for java.util.AbstractSequentialList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6a80c5c4
+Added 6 promises for java.io.PrintWriter in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@5b6fd456
+Added 109 promises for java.lang.StringBuilder in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6be4ea1a
+Added 87 promises for java.util.Deque in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@18eadd0f
+Added 56 promises for java.util.WeakHashMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@13c1e9ee
+Added 96 promises for java.lang.Long in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@55fac2f8
+Added 3 promises for java.nio.file.DirectoryStream in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@5126f84f
+Added 6 promises for java.util.Iterator in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@54b47664
+Added 12 promises for java.lang.IllegalArgumentException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2ef7d992
+Added 7 promises for java.util.concurrent.locks.ReadWriteLock in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2dedf3e8
+Added 1 promises for testTrivialMessages.testImmutable.IAppliesToInstanceEmpty in TestAppliesToVerification: com.surelogic.tree.SyntaxTreeNode@2dba1ebf
+Added 1 promises for testTrivialMessages.testImmutable.AppliesToStaticEmpty in TestAppliesToVerification: com.surelogic.tree.SyntaxTreeNode@52ac272e
+Added 3 promises for java.util.Locale in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6459e1a7
+Added 1 promises for testImmutable.AppliesToDefault in TestAppliesToVerification: com.surelogic.tree.SyntaxTreeNode@4d58a2c9
+Added 1 promises for testTrivialMessages.testImmutable.AppliesToStaticHasInstance in TestAppliesToVerification: com.surelogic.tree.SyntaxTreeNode@112b0bfd
+Added 1 promises for testTrivialMessages.testThreadSafe.AppliesToBothHasBoth in TestAppliesToVerification: com.surelogic.tree.SyntaxTreeNode@72c144f4
+Added 29 promises for java.util.concurrent.TimeUnit in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@1ea0bfe7
+Added 108 promises for java.util.AbstractMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@11417476
+Added 6 promises for java.io.Writer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@1bd8f9be
+Added 2 promises for testThreadSafe.AppliesToDefault in TestAppliesToVerification: com.surelogic.tree.SyntaxTreeNode@6cc3ccaa
+Added 6 promises for java.lang.NoSuchFieldException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@573744af
+Added 1 promises for helpers.TS in TestAppliesToVerification: com.surelogic.tree.SyntaxTreeNode@3878e3d5
+Added 22 promises for java.util.concurrent.locks.Condition in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7172743
+Added 61 promises for java.util.HashMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@5bc66ecb
+Added 1 promises for testTrivialMessages.testImmutable.IAppliesToInstanceHasStatic in TestAppliesToVerification: com.surelogic.tree.SyntaxTreeNode@4578b97a
+Added 1 promises for testTrivialMessages.testImmutable.AppliesToInstanceHasInstance in TestAppliesToVerification: com.surelogic.tree.SyntaxTreeNode@3e194502
+[GC (Allocation Failure)  112823K->59348K(391680K), 0.0039050 secs]
+Added 141 promises for java.lang.Thread in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@332b5b2a
+Added 12 promises for java.lang.Class in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3ec8aa43
+Added 1 promises for testTrivialMessages.testImmutable.AppliesToInstanceHasStatic in TestAppliesToVerification: com.surelogic.tree.SyntaxTreeNode@43d18f59
+Added 301 promises for java.lang.String in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@20c43ede
+Added 89 promises for java.util.List in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@174ba2d3
+Added 31 promises for java.util.SortedMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@481b3c14
+Added 59 promises for java.lang.Byte in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@786d674a
+Added 1 promises for testTrivialMessages.testThreadSafe.AppliesToStaticEmpty in TestAppliesToVerification: com.surelogic.tree.SyntaxTreeNode@3e325519
+##SUBTASK_DONE
+##WORK, 1
+Scrubbing promises
+##SUBTASK, Scrubbing promises
+Creating RegionModel java.lang.Object.Instance for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+[GC (Allocation Failure)  114132K->62062K(412160K), 0.0100540 secs]
+##SUBTASK_DONE
+##WORK, 1
+Starting analyses
+Using new analysis framework -- groups
+Starting group: ConcurrencyDetector, ThreadEffectsModule, StructureAnalysis, ParameterizedTypeAnalysis, EqualityAnalysis, LayersAnalysis
+##SUBTASK, Starting parallel ConcurrencyDetector [0]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel ConcurrencyDetector [0]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Starting parallel ThreadEffectsModule [1]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel ThreadEffectsModule [1]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Starting parallel StructureAnalysis [2]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel StructureAnalysis [2]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Starting parallel ParameterizedTypeAnalysis [3]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel ParameterizedTypeAnalysis [3]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Starting parallel EqualityAnalysis [4]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel EqualityAnalysis [4]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Starting parallel LayersAnalysis [5]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel LayersAnalysis [5]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Starting parallel ConcurrencyDetector [0]: 47 for TestAppliesToVerification
+Starting parallel ConcurrencyDetector [0]: 47 for TestAppliesToVerification
+##SUBTASK, Starting parallel ThreadEffectsModule [1]: 47 for TestAppliesToVerification
+Starting parallel ThreadEffectsModule [1]: 47 for TestAppliesToVerification
+##SUBTASK, Starting parallel StructureAnalysis [2]: 47 for TestAppliesToVerification
+Starting parallel StructureAnalysis [2]: 47 for TestAppliesToVerification
+##SUBTASK, Starting parallel ParameterizedTypeAnalysis [3]: 47 for TestAppliesToVerification
+Starting parallel ParameterizedTypeAnalysis [3]: 47 for TestAppliesToVerification
+##SUBTASK, Starting parallel EqualityAnalysis [4]: 47 for TestAppliesToVerification
+Starting parallel EqualityAnalysis [4]: 47 for TestAppliesToVerification
+##SUBTASK, Starting parallel LayersAnalysis [5]: 47 for TestAppliesToVerification
+Starting parallel LayersAnalysis [5]: 47 for TestAppliesToVerification
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToStaticHasBoth.java
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/IAppliesToStaticHasStatic.java
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToBothEmpty.java
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testThreadSafe/AppliesToInstanceAndStatic.java
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testThreadSafe/AppliesToStatic.java
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToInstanceHasStatic.java
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToBothHasStatic.java
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToStaticHasInstance.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToBothEmpty.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/IAppliesToStaticHasStatic.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToInstanceHasStatic.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToStaticHasBoth.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToBothHasStatic.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testThreadSafe/AppliesToInstanceAndStatic.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testThreadSafe/AppliesToStatic.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToStaticHasInstance.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToStaticHasInstance.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToStaticHasBoth.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToBothHasStatic.java
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToBothEmpty.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testThreadSafe/AppliesToStatic.java
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToStaticHasInstance.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/IAppliesToStaticHasStatic.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/IAppliesToStaticHasStatic.java
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testThreadSafe/AppliesToInstanceAndStatic.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testThreadSafe/AppliesToInstanceAndStatic.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testThreadSafe/AppliesToStatic.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testThreadSafe/AppliesToInstanceAndStatic.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testThreadSafe/AppliesToStatic.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToBothHasStatic.java
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToStaticHasBoth.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToBothHasStatic.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToStaticHasBoth.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToInstanceHasStatic.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToInstanceHasStatic.java
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToBothEmpty.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToStaticHasInstance.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/IAppliesToStaticHasStatic.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToBothEmpty.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToInstanceHasStatic.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToStaticHasInstance.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToStaticHasBoth.java
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/IAppliesToStaticHasStatic.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testThreadSafe/AppliesToInstanceAndStatic.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToBothEmpty.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToBothHasStatic.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToInstanceHasStatic.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testThreadSafe/AppliesToStatic.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/IAppliesToInstanceHasStatic.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/IAppliesToInstanceHasStatic.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/IAppliesToInstanceHasStatic.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/IAppliesToInstanceHasStatic.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/IAppliesToInstanceHasStatic.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/IAppliesToInstanceHasStatic.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/helpers/TS.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/helpers/TS.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/helpers/TS.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/helpers/TS.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/helpers/TS.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/helpers/TS.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToInstanceEmpty.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToInstanceEmpty.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToInstanceHasStatic.java
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/IAppliesToBothEmpty.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToInstanceEmpty.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToStaticHasStatic.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/IAppliesToBothEmpty.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToStaticHasStatic.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToStaticHasStatic.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToStaticHasStatic.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToInstanceHasStatic.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/IAppliesToBothEmpty.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/IAppliesToBothEmpty.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/IAppliesToBothEmpty.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/IAppliesToBothEmpty.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testImmutable/AppliesToStatic.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testImmutable/AppliesToStatic.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testImmutable/AppliesToStatic.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testImmutable/AppliesToStatic.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToInstanceEmpty.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testImmutable/AppliesToStatic.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToStaticHasBoth.java
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testImmutable/AppliesToInstanceAndStatic.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testImmutable/AppliesToStatic.java
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToBothHasInstance.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testImmutable/AppliesToInstanceAndStatic.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToBothHasInstance.java
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToInstanceHasStatic.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToInstanceHasStatic.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToStaticHasStatic.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToInstanceHasStatic.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToStaticHasStatic.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testImmutable/AppliesToInstanceAndStatic.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testImmutable/AppliesToInstanceAndStatic.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToBothHasInstance.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testImmutable/AppliesToInstanceAndStatic.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToStaticHasBoth.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToInstanceEmpty.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testImmutable/AppliesToInstanceAndStatic.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToStaticHasBoth.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToStaticHasBoth.java
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToBothHasInstance.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToInstanceHasInstance.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToInstanceHasStatic.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/IAppliesToBothHasStatic.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/IAppliesToStaticEmpty.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToInstanceHasInstance.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToInstanceHasInstance.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToInstanceHasInstance.java
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToStaticHasBoth.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToInstanceHasInstance.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToStaticHasBoth.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToInstanceHasInstance.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToInstanceEmpty.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/helpers/ImmutableClass.java
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToBothHasInstance.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/helpers/ImmutableClass.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToBothHasInstance.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/IAppliesToStaticEmpty.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/helpers/ImmutableClass.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/IAppliesToStaticEmpty.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/IAppliesToStaticEmpty.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/IAppliesToStaticEmpty.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/IAppliesToStaticEmpty.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testThreadSafe/AppliesToInstance.java
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testImmutable/AppliesToDefault.java
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToBothEmpty.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToBothEmpty.java
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToInstanceEmpty.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/IAppliesToBothHasStatic.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToBothEmpty.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToBothEmpty.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToBothEmpty.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testImmutable/AppliesToDefault.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToBothEmpty.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/helpers/ImmutableClass.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToStaticHasStatic.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToStaticHasStatic.java
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testImmutable/AppliesToDefault.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testImmutable/AppliesToDefault.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/helpers/ImmutableClass.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testThreadSafe/AppliesToInstance.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testImmutable/AppliesToDefault.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testThreadSafe/AppliesToInstance.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testThreadSafe/AppliesToInstance.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/IAppliesToBothHasStatic.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/IAppliesToBothHasStatic.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testThreadSafe/AppliesToInstance.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/IAppliesToBothHasStatic.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/IAppliesToBothHasStatic.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testThreadSafe/AppliesToInstance.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/helpers/MutClass.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToInstanceEmpty.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToInstanceEmpty.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/helpers/ImmutableClass.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToStaticHasStatic.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToStaticHasStatic.java
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/IAppliesToBothHasStatic.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToStaticHasStatic.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/IAppliesToBothHasStatic.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/IAppliesToStaticHasStatic.java
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/IAppliesToBothEmpty.java
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/IAppliesToBothHasStatic.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToStaticHasStatic.java
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testImmutable/AppliesToDefault.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToInstanceHasBoth.java
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToInstanceHasBoth.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToInstanceHasBoth.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToInstanceHasBoth.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToInstanceHasBoth.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/helpers/MutClass.java
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToInstanceHasBoth.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToInstanceHasBoth.java
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToInstanceHasBoth.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToInstanceHasBoth.java
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToInstanceEmpty.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/IAppliesToBothHasStatic.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/IAppliesToBothEmpty.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/IAppliesToBothHasStatic.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/IAppliesToStaticHasStatic.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToInstanceEmpty.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToInstanceHasBoth.java
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/IAppliesToInstanceEmpty.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToInstanceEmpty.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToInstanceHasBoth.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/helpers/MutClass.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/IAppliesToStaticEmpty.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToInstanceHasBoth.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/IAppliesToInstanceEmpty.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/IAppliesToStaticHasStatic.java
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/IAppliesToBothEmpty.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/IAppliesToBothEmpty.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToBothHasBoth.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/IAppliesToInstanceEmpty.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToBothHasBoth.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/IAppliesToStaticEmpty.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/IAppliesToStaticEmpty.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/IAppliesToStaticEmpty.java
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/helpers/MutClass.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/helpers/MutClass.java
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToBothHasBoth.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToBothHasBoth.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/IAppliesToInstanceEmpty.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/IAppliesToStaticHasStatic.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/IAppliesToBothEmpty.java
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/IAppliesToBothHasStatic.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/IAppliesToInstanceEmpty.java
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToBothHasBoth.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/helpers/MutClass.java
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/IAppliesToStaticEmpty.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/IAppliesToStaticEmpty.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/IAppliesToInstanceEmpty.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/IAppliesToStaticHasStatic.java
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToBothHasStatic.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/IAppliesToBothEmpty.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testImmutable/AppliesToInstance.java
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToBothHasBoth.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/IAppliesToInstanceEmpty.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testImmutable/AppliesToInstance.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/IAppliesToInstanceEmpty.java
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToBothHasInstance.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/IAppliesToInstanceEmpty.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToStaticHasInstance.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/IAppliesToStaticHasStatic.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToStaticHasInstance.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToStaticHasInstance.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToStaticHasInstance.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToBothHasStatic.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToBothHasInstance.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToBothHasStatic.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToBothHasStatic.java
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testImmutable/AppliesToInstance.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToBothHasStatic.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/IAppliesToInstanceEmpty.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToBothHasStatic.java
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testImmutable/AppliesToInstance.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToBothHasInstance.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testImmutable/AppliesToInstance.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToStaticHasInstance.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testImmutable/AppliesToInstance.java
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToBothHasInstance.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/IAppliesToInstanceEmpty.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToStaticHasInstance.java
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/IAppliesToInstanceEmpty.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToBothHasInstance.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToBothHasInstance.java
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToBothHasBoth.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToBothHasBoth.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToBothHasBoth.java
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testThreadSafe/AppliesToDefault.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToBothHasBoth.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToBothHasBoth.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToBothHasBoth.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testThreadSafe/AppliesToDefault.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testThreadSafe/AppliesToDefault.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testThreadSafe/AppliesToDefault.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testThreadSafe/AppliesToDefault.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testThreadSafe/AppliesToDefault.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToStaticEmpty.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToStaticEmpty.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToStaticEmpty.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToStaticEmpty.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToStaticEmpty.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToStaticEmpty.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToStaticEmpty.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToStaticEmpty.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToStaticEmpty.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToStaticEmpty.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToStaticEmpty.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToStaticEmpty.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/IAppliesToInstanceHasStatic.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/IAppliesToInstanceHasStatic.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/IAppliesToInstanceHasStatic.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/IAppliesToInstanceHasStatic.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/IAppliesToInstanceHasStatic.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/IAppliesToInstanceHasStatic.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToInstanceHasInstance.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToInstanceHasInstance.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToInstanceHasInstance.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToInstanceHasInstance.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToInstanceHasInstance.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToInstanceHasInstance.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+Starting group: UtilityAnalysis, SingletonAnalysis, LockAnalysis, EffectsAnalysis
+com.surelogic.analysis.uniqueness.classic.sideeffecting.UniquenessAnalysisModule$1@5b37e0d2: 0
+com.surelogic.analysis.visitors.TopLevelAnalysisVisitor$1@69663380: 47
+com.surelogic.analysis.granules.FlowUnitGranulator@4459eb14: 82
+##SUBTASK, Starting parallel UtilityAnalysis [6]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel UtilityAnalysis [6]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Starting parallel SingletonAnalysis [7]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel SingletonAnalysis [7]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Starting parallel LockAnalysis [8]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel LockAnalysis [8]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Looking at @RegionLock("MUTEX is this protects WaitQueue") on Object
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@4c8fc533 on java.lang.Object
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@2fb0e804 on testThreadSafe.AppliesToStatic
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@3c8633f5 on testThreadSafe.AppliesToInstanceAndStatic
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@60a13d2a on testThreadSafe.AppliesToDefault
+##SUBTASK, Starting parallel EffectsAnalysis [9]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel EffectsAnalysis [9]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Starting parallel UtilityAnalysis [6]: 47 for TestAppliesToVerification
+Starting parallel UtilityAnalysis [6]: 47 for TestAppliesToVerification
+##SUBTASK, Starting parallel SingletonAnalysis [7]: 47 for TestAppliesToVerification
+Starting parallel SingletonAnalysis [7]: 47 for TestAppliesToVerification
+##SUBTASK, Starting parallel LockAnalysis [8]: 47 for TestAppliesToVerification
+Starting parallel LockAnalysis [8]: 47 for TestAppliesToVerification
+Looking at @RegionLock("MUTEX is this protects WaitQueue") on Object
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@4c8fc533 on java.lang.Object
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@2fb0e804 on testThreadSafe.AppliesToStatic
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@3c8633f5 on testThreadSafe.AppliesToInstanceAndStatic
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@60a13d2a on testThreadSafe.AppliesToDefault
+##SUBTASK, Starting parallel EffectsAnalysis [9]: 47 for TestAppliesToVerification
+Starting parallel EffectsAnalysis [9]: 47 for TestAppliesToVerification
+##SUBTASK, Checking [ Utility class ] testTrivialMessages.testImmutable.AppliesToBothHasStatic
+##SUBTASK, Checking [ Utility class ] testTrivialMessages.testThreadSafe.AppliesToStaticHasInstance
+##SUBTASK, Checking [ Utility class ] testTrivialMessages.testThreadSafe.AppliesToInstanceHasStatic
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] testTrivialMessages.testThreadSafe.AppliesToStaticHasInstance
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] testTrivialMessages.testThreadSafe.AppliesToInstanceHasStatic
+##SUBTASK, Checking [ Utility class ] testImmutable.AppliesToInstanceAndStatic
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testTrivialMessages.testThreadSafe.AppliesToStaticHasInstance
+##SUBTASK, Checking [ Utility class ] testImmutable.AppliesToStatic
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] testTrivialMessages.testImmutable.AppliesToBothHasStatic
+##SUBTASK, Checking [ Utility class ] testTrivialMessages.testImmutable.AppliesToBothEmpty
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] testImmutable.AppliesToStatic
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testTrivialMessages.testThreadSafe.AppliesToInstanceHasStatic
+##SUBTASK, Checking [ Utility class ] testTrivialMessages.testThreadSafe.AppliesToStaticHasBoth
+##SUBTASK, Checking [ Utility class ] testTrivialMessages.testThreadSafe.IAppliesToStaticEmpty
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] testImmutable.AppliesToInstanceAndStatic
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testImmutable.AppliesToInstanceAndStatic
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testImmutable.AppliesToStatic
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] testTrivialMessages.testImmutable.AppliesToBothEmpty
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testTrivialMessages.testImmutable.AppliesToBothEmpty
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testTrivialMessages.testImmutable.AppliesToBothHasStatic
+##SUBTASK, Checking [ Singleton class ] testTrivialMessages.testThreadSafe.AppliesToStaticHasBoth
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testTrivialMessages.testThreadSafe.AppliesToStaticHasBoth
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] testTrivialMessages.testThreadSafe.IAppliesToStaticEmpty
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testTrivialMessages.testThreadSafe.IAppliesToStaticEmpty
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testTrivialMessages.testThreadSafe.IAppliesToStaticEmpty
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] testTrivialMessages.testThreadSafe.AppliesToBothEmpty
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] testTrivialMessages.testThreadSafe.AppliesToBothEmpty
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testTrivialMessages.testThreadSafe.AppliesToBothEmpty
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testTrivialMessages.testThreadSafe.AppliesToBothEmpty
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testTrivialMessages.testThreadSafe.AppliesToStaticHasInstance
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testTrivialMessages.testThreadSafe.AppliesToInstanceHasStatic
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testTrivialMessages.testImmutable.AppliesToBothEmpty
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] helpers.TS
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] helpers.TS
+##SUBTASK, Checking [ Utility class ] testTrivialMessages.testThreadSafe.IAppliesToBothHasStatic
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] helpers.TS
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] testTrivialMessages.testThreadSafe.IAppliesToBothHasStatic
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testTrivialMessages.testThreadSafe.IAppliesToBothHasStatic
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] helpers.TS
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] testTrivialMessages.testImmutable.AppliesToInstanceHasStatic
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] testTrivialMessages.testImmutable.AppliesToInstanceHasStatic
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testTrivialMessages.testImmutable.AppliesToInstanceHasStatic
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] testTrivialMessages.testImmutable.AppliesToStaticHasBoth
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] testTrivialMessages.testImmutable.AppliesToStaticHasBoth
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testTrivialMessages.testImmutable.AppliesToStaticHasBoth
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testTrivialMessages.testImmutable.AppliesToInstanceHasStatic
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] testThreadSafe.AppliesToInstance
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] testThreadSafe.AppliesToInstance
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testThreadSafe.AppliesToInstance
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testTrivialMessages.testImmutable.AppliesToStaticHasBoth
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] helpers.ImmutableClass
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] helpers.ImmutableClass
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] helpers.ImmutableClass
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testTrivialMessages.testImmutable.AppliesToBothHasStatic
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testTrivialMessages.testThreadSafe.IAppliesToBothHasStatic
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testTrivialMessages.testThreadSafe.AppliesToStaticHasBoth
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] testTrivialMessages.testImmutable.AppliesToInstanceEmpty
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] testTrivialMessages.testImmutable.AppliesToInstanceEmpty
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testTrivialMessages.testImmutable.AppliesToInstanceEmpty
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] testThreadSafe.AppliesToInstanceAndStatic
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] testThreadSafe.AppliesToInstanceAndStatic
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testThreadSafe.AppliesToInstanceAndStatic
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testTrivialMessages.testImmutable.AppliesToInstanceEmpty
+##SUBTASK, Checking [ Region effects ] helpers.ImmutableClass
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] testTrivialMessages.testImmutable.AppliesToStaticHasStatic
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] testTrivialMessages.testImmutable.AppliesToStaticHasStatic
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testTrivialMessages.testImmutable.AppliesToStaticHasStatic
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testTrivialMessages.testImmutable.AppliesToStaticHasStatic
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] testTrivialMessages.testThreadSafe.IAppliesToStaticHasStatic
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] testTrivialMessages.testThreadSafe.IAppliesToStaticHasStatic
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testTrivialMessages.testThreadSafe.IAppliesToStaticHasStatic
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] testTrivialMessages.testThreadSafe.AppliesToInstanceEmpty
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] testTrivialMessages.testThreadSafe.AppliesToInstanceEmpty
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testTrivialMessages.testThreadSafe.AppliesToInstanceEmpty
+##SUBTASK, Checking [ Utility class ] testTrivialMessages.testImmutable.IAppliesToBothEmpty
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] testTrivialMessages.testImmutable.IAppliesToBothEmpty
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testTrivialMessages.testImmutable.IAppliesToBothEmpty
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testThreadSafe.AppliesToInstance
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testTrivialMessages.testThreadSafe.AppliesToInstanceEmpty
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testTrivialMessages.testImmutable.IAppliesToBothEmpty
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] testTrivialMessages.testImmutable.IAppliesToStaticHasStatic
+##SUBTASK, Checking [ Region effects ] testImmutable.AppliesToStatic
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] testTrivialMessages.testImmutable.AppliesToInstanceHasBoth
+##SUBTASK, Checking [ Utility class ] testTrivialMessages.testThreadSafe.AppliesToBothHasInstance
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] testTrivialMessages.testThreadSafe.AppliesToBothHasInstance
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testTrivialMessages.testThreadSafe.AppliesToBothHasInstance
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] testTrivialMessages.testImmutable.IAppliesToBothHasStatic
+##SUBTASK, Checking [ Region effects ] testTrivialMessages.testThreadSafe.IAppliesToStaticHasStatic
+##SUBTASK, Checking [ Singleton class ] testTrivialMessages.testImmutable.IAppliesToStaticHasStatic
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] testTrivialMessages.testThreadSafe.AppliesToStaticHasStatic
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] testTrivialMessages.testImmutable.IAppliesToBothHasStatic
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testTrivialMessages.testImmutable.IAppliesToBothHasStatic
+##SUBTASK, Checking [ Singleton class ] testTrivialMessages.testImmutable.AppliesToInstanceHasBoth
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testTrivialMessages.testImmutable.AppliesToInstanceHasBoth
+##SUBTASK, Checking [ Singleton class ] testTrivialMessages.testThreadSafe.AppliesToStaticHasStatic
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testTrivialMessages.testThreadSafe.AppliesToStaticHasStatic
+##SUBTASK, Checking [ Lock policy ] testTrivialMessages.testImmutable.IAppliesToStaticHasStatic
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testTrivialMessages.testImmutable.IAppliesToBothHasStatic
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] helpers.MutClass
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] helpers.MutClass
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testTrivialMessages.testImmutable.IAppliesToStaticHasStatic
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] helpers.MutClass
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] testTrivialMessages.testThreadSafe.AppliesToInstanceHasBoth
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] testTrivialMessages.testThreadSafe.AppliesToInstanceHasBoth
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testImmutable.AppliesToInstanceAndStatic
+##SUBTASK, Checking [ Lock policy ] testTrivialMessages.testThreadSafe.AppliesToInstanceHasBoth
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testTrivialMessages.testThreadSafe.AppliesToBothHasInstance
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] helpers.MutClass
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] testTrivialMessages.testThreadSafe.IAppliesToInstanceEmpty
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testTrivialMessages.testThreadSafe.AppliesToStaticHasStatic
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testTrivialMessages.testImmutable.AppliesToInstanceHasBoth
+##SUBTASK, Checking [ Utility class ] testImmutable.AppliesToDefault
+##SUBTASK, Checking [ Singleton class ] testTrivialMessages.testThreadSafe.IAppliesToInstanceEmpty
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] testTrivialMessages.testThreadSafe.AppliesToInstanceHasInstance
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] testTrivialMessages.testThreadSafe.AppliesToInstanceHasInstance
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] testTrivialMessages.testImmutable.IAppliesToStaticEmpty
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] testTrivialMessages.testImmutable.IAppliesToStaticEmpty
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testTrivialMessages.testImmutable.IAppliesToStaticEmpty
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testTrivialMessages.testThreadSafe.AppliesToInstanceHasInstance
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testTrivialMessages.testImmutable.IAppliesToStaticEmpty
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testTrivialMessages.testThreadSafe.IAppliesToInstanceEmpty
+##SUBTASK, Checking [ Utility class ] testImmutable.AppliesToInstance
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] testImmutable.AppliesToInstance
+##SUBTASK, Checking [ Singleton class ] testImmutable.AppliesToDefault
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testImmutable.AppliesToInstance
+##SUBTASK, Checking [ Region effects ] testTrivialMessages.testThreadSafe.IAppliesToInstanceEmpty
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] testTrivialMessages.testImmutable.AppliesToBothHasBoth
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] testTrivialMessages.testImmutable.AppliesToBothHasBoth
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testTrivialMessages.testImmutable.AppliesToBothHasBoth
+##SUBTASK, Checking [ Region effects ] testTrivialMessages.testThreadSafe.AppliesToInstanceHasBoth
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] testTrivialMessages.testImmutable.IAppliesToInstanceEmpty
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] testTrivialMessages.testImmutable.IAppliesToInstanceEmpty
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testTrivialMessages.testThreadSafe.AppliesToInstanceHasInstance
+##SUBTASK, Checking [ Utility class ] testTrivialMessages.testImmutable.AppliesToStaticHasInstance
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] testTrivialMessages.testImmutable.AppliesToStaticHasInstance
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testTrivialMessages.testImmutable.AppliesToStaticHasInstance
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] testThreadSafe.AppliesToStatic
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] testThreadSafe.AppliesToStatic
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testThreadSafe.AppliesToStatic
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testImmutable.AppliesToDefault
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testTrivialMessages.testImmutable.AppliesToStaticHasInstance
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testTrivialMessages.testImmutable.IAppliesToInstanceEmpty
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] testTrivialMessages.testThreadSafe.AppliesToBothHasBoth
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testTrivialMessages.testImmutable.AppliesToBothHasBoth
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testTrivialMessages.testImmutable.IAppliesToInstanceEmpty
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] testTrivialMessages.testThreadSafe.AppliesToBothHasStatic
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] testTrivialMessages.testThreadSafe.AppliesToBothHasStatic
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testTrivialMessages.testThreadSafe.AppliesToBothHasStatic
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] testTrivialMessages.testThreadSafe.AppliesToBothHasBoth
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testTrivialMessages.testThreadSafe.AppliesToBothHasBoth
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testTrivialMessages.testThreadSafe.AppliesToBothHasStatic
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testImmutable.AppliesToInstance
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] testThreadSafe.AppliesToDefault
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] testThreadSafe.AppliesToDefault
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testThreadSafe.AppliesToDefault
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testTrivialMessages.testThreadSafe.AppliesToBothHasBoth
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] testTrivialMessages.testThreadSafe.IAppliesToBothEmpty
+##SUBTASK, Checking [ Utility class ] testTrivialMessages.testImmutable.AppliesToBothHasInstance
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] testTrivialMessages.testThreadSafe.IAppliesToBothEmpty
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testTrivialMessages.testThreadSafe.IAppliesToBothEmpty
+##SUBTASK, Checking [ Singleton class ] testTrivialMessages.testImmutable.AppliesToBothHasInstance
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testTrivialMessages.testImmutable.AppliesToBothHasInstance
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testTrivialMessages.testThreadSafe.IAppliesToBothEmpty
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testTrivialMessages.testImmutable.AppliesToBothHasInstance
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testImmutable.AppliesToDefault
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testThreadSafe.AppliesToStatic
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testThreadSafe.AppliesToInstanceAndStatic
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] testTrivialMessages.testThreadSafe.IAppliesToInstanceHasStatic
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] testTrivialMessages.testThreadSafe.IAppliesToInstanceHasStatic
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testTrivialMessages.testThreadSafe.IAppliesToInstanceHasStatic
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testTrivialMessages.testThreadSafe.IAppliesToInstanceHasStatic
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testThreadSafe.AppliesToDefault
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] testTrivialMessages.testImmutable.AppliesToStaticEmpty
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] testTrivialMessages.testImmutable.AppliesToStaticEmpty
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testTrivialMessages.testImmutable.AppliesToStaticEmpty
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testTrivialMessages.testImmutable.AppliesToStaticEmpty
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] testTrivialMessages.testThreadSafe.AppliesToStaticEmpty
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] testTrivialMessages.testThreadSafe.AppliesToStaticEmpty
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testTrivialMessages.testThreadSafe.AppliesToStaticEmpty
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testTrivialMessages.testThreadSafe.AppliesToStaticEmpty
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] testTrivialMessages.testImmutable.IAppliesToInstanceHasStatic
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] testTrivialMessages.testImmutable.IAppliesToInstanceHasStatic
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testTrivialMessages.testImmutable.IAppliesToInstanceHasStatic
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testTrivialMessages.testImmutable.IAppliesToInstanceHasStatic
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] testTrivialMessages.testImmutable.AppliesToInstanceHasInstance
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] testTrivialMessages.testImmutable.AppliesToInstanceHasInstance
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] testTrivialMessages.testImmutable.AppliesToInstanceHasInstance
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] testTrivialMessages.testImmutable.AppliesToInstanceHasInstance
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+Starting group: UniquenessAnalysisModule
+Starting group: NullablePreprocessorModule
+##SUBTASK, Starting parallel NullablePreprocessorModule [11]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel NullablePreprocessorModule [11]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Starting parallel NullablePreprocessorModule [11]: 47 for TestAppliesToVerification
+Starting parallel NullablePreprocessorModule [11]: 47 for TestAppliesToVerification
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToBothEmpty.java
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToBothHasStatic.java
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToStaticHasBoth.java
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testImmutable/AppliesToDefault.java
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testImmutable/AppliesToStatic.java
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToStaticHasInstance.java
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToBothHasBoth.java
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToInstanceHasStatic.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testImmutable/AppliesToInstanceAndStatic.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testThreadSafe/AppliesToInstanceAndStatic.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToInstanceEmpty.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToStaticHasBoth.java
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToStaticHasInstance.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/helpers/TS.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToInstanceHasStatic.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/IAppliesToInstanceHasStatic.java
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/IAppliesToInstanceEmpty.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testThreadSafe/AppliesToInstance.java
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/IAppliesToStaticEmpty.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToBothEmpty.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToStaticHasStatic.java
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/IAppliesToBothHasStatic.java
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/helpers/ImmutableClass.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/IAppliesToBothEmpty.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToInstanceHasBoth.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToBothHasBoth.java
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToBothHasInstance.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToInstanceEmpty.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/IAppliesToBothHasStatic.java
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/IAppliesToStaticHasStatic.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/helpers/MutClass.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testThreadSafe/AppliesToStatic.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/IAppliesToInstanceEmpty.java
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/IAppliesToStaticEmpty.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testImmutable/AppliesToInstance.java
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/IAppliesToStaticHasStatic.java
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToStaticHasStatic.java
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToBothHasStatic.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToInstanceHasBoth.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/IAppliesToBothEmpty.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToInstanceHasInstance.java
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToBothHasInstance.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testThreadSafe/AppliesToDefault.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToStaticEmpty.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testThreadSafe/AppliesToStaticEmpty.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/IAppliesToInstanceHasStatic.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestAppliesToVerification/src/testTrivialMessages/testImmutable/AppliesToInstanceHasInstance.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+Starting group: NullableModule2
+##SUBTASK, Starting parallel NullableModule2 [12]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel NullableModule2 [12]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Starting parallel NullableModule2 [12]: 82 for TestAppliesToVerification
+Starting parallel NullableModule2 [12]: 82 for TestAppliesToVerification
+##SUBTASK, Checking [ Nullable ] testTrivialMessages.testImmutable.AppliesToBothEmpty.AppliesToBothEmpty()
+##SUBTASK, Checking [ Nullable ] testTrivialMessages.testImmutable.AppliesToStaticHasInstance.AppliesToStaticHasInstance()
+##SUBTASK, Checking [ Nullable ] testTrivialMessages.testThreadSafe.AppliesToInstanceHasStatic.<clinit>
+##SUBTASK, Checking [ Nullable ] testTrivialMessages.testImmutable.IAppliesToBothHasStatic.<clinit>
+##SUBTASK, Checking [ Nullable ] testTrivialMessages.testImmutable.IAppliesToInstanceEmpty.<clinit>
+##SUBTASK, Checking [ Nullable ] testTrivialMessages.testThreadSafe.AppliesToBothHasStatic.<clinit>
+##SUBTASK, Checking [ Nullable ] testTrivialMessages.testImmutable.AppliesToInstanceEmpty.<clinit>
+##SUBTASK, Checking [ Nullable ] testTrivialMessages.testImmutable.AppliesToStaticHasBoth.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] testTrivialMessages.testThreadSafe.AppliesToBothHasStatic.AppliesToBothHasStatic()
+##SUBTASK, Checking [ Nullable ] testTrivialMessages.testImmutable.AppliesToStaticHasStatic.AppliesToStaticHasStatic()
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] testTrivialMessages.testImmutable.AppliesToBothHasBoth.AppliesToBothHasBoth()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] helpers.MutClass.MutClass()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] helpers.ImmutableClass.ImmutableClass()
+##SUBTASK, Checking [ Nullable ] helpers.TS.TS()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] testTrivialMessages.testImmutable.AppliesToBothEmpty.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] helpers.MutClass.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] helpers.TS.<clinit>
+##SUBTASK, Checking [ Nullable ] testImmutable.AppliesToInstanceAndStatic.AppliesToInstanceAndStatic()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] testTrivialMessages.testImmutable.AppliesToStaticHasStatic.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] testTrivialMessages.testImmutable.IAppliesToBothEmpty.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] testTrivialMessages.testImmutable.AppliesToStaticHasInstance.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] testTrivialMessages.testImmutable.AppliesToInstanceHasStatic.AppliesToInstanceHasStatic()
+##SUBTASK, Checking [ Nullable ] helpers.ImmutableClass.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] testTrivialMessages.testThreadSafe.AppliesToBothHasInstance.AppliesToBothHasInstance()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] testTrivialMessages.testThreadSafe.AppliesToInstanceEmpty.AppliesToInstanceEmpty()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] testTrivialMessages.testImmutable.AppliesToBothHasBoth.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] testTrivialMessages.testThreadSafe.IAppliesToStaticHasStatic.<clinit>
+##SUBTASK, Checking [ Nullable ] testTrivialMessages.testThreadSafe.AppliesToBothHasBoth.AppliesToBothHasBoth()
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] testThreadSafe.AppliesToInstanceAndStatic.AppliesToInstanceAndStatic()
+##SUBTASK, Checking [ Nullable ] testTrivialMessages.testThreadSafe.AppliesToStaticHasStatic.AppliesToStaticHasStatic()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] testTrivialMessages.testThreadSafe.AppliesToInstanceEmpty.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] testTrivialMessages.testImmutable.AppliesToInstanceHasStatic.<clinit>
+##SUBTASK, Checking [ Nullable ] testTrivialMessages.testImmutable.IAppliesToStaticHasStatic.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] testTrivialMessages.testThreadSafe.AppliesToBothHasInstance.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] testThreadSafe.AppliesToInstance.AppliesToInstance()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] testTrivialMessages.testThreadSafe.IAppliesToInstanceEmpty.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] testTrivialMessages.testImmutable.AppliesToBothHasStatic.AppliesToBothHasStatic()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] testTrivialMessages.testThreadSafe.AppliesToInstanceHasBoth.AppliesToInstanceHasBoth()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] testTrivialMessages.testThreadSafe.AppliesToStaticHasStatic.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] testTrivialMessages.testThreadSafe.AppliesToBothHasBoth.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] testTrivialMessages.testThreadSafe.AppliesToInstanceHasInstance.AppliesToInstanceHasInstance()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] testTrivialMessages.testThreadSafe.AppliesToInstanceHasStatic.AppliesToInstanceHasStatic()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] testTrivialMessages.testThreadSafe.AppliesToInstanceHasInstance.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] testImmutable.AppliesToInstanceAndStatic.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] testThreadSafe.AppliesToInstanceAndStatic.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] testTrivialMessages.testImmutable.AppliesToBothHasStatic.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] testTrivialMessages.testThreadSafe.AppliesToStaticHasBoth.AppliesToStaticHasBoth()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] testTrivialMessages.testThreadSafe.AppliesToInstanceHasBoth.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] testImmutable.AppliesToDefault.AppliesToDefault()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] testTrivialMessages.testThreadSafe.IAppliesToInstanceHasStatic.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] testTrivialMessages.testImmutable.AppliesToInstanceEmpty.AppliesToInstanceEmpty()
+##SUBTASK, Checking [ Nullable ] testThreadSafe.AppliesToInstance.<clinit>
+##SUBTASK, Checking [ Nullable ] testThreadSafe.AppliesToStatic.AppliesToStatic()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] testTrivialMessages.testThreadSafe.AppliesToStaticHasBoth.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] testImmutable.AppliesToInstance.AppliesToInstance()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] testTrivialMessages.testThreadSafe.IAppliesToStaticEmpty.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] testTrivialMessages.testThreadSafe.AppliesToBothEmpty.AppliesToBothEmpty()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] testTrivialMessages.testImmutable.AppliesToInstanceHasBoth.AppliesToInstanceHasBoth()
+##SUBTASK, Checking [ Nullable ] testTrivialMessages.testThreadSafe.IAppliesToBothEmpty.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] testTrivialMessages.testImmutable.AppliesToBothHasInstance.AppliesToBothHasInstance()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] testTrivialMessages.testImmutable.AppliesToStaticEmpty.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] testTrivialMessages.testThreadSafe.AppliesToStaticEmpty.AppliesToStaticEmpty()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] testTrivialMessages.testImmutable.AppliesToBothHasInstance.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] testTrivialMessages.testThreadSafe.AppliesToStaticHasInstance.AppliesToStaticHasInstance()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] testImmutable.AppliesToDefault.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] testThreadSafe.AppliesToStatic.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] testTrivialMessages.testThreadSafe.AppliesToStaticHasInstance.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] testTrivialMessages.testImmutable.AppliesToStaticHasBoth.AppliesToStaticHasBoth()
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] testTrivialMessages.testThreadSafe.AppliesToBothEmpty.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] testTrivialMessages.testThreadSafe.IAppliesToBothHasStatic.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] testImmutable.AppliesToInstance.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] testTrivialMessages.testThreadSafe.AppliesToStaticEmpty.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] testTrivialMessages.testImmutable.AppliesToInstanceHasBoth.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] testTrivialMessages.testImmutable.IAppliesToInstanceHasStatic.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] testTrivialMessages.testImmutable.IAppliesToStaticEmpty.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] testImmutable.AppliesToStatic.AppliesToStatic()
+##SUBTASK, Checking [ Nullable ] testTrivialMessages.testImmutable.AppliesToInstanceHasInstance.AppliesToInstanceHasInstance()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] testThreadSafe.AppliesToDefault.AppliesToDefault()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] testThreadSafe.AppliesToDefault.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] testTrivialMessages.testImmutable.AppliesToInstanceHasInstance.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] testImmutable.AppliesToStatic.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] testTrivialMessages.testImmutable.AppliesToStaticEmpty.AppliesToStaticEmpty()
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Cleaning up after analysis
+Cleaning up after analysis
+[GC (System.gc())  135650K->64468K(412672K), 0.0092050 secs]
+[Full GC (System.gc())  64468K->38132K(412672K), 0.1436770 secs]
+##WORK, 1
+##SUBTASK_DONE
+Updating consistency proof
+##SUBTASK, Updating consistency proof
+Exporting results to TestAppliesToVerific-2015.06.23-at-12.49.42.140
+##SUBTASK, Exporting results to TestAppliesToVerific-2015.06.23-at-12.49.42.140
+Creating snapshot: /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/TestAppliesToVerific-2015.06.23-at-12.49.42.140/running_or_crashed_sea_snapshot.xml.gz
+[GC (Allocation Failure)  114932K->44133K(412672K), 0.0055450 secs]
+Done in 4223 ms.
+ConcurrencyDetector	: 15 ms
+ThreadEffectsModule	: 13 ms
+StructureAnalysis	: 3 ms
+ParameterizedTypeAnalysis	: 6 ms
+EqualityAnalysis	: 49 ms
+LayersAnalysis	: 111 ms
+UtilityAnalysis	: 1 ms
+SingletonAnalysis	: 1 ms
+LockAnalysis	: 376 ms
+EffectsAnalysis	: 21 ms
+UniquenessAnalysisModule	: 0 ms
+NullablePreprocessorModule	: 19 ms
+NullableModule2	: 823 ms
+[2015-06-23 12:49:47    INFO] partial bindings = 7274 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+[2015-06-23 12:49:47    INFO] full bindings = 497 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+cached = 0
+totalT = 0
+#Performance data for TestAppliesToVerification
+#Tue Jun 23 12:49:47 EDT 2015
+jsure.Add.required=0
+jsure.All.analyses=476
+jsure.Binding.before.canon=45
+jsure.Binding.full.time=241
+jsure.Binding.partial.time=276
+jsure.Bindings.full=497
+jsure.Bindings.partial=7274
+jsure.Canonicalization=171
+jsure.Cleanup=128
+jsure.Destroy.time=13
+jsure.Drop.creation=26
+jsure.Find.canon.time=5
+jsure.Parsing=726
+jsure.Promise.parsing=515
+jsure.Promise.scrubbing=1433
+jsure.Sea.export=651
+jsure.Sea.update=97
+jsure.Total.JSure.time=4223
+jsure.Total.blocks=35
+jsure.Total.canonical=1746
+jsure.Total.decls=317
+jsure.Total.destroyed=0
+jsure.Total.gced=0
+jsure.Total.loc=499
+jsure.Total.nodes=63841
+jsure.Total.stmts=70
+jsure.Total.try.destroyed=538
+jsure.analysis.ConcurrencyDetector=15
+jsure.analysis.EffectsAnalysis=21
+jsure.analysis.EqualityAnalysis=49
+jsure.analysis.LayersAnalysis=111
+jsure.analysis.LockAnalysis=376
+jsure.analysis.NullableModule2=823
+jsure.analysis.NullablePreprocessorModule=19
+jsure.analysis.ParameterizedTypeAnalysis=6
+jsure.analysis.SingletonAnalysis=1
+jsure.analysis.StructureAnalysis=3
+jsure.analysis.ThreadEffectsModule=13
+jsure.analysis.UniquenessAnalysisModule=0
+jsure.analysis.UtilityAnalysis=1
+jsure.num.threads=8
+Javac making log: AnnotationRules
+##DONE
+Renaming snapshot: /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/TestAppliesToVerific-2015.06.23-at-12.49.42.140/sea_snapshot.xml.gz
+Done with JSure!
+Scanning complete (5335 ms)
+No socket to close
+Closing std streams
+Process result after waiting = 0

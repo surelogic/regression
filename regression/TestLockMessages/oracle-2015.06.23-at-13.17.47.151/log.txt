@@ -1,0 +1,2161 @@
+LOCAL vm : 1.8.0_05
+Path: /Users/aarong/git/jsure/jsure-analysis/bin
+Path: /Users/aarong/git/common/common/lib/runtime/commons-codec-1.10.jar
+Path: /Users/aarong/git/common/common/lib/runtime/trove-3.0.3.jar
+Path: /Users/aarong/git/common/common/lib/runtime/antlr-3.5.2-runtime.jar
+Path: /Users/aarong/git/common/common/lib/runtime/servlet-api-3.1.jar
+Path: /Users/aarong/git/jsure/jsure-common/lib/runtime/diffutils-1.2.1.jar
+Path: /Users/aarong/git/common/common/bin
+Path: /Users/aarong/git/common/common/lib/runtime/asm-5.0.2.jar
+Path: /Users/aarong/git/jsure/jsure-analysis/lib/runtime/renamedJavac.jar
+Path: /Users/aarong/git/common/common/lib/runtime/asm-tree-5.0.2.jar
+Path: /Users/aarong/git/common/common/lib/runtime/promises-5.6.0.jar
+Path: /Users/aarong/git/jsure/jsure-analysis/lib/runtime/log4j-xml-1.3alpha-8.jar
+Path: /Users/aarong/git/common/common/lib/runtime/derby-10.11.1.1.jar
+Path: /Users/aarong/git/jsure/jsure-common/bin
+Path: /Users/aarong/git/common/common/lib/runtime/ant-1.9.4.jar
+Path: /Users/aarong/git/common/common/lib/runtime/collections-generic-4.0.jar
+Path: /Users/aarong/git/jsure/jsure-analysis/lib/runtime/log4j-1.3alpha-8.jar
+Path: /Users/aarong/git/common/common/lib/runtime/asm-commons-5.0.2.jar
+Path: /Users/aarong/git/common/common/lib/runtime/commons-lang3-3.3.2.jar
+Path: /Users/aarong/git/common/common/lib/runtime/commons-io-2.4.jar
+Starting process:
+	/Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/jre/bin/java
+	-Dsl.running.in.remote.vm=true
+	-Dsurelogic.test.code=NONE
+	-XX:MaxPermSize=512m
+	-verbosegc
+	-DSureLogicX=true
+	-Dsl.run.dir=/Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/TestLockMessages-2015.06.23-at-13.17.47.151
+	-Dfluid.ir.versioning=Versioning.Off
+	-Dfluid.directory.url=file:/Eclipses/eclipse-standard-luna-SR2-macosx-cocoa-x86_64/../../Users/aarong/git/jsure/jsure-analysis/
+	-Xmx2048m
+	-classpath
+	/Users/aarong/git/jsure/jsure-analysis/bin:/Users/aarong/git/common/common/lib/runtime/commons-codec-1.10.jar:/Users/aarong/git/common/common/lib/runtime/trove-3.0.3.jar:/Users/aarong/git/common/common/lib/runtime/antlr-3.5.2-runtime.jar:/Users/aarong/git/common/common/lib/runtime/servlet-api-3.1.jar:/Users/aarong/git/jsure/jsure-common/lib/runtime/diffutils-1.2.1.jar:/Users/aarong/git/common/common/bin:/Users/aarong/git/common/common/lib/runtime/asm-5.0.2.jar:/Users/aarong/git/jsure/jsure-analysis/lib/runtime/renamedJavac.jar:/Users/aarong/git/common/common/lib/runtime/asm-tree-5.0.2.jar:/Users/aarong/git/common/common/lib/runtime/promises-5.6.0.jar:/Users/aarong/git/jsure/jsure-analysis/lib/runtime/log4j-xml-1.3alpha-8.jar:/Users/aarong/git/common/common/lib/runtime/derby-10.11.1.1.jar:/Users/aarong/git/jsure/jsure-common/bin:/Users/aarong/git/common/common/lib/runtime/ant-1.9.4.jar:/Users/aarong/git/common/common/lib/runtime/collections-generic-4.0.jar:/Users/aarong/git/jsure/jsure-analysis/lib/runtime/log4j-1.3alpha-8.jar:/Users/aarong/git/common/common/lib/runtime/asm-commons-5.0.2.jar:/Users/aarong/git/common/common/lib/runtime/commons-lang3-3.3.2.jar:/Users/aarong/git/common/common/lib/runtime/commons-io-2.4.jar
+	com.surelogic.javac.jobs.RemoteJSureRun
+
+First line in REMOTE vm = Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=512m; support was removed in 8.0
+[GC (Allocation Failure)  512K->512K(327168K), 0.0015320 secs]
+[GC (Allocation Failure)  1018K->580K(327680K), 0.0009810 secs]
+[GC (Allocation Failure)  1601K->788K(327680K), 0.0011440 secs]
+[GC (Allocation Failure)  1812K->836K(328704K), 0.0010290 secs]
+JVM started: 1.8.0_05
+Log level: INFO
+Created reader
+Created monitor
+Created log handler
+Running RemoteJSureRun
+[GC (Allocation Failure)  2884K->996K(328704K), 0.0012430 secs]
+[GC (Allocation Failure)  3044K->1180K(331264K), 0.0012720 secs]
+[GC (Allocation Failure)  5276K->1559K(331264K), 0.0015710 secs]
+[GC (Allocation Failure)  5655K->1695K(335360K), 0.0012240 secs]
+runPath = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/TestLockMessages-2015.06.23-at-13.17.47.151
+Creating run: TestLockMessages-2015.06.23-at-13.17.47.151
+projects = TestLockMessages
+Loading edu.cmu.cs.fluid.make.nonabductive.proposals = false
+Loading edu.cmu.cs.fluid.load.all.classes = false
+Loading edu.cmu.cs.fluid.timeoutFlag = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BCA = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ConstantExpr = false
+Loading edu.cmu.cs.fluid.physMemoryInMB = 20480
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.EqualityAssurance = true
+Loading edu.cmu.cs.fluid.xml.diff.directory = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/promises-xml
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.UniquenessAssuranceUWM = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.IRConcurrencyDetector = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Singleton = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.CALLS = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BenchmarkingUniquenessSE = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ThreadEffectAssurance2 = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Binder = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.cliend.eclipse.TypeBasedAlias = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Nullable = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.TestIsFunctional = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.UniquenessAssuranceUWM_SE = false
+Loading edu.cmu.cs.fluid.tool-memory-mb = 2048
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.DefinitelyAssigned = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.UniquenessAssuranceSE = true
+Loading edu.cmu.cs.fluid.analysis.thread.count = 8
+Loading edu.cmu.cs.fluid.timeoutSec = 11
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.NonNullRawTypes = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LayersAssurance = true
+Loading edu.cmu.cs.fluid.default.JRE = org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Loading edu.cmu.cs.fluid.timeoutWarningSec = 30
+Loading edu.cmu.cs.fluid.modeling.problem.filters = 00000012com\.apple.*00000013com\.oracle.*00000010com\.sun.*00000014.*\.internal.*00000023.*BakedArrayList\.class00000007apple.*00000008oracle.*00000011quicktime.*00000005sun.*
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Utility = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BenchmarkingUniquenessNew_SE = false
+Loading edu.cmu.cs.fluid.scan.may.use.compression = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ParameterizedType = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Final = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LockAssurance3 = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BenchmarkingUniquenessNew = false
+Loading edu.cmu.cs.fluid.data.directory = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.NullablePreprocessor = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.EffectAssurance2 = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LV = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.StructureAssurance = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Types = false
+JSure data dir = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data
+XML diff dir   = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/promises-xml
+Looking for JRE in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+default JRE = org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Initialized job
+Created com.surelogic.analysis.concurrency.detector.ConcurrencyDetector
+Starting a new group for ConcurrencyDetector
+Created com.surelogic.analysis.threads.ThreadEffectsModule
+Created com.surelogic.analysis.structure.StructureAnalysis
+Created com.surelogic.analysis.annotationbounds.ParameterizedTypeAnalysis
+Created com.surelogic.analysis.equality.EqualityAnalysis
+Created com.surelogic.analysis.layers.LayersAnalysis
+Created com.surelogic.analysis.utility.UtilityAnalysis
+Starting a new group for UtilityAnalysis
+Group: EXTERNALLY
+	ConcurrencyDetector
+	ThreadEffectsModule
+	StructureAnalysis
+	ParameterizedTypeAnalysis
+	EqualityAnalysis
+	LayersAnalysis
+Created com.surelogic.analysis.singleton.SingletonAnalysis
+[GC (Allocation Failure)  9887K->2271K(335360K), 0.0018650 secs]
+Created com.surelogic.analysis.concurrency.driver.LockAnalysis
+Created com.surelogic.analysis.effects.EffectsAnalysis
+Created com.surelogic.analysis.uniqueness.classic.sideeffecting.UniquenessAnalysisModule
+Starting a new group for UniquenessAnalysisModule
+Group: com.surelogic.analysis.visitors.TopLevelAnalysisVisitor$1@69663380, EXTERNALLY
+	UtilityAnalysis
+	SingletonAnalysis
+	LockAnalysis
+	EffectsAnalysis
+Created com.surelogic.analysis.nullable.NullablePreprocessorModule
+Starting a new group for NullablePreprocessorModule
+Group: com.surelogic.analysis.uniqueness.classic.sideeffecting.UniquenessAnalysisModule$1@5b37e0d2, class com.surelogic.analysis.bca.BindingContextAnalysis, INTERNALLY
+	UniquenessAnalysisModule
+Created com.surelogic.analysis.nullable.NullableModule2
+Starting a new group for NullableModule2
+Group: EXTERNALLY
+	NullablePreprocessorModule
+Group: com.surelogic.analysis.granules.FlowUnitGranulator@4459eb14, EXTERNALLY
+	NullableModule2
+##TASK, Scan, 266
+Initializing ...
+##SUBTASK, Initializing ...
+monitor = com.surelogic.common.jobs.remote.AbstractRemoteSLJob$Monitor@5a2e4553
+singleThread = false
+[GC (Allocation Failure)  10463K->2575K(340992K), 0.0022410 secs]
+[GC (Allocation Failure)  15776K->10381K(340992K), 0.0056080 secs]
+[GC (Allocation Failure)  23665K->23602K(350720K), 0.0091920 secs]
+[GC (Allocation Failure)  44082K->43781K(351744K), 0.0138940 secs]
+Done initializing org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: 0
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/resources.jar
+[GC (Allocation Failure)  64261K->47189K(365056K), 0.0049000 secs]
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/rt.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jsse.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jce.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/charsets.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jfr.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/dnsns.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/localedata.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunec.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunjce_provider.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunpkcs11.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/zipfs.jar
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /System/Library/Java/Extensions/MRJToolkit.jar
+Done initializing TestLockMessages: 16
+Trying to find /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/TestLockMessages-2015.06.23-at-13.17.47.151/source/TestLockMessages.bin.zip
+TestLockMessages: TestLockMessages -> org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Done initializing org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: 0
+TestLockMessages: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/resources.jar
+[GC (Allocation Failure)  79957K->53573K(365056K), 0.0074260 secs]
+TestLockMessages: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/rt.jar
+TestLockMessages: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jsse.jar
+TestLockMessages: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jce.jar
+TestLockMessages: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/charsets.jar
+TestLockMessages: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jfr.jar
+TestLockMessages: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/dnsns.jar
+TestLockMessages: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/localedata.jar
+TestLockMessages: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunec.jar
+TestLockMessages: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunjce_provider.jar
+TestLockMessages: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunpkcs11.jar
+TestLockMessages: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/zipfs.jar
+TestLockMessages: Done initializing with /System/Library/Java/Extensions/MRJToolkit.jar
+TestLockMessages: Done initializing with /Users/aarong/git/regression/regression/TestLockMessages/promises-5.6.0.jar
+##SUBTASK_DONE
+##WORK, 1
+Assuming that the projects are run in dependency order
+Parsing ...
+##SUBTASK, Parsing ...
+Done adapting 0 files for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK_DONE
+##WORK, 1
+Parsing ...
+##SUBTASK, Parsing ...
+JCP: warning: [options] bootstrap class path not set in conjunction with -source 1.7
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+Adapting 16 CUTs
+[GC (Allocation Failure)  86341K->60985K(386560K), 0.0115580 secs]
+Done adapting 16 files for TestLockMessages
+##SUBTASK_DONE
+##WORK, 1
+Handling references for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Handling references for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 21 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Setting project for Object from org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 44 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 55 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 51 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 32 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 17 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 8 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 12 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 15 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 4 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 2 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK_DONE
+##WORK, 1
+Handling references for TestLockMessages
+##SUBTASK, Handling references for TestLockMessages
+Handling 31 dangling refs for TestLockMessages
+Handling 1 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 2 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 5 dangling refs for TestLockMessages
+##SUBTASK_DONE
+##WORK, 1
+Updated 265 files in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Updated 52 files in TestLockMessages
+Parsing ASTs  = 407 ms
+Handling refs = 388 ms
+[2015-06-23 13:17:49    INFO] partial bindings = 0 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+[2015-06-23 13:17:49    INFO] full bindings = 0 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+Canonicalizing ASTs
+##SUBTASK, Canonicalizing ASTs
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+##WORK, 1
+[2015-06-23 13:17:49    INFO] partial bindings = 327 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+[2015-06-23 13:17:49    INFO] full bindings = 466 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+Canonicalizing TestLockMessages/src/intrinsic/unresolvable/Test.java
+##WORK, 1
+Canonicalizing TestLockMessages/src/intrinsic/goodAlt/Test.java
+##WORK, 1
+Canonicalizing TestLockMessages/src/juc/classInitAlt/Test.java
+##WORK, 1
+Canonicalizing TestLockMessages/src/intrinsic/good/Test.java
+##WORK, 1
+Canonicalizing TestLockMessages/src/juc/goodAlt/Test.java
+##WORK, 1
+Canonicalizing TestLockMessages/src/juc/unresolvable/Test.java
+##WORK, 1
+Canonicalizing TestLockMessages/src/juc/threadConfinedAlt/Test.java
+##WORK, 1
+Canonicalizing TestLockMessages/src/juc/bad/Test.java
+##WORK, 1
+Canonicalizing TestLockMessages/src/juc/classInit/Test.java
+##WORK, 1
+Canonicalizing TestLockMessages/src/intrinsic/threadConfinedAlt/Test.java
+##WORK, 1
+Canonicalizing TestLockMessages/src/intrinsic/classInitAlt/Test.java
+##WORK, 1
+Canonicalizing TestLockMessages/src/juc/threadConfined/Test.java
+##WORK, 1
+Canonicalizing TestLockMessages/src/intrinsic/threadConfined/Test.java
+##WORK, 1
+Canonicalizing TestLockMessages/src/intrinsic/classInit/Test.java
+##WORK, 1
+Canonicalizing TestLockMessages/src/intrinsic/bad/Test.java
+##WORK, 1
+Canonicalizing TestLockMessages/src/juc/good/Test.java
+##WORK, 1
+Binding = 75 ms
+##SUBTASK_DONE
+##WORK, 1
+Handling references for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Handling references for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 21 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK_DONE
+##WORK, 1
+Handling references for TestLockMessages
+##SUBTASK, Handling references for TestLockMessages
+Handling 21 dangling refs for TestLockMessages
+##SUBTASK_DONE
+##WORK, 1
+Updated 265 files in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Updated 52 files in TestLockMessages
+[GC (System.gc())  109566K->66021K(387584K), 0.0148090 secs]
+[Full GC (System.gc())  66021K->54941K(387584K), 0.1001160 secs]
+Creating drops
+##SUBTASK, Creating drops
+Created source drop for file:/Users/aarong/git/regression/regression/TestLockMessages/src/intrinsic/threadConfinedAlt/Test.java
+Created binary drop for java.util.LinkedList
+Created binary drop for java.lang.Iterable
+Created binary drop for java.net.URI
+Created binary drop for sun.nio.ch.Interruptible
+Created binary drop for java.util.concurrent.locks.Condition
+Created binary drop for sun.reflect.LangReflectAccess
+Created binary drop for java.lang.reflect.Type
+Created binary drop for java.nio.file.attribute.FileStoreAttributeView
+Created binary drop for java.lang.reflect.Constructor
+Created binary drop for sun.reflect.ConstructorAccessor
+Created binary drop for java.util.Deque
+Created binary drop for sun.util.locale.Extension
+Created binary drop for java.io.ObjectStreamException
+Created source drop for file:/Users/aarong/git/regression/regression/TestLockMessages/src/intrinsic/classInitAlt/Test.java
+Created binary drop for java.io.Writer
+Created binary drop for java.util.zip.ZipFile
+Created binary drop for java.util.Date
+Created binary drop for sun.reflect.annotation.AnnotationType
+Created binary drop for java.io.FileFilter
+Created source drop for file:/Users/aarong/git/regression/regression/TestLockMessages/src/juc/threadConfined/Test.java
+Created binary drop for java.io.File
+Created binary drop for java.lang.Integer
+Created binary drop for com.surelogic.Unique
+Created binary drop for java.math.BigInteger
+Created binary drop for com.surelogic.RegionEffects
+Created binary drop for java.io.FilenameFilter
+Created binary drop for java.nio.file.attribute.AttributeView
+Created binary drop for java.nio.charset.CharacterCodingException
+Created source drop for file:/Users/aarong/git/regression/regression/TestLockMessages/src/juc/goodAlt/Test.java
+Created binary drop for java.nio.ByteBuffer
+Created binary drop for java.lang.Object
+Created binary drop for java.io.FilterInputStream
+Created binary drop for java.util.Queue
+Created binary drop for java.lang.Number
+Created binary drop for java.util.MissingResourceException
+Created binary drop for java.io.IOException
+Created binary drop for java.lang.CharSequence
+Created binary drop for sun.util.locale.LanguageTag
+Created binary drop for java.nio.channels.FileLock
+Created binary drop for java.net.NetworkInterface
+Created binary drop for java.nio.file.PathMatcher
+Created binary drop for sun.reflect.FieldAccessor
+Created binary drop for java.nio.file.AccessMode
+Created binary drop for java.nio.file.WatchEvent
+Created binary drop for java.util.concurrent.locks.ReentrantLock
+Created binary drop for java.util.Collection
+Created binary drop for java.net.InterfaceAddress
+Created binary drop for java.lang.Thread
+Created binary drop for java.io.Closeable
+Created binary drop for java.net.URLStreamHandler
+Created binary drop for java.nio.file.WatchService
+Created binary drop for java.util.zip.ZipEntry
+Created binary drop for java.io.PrintWriter
+Created binary drop for java.nio.file.attribute.UserPrincipalLookupService
+Created binary drop for java.lang.reflect.InvocationTargetException
+Created source drop for file:/Users/aarong/git/regression/regression/TestLockMessages/src/juc/unresolvable/Test.java
+Created binary drop for java.net.URLConnection
+Created binary drop for java.lang.StackTraceElement
+Created binary drop for java.util.jar.Attributes
+Created binary drop for java.util.Enumeration
+Created binary drop for java.util.concurrent.TimeUnit
+Created binary drop for java.nio.charset.Charset
+Created binary drop for java.security.InvalidKeyException
+Created source drop for file:/Users/aarong/git/regression/regression/TestLockMessages/src/intrinsic/unresolvable/Test.java
+Created binary drop for java.security.NoSuchAlgorithmException
+Created source drop for file:/Users/aarong/git/regression/regression/TestLockMessages/src/juc/threadConfinedAlt/Test.java
+Created binary drop for java.nio.IntBuffer
+Created binary drop for java.util.zip.ZipException
+Created binary drop for java.util.AbstractList
+Created binary drop for java.nio.file.CopyOption
+Created binary drop for java.lang.NumberFormatException
+Created binary drop for java.nio.file.FileStore
+Created binary drop for java.lang.annotation.Annotation
+Created binary drop for java.util.RandomAccess
+Created binary drop for java.lang.IllegalArgumentException
+Created binary drop for com.surelogic.RequiresLock
+Created binary drop for java.lang.ThreadGroup
+Created binary drop for java.security.cert.Certificate
+Created binary drop for java.io.FileNotFoundException
+Created binary drop for java.io.SyncFailedException
+Created binary drop for java.lang.RuntimeException
+Created binary drop for java.security.CodeSigner
+Created binary drop for java.nio.ByteOrder
+Created binary drop for java.lang.Runnable
+Created binary drop for java.lang.CloneNotSupportedException
+Created binary drop for java.nio.channels.FileChannel
+Created binary drop for java.lang.annotation.RetentionPolicy
+Created binary drop for java.security.Principal
+Created binary drop for sun.misc.Resource
+Created binary drop for java.lang.Double
+Created binary drop for java.io.FileDescriptor
+Created binary drop for java.lang.StringBuilder
+Created binary drop for java.net.SocketAddress
+Created binary drop for java.security.PublicKey
+Created binary drop for com.surelogic.Borrowed
+Created binary drop for java.util.Map
+Created binary drop for java.io.DataOutputStream
+Created binary drop for java.lang.ClassValue
+Created binary drop for sun.misc.JarIndex
+Created binary drop for java.lang.Void
+Created binary drop for java.security.AccessControlContext
+Created binary drop for java.util.Random
+Created binary drop for java.lang.annotation.Retention
+Created binary drop for java.lang.reflect.GenericDeclaration
+Created binary drop for java.util.Hashtable
+Created binary drop for sun.util.resources.OpenListResourceBundle
+Created binary drop for java.nio.channels.ClosedChannelException
+Created binary drop for java.util.Locale
+Created binary drop for java.security.AccessControlException
+Created binary drop for java.nio.file.spi.FileSystemProvider
+Created binary drop for java.io.DataOutput
+Created binary drop for java.io.InputStream
+Created binary drop for java.io.FilterOutputStream
+Created binary drop for java.util.concurrent.locks.AbstractOwnableSynchronizer
+Created binary drop for sun.misc.URLClassPath
+Created binary drop for java.lang.StringBuffer
+Created binary drop for java.util.spi.LocaleServiceProvider
+Created source drop for file:/Users/aarong/git/regression/regression/TestLockMessages/src/juc/classInit/Test.java
+Created binary drop for java.net.UnknownHostException
+Created binary drop for java.io.Serializable
+Created binary drop for java.lang.ReflectiveOperationException
+Created binary drop for java.util.Stack
+Created binary drop for java.lang.ThreadLocal
+Created binary drop for java.security.SignatureException
+Created binary drop for java.nio.file.attribute.FileTime
+Created binary drop for java.util.AbstractSequentialList
+Created binary drop for java.security.PrivilegedAction
+Created binary drop for java.util.concurrent.Executor
+Created binary drop for java.nio.file.LinkOption
+Created binary drop for java.lang.Deprecated
+Created binary drop for java.nio.channels.spi.AbstractInterruptibleChannel
+Created binary drop for java.security.NoSuchProviderException
+Created binary drop for java.lang.NullPointerException
+Created binary drop for java.nio.Buffer
+Created binary drop for java.util.jar.Manifest
+Created binary drop for java.lang.Readable
+Created binary drop for java.nio.channels.ScatteringByteChannel
+Created binary drop for java.net.FileNameMap
+Created binary drop for java.nio.channels.WritableByteChannel
+Created binary drop for sun.util.locale.LocaleObjectCache
+Created binary drop for java.nio.file.Path
+Created binary drop for java.nio.DoubleBuffer
+Created binary drop for java.util.List
+Created binary drop for java.util.ListIterator
+Created binary drop for java.nio.file.attribute.BasicFileAttributes
+Created binary drop for sun.reflect.ConstantPool
+Created binary drop for java.nio.channels.InterruptibleChannel
+Created binary drop for java.nio.channels.SeekableByteChannel
+Created binary drop for java.security.Permission
+Created binary drop for java.lang.InterruptedException
+Created binary drop for java.nio.channels.Channel
+Created binary drop for java.lang.annotation.Documented
+Created binary drop for java.lang.Byte
+Created binary drop for java.util.HashMap
+Created binary drop for java.security.Guard
+Created binary drop for java.lang.Long
+Created binary drop for java.util.spi.LocaleNameProvider
+Created binary drop for sun.util.locale.InternalLocaleBuilder
+Created binary drop for java.lang.InstantiationException
+Created binary drop for java.util.Iterator
+Created source drop for file:/Users/aarong/git/regression/regression/TestLockMessages/src/intrinsic/good/Test.java
+Created binary drop for java.net.UnknownServiceException
+Created binary drop for java.nio.file.attribute.FileAttribute
+Created binary drop for java.lang.AbstractStringBuilder
+Created source drop for file:/Users/aarong/git/regression/regression/TestLockMessages/src/intrinsic/bad/Test.java
+Created binary drop for sun.util.locale.BaseLocale
+Created binary drop for java.security.Key
+Created binary drop for java.net.MalformedURLException
+Created binary drop for java.net.SocketException
+Created binary drop for java.util.zip.InflaterInputStream
+Created binary drop for java.util.concurrent.Future
+Created source drop for file:/Users/aarong/git/regression/regression/TestLockMessages/src/juc/good/Test.java
+Created binary drop for java.io.UnsupportedEncodingException
+Created binary drop for java.util.jar.JarEntry
+Created binary drop for java.lang.annotation.Target
+Created binary drop for com.surelogic.InRegion
+Created binary drop for sun.util.locale.ParseStatus
+Created binary drop for java.nio.channels.AsynchronousFileChannel
+Created binary drop for java.net.InetAddress
+Created binary drop for java.lang.Cloneable
+Created binary drop for java.nio.file.attribute.FileAttributeView
+Created binary drop for java.util.concurrent.locks.AbstractQueuedSynchronizer
+Created binary drop for com.surelogic.Starts
+Created source drop for file:/Users/aarong/git/regression/regression/TestLockMessages/src/juc/bad/Test.java
+Created binary drop for java.net.Proxy
+Created binary drop for java.io.PrintStream
+Created binary drop for java.util.AbstractMap
+Created binary drop for java.nio.file.FileSystem
+Created binary drop for java.lang.reflect.Field
+Created binary drop for java.util.WeakHashMap
+Created binary drop for sun.reflect.CallerSensitive
+Created binary drop for java.lang.reflect.TypeVariable
+Created binary drop for java.lang.reflect.Method
+Created binary drop for java.net.InetAddressImpl
+Created binary drop for java.util.ResourceBundle
+Created binary drop for java.util.SortedMap
+Created binary drop for java.nio.file.WatchKey
+Created binary drop for com.surelogic.UniqueInRegion
+Created binary drop for java.util.ArrayList
+Created binary drop for java.nio.LongBuffer
+Created binary drop for sun.util.locale.LocaleExtensions
+Created binary drop for java.lang.Float
+Created binary drop for java.security.cert.CertPath
+Created binary drop for sun.misc.MetaIndex
+Created binary drop for java.nio.file.attribute.UserPrincipal
+Created binary drop for java.security.cert.CertificateEncodingException
+Created binary drop for java.nio.channels.AsynchronousChannel
+Created binary drop for java.lang.ref.ReferenceQueue
+Created source drop for file:/Users/aarong/git/regression/regression/TestLockMessages/src/intrinsic/classInit/Test.java
+Created binary drop for java.nio.channels.CompletionHandler
+Created binary drop for java.security.GeneralSecurityException
+Created binary drop for sun.reflect.MethodAccessor
+Created binary drop for java.lang.annotation.ElementType
+Created binary drop for java.nio.charset.CharsetEncoder
+Created binary drop for java.lang.reflect.AnnotatedElement
+Created binary drop for java.lang.reflect.Member
+Created binary drop for java.net.URL
+Created binary drop for java.util.concurrent.ExecutorService
+Created binary drop for java.lang.Package
+Created binary drop for java.nio.channels.ReadableByteChannel
+Created binary drop for java.nio.file.attribute.GroupPrincipal
+Created binary drop for java.security.KeyException
+Created binary drop for java.lang.Short
+Created binary drop for java.util.jar.JarFile
+Created binary drop for com.surelogic.Region
+Created binary drop for com.surelogic.RegionLock
+Created binary drop for java.lang.Comparable
+Created binary drop for java.io.Flushable
+Created source drop for file:/Users/aarong/git/regression/regression/TestLockMessages/src/intrinsic/threadConfined/Test.java
+Created binary drop for sun.util.LocaleServiceProviderPool
+Created binary drop for java.security.DomainCombiner
+Created binary drop for java.lang.Throwable
+Created binary drop for java.lang.IllegalAccessException
+Created binary drop for java.util.AbstractSet
+Created binary drop for java.lang.Character
+Created binary drop for java.security.ProtectionDomain
+Created binary drop for java.nio.file.OpenOption
+Created binary drop for java.nio.CharBuffer
+Created binary drop for java.lang.reflect.AccessibleObject
+Created binary drop for java.nio.MappedByteBuffer
+Created binary drop for java.nio.FloatBuffer
+Created binary drop for java.nio.channels.GatheringByteChannel
+Created binary drop for java.util.concurrent.locks.ReadWriteLock
+Created binary drop for java.util.zip.ZipConstants
+Created binary drop for java.lang.ref.Reference
+Created binary drop for java.net.ContentHandlerFactory
+Created binary drop for sun.util.locale.LocaleSyntaxException
+Created binary drop for java.nio.charset.CharsetDecoder
+Created binary drop for java.util.Dictionary
+Created binary drop for java.lang.Class
+Created binary drop for java.nio.file.Watchable
+Created binary drop for java.lang.ref.SoftReference
+Created binary drop for sun.security.util.Debug
+Created binary drop for java.lang.Enum
+Created binary drop for java.nio.file.DirectoryStream
+Created binary drop for java.util.Set
+Created binary drop for java.util.concurrent.Callable
+Created binary drop for java.net.URLStreamHandlerFactory
+Created binary drop for java.lang.AutoCloseable
+Created binary drop for java.util.zip.Inflater
+Created binary drop for java.lang.String
+Created binary drop for java.nio.ShortBuffer
+Created source drop for file:/Users/aarong/git/regression/regression/TestLockMessages/src/intrinsic/goodAlt/Test.java
+Created binary drop for java.lang.ClassLoader
+Created binary drop for java.util.zip.DataFormatException
+Created binary drop for java.nio.charset.CoderResult
+Created binary drop for java.util.concurrent.ConcurrentMap
+Created binary drop for java.util.Vector
+Created binary drop for java.nio.charset.CodingErrorAction
+Created binary drop for java.lang.Appendable
+Created binary drop for java.lang.NoSuchFieldException
+Created source drop for file:/Users/aarong/git/regression/regression/TestLockMessages/src/juc/classInitAlt/Test.java
+Created binary drop for java.net.URISyntaxException
+Created binary drop for java.util.concurrent.locks.Lock
+Created binary drop for java.security.CodeSource
+Created binary drop for sun.reflect.ReflectionFactory
+Created binary drop for java.lang.Exception
+Created binary drop for java.util.AbstractCollection
+Created binary drop for java.security.Timestamp
+Created binary drop for java.net.ContentHandler
+Created binary drop for java.io.OutputStream
+Created binary drop for java.security.PermissionCollection
+Created binary drop for java.util.Comparator
+Created binary drop for java.nio.channels.ByteChannel
+Created binary drop for java.lang.ref.WeakReference
+Created binary drop for java.security.cert.CertificateException
+Created binary drop for java.lang.Boolean
+Created binary drop for java.nio.channels.AsynchronousCloseException
+Created binary drop for java.lang.SecurityException
+##SUBTASK_DONE
+##WORK, 1
+Parsing promises
+##SUBTASK, Parsing promises
+Added 3 promises for java.lang.[] in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@799f7e29
+Added 3 promises for java.lang.[] in TestLockMessages: com.surelogic.tree.SyntaxTreeNode@5bdd5689
+Added 3 promises for java.lang.Iterable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@229d2e39
+Added 6 promises for java.lang.Appendable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2da3d79
+Added 15 promises for intrinsic.threadConfinedAlt.Test in TestLockMessages: com.surelogic.tree.SyntaxTreeNode@2d8c2759
+Added 20 promises for java.util.concurrent.locks.Lock in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7eee94af
+Added 22 promises for java.util.concurrent.locks.Condition in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@355a7238
+Added 6 promises for juc.goodAlt.Test in TestLockMessages: com.surelogic.tree.SyntaxTreeNode@7ffa4af9
+Added 12 promises for java.lang.Exception in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@59c0ccf9
+Added 8 promises for intrinsic.classInitAlt.Test in TestLockMessages: com.surelogic.tree.SyntaxTreeNode@16f7907f
+Added 2 promises for java.lang.ref.SoftReference in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6162889a
+Added 87 promises for java.util.Deque in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@54804b3d
+Added 8 promises for juc.threadConfined.Test in TestLockMessages: com.surelogic.tree.SyntaxTreeNode@202461a7
+Added 139 promises for java.util.LinkedList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@78f81917
+Added 138 promises for java.math.BigInteger in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@21ea5c22
+Added 3 promises for java.nio.file.DirectoryStream in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@1b741d5d
+Added 37 promises for java.lang.Boolean in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@1afe1bbf
+Added 22 promises for java.lang.Number in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6ee6aa67
+Added 6 promises for intrinsic.goodAlt.Test in TestLockMessages: com.surelogic.tree.SyntaxTreeNode@385703a0
+Added 12 promises for java.lang.CharSequence in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2bf98808
+Added 18 promises for java.util.Queue in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@266625ca
+Added 12 promises for java.lang.SecurityException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@57ea1b2
+Added 17 promises for java.util.concurrent.ConcurrentMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@42dd776f
+Added 12 promises for java.lang.reflect.InvocationTargetException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@451d0040
+Added 6 promises for java.lang.CloneNotSupportedException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4b8ba318
+Added 6 promises for java.io.PrintWriter in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@1ec28933
+Added 170 promises for java.util.Vector in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@11c75bed
+Added 6 promises for java.lang.NoSuchFieldException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@23d24227
+Added 83 promises for java.util.Hashtable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@72ed4f83
+Added 54 promises for java.util.Collection in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@712de920
+Added 6 promises for intrinsic.unresolvable.Test in TestLockMessages: com.surelogic.tree.SyntaxTreeNode@4f4b7406
+Added 6 promises for java.lang.NullPointerException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@187a79b3
+Added 8 promises for juc.classInitAlt.Test in TestLockMessages: com.surelogic.tree.SyntaxTreeNode@69ed8ca4
+Added 3 promises for java.util.Locale in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@784b130
+Added 55 promises for java.util.AbstractCollection in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@21b2aae4
+Added 18 promises for java.util.ListIterator in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@743ab8f1
+Added 61 promises for java.util.HashMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7efdd7a5
+Added 29 promises for java.util.AbstractSequentialList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@39a6edce
+Added 6 promises for intrinsic.good.Test in TestLockMessages: com.surelogic.tree.SyntaxTreeNode@235b30b1
+Added 34 promises for java.util.concurrent.ExecutorService in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@1956add2
+Added 29 promises for java.util.concurrent.TimeUnit in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@1461657e
+Added 6 promises for java.lang.InterruptedException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@32aba542
+Added 6 promises for java.lang.NumberFormatException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@73f3d6e9
+Added 6 promises for java.util.Iterator in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@62dad412
+[GC (Allocation Failure)  106653K->58053K(390656K), 0.0041350 secs]
+Added 109 promises for java.lang.StringBuilder in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@5ac23fad
+Added 6 promises for java.lang.InstantiationException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@23b42bfd
+Added 6 promises for juc.bad.Test in TestLockMessages: com.surelogic.tree.SyntaxTreeNode@60de42a7
+Added 141 promises for java.lang.Thread in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@1c78ac97
+Added 6 promises for juc.unresolvable.Test in TestLockMessages: com.surelogic.tree.SyntaxTreeNode@75589179
+Added 1 promises for java.lang.ThreadLocal in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@e15f417
+Added 18 promises for java.nio.CharBuffer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@13da39d3
+Added 45 promises for java.util.ResourceBundle in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4571de6b
+Added 88 promises for java.util.jar.Attributes in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@904f8a7
+Added 6 promises for java.io.PrintStream in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7989c444
+Added 29 promises for java.util.Dictionary in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3ba2387e
+Added 54 promises for java.util.Set in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@33bf5cbb
+Added 15 promises for juc.threadConfinedAlt.Test in TestLockMessages: com.surelogic.tree.SyntaxTreeNode@16560bf9
+Added 158 promises for java.lang.StringBuffer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@48ddf28b
+Added 6 promises for java.io.Writer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@cd965f2
+Added 144 promises for java.lang.AbstractStringBuilder in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@34c92893
+Added 21 promises for java.util.Stack in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@75f41e62
+Added 31 promises for java.lang.Object in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@1e84babf
+Added 3 promises for java.util.jar.Manifest in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@56d82b99
+Added 70 promises for java.lang.Double in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@52d73241
+Added 8 promises for intrinsic.classInit.Test in TestLockMessages: com.surelogic.tree.SyntaxTreeNode@2e38c78
+Added 12 promises for java.lang.IllegalArgumentException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@19680aea
+Added 3 promises for java.nio.file.Path in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6240a02c
+Added 12 promises for java.lang.RuntimeException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3dcaa1dc
+Added 4 promises for java.util.Enumeration in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@57e533d5
+Added 3 promises for java.util.Date in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3e745600
+Added 58 promises for java.util.concurrent.locks.ReentrantLock in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@73d27b74
+Added 47 promises for java.lang.Throwable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6f2ba2af
+Added 7 promises for java.util.concurrent.locks.ReadWriteLock in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@29a90897
+Added 59 promises for java.lang.Byte in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@31f2538c
+Added 12 promises for java.lang.Class in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@60157cb4
+Added 60 promises for java.util.AbstractList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@5d5269fa
+Added 64 promises for java.util.Map in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@ee16f8e
+Added 13 promises for java.lang.Enum in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@32043465
+Added 96 promises for java.lang.Integer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2e3ca5be
+Added 3 promises for java.util.zip.ZipEntry in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@457196ed
+Added 108 promises for java.util.AbstractMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@316f434d
+Added 8 promises for juc.classInit.Test in TestLockMessages: com.surelogic.tree.SyntaxTreeNode@69f1485
+Added 96 promises for java.lang.Long in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6e508182
+Added 6 promises for intrinsic.bad.Test in TestLockMessages: com.surelogic.tree.SyntaxTreeNode@5ab29c9a
+Added 89 promises for java.util.List in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@5bf13e11
+Added 56 promises for java.util.WeakHashMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@267cf46a
+Added 6 promises for juc.good.Test in TestLockMessages: com.surelogic.tree.SyntaxTreeNode@50d8c3e
+WARNING: TreeAccessor couldn't find equals(java.lang.Object) in java.util.ArrayList
+WARNING: TreeAccessor couldn't find hashCode() in java.util.ArrayList
+[GC (Allocation Failure)  111301K->59577K(390144K), 0.0041940 secs]
+Added 22 promises for java.util.concurrent.locks.AbstractQueuedSynchronizer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@69e4efd
+Added 104 promises for java.util.ArrayList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2041ff68
+Added 31 promises for java.util.SortedMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@5c0a1f96
+Added 6 promises for java.lang.IllegalAccessException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7d4239b9
+Added 1 promises for java.lang.ref.ReferenceQueue in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4e306227
+Added 73 promises for java.lang.Float in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3aa1d707
+Added 8 promises for intrinsic.threadConfined.Test in TestLockMessages: com.surelogic.tree.SyntaxTreeNode@479b3621
+Added 16 promises for java.util.AbstractSet in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@211e4008
+Added 61 promises for java.lang.Short in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4ba03a85
+Added 301 promises for java.lang.String in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@760dcb5
+Added 18 promises for java.net.URISyntaxException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7056a3a0
+##SUBTASK_DONE
+##WORK, 1
+Scrubbing promises
+##SUBTASK, Scrubbing promises
+Creating RegionModel java.lang.Object.Instance for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+[GC (Allocation Failure)  112825K->62636K(410112K), 0.0066590 secs]
+Got ImplicitRegions for Test
+Got ImplicitRegions for Test
+Got ImplicitRegions for Test
+Got ImplicitRegions for Test
+##SUBTASK_DONE
+##WORK, 1
+Starting analyses
+Using new analysis framework -- groups
+Starting group: ConcurrencyDetector, ThreadEffectsModule, StructureAnalysis, ParameterizedTypeAnalysis, EqualityAnalysis, LayersAnalysis
+##SUBTASK, Starting parallel ConcurrencyDetector [0]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel ConcurrencyDetector [0]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Starting parallel ThreadEffectsModule [1]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel ThreadEffectsModule [1]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Starting parallel StructureAnalysis [2]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel StructureAnalysis [2]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Starting parallel ParameterizedTypeAnalysis [3]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel ParameterizedTypeAnalysis [3]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Starting parallel EqualityAnalysis [4]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel EqualityAnalysis [4]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Starting parallel LayersAnalysis [5]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel LayersAnalysis [5]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Starting parallel ConcurrencyDetector [0]: 16 for TestLockMessages
+Starting parallel ConcurrencyDetector [0]: 16 for TestLockMessages
+##SUBTASK, Starting parallel ThreadEffectsModule [1]: 16 for TestLockMessages
+Starting parallel ThreadEffectsModule [1]: 16 for TestLockMessages
+##SUBTASK, Starting parallel StructureAnalysis [2]: 16 for TestLockMessages
+Starting parallel StructureAnalysis [2]: 16 for TestLockMessages
+##SUBTASK, Starting parallel ParameterizedTypeAnalysis [3]: 16 for TestLockMessages
+Starting parallel ParameterizedTypeAnalysis [3]: 16 for TestLockMessages
+##SUBTASK, Starting parallel EqualityAnalysis [4]: 16 for TestLockMessages
+Starting parallel EqualityAnalysis [4]: 16 for TestLockMessages
+##SUBTASK, Starting parallel LayersAnalysis [5]: 16 for TestLockMessages
+Starting parallel LayersAnalysis [5]: 16 for TestLockMessages
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/intrinsic/unresolvable/Test.java
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/juc/threadConfinedAlt/Test.java
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/intrinsic/good/Test.java
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/intrinsic/threadConfinedAlt/Test.java
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/juc/goodAlt/Test.java
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/intrinsic/classInitAlt/Test.java
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/juc/threadConfined/Test.java
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/juc/unresolvable/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/intrinsic/unresolvable/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/juc/unresolvable/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/intrinsic/good/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/juc/goodAlt/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/juc/threadConfined/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/intrinsic/threadConfinedAlt/Test.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/juc/threadConfinedAlt/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/intrinsic/classInitAlt/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/intrinsic/classInitAlt/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/intrinsic/unresolvable/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/intrinsic/unresolvable/Test.java
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/juc/threadConfined/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/juc/threadConfined/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/juc/goodAlt/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/juc/goodAlt/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/intrinsic/classInitAlt/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/intrinsic/good/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/intrinsic/good/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/juc/unresolvable/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/juc/unresolvable/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/intrinsic/unresolvable/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/intrinsic/classInitAlt/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/juc/goodAlt/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/juc/threadConfined/Test.java
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/intrinsic/good/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/juc/unresolvable/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/intrinsic/unresolvable/Test.java
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/juc/goodAlt/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/juc/threadConfined/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/juc/unresolvable/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/intrinsic/classInitAlt/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/intrinsic/good/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/intrinsic/bad/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/intrinsic/bad/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/intrinsic/bad/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/intrinsic/bad/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/intrinsic/bad/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/intrinsic/bad/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/juc/classInit/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/juc/classInit/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/juc/good/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/juc/classInit/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/juc/classInit/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/juc/good/Test.java
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/juc/classInit/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/juc/classInit/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/juc/good/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/juc/good/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/juc/good/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/intrinsic/classInit/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/juc/good/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/intrinsic/classInit/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/intrinsic/classInit/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/intrinsic/classInit/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/intrinsic/classInit/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/intrinsic/classInit/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/juc/bad/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/intrinsic/goodAlt/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/intrinsic/threadConfined/Test.java
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/juc/bad/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/intrinsic/goodAlt/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/intrinsic/threadConfined/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/intrinsic/threadConfined/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/juc/bad/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/intrinsic/goodAlt/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/juc/bad/Test.java
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/intrinsic/threadConfined/Test.java
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/juc/classInitAlt/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/intrinsic/threadConfined/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/intrinsic/goodAlt/Test.java
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/intrinsic/threadConfined/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/juc/classInitAlt/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/juc/bad/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/intrinsic/goodAlt/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/juc/bad/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/intrinsic/goodAlt/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/juc/classInitAlt/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/juc/classInitAlt/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/juc/classInitAlt/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/juc/classInitAlt/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/intrinsic/threadConfinedAlt/Test.java
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/juc/threadConfinedAlt/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/juc/threadConfinedAlt/Test.java
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/intrinsic/threadConfinedAlt/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/juc/threadConfinedAlt/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/intrinsic/threadConfinedAlt/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/juc/threadConfinedAlt/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/intrinsic/threadConfinedAlt/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+Starting group: UtilityAnalysis, SingletonAnalysis, LockAnalysis, EffectsAnalysis
+com.surelogic.analysis.uniqueness.classic.sideeffecting.UniquenessAnalysisModule$1@5b37e0d2: 66
+com.surelogic.analysis.visitors.TopLevelAnalysisVisitor$1@69663380: 58
+com.surelogic.analysis.granules.FlowUnitGranulator@4459eb14: 138
+##SUBTASK, Starting parallel UtilityAnalysis [6]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel UtilityAnalysis [6]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Starting parallel SingletonAnalysis [7]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel SingletonAnalysis [7]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Starting parallel LockAnalysis [8]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel LockAnalysis [8]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Looking at @RegionLock("MUTEX is this protects WaitQueue") on Object
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@3b1f96a0 on java.lang.Object
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@57343526 on juc.unresolvable.Test
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@28c6e17e on juc.goodAlt.Test
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@b677d3e on juc.threadConfined.Test
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@4cab4f07 on intrinsic.classInitAlt.Test
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@66569cda on intrinsic.bad.Test
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@6f3dbbf9 on juc.classInitAlt.Test
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@2f083524 on intrinsic.good.Test
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@142cee10 on intrinsic.unresolvable.Test
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@51123bee on juc.threadConfinedAlt.Test
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@576e449c on juc.good.Test
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@44ac6ccc on intrinsic.threadConfinedAlt.Test
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@4ebef7d3 on intrinsic.goodAlt.Test
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@622ec413 on juc.bad.Test
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@3881dec0 on juc.classInit.Test
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@71d6c51f on intrinsic.threadConfined.Test
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@3e12f2d on intrinsic.classInit.Test
+##SUBTASK, Starting parallel EffectsAnalysis [9]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel EffectsAnalysis [9]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Starting parallel UtilityAnalysis [6]: 58 for TestLockMessages
+Starting parallel UtilityAnalysis [6]: 58 for TestLockMessages
+##SUBTASK, Starting parallel SingletonAnalysis [7]: 58 for TestLockMessages
+Starting parallel SingletonAnalysis [7]: 58 for TestLockMessages
+##SUBTASK, Starting parallel LockAnalysis [8]: 58 for TestLockMessages
+Starting parallel LockAnalysis [8]: 58 for TestLockMessages
+Looking at @RegionLock("MUTEX is this protects WaitQueue") on Object
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@3b1f96a0 on java.lang.Object
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@57343526 on juc.unresolvable.Test
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@28c6e17e on juc.goodAlt.Test
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@b677d3e on juc.threadConfined.Test
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@4cab4f07 on intrinsic.classInitAlt.Test
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@66569cda on intrinsic.bad.Test
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@6f3dbbf9 on juc.classInitAlt.Test
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@2f083524 on intrinsic.good.Test
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@142cee10 on intrinsic.unresolvable.Test
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@51123bee on juc.threadConfinedAlt.Test
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@576e449c on juc.good.Test
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@44ac6ccc on intrinsic.threadConfinedAlt.Test
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@4ebef7d3 on intrinsic.goodAlt.Test
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@622ec413 on juc.bad.Test
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@3881dec0 on juc.classInit.Test
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@71d6c51f on intrinsic.threadConfined.Test
+Created com.surelogic.dropsea.ir.drops.locks.LockModel@3e12f2d on intrinsic.classInit.Test
+##SUBTASK, Starting parallel EffectsAnalysis [9]: 58 for TestLockMessages
+Starting parallel EffectsAnalysis [9]: 58 for TestLockMessages
+##SUBTASK, Checking [ Utility class ] intrinsic.threadConfinedAlt.Test
+##SUBTASK, Checking [ Utility class ] intrinsic.bad.Test
+##SUBTASK, Checking [ Utility class ] juc.unresolvable.Test
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] juc.bad.Test.Inner
+##SUBTASK, Checking [ Utility class ] juc.classInit.Test
+##SUBTASK, Checking [ Utility class ] intrinsic.goodAlt.Test
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] intrinsic.bad.Test
+##SUBTASK, Checking [ Utility class ] juc.threadConfinedAlt.Test.Inner
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] intrinsic.classInitAlt.D
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] intrinsic.classInitAlt.D
+##SUBTASK, Checking [ Singleton class ] juc.threadConfinedAlt.Test.Inner
+##SUBTASK, Checking [ Singleton class ] juc.unresolvable.Test
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] intrinsic.bad.Test
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] juc.classInit.Test
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] intrinsic.goodAlt.Test
+##SUBTASK, Checking [ Lock policy ] juc.unresolvable.Test
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] intrinsic.threadConfinedAlt.Test
+##SUBTASK, Checking [ Lock policy ] intrinsic.classInitAlt.D
+##SUBTASK, Checking [ Lock policy ] juc.threadConfinedAlt.Test.Inner
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] juc.classInit.Test
+##SUBTASK, Checking [ Singleton class ] juc.bad.Test.Inner
+##SUBTASK, Checking [ Lock policy ] intrinsic.goodAlt.Test
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] intrinsic.threadConfinedAlt.Test
+##SUBTASK, Checking [ Lock policy ] juc.bad.Test.Inner
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] juc.bad.Test.Inner
+##SUBTASK, Checking [ Region effects ] intrinsic.classInitAlt.D
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] juc.threadConfinedAlt.Test.Inner
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] juc.unresolvable.Test
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] juc.bad.Test.ACE #0
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] juc.bad.Test.ACE #0
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] juc.bad.Test.ACE #0
+##SUBTASK, Checking [ Utility class ] juc.unresolvable.Test.Inner
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] juc.unresolvable.Test.Inner
+##SUBTASK, Checking [ Region effects ] juc.bad.Test.ACE #0
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] juc.goodAlt.Test
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] juc.bad.D
+##SUBTASK, Checking [ Singleton class ] juc.goodAlt.Test
+##SUBTASK, Checking [ Lock policy ] juc.unresolvable.Test.Inner
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] juc.goodAlt.Test
+##SUBTASK, Checking [ Singleton class ] juc.bad.D
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] juc.bad.D
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] juc.unresolvable.Test.Inner
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] juc.unresolvable.Test.Inner.Inner2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] juc.unresolvable.Test.Inner.Inner2
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] juc.bad.D
+##SUBTASK, Checking [ Lock policy ] juc.unresolvable.Test.Inner.Inner2
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] juc.threadConfinedAlt.Test.ACE #0
+##SUBTASK, Checking [ Region effects ] juc.unresolvable.Test.Inner.Inner2
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] juc.threadConfinedAlt.Test.ACE #0
+##SUBTASK, Checking [ Utility class ] intrinsic.classInit.Test
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] juc.unresolvable.Test.Inner.Inner3
+##SUBTASK, Checking [ Lock policy ] juc.threadConfinedAlt.Test.ACE #0
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] intrinsic.classInit.Test
+##SUBTASK, Checking [ Region effects ] juc.threadConfinedAlt.Test.ACE #0
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] juc.unresolvable.Test.Inner.Inner3
+##SUBTASK, Checking [ Utility class ] juc.threadConfinedAlt.D
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] juc.unresolvable.Test.Inner.Inner3
+##SUBTASK, Checking [ Lock policy ] intrinsic.classInit.Test
+##SUBTASK, Checking [ Singleton class ] juc.threadConfinedAlt.D
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] juc.threadConfinedAlt.D
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] juc.unresolvable.Test.Inner.Inner3
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] juc.unresolvable.Test.Inner.Inner3.Inner4
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] juc.unresolvable.Test.Inner.Inner3.Inner4
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] juc.threadConfinedAlt.D
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] juc.unresolvable.Test.Inner.Inner3.Inner4
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] intrinsic.good.Test
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] intrinsic.good.Test
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] intrinsic.good.Test
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] juc.unresolvable.Test.Inner.Inner3.Inner4
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] intrinsic.goodAlt.Test
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] intrinsic.classInit.Test
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] intrinsic.good.Test
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] intrinsic.classInit.D
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] intrinsic.classInit.D
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] intrinsic.classInit.D
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] intrinsic.classInit.D
+##SUBTASK, Checking [ Utility class ] intrinsic.good.D
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] intrinsic.good.D
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] intrinsic.good.D
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] intrinsic.good.D
+##SUBTASK, Checking [ Region effects ] intrinsic.threadConfinedAlt.Test
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] intrinsic.threadConfined.Test
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] intrinsic.threadConfined.Test
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] intrinsic.threadConfined.Test
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] juc.classInit.D
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] intrinsic.bad.Test
+##SUBTASK, Checking [ Singleton class ] juc.classInit.D
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] juc.classInit.D
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] juc.classInit.D
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] intrinsic.threadConfined.Test
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] intrinsic.threadConfined.D
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] intrinsic.threadConfined.D
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] intrinsic.threadConfined.D
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] intrinsic.threadConfined.D
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] juc.classInitAlt.Test
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] juc.classInitAlt.Test
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] juc.classInitAlt.Test
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] intrinsic.goodAlt.Test.Inner
+##SUBTASK, Checking [ Utility class ] intrinsic.bad.Test.Inner
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] intrinsic.bad.Test.Inner
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] intrinsic.bad.Test.Inner
+##SUBTASK, Checking [ Singleton class ] intrinsic.goodAlt.Test.Inner
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] intrinsic.goodAlt.Test.Inner
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] juc.unresolvable.Test.Inner.Inner3.Inner4.ACE #0
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] juc.unresolvable.Test.Inner.Inner3.Inner4.ACE #0
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] juc.unresolvable.Test.Inner.Inner3.Inner4.ACE #0
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] intrinsic.goodAlt.Test.Inner
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] juc.unresolvable.Test.Inner.Inner3.Inner4.ACE #0
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] intrinsic.bad.Test.Inner
+##SUBTASK, Checking [ Utility class ] juc.unresolvable.D
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] juc.unresolvable.D
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] intrinsic.goodAlt.Test.ACE #0
+##SUBTASK, Checking [ Lock policy ] juc.unresolvable.D
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] intrinsic.bad.Test.ACE #0
+##SUBTASK, Checking [ Singleton class ] intrinsic.goodAlt.Test.ACE #0
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] intrinsic.bad.Test.ACE #0
+##SUBTASK, Checking [ Lock policy ] intrinsic.goodAlt.Test.ACE #0
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] intrinsic.bad.Test.ACE #0
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] intrinsic.goodAlt.Test.ACE #0
+##SUBTASK, Checking [ Region effects ] juc.unresolvable.D
+##SUBTASK, Checking [ Region effects ] intrinsic.bad.Test.ACE #0
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] intrinsic.threadConfinedAlt.Test.Inner
+##SUBTASK, Checking [ Utility class ] intrinsic.goodAlt.D
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] intrinsic.goodAlt.D
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] intrinsic.unresolvable.Test
+##SUBTASK, Checking [ Singleton class ] intrinsic.threadConfinedAlt.Test.Inner
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] intrinsic.goodAlt.D
+##SUBTASK, Checking [ Utility class ] intrinsic.bad.D
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] intrinsic.bad.D
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] intrinsic.threadConfinedAlt.Test.Inner
+##SUBTASK, Checking [ Singleton class ] intrinsic.unresolvable.Test
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] intrinsic.unresolvable.Test
+##SUBTASK, Checking [ Lock policy ] intrinsic.bad.D
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] intrinsic.goodAlt.D
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] juc.classInitAlt.Test.ACE #0
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] juc.classInitAlt.Test.ACE #0
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] juc.classInitAlt.Test.ACE #0
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] juc.classInitAlt.Test.ACE #0
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] intrinsic.threadConfinedAlt.Test.Inner
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] intrinsic.unresolvable.Test
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] intrinsic.threadConfinedAlt.Test.ACE #0
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] intrinsic.threadConfinedAlt.Test.ACE #0
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] intrinsic.threadConfinedAlt.Test.ACE #0
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] intrinsic.threadConfinedAlt.Test.ACE #0
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] intrinsic.bad.D
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] juc.classInitAlt.D
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] juc.classInitAlt.D
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] juc.classInitAlt.D
+##SUBTASK, Checking [ Utility class ] intrinsic.unresolvable.Test.Inner
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] intrinsic.unresolvable.Test.Inner
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] intrinsic.unresolvable.Test.Inner
+##SUBTASK, Checking [ Utility class ] intrinsic.threadConfinedAlt.D
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] intrinsic.threadConfinedAlt.D
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] intrinsic.threadConfinedAlt.D
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] intrinsic.unresolvable.Test.Inner
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] intrinsic.unresolvable.Test.Inner.Inner2
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] juc.classInitAlt.D
+##SUBTASK, Checking [ Utility class ] juc.good.Test
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] juc.good.Test
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] juc.good.Test
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] juc.classInitAlt.Test.Inner
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] juc.classInitAlt.Test.Inner
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] juc.classInitAlt.Test.Inner
+##SUBTASK, Checking [ Singleton class ] intrinsic.unresolvable.Test.Inner.Inner2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] intrinsic.unresolvable.Test.Inner.Inner2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] juc.classInitAlt.Test.Inner
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] intrinsic.unresolvable.Test.Inner.Inner2
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] intrinsic.unresolvable.Test.Inner.Inner3
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] intrinsic.unresolvable.Test.Inner.Inner3
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] intrinsic.unresolvable.Test.Inner.Inner3
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] intrinsic.threadConfinedAlt.D
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] intrinsic.classInitAlt.Test
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] intrinsic.unresolvable.Test.Inner.Inner3
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] intrinsic.unresolvable.Test.Inner.Inner3.Inner4
+##SUBTASK, Checking [ Singleton class ] intrinsic.classInitAlt.Test
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] intrinsic.classInitAlt.Test
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] intrinsic.unresolvable.Test.Inner.Inner3.Inner4
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] intrinsic.unresolvable.Test.Inner.Inner3.Inner4
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] intrinsic.classInitAlt.Test
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] intrinsic.unresolvable.Test.Inner.Inner3.Inner4
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] intrinsic.classInitAlt.Test.Inner
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] intrinsic.classInitAlt.Test.Inner
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] intrinsic.classInitAlt.Test.Inner
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] intrinsic.classInitAlt.Test.Inner
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] intrinsic.classInitAlt.Test.ACE #0
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] intrinsic.classInitAlt.Test.ACE #0
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] intrinsic.classInitAlt.Test.ACE #0
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] intrinsic.classInitAlt.Test.ACE #0
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] juc.goodAlt.Test.ACE #0
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] juc.goodAlt.Test.ACE #0
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] juc.goodAlt.Test.ACE #0
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] juc.goodAlt.Test.ACE #0
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] juc.goodAlt.D
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] juc.goodAlt.D
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] juc.goodAlt.D
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] juc.goodAlt.D
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] juc.threadConfined.Test
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] juc.threadConfined.Test
+##SUBTASK, Checking [ Utility class ] intrinsic.unresolvable.Test.Inner.Inner3.Inner4.ACE #0
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] juc.threadConfined.Test
+##SUBTASK, Checking [ Singleton class ] intrinsic.unresolvable.Test.Inner.Inner3.Inner4.ACE #0
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] intrinsic.unresolvable.Test.Inner.Inner3.Inner4.ACE #0
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] intrinsic.unresolvable.Test.Inner.Inner3.Inner4.ACE #0
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] intrinsic.unresolvable.D
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] intrinsic.unresolvable.D
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] intrinsic.unresolvable.D
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] intrinsic.unresolvable.D
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] juc.threadConfinedAlt.Test
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] juc.threadConfinedAlt.Test
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] juc.threadConfinedAlt.Test
+[GC (Allocation Failure)  137388K->64208K(410624K), 0.0073550 secs]
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] juc.classInit.Test
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] juc.classInitAlt.Test
+##SUBTASK, Checking [ Region effects ] juc.threadConfined.Test
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] juc.threadConfined.D
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] juc.threadConfined.D
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] juc.threadConfined.D
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] juc.threadConfined.D
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] juc.good.Test
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] juc.threadConfinedAlt.Test
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] juc.good.D
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] juc.good.D
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] juc.good.D
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] juc.good.D
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] juc.bad.Test
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] juc.bad.Test
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] juc.bad.Test
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] juc.goodAlt.Test
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Utility class ] juc.goodAlt.Test.Inner
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] juc.goodAlt.Test.Inner
+##SUBTASK_DONE
+##SUBTASK, Checking [ Lock policy ] juc.goodAlt.Test.Inner
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] juc.goodAlt.Test.Inner
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Region effects ] juc.bad.Test
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+Starting group: UniquenessAnalysisModule
+##SUBTASK, Starting parallel UniquenessAnalysisModule [10]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel UniquenessAnalysisModule [10]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Starting parallel UniquenessAnalysisModule [10]: 66 for TestLockMessages
+Starting parallel UniquenessAnalysisModule [10]: 66 for TestLockMessages
+##SUBTASK, Checking [ Uniqueness ] intrinsic.threadConfinedAlt.Test.ACE #0.(unknown)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] intrinsic.threadConfinedAlt.Test.m()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] intrinsic.threadConfinedAlt.D.m()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] intrinsic.threadConfinedAlt.Test.Test()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] intrinsic.threadConfinedAlt.D.D()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] intrinsic.classInitAlt.D.m()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] intrinsic.classInitAlt.D.D()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] intrinsic.classInitAlt.Test.ACE #0.(unknown)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] intrinsic.classInitAlt.Test.(unknown)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] juc.goodAlt.Test.ACE #0.(unknown)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] juc.goodAlt.Test.Test()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] juc.goodAlt.D.D()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] juc.goodAlt.D.m()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] juc.threadConfined.Test.m()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] juc.threadConfined.D.m()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] juc.threadConfined.Test.Test()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] juc.threadConfined.D.D()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] juc.unresolvable.D.D()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] juc.unresolvable.Test.Test()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] juc.unresolvable.Test.Inner.Inner3.Inner4.ACE #0.(unknown)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] juc.unresolvable.D.m()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] intrinsic.unresolvable.Test.Inner.Inner3.Inner4.ACE #0.(unknown)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] intrinsic.unresolvable.Test.Test()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] intrinsic.unresolvable.D.D()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] intrinsic.unresolvable.D.m()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] juc.threadConfinedAlt.D.D()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] juc.threadConfinedAlt.Test.Test()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] juc.threadConfinedAlt.D.m()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] juc.threadConfinedAlt.Test.ACE #0.(unknown)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] juc.threadConfinedAlt.Test.m()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] juc.classInit.D.D()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] juc.classInit.Test.(unknown)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] juc.classInit.D.m()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] intrinsic.good.Test.Test()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] intrinsic.good.D.m()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] intrinsic.good.Test.doStuff()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] intrinsic.good.D.D()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] intrinsic.bad.Test.Test()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] intrinsic.bad.D.D()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] intrinsic.bad.Test.doStuff()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] intrinsic.bad.Test.ACE #0.(unknown)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] intrinsic.bad.D.m()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] juc.good.D.m()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] juc.good.Test.doStuff()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] juc.good.D.D()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] juc.good.Test.Test()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] juc.bad.Test.Test()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] juc.bad.D.D()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] juc.bad.Test.ACE #0.(unknown)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] juc.bad.Test.doStuff()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] juc.bad.D.m()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] intrinsic.classInit.D.m()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] intrinsic.classInit.Test.(unknown)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] intrinsic.classInit.D.D()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] intrinsic.threadConfined.Test.m()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] intrinsic.threadConfined.D.D()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] intrinsic.threadConfined.D.m()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] intrinsic.threadConfined.Test.Test()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] intrinsic.goodAlt.Test.Test()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] intrinsic.goodAlt.D.D()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] intrinsic.goodAlt.D.m()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] intrinsic.goodAlt.Test.ACE #0.(unknown)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] juc.classInitAlt.Test.ACE #0.(unknown)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] juc.classInitAlt.D.m()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] juc.classInitAlt.Test.(unknown)
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] juc.classInitAlt.D.D()
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+Starting group: NullablePreprocessorModule
+##SUBTASK, Starting parallel NullablePreprocessorModule [11]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel NullablePreprocessorModule [11]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Starting parallel NullablePreprocessorModule [11]: 16 for TestLockMessages
+Starting parallel NullablePreprocessorModule [11]: 16 for TestLockMessages
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/intrinsic/threadConfinedAlt/Test.java
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/juc/unresolvable/Test.java
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/intrinsic/good/Test.java
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/intrinsic/classInit/Test.java
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/juc/classInit/Test.java
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/intrinsic/unresolvable/Test.java
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/juc/threadConfinedAlt/Test.java
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/juc/good/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/intrinsic/threadConfined/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/intrinsic/classInitAlt/Test.java
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/intrinsic/goodAlt/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/juc/goodAlt/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/intrinsic/bad/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/juc/bad/Test.java
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/juc/classInitAlt/Test.java
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestLockMessages/src/juc/threadConfined/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+Starting group: NullableModule2
+##SUBTASK, Starting parallel NullableModule2 [12]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel NullableModule2 [12]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Starting parallel NullableModule2 [12]: 138 for TestLockMessages
+Starting parallel NullableModule2 [12]: 138 for TestLockMessages
+##SUBTASK, Checking [ Nullable ] juc.goodAlt.Test.Test()
+##SUBTASK, Checking [ Nullable ] intrinsic.threadConfinedAlt.Test.Inner.Inner()
+##SUBTASK, Checking [ Nullable ] intrinsic.unresolvable.Test.Inner.Inner3.Inner3()
+##SUBTASK, Checking [ Nullable ] juc.goodAlt.D.<clinit>
+##SUBTASK, Checking [ Nullable ] juc.unresolvable.Test.Inner.Inner2.Inner2()
+##SUBTASK, Checking [ Nullable ] intrinsic.classInitAlt.Test.Test()
+##SUBTASK, Checking [ Nullable ] intrinsic.classInitAlt.Test.<clinit>
+##SUBTASK, Checking [ Nullable ] juc.threadConfinedAlt.D.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] juc.threadConfined.Test.m()
+##SUBTASK, Checking [ Nullable ] juc.classInit.Test.Test()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] juc.threadConfined.Test.Test()
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] juc.unresolvable.Test.Inner.Inner2.<clinit>
+##SUBTASK, Checking [ Nullable ] intrinsic.threadConfinedAlt.Test.Inner.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] intrinsic.unresolvable.Test.Inner.Inner3.Inner4.Inner4()
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] juc.unresolvable.Test.Inner.Inner3.Inner3()
+##SUBTASK, Checking [ Nullable ] intrinsic.threadConfinedAlt.Test.m()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] intrinsic.threadConfinedAlt.Test.Test()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] intrinsic.classInitAlt.Test.Inner.Inner()
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] intrinsic.unresolvable.Test.Inner.Inner3.Inner4.doStuff(intrinsic.unresolvable.Test . Inner)
+##SUBTASK, Checking [ Nullable ] juc.unresolvable.Test.Inner.Inner3.Inner4.Inner4()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] juc.goodAlt.Test.Inner.Inner()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] intrinsic.classInitAlt.Test.Inner.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] intrinsic.classInitAlt.Test.m()
+##SUBTASK, Checking [ Nullable ] juc.classInit.Test.m()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] intrinsic.classInitAlt.Test.ACE #0.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] juc.unresolvable.Test.Inner.Inner3.Inner4.doStuff(juc.unresolvable.Test . Inner)
+##SUBTASK, Checking [ Nullable ] intrinsic.classInitAlt.D.D()
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] juc.classInit.Test.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] juc.goodAlt.Test.Inner.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] juc.goodAlt.Test.m()
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] intrinsic.classInitAlt.D.m()
+##SUBTASK, Checking [ Nullable ] juc.goodAlt.Test.doStuff()
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] juc.threadConfined.Test.<clinit>
+##SUBTASK, Checking [ Nullable ] intrinsic.classInitAlt.D.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] intrinsic.unresolvable.Test.Inner.Inner3.Inner4.<clinit>
+##SUBTASK, Checking [ Nullable ] juc.unresolvable.Test.m()
+##SUBTASK, Checking [ Nullable ] intrinsic.unresolvable.D.m()
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] juc.threadConfined.D.D()
+##SUBTASK, Checking [ Nullable ] intrinsic.unresolvable.Test.Inner.Inner3.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] intrinsic.unresolvable.D.<clinit>
+##SUBTASK, Checking [ Nullable ] juc.unresolvable.Test.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] intrinsic.unresolvable.Test.Inner.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] juc.threadConfinedAlt.Test.Inner.Inner()
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] juc.unresolvable.Test.Inner.Inner3.Inner4.<clinit>
+##SUBTASK, Checking [ Nullable ] juc.unresolvable.D.D()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] intrinsic.unresolvable.Test.m()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] juc.unresolvable.Test.Inner.Inner3.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] juc.threadConfined.D.m()
+##SUBTASK, Checking [ Nullable ] intrinsic.unresolvable.Test.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] juc.unresolvable.Test.Inner.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] juc.threadConfined.D.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] intrinsic.unresolvable.D.D()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] juc.unresolvable.Test.Test()
+##SUBTASK, Checking [ Nullable ] juc.unresolvable.D.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] juc.unresolvable.D.m()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] juc.threadConfinedAlt.Test.Inner.<clinit>
+##SUBTASK, Checking [ Nullable ] intrinsic.threadConfinedAlt.Test.<clinit>
+##SUBTASK, Checking [ Nullable ] intrinsic.unresolvable.Test.Test()
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] juc.threadConfinedAlt.Test.m()
+##SUBTASK, Checking [ Nullable ] intrinsic.unresolvable.Test.Inner.Inner()
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] intrinsic.threadConfinedAlt.D.D()
+##SUBTASK, Checking [ Nullable ] juc.threadConfinedAlt.Test.Test()
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] intrinsic.threadConfinedAlt.D.m()
+##SUBTASK, Checking [ Nullable ] intrinsic.unresolvable.Test.Inner.Inner2.Inner2()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] intrinsic.threadConfinedAlt.D.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] juc.goodAlt.Test.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] juc.classInit.D.D()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] juc.goodAlt.D.D()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] juc.unresolvable.Test.Inner.Inner()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] intrinsic.unresolvable.Test.Inner.Inner2.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] juc.bad.Test.doStuff()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] juc.classInit.D.m()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] juc.goodAlt.D.m()
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] juc.classInit.D.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] intrinsic.goodAlt.Test.Test()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] intrinsic.good.Test.Test()
+##SUBTASK, Checking [ Nullable ] juc.classInitAlt.Test.Test()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] juc.bad.Test.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] intrinsic.goodAlt.Test.Inner.Inner()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] intrinsic.good.Test.m()
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] juc.classInitAlt.Test.Inner.Inner()
+##SUBTASK, Checking [ Nullable ] juc.threadConfinedAlt.Test.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] intrinsic.good.Test.doStuff()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] juc.bad.D.D()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] juc.threadConfinedAlt.D.D()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] intrinsic.goodAlt.Test.Inner.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] intrinsic.goodAlt.Test.m()
+##SUBTASK, Checking [ Nullable ] juc.classInitAlt.Test.Inner.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] juc.bad.D.m()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] juc.classInitAlt.Test.m()
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] intrinsic.goodAlt.Test.doStuff()
+##SUBTASK, Checking [ Nullable ] intrinsic.good.Test.<clinit>
+##SUBTASK, Checking [ Nullable ] juc.bad.D.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] juc.threadConfinedAlt.D.m()
+##SUBTASK, Checking [ Nullable ] juc.classInitAlt.Test.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] intrinsic.classInit.Test.Test()
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] intrinsic.classInit.D.D()
+##SUBTASK, Checking [ Nullable ] intrinsic.bad.Test.m()
+##SUBTASK, Checking [ Nullable ] juc.good.Test.doStuff()
+##SUBTASK, Checking [ Nullable ] intrinsic.good.D.D()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] intrinsic.bad.Test.doStuff()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] intrinsic.classInit.D.m()
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] intrinsic.classInit.D.<clinit>
+##SUBTASK, Checking [ Nullable ] intrinsic.good.D.m()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] intrinsic.threadConfined.Test.m()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] intrinsic.classInit.Test.m()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] intrinsic.threadConfined.Test.Test()
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] intrinsic.classInit.Test.<clinit>
+##SUBTASK, Checking [ Nullable ] intrinsic.goodAlt.Test.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] intrinsic.good.D.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] intrinsic.goodAlt.D.D()
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] intrinsic.bad.Test.<clinit>
+##SUBTASK, Checking [ Nullable ] intrinsic.bad.Test.Test()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] intrinsic.bad.D.D()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] intrinsic.goodAlt.D.m()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] intrinsic.goodAlt.D.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] juc.classInitAlt.Test.ACE #0.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] intrinsic.bad.D.m()
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] juc.classInitAlt.D.D()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] juc.good.Test.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] intrinsic.bad.D.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] juc.good.Test.Test()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] juc.good.D.D()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] intrinsic.threadConfined.Test.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] intrinsic.bad.Test.Inner.Inner()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] juc.classInitAlt.D.m()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] intrinsic.threadConfined.D.D()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] juc.classInitAlt.D.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] juc.good.D.<clinit>
+##SUBTASK, Checking [ Nullable ] juc.good.D.m()
+##SUBTASK, Checking [ Nullable ] juc.bad.Test.Inner.Inner()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] juc.bad.Test.Test()
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] intrinsic.bad.Test.Inner.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] intrinsic.threadConfined.D.m()
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] intrinsic.threadConfined.D.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] juc.bad.Test.Inner.<clinit>
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] juc.good.Test.m()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Nullable ] juc.bad.Test.m()
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Cleaning up after analysis
+Cleaning up after analysis
+[GC (System.gc())  89486K->66024K(439808K), 0.0039520 secs]
+[Full GC (System.gc())  66024K->39576K(439808K), 0.1340180 secs]
+##WORK, 1
+##SUBTASK_DONE
+Updating consistency proof
+##SUBTASK, Updating consistency proof
+Exporting results to TestLockMessages-2015.06.23-at-13.17.47.151
+##SUBTASK, Exporting results to TestLockMessages-2015.06.23-at-13.17.47.151
+Creating snapshot: /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/TestLockMessages-2015.06.23-at-13.17.47.151/running_or_crashed_sea_snapshot.xml.gz
+Done in 4600 ms.
+ConcurrencyDetector	: 21 ms
+ThreadEffectsModule	: 163 ms
+StructureAnalysis	: 2 ms
+ParameterizedTypeAnalysis	: 10 ms
+EqualityAnalysis	: 36 ms
+LayersAnalysis	: 107 ms
+UtilityAnalysis	: 1 ms
+SingletonAnalysis	: 1 ms
+LockAnalysis	: 764 ms
+EffectsAnalysis	: 95 ms
+UniquenessAnalysisModule	: 392 ms
+NullablePreprocessorModule	: 20 ms
+NullableModule2	: 400 ms
+[2015-06-23 13:17:53    INFO] partial bindings = 7659 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+[2015-06-23 13:17:53    INFO] full bindings = 910 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+cached = 0
+totalT = 0
+#Performance data for TestLockMessages
+#Tue Jun 23 13:17:53 EDT 2015
+jsure.Add.required=0
+jsure.All.analyses=919
+jsure.Binding.before.canon=75
+jsure.Binding.full.time=450
+jsure.Binding.partial.time=342
+jsure.Bindings.full=910
+jsure.Bindings.partial=7659
+jsure.Canonicalization=206
+jsure.Cleanup=118
+jsure.Destroy.time=10
+jsure.Drop.creation=18
+jsure.Find.canon.time=3
+jsure.Parsing=799
+jsure.Promise.parsing=513
+jsure.Promise.scrubbing=1296
+jsure.Sea.export=659
+jsure.Sea.update=72
+jsure.Total.JSure.time=4600
+jsure.Total.blocks=108
+jsure.Total.canonical=2156
+jsure.Total.decls=268
+jsure.Total.destroyed=0
+jsure.Total.gced=0
+jsure.Total.loc=829
+jsure.Total.nodes=66138
+jsure.Total.stmts=228
+jsure.Total.try.destroyed=604
+jsure.analysis.ConcurrencyDetector=21
+jsure.analysis.EffectsAnalysis=95
+jsure.analysis.EqualityAnalysis=36
+jsure.analysis.LayersAnalysis=107
+jsure.analysis.LockAnalysis=764
+jsure.analysis.NullableModule2=400
+jsure.analysis.NullablePreprocessorModule=20
+jsure.analysis.ParameterizedTypeAnalysis=10
+jsure.analysis.SingletonAnalysis=1
+jsure.analysis.StructureAnalysis=2
+jsure.analysis.ThreadEffectsModule=163
+jsure.analysis.UniquenessAnalysisModule=392
+jsure.analysis.UtilityAnalysis=1
+jsure.num.threads=8
+Javac making log: AnnotationRules
+##DONE
+Renaming snapshot: /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/TestLockMessages-2015.06.23-at-13.17.47.151/sea_snapshot.xml.gz
+Done with JSure!
+Scanning complete (5747 ms)
+No socket to close
+Closing std streams
+Process result after waiting = 0
