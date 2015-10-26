@@ -8,4 +8,8 @@ public class Matchers {
 	public static <T> Matcher<Iterable<T>> hasItems(T... items) {
 		return null;
 	}
+	
+    public static <T> T eq(T value) {
+    	return null;
+    }
 }

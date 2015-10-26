@@ -35,4 +35,7 @@ Writable {
 			Class<U> xface) {
 		return null;
 	}
+	
+	public void set(String name, String value) {		
+	}
 }
