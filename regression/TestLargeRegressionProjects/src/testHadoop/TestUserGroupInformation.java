@@ -1,6 +1,7 @@
 package testHadoop;
 
 import java.io.IOException;
+import java.lang.reflect.Method;
 import java.security.PrivilegedExceptionAction;
 import java.util.Collection;
 
@@ -38,7 +39,7 @@ public class TestUserGroupInformation {
 		} catch(UnsupportedOperationException uoe) {
 			// Can't modify tokens
 		}
-        */
+		 */
 		// ensure that the tokens are passed through doAs
 		Collection<Token<? extends TokenIdentifier>> otherSet = 
 				ugi.doAs(new PrivilegedExceptionAction<Collection<Token<?>>>(){
@@ -49,5 +50,40 @@ public class TestUserGroupInformation {
 				});
 		//assertTrue(otherSet.contains(t1));
 		//assertTrue(otherSet.contains(t2));
+	}
+
+	public void testHasSufficientTimeElapsed() throws Exception {
+		// Make hasSufficientTimeElapsed public
+		Method method = UserGroupInformation.class
+				.getDeclaredMethod("hasSufficientTimeElapsed", long.class);
+		/*
+		method.setAccessible(true);
+
+		UserGroupInformation ugi = UserGroupInformation.getCurrentUser();
+		User user = ugi.getSubject().getPrincipals(User.class).iterator().next();
+		long now = System.currentTimeMillis();
+
+		// Using default relogin time (1 minute)
+		user.setLastLogin(now - 2 * 60 * 1000);  // 2 minutes before "now"
+		assertTrue((Boolean)method.invoke(ugi, now));
+		user.setLastLogin(now - 30 * 1000);      // 30 seconds before "now"
+		assertFalse((Boolean)method.invoke(ugi, now));
+
+		// Using relogin time of 10 minutes
+		Configuration conf2 = new Configuration(conf);
+		conf2.setLong(
+				CommonConfigurationKeysPublic.HADOOP_KERBEROS_MIN_SECONDS_BEFORE_RELOGIN,
+				10 * 60);
+		UserGroupInformation.setConfiguration(conf2);
+		user.setLastLogin(now - 15 * 60 * 1000); // 15 minutes before "now"
+		assertTrue((Boolean)method.invoke(ugi, now));
+		user.setLastLogin(now - 6 * 60 * 1000);  // 6 minutes before "now"
+		assertFalse((Boolean)method.invoke(ugi, now));
+		// Restore original conf to UGI
+		UserGroupInformation.setConfiguration(conf);
+
+		// Restore hasSufficientTimElapsed back to private
+		method.setAccessible(false);
+		*/
 	}
 }
