@@ -7,4 +7,6 @@ public interface Multimap<K,V> {
 
 	Map<K, Collection<V>> asMap();
 
+	void put(K k, V v);
+
 }
