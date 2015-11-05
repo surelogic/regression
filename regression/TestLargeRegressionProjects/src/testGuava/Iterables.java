@@ -15,6 +15,7 @@ public class Iterables {
 		return new IterableWithToString<T>() {
 			@Override
 			public Iterator<T> iterator() {
+				// Iterator<? extends Iterator<? extends T>>
 				return Iterators.concat(iterators(inputs));
 			}
 		};
