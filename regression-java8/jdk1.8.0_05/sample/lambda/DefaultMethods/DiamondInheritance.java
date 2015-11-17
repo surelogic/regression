@@ -113,6 +113,30 @@ public class DiamondInheritance {
         }
     }
 
+    class Temp implements Horse {
+    	
+    }
+    
+    class Diamond extends Temp implements Bird {
+        @Override
+        public String go() {
+        	// Horse.super.go()
+            return Bird.super.go();
+        }
+    }
+    
+    interface H2 extends Horse {
+    	
+    }
+    
+    class Diamond2 implements H2, Bird {
+        @Override
+        public String go() {
+        	// Not Horse.super.go()
+            return H2.super.go();
+        }
+    }
+    
     /**
      * Class to illustrate the diamond inheritance. Pegasus must mix horse and
      * bird behavior.
