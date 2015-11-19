@@ -10,7 +10,6 @@ import java.sql.SQLException;
 
 @FunctionalInterface
 public interface ResultHandler<T> extends Handler<T> {
-	/*
 	@Override
 	default T handle(ResultSet rs) {
 		try {
@@ -21,7 +20,6 @@ public interface ResultHandler<T> extends Handler<T> {
 	}
 
 	T accept(ResultSet rs) throws SQLException;
-	*/
 
 	/*
 	public static <T> RowResultHandler<T, ?, List<T>> listHandler(
