@@ -37,6 +37,15 @@ public class PowerScores extends ExpertAttributes {
 	public static class PSInvestigator extends PSExpert {
 		
 	}
+
+	public List<Research> getLatestResearch_simplified() {	
+		//return auths.keySet().stream().map(Research::create)
+		Stream<PSPub> stream = null;
+		return stream.map(Research::create)
+				.sorted((r1, r2) -> -1
+						* Integer.compare(r1.getYear(), r2.getYear()))
+						.collect(toList());		
+	}
 	
 	public List<Research> getLatestResearch() {
 		return Stream
