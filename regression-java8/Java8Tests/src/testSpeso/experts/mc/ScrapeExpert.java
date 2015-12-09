@@ -3,6 +3,7 @@ package testSpeso.experts.mc;
 import static java.util.stream.Collectors.toList;
 
 import java.util.List;
+import java.util.stream.Stream;
 
 import testSpeso.RowHandler;
 
@@ -17,6 +18,11 @@ public class ScrapeExpert /*implements MatchableExpert*/ {
 		//exp = new BasicMatchableExpert(first, last, eId);
 		this.orgIds = orgIds;
 	}
+	
+	ScrapeExpert(List<Integer> orgIds) {
+		this.orgIds = orgIds;
+	}
+		
 	/*
 	@Override
 	public String getLast() {
@@ -43,10 +49,16 @@ public class ScrapeExpert /*implements MatchableExpert*/ {
   	*/
 	private static final Splitter cSplitter = Splitter.on(",");
 	public static final RowHandler<ScrapeExpert> HANDLER = rs -> {
+		/* Simplified
+		Stream<String> strings = null; // cSplitter.splitToList(rs.getString("org_ids")).stream();
+		return new ScrapeExpert(strings.map(Integer::parseInt).collect(toList()));
+		*/
+		// Original
 		return new ScrapeExpert(rs.getString("first_name"),
 				rs.getString("last_name"), rs.getInt("e_id"), cSplitter
 				.splitToList(rs.getString("org_ids")).stream()
 				.map(Integer::parseInt).collect(toList()));
+	    //
 	};
 }
 

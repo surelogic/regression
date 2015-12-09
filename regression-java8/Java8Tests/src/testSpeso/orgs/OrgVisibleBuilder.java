@@ -37,6 +37,14 @@ Comparable<OrgVisibleBuilder> {
 		List<ExpertVisible> stExps = experts.stream().sorted().limit(numOnPage)
 				.collect(Collectors.toList());
 
+		/*
+		 *  Simplified		 
+		//stExps.stream().flatMap(exp -> physMap.get(exp.getId()).stream())
+		Stream<ExpertVisible> stream = null;
+		stream.flatMap(exp -> physMap.get(exp.getId()).stream())
+		.map(pmid -> pubMap.get(pmid))
+		.forEach(pub -> pub.setForceDisplay());		
+		*/
 		stExps.stream().flatMap(exp -> physMap.get(exp.getId()).stream())
 		.map(pmid -> pubMap.get(pmid))
 		.forEach(pub -> pub.setForceDisplay());
