@@ -34,7 +34,7 @@ public class SpesoCollectors {
 		public Function<A, R> finisher();
 
 		public Set<Characteristics> characteristics();
-
+		
 		public static <A, R> IntCollector<A, R> of(Supplier<A> supplier,
 				ObjIntConsumer<A> accumulator, BinaryOperator<A> combiner) {
 			/*
@@ -45,8 +45,67 @@ public class SpesoCollectors {
 		}
 
 	}
-
+	
 	public static IntCollector<TIntSet, TIntSet> TIntSetCollector =
 			IntCollector.of((Supplier<TIntSet>) TIntHashSet::new, TIntSet::add,
 					(left, right) -> { left.addAll(right);	return left; });
+	
+	public static class IntCollectorImpl<A, R> implements IntCollector<A, R>{
+		private final Supplier<A> supplier;
+		private final ObjIntConsumer<A> accumulator;
+		private final BinaryOperator<A> combiner;
+		private final Function<A, R> finisher;
+		private final Set<Characteristics> characteristics;
+
+		public IntCollectorImpl(Supplier<A> supplier,
+				ObjIntConsumer<A> accumulator, BinaryOperator<A> combiner) {
+			this(supplier, accumulator, combiner, castingIdentity(),
+					Collections.emptySet());
+		}
+
+		public IntCollectorImpl(Supplier<A> supplier,
+				ObjIntConsumer<A> accumulator, BinaryOperator<A> combiner,
+				Function<A, R> finisher, Set<Characteristics> characteristics) {
+			this.supplier = supplier;
+			this.accumulator = accumulator;
+			this.combiner = combiner;
+			this.finisher = finisher;
+			this.characteristics = characteristics;			
+		}
+
+		@Override
+		public Supplier<A> supplier() {
+			// TODO Auto-generated method stub
+			return null;
+		}
+
+		@Override
+		public ObjIntConsumer<A> accumulator() {
+			// TODO Auto-generated method stub
+			return null;
+		}
+
+		@Override
+		public BinaryOperator<A> combiner() {
+			// TODO Auto-generated method stub
+			return null;
+		}
+
+		@Override
+		public Function<A, R> finisher() {
+			// TODO Auto-generated method stub
+			return null;
+		}
+
+		@Override
+		public Set<Characteristics> characteristics() {
+			// TODO Auto-generated method stub
+			return null;
+		}
+	}
+	
+	@SuppressWarnings("unchecked")
+	private static <I, R> Function<I, R> castingIdentity() {
+		return i -> (R) i;
+	}
 }

@@ -3,6 +3,8 @@ package testSpeso.caching;
 import testSpeso.RowHandler;
 
 public interface Condition {
+	public int getCondId();
+	
 	public static Condition from(int id, String name) {
 		return null;
 	}
