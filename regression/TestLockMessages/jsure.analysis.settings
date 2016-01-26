@@ -5,6 +5,8 @@
 
     <id>com.surelogic.jsure.client.eclipse.EqualityAssurance</id>
 
+    <id>com.surelogic.jsure.client.eclipse.ThreadSafe</id>
+
     <id>com.surelogic.jsure.client.eclipse.IRConcurrencyDetector</id>
 
     <id>com.surelogic.jsure.client.eclipse.Singleton</id>
@@ -15,13 +17,15 @@
 
     <id>com.surelogic.jsure.client.eclipse.UniquenessAssuranceSE</id>
 
+    <id>com.surelogic.jsure.client.eclipse.LockModelBuilder</id>
+
     <id>com.surelogic.jsure.client.eclipse.LayersAssurance</id>
 
     <id>com.surelogic.jsure.client.eclipse.Utility</id>
 
     <id>com.surelogic.jsure.client.eclipse.ParameterizedType</id>
 
-    <id>com.surelogic.jsure.client.eclipse.LockAssurance3</id>
+    <id>com.surelogic.jsure.client.eclipse.LockAssurance4</id>
 
     <id>com.surelogic.jsure.client.eclipse.NullablePreprocessor</id>
 
@@ -33,6 +37,20 @@
 
   <excluded-analysis-modules>
 
+    <id>com.surelogic.jsure.client.eclipse.LockAssurance3</id>
+
+    <id>com.surelogic.jsure.client.eclipse.ConstantExpr</id>
+
+    <id>com.surelogic.jsure.client.eclipse.BCA</id>
+
+    <id>com.surelogic.jsure.client.eclipse.TestIsFunctional</id>
+
+    <id>com.surelogic.jsure.client.eclipse.LV</id>
+
+    <id>com.surelogic.jsure.client.eclipse.Types</id>
+
+    <id>com.surelogic.jsure.client.eclipse.BenchmarkingUniquenessSE</id>
+
     <id>com.surelogic.jsure.client.eclipse.DefinitelyAssigned</id>
 
     <id>com.surelogic.jsure.cliend.eclipse.TypeBasedAlias</id>
@@ -41,21 +59,11 @@
 
     <id>com.surelogic.jsure.client.eclipse.CALLS</id>
 
-    <id>com.surelogic.jsure.client.eclipse.ConstantExpr</id>
-
-    <id>com.surelogic.jsure.client.eclipse.BCA</id>
+    <id>com.surelogic.jsure.client.eclipse.EffectsAndLocks</id>
 
     <id>com.surelogic.jsure.client.eclipse.Final</id>
 
-    <id>com.surelogic.jsure.client.eclipse.TestIsFunctional</id>
-
     <id>com.surelogic.jsure.client.eclipse.Binder</id>
-
-    <id>com.surelogic.jsure.client.eclipse.LV</id>
-
-    <id>com.surelogic.jsure.client.eclipse.Types</id>
-
-    <id>com.surelogic.jsure.client.eclipse.BenchmarkingUniquenessSE</id>
 
   </excluded-analysis-modules>
 
