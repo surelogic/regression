@@ -44,7 +44,7 @@ public class SSLHelper {
 			} else {
 				trustMgrs = null;//trustStoreHelper == null ? null : trustStoreHelper.getTrustMgrs(vertx);
 			}
-			if (trustMgrs != null && crlPaths != null && crlValues != null && (crlPaths.size() > 0 || crlValues.size() > 0)) {
+			if (/*trustMgrs != null &&*/ crlPaths != null && crlValues != null && (crlPaths.size() > 0 || crlValues.size() > 0)) {
 				Stream<Buffer> tmp = crlPaths.
 						stream().
 						map(path -> vertx.resolveFile(path).getAbsolutePath()).
