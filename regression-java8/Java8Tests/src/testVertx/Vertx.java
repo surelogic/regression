@@ -2,7 +2,7 @@ package testVertx;
 
 public interface Vertx {
 	SharedData sharedData();
-	
+
 	/**
 	 * Safely execute some blocking code.
 	 * <p>
@@ -29,4 +29,15 @@ public interface Vertx {
 	 */
 	<T> void executeBlocking(Handler<Future<T>> blockingCodeHandler, Handler<AsyncResult<T>> resultHandler);
 
+	FileSystem fileSystem();
+
+	/**
+	 * Set a one-shot timer to fire after {@code delay} milliseconds, at which point {@code handler} will be called with
+	 * the id of the timer.
+	 *
+	 * @param delay  the delay in milliseconds, after which the timer will fire
+	 * @param handler  the handler that will be called with the timer ID when the timer fires
+	 * @return the unique ID of the timer
+	 */
+	long setTimer(long delay, Handler<Long> handler);
 }
