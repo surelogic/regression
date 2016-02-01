@@ -104,6 +104,11 @@ public class TestThreadSafe<A, B extends OtherTS, C, D, E extends OtherI, F, G e
   
   @Unique
   private G[][] f31; // bad
+  
+  @Unique("return")
+  private TestThreadSafe() {
+  	super();
+  }
 }
 
 @ThreadSafe

@@ -1,0 +1,1745 @@
+LOCAL vm : 1.8.0_05
+Path: /Users/aarong/git/common/common/lib/runtime/guava-18.0.jar
+Path: /Users/aarong/git/jsure/jsure-analysis/bin
+Path: /Users/aarong/git/common/common/lib/runtime/ant-1.9.6.jar
+Path: /Users/aarong/git/jsure/jsure-common
+Path: /Users/aarong/git/common/common
+Path: /Users/aarong/git/common/common/lib/runtime/javax.servlet-api-3.1.0.jar
+Path: /Users/aarong/git/jsure/jsure-analysis
+Path: /Users/aarong/git/common/common/lib/runtime/antlr-3.5.2-runtime.jar
+Path: /Users/aarong/git/jsure/jsure-common/lib/runtime/diffutils-1.2.1.jar
+Path: /Users/aarong/git/common/common/bin
+Path: /Users/aarong/git/common/common/lib/runtime/asm-commons-5.0.4.jar
+Path: /Users/aarong/git/jsure/jsure-analysis/lib/runtime/renamedJavac.jar
+Path: /Users/aarong/git/common/common/lib/runtime/promises-5.6.0.jar
+Path: /Users/aarong/git/common/common/lib/runtime/derby-10.11.1.1.jar
+Path: /Users/aarong/git/jsure/jsure-common/bin
+Path: /Users/aarong/git/common/common/lib/runtime/asm-5.0.4.jar
+Path: /Users/aarong/git/common/common/lib/runtime/asm-tree-5.0.4.jar
+Path: /Users/aarong/git/common/common/lib/runtime/hppc-0.7.1.jar
+Path: /Users/aarong/git/common/common/lib/runtime/commons-lang3-3.4.jar
+Starting process:
+	/Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/jre/bin/java
+	-Dsl.running.in.remote.vm=true
+	-Dsurelogic.test.code=NONE
+	-XX:MaxPermSize=512m
+	-verbosegc
+	-DSureLogicX=true
+	-Dsl.run.dir=/Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/2011-06-08_different-2016.01.15-at-15.39.59.257
+	-Dfluid.ir.versioning=Versioning.Off
+	-Djsure.analysis.directory.url=file:/Eclipses/eclipse-standard-luna-SR2-macosx-cocoa-x86_64/../../Users/aarong/git/jsure/jsure-analysis/
+	-Xmx2048m
+	-classpath
+	/Users/aarong/git/common/common/lib/runtime/guava-18.0.jar:/Users/aarong/git/jsure/jsure-analysis/bin:/Users/aarong/git/common/common/lib/runtime/ant-1.9.6.jar:/Users/aarong/git/jsure/jsure-common:/Users/aarong/git/common/common:/Users/aarong/git/common/common/lib/runtime/javax.servlet-api-3.1.0.jar:/Users/aarong/git/jsure/jsure-analysis:/Users/aarong/git/common/common/lib/runtime/antlr-3.5.2-runtime.jar:/Users/aarong/git/jsure/jsure-common/lib/runtime/diffutils-1.2.1.jar:/Users/aarong/git/common/common/bin:/Users/aarong/git/common/common/lib/runtime/asm-commons-5.0.4.jar:/Users/aarong/git/jsure/jsure-analysis/lib/runtime/renamedJavac.jar:/Users/aarong/git/common/common/lib/runtime/promises-5.6.0.jar:/Users/aarong/git/common/common/lib/runtime/derby-10.11.1.1.jar:/Users/aarong/git/jsure/jsure-common/bin:/Users/aarong/git/common/common/lib/runtime/asm-5.0.4.jar:/Users/aarong/git/common/common/lib/runtime/asm-tree-5.0.4.jar:/Users/aarong/git/common/common/lib/runtime/hppc-0.7.1.jar:/Users/aarong/git/common/common/lib/runtime/commons-lang3-3.4.jar
+	com.surelogic.javac.jobs.RemoteJSureRun
+
+First line in REMOTE vm = Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=512m; support was removed in 8.0
+[GC (Allocation Failure)  512K->504K(327168K), 0.0012300 secs]
+[GC (Allocation Failure)  1001K->576K(327680K), 0.0009850 secs]
+[GC (Allocation Failure)  1600K->712K(327680K), 0.0014910 secs]
+[GC (Allocation Failure)  1736K->824K(328704K), 0.0009390 secs]
+[GC (Allocation Failure)  2872K->1035K(328704K), 0.0011820 secs]
+JVM started: 1.8.0_05
+Log level: INFO
+Created reader
+Created monitor
+Created log handler
+Running RemoteJSureRun
+[GC (Allocation Failure)  3083K->1251K(331264K), 0.0011820 secs]
+[GC (Allocation Failure)  5347K->1659K(331264K), 0.0013910 secs]
+[GC (Allocation Failure)  5755K->1755K(335360K), 0.0013130 secs]
+runPath = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/2011-06-08_different-2016.01.15-at-15.39.59.257
+Creating run: 2011-06-08_different-2016.01.15-at-15.39.59.257
+Defaulting project org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7 to Java 0
+Defaulting project 2011-06-08 different to Java 0
+projects = 2011-06-08 different
+Loading edu.cmu.cs.fluid.make.nonabductive.proposals = false
+Loading edu.cmu.cs.fluid.load.all.classes = false
+Loading edu.cmu.cs.fluid.timeoutFlag = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BCA = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ConstantExpr = false
+Loading edu.cmu.cs.fluid.physMemoryInMB = 20480
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.EqualityAssurance = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ThreadSafe = true
+Loading edu.cmu.cs.fluid.xml.diff.directory = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/promises-xml
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.IRConcurrencyDetector = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Singleton = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.CALLS = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BenchmarkingUniquenessSE = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ThreadEffectAssurance2 = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Binder = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.cliend.eclipse.TypeBasedAlias = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Nullable = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.TestIsFunctional = false
+Loading edu.cmu.cs.fluid.tool-memory-mb = 2048
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.DefinitelyAssigned = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.UniquenessAssuranceSE = true
+Loading edu.cmu.cs.fluid.analysis.thread.count = 8
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LockModelBuilder = true
+Loading edu.cmu.cs.fluid.timeoutSec = 11
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.NonNullRawTypes = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.EffectsAndLocks = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LayersAssurance = true
+Loading edu.cmu.cs.fluid.default.JRE = org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Loading edu.cmu.cs.fluid.timeoutWarningSec = 30
+Loading edu.cmu.cs.fluid.modeling.problem.filters = 00000012com\.apple.*00000013com\.oracle.*00000010com\.sun.*00000014.*\.internal.*00000023.*BakedArrayList\.class00000007apple.*00000008oracle.*00000011quicktime.*00000005sun.*
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Utility = true
+Loading edu.cmu.cs.fluid.scan.may.use.compression = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ParameterizedType = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Final = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LockAssurance4 = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LockAssurance3 = false
+Loading edu.cmu.cs.fluid.data.directory = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.NullablePreprocessor = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.EffectAssurance2 = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LV = false
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.StructureAssurance = true
+Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Types = false
+JSure data dir = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data
+XML diff dir   = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/promises-xml
+Looking for JRE in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+default JRE = org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Initialized job
+[GC (Allocation Failure)  9947K->2368K(335360K), 0.0017150 secs]
+Created com.surelogic.analysis.concurrency.detector.ConcurrencyDetector
+Starting a new group for ConcurrencyDetector
+Created com.surelogic.analysis.threads.ThreadEffectsModule
+Created com.surelogic.analysis.structure.StructureAnalysis
+Created com.surelogic.analysis.annotationbounds.ParameterizedTypeAnalysis
+Created com.surelogic.analysis.equality.EqualityAnalysis
+Created com.surelogic.analysis.layers.LayersAnalysis
+Created com.surelogic.analysis.utility.UtilityAnalysis
+Starting a new group for UtilityAnalysis
+Group: EXTERNALLY
+	ConcurrencyDetector
+	ThreadEffectsModule
+	StructureAnalysis
+	ParameterizedTypeAnalysis
+	EqualityAnalysis
+	LayersAnalysis
+Created com.surelogic.analysis.singleton.SingletonAnalysis
+Created com.surelogic.analysis.concurrency.driver.LockModelBuilder
+Starting a new group for LockModelBuilder
+Group: com.surelogic.analysis.visitors.TopLevelAnalysisVisitor$1@4ee285c6, EXTERNALLY
+	UtilityAnalysis
+	SingletonAnalysis
+Created com.surelogic.analysis.concurrency.driver.ThreadSafeAnalysis
+Starting a new group for ThreadSafeAnalysis
+Group: EXTERNALLY
+	LockModelBuilder
+Created com.surelogic.analysis.concurrency.driver.NewLockAnalysis
+Starting a new group for NewLockAnalysis
+Group: com.surelogic.analysis.visitors.TopLevelAnalysisVisitor$1@4ee285c6, EXTERNALLY
+	ThreadSafeAnalysis
+Created com.surelogic.analysis.effects.EffectsAnalysis
+Starting a new group for EffectsAnalysis
+Group: class com.surelogic.analysis.bca.BindingContextAnalysis, EXTERNALLY
+	NewLockAnalysis
+Created com.surelogic.analysis.uniqueness.classic.sideeffecting.UniquenessAnalysisModule
+Starting a new group for UniquenessAnalysisModule
+Group: com.surelogic.analysis.visitors.TopLevelAnalysisVisitor$1@4ee285c6, class com.surelogic.analysis.bca.BindingContextAnalysis, EXTERNALLY
+	EffectsAnalysis
+Created com.surelogic.analysis.nullable.NullablePreprocessorModule
+Starting a new group for NullablePreprocessorModule
+Group: com.surelogic.analysis.uniqueness.classic.sideeffecting.UniquenessAnalysisModule$1@621be5d1, class com.surelogic.analysis.bca.BindingContextAnalysis, INTERNALLY
+	UniquenessAnalysisModule
+Created com.surelogic.analysis.nullable.NullableModule2
+Starting a new group for NullableModule2
+Group: EXTERNALLY
+	NullablePreprocessorModule
+Group: com.surelogic.analysis.granules.FlowUnitGranulator@573fd745, EXTERNALLY
+	NullableModule2
+##TASK, Scan, 28
+Initializing ...
+##SUBTASK, Initializing ...
+monitor = com.surelogic.common.jobs.remote.AbstractRemoteSLJob$Monitor@15327b79
+process() using 8 threads
+[GC (Allocation Failure)  10560K->2648K(340992K), 0.0019120 secs]
+[GC (Allocation Failure)  15859K->5909K(340992K), 0.0028470 secs]
+[GC (Allocation Failure)  19141K->19034K(349696K), 0.0084540 secs]
+[GC (Allocation Failure)  39950K->39697K(350208K), 0.0129190 secs]
+Done initializing org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: 0
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/resources.jar : 2465399
+[GC (Allocation Failure)  60689K->46679K(360448K), 0.0059980 secs]
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/rt.jar : 64311652
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jsse.jar : 582478
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jce.jar : 109504
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/charsets.jar : 3696271
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jfr.jar : 532548
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/dnsns.jar : 8923
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/localedata.jar : 550578
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunec.jar : 15941
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunjce_provider.jar : 198101
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunpkcs11.jar : 237244
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/zipfs.jar : 68751
+org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /System/Library/Java/Extensions/MRJToolkit.jar : 12849
+Done initializing 2011-06-08 different: 1
+Trying to find /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/2011-06-08_different-2016.01.15-at-15.39.59.257/source/2011-06-08 different.bin.zip
+2011-06-08 different: 2011-06-08 different -> org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Done initializing org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: 0
+2011-06-08 different: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/resources.jar : 2465399
+Replacing CUDrop: (default)
+Replacing CUDrop: apple.applescript
+Replacing CUDrop: apple.laf
+Replacing CUDrop: apple.launcher
+Replacing CUDrop: apple.security
+Replacing CUDrop: com.apple.concurrent
+Replacing CUDrop: com.apple.eawt
+Replacing CUDrop: com.apple.eawt.event
+Replacing CUDrop: com.apple.eio
+Replacing CUDrop: com.apple.laf
+Replacing CUDrop: com.apple.laf.resources
+Replacing CUDrop: com.oracle.net
+Replacing CUDrop: com.oracle.nio
+Replacing CUDrop: com.oracle.util
+Replacing CUDrop: com.sun.accessibility.internal.resources
+Replacing CUDrop: com.sun.activation.registries
+Replacing CUDrop: com.sun.awt
+Replacing CUDrop: com.sun.beans
+Replacing CUDrop: com.sun.beans.decoder
+Replacing CUDrop: com.sun.beans.editors
+Replacing CUDrop: com.sun.beans.finder
+Replacing CUDrop: com.sun.beans.infos
+Replacing CUDrop: com.sun.corba.se.impl.activation
+Replacing CUDrop: com.sun.corba.se.impl.copyobject
+Replacing CUDrop: com.sun.corba.se.impl.corba
+Replacing CUDrop: com.sun.corba.se.impl.dynamicany
+Replacing CUDrop: com.sun.corba.se.impl.encoding
+Replacing CUDrop: com.sun.corba.se.impl.interceptors
+Replacing CUDrop: com.sun.corba.se.impl.io
+Replacing CUDrop: com.sun.corba.se.impl.ior
+Replacing CUDrop: com.sun.corba.se.impl.ior.iiop
+Replacing CUDrop: com.sun.corba.se.impl.javax.rmi.CORBA
+Replacing CUDrop: com.sun.corba.se.impl.javax.rmi
+Replacing CUDrop: com.sun.corba.se.impl.legacy.connection
+Replacing CUDrop: com.sun.corba.se.impl.logging
+Replacing CUDrop: com.sun.corba.se.impl.monitoring
+Replacing CUDrop: com.sun.corba.se.impl.naming.cosnaming
+Replacing CUDrop: com.sun.corba.se.impl.naming.namingutil
+Replacing CUDrop: com.sun.corba.se.impl.naming.pcosnaming
+Replacing CUDrop: com.sun.corba.se.impl.oa
+Replacing CUDrop: com.sun.corba.se.impl.oa.poa
+Replacing CUDrop: com.sun.corba.se.impl.oa.toa
+Replacing CUDrop: com.sun.corba.se.impl.orb
+Replacing CUDrop: com.sun.corba.se.impl.orbutil
+Replacing CUDrop: com.sun.corba.se.impl.orbutil.closure
+Replacing CUDrop: com.sun.corba.se.impl.orbutil.concurrent
+Replacing CUDrop: com.sun.corba.se.impl.orbutil.fsm
+Replacing CUDrop: com.sun.corba.se.impl.orbutil.graph
+Replacing CUDrop: com.sun.corba.se.impl.orbutil.threadpool
+Replacing CUDrop: com.sun.corba.se.impl.presentation.rmi
+Replacing CUDrop: com.sun.corba.se.impl.protocol
+Replacing CUDrop: com.sun.corba.se.impl.protocol.giopmsgheaders
+Replacing CUDrop: com.sun.corba.se.impl.resolver
+Replacing CUDrop: com.sun.corba.se.impl.transport
+Replacing CUDrop: com.sun.corba.se.impl.util
+Replacing CUDrop: com.sun.corba.se.internal.CosNaming
+Replacing CUDrop: com.sun.corba.se.internal.Interceptors
+Replacing CUDrop: com.sun.corba.se.internal.POA
+Replacing CUDrop: com.sun.corba.se.internal.corba
+Replacing CUDrop: com.sun.corba.se.internal.iiop
+Replacing CUDrop: com.sun.corba.se.org.omg.CORBA
+Replacing CUDrop: com.sun.corba.se.pept.broker
+Replacing CUDrop: com.sun.corba.se.pept.encoding
+Replacing CUDrop: com.sun.corba.se.pept.protocol
+Replacing CUDrop: com.sun.corba.se.pept.transport
+Replacing CUDrop: com.sun.corba.se.spi.activation
+Replacing CUDrop: com.sun.corba.se.spi.activation.InitialNameServicePackage
+Replacing CUDrop: com.sun.corba.se.spi.activation.LocatorPackage
+Replacing CUDrop: com.sun.corba.se.spi.activation.RepositoryPackage
+Replacing CUDrop: com.sun.corba.se.spi.copyobject
+Replacing CUDrop: com.sun.corba.se.spi.encoding
+Replacing CUDrop: com.sun.corba.se.spi.extension
+Replacing CUDrop: com.sun.corba.se.spi.ior
+Replacing CUDrop: com.sun.corba.se.spi.ior.iiop
+Replacing CUDrop: com.sun.corba.se.spi.legacy.connection
+Replacing CUDrop: com.sun.corba.se.spi.legacy.interceptor
+Replacing CUDrop: com.sun.corba.se.spi.logging
+Replacing CUDrop: com.sun.corba.se.spi.monitoring
+Replacing CUDrop: com.sun.corba.se.spi.oa
+Replacing CUDrop: com.sun.corba.se.spi.orb
+Replacing CUDrop: com.sun.corba.se.spi.orbutil.closure
+Replacing CUDrop: com.sun.corba.se.spi.orbutil.fsm
+Replacing CUDrop: com.sun.corba.se.spi.orbutil.proxy
+Replacing CUDrop: com.sun.corba.se.spi.orbutil.threadpool
+Replacing CUDrop: com.sun.corba.se.spi.presentation.rmi
+Replacing CUDrop: com.sun.corba.se.spi.protocol
+Replacing CUDrop: com.sun.corba.se.spi.resolver
+Replacing CUDrop: com.sun.corba.se.spi.servicecontext
+Replacing CUDrop: com.sun.corba.se.spi.transport
+Replacing CUDrop: com.sun.demo.jvmti.hprof
+Replacing CUDrop: com.sun.image.codec.jpeg
+Replacing CUDrop: com.sun.imageio.plugins.bmp
+Replacing CUDrop: com.sun.imageio.plugins.common
+Replacing CUDrop: com.sun.imageio.plugins.gif
+Replacing CUDrop: com.sun.imageio.plugins.jpeg
+Replacing CUDrop: com.sun.imageio.plugins.png
+Replacing CUDrop: com.sun.imageio.plugins.wbmp
+Replacing CUDrop: com.sun.imageio.spi
+Replacing CUDrop: com.sun.imageio.stream
+Replacing CUDrop: com.sun.istack.internal
+Replacing CUDrop: com.sun.istack.internal.localization
+Replacing CUDrop: com.sun.istack.internal.logging
+Replacing CUDrop: com.sun.java.browser.dom
+Replacing CUDrop: com.sun.java.browser.net
+Replacing CUDrop: com.sun.java.swing
+Replacing CUDrop: com.sun.java.swing.plaf.gtk
+Replacing CUDrop: com.sun.java.swing.plaf.gtk.resources
+Replacing CUDrop: com.sun.java.swing.plaf.motif
+Replacing CUDrop: com.sun.java.swing.plaf.motif.resources
+Replacing CUDrop: com.sun.java.swing.plaf.nimbus
+Replacing CUDrop: com.sun.java.swing.plaf.windows
+Replacing CUDrop: com.sun.java.swing.plaf.windows.resources
+Replacing CUDrop: com.sun.java.util.jar.pack
+Replacing CUDrop: com.sun.java_cup.internal.runtime
+Replacing CUDrop: com.sun.jmx.defaults
+Replacing CUDrop: com.sun.jmx.interceptor
+Replacing CUDrop: com.sun.jmx.mbeanserver
+Replacing CUDrop: com.sun.jmx.remote.internal
+Replacing CUDrop: com.sun.jmx.remote.protocol.iiop
+Replacing CUDrop: com.sun.jmx.remote.protocol.rmi
+Replacing CUDrop: com.sun.jmx.remote.security
+Replacing CUDrop: com.sun.jmx.remote.util
+Replacing CUDrop: com.sun.jmx.snmp
+Replacing CUDrop: com.sun.jmx.snmp.IPAcl
+Replacing CUDrop: com.sun.jmx.snmp.agent
+Replacing CUDrop: com.sun.jmx.snmp.daemon
+Replacing CUDrop: com.sun.jmx.snmp.defaults
+Replacing CUDrop: com.sun.jmx.snmp.internal
+Replacing CUDrop: com.sun.jmx.snmp.mpm
+Replacing CUDrop: com.sun.jmx.snmp.tasks
+Replacing CUDrop: com.sun.jmx.trace
+Replacing CUDrop: com.sun.jndi.cosnaming
+Replacing CUDrop: com.sun.jndi.dns
+Replacing CUDrop: com.sun.jndi.ldap
+Replacing CUDrop: com.sun.jndi.ldap.ext
+Replacing CUDrop: com.sun.jndi.ldap.pool
+Replacing CUDrop: com.sun.jndi.ldap.sasl
+Replacing CUDrop: com.sun.jndi.rmi.registry
+Replacing CUDrop: com.sun.jndi.toolkit.corba
+Replacing CUDrop: com.sun.jndi.toolkit.ctx
+Replacing CUDrop: com.sun.jndi.toolkit.dir
+Replacing CUDrop: com.sun.jndi.toolkit.url
+Replacing CUDrop: com.sun.jndi.url.corbaname
+Replacing CUDrop: com.sun.jndi.url.dns
+Replacing CUDrop: com.sun.jndi.url.iiop
+Replacing CUDrop: com.sun.jndi.url.iiopname
+Replacing CUDrop: com.sun.jndi.url.ldap
+Replacing CUDrop: com.sun.jndi.url.ldaps
+Replacing CUDrop: com.sun.jndi.url.rmi
+Replacing CUDrop: com.sun.management
+Replacing CUDrop: com.sun.management.jmx
+Replacing CUDrop: com.sun.media.sound
+Replacing CUDrop: com.sun.naming.internal
+Replacing CUDrop: com.sun.net.httpserver
+Replacing CUDrop: com.sun.net.httpserver.spi
+Replacing CUDrop: com.sun.net.ssl
+Replacing CUDrop: com.sun.net.ssl.internal.www.protocol.https
+Replacing CUDrop: com.sun.nio.file
+Replacing CUDrop: com.sun.org.apache.bcel.internal
+Replacing CUDrop: com.sun.org.apache.bcel.internal.classfile
+Replacing CUDrop: com.sun.org.apache.bcel.internal.generic
+Replacing CUDrop: com.sun.org.apache.bcel.internal.util
+Replacing CUDrop: com.sun.org.apache.regexp.internal
+Replacing CUDrop: com.sun.org.apache.xalan.internal
+Replacing CUDrop: com.sun.org.apache.xalan.internal.extensions
+Replacing CUDrop: com.sun.org.apache.xalan.internal.lib
+Replacing CUDrop: com.sun.org.apache.xalan.internal.res
+Replacing CUDrop: com.sun.org.apache.xalan.internal.templates
+Replacing CUDrop: com.sun.org.apache.xalan.internal.utils
+Replacing CUDrop: com.sun.org.apache.xalan.internal.xslt
+Replacing CUDrop: com.sun.org.apache.xalan.internal.xsltc
+Replacing CUDrop: com.sun.org.apache.xalan.internal.xsltc.cmdline
+Replacing CUDrop: com.sun.org.apache.xalan.internal.xsltc.cmdline.getopt
+Replacing CUDrop: com.sun.org.apache.xalan.internal.xsltc.compiler
+Replacing CUDrop: com.sun.org.apache.xalan.internal.xsltc.compiler.util
+Replacing CUDrop: com.sun.org.apache.xalan.internal.xsltc.dom
+Replacing CUDrop: com.sun.org.apache.xalan.internal.xsltc.runtime
+Replacing CUDrop: com.sun.org.apache.xalan.internal.xsltc.runtime.output
+Replacing CUDrop: com.sun.org.apache.xalan.internal.xsltc.trax
+Replacing CUDrop: com.sun.org.apache.xalan.internal.xsltc.util
+Replacing CUDrop: com.sun.org.apache.xerces.internal.dom
+Replacing CUDrop: com.sun.org.apache.xerces.internal.dom.events
+Replacing CUDrop: com.sun.org.apache.xerces.internal.impl
+Replacing CUDrop: com.sun.org.apache.xerces.internal.impl.dtd
+Replacing CUDrop: com.sun.org.apache.xerces.internal.impl.dtd.models
+[GC (Allocation Failure)  77399K->52522K(363520K), 0.0072310 secs]
+Replacing CUDrop: com.sun.org.apache.xerces.internal.impl.dv
+Replacing CUDrop: com.sun.org.apache.xerces.internal.impl.dv.dtd
+Replacing CUDrop: com.sun.org.apache.xerces.internal.impl.dv.util
+Replacing CUDrop: com.sun.org.apache.xerces.internal.impl.dv.xs
+Replacing CUDrop: com.sun.org.apache.xerces.internal.impl.io
+Replacing CUDrop: com.sun.org.apache.xerces.internal.impl.msg
+Replacing CUDrop: com.sun.org.apache.xerces.internal.impl.validation
+Replacing CUDrop: com.sun.org.apache.xerces.internal.impl.xpath
+Replacing CUDrop: com.sun.org.apache.xerces.internal.impl.xpath.regex
+Replacing CUDrop: com.sun.org.apache.xerces.internal.impl.xs
+Replacing CUDrop: com.sun.org.apache.xerces.internal.impl.xs.identity
+Replacing CUDrop: com.sun.org.apache.xerces.internal.impl.xs.models
+Replacing CUDrop: com.sun.org.apache.xerces.internal.impl.xs.opti
+Replacing CUDrop: com.sun.org.apache.xerces.internal.impl.xs.traversers
+Replacing CUDrop: com.sun.org.apache.xerces.internal.impl.xs.util
+Replacing CUDrop: com.sun.org.apache.xerces.internal.jaxp
+Replacing CUDrop: com.sun.org.apache.xerces.internal.jaxp.datatype
+Replacing CUDrop: com.sun.org.apache.xerces.internal.jaxp.validation
+Replacing CUDrop: com.sun.org.apache.xerces.internal.parsers
+Replacing CUDrop: com.sun.org.apache.xerces.internal.util
+Replacing CUDrop: com.sun.org.apache.xerces.internal.utils
+Replacing CUDrop: com.sun.org.apache.xerces.internal.xinclude
+Replacing CUDrop: com.sun.org.apache.xerces.internal.xni
+Replacing CUDrop: com.sun.org.apache.xerces.internal.xni.grammars
+Replacing CUDrop: com.sun.org.apache.xerces.internal.xni.parser
+Replacing CUDrop: com.sun.org.apache.xerces.internal.xpointer
+Replacing CUDrop: com.sun.org.apache.xerces.internal.xs
+Replacing CUDrop: com.sun.org.apache.xerces.internal.xs.datatypes
+Replacing CUDrop: com.sun.org.apache.xml.internal.dtm
+Replacing CUDrop: com.sun.org.apache.xml.internal.dtm.ref
+Replacing CUDrop: com.sun.org.apache.xml.internal.dtm.ref.dom2dtm
+Replacing CUDrop: com.sun.org.apache.xml.internal.dtm.ref.sax2dtm
+Replacing CUDrop: com.sun.org.apache.xml.internal.res
+Replacing CUDrop: com.sun.org.apache.xml.internal.resolver
+Replacing CUDrop: com.sun.org.apache.xml.internal.resolver.helpers
+Replacing CUDrop: com.sun.org.apache.xml.internal.resolver.readers
+Replacing CUDrop: com.sun.org.apache.xml.internal.resolver.tools
+Replacing CUDrop: com.sun.org.apache.xml.internal.security
+Replacing CUDrop: com.sun.org.apache.xml.internal.security.algorithms
+Replacing CUDrop: com.sun.org.apache.xml.internal.security.algorithms.implementations
+Replacing CUDrop: com.sun.org.apache.xml.internal.security.c14n
+Replacing CUDrop: com.sun.org.apache.xml.internal.security.c14n.helper
+Replacing CUDrop: com.sun.org.apache.xml.internal.security.c14n.implementations
+Replacing CUDrop: com.sun.org.apache.xml.internal.security.encryption
+Replacing CUDrop: com.sun.org.apache.xml.internal.security.exceptions
+Replacing CUDrop: com.sun.org.apache.xml.internal.security.keys
+Replacing CUDrop: com.sun.org.apache.xml.internal.security.keys.content
+Replacing CUDrop: com.sun.org.apache.xml.internal.security.keys.content.keyvalues
+Replacing CUDrop: com.sun.org.apache.xml.internal.security.keys.content.x509
+Replacing CUDrop: com.sun.org.apache.xml.internal.security.keys.keyresolver
+Replacing CUDrop: com.sun.org.apache.xml.internal.security.keys.keyresolver.implementations
+Replacing CUDrop: com.sun.org.apache.xml.internal.security.keys.storage
+Replacing CUDrop: com.sun.org.apache.xml.internal.security.keys.storage.implementations
+Replacing CUDrop: com.sun.org.apache.xml.internal.security.signature
+Replacing CUDrop: com.sun.org.apache.xml.internal.security.transforms
+Replacing CUDrop: com.sun.org.apache.xml.internal.security.transforms.implementations
+Replacing CUDrop: com.sun.org.apache.xml.internal.security.transforms.params
+Replacing CUDrop: com.sun.org.apache.xml.internal.security.utils
+Replacing CUDrop: com.sun.org.apache.xml.internal.security.utils.resolver
+Replacing CUDrop: com.sun.org.apache.xml.internal.security.utils.resolver.implementations
+Replacing CUDrop: com.sun.org.apache.xml.internal.serialize
+Replacing CUDrop: com.sun.org.apache.xml.internal.serializer
+Replacing CUDrop: com.sun.org.apache.xml.internal.serializer.utils
+Replacing CUDrop: com.sun.org.apache.xml.internal.utils
+Replacing CUDrop: com.sun.org.apache.xml.internal.utils.res
+Replacing CUDrop: com.sun.org.apache.xpath.internal
+Replacing CUDrop: com.sun.org.apache.xpath.internal.axes
+Replacing CUDrop: com.sun.org.apache.xpath.internal.compiler
+Replacing CUDrop: com.sun.org.apache.xpath.internal.domapi
+Replacing CUDrop: com.sun.org.apache.xpath.internal.functions
+Replacing CUDrop: com.sun.org.apache.xpath.internal.jaxp
+Replacing CUDrop: com.sun.org.apache.xpath.internal.objects
+Replacing CUDrop: com.sun.org.apache.xpath.internal.operations
+Replacing CUDrop: com.sun.org.apache.xpath.internal.patterns
+Replacing CUDrop: com.sun.org.apache.xpath.internal.res
+Replacing CUDrop: com.sun.org.glassfish.external.amx
+Replacing CUDrop: com.sun.org.glassfish.external.arc
+Replacing CUDrop: com.sun.org.glassfish.external.probe.provider
+Replacing CUDrop: com.sun.org.glassfish.external.probe.provider.annotations
+Replacing CUDrop: com.sun.org.glassfish.external.statistics
+Replacing CUDrop: com.sun.org.glassfish.external.statistics.annotations
+Replacing CUDrop: com.sun.org.glassfish.external.statistics.impl
+Replacing CUDrop: com.sun.org.glassfish.gmbal
+Replacing CUDrop: com.sun.org.glassfish.gmbal.util
+Replacing CUDrop: com.sun.org.omg.CORBA
+Replacing CUDrop: com.sun.org.omg.CORBA.ValueDefPackage
+Replacing CUDrop: com.sun.org.omg.CORBA.portable
+Replacing CUDrop: com.sun.org.omg.SendingContext
+Replacing CUDrop: com.sun.org.omg.SendingContext.CodeBasePackage
+Replacing CUDrop: com.sun.rmi.rmid
+Replacing CUDrop: com.sun.rowset
+Replacing CUDrop: com.sun.rowset.internal
+Replacing CUDrop: com.sun.rowset.providers
+Replacing CUDrop: com.sun.script.javascript
+Replacing CUDrop: com.sun.script.util
+Replacing CUDrop: com.sun.security.auth
+Replacing CUDrop: com.sun.security.auth.callback
+Replacing CUDrop: com.sun.security.auth.login
+Replacing CUDrop: com.sun.security.auth.module
+Replacing CUDrop: com.sun.security.cert.internal.x509
+Replacing CUDrop: com.sun.security.jgss
+Replacing CUDrop: com.sun.security.ntlm
+Replacing CUDrop: com.sun.security.sasl
+Replacing CUDrop: com.sun.security.sasl.digest
+Replacing CUDrop: com.sun.security.sasl.gsskerb
+Replacing CUDrop: com.sun.security.sasl.ntlm
+Replacing CUDrop: com.sun.security.sasl.util
+Replacing CUDrop: com.sun.swing.internal.plaf.basic.resources
+Replacing CUDrop: com.sun.swing.internal.plaf.metal.resources
+Replacing CUDrop: com.sun.swing.internal.plaf.synth.resources
+Replacing CUDrop: com.sun.tracing
+Replacing CUDrop: com.sun.tracing.dtrace
+Replacing CUDrop: com.sun.xml.internal.bind
+Replacing CUDrop: com.sun.xml.internal.bind.annotation
+Replacing CUDrop: com.sun.xml.internal.bind.api
+Replacing CUDrop: com.sun.xml.internal.bind.api.impl
+Replacing CUDrop: com.sun.xml.internal.bind.marshaller
+Replacing CUDrop: com.sun.xml.internal.bind.unmarshaller
+Replacing CUDrop: com.sun.xml.internal.bind.util
+Replacing CUDrop: com.sun.xml.internal.bind.v2
+Replacing CUDrop: com.sun.xml.internal.bind.v2.bytecode
+Replacing CUDrop: com.sun.xml.internal.bind.v2.model.annotation
+Replacing CUDrop: com.sun.xml.internal.bind.v2.model.core
+Replacing CUDrop: com.sun.xml.internal.bind.v2.model.impl
+Replacing CUDrop: com.sun.xml.internal.bind.v2.model.nav
+Replacing CUDrop: com.sun.xml.internal.bind.v2.model.runtime
+Replacing CUDrop: com.sun.xml.internal.bind.v2.runtime
+Replacing CUDrop: com.sun.xml.internal.bind.v2.runtime.output
+Replacing CUDrop: com.sun.xml.internal.bind.v2.runtime.property
+Replacing CUDrop: com.sun.xml.internal.bind.v2.runtime.reflect
+Replacing CUDrop: com.sun.xml.internal.bind.v2.runtime.reflect.opt
+Replacing CUDrop: com.sun.xml.internal.bind.v2.runtime.unmarshaller
+Replacing CUDrop: com.sun.xml.internal.bind.v2.schemagen
+Replacing CUDrop: com.sun.xml.internal.bind.v2.schemagen.episode
+Replacing CUDrop: com.sun.xml.internal.bind.v2.schemagen.xmlschema
+Replacing CUDrop: com.sun.xml.internal.bind.v2.util
+Replacing CUDrop: com.sun.xml.internal.fastinfoset
+Replacing CUDrop: com.sun.xml.internal.fastinfoset.algorithm
+Replacing CUDrop: com.sun.xml.internal.fastinfoset.alphabet
+Replacing CUDrop: com.sun.xml.internal.fastinfoset.dom
+Replacing CUDrop: com.sun.xml.internal.fastinfoset.org.apache.xerces.util
+Replacing CUDrop: com.sun.xml.internal.fastinfoset.sax
+Replacing CUDrop: com.sun.xml.internal.fastinfoset.stax
+Replacing CUDrop: com.sun.xml.internal.fastinfoset.stax.events
+Replacing CUDrop: com.sun.xml.internal.fastinfoset.stax.factory
+Replacing CUDrop: com.sun.xml.internal.fastinfoset.stax.util
+Replacing CUDrop: com.sun.xml.internal.fastinfoset.tools
+Replacing CUDrop: com.sun.xml.internal.fastinfoset.util
+Replacing CUDrop: com.sun.xml.internal.fastinfoset.vocab
+Replacing CUDrop: com.sun.xml.internal.messaging.saaj
+Replacing CUDrop: com.sun.xml.internal.messaging.saaj.client.p2p
+Replacing CUDrop: com.sun.xml.internal.messaging.saaj.packaging.mime
+Replacing CUDrop: com.sun.xml.internal.messaging.saaj.packaging.mime.internet
+Replacing CUDrop: com.sun.xml.internal.messaging.saaj.packaging.mime.util
+Replacing CUDrop: com.sun.xml.internal.messaging.saaj.soap
+Replacing CUDrop: com.sun.xml.internal.messaging.saaj.soap.dynamic
+Replacing CUDrop: com.sun.xml.internal.messaging.saaj.soap.impl
+Replacing CUDrop: com.sun.xml.internal.messaging.saaj.soap.name
+Replacing CUDrop: com.sun.xml.internal.messaging.saaj.soap.ver1_1
+Replacing CUDrop: com.sun.xml.internal.messaging.saaj.soap.ver1_2
+Replacing CUDrop: com.sun.xml.internal.messaging.saaj.util
+Replacing CUDrop: com.sun.xml.internal.messaging.saaj.util.transform
+Replacing CUDrop: com.sun.xml.internal.org.jvnet.fastinfoset
+Replacing CUDrop: com.sun.xml.internal.org.jvnet.fastinfoset.sax
+Replacing CUDrop: com.sun.xml.internal.org.jvnet.fastinfoset.sax.helpers
+Replacing CUDrop: com.sun.xml.internal.org.jvnet.fastinfoset.stax
+Replacing CUDrop: com.sun.xml.internal.org.jvnet.mimepull
+Replacing CUDrop: com.sun.xml.internal.org.jvnet.staxex
+Replacing CUDrop: com.sun.xml.internal.stream
+Replacing CUDrop: com.sun.xml.internal.stream.buffer
+Replacing CUDrop: com.sun.xml.internal.stream.buffer.sax
+Replacing CUDrop: com.sun.xml.internal.stream.buffer.stax
+Replacing CUDrop: com.sun.xml.internal.stream.dtd
+Replacing CUDrop: com.sun.xml.internal.stream.dtd.nonvalidating
+Replacing CUDrop: com.sun.xml.internal.stream.events
+Replacing CUDrop: com.sun.xml.internal.stream.util
+Replacing CUDrop: com.sun.xml.internal.stream.writers
+Replacing CUDrop: com.sun.xml.internal.txw2
+Replacing CUDrop: com.sun.xml.internal.txw2.annotation
+Replacing CUDrop: com.sun.xml.internal.txw2.output
+Replacing CUDrop: com.sun.xml.internal.ws
+Replacing CUDrop: com.sun.xml.internal.ws.addressing
+Replacing CUDrop: com.sun.xml.internal.ws.addressing.model
+Replacing CUDrop: com.sun.xml.internal.ws.addressing.policy
+Replacing CUDrop: com.sun.xml.internal.ws.addressing.v200408
+Replacing CUDrop: com.sun.xml.internal.ws.api
+Replacing CUDrop: com.sun.xml.internal.ws.api.addressing
+Replacing CUDrop: com.sun.xml.internal.ws.api.client
+Replacing CUDrop: com.sun.xml.internal.ws.api.config.management
+Replacing CUDrop: com.sun.xml.internal.ws.api.config.management.policy
+Replacing CUDrop: com.sun.xml.internal.ws.api.fastinfoset
+Replacing CUDrop: com.sun.xml.internal.ws.api.ha
+Replacing CUDrop: com.sun.xml.internal.ws.api.handler
+Replacing CUDrop: com.sun.xml.internal.ws.api.message
+Replacing CUDrop: com.sun.xml.internal.ws.api.message.stream
+Replacing CUDrop: com.sun.xml.internal.ws.api.model
+Replacing CUDrop: com.sun.xml.internal.ws.api.model.soap
+Replacing CUDrop: com.sun.xml.internal.ws.api.model.wsdl
+Replacing CUDrop: com.sun.xml.internal.ws.api.pipe
+Replacing CUDrop: com.sun.xml.internal.ws.api.pipe.helper
+Replacing CUDrop: com.sun.xml.internal.ws.api.policy
+Replacing CUDrop: com.sun.xml.internal.ws.api.server
+Replacing CUDrop: com.sun.xml.internal.ws.api.streaming
+Replacing CUDrop: com.sun.xml.internal.ws.api.wsdl.parser
+Replacing CUDrop: com.sun.xml.internal.ws.api.wsdl.writer
+Replacing CUDrop: com.sun.xml.internal.ws.binding
+Replacing CUDrop: com.sun.xml.internal.ws.client
+Replacing CUDrop: com.sun.xml.internal.ws.client.dispatch
+Replacing CUDrop: com.sun.xml.internal.ws.client.sei
+Replacing CUDrop: com.sun.xml.internal.ws.config.management.policy
+Replacing CUDrop: com.sun.xml.internal.ws.developer
+Replacing CUDrop: com.sun.xml.internal.ws.encoding
+Replacing CUDrop: com.sun.xml.internal.ws.encoding.fastinfoset
+Replacing CUDrop: com.sun.xml.internal.ws.encoding.policy
+Replacing CUDrop: com.sun.xml.internal.ws.encoding.soap
+Replacing CUDrop: com.sun.xml.internal.ws.encoding.soap.streaming
+Replacing CUDrop: com.sun.xml.internal.ws.encoding.xml
+Replacing CUDrop: com.sun.xml.internal.ws.fault
+Replacing CUDrop: com.sun.xml.internal.ws.handler
+Replacing CUDrop: com.sun.xml.internal.ws.message
+Replacing CUDrop: com.sun.xml.internal.ws.message.jaxb
+Replacing CUDrop: com.sun.xml.internal.ws.message.saaj
+Replacing CUDrop: com.sun.xml.internal.ws.message.source
+Replacing CUDrop: com.sun.xml.internal.ws.message.stream
+Replacing CUDrop: com.sun.xml.internal.ws.model
+Replacing CUDrop: com.sun.xml.internal.ws.model.soap
+Replacing CUDrop: com.sun.xml.internal.ws.model.wsdl
+Replacing CUDrop: com.sun.xml.internal.ws.org.objectweb.asm
+Replacing CUDrop: com.sun.xml.internal.ws.policy
+Replacing CUDrop: com.sun.xml.internal.ws.policy.jaxws
+Replacing CUDrop: com.sun.xml.internal.ws.policy.jaxws.spi
+Replacing CUDrop: com.sun.xml.internal.ws.policy.privateutil
+Replacing CUDrop: com.sun.xml.internal.ws.policy.sourcemodel
+Replacing CUDrop: com.sun.xml.internal.ws.policy.sourcemodel.attach
+Replacing CUDrop: com.sun.xml.internal.ws.policy.sourcemodel.wspolicy
+Replacing CUDrop: com.sun.xml.internal.ws.policy.spi
+Replacing CUDrop: com.sun.xml.internal.ws.policy.subject
+Replacing CUDrop: com.sun.xml.internal.ws.protocol.soap
+Replacing CUDrop: com.sun.xml.internal.ws.protocol.xml
+Replacing CUDrop: com.sun.xml.internal.ws.resources
+Replacing CUDrop: com.sun.xml.internal.ws.server
+Replacing CUDrop: com.sun.xml.internal.ws.server.provider
+Replacing CUDrop: com.sun.xml.internal.ws.server.sei
+Replacing CUDrop: com.sun.xml.internal.ws.spi
+Replacing CUDrop: com.sun.xml.internal.ws.streaming
+Replacing CUDrop: com.sun.xml.internal.ws.transport
+Replacing CUDrop: com.sun.xml.internal.ws.transport.http
+Replacing CUDrop: com.sun.xml.internal.ws.transport.http.client
+Replacing CUDrop: com.sun.xml.internal.ws.transport.http.server
+Replacing CUDrop: com.sun.xml.internal.ws.util
+Replacing CUDrop: com.sun.xml.internal.ws.util.exception
+Replacing CUDrop: com.sun.xml.internal.ws.util.localization
+Replacing CUDrop: com.sun.xml.internal.ws.util.pipe
+Replacing CUDrop: com.sun.xml.internal.ws.util.xml
+Replacing CUDrop: com.sun.xml.internal.ws.wsdl
+Replacing CUDrop: com.sun.xml.internal.ws.wsdl.parser
+Replacing CUDrop: com.sun.xml.internal.ws.wsdl.writer
+Replacing CUDrop: com.sun.xml.internal.ws.wsdl.writer.document
+Replacing CUDrop: com.sun.xml.internal.ws.wsdl.writer.document.http
+Replacing CUDrop: com.sun.xml.internal.ws.wsdl.writer.document.soap
+Replacing CUDrop: com.sun.xml.internal.ws.wsdl.writer.document.soap12
+Replacing CUDrop: com.sun.xml.internal.ws.wsdl.writer.document.xsd
+Replacing CUDrop: java.applet
+Replacing CUDrop: java.awt
+Replacing CUDrop: java.awt.color
+Replacing CUDrop: java.awt.datatransfer
+Replacing CUDrop: java.awt.dnd
+Replacing CUDrop: java.awt.event
+Replacing CUDrop: java.awt.font
+Replacing CUDrop: java.awt.geom
+Replacing CUDrop: java.awt.im
+Replacing CUDrop: java.awt.im.spi
+Replacing CUDrop: java.awt.image
+Replacing CUDrop: java.awt.image.renderable
+Replacing CUDrop: java.awt.peer
+Replacing CUDrop: java.awt.print
+Replacing CUDrop: java.beans
+Replacing CUDrop: java.beans.beancontext
+Replacing CUDrop: java.io
+Replacing CUDrop: java.lang
+Replacing CUDrop: java.lang.annotation
+Replacing CUDrop: java.lang.instrument
+Replacing CUDrop: java.lang.invoke
+Replacing CUDrop: java.lang.management
+Replacing CUDrop: java.lang.reflect
+Replacing CUDrop: java.math
+Replacing CUDrop: java.net
+Replacing CUDrop: java.nio
+Replacing CUDrop: java.nio.channels
+Replacing CUDrop: java.nio.channels.spi
+Replacing CUDrop: java.nio.charset
+Replacing CUDrop: java.nio.file
+Replacing CUDrop: java.nio.file.attribute
+Replacing CUDrop: java.nio.file.spi
+Replacing CUDrop: java.rmi
+Replacing CUDrop: java.rmi.activation
+Replacing CUDrop: java.rmi.dgc
+Replacing CUDrop: java.rmi.registry
+Replacing CUDrop: java.rmi.server
+Replacing CUDrop: java.security
+Replacing CUDrop: java.security.acl
+Replacing CUDrop: java.security.cert
+Replacing CUDrop: java.security.interfaces
+Replacing CUDrop: java.security.spec
+Replacing CUDrop: java.sql
+Replacing CUDrop: java.text
+Replacing CUDrop: java.text.spi
+Replacing CUDrop: java.util
+Replacing CUDrop: java.util.concurrent
+Replacing CUDrop: java.util.concurrent.atomic
+Replacing CUDrop: java.util.concurrent.locks
+Replacing CUDrop: java.util.jar
+Replacing CUDrop: java.util.logging
+Replacing CUDrop: java.util.prefs
+Replacing CUDrop: java.util.regex
+Replacing CUDrop: java.util.spi
+Replacing CUDrop: java.util.zip
+Replacing CUDrop: javax.accessibility
+Replacing CUDrop: javax.activation
+Replacing CUDrop: javax.activity
+Replacing CUDrop: javax.annotation
+Replacing CUDrop: javax.annotation.processing
+Replacing CUDrop: javax.imageio
+Replacing CUDrop: javax.imageio.event
+Replacing CUDrop: javax.imageio.metadata
+Replacing CUDrop: javax.imageio.plugins.bmp
+Replacing CUDrop: javax.imageio.plugins.jpeg
+Replacing CUDrop: javax.imageio.spi
+Replacing CUDrop: javax.imageio.stream
+Replacing CUDrop: javax.jws
+Replacing CUDrop: javax.jws.soap
+Replacing CUDrop: javax.lang.model
+Replacing CUDrop: javax.lang.model.element
+Replacing CUDrop: javax.lang.model.type
+Replacing CUDrop: javax.lang.model.util
+Replacing CUDrop: javax.management
+Replacing CUDrop: javax.management.loading
+Replacing CUDrop: javax.management.modelmbean
+Replacing CUDrop: javax.management.monitor
+Replacing CUDrop: javax.management.openmbean
+Replacing CUDrop: javax.management.relation
+Replacing CUDrop: javax.management.remote
+Replacing CUDrop: javax.management.remote.rmi
+Replacing CUDrop: javax.management.timer
+Replacing CUDrop: javax.naming
+Replacing CUDrop: javax.naming.directory
+Replacing CUDrop: javax.naming.event
+Replacing CUDrop: javax.naming.ldap
+Replacing CUDrop: javax.naming.spi
+Replacing CUDrop: javax.net
+Replacing CUDrop: javax.net.ssl
+Replacing CUDrop: javax.print
+Replacing CUDrop: javax.print.attribute
+Replacing CUDrop: javax.print.attribute.standard
+Replacing CUDrop: javax.print.event
+Replacing CUDrop: javax.rmi.CORBA
+Replacing CUDrop: javax.rmi
+Replacing CUDrop: javax.rmi.ssl
+Replacing CUDrop: javax.script
+Replacing CUDrop: javax.security.auth
+Replacing CUDrop: javax.security.auth.callback
+Replacing CUDrop: javax.security.auth.kerberos
+Replacing CUDrop: javax.security.auth.login
+Replacing CUDrop: javax.security.auth.spi
+Replacing CUDrop: javax.security.auth.x500
+Replacing CUDrop: javax.security.cert
+Replacing CUDrop: javax.security.sasl
+Replacing CUDrop: javax.smartcardio
+Replacing CUDrop: javax.sound.midi
+Replacing CUDrop: javax.sound.midi.spi
+Replacing CUDrop: javax.sound.sampled
+Replacing CUDrop: javax.sound.sampled.spi
+Replacing CUDrop: javax.sql
+Replacing CUDrop: javax.sql.rowset
+Replacing CUDrop: javax.sql.rowset.serial
+Replacing CUDrop: javax.sql.rowset.spi
+Replacing CUDrop: javax.swing
+Replacing CUDrop: javax.swing.border
+Replacing CUDrop: javax.swing.colorchooser
+Replacing CUDrop: javax.swing.event
+Replacing CUDrop: javax.swing.filechooser
+Replacing CUDrop: javax.swing.plaf
+Replacing CUDrop: javax.swing.plaf.basic
+Replacing CUDrop: javax.swing.plaf.metal
+Replacing CUDrop: javax.swing.plaf.multi
+Replacing CUDrop: javax.swing.plaf.nimbus
+Replacing CUDrop: javax.swing.plaf.synth
+Replacing CUDrop: javax.swing.table
+Replacing CUDrop: javax.swing.text
+Replacing CUDrop: javax.swing.text.html
+Replacing CUDrop: javax.swing.text.html.parser
+Replacing CUDrop: javax.swing.text.rtf
+Replacing CUDrop: javax.swing.tree
+Replacing CUDrop: javax.swing.undo
+Replacing CUDrop: javax.tools
+Replacing CUDrop: javax.transaction
+Replacing CUDrop: javax.transaction.xa
+Replacing CUDrop: javax.xml
+Replacing CUDrop: javax.xml.bind
+Replacing CUDrop: javax.xml.bind.annotation
+Replacing CUDrop: javax.xml.bind.annotation.adapters
+Replacing CUDrop: javax.xml.bind.attachment
+Replacing CUDrop: javax.xml.bind.helpers
+Replacing CUDrop: javax.xml.bind.util
+Replacing CUDrop: javax.xml.crypto
+Replacing CUDrop: javax.xml.crypto.dom
+Replacing CUDrop: javax.xml.crypto.dsig
+Replacing CUDrop: javax.xml.crypto.dsig.dom
+Replacing CUDrop: javax.xml.crypto.dsig.keyinfo
+Replacing CUDrop: javax.xml.crypto.dsig.spec
+Replacing CUDrop: javax.xml.datatype
+Replacing CUDrop: javax.xml.namespace
+Replacing CUDrop: javax.xml.parsers
+Replacing CUDrop: javax.xml.soap
+Replacing CUDrop: javax.xml.stream
+Replacing CUDrop: javax.xml.stream.events
+Replacing CUDrop: javax.xml.stream.util
+Replacing CUDrop: javax.xml.transform
+Replacing CUDrop: javax.xml.transform.dom
+Replacing CUDrop: javax.xml.transform.sax
+Replacing CUDrop: javax.xml.transform.stax
+Replacing CUDrop: javax.xml.transform.stream
+Replacing CUDrop: javax.xml.validation
+Replacing CUDrop: javax.xml.ws
+Replacing CUDrop: javax.xml.ws.handler
+Replacing CUDrop: javax.xml.ws.handler.soap
+Replacing CUDrop: javax.xml.ws.http
+Replacing CUDrop: javax.xml.ws.soap
+Replacing CUDrop: javax.xml.ws.spi
+Replacing CUDrop: javax.xml.ws.spi.http
+Replacing CUDrop: javax.xml.ws.wsaddressing
+Replacing CUDrop: javax.xml.xpath
+Replacing CUDrop: org.ietf.jgss
+Replacing CUDrop: org.jcp.xml.dsig.internal
+Replacing CUDrop: org.jcp.xml.dsig.internal.dom
+Replacing CUDrop: org.omg.CORBA
+Replacing CUDrop: org.omg.CORBA.DynAnyPackage
+Replacing CUDrop: org.omg.CORBA.ORBPackage
+Replacing CUDrop: org.omg.CORBA.TypeCodePackage
+Replacing CUDrop: org.omg.CORBA.portable
+Replacing CUDrop: org.omg.CORBA_2_3
+Replacing CUDrop: org.omg.CORBA_2_3.portable
+Replacing CUDrop: org.omg.CosNaming
+Replacing CUDrop: org.omg.CosNaming.NamingContextExtPackage
+Replacing CUDrop: org.omg.CosNaming.NamingContextPackage
+Replacing CUDrop: org.omg.Dynamic
+Replacing CUDrop: org.omg.DynamicAny
+Replacing CUDrop: org.omg.DynamicAny.DynAnyFactoryPackage
+Replacing CUDrop: org.omg.DynamicAny.DynAnyPackage
+Replacing CUDrop: org.omg.IOP
+Replacing CUDrop: org.omg.IOP.CodecFactoryPackage
+Replacing CUDrop: org.omg.IOP.CodecPackage
+Replacing CUDrop: org.omg.Messaging
+Replacing CUDrop: org.omg.PortableInterceptor
+Replacing CUDrop: org.omg.PortableInterceptor.ORBInitInfoPackage
+Replacing CUDrop: org.omg.PortableServer
+Replacing CUDrop: org.omg.PortableServer.CurrentPackage
+Replacing CUDrop: org.omg.PortableServer.POAManagerPackage
+Replacing CUDrop: org.omg.PortableServer.POAPackage
+Replacing CUDrop: org.omg.PortableServer.ServantLocatorPackage
+Replacing CUDrop: org.omg.PortableServer.portable
+Replacing CUDrop: org.omg.SendingContext
+Replacing CUDrop: org.omg.stub.java.rmi
+Replacing CUDrop: org.omg.stub.javax.management.remote.rmi
+Replacing CUDrop: org.w3c.dom
+Replacing CUDrop: org.w3c.dom.bootstrap
+Replacing CUDrop: org.w3c.dom.css
+Replacing CUDrop: org.w3c.dom.events
+Replacing CUDrop: org.w3c.dom.html
+Replacing CUDrop: org.w3c.dom.ls
+Replacing CUDrop: org.w3c.dom.ranges
+Replacing CUDrop: org.w3c.dom.stylesheets
+Replacing CUDrop: org.w3c.dom.traversal
+Replacing CUDrop: org.w3c.dom.views
+Replacing CUDrop: org.w3c.dom.xpath
+Replacing CUDrop: org.xml.sax
+Replacing CUDrop: org.xml.sax.ext
+Replacing CUDrop: org.xml.sax.helpers
+Replacing CUDrop: sun.applet
+Replacing CUDrop: sun.applet.resources
+Replacing CUDrop: sun.audio
+Replacing CUDrop: sun.awt
+Replacing CUDrop: sun.awt.X11
+Replacing CUDrop: sun.awt.datatransfer
+Replacing CUDrop: sun.awt.geom
+Replacing CUDrop: sun.awt.im
+Replacing CUDrop: sun.awt.image
+Replacing CUDrop: sun.awt.image.codec
+Replacing CUDrop: sun.awt.motif
+Replacing CUDrop: sun.awt.resources
+Replacing CUDrop: sun.awt.shell
+Replacing CUDrop: sun.awt.util
+Replacing CUDrop: sun.awt.windows
+Replacing CUDrop: sun.beans.editors
+Replacing CUDrop: sun.corba
+Replacing CUDrop: sun.dc
+Replacing CUDrop: sun.dc.path
+Replacing CUDrop: sun.dc.pr
+Replacing CUDrop: sun.font
+Replacing CUDrop: sun.instrument
+Replacing CUDrop: sun.invoke
+Replacing CUDrop: sun.invoke.anon
+Replacing CUDrop: sun.invoke.empty
+Replacing CUDrop: sun.invoke.util
+Replacing CUDrop: sun.io
+Replacing CUDrop: sun.java2d
+Replacing CUDrop: sun.java2d.cmm
+Replacing CUDrop: sun.java2d.cmm.kcms
+Replacing CUDrop: sun.java2d.cmm.lcms
+Replacing CUDrop: sun.java2d.jules
+Replacing CUDrop: sun.java2d.loops
+Replacing CUDrop: sun.java2d.opengl
+Replacing CUDrop: sun.java2d.pipe
+Replacing CUDrop: sun.java2d.pipe.hw
+Replacing CUDrop: sun.java2d.pisces
+Replacing CUDrop: sun.java2d.x11
+Replacing CUDrop: sun.java2d.xr
+Replacing CUDrop: sun.launcher
+Replacing CUDrop: sun.launcher.resources
+Replacing CUDrop: sun.lwawt
+Replacing CUDrop: sun.lwawt.macosx
+Replacing CUDrop: sun.lwawt.macosx.event
+Replacing CUDrop: sun.management
+Replacing CUDrop: sun.management.counter
+Replacing CUDrop: sun.management.counter.perf
+Replacing CUDrop: sun.management.jdp
+Replacing CUDrop: sun.management.jmxremote
+Replacing CUDrop: sun.management.resources
+Replacing CUDrop: sun.management.snmp
+Replacing CUDrop: sun.management.snmp.jvminstr
+Replacing CUDrop: sun.management.snmp.jvmmib
+Replacing CUDrop: sun.management.snmp.util
+Replacing CUDrop: sun.misc
+Replacing CUDrop: sun.misc.resources
+Replacing CUDrop: sun.net
+Replacing CUDrop: sun.net.dns
+Replacing CUDrop: sun.net.ftp
+Replacing CUDrop: sun.net.ftp.impl
+Replacing CUDrop: sun.net.httpserver
+Replacing CUDrop: sun.net.idn
+Replacing CUDrop: sun.net.sdp
+Replacing CUDrop: sun.net.smtp
+Replacing CUDrop: sun.net.spi.nameservice
+Replacing CUDrop: sun.net.util
+Replacing CUDrop: sun.net.www
+Replacing CUDrop: sun.net.www.content.audio
+Replacing CUDrop: sun.net.www.content.image
+Replacing CUDrop: sun.net.www.content.text
+Replacing CUDrop: sun.net.www.http
+Replacing CUDrop: sun.net.www.protocol.ftp
+Replacing CUDrop: sun.net.www.protocol.gopher
+Replacing CUDrop: sun.net.www.protocol.http
+Replacing CUDrop: sun.net.www.protocol.http.logging
+Replacing CUDrop: sun.net.www.protocol.http.ntlm
+Replacing CUDrop: sun.net.www.protocol.http.spnego
+Replacing CUDrop: sun.net.www.protocol.https
+Replacing CUDrop: sun.net.www.protocol.jar
+Replacing CUDrop: sun.net.www.protocol.mailto
+Replacing CUDrop: sun.net.www.protocol.netdoc
+Replacing CUDrop: sun.nio.ch
+Replacing CUDrop: sun.nio.cs
+Replacing CUDrop: sun.nio.fs
+Replacing CUDrop: sun.org.mozilla.javascript.internal
+Replacing CUDrop: sun.org.mozilla.javascript.internal.annotations
+Replacing CUDrop: sun.org.mozilla.javascript.internal.ast
+Replacing CUDrop: sun.org.mozilla.javascript.internal.debug
+Replacing CUDrop: sun.org.mozilla.javascript.internal.jdk13
+Replacing CUDrop: sun.org.mozilla.javascript.internal.jdk15
+Replacing CUDrop: sun.org.mozilla.javascript.internal.json
+Replacing CUDrop: sun.org.mozilla.javascript.internal.regexp
+Replacing CUDrop: sun.org.mozilla.javascript.internal.xml
+Replacing CUDrop: sun.org.mozilla.javascript.internal.xmlimpl
+Replacing CUDrop: sun.print
+Replacing CUDrop: sun.print.resources
+Replacing CUDrop: sun.reflect
+Replacing CUDrop: sun.reflect.annotation
+Replacing CUDrop: sun.reflect.generics.factory
+Replacing CUDrop: sun.reflect.generics.parser
+Replacing CUDrop: sun.reflect.generics.reflectiveObjects
+Replacing CUDrop: sun.reflect.generics.repository
+Replacing CUDrop: sun.reflect.generics.scope
+Replacing CUDrop: sun.reflect.generics.tree
+Replacing CUDrop: sun.reflect.generics.visitor
+Replacing CUDrop: sun.reflect.misc
+Replacing CUDrop: sun.rmi.log
+Replacing CUDrop: sun.rmi.registry
+Replacing CUDrop: sun.rmi.runtime
+Replacing CUDrop: sun.rmi.server
+Replacing CUDrop: sun.rmi.transport
+Replacing CUDrop: sun.rmi.transport.proxy
+Replacing CUDrop: sun.rmi.transport.tcp
+Replacing CUDrop: sun.security.acl
+Replacing CUDrop: sun.security.action
+Replacing CUDrop: sun.security.ec
+Replacing CUDrop: sun.security.jca
+Replacing CUDrop: sun.security.jgss
+Replacing CUDrop: sun.security.jgss.krb5
+Replacing CUDrop: sun.security.jgss.spi
+Replacing CUDrop: sun.security.jgss.spnego
+Replacing CUDrop: sun.security.jgss.wrapper
+Replacing CUDrop: sun.security.krb5
+Replacing CUDrop: sun.security.krb5.internal
+Replacing CUDrop: sun.security.krb5.internal.ccache
+Replacing CUDrop: sun.security.krb5.internal.crypto
+Replacing CUDrop: sun.security.krb5.internal.crypto.dk
+Replacing CUDrop: sun.security.krb5.internal.ktab
+Replacing CUDrop: sun.security.krb5.internal.rcache
+Replacing CUDrop: sun.security.krb5.internal.util
+Replacing CUDrop: sun.security.pkcs
+Replacing CUDrop: sun.security.pkcs12
+Replacing CUDrop: sun.security.provider
+Replacing CUDrop: sun.security.provider.certpath
+Replacing CUDrop: sun.security.provider.certpath.ldap
+Replacing CUDrop: sun.security.rsa
+Replacing CUDrop: sun.security.smartcardio
+Replacing CUDrop: sun.security.timestamp
+Replacing CUDrop: sun.security.tools
+Replacing CUDrop: sun.security.tools.policytool
+Replacing CUDrop: sun.security.util
+Replacing CUDrop: sun.security.validator
+Replacing CUDrop: sun.security.x509
+Replacing CUDrop: sun.swing
+Replacing CUDrop: sun.swing.icon
+Replacing CUDrop: sun.swing.plaf
+Replacing CUDrop: sun.swing.plaf.synth
+Replacing CUDrop: sun.swing.plaf.windows
+Replacing CUDrop: sun.swing.text
+Replacing CUDrop: sun.swing.text.html
+Replacing CUDrop: sun.text
+Replacing CUDrop: sun.text.bidi
+Replacing CUDrop: sun.text.normalizer
+Replacing CUDrop: sun.text.resources
+Replacing CUDrop: sun.tools.jar
+Replacing CUDrop: sun.tools.jar.resources
+Replacing CUDrop: sun.tracing
+Replacing CUDrop: sun.tracing.dtrace
+Replacing CUDrop: sun.usagetracker
+Replacing CUDrop: sun.util
+Replacing CUDrop: sun.util.calendar
+Replacing CUDrop: sun.util.locale
+Replacing CUDrop: sun.util.logging
+Replacing CUDrop: sun.util.logging.resources
+Replacing CUDrop: sun.util.resources
+Replacing CUDrop: sunw.io
+Replacing CUDrop: sunw.util
+Replacing CUDrop: java.awt.dnd.peer
+Replacing CUDrop: sun.awt.dnd
+Replacing CUDrop: sun.swing.table
+Replacing CUDrop: sun.awt.event
+Replacing CUDrop: sun.net.spi
+Replacing CUDrop: sun.net.www.protocol.file
+Replacing CUDrop: sun.nio
+Replacing CUDrop: java.nio.charset.spi
+Replacing CUDrop: java.lang.ref
+2011-06-08 different: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/rt.jar : 64311652
+Replacing CUDrop: sun.security.ssl
+Replacing CUDrop: sun.security.ssl.krb5
+Replacing CUDrop: com.sun.net.ssl.internal.ssl
+2011-06-08 different: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jsse.jar : 582478
+Replacing CUDrop: javax.crypto
+Replacing CUDrop: javax.crypto.interfaces
+Replacing CUDrop: javax.crypto.spec
+Replacing CUDrop: sun.security.internal.interfaces
+Replacing CUDrop: sun.security.internal.spec
+2011-06-08 different: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jce.jar : 109504
+Replacing CUDrop: sun.nio.cs.ext
+2011-06-08 different: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/charsets.jar : 3696271
+Replacing CUDrop: com.oracle.jrockit.jfr.client
+Replacing CUDrop: com.oracle.jrockit.jfr
+Replacing CUDrop: com.oracle.jrockit.jfr.management
+Replacing CUDrop: oracle.jrockit.jfr
+Replacing CUDrop: oracle.jrockit.jfr.events
+Replacing CUDrop: oracle.jrockit.jfr.jdkevents
+Replacing CUDrop: oracle.jrockit.jfr.jdkevents.throwabletransform
+Replacing CUDrop: oracle.jrockit.jfr.openmbean
+Replacing CUDrop: oracle.jrockit.jfr.parser
+Replacing CUDrop: oracle.jrockit.jfr.settings
+Replacing CUDrop: oracle.jrockit.jfr.tools
+Replacing CUDrop: jdk.internal.jfr.events
+2011-06-08 different: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jfr.jar : 532548
+Replacing CUDrop: sun.net.spi.nameservice.dns
+2011-06-08 different: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/dnsns.jar : 8923
+2011-06-08 different: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/localedata.jar : 550578
+2011-06-08 different: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunec.jar : 15941
+Replacing CUDrop: com.sun.crypto.provider
+2011-06-08 different: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunjce_provider.jar : 198101
+Replacing CUDrop: sun.security.pkcs11
+Replacing CUDrop: sun.security.pkcs11.wrapper
+2011-06-08 different: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunpkcs11.jar : 237244
+Replacing CUDrop: com.sun.nio.zipfs
+2011-06-08 different: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/zipfs.jar : 68751
+Replacing CUDrop: com.apple.mrj
+2011-06-08 different: Done initializing with /System/Library/Java/Extensions/MRJToolkit.jar : 12849
+2011-06-08 different: Done initializing with /Users/aarong/git/regression/regression/2011-06-08_different/promises-5.6.0.jar : 133034
+[GC (Allocation Failure)  83242K->58220K(382464K), 0.0102840 secs]
+##SUBTASK_DONE
+##WORK, 1
+Assuming that the projects are run in dependency order
+Parsing ...
+##SUBTASK, Parsing ...
+Done adapting 0 files for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK_DONE
+##WORK, 1
+Parsing ...
+##SUBTASK, Parsing ...
+JCP: warning: [options] bootstrap class path not set in conjunction with -source 1.7
+##WORK, 1
+Adapting 1 CUTs
+Done adapting 1 files for 2011-06-08 different
+##SUBTASK_DONE
+##WORK, 1
+Handling references for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Handling references for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 21 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Setting project for Object from org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 44 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 55 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+[GC (Allocation Failure)  106860K->65480K(382976K), 0.0129500 secs]
+Handling 51 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 32 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 17 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 8 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 12 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 15 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 4 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Handling 2 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK_DONE
+##WORK, 1
+Handling 23 dangling refs for 2011-06-08 different
+Handling 5 dangling refs for 2011-06-08 different
+Parsing ASTs  = 335 ms
+Handling refs = 440 ms
+[2016-01-15 15:40:01    INFO] partial bindings = 0 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+[2016-01-15 15:40:01    INFO] full bindings = 0 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+Canonicalizing ASTs
+##SUBTASK, Canonicalizing ASTs
+##WORK, 1
+[2016-01-15 15:40:01    INFO] partial bindings = 19 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+[2016-01-15 15:40:01    INFO] full bindings = 20 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+Canonicalizing 2011-06-08 different/src/test/Test.java
+[GC (Allocation Failure)  114120K->67105K(403968K), 0.0104490 secs]
+[GC (Metadata GC Threshold)  68483K->66911K(403968K), 0.0054880 secs]
+[Full GC (Metadata GC Threshold)  66911K->65428K(155136K), 0.2446370 secs]
+##WORK, 1
+Binding = 54 ms
+##SUBTASK_DONE
+##WORK, 1
+[GC (System.gc())  67490K->65620K(164352K), 0.0009780 secs]
+[Full GC (System.gc())  65620K->54470K(164352K), 0.0800810 secs]
+Creating drops
+##SUBTASK, Creating drops
+Created binary drop for java.nio.file.WatchEvent
+Created binary drop for java.util.concurrent.ConcurrentMap
+Created binary drop for java.util.AbstractSet
+Created binary drop for java.nio.channels.WritableByteChannel
+Created binary drop for java.util.zip.ZipConstants
+Created binary drop for java.net.URLStreamHandlerFactory
+Created binary drop for java.lang.reflect.AnnotatedElement
+Created binary drop for java.lang.StackTraceElement
+Created binary drop for java.security.CodeSigner
+Created binary drop for java.io.FilterInputStream
+Created binary drop for java.nio.FloatBuffer
+Created binary drop for java.nio.ByteOrder
+Created binary drop for java.lang.Readable
+Created binary drop for java.util.HashMap
+Created binary drop for java.nio.channels.AsynchronousFileChannel
+Created binary drop for java.util.zip.Inflater
+Created binary drop for java.lang.annotation.Annotation
+Created binary drop for java.nio.DoubleBuffer
+Created binary drop for java.nio.file.spi.FileSystemProvider
+Created binary drop for java.lang.Integer
+Created binary drop for java.security.CodeSource
+Created binary drop for java.io.ObjectStreamException
+Created binary drop for java.security.KeyException
+Created binary drop for sun.security.util.Debug
+Created binary drop for java.nio.channels.Channel
+Created binary drop for java.security.NoSuchAlgorithmException
+Created binary drop for java.security.PermissionCollection
+Created binary drop for java.nio.channels.spi.AbstractInterruptibleChannel
+Created binary drop for java.lang.IllegalArgumentException
+Created binary drop for java.net.ContentHandler
+Created binary drop for java.nio.file.WatchService
+Created binary drop for sun.util.LocaleServiceProviderPool
+Created binary drop for java.util.RandomAccess
+Created binary drop for java.lang.CharSequence
+Created binary drop for java.util.concurrent.TimeUnit
+Created binary drop for java.lang.Number
+Created binary drop for sun.reflect.ConstantPool
+Created binary drop for java.nio.channels.SeekableByteChannel
+Created binary drop for java.util.zip.ZipEntry
+Created binary drop for java.util.concurrent.locks.ReadWriteLock
+Created binary drop for sun.util.locale.LanguageTag
+Created binary drop for java.net.SocketException
+Created binary drop for java.util.ArrayList
+Created binary drop for java.lang.ref.Reference
+Created binary drop for java.lang.Class
+Created binary drop for java.security.DomainCombiner
+Created binary drop for java.nio.file.attribute.GroupPrincipal
+Created binary drop for java.lang.InterruptedException
+Created binary drop for java.util.zip.DataFormatException
+Created binary drop for java.net.UnknownHostException
+Created binary drop for java.lang.annotation.Target
+Created binary drop for java.net.NetworkInterface
+Created binary drop for sun.util.locale.LocaleExtensions
+Created binary drop for java.lang.ThreadLocal
+Created binary drop for com.surelogic.RegionEffects
+Created binary drop for java.lang.StringBuilder
+Created binary drop for sun.util.resources.OpenListResourceBundle
+Created binary drop for java.util.AbstractCollection
+Created binary drop for java.nio.file.FileSystem
+Created binary drop for java.util.List
+Created binary drop for java.lang.AutoCloseable
+Created binary drop for java.lang.Short
+Created binary drop for java.util.Deque
+Created binary drop for java.security.Key
+Created binary drop for java.nio.file.attribute.FileAttributeView
+Created binary drop for java.math.BigInteger
+Created binary drop for java.lang.reflect.GenericDeclaration
+Created binary drop for java.io.SyncFailedException
+Created binary drop for java.nio.file.attribute.FileStoreAttributeView
+Created binary drop for java.net.InetAddress
+Created binary drop for java.util.LinkedList
+Created binary drop for java.util.AbstractMap
+Created binary drop for java.lang.ref.SoftReference
+Created binary drop for java.lang.Appendable
+Created binary drop for java.io.OutputStream
+Created binary drop for java.util.ListIterator
+Created binary drop for java.nio.file.attribute.BasicFileAttributes
+Created binary drop for java.security.Guard
+Created binary drop for java.nio.MappedByteBuffer
+Created binary drop for java.util.concurrent.locks.Lock
+Created binary drop for java.lang.NoSuchFieldException
+Created binary drop for java.lang.reflect.Method
+Created binary drop for java.lang.Boolean
+Created binary drop for java.nio.charset.CharsetDecoder
+Created binary drop for java.lang.reflect.AccessibleObject
+Created binary drop for sun.util.locale.LocaleSyntaxException
+Created binary drop for java.lang.reflect.TypeVariable
+Created binary drop for java.security.cert.CertificateEncodingException
+Created binary drop for java.util.MissingResourceException
+Created binary drop for java.security.GeneralSecurityException
+Created binary drop for com.surelogic.Unique
+Created binary drop for java.lang.annotation.Retention
+Created binary drop for java.nio.file.attribute.FileTime
+Created binary drop for java.lang.Thread
+Created binary drop for java.lang.RuntimeException
+Created binary drop for sun.reflect.ConstructorAccessor
+Created binary drop for java.nio.IntBuffer
+Created binary drop for java.util.Dictionary
+Created binary drop for java.io.FileNotFoundException
+Created binary drop for java.io.Flushable
+Created binary drop for java.io.File
+Created binary drop for java.security.PublicKey
+Created binary drop for java.nio.file.DirectoryStream
+Created binary drop for java.lang.Runnable
+Created binary drop for java.util.concurrent.Future
+Created binary drop for java.util.Set
+Created binary drop for java.util.zip.InflaterInputStream
+Created binary drop for sun.misc.Resource
+Created binary drop for java.lang.IllegalAccessException
+Created binary drop for java.util.jar.Attributes
+Created binary drop for java.nio.channels.ClosedChannelException
+Created binary drop for java.lang.Object
+Created binary drop for java.lang.Iterable
+Created binary drop for java.util.SortedMap
+Created binary drop for java.lang.AbstractStringBuilder
+Created binary drop for java.nio.file.PathMatcher
+Created binary drop for java.util.jar.JarEntry
+Created binary drop for java.nio.file.AccessMode
+Created binary drop for java.util.Hashtable
+Created binary drop for java.security.cert.CertificateException
+Created binary drop for java.util.jar.JarFile
+Created binary drop for java.net.URL
+Created binary drop for sun.reflect.MethodAccessor
+Created binary drop for java.lang.ClassValue
+Created binary drop for java.nio.channels.AsynchronousCloseException
+Created binary drop for java.util.Iterator
+Created binary drop for java.nio.channels.CompletionHandler
+Created binary drop for java.lang.Enum
+Created binary drop for java.security.SignatureException
+Created binary drop for sun.misc.URLClassPath
+Created binary drop for java.net.ContentHandlerFactory
+Created binary drop for java.security.cert.CertPath
+Created binary drop for java.lang.annotation.RetentionPolicy
+Created binary drop for java.lang.Throwable
+Created binary drop for java.nio.charset.CharsetEncoder
+Created binary drop for java.lang.reflect.Member
+Created binary drop for java.util.spi.LocaleServiceProvider
+Created binary drop for java.util.Vector
+Created binary drop for java.lang.reflect.InvocationTargetException
+Created binary drop for java.security.PrivilegedAction
+Created binary drop for java.util.Enumeration
+Created binary drop for java.nio.file.Watchable
+Created binary drop for java.nio.channels.InterruptibleChannel
+Created binary drop for java.nio.file.OpenOption
+Created binary drop for java.io.DataOutput
+Created binary drop for java.util.Map
+Created binary drop for java.nio.channels.GatheringByteChannel
+Created binary drop for java.nio.file.LinkOption
+Created binary drop for java.util.Random
+Created binary drop for java.security.Permission
+Created binary drop for java.lang.String
+Created binary drop for java.io.FilenameFilter
+Created binary drop for java.lang.ReflectiveOperationException
+Created binary drop for java.util.Queue
+Created binary drop for java.net.InetAddressImpl
+Created binary drop for java.lang.Exception
+Created binary drop for java.io.FileFilter
+Created binary drop for java.util.spi.LocaleNameProvider
+Created binary drop for java.nio.channels.ReadableByteChannel
+Created binary drop for sun.util.locale.LocaleObjectCache
+Created binary drop for java.lang.Long
+Created binary drop for java.nio.channels.ByteChannel
+Created binary drop for java.net.URLConnection
+Created binary drop for java.util.AbstractSequentialList
+Created binary drop for java.io.PrintWriter
+Created binary drop for java.util.ResourceBundle
+Created binary drop for java.lang.NumberFormatException
+Created binary drop for sun.reflect.annotation.AnnotationType
+Created binary drop for java.lang.reflect.Constructor
+Created binary drop for java.nio.file.attribute.FileAttribute
+Created binary drop for java.util.concurrent.ExecutorService
+Created binary drop for java.lang.Byte
+Created binary drop for java.nio.file.FileStore
+Created binary drop for java.util.Comparator
+Created binary drop for java.io.DataOutputStream
+Created binary drop for java.nio.CharBuffer
+Created binary drop for java.util.AbstractList
+Created binary drop for java.lang.Character
+Created binary drop for sun.reflect.ReflectionFactory
+Created binary drop for sun.reflect.CallerSensitive
+Created binary drop for java.net.SocketAddress
+Created binary drop for java.nio.channels.AsynchronousChannel
+Created binary drop for java.nio.channels.FileChannel
+Created binary drop for java.net.URISyntaxException
+Created binary drop for java.net.UnknownServiceException
+Created binary drop for java.net.FileNameMap
+Created source drop for file:/Users/aarong/git/regression/regression/2011-06-08_different/src/test/Test.java
+Created binary drop for java.util.Collection
+Created binary drop for java.nio.file.attribute.UserPrincipal
+Created binary drop for java.io.Serializable
+Created binary drop for java.net.Proxy
+Created binary drop for java.lang.Cloneable
+Created binary drop for java.net.URLStreamHandler
+Created binary drop for sun.reflect.LangReflectAccess
+Created binary drop for java.lang.Deprecated
+Created binary drop for java.lang.annotation.ElementType
+Created binary drop for java.lang.reflect.Type
+Created binary drop for java.io.FilterOutputStream
+Created binary drop for java.net.InterfaceAddress
+Created binary drop for sun.reflect.FieldAccessor
+Created binary drop for java.lang.ref.ReferenceQueue
+Created binary drop for java.lang.ClassLoader
+Created binary drop for java.nio.charset.CoderResult
+Created binary drop for sun.nio.ch.Interruptible
+Created binary drop for java.util.concurrent.Executor
+Created binary drop for java.nio.channels.FileLock
+Created binary drop for java.lang.Package
+Created binary drop for java.util.concurrent.Callable
+Created binary drop for java.io.Writer
+Created binary drop for java.lang.Double
+Created binary drop for java.lang.Comparable
+Created binary drop for sun.util.locale.Extension
+Created binary drop for java.net.MalformedURLException
+Created binary drop for java.security.cert.Certificate
+Created binary drop for java.nio.file.attribute.UserPrincipalLookupService
+Created binary drop for java.security.AccessControlContext
+Created binary drop for java.lang.reflect.Field
+Created binary drop for java.nio.charset.CharacterCodingException
+Created binary drop for java.security.InvalidKeyException
+Created binary drop for sun.util.locale.ParseStatus
+Created binary drop for java.nio.charset.CodingErrorAction
+Created binary drop for java.util.Stack
+Created binary drop for sun.misc.JarIndex
+Created binary drop for sun.util.locale.BaseLocale
+Created binary drop for java.util.zip.ZipException
+Created binary drop for java.nio.ByteBuffer
+Created binary drop for java.security.Timestamp
+Created binary drop for java.util.Locale
+Created binary drop for java.lang.Float
+Created binary drop for java.util.WeakHashMap
+Created binary drop for java.util.Date
+Created binary drop for java.nio.file.CopyOption
+Created binary drop for java.security.Principal
+Created binary drop for java.lang.ThreadGroup
+Created binary drop for java.io.PrintStream
+Created binary drop for java.lang.InstantiationException
+Created binary drop for java.nio.file.attribute.AttributeView
+Created binary drop for java.io.InputStream
+Created binary drop for java.lang.annotation.Documented
+Created binary drop for java.security.NoSuchProviderException
+Created binary drop for java.util.concurrent.locks.Condition
+Created binary drop for java.nio.charset.Charset
+Created binary drop for java.util.jar.Manifest
+Created binary drop for java.security.ProtectionDomain
+Created binary drop for java.lang.CloneNotSupportedException
+Created binary drop for sun.misc.MetaIndex
+Created binary drop for java.net.URI
+Created binary drop for java.security.AccessControlException
+Created binary drop for java.lang.ref.WeakReference
+Created binary drop for java.io.Closeable
+Created binary drop for java.lang.SecurityException
+Created binary drop for java.io.UnsupportedEncodingException
+Created binary drop for java.lang.StringBuffer
+Created binary drop for java.nio.LongBuffer
+Created binary drop for java.nio.Buffer
+Created binary drop for java.nio.channels.ScatteringByteChannel
+Created binary drop for java.nio.file.Path
+Created binary drop for java.io.FileDescriptor
+Created binary drop for java.io.IOException
+Created binary drop for sun.util.locale.InternalLocaleBuilder
+Created binary drop for java.util.zip.ZipFile
+Created binary drop for java.nio.file.WatchKey
+Created binary drop for java.lang.Void
+Created binary drop for java.nio.ShortBuffer
+##SUBTASK_DONE
+##WORK, 1
+Parsing promises
+##SUBTASK, Parsing promises
+Added 3 promises for java.lang.[] in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@5fa7e7ff
+Added 3 promises for java.lang.[] in 2011-06-08 different: com.surelogic.tree.SyntaxTreeNode@40e37b06
+Added 16 promises for java.util.AbstractSet in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@50e347ea
+Added 12 promises for java.lang.IllegalArgumentException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@633f408
+Added 17 promises for java.util.concurrent.ConcurrentMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4ac2d435
+Added 12 promises for java.lang.CharSequence in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@128acd2b
+Added 7 promises for java.util.concurrent.locks.ReadWriteLock in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@271dedd4
+Added 22 promises for java.lang.Number in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@5c66d58e
+Added 96 promises for java.lang.Integer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@77d810af
+Added 29 promises for java.util.concurrent.TimeUnit in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@43cb4254
+Added 6 promises for java.lang.InterruptedException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7e754b33
+Added 3 promises for java.util.zip.ZipEntry in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@351358eb
+Added 1 promises for java.lang.ThreadLocal in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4d98c39b
+WARNING: TreeAccessor couldn't find equals(java.lang.Object) in java.util.ArrayList
+Added 12 promises for java.lang.Class in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@63ef6a4a
+WARNING: TreeAccessor couldn't find hashCode() in java.util.ArrayList
+Added 61 promises for java.util.HashMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2cdc5a00
+Added 61 promises for java.lang.Short in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6353ae0d
+Added 18 promises for java.util.ListIterator in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@39c50ff9
+Added 104 promises for java.util.ArrayList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@317dd2eb
+Added 55 promises for java.util.AbstractCollection in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6ca68d2
+Added 89 promises for java.util.List in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2a76000f
+Added 109 promises for java.lang.StringBuilder in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@66596a23
+Added 6 promises for java.lang.Appendable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6aafc720
+Added 2 promises for java.lang.ref.SoftReference in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7d16a369
+Added 12 promises for java.lang.RuntimeException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@74812068
+Added 6 promises for java.lang.NoSuchFieldException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@22b2f06a
+Added 20 promises for java.util.concurrent.locks.Lock in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2217b764
+Added 87 promises for java.util.Deque in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@61cd9831
+Added 37 promises for java.lang.Boolean in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@25d63aba
+Added 138 promises for java.math.BigInteger in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@5e93380e
+Added 29 promises for java.util.Dictionary in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7cbabed2
+Added 6 promises for java.lang.IllegalAccessException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@36abea5e
+Added 3 promises for java.nio.file.DirectoryStream in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@70ec1636
+Added 31 promises for java.lang.Object in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@38b05731
+Added 139 promises for java.util.LinkedList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3f6ae38c
+Added 54 promises for java.util.Set in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@14d94d0f
+Added 3 promises for java.lang.Iterable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@5950d19c
+Added 108 promises for java.util.AbstractMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@28a47cb5
+Added 141 promises for java.lang.Thread in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7c69dbad
+Added 31 promises for java.util.SortedMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@1ae23331
+Added 88 promises for java.util.jar.Attributes in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@68241ffa
+Added 6 promises for java.util.Iterator in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6dc93fd
+Added 47 promises for java.lang.Throwable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@747bfef2
+Added 13 promises for java.lang.Enum in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@56564b7
+Added 12 promises for java.lang.reflect.InvocationTargetException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@715a6314
+Added 83 promises for java.util.Hashtable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@35dccaf1
+Added 64 promises for java.util.Map in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6b499f56
+Added 4 promises for java.util.Enumeration in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@fae794d
+Added 12 promises for java.lang.Exception in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@779d02a3
+Added 18 promises for java.util.Queue in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@167c394c
+Added 144 promises for java.lang.AbstractStringBuilder in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@44dcd5b3
+Added 6 promises for java.lang.NumberFormatException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@28e8912e
+[GC (Allocation Failure)  140998K->58974K(173568K), 0.0059070 secs]
+Added 6 promises for java.io.PrintWriter in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2e63cde7
+Added 34 promises for java.util.concurrent.ExecutorService in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4cfa79d7
+Added 45 promises for java.util.ResourceBundle in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@5176532a
+Added 18 promises for java.nio.CharBuffer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6de09e6e
+Added 54 promises for java.util.Collection in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7b482cc6
+Added 29 promises for java.util.AbstractSequentialList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@661b66e2
+Added 59 promises for java.lang.Byte in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@51df3fa0
+Added 170 promises for java.util.Vector in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@26e0901
+Added 18 promises for java.net.URISyntaxException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@58114a72
+Added 96 promises for java.lang.Long in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@46d15277
+Added 4 promises for test.Test in 2011-06-08 different: com.surelogic.tree.SyntaxTreeNode@9dd7ced
+Added 1 promises for java.lang.ref.ReferenceQueue in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@5b4778a8
+Added 3 promises for java.util.Date in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7f863889
+Added 6 promises for java.io.Writer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@e4e1e2
+Added 60 promises for java.util.AbstractList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@12803a8d
+Added 70 promises for java.lang.Double in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@276225ed
+Added 21 promises for java.util.Stack in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@677032ca
+Added 73 promises for java.lang.Float in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7630d360
+Added 301 promises for java.lang.String in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@40436403
+Added 12 promises for java.lang.SecurityException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@68119258
+Added 6 promises for java.lang.InstantiationException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@756e2bcf
+Added 56 promises for java.util.WeakHashMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3b759137
+Added 6 promises for java.io.PrintStream in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7a857c59
+Added 3 promises for java.util.Locale in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7fd2cd7d
+Added 6 promises for java.lang.CloneNotSupportedException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@c6073dd
+Added 22 promises for java.util.concurrent.locks.Condition in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@269df232
+Added 3 promises for java.util.jar.Manifest in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7a651c2e
+Added 3 promises for java.nio.file.Path in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@5411ac2b
+Added 158 promises for java.lang.StringBuffer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@44b9a8dd
+##SUBTASK_DONE
+##WORK, 1
+Scrubbing promises
+##SUBTASK, Scrubbing promises
+Creating RegionModel java.lang.Object.Instance for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+[GC (Allocation Failure)  145502K->61574K(190464K), 0.0084260 secs]
+##SUBTASK_DONE
+##WORK, 1
+Starting analyses
+Using new analysis framework -- groups
+Starting group: ConcurrencyDetector, ThreadEffectsModule, StructureAnalysis, ParameterizedTypeAnalysis, EqualityAnalysis, LayersAnalysis
+##SUBTASK, Starting parallel ConcurrencyDetector [0]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel ConcurrencyDetector [0]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Starting parallel ThreadEffectsModule [1]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel ThreadEffectsModule [1]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Starting parallel StructureAnalysis [2]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel StructureAnalysis [2]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Starting parallel ParameterizedTypeAnalysis [3]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel ParameterizedTypeAnalysis [3]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Starting parallel EqualityAnalysis [4]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel EqualityAnalysis [4]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Starting parallel LayersAnalysis [5]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel LayersAnalysis [5]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Starting parallel ConcurrencyDetector [0]: 1 for 2011-06-08 different
+Starting parallel ConcurrencyDetector [0]: 1 for 2011-06-08 different
+##SUBTASK, Starting parallel ThreadEffectsModule [1]: 1 for 2011-06-08 different
+Starting parallel ThreadEffectsModule [1]: 1 for 2011-06-08 different
+##SUBTASK, Starting parallel StructureAnalysis [2]: 1 for 2011-06-08 different
+Starting parallel StructureAnalysis [2]: 1 for 2011-06-08 different
+##SUBTASK, Starting parallel ParameterizedTypeAnalysis [3]: 1 for 2011-06-08 different
+Starting parallel ParameterizedTypeAnalysis [3]: 1 for 2011-06-08 different
+##SUBTASK, Starting parallel EqualityAnalysis [4]: 1 for 2011-06-08 different
+Starting parallel EqualityAnalysis [4]: 1 for 2011-06-08 different
+##SUBTASK, Starting parallel LayersAnalysis [5]: 1 for 2011-06-08 different
+Starting parallel LayersAnalysis [5]: 1 for 2011-06-08 different
+##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/2011-06-08_different/src/test/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/2011-06-08_different/src/test/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/2011-06-08_different/src/test/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/2011-06-08_different/src/test/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/2011-06-08_different/src/test/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/2011-06-08_different/src/test/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+Starting group: UtilityAnalysis, SingletonAnalysis
+com.surelogic.analysis.visitors.TopLevelAnalysisVisitor$1@4ee285c6: 1
+com.surelogic.analysis.uniqueness.classic.sideeffecting.UniquenessAnalysisModule$1@621be5d1: 3
+com.surelogic.analysis.granules.FlowUnitGranulator@573fd745: 5
+##SUBTASK, Starting parallel UtilityAnalysis [6]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel UtilityAnalysis [6]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##SUBTASK, Starting parallel SingletonAnalysis [7]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel SingletonAnalysis [7]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Starting parallel UtilityAnalysis [6]: 1 for 2011-06-08 different
+Starting parallel UtilityAnalysis [6]: 1 for 2011-06-08 different
+##SUBTASK, Starting parallel SingletonAnalysis [7]: 1 for 2011-06-08 different
+Starting parallel SingletonAnalysis [7]: 1 for 2011-06-08 different
+##SUBTASK, Checking [ Utility class ] test.Test
+##SUBTASK_DONE
+##SUBTASK, Checking [ Singleton class ] test.Test
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+Starting group: LockModelBuilder
+##SUBTASK, Starting parallel LockModelBuilder [8]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel LockModelBuilder [8]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Starting parallel LockModelBuilder [8]: 1 for 2011-06-08 different
+Starting parallel LockModelBuilder [8]: 1 for 2011-06-08 different
+##SUBTASK, Checking [ Lock Model Builder ] file:/Users/aarong/git/regression/regression/2011-06-08_different/src/test/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+Starting group: ThreadSafeAnalysis
+##SUBTASK, Starting parallel ThreadSafeAnalysis [9]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel ThreadSafeAnalysis [9]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Starting parallel ThreadSafeAnalysis [9]: 1 for 2011-06-08 different
+Starting parallel ThreadSafeAnalysis [9]: 1 for 2011-06-08 different
+##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.Test
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+Starting group: NewLockAnalysis
+##SUBTASK, Starting parallel NewLockAnalysis [10]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel NewLockAnalysis [10]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Starting parallel NewLockAnalysis [10]: 1 for 2011-06-08 different
+Starting parallel NewLockAnalysis [10]: 1 for 2011-06-08 different
+##SUBTASK, Checking [ New Lock policy ] file:/Users/aarong/git/regression/regression/2011-06-08_different/src/test/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+Starting group: EffectsAnalysis
+##SUBTASK, Starting parallel EffectsAnalysis [11]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel EffectsAnalysis [11]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Starting parallel EffectsAnalysis [11]: 1 for 2011-06-08 different
+Starting parallel EffectsAnalysis [11]: 1 for 2011-06-08 different
+##SUBTASK, Checking [ Region effects ] test.Test
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+Starting group: UniquenessAnalysisModule
+##SUBTASK, Starting parallel UniquenessAnalysisModule [12]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel UniquenessAnalysisModule [12]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Starting parallel UniquenessAnalysisModule [12]: 3 for 2011-06-08 different
+Starting parallel UniquenessAnalysisModule [12]: 3 for 2011-06-08 different
+##SUBTASK, Checking [ Uniqueness ] test.Test.bad2()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.Test.bad1()
+##SUBTASK_DONE
+##SUBTASK, Checking [ Uniqueness ] test.Test.Test()
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+Starting group: NullablePreprocessorModule
+##SUBTASK, Starting parallel NullablePreprocessorModule [13]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel NullablePreprocessorModule [13]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Starting parallel NullablePreprocessorModule [13]: 1 for 2011-06-08 different
+Starting parallel NullablePreprocessorModule [13]: 1 for 2011-06-08 different
+##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/2011-06-08_different/src/test/Test.java
+##WORK, 1
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+Starting group: NullableModule2
+##SUBTASK, Starting parallel NullableModule2 [14]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+Starting parallel NullableModule2 [14]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Starting parallel NullableModule2 [14]: 5 for 2011-06-08 different
+Starting parallel NullableModule2 [14]: 5 for 2011-06-08 different
+##SUBTASK, Checking [ Nullable ] test.Test.Test()
+##SUBTASK, Checking [ Nullable ] test.Test.compromiseRef(java.lang.Object)
+##SUBTASK, Checking [ Nullable ] test.Test.bad1()
+##SUBTASK, Checking [ Nullable ] test.Test.bad2()
+##SUBTASK, Checking [ Nullable ] test.Test.<clinit>
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##SUBTASK_DONE
+##WORK, 1
+##SUBTASK_DONE
+##SUBTASK, Cleaning up after analysis
+Cleaning up after analysis
+[GC (System.gc())  96587K->62655K(184320K), 0.0066340 secs]
+[Full GC (System.gc())  62655K->37032K(184320K), 0.1157200 secs]
+##WORK, 1
+##SUBTASK_DONE
+Updating consistency proof
+##SUBTASK, Updating consistency proof
+Exporting results to 2011-06-08_different-2016.01.15-at-15.39.59.257
+##SUBTASK, Exporting results to 2011-06-08_different-2016.01.15-at-15.39.59.257
+Creating snapshot: /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/2011-06-08_different-2016.01.15-at-15.39.59.257/running_or_crashed_sea_snapshot.xml.gz
+Done in 3916 ms.
+ConcurrencyDetector	: 2 ms
+ThreadEffectsModule	: 1 ms
+StructureAnalysis	: 1 ms
+ParameterizedTypeAnalysis	: 1 ms
+EqualityAnalysis	: 5 ms
+LayersAnalysis	: 14 ms
+UtilityAnalysis	: 0 ms
+SingletonAnalysis	: 0 ms
+LockModelBuilder	: 15 ms
+ThreadSafeAnalysis	: 0 ms
+NewLockAnalysis	: 43 ms
+EffectsAnalysis	: 1 ms
+UniquenessAnalysisModule	: 82 ms
+NullablePreprocessorModule	: 1 ms
+NullableModule2	: 164 ms
+[2016-01-15 15:40:04    INFO] partial bindings = 6488 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+[2016-01-15 15:40:04    INFO] full bindings = 38 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+cached = 0
+totalT = 0
+#Performance data for 2011-06-08 different
+#Fri Jan 15 15:40:04 EST 2016
+jsure.Add.required=0
+jsure.All.analyses=358
+jsure.Binding.before.canon=54
+jsure.Binding.full.time=34
+jsure.Binding.partial.time=425
+jsure.Bindings.full=38
+jsure.Bindings.partial=6488
+jsure.Canonicalization=399
+jsure.Cleanup=85
+jsure.Destroy.time=255
+jsure.Drop.creation=11
+jsure.Find.canon.time=1
+jsure.Parsing=780
+jsure.Promise.parsing=523
+jsure.Promise.scrubbing=1135
+jsure.Sea.export=560
+jsure.Sea.update=65
+jsure.Total.JSure.time=3916
+jsure.Total.blocks=4
+jsure.Total.canonical=81
+jsure.Total.decls=13
+jsure.Total.destroyed=0
+jsure.Total.gced=0
+jsure.Total.loc=30
+jsure.Total.nodes=65361
+jsure.Total.stmts=8
+jsure.Total.try.destroyed=25
+jsure.analysis.ConcurrencyDetector=2
+jsure.analysis.EffectsAnalysis=1
+jsure.analysis.EqualityAnalysis=5
+jsure.analysis.LayersAnalysis=14
+jsure.analysis.LockModelBuilder=15
+jsure.analysis.NewLockAnalysis=43
+jsure.analysis.NullableModule2=164
+jsure.analysis.NullablePreprocessorModule=1
+jsure.analysis.ParameterizedTypeAnalysis=1
+jsure.analysis.SingletonAnalysis=0
+jsure.analysis.StructureAnalysis=1
+jsure.analysis.ThreadEffectsModule=1
+jsure.analysis.ThreadSafeAnalysis=0
+jsure.analysis.UniquenessAnalysisModule=82
+jsure.analysis.UtilityAnalysis=0
+jsure.num.threads=8
+Javac making log: AnnotationRules
+##DONE
+Renaming snapshot: /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/2011-06-08_different-2016.01.15-at-15.39.59.257/sea_snapshot.xml.gz
+Done with JSure!
+Scanning complete in 5 seconds 182 ms (5,182 ms)
+No socket to close
+Closing std streams
+Process result after waiting = 0
