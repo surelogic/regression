@@ -1,0 +1,1809 @@
+LOCAL vm : 1.8.0_05
+Path: /Users/aarong/git/common/common/lib/runtime/guava-18.0.jar
+Path: /Users/aarong/git/jsure/jsure-analysis/bin
+Path: /Users/aarong/git/common/common/lib/runtime/ant-1.9.6.jar
+Path: /Users/aarong/git/jsure/jsure-common
+Path: /Users/aarong/git/common/common
+Path: /Users/aarong/git/common/common/lib/runtime/javax.servlet-api-3.1.0.jar
+Path: /Users/aarong/git/jsure/jsure-analysis
+Path: /Users/aarong/git/common/common/lib/runtime/antlr-3.5.2-runtime.jar
+Path: /Users/aarong/git/jsure/jsure-common/lib/runtime/diffutils-1.2.1.jar
+Path: /Users/aarong/git/common/common/bin
+Path: /Users/aarong/git/common/common/lib/runtime/asm-commons-5.0.4.jar
+Path: /Users/aarong/git/jsure/jsure-analysis/lib/runtime/renamedJavac.jar
+Path: /Users/aarong/git/common/common/lib/runtime/promises-5.6.0.jar
+Path: /Users/aarong/git/common/common/lib/runtime/derby-10.11.1.1.jar
+Path: /Users/aarong/git/jsure/jsure-common/bin
+Path: /Users/aarong/git/common/common/lib/runtime/asm-5.0.4.jar
+Path: /Users/aarong/git/common/common/lib/runtime/asm-tree-5.0.4.jar
+Path: /Users/aarong/git/common/common/lib/runtime/hppc-0.7.1.jar
+Path: /Users/aarong/git/common/common/lib/runtime/commons-lang3-3.4.jar
+Starting process:
+	/Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/jre/bin/java
+	-Dsl.running.in.remote.vm=true
+	-Dsurelogic.test.code=NONE
+	-XX:MaxPermSize=512m
+	-verbosegc
+	-DSureLogicX=true
+	-Dsl.run.dir=/Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/TestSingletonClassPu-2016.02.03-at-12.45.16.239
+	-Dfluid.ir.versioning=Versioning.Off
+	-Djsure.analysis.directory.url=file:/Eclipses/eclipse-standard-luna-SR2-macosx-cocoa-x86_64/../../Users/aarong/git/jsure/jsure-analysis/
+	-Xmx2048m
+	-classpath
+	/Users/aarong/git/common/common/lib/runtime/guava-18.0.jar:/Users/aarong/git/jsure/jsure-analysis/bin:/Users/aarong/git/common/common/lib/runtime/ant-1.9.6.jar:/Users/aarong/git/jsure/jsure-common:/Users/aarong/git/common/common:/Users/aarong/git/common/common/lib/runtime/javax.servlet-api-3.1.0.jar:/Users/aarong/git/jsure/jsure-analysis:/Users/aarong/git/common/common/lib/runtime/antlr-3.5.2-runtime.jar:/Users/aarong/git/jsure/jsure-common/lib/runtime/diffutils-1.2.1.jar:/Users/aarong/git/common/common/bin:/Users/aarong/git/common/common/lib/runtime/asm-commons-5.0.4.jar:/Users/aarong/git/jsure/jsure-analysis/lib/runtime/renamedJavac.jar:/Users/aarong/git/common/common/lib/runtime/promises-5.6.0.jar:/Users/aarong/git/common/common/lib/runtime/derby-10.11.1.1.jar:/Users/aarong/git/jsure/jsure-common/bin:/Users/aarong/git/common/common/lib/runtime/asm-5.0.4.jar:/Users/aarong/git/common/common/lib/runtime/asm-tree-5.0.4.jar:/Users/aarong/git/common/common/lib/runtime/hppc-0.7.1.jar:/Users/aarong/git/common/common/lib/runtime/commons-lang3-3.4.jar
+	com.surelogic.javac.jobs.RemoteJSureRun
+
+First line in REMOTE vm = Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=512m; support was removed in 8.0
+REMOTE: [GC (Allocation Failure)  512K->512K(327168K), 0.0012030 secs]
+REMOTE: [GC (Allocation Failure)  1009K->568K(327680K), 0.0008140 secs]
+REMOTE: [GC (Allocation Failure)  1592K->656K(327680K), 0.0015800 secs]
+REMOTE: [GC (Allocation Failure)  1680K->784K(328704K), 0.0011340 secs]
+REMOTE: [GC (Allocation Failure)  2832K->1011K(328704K), 0.0012250 secs]
+REMOTE: JVM started: 1.8.0_05
+REMOTE: Log level: INFO
+REMOTE: Created reader
+REMOTE: Created monitor
+REMOTE: Created log handler
+REMOTE: Running RemoteJSureRun
+REMOTE: [GC (Allocation Failure)  3059K->1307K(331264K), 0.0010290 secs]
+REMOTE: [GC (Allocation Failure)  5402K->1659K(331264K), 0.0014110 secs]
+REMOTE: [GC (Allocation Failure)  5755K->1723K(335360K), 0.0012840 secs]
+REMOTE: runPath = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/TestSingletonClassPu-2016.02.03-at-12.45.16.239
+REMOTE: Creating run: TestSingletonClassPu-2016.02.03-at-12.45.16.239
+REMOTE: Defaulting project org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7 to Java 0
+REMOTE: Created project org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7 from XML
+REMOTE: Setting project TestSingletonClassPublicField to Java 7
+REMOTE: [GC (Allocation Failure)  9915K->2397K(335360K), 0.0025870 secs]
+REMOTE: Created project TestSingletonClassPublicField from XML
+REMOTE: projects = TestSingletonClassPublicField
+REMOTE: Loading edu.cmu.cs.fluid.make.nonabductive.proposals = false
+REMOTE: Loading edu.cmu.cs.fluid.load.all.classes = false
+REMOTE: Loading edu.cmu.cs.fluid.timeoutFlag = true
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BCA = false
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ConstantExpr = false
+REMOTE: Loading edu.cmu.cs.fluid.physMemoryInMB = 20480
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.EqualityAssurance = true
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ThreadSafe = true
+REMOTE: Loading edu.cmu.cs.fluid.xml.diff.directory = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/promises-xml
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.IRConcurrencyDetector = true
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Singleton = true
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.CALLS = false
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BenchmarkingUniquenessSE = false
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ThreadEffectAssurance2 = true
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Binder = false
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.cliend.eclipse.TypeBasedAlias = false
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Nullable = true
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.TestIsFunctional = false
+REMOTE: Loading edu.cmu.cs.fluid.tool-memory-mb = 2048
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.DefinitelyAssigned = false
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.UniquenessAssuranceSE = true
+REMOTE: Loading edu.cmu.cs.fluid.analysis.thread.count = 8
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LockModelBuilder = true
+REMOTE: Loading edu.cmu.cs.fluid.timeoutSec = 11
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.NonNullRawTypes = false
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.EffectsAndLocks = false
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LayersAssurance = true
+REMOTE: Loading edu.cmu.cs.fluid.default.JRE = org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Loading edu.cmu.cs.fluid.timeoutWarningSec = 30
+REMOTE: Loading edu.cmu.cs.fluid.modeling.problem.filters = 00000012com\.apple.*00000013com\.oracle.*00000010com\.sun.*00000014.*\.internal.*00000023.*BakedArrayList\.class00000007apple.*00000008oracle.*00000011quicktime.*00000005sun.*
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Utility = true
+REMOTE: Loading edu.cmu.cs.fluid.scan.may.use.compression = true
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ParameterizedType = true
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Final = false
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LockAssurance4 = true
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LockAssurance3 = false
+REMOTE: Loading edu.cmu.cs.fluid.data.directory = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.NullablePreprocessor = true
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.EffectAssurance2 = true
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LV = false
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.StructureAssurance = true
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Types = false
+REMOTE: JSure data dir = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data
+REMOTE: XML diff dir   = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/promises-xml
+REMOTE: Looking for JRE in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: default JRE = org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Initialized job
+REMOTE: Created com.surelogic.analysis.concurrency.detector.ConcurrencyDetector
+REMOTE: Starting a new group for ConcurrencyDetector
+REMOTE: Created com.surelogic.analysis.threads.ThreadEffectsModule
+REMOTE: Created com.surelogic.analysis.structure.StructureAnalysis
+REMOTE: Created com.surelogic.analysis.annotationbounds.ParameterizedTypeAnalysis
+REMOTE: Created com.surelogic.analysis.equality.EqualityAnalysis
+REMOTE: Created com.surelogic.analysis.layers.LayersAnalysis
+REMOTE: Created com.surelogic.analysis.utility.UtilityAnalysis
+REMOTE: Starting a new group for UtilityAnalysis
+REMOTE: Group: EXTERNALLY
+REMOTE: 	ConcurrencyDetector
+REMOTE: 	ThreadEffectsModule
+REMOTE: 	StructureAnalysis
+REMOTE: 	ParameterizedTypeAnalysis
+REMOTE: 	EqualityAnalysis
+REMOTE: 	LayersAnalysis
+REMOTE: Created com.surelogic.analysis.singleton.SingletonAnalysis
+REMOTE: Created com.surelogic.analysis.concurrency.driver.LockModelBuilder
+REMOTE: Starting a new group for LockModelBuilder
+REMOTE: Group: com.surelogic.analysis.visitors.TopLevelAnalysisVisitor$1@28ba21f3, EXTERNALLY
+REMOTE: 	UtilityAnalysis
+REMOTE: 	SingletonAnalysis
+REMOTE: Created com.surelogic.analysis.concurrency.driver.ThreadSafeAnalysis
+REMOTE: Starting a new group for ThreadSafeAnalysis
+REMOTE: Group: EXTERNALLY
+REMOTE: 	LockModelBuilder
+REMOTE: Created com.surelogic.analysis.concurrency.driver.NewLockAnalysis
+REMOTE: Starting a new group for NewLockAnalysis
+REMOTE: Group: com.surelogic.analysis.visitors.TopLevelAnalysisVisitor$1@28ba21f3, EXTERNALLY
+REMOTE: 	ThreadSafeAnalysis
+REMOTE: Created com.surelogic.analysis.effects.EffectsAnalysis
+REMOTE: Starting a new group for EffectsAnalysis
+REMOTE: Group: class com.surelogic.analysis.bca.BindingContextAnalysis, EXTERNALLY
+REMOTE: 	NewLockAnalysis
+REMOTE: Created com.surelogic.analysis.uniqueness.classic.sideeffecting.UniquenessAnalysisModule
+REMOTE: Starting a new group for UniquenessAnalysisModule
+REMOTE: Group: com.surelogic.analysis.visitors.TopLevelAnalysisVisitor$1@28ba21f3, class com.surelogic.analysis.bca.BindingContextAnalysis, EXTERNALLY
+REMOTE: 	EffectsAnalysis
+REMOTE: Created com.surelogic.analysis.nullable.NullablePreprocessorModule
+REMOTE: Starting a new group for NullablePreprocessorModule
+REMOTE: Group: com.surelogic.analysis.uniqueness.classic.sideeffecting.UniquenessAnalysisModule$1@694f9431, class com.surelogic.analysis.bca.BindingContextAnalysis, INTERNALLY
+REMOTE: 	UniquenessAnalysisModule
+REMOTE: Created com.surelogic.analysis.nullable.NullableModule2
+REMOTE: Starting a new group for NullableModule2
+REMOTE: Group: EXTERNALLY
+REMOTE: 	NullablePreprocessorModule
+REMOTE: Group: com.surelogic.analysis.granules.FlowUnitGranulator@f2a0b8e, EXTERNALLY
+REMOTE: 	NullableModule2
+REMOTE: ##TASK, Scan, 388
+REMOTE: Initializing ...
+REMOTE: ##SUBTASK, Initializing ...
+REMOTE: monitor = com.surelogic.common.jobs.remote.AbstractRemoteSLJob$Monitor@593634ad
+REMOTE: process() using 8 threads
+REMOTE: [GC (Allocation Failure)  10589K->3157K(340992K), 0.0023420 secs]
+REMOTE: [GC (Allocation Failure)  16469K->3335K(340992K), 0.0018270 secs]
+REMOTE: [GC (Allocation Failure)  16548K->16179K(344576K), 0.0072110 secs]
+REMOTE: [GC (Allocation Failure)  32957K->32618K(349184K), 0.0098630 secs]
+REMOTE: Done initializing org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: 0
+REMOTE: org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/resources.jar : 2465399
+REMOTE: [GC (Allocation Failure)  49514K->45254K(354816K), 0.0091860 secs]
+REMOTE: [GC (Allocation Failure)  66758K->49251K(360448K), 0.0067280 secs]
+REMOTE: org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/rt.jar : 64311652
+REMOTE: org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jsse.jar : 582478
+REMOTE: org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jce.jar : 109504
+REMOTE: org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/charsets.jar : 3696271
+REMOTE: org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jfr.jar : 532548
+REMOTE: org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/dnsns.jar : 8923
+REMOTE: org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/localedata.jar : 550578
+REMOTE: org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunec.jar : 15941
+REMOTE: org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunjce_provider.jar : 198101
+REMOTE: org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunpkcs11.jar : 237244
+REMOTE: org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/zipfs.jar : 68751
+REMOTE: org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /System/Library/Java/Extensions/MRJToolkit.jar : 12849
+REMOTE: Done initializing TestSingletonClassPublicField: 21
+REMOTE: Trying to find /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/TestSingletonClassPu-2016.02.03-at-12.45.16.239/source/TestSingletonClassPublicField.bin.zip
+REMOTE: TestSingletonClassPublicField: TestSingletonClassPublicField -> org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Done initializing org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: 0
+REMOTE: TestSingletonClassPublicField: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/resources.jar : 2465399
+REMOTE: [GC (Allocation Failure)  70755K->53535K(371200K), 0.0073780 secs]
+REMOTE: TestSingletonClassPublicField: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/rt.jar : 64311652
+REMOTE: TestSingletonClassPublicField: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jsse.jar : 582478
+REMOTE: TestSingletonClassPublicField: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jce.jar : 109504
+REMOTE: TestSingletonClassPublicField: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/charsets.jar : 3696271
+REMOTE: TestSingletonClassPublicField: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jfr.jar : 532548
+REMOTE: TestSingletonClassPublicField: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/dnsns.jar : 8923
+REMOTE: TestSingletonClassPublicField: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/localedata.jar : 550578
+REMOTE: TestSingletonClassPublicField: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunec.jar : 15941
+REMOTE: TestSingletonClassPublicField: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunjce_provider.jar : 198101
+REMOTE: TestSingletonClassPublicField: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunpkcs11.jar : 237244
+REMOTE: TestSingletonClassPublicField: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/zipfs.jar : 68751
+REMOTE: TestSingletonClassPublicField: Done initializing with /System/Library/Java/Extensions/MRJToolkit.jar : 12849
+REMOTE: TestSingletonClassPublicField: Done initializing with /Users/aarong/git/regression/regression/TestSingletonClassPublicField/promises-5.6.0.jar : 133034
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: Assuming that the projects are run in dependency order
+REMOTE: Parsing ...
+REMOTE: ##SUBTASK, Parsing ...
+REMOTE: Done adapting 0 files for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: Parsing ...
+REMOTE: ##SUBTASK, Parsing ...
+REMOTE: [GC (Allocation Failure)  88351K->60384K(372224K), 0.0087920 secs]
+REMOTE: JCP: warning: [options] bootstrap class path not set in conjunction with -source 1.7
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: Adapting 21 CUTs
+REMOTE: Done adapting 21 files for TestSingletonClassPublicField
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: Handling references for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##SUBTASK, Handling references for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Handling 21 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Setting project for Object from org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Handling 44 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: [GC (Allocation Failure)  95200K->63676K(387072K), 0.0111230 secs]
+REMOTE: Handling 55 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Handling 51 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Handling 32 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Handling 17 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Handling 8 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Handling 12 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Handling 15 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Handling 4 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Handling 2 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: Handling references for TestSingletonClassPublicField
+REMOTE: ##SUBTASK, Handling references for TestSingletonClassPublicField
+REMOTE: Handling 24 dangling refs for TestSingletonClassPublicField
+REMOTE: Handling 3 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Handling 2 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Handling 5 dangling refs for TestSingletonClassPublicField
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: Parsing ASTs  = 404 ms
+REMOTE: Handling refs = 582 ms
+REMOTE: [2016-02-03 12:45:19    INFO] partial bindings = 0 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+REMOTE: [2016-02-03 12:45:19    INFO] full bindings = 0 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+REMOTE: Canonicalizing ASTs
+REMOTE: ##SUBTASK, Canonicalizing ASTs
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: [2016-02-03 12:45:19    INFO] partial bindings = 505 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+REMOTE: [2016-02-03 12:45:19    INFO] full bindings = 151 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+REMOTE: Canonicalizing TestSingletonClassPublicField/src/test/clazz/publicField/BadConstructorPublic.java
+REMOTE: [GC (Metadata GC Threshold)  110237K->67991K(387072K), 0.0091510 secs]
+REMOTE: [Full GC (Metadata GC Threshold)  67991K->66442K(138240K), 0.2157850 secs]
+REMOTE: ##WORK, 1
+REMOTE: Canonicalizing TestSingletonClassPublicField/src/test/clazz/publicField/BadSerializableNoReturn.java
+REMOTE: ##WORK, 1
+REMOTE: Canonicalizing TestSingletonClassPublicField/src/test/clazz/publicField/GoodSerializable.java
+REMOTE: ##WORK, 1
+REMOTE: Canonicalizing TestSingletonClassPublicField/src/test/clazz/publicField/BadNotFinal.java
+REMOTE: ##WORK, 1
+REMOTE: Canonicalizing TestSingletonClassPublicField/src/test/clazz/publicField/Bad.java
+REMOTE: ##WORK, 1
+REMOTE: Canonicalizing TestSingletonClassPublicField/src/test/clazz/publicField/GoodManyConstructors.java
+REMOTE: ##WORK, 1
+REMOTE: Canonicalizing TestSingletonClassPublicField/src/test/clazz/publicField/BadSerializableReturnsWrongField.java
+REMOTE: ##WORK, 1
+REMOTE: Canonicalizing TestSingletonClassPublicField/src/test/clazz/publicField/BadConstructorDefault.java
+REMOTE: ##WORK, 1
+REMOTE: Canonicalizing TestSingletonClassPublicField/src/test/clazz/publicField/BadSerializableReturnsNull.java
+REMOTE: ##WORK, 1
+REMOTE: Canonicalizing TestSingletonClassPublicField/src/test/clazz/publicField/BadManyConstructors.java
+REMOTE: ##WORK, 1
+REMOTE: Canonicalizing TestSingletonClassPublicField/src/test/clazz/publicField/GoodSimple.java
+REMOTE: ##WORK, 1
+REMOTE: Canonicalizing TestSingletonClassPublicField/src/test/clazz/publicField/BadMakesExtraInstances.java
+REMOTE: ##WORK, 1
+REMOTE: Canonicalizing TestSingletonClassPublicField/src/test/clazz/publicField/BadTooManyFields.java
+REMOTE: ##WORK, 1
+REMOTE: Canonicalizing TestSingletonClassPublicField/src/test/clazz/publicField/BadConstructorProtected.java
+REMOTE: ##WORK, 1
+REMOTE: Canonicalizing TestSingletonClassPublicField/src/test/clazz/publicField/BadSerializableFieldNotTransient.java
+REMOTE: ##WORK, 1
+REMOTE: Canonicalizing TestSingletonClassPublicField/src/test/clazz/publicField/BadFieldNotStatic.java
+REMOTE: ##WORK, 1
+REMOTE: Canonicalizing TestSingletonClassPublicField/src/test/clazz/publicField/BadSerializableNoReadResolve.java
+REMOTE: ##WORK, 1
+REMOTE: Canonicalizing TestSingletonClassPublicField/src/test/clazz/publicField/BadSerializableTooManyStatements.java
+REMOTE: ##WORK, 1
+REMOTE: Canonicalizing TestSingletonClassPublicField/src/test/clazz/publicField/BadFieldNotFinal.java
+REMOTE: ##WORK, 1
+REMOTE: Canonicalizing TestSingletonClassPublicField/src/test/clazz/publicField/BadTooManyFields2.java
+REMOTE: ##WORK, 1
+REMOTE: Canonicalizing TestSingletonClassPublicField/src/test/clazz/publicField/GoodWIthGetter.java
+REMOTE: ##WORK, 1
+REMOTE: Binding = 271 ms
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: [GC (System.gc())  70278K->66770K(135168K), 0.0012830 secs]
+REMOTE: [Full GC (System.gc())  66770K->54971K(135168K), 0.0850860 secs]
+REMOTE: Creating drops
+REMOTE: ##SUBTASK, Creating drops
+REMOTE: Created source drop for file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadConstructorPublic.java
+REMOTE: Created binary drop for java.util.ResourceBundle
+REMOTE: Created binary drop for java.nio.file.AccessMode
+REMOTE: Created binary drop for java.security.KeyException
+REMOTE: Created binary drop for java.security.Key
+REMOTE: Created binary drop for java.lang.StringBuilder
+REMOTE: Created binary drop for java.lang.CharSequence
+REMOTE: Created binary drop for sun.util.locale.LanguageTag
+REMOTE: Created binary drop for java.nio.charset.Charset
+REMOTE: Created binary drop for java.lang.Character
+REMOTE: Created binary drop for java.io.UnsupportedEncodingException
+REMOTE: Created binary drop for java.security.cert.CertificateEncodingException
+REMOTE: Created binary drop for java.nio.channels.ByteChannel
+REMOTE: Created binary drop for java.lang.ref.WeakReference
+REMOTE: Created binary drop for java.nio.file.WatchService
+REMOTE: Created binary drop for java.util.jar.Manifest
+REMOTE: Created binary drop for java.nio.file.spi.FileSystemProvider
+REMOTE: Created binary drop for java.lang.NoSuchFieldException
+REMOTE: Created binary drop for java.lang.Float
+REMOTE: Created binary drop for java.nio.channels.ScatteringByteChannel
+REMOTE: Created binary drop for java.net.URL
+REMOTE: Created binary drop for java.io.FilterInputStream
+REMOTE: Created binary drop for java.security.InvalidKeyException
+REMOTE: Created binary drop for java.security.SignatureException
+REMOTE: Created source drop for file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadSerializableNoReturn.java
+REMOTE: Created source drop for file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/GoodSerializable.java
+REMOTE: Created binary drop for java.nio.channels.WritableByteChannel
+REMOTE: Created binary drop for java.util.Map
+REMOTE: Created binary drop for java.lang.reflect.Constructor
+REMOTE: Created binary drop for java.lang.Cloneable
+REMOTE: Created binary drop for sun.reflect.FieldAccessor
+REMOTE: Created binary drop for java.security.CodeSource
+REMOTE: Created binary drop for java.nio.channels.AsynchronousCloseException
+REMOTE: Created binary drop for java.util.jar.JarEntry
+REMOTE: Created binary drop for java.nio.channels.FileChannel
+REMOTE: Created binary drop for java.util.Set
+REMOTE: Created binary drop for java.nio.charset.CharsetDecoder
+REMOTE: Created binary drop for java.nio.channels.ClosedChannelException
+REMOTE: Created binary drop for java.util.concurrent.locks.Lock
+REMOTE: Created binary drop for java.lang.Appendable
+REMOTE: Created binary drop for java.nio.file.attribute.AttributeView
+REMOTE: Created binary drop for java.lang.Void
+REMOTE: Created binary drop for java.nio.CharBuffer
+REMOTE: Created binary drop for java.util.RandomAccess
+REMOTE: Created binary drop for java.nio.channels.spi.AbstractInterruptibleChannel
+REMOTE: Created binary drop for java.nio.channels.Channel
+REMOTE: Created binary drop for java.util.Queue
+REMOTE: Created binary drop for java.security.Guard
+REMOTE: Created binary drop for java.nio.file.attribute.UserPrincipal
+REMOTE: Created binary drop for java.lang.annotation.Documented
+REMOTE: Created binary drop for java.util.Vector
+REMOTE: Created binary drop for java.io.Console
+REMOTE: Created binary drop for java.nio.channels.AsynchronousFileChannel
+REMOTE: Created binary drop for java.util.zip.ZipFile
+REMOTE: Created binary drop for java.net.URLStreamHandler
+REMOTE: Created binary drop for java.security.CodeSigner
+REMOTE: Created binary drop for sun.misc.Resource
+REMOTE: Created binary drop for java.util.Dictionary
+REMOTE: Created source drop for file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadNotFinal.java
+REMOTE: Created binary drop for java.util.Hashtable
+REMOTE: Created binary drop for sun.util.locale.Extension
+REMOTE: Created binary drop for java.security.cert.CertificateException
+REMOTE: Created binary drop for java.nio.FloatBuffer
+REMOTE: Created source drop for file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/Bad.java
+REMOTE: Created binary drop for sun.util.locale.LocaleObjectCache
+REMOTE: Created binary drop for java.util.Locale
+REMOTE: Created binary drop for java.net.URI
+REMOTE: Created binary drop for sun.reflect.ConstantPool
+REMOTE: Created binary drop for sun.misc.JarIndex
+REMOTE: Created binary drop for java.io.OutputStream
+REMOTE: Created binary drop for java.util.zip.InflaterInputStream
+REMOTE: Created binary drop for java.nio.ShortBuffer
+REMOTE: Created binary drop for java.lang.NumberFormatException
+REMOTE: Created binary drop for sun.reflect.MethodAccessor
+REMOTE: Created binary drop for java.util.spi.LocaleNameProvider
+REMOTE: Created binary drop for java.lang.Comparable
+REMOTE: Created binary drop for java.lang.ref.ReferenceQueue
+REMOTE: Created binary drop for java.security.PrivilegedAction
+REMOTE: Created binary drop for java.util.AbstractSequentialList
+REMOTE: Created binary drop for sun.util.locale.LocaleExtensions
+REMOTE: Created binary drop for sun.reflect.ReflectionFactory
+REMOTE: Created binary drop for java.nio.file.Path
+REMOTE: Created binary drop for java.io.SyncFailedException
+REMOTE: Created binary drop for java.security.NoSuchProviderException
+REMOTE: Created binary drop for java.lang.ref.Reference
+REMOTE: Created binary drop for java.lang.reflect.Method
+REMOTE: Created binary drop for java.util.Comparator
+REMOTE: Created binary drop for java.nio.file.PathMatcher
+REMOTE: Created binary drop for java.io.Writer
+REMOTE: Created binary drop for java.util.zip.ZipConstants
+REMOTE: Created binary drop for java.lang.reflect.AccessibleObject
+REMOTE: Created binary drop for com.surelogic.Singleton
+REMOTE: Created binary drop for java.lang.reflect.Type
+REMOTE: Created source drop for file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/GoodManyConstructors.java
+REMOTE: Created binary drop for java.util.concurrent.TimeUnit
+REMOTE: Created binary drop for java.net.URISyntaxException
+REMOTE: Created binary drop for java.util.SortedMap
+REMOTE: Created binary drop for sun.reflect.ConstructorAccessor
+REMOTE: Created binary drop for java.nio.file.FileSystem
+REMOTE: Created binary drop for sun.util.locale.BaseLocale
+REMOTE: Created binary drop for java.lang.annotation.ElementType
+REMOTE: Created binary drop for java.nio.file.DirectoryStream
+REMOTE: Created binary drop for java.lang.Class
+REMOTE: Created binary drop for java.nio.file.attribute.BasicFileAttributes
+REMOTE: Created binary drop for java.util.concurrent.ConcurrentMap
+REMOTE: Created binary drop for java.lang.CloneNotSupportedException
+REMOTE: Created binary drop for java.nio.channels.FileLock
+REMOTE: Created binary drop for java.security.NoSuchAlgorithmException
+REMOTE: Created binary drop for java.security.PublicKey
+REMOTE: Created binary drop for java.nio.charset.CharsetEncoder
+REMOTE: Created binary drop for java.net.InetAddressImpl
+REMOTE: Created binary drop for java.io.InputStream
+REMOTE: Created binary drop for java.util.Properties
+REMOTE: Created binary drop for java.lang.Exception
+REMOTE: Created binary drop for java.security.Permission
+REMOTE: Created binary drop for java.io.FilterOutputStream
+REMOTE: Created binary drop for java.lang.Number
+REMOTE: Created binary drop for sun.nio.ch.Interruptible
+REMOTE: Created binary drop for java.util.Date
+REMOTE: Created binary drop for sun.reflect.annotation.AnnotationType
+REMOTE: Created binary drop for java.net.NetworkInterface
+REMOTE: Created binary drop for java.io.Reader
+REMOTE: Created binary drop for java.io.IOException
+REMOTE: Created binary drop for java.lang.StackTraceElement
+REMOTE: Created binary drop for java.util.Collection
+REMOTE: Created binary drop for java.net.URLStreamHandlerFactory
+REMOTE: Created binary drop for java.lang.InstantiationException
+REMOTE: Created binary drop for sun.security.util.Debug
+REMOTE: Created binary drop for sun.util.locale.ParseStatus
+REMOTE: Created binary drop for java.nio.DoubleBuffer
+REMOTE: Created binary drop for java.util.Deque
+REMOTE: Created source drop for file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadSerializableReturnsWrongField.java
+REMOTE: Created binary drop for java.util.zip.ZipEntry
+REMOTE: Created binary drop for sun.misc.URLClassPath
+REMOTE: Created binary drop for java.util.concurrent.locks.ReadWriteLock
+REMOTE: Created binary drop for java.net.InetAddress
+REMOTE: Created binary drop for java.io.FileNotFoundException
+REMOTE: Created binary drop for java.lang.Deprecated
+REMOTE: Created binary drop for java.util.AbstractSet
+REMOTE: Created binary drop for java.lang.Boolean
+REMOTE: Created binary drop for java.security.DomainCombiner
+REMOTE: Created binary drop for java.nio.channels.AsynchronousChannel
+REMOTE: Created binary drop for java.nio.file.attribute.UserPrincipalLookupService
+REMOTE: Created binary drop for java.net.UnknownHostException
+REMOTE: Created binary drop for java.util.MissingResourceException
+REMOTE: Created binary drop for java.lang.Readable
+REMOTE: Created source drop for file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadConstructorDefault.java
+REMOTE: Created binary drop for java.lang.reflect.Member
+REMOTE: Created binary drop for java.lang.StringBuffer
+REMOTE: Created binary drop for java.util.AbstractList
+REMOTE: Created binary drop for java.net.ContentHandlerFactory
+REMOTE: Created source drop for file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadSerializableReturnsNull.java
+REMOTE: Created binary drop for java.net.InterfaceAddress
+REMOTE: Created source drop for file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadManyConstructors.java
+REMOTE: Created binary drop for java.io.Serializable
+REMOTE: Created binary drop for sun.reflect.LangReflectAccess
+REMOTE: Created binary drop for sun.util.locale.InternalLocaleBuilder
+REMOTE: Created binary drop for java.lang.ClassValue
+REMOTE: Created binary drop for java.lang.Enum
+REMOTE: Created binary drop for java.io.FilenameFilter
+REMOTE: Created binary drop for java.lang.SecurityManager
+REMOTE: Created source drop for file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/GoodSimple.java
+REMOTE: Created binary drop for java.lang.ClassLoader
+REMOTE: Created binary drop for java.nio.channels.InterruptibleChannel
+REMOTE: Created binary drop for java.util.zip.DataFormatException
+REMOTE: Created binary drop for java.io.DataOutputStream
+REMOTE: Created binary drop for sun.util.resources.OpenListResourceBundle
+REMOTE: Created source drop for file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadMakesExtraInstances.java
+REMOTE: Created binary drop for java.nio.charset.CoderResult
+REMOTE: Created binary drop for java.nio.Buffer
+REMOTE: Created binary drop for java.util.concurrent.Future
+REMOTE: Created binary drop for sun.util.LocaleServiceProviderPool
+REMOTE: Created binary drop for sun.misc.MetaIndex
+REMOTE: Created binary drop for java.net.Proxy
+REMOTE: Created binary drop for java.net.UnknownServiceException
+REMOTE: Created binary drop for java.io.ObjectStreamException
+REMOTE: Created binary drop for java.io.PrintStream
+REMOTE: Created binary drop for java.security.Principal
+REMOTE: Created binary drop for java.lang.Long
+REMOTE: Created binary drop for java.nio.charset.CodingErrorAction
+REMOTE: Created binary drop for java.security.PermissionCollection
+REMOTE: Created binary drop for java.lang.annotation.RetentionPolicy
+REMOTE: Created binary drop for java.lang.annotation.Annotation
+REMOTE: Created source drop for file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadTooManyFields.java
+REMOTE: Created binary drop for java.nio.LongBuffer
+REMOTE: Created binary drop for java.util.HashMap
+REMOTE: Created binary drop for java.util.WeakHashMap
+REMOTE: Created binary drop for java.lang.reflect.InvocationTargetException
+REMOTE: Created binary drop for java.nio.ByteBuffer
+REMOTE: Created binary drop for java.net.SocketException
+REMOTE: Created binary drop for java.nio.file.attribute.GroupPrincipal
+REMOTE: Created source drop for file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadConstructorProtected.java
+REMOTE: Created binary drop for java.security.cert.CertPath
+REMOTE: Created binary drop for java.lang.reflect.TypeVariable
+REMOTE: Created binary drop for java.io.Closeable
+REMOTE: Created binary drop for java.security.cert.Certificate
+REMOTE: Created binary drop for java.net.FileNameMap
+REMOTE: Created binary drop for java.util.spi.LocaleServiceProvider
+REMOTE: Created binary drop for java.nio.file.attribute.FileStoreAttributeView
+REMOTE: Created binary drop for java.net.SocketAddress
+REMOTE: Created binary drop for java.util.ListIterator
+REMOTE: Created binary drop for java.lang.annotation.Retention
+REMOTE: Created binary drop for java.io.PrintWriter
+REMOTE: Created binary drop for java.util.List
+REMOTE: Created binary drop for java.security.ProtectionDomain
+REMOTE: Created binary drop for java.lang.Iterable
+REMOTE: Created binary drop for java.net.MalformedURLException
+REMOTE: Created binary drop for java.nio.channels.CompletionHandler
+REMOTE: Created binary drop for java.util.zip.ZipException
+REMOTE: Created binary drop for java.net.ContentHandler
+REMOTE: Created binary drop for java.util.concurrent.Callable
+REMOTE: Created binary drop for java.util.concurrent.locks.Condition
+REMOTE: Created binary drop for java.nio.file.attribute.FileAttributeView
+REMOTE: Created binary drop for java.nio.MappedByteBuffer
+REMOTE: Created binary drop for java.lang.reflect.Field
+REMOTE: Created binary drop for java.util.Enumeration
+REMOTE: Created binary drop for java.lang.RuntimeException
+REMOTE: Created source drop for file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadSerializableFieldNotTransient.java
+REMOTE: Created binary drop for java.lang.Short
+REMOTE: Created binary drop for java.lang.String
+REMOTE: Created binary drop for java.util.AbstractMap
+REMOTE: Created binary drop for java.nio.channels.SeekableByteChannel
+REMOTE: Created binary drop for java.nio.file.WatchKey
+REMOTE: Created binary drop for java.lang.Thread
+REMOTE: Created binary drop for java.nio.IntBuffer
+REMOTE: Created binary drop for java.lang.Throwable
+REMOTE: Created binary drop for java.nio.file.WatchEvent
+REMOTE: Created binary drop for java.util.jar.JarFile
+REMOTE: Created source drop for file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadFieldNotStatic.java
+REMOTE: Created binary drop for java.lang.ThreadGroup
+REMOTE: Created binary drop for java.util.concurrent.ExecutorService
+REMOTE: Created binary drop for java.nio.file.attribute.FileAttribute
+REMOTE: Created binary drop for java.lang.reflect.AnnotatedElement
+REMOTE: Created binary drop for java.lang.AbstractStringBuilder
+REMOTE: Created binary drop for java.io.DataOutput
+REMOTE: Created binary drop for java.lang.Integer
+REMOTE: Created source drop for file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadSerializableNoReadResolve.java
+REMOTE: Created binary drop for java.nio.ByteOrder
+REMOTE: Created binary drop for java.nio.file.OpenOption
+REMOTE: Created binary drop for java.util.LinkedList
+REMOTE: Created binary drop for java.lang.InterruptedException
+REMOTE: Created binary drop for java.util.InvalidPropertiesFormatException
+REMOTE: Created binary drop for java.lang.Double
+REMOTE: Created binary drop for java.lang.Byte
+REMOTE: Created binary drop for java.lang.IllegalArgumentException
+REMOTE: Created binary drop for java.nio.channels.ReadableByteChannel
+REMOTE: Created binary drop for java.nio.charset.CharacterCodingException
+REMOTE: Created binary drop for sun.util.locale.LocaleSyntaxException
+REMOTE: Created binary drop for java.nio.file.CopyOption
+REMOTE: Created binary drop for java.util.Random
+REMOTE: Created source drop for file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadSerializableTooManyStatements.java
+REMOTE: Created binary drop for sun.reflect.CallerSensitive
+REMOTE: Created binary drop for java.lang.IllegalAccessException
+REMOTE: Created binary drop for java.lang.Object
+REMOTE: Created binary drop for java.io.FileDescriptor
+REMOTE: Created binary drop for java.util.Stack
+REMOTE: Created binary drop for java.util.jar.Attributes
+REMOTE: Created binary drop for java.lang.ReflectiveOperationException
+REMOTE: Created binary drop for java.lang.Runnable
+REMOTE: Created binary drop for java.lang.reflect.GenericDeclaration
+REMOTE: Created binary drop for java.lang.Package
+REMOTE: Created binary drop for java.io.File
+REMOTE: Created binary drop for java.util.Iterator
+REMOTE: Created binary drop for java.nio.channels.GatheringByteChannel
+REMOTE: Created binary drop for java.lang.annotation.Target
+REMOTE: Created binary drop for java.security.Timestamp
+REMOTE: Created binary drop for java.lang.AutoCloseable
+REMOTE: Created binary drop for java.math.BigInteger
+REMOTE: Created binary drop for java.lang.System
+REMOTE: Created binary drop for java.security.AccessControlException
+REMOTE: Created binary drop for java.nio.file.Watchable
+REMOTE: Created binary drop for java.net.URLConnection
+REMOTE: Created source drop for file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadFieldNotFinal.java
+REMOTE: Created binary drop for java.nio.file.LinkOption
+REMOTE: Created binary drop for java.util.zip.Inflater
+REMOTE: Created binary drop for java.io.Flushable
+REMOTE: Created source drop for file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadTooManyFields2.java
+REMOTE: Created binary drop for java.security.AccessControlContext
+REMOTE: Created binary drop for java.util.AbstractCollection
+REMOTE: Created binary drop for java.lang.SecurityException
+REMOTE: Created binary drop for java.lang.ref.SoftReference
+REMOTE: Created source drop for file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/GoodWIthGetter.java
+REMOTE: Created binary drop for java.nio.file.attribute.FileTime
+REMOTE: Created binary drop for java.nio.file.FileStore
+REMOTE: Created binary drop for java.lang.ThreadLocal
+REMOTE: Created binary drop for java.util.concurrent.Executor
+REMOTE: Created binary drop for java.util.ArrayList
+REMOTE: Created binary drop for java.security.GeneralSecurityException
+REMOTE: Created binary drop for java.io.FileFilter
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: Parsing promises
+REMOTE: ##SUBTASK, Parsing promises
+REMOTE: Added 3 promises for java.lang.[] in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7e32c033
+REMOTE: Added 3 promises for java.lang.[] in TestSingletonClassPublicField: com.surelogic.tree.SyntaxTreeNode@606f81b5
+REMOTE: Added 1 promises for test.clazz.publicField.BadConstructorPublic in TestSingletonClassPublicField: com.surelogic.tree.SyntaxTreeNode@68d136
+REMOTE: Added 12 promises for java.lang.CharSequence in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@373b65f4
+REMOTE: Added 6 promises for java.lang.NoSuchFieldException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2195903b
+REMOTE: Added 1 promises for test.clazz.publicField.BadSerializableNoReturn in TestSingletonClassPublicField: com.surelogic.tree.SyntaxTreeNode@62233853
+REMOTE: Added 3 promises for java.util.jar.Manifest in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@46a3d31e
+REMOTE: Added 73 promises for java.lang.Float in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@382a5b2e
+REMOTE: Added 1 promises for test.clazz.publicField.GoodSerializable in TestSingletonClassPublicField: com.surelogic.tree.SyntaxTreeNode@3680a13e
+REMOTE: Added 45 promises for java.util.ResourceBundle in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@58cacb1f
+REMOTE: Added 6 promises for java.lang.Appendable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@e0736f
+REMOTE: Added 18 promises for java.nio.CharBuffer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@291c1c87
+REMOTE: Added 20 promises for java.util.concurrent.locks.Lock in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@c691865
+REMOTE: Added 64 promises for java.util.Map in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4cc36dd6
+REMOTE: Added 18 promises for java.util.Queue in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@146a5878
+REMOTE: Added 1 promises for test.clazz.publicField.BadNotFinal in TestSingletonClassPublicField: com.surelogic.tree.SyntaxTreeNode@4929bb6a
+REMOTE: Added 29 promises for java.util.Dictionary in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@721da6a7
+REMOTE: Added 109 promises for java.lang.StringBuilder in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@5d3124b1
+REMOTE: Added 54 promises for java.util.Set in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@289cded5
+REMOTE: Added 6 promises for java.lang.NumberFormatException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@d319d24
+REMOTE: Added 1 promises for test.clazz.publicField.Bad in TestSingletonClassPublicField: com.surelogic.tree.SyntaxTreeNode@596a9f3d
+REMOTE: Added 3 promises for java.util.Locale in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@65fd0a95
+REMOTE: Added 3 promises for java.nio.file.Path in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@764c1556
+REMOTE: Added 1 promises for java.lang.ref.ReferenceQueue in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4b0fbd3f
+REMOTE: Added 6 promises for java.io.Writer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@20ec5bef
+REMOTE: Added 29 promises for java.util.AbstractSequentialList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@642a9f26
+REMOTE: Added 1 promises for test.clazz.publicField.GoodManyConstructors in TestSingletonClassPublicField: com.surelogic.tree.SyntaxTreeNode@69f3cac8
+REMOTE: Added 18 promises for java.net.URISyntaxException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@65a46d2f
+REMOTE: Added 17 promises for java.util.concurrent.ConcurrentMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4ccbb5c0
+REMOTE: Added 83 promises for java.util.Hashtable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2b3b1aa5
+REMOTE: Added 12 promises for java.lang.Class in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4efc081c
+REMOTE: Added 31 promises for java.util.SortedMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@666e3570
+REMOTE: Added 6 promises for java.lang.CloneNotSupportedException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@363ad286
+REMOTE: Added 12 promises for java.lang.Exception in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@1f0ba192
+REMOTE: Added 29 promises for java.util.concurrent.TimeUnit in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@724ccc73
+REMOTE: Added 22 promises for java.lang.Number in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@641789b7
+REMOTE: Added 3 promises for java.nio.file.DirectoryStream in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@26613326
+REMOTE: Added 3 promises for java.util.Date in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@61afc047
+REMOTE: Added 170 promises for java.util.Vector in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2d59dddd
+REMOTE: Added 54 promises for java.util.Collection in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@be46847
+REMOTE: Added 1 promises for test.clazz.publicField.BadSerializableReturnsWrongField in TestSingletonClassPublicField: com.surelogic.tree.SyntaxTreeNode@481d2701
+REMOTE: Added 6 promises for java.lang.InstantiationException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3a5b5b70
+REMOTE: Added 37 promises for java.lang.Boolean in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2c189f0c
+REMOTE: Added 3 promises for java.util.zip.ZipEntry in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4d452ed
+REMOTE: Added 16 promises for java.util.AbstractSet in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@40150d32
+REMOTE: Added 1 promises for test.clazz.publicField.BadConstructorDefault in TestSingletonClassPublicField: com.surelogic.tree.SyntaxTreeNode@29b8ba0e
+REMOTE: Added 1 promises for test.clazz.publicField.BadSerializableReturnsNull in TestSingletonClassPublicField: com.surelogic.tree.SyntaxTreeNode@77d4f932
+REMOTE: Added 7 promises for java.util.concurrent.locks.ReadWriteLock in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@45ed86a9
+REMOTE: Added 73 promises for java.util.Properties in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@48ee081d
+REMOTE: Added 1 promises for test.clazz.publicField.GoodSimple in TestSingletonClassPublicField: com.surelogic.tree.SyntaxTreeNode@74ef23b
+REMOTE: Added 87 promises for java.util.Deque in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@1423468a
+REMOTE: Added 13 promises for java.lang.Enum in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@dd855bc
+REMOTE: Added 1 promises for test.clazz.publicField.BadManyConstructors in TestSingletonClassPublicField: com.surelogic.tree.SyntaxTreeNode@477902e0
+REMOTE: Added 1 promises for test.clazz.publicField.BadMakesExtraInstances in TestSingletonClassPublicField: com.surelogic.tree.SyntaxTreeNode@4dce96a7
+REMOTE: Added 1 promises for test.clazz.publicField.BadTooManyFields in TestSingletonClassPublicField: com.surelogic.tree.SyntaxTreeNode@654fc8de
+REMOTE: [GC (Allocation Failure)  112315K->58435K(146944K), 0.0051780 secs]
+REMOTE: Added 6 promises for java.io.PrintStream in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2258281e
+REMOTE: Added 60 promises for java.util.AbstractList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@31e77ea9
+REMOTE: Added 1 promises for test.clazz.publicField.BadConstructorProtected in TestSingletonClassPublicField: com.surelogic.tree.SyntaxTreeNode@72f4d475
+REMOTE: Added 12 promises for java.lang.reflect.InvocationTargetException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2bc35c99
+REMOTE: Added 96 promises for java.lang.Long in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@1e3d8347
+REMOTE: Added 18 promises for java.util.ListIterator in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@1a72f8b9
+REMOTE: Added 158 promises for java.lang.StringBuffer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@51ae0b4e
+REMOTE: Added 6 promises for java.io.PrintWriter in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@36fb8f42
+REMOTE: Added 61 promises for java.util.HashMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@63e1485e
+REMOTE: Added 12 promises for java.lang.RuntimeException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3ac956be
+REMOTE: Added 1 promises for test.clazz.publicField.BadSerializableFieldNotTransient in TestSingletonClassPublicField: com.surelogic.tree.SyntaxTreeNode@4c2f66ce
+REMOTE: Added 22 promises for java.util.concurrent.locks.Condition in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@bd6ba3e
+REMOTE: Added 4 promises for java.util.Enumeration in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4cf82633
+REMOTE: Added 3 promises for java.lang.Iterable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@883e040
+REMOTE: Added 56 promises for java.util.WeakHashMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@721d9902
+REMOTE: Added 89 promises for java.util.List in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6f6f55f9
+REMOTE: Added 61 promises for java.lang.Short in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4e5559d
+REMOTE: Added 1 promises for test.clazz.publicField.BadFieldNotStatic in TestSingletonClassPublicField: com.surelogic.tree.SyntaxTreeNode@927089c
+REMOTE: Added 1 promises for test.clazz.publicField.BadSerializableNoReadResolve in TestSingletonClassPublicField: com.surelogic.tree.SyntaxTreeNode@1063af27
+REMOTE: Added 108 promises for java.util.AbstractMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@75532a8a
+REMOTE: Added 47 promises for java.lang.Throwable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@adb891b
+REMOTE: Added 96 promises for java.lang.Integer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4f2a136
+REMOTE: Added 6 promises for java.lang.InterruptedException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7bc6bf4d
+REMOTE: Added 141 promises for java.lang.Thread in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@68f02b2
+REMOTE: Added 59 promises for java.lang.Byte in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@57f02d2f
+REMOTE: Added 34 promises for java.util.concurrent.ExecutorService in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@24144212
+REMOTE: Added 1 promises for test.clazz.publicField.BadSerializableTooManyStatements in TestSingletonClassPublicField: com.surelogic.tree.SyntaxTreeNode@5781d614
+REMOTE: Added 12 promises for java.lang.IllegalArgumentException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@1bf5949b
+REMOTE: Added 144 promises for java.lang.AbstractStringBuilder in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@746f4a5e
+REMOTE: Added 6 promises for java.lang.IllegalAccessException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@a57d47
+REMOTE: Added 6 promises for java.util.Iterator in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2b05bb22
+REMOTE: Added 70 promises for java.lang.Double in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@76ade857
+REMOTE: Added 31 promises for java.lang.Object in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2858a73
+REMOTE: Added 301 promises for java.lang.String in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@67192fe
+REMOTE: Added 6 promises for java.lang.System in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@5f396225
+REMOTE: Added 138 promises for java.math.BigInteger in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7ec234e6
+REMOTE: Added 139 promises for java.util.LinkedList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6edc28b6
+REMOTE: Added 1 promises for test.clazz.publicField.BadFieldNotFinal in TestSingletonClassPublicField: com.surelogic.tree.SyntaxTreeNode@4b95000f
+REMOTE: Added 1 promises for test.clazz.publicField.BadTooManyFields2 in TestSingletonClassPublicField: com.surelogic.tree.SyntaxTreeNode@11efee3e
+REMOTE: Added 1 promises for test.clazz.publicField.GoodWIthGetter in TestSingletonClassPublicField: com.surelogic.tree.SyntaxTreeNode@39ce152
+REMOTE: Added 2 promises for java.lang.ref.SoftReference in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@aca99be
+REMOTE: Added 21 promises for java.util.Stack in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@390d2b99
+REMOTE: Added 1 promises for java.lang.ThreadLocal in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@45cac83d
+REMOTE: Added 12 promises for java.lang.SecurityException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2d049d31
+REMOTE: [GC (Allocation Failure)  116291K->59707K(154112K), 0.0056770 secs]
+REMOTE: Added 88 promises for java.util.jar.Attributes in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@1af67af2
+REMOTE: Added 55 promises for java.util.AbstractCollection in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@626b32a5
+REMOTE: WARNING: TreeAccessor couldn't find equals(java.lang.Object) in java.util.ArrayList
+REMOTE: WARNING: TreeAccessor couldn't find hashCode() in java.util.ArrayList
+REMOTE: Added 104 promises for java.util.ArrayList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@9123372
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: Scrubbing promises
+REMOTE: ##SUBTASK, Scrubbing promises
+REMOTE: Creating RegionModel java.lang.Object.Instance for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: [GC (Allocation Failure)  125755K->62372K(154112K), 0.0101350 secs]
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: Starting analyses
+REMOTE: Using new analysis framework -- groups
+REMOTE: Starting group: ConcurrencyDetector, ThreadEffectsModule, StructureAnalysis, ParameterizedTypeAnalysis, EqualityAnalysis, LayersAnalysis
+REMOTE: ##SUBTASK, Starting parallel ConcurrencyDetector [0]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Starting parallel ConcurrencyDetector [0]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##SUBTASK, Starting parallel ThreadEffectsModule [1]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Starting parallel ThreadEffectsModule [1]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##SUBTASK, Starting parallel StructureAnalysis [2]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Starting parallel StructureAnalysis [2]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##SUBTASK, Starting parallel ParameterizedTypeAnalysis [3]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Starting parallel ParameterizedTypeAnalysis [3]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##SUBTASK, Starting parallel EqualityAnalysis [4]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Starting parallel EqualityAnalysis [4]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##SUBTASK, Starting parallel LayersAnalysis [5]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Starting parallel LayersAnalysis [5]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Starting parallel ConcurrencyDetector [0]: 21 for TestSingletonClassPublicField
+REMOTE: Starting parallel ConcurrencyDetector [0]: 21 for TestSingletonClassPublicField
+REMOTE: ##SUBTASK, Starting parallel ThreadEffectsModule [1]: 21 for TestSingletonClassPublicField
+REMOTE: Starting parallel ThreadEffectsModule [1]: 21 for TestSingletonClassPublicField
+REMOTE: ##SUBTASK, Starting parallel StructureAnalysis [2]: 21 for TestSingletonClassPublicField
+REMOTE: Starting parallel StructureAnalysis [2]: 21 for TestSingletonClassPublicField
+REMOTE: ##SUBTASK, Starting parallel ParameterizedTypeAnalysis [3]: 21 for TestSingletonClassPublicField
+REMOTE: Starting parallel ParameterizedTypeAnalysis [3]: 21 for TestSingletonClassPublicField
+REMOTE: ##SUBTASK, Starting parallel EqualityAnalysis [4]: 21 for TestSingletonClassPublicField
+REMOTE: Starting parallel EqualityAnalysis [4]: 21 for TestSingletonClassPublicField
+REMOTE: ##SUBTASK, Starting parallel LayersAnalysis [5]: 21 for TestSingletonClassPublicField
+REMOTE: Starting parallel LayersAnalysis [5]: 21 for TestSingletonClassPublicField
+REMOTE: ##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadSerializableReturnsWrongField.java
+REMOTE: ##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/GoodSerializable.java
+REMOTE: ##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadConstructorDefault.java
+REMOTE: ##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadConstructorPublic.java
+REMOTE: ##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/GoodManyConstructors.java
+REMOTE: ##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/Bad.java
+REMOTE: ##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadNotFinal.java
+REMOTE: ##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadSerializableNoReturn.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/Bad.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadNotFinal.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/GoodManyConstructors.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadSerializableNoReturn.java
+REMOTE: ##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/GoodSerializable.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadSerializableReturnsWrongField.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadConstructorPublic.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadConstructorDefault.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadConstructorPublic.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadConstructorPublic.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadNotFinal.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadNotFinal.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/GoodSerializable.java
+REMOTE: ##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadConstructorDefault.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadNotFinal.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadSerializableReturnsWrongField.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadConstructorDefault.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/GoodSerializable.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadConstructorPublic.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/GoodManyConstructors.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/GoodSerializable.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadSerializableNoReturn.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadSerializableNoReturn.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadSerializableNoReturn.java
+REMOTE: ##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/Bad.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/GoodManyConstructors.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadConstructorDefault.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadSerializableReturnsWrongField.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/GoodManyConstructors.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/Bad.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadSerializableReturnsWrongField.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/Bad.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/Bad.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadConstructorPublic.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/GoodManyConstructors.java
+REMOTE: ##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadConstructorDefault.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadSerializableReturnsWrongField.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadNotFinal.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadSerializableNoReturn.java
+REMOTE: ##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/GoodSerializable.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadSerializableReturnsNull.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadManyConstructors.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadSerializableReturnsNull.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadManyConstructors.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadManyConstructors.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadSerializableReturnsNull.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadSerializableReturnsNull.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadSerializableReturnsNull.java
+REMOTE: ##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadManyConstructors.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadManyConstructors.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadManyConstructors.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/GoodSimple.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/GoodSimple.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadSerializableReturnsNull.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadTooManyFields.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadConstructorProtected.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadTooManyFields.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadTooManyFields.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadTooManyFields.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/GoodSimple.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadTooManyFields.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadTooManyFields.java
+REMOTE: ##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadMakesExtraInstances.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadSerializableFieldNotTransient.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadMakesExtraInstances.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadFieldNotStatic.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/GoodSimple.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadFieldNotStatic.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadFieldNotStatic.java
+REMOTE: ##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadSerializableTooManyStatements.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadFieldNotStatic.java
+REMOTE: ##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadSerializableNoReadResolve.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadFieldNotStatic.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadSerializableTooManyStatements.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadFieldNotStatic.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadMakesExtraInstances.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadSerializableFieldNotTransient.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadMakesExtraInstances.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadSerializableFieldNotTransient.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadMakesExtraInstances.java
+REMOTE: ##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadFieldNotFinal.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadMakesExtraInstances.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadTooManyFields2.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadSerializableTooManyStatements.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadTooManyFields2.java
+REMOTE: ##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/GoodSimple.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadTooManyFields2.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadTooManyFields2.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadSerializableNoReadResolve.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadTooManyFields2.java
+REMOTE: ##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadConstructorProtected.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadSerializableNoReadResolve.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadTooManyFields2.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadSerializableTooManyStatements.java
+REMOTE: ##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadFieldNotFinal.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadSerializableFieldNotTransient.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadSerializableTooManyStatements.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadSerializableFieldNotTransient.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadSerializableTooManyStatements.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadSerializableFieldNotTransient.java
+REMOTE: ##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/GoodWIthGetter.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/GoodWIthGetter.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/GoodWIthGetter.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/GoodWIthGetter.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/GoodSimple.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadConstructorProtected.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadConstructorProtected.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadSerializableNoReadResolve.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/GoodWIthGetter.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadFieldNotFinal.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadFieldNotFinal.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadFieldNotFinal.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadConstructorProtected.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadFieldNotFinal.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadConstructorProtected.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadSerializableNoReadResolve.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadSerializableNoReadResolve.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/GoodWIthGetter.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: Starting group: UtilityAnalysis, SingletonAnalysis
+REMOTE: com.surelogic.analysis.granules.FlowUnitGranulator@f2a0b8e: 55
+REMOTE: com.surelogic.analysis.visitors.TopLevelAnalysisVisitor$1@28ba21f3: 21
+REMOTE: com.surelogic.analysis.uniqueness.classic.sideeffecting.UniquenessAnalysisModule$1@694f9431: 0
+REMOTE: ##SUBTASK, Starting parallel UtilityAnalysis [6]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Starting parallel UtilityAnalysis [6]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##SUBTASK, Starting parallel SingletonAnalysis [7]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Starting parallel SingletonAnalysis [7]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Starting parallel UtilityAnalysis [6]: 21 for TestSingletonClassPublicField
+REMOTE: Starting parallel UtilityAnalysis [6]: 21 for TestSingletonClassPublicField
+REMOTE: ##SUBTASK, Starting parallel SingletonAnalysis [7]: 21 for TestSingletonClassPublicField
+REMOTE: Starting parallel SingletonAnalysis [7]: 21 for TestSingletonClassPublicField
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.clazz.publicField.BadConstructorPublic
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.clazz.publicField.BadConstructorPublic
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.clazz.publicField.BadSerializableNoReturn
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.clazz.publicField.BadSerializableNoReturn
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.clazz.publicField.GoodSerializable
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.clazz.publicField.GoodSerializable
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.clazz.publicField.BadNotFinal
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.clazz.publicField.BadNotFinal
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.clazz.publicField.GoodManyConstructors
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.clazz.publicField.GoodManyConstructors
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.clazz.publicField.BadSerializableReturnsWrongField
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.clazz.publicField.BadSerializableReturnsWrongField
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.clazz.publicField.Bad
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.clazz.publicField.Bad
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.clazz.publicField.BadSerializableReturnsNull
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.clazz.publicField.BadSerializableReturnsNull
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.clazz.publicField.BadConstructorDefault
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.clazz.publicField.BadConstructorDefault
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.clazz.publicField.BadManyConstructors
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.clazz.publicField.BadManyConstructors
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.clazz.publicField.GoodSimple
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.clazz.publicField.GoodSimple
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.clazz.publicField.BadMakesExtraInstances
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.clazz.publicField.BadTooManyFields
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.clazz.publicField.BadTooManyFields
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.clazz.publicField.BadMakesExtraInstances
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.clazz.publicField.BadConstructorProtected
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.clazz.publicField.BadConstructorProtected
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.clazz.publicField.BadSerializableFieldNotTransient
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.clazz.publicField.BadSerializableFieldNotTransient
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.clazz.publicField.BadFieldNotStatic
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.clazz.publicField.BadFieldNotStatic
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.clazz.publicField.BadSerializableNoReadResolve
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.clazz.publicField.BadSerializableNoReadResolve
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.clazz.publicField.BadSerializableTooManyStatements
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.clazz.publicField.BadFieldNotFinal
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.clazz.publicField.BadFieldNotFinal
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.clazz.publicField.BadTooManyFields2
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.clazz.publicField.BadTooManyFields2
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.clazz.publicField.GoodWIthGetter
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.clazz.publicField.BadSerializableTooManyStatements
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.clazz.publicField.GoodWIthGetter
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: Starting group: LockModelBuilder
+REMOTE: ##SUBTASK, Starting parallel LockModelBuilder [8]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Starting parallel LockModelBuilder [8]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Starting parallel LockModelBuilder [8]: 21 for TestSingletonClassPublicField
+REMOTE: Starting parallel LockModelBuilder [8]: 21 for TestSingletonClassPublicField
+REMOTE: ##SUBTASK, Checking [ Lock Model Builder ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadConstructorPublic.java
+REMOTE: ##SUBTASK, Checking [ Lock Model Builder ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadSerializableNoReturn.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Lock Model Builder ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/GoodSerializable.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Lock Model Builder ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadNotFinal.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Lock Model Builder ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/Bad.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Lock Model Builder ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/GoodManyConstructors.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Lock Model Builder ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadSerializableReturnsWrongField.java
+REMOTE: ##SUBTASK, Checking [ Lock Model Builder ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadSerializableReturnsNull.java
+REMOTE: ##SUBTASK, Checking [ Lock Model Builder ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadManyConstructors.java
+REMOTE: ##SUBTASK, Checking [ Lock Model Builder ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/GoodSimple.java
+REMOTE: ##SUBTASK, Checking [ Lock Model Builder ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadMakesExtraInstances.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Lock Model Builder ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadConstructorDefault.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Lock Model Builder ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadConstructorProtected.java
+REMOTE: ##SUBTASK, Checking [ Lock Model Builder ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadSerializableFieldNotTransient.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Lock Model Builder ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadTooManyFields.java
+REMOTE: ##SUBTASK, Checking [ Lock Model Builder ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadSerializableTooManyStatements.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Lock Model Builder ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadFieldNotFinal.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Lock Model Builder ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadSerializableNoReadResolve.java
+REMOTE: ##SUBTASK, Checking [ Lock Model Builder ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadFieldNotStatic.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Lock Model Builder ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/GoodWIthGetter.java
+REMOTE: ##SUBTASK, Checking [ Lock Model Builder ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadTooManyFields2.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: Starting group: ThreadSafeAnalysis
+REMOTE: ##SUBTASK, Starting parallel ThreadSafeAnalysis [9]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Starting parallel ThreadSafeAnalysis [9]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Starting parallel ThreadSafeAnalysis [9]: 21 for TestSingletonClassPublicField
+REMOTE: Starting parallel ThreadSafeAnalysis [9]: 21 for TestSingletonClassPublicField
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.clazz.publicField.BadConstructorPublic
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.clazz.publicField.BadSerializableNoReturn
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.clazz.publicField.GoodSerializable
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.clazz.publicField.BadNotFinal
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.clazz.publicField.Bad
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.clazz.publicField.GoodManyConstructors
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.clazz.publicField.BadSerializableReturnsWrongField
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.clazz.publicField.BadConstructorDefault
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.clazz.publicField.GoodSimple
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.clazz.publicField.BadMakesExtraInstances
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.clazz.publicField.BadManyConstructors
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.clazz.publicField.BadSerializableReturnsNull
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.clazz.publicField.BadConstructorProtected
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.clazz.publicField.BadSerializableFieldNotTransient
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.clazz.publicField.BadTooManyFields
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.clazz.publicField.BadSerializableTooManyStatements
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.clazz.publicField.BadFieldNotFinal
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.clazz.publicField.BadTooManyFields2
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.clazz.publicField.GoodWIthGetter
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.clazz.publicField.BadSerializableNoReadResolve
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.clazz.publicField.BadFieldNotStatic
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: Starting group: NewLockAnalysis
+REMOTE: ##SUBTASK, Starting parallel NewLockAnalysis [10]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Starting parallel NewLockAnalysis [10]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Starting parallel NewLockAnalysis [10]: 21 for TestSingletonClassPublicField
+REMOTE: Starting parallel NewLockAnalysis [10]: 21 for TestSingletonClassPublicField
+REMOTE: ##SUBTASK, Checking [ New Lock policy ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadConstructorPublic.java
+REMOTE: ##SUBTASK, Checking [ New Lock policy ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadSerializableNoReturn.java
+REMOTE: ##SUBTASK, Checking [ New Lock policy ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/GoodSerializable.java
+REMOTE: ##SUBTASK, Checking [ New Lock policy ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadNotFinal.java
+REMOTE: ##SUBTASK, Checking [ New Lock policy ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/Bad.java
+REMOTE: ##SUBTASK, Checking [ New Lock policy ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/GoodManyConstructors.java
+REMOTE: ##SUBTASK, Checking [ New Lock policy ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadSerializableReturnsWrongField.java
+REMOTE: ##SUBTASK, Checking [ New Lock policy ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadConstructorDefault.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ New Lock policy ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadSerializableReturnsNull.java
+REMOTE: ##SUBTASK, Checking [ New Lock policy ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadManyConstructors.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ New Lock policy ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/GoodSimple.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ New Lock policy ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadMakesExtraInstances.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ New Lock policy ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadTooManyFields.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ New Lock policy ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadConstructorProtected.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ New Lock policy ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadSerializableFieldNotTransient.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ New Lock policy ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadFieldNotStatic.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ New Lock policy ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadSerializableNoReadResolve.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ New Lock policy ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadSerializableTooManyStatements.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ New Lock policy ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadFieldNotFinal.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ New Lock policy ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadTooManyFields2.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ New Lock policy ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/GoodWIthGetter.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: Starting group: EffectsAnalysis
+REMOTE: ##SUBTASK, Starting parallel EffectsAnalysis [11]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Starting parallel EffectsAnalysis [11]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Starting parallel EffectsAnalysis [11]: 21 for TestSingletonClassPublicField
+REMOTE: Starting parallel EffectsAnalysis [11]: 21 for TestSingletonClassPublicField
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.clazz.publicField.BadConstructorPublic
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.clazz.publicField.BadSerializableNoReturn
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.clazz.publicField.GoodSerializable
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.clazz.publicField.BadNotFinal
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.clazz.publicField.Bad
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.clazz.publicField.GoodManyConstructors
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.clazz.publicField.BadSerializableReturnsWrongField
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.clazz.publicField.BadConstructorDefault
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.clazz.publicField.BadSerializableReturnsNull
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.clazz.publicField.BadManyConstructors
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.clazz.publicField.GoodSimple
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.clazz.publicField.BadMakesExtraInstances
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.clazz.publicField.BadTooManyFields
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.clazz.publicField.BadConstructorProtected
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.clazz.publicField.BadSerializableFieldNotTransient
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.clazz.publicField.BadFieldNotStatic
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.clazz.publicField.BadSerializableNoReadResolve
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.clazz.publicField.BadSerializableTooManyStatements
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.clazz.publicField.BadFieldNotFinal
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.clazz.publicField.BadTooManyFields2
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.clazz.publicField.GoodWIthGetter
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: Starting group: UniquenessAnalysisModule
+REMOTE: ##SUBTASK, Starting parallel UniquenessAnalysisModule [12]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Starting parallel UniquenessAnalysisModule [12]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Starting parallel UniquenessAnalysisModule [12]: 0 for TestSingletonClassPublicField
+REMOTE: Starting parallel UniquenessAnalysisModule [12]: 0 for TestSingletonClassPublicField
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: Starting group: NullablePreprocessorModule
+REMOTE: ##SUBTASK, Starting parallel NullablePreprocessorModule [13]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Starting parallel NullablePreprocessorModule [13]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Starting parallel NullablePreprocessorModule [13]: 21 for TestSingletonClassPublicField
+REMOTE: Starting parallel NullablePreprocessorModule [13]: 21 for TestSingletonClassPublicField
+REMOTE: ##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadConstructorPublic.java
+REMOTE: ##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadSerializableNoReturn.java
+REMOTE: ##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/GoodSerializable.java
+REMOTE: ##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadNotFinal.java
+REMOTE: ##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/Bad.java
+REMOTE: ##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/GoodManyConstructors.java
+REMOTE: ##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadSerializableReturnsWrongField.java
+REMOTE: ##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadConstructorDefault.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadSerializableReturnsNull.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadManyConstructors.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadMakesExtraInstances.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadTooManyFields.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadConstructorProtected.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadSerializableFieldNotTransient.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadFieldNotStatic.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadTooManyFields2.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/GoodWIthGetter.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadFieldNotFinal.java
+REMOTE: ##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadSerializableTooManyStatements.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/BadSerializableNoReadResolve.java
+REMOTE: ##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestSingletonClassPublicField/src/test/clazz/publicField/GoodSimple.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: Starting group: NullableModule2
+REMOTE: ##SUBTASK, Starting parallel NullableModule2 [14]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Starting parallel NullableModule2 [14]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Starting parallel NullableModule2 [14]: 55 for TestSingletonClassPublicField
+REMOTE: Starting parallel NullableModule2 [14]: 55 for TestSingletonClassPublicField
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.clazz.publicField.BadConstructorPublic.BadConstructorPublic()
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.clazz.publicField.BadConstructorPublic.<clinit>
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.clazz.publicField.BadSerializableNoReturn.BadSerializableNoReturn()
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.clazz.publicField.BadSerializableNoReturn.readResolve()
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.clazz.publicField.BadSerializableNoReturn.<clinit>
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.clazz.publicField.GoodSerializable.GoodSerializable()
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.clazz.publicField.GoodSerializable.readResolve()
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.clazz.publicField.GoodSerializable.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.clazz.publicField.BadNotFinal.BadNotFinal()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.clazz.publicField.BadNotFinal.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.clazz.publicField.Bad.Bad()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.clazz.publicField.Bad.x()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.clazz.publicField.Bad.m(java.lang.Object)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.clazz.publicField.Bad.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.clazz.publicField.GoodManyConstructors.GoodManyConstructors()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.clazz.publicField.GoodManyConstructors.GoodManyConstructors(int)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.clazz.publicField.GoodManyConstructors.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.clazz.publicField.BadSerializableReturnsWrongField.BadSerializableReturnsWrongField()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.clazz.publicField.BadSerializableReturnsWrongField.readResolve()
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.clazz.publicField.BadSerializableReturnsWrongField.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.clazz.publicField.BadConstructorDefault.BadConstructorDefault()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.clazz.publicField.BadConstructorDefault.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.clazz.publicField.BadSerializableReturnsNull.BadSerializableReturnsNull()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.clazz.publicField.BadSerializableReturnsNull.readResolve()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.clazz.publicField.BadSerializableReturnsNull.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.clazz.publicField.BadManyConstructors.BadManyConstructors()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.clazz.publicField.BadManyConstructors.BadManyConstructors(int)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.clazz.publicField.BadManyConstructors.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.clazz.publicField.GoodSimple.GoodSimple()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.clazz.publicField.GoodSimple.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.clazz.publicField.BadMakesExtraInstances.BadMakesExtraInstances()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.clazz.publicField.BadMakesExtraInstances.doStuff()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.clazz.publicField.BadMakesExtraInstances.x()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.clazz.publicField.BadMakesExtraInstances.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.clazz.publicField.BadTooManyFields.BadTooManyFields()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.clazz.publicField.BadTooManyFields.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.clazz.publicField.BadConstructorProtected.BadConstructorProtected()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.clazz.publicField.BadConstructorProtected.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.clazz.publicField.BadSerializableFieldNotTransient.BadSerializableFieldNotTransient()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.clazz.publicField.BadSerializableFieldNotTransient.readResolve()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.clazz.publicField.BadSerializableFieldNotTransient.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.clazz.publicField.BadFieldNotStatic.BadFieldNotStatic()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.clazz.publicField.BadFieldNotStatic.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.clazz.publicField.BadSerializableNoReadResolve.BadSerializableNoReadResolve()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.clazz.publicField.BadSerializableNoReadResolve.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.clazz.publicField.BadSerializableTooManyStatements.BadSerializableTooManyStatements()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.clazz.publicField.BadSerializableTooManyStatements.readResolve()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.clazz.publicField.BadSerializableTooManyStatements.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.clazz.publicField.BadFieldNotFinal.BadFieldNotFinal()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.clazz.publicField.BadFieldNotFinal.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.clazz.publicField.BadTooManyFields2.BadTooManyFields2()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.clazz.publicField.BadTooManyFields2.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.clazz.publicField.GoodWIthGetter.GoodWIthGetter()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.clazz.publicField.GoodWIthGetter.getIntance()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.clazz.publicField.GoodWIthGetter.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Cleaning up after analysis
+REMOTE: Cleaning up after analysis
+REMOTE: [GC (System.gc())  103691K->63433K(161792K), 0.0108580 secs]
+REMOTE: [Full GC (System.gc())  63433K->38068K(161792K), 0.1470170 secs]
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: Updating consistency proof
+REMOTE: ##SUBTASK, Updating consistency proof
+REMOTE: Exporting results to TestSingletonClassPu-2016.02.03-at-12.45.16.239
+REMOTE: ##SUBTASK, Exporting results to TestSingletonClassPu-2016.02.03-at-12.45.16.239
+REMOTE: Creating snapshot: /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/TestSingletonClassPu-2016.02.03-at-12.45.16.239/running_or_crashed_sea_snapshot.xml.gz
+REMOTE: Done in 4829 ms.
+REMOTE: ConcurrencyDetector	: 20 ms
+REMOTE: ThreadEffectsModule	: 8 ms
+REMOTE: StructureAnalysis	: 3 ms
+REMOTE: ParameterizedTypeAnalysis	: 4 ms
+REMOTE: EqualityAnalysis	: 67 ms
+REMOTE: LayersAnalysis	: 129 ms
+REMOTE: UtilityAnalysis	: 1 ms
+REMOTE: SingletonAnalysis	: 23 ms
+REMOTE: LockModelBuilder	: 20 ms
+REMOTE: ThreadSafeAnalysis	: 0 ms
+REMOTE: NewLockAnalysis	: 450 ms
+REMOTE: EffectsAnalysis	: 8 ms
+REMOTE: UniquenessAnalysisModule	: 2 ms
+REMOTE: NullablePreprocessorModule	: 20 ms
+REMOTE: NullableModule2	: 828 ms
+REMOTE: [2016-02-03 12:45:23    INFO] partial bindings = 7423 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+REMOTE: [2016-02-03 12:45:23    INFO] full bindings = 266 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+REMOTE: cached = 0
+REMOTE: totalT = 0
+REMOTE: #Performance data for TestSingletonClassPublicField
+REMOTE: #Wed Feb 03 12:45:23 EST 2016
+REMOTE: jsure.Add.required=0
+REMOTE: jsure.All.analyses=485
+REMOTE: jsure.Binding.before.canon=271
+REMOTE: jsure.Binding.full.time=730
+REMOTE: jsure.Binding.partial.time=446
+REMOTE: jsure.Bindings.full=266
+REMOTE: jsure.Bindings.partial=7423
+REMOTE: jsure.Canonicalization=613
+REMOTE: jsure.Cleanup=91
+REMOTE: jsure.Destroy.time=5
+REMOTE: jsure.Drop.creation=22
+REMOTE: jsure.Find.canon.time=2
+REMOTE: jsure.Parsing=995
+REMOTE: jsure.Promise.parsing=591
+REMOTE: jsure.Promise.scrubbing=1284
+REMOTE: jsure.Sea.export=657
+REMOTE: jsure.Sea.update=91
+REMOTE: jsure.Total.JSure.time=4829
+REMOTE: jsure.Total.blocks=34
+REMOTE: jsure.Total.canonical=949
+REMOTE: jsure.Total.decls=157
+REMOTE: jsure.Total.destroyed=0
+REMOTE: jsure.Total.gced=0
+REMOTE: jsure.Total.loc=349
+REMOTE: jsure.Total.nodes=68281
+REMOTE: jsure.Total.stmts=68
+REMOTE: jsure.Total.try.destroyed=236
+REMOTE: jsure.analysis.ConcurrencyDetector=20
+REMOTE: jsure.analysis.EffectsAnalysis=8
+REMOTE: jsure.analysis.EqualityAnalysis=67
+REMOTE: jsure.analysis.LayersAnalysis=129
+REMOTE: jsure.analysis.LockModelBuilder=20
+REMOTE: jsure.analysis.NewLockAnalysis=450
+REMOTE: jsure.analysis.NullableModule2=828
+REMOTE: jsure.analysis.NullablePreprocessorModule=20
+REMOTE: jsure.analysis.ParameterizedTypeAnalysis=4
+REMOTE: jsure.analysis.SingletonAnalysis=23
+REMOTE: jsure.analysis.StructureAnalysis=3
+REMOTE: jsure.analysis.ThreadEffectsModule=8
+REMOTE: jsure.analysis.ThreadSafeAnalysis=0
+REMOTE: jsure.analysis.UniquenessAnalysisModule=2
+REMOTE: jsure.analysis.UtilityAnalysis=1
+REMOTE: jsure.num.threads=8
+REMOTE: Javac making log: AnnotationRules
+REMOTE: ##DONE
+REMOTE: Renaming snapshot: /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/TestSingletonClassPu-2016.02.03-at-12.45.16.239/sea_snapshot.xml.gz
+REMOTE: Done with JSure!
+REMOTE: Scanning complete in 6 seconds 321 ms (6,321 ms)
+REMOTE: No socket to close
+REMOTE: Closing std streams
+Process result after waiting = 0

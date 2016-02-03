@@ -1,0 +1,2450 @@
+LOCAL vm : 1.8.0_05
+Path: /Users/aarong/git/common/common/lib/runtime/guava-18.0.jar
+Path: /Users/aarong/git/jsure/jsure-analysis/bin
+Path: /Users/aarong/git/common/common/lib/runtime/ant-1.9.6.jar
+Path: /Users/aarong/git/jsure/jsure-common
+Path: /Users/aarong/git/common/common
+Path: /Users/aarong/git/common/common/lib/runtime/javax.servlet-api-3.1.0.jar
+Path: /Users/aarong/git/jsure/jsure-analysis
+Path: /Users/aarong/git/common/common/lib/runtime/antlr-3.5.2-runtime.jar
+Path: /Users/aarong/git/jsure/jsure-common/lib/runtime/diffutils-1.2.1.jar
+Path: /Users/aarong/git/common/common/bin
+Path: /Users/aarong/git/common/common/lib/runtime/asm-commons-5.0.4.jar
+Path: /Users/aarong/git/jsure/jsure-analysis/lib/runtime/renamedJavac.jar
+Path: /Users/aarong/git/common/common/lib/runtime/promises-5.6.0.jar
+Path: /Users/aarong/git/common/common/lib/runtime/derby-10.11.1.1.jar
+Path: /Users/aarong/git/jsure/jsure-common/bin
+Path: /Users/aarong/git/common/common/lib/runtime/asm-5.0.4.jar
+Path: /Users/aarong/git/common/common/lib/runtime/asm-tree-5.0.4.jar
+Path: /Users/aarong/git/common/common/lib/runtime/hppc-0.7.1.jar
+Path: /Users/aarong/git/common/common/lib/runtime/commons-lang3-3.4.jar
+Starting process:
+	/Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/jre/bin/java
+	-Dsl.running.in.remote.vm=true
+	-Dsurelogic.test.code=NONE
+	-XX:MaxPermSize=512m
+	-verbosegc
+	-DSureLogicX=true
+	-Dsl.run.dir=/Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/TestReturnsLockOverr-2016.02.03-at-12.37.29.354
+	-Dfluid.ir.versioning=Versioning.Off
+	-Djsure.analysis.directory.url=file:/Eclipses/eclipse-standard-luna-SR2-macosx-cocoa-x86_64/../../Users/aarong/git/jsure/jsure-analysis/
+	-Xmx2048m
+	-classpath
+	/Users/aarong/git/common/common/lib/runtime/guava-18.0.jar:/Users/aarong/git/jsure/jsure-analysis/bin:/Users/aarong/git/common/common/lib/runtime/ant-1.9.6.jar:/Users/aarong/git/jsure/jsure-common:/Users/aarong/git/common/common:/Users/aarong/git/common/common/lib/runtime/javax.servlet-api-3.1.0.jar:/Users/aarong/git/jsure/jsure-analysis:/Users/aarong/git/common/common/lib/runtime/antlr-3.5.2-runtime.jar:/Users/aarong/git/jsure/jsure-common/lib/runtime/diffutils-1.2.1.jar:/Users/aarong/git/common/common/bin:/Users/aarong/git/common/common/lib/runtime/asm-commons-5.0.4.jar:/Users/aarong/git/jsure/jsure-analysis/lib/runtime/renamedJavac.jar:/Users/aarong/git/common/common/lib/runtime/promises-5.6.0.jar:/Users/aarong/git/common/common/lib/runtime/derby-10.11.1.1.jar:/Users/aarong/git/jsure/jsure-common/bin:/Users/aarong/git/common/common/lib/runtime/asm-5.0.4.jar:/Users/aarong/git/common/common/lib/runtime/asm-tree-5.0.4.jar:/Users/aarong/git/common/common/lib/runtime/hppc-0.7.1.jar:/Users/aarong/git/common/common/lib/runtime/commons-lang3-3.4.jar
+	com.surelogic.javac.jobs.RemoteJSureRun
+
+First line in REMOTE vm = Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=512m; support was removed in 8.0
+REMOTE: [GC (Allocation Failure)  512K->496K(327168K), 0.0014160 secs]
+REMOTE: [GC (Allocation Failure)  994K->568K(327168K), 0.0011380 secs]
+REMOTE: [GC (Allocation Failure)  1080K->608K(327168K), 0.0014240 secs]
+REMOTE: [GC (Allocation Failure)  1120K->720K(327680K), 0.0009500 secs]
+REMOTE: [GC (Allocation Failure)  1744K->800K(327680K), 0.0009210 secs]
+REMOTE: [GC (Allocation Failure)  1824K->1032K(329216K), 0.0008770 secs]
+REMOTE: JVM started: 1.8.0_05
+REMOTE: Log level: INFO
+REMOTE: Created reader
+REMOTE: Created monitor
+REMOTE: Created log handler
+REMOTE: Running RemoteJSureRun
+REMOTE: [GC (Allocation Failure)  3080K->1205K(329216K), 0.0012070 secs]
+REMOTE: [GC (Allocation Failure)  3253K->1348K(331264K), 0.0010210 secs]
+REMOTE: [GC (Allocation Failure)  5444K->1684K(331264K), 0.0012690 secs]
+REMOTE: [GC (Allocation Failure)  5753K->1875K(331264K), 0.0011620 secs]
+REMOTE: runPath = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/TestReturnsLockOverr-2016.02.03-at-12.37.29.354
+REMOTE: Creating run: TestReturnsLockOverr-2016.02.03-at-12.37.29.354
+REMOTE: [GC (Allocation Failure)  5971K->2289K(331264K), 0.0020980 secs]
+REMOTE: Defaulting project org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7 to Java 0
+REMOTE: Created project org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7 from XML
+REMOTE: Setting project TestReturnsLockOverride to Java 7
+REMOTE: [GC (Allocation Failure)  6385K->2928K(331264K), 0.0013820 secs]
+REMOTE: Created project TestReturnsLockOverride from XML
+REMOTE: projects = TestReturnsLockOverride
+REMOTE: Loading edu.cmu.cs.fluid.make.nonabductive.proposals = false
+REMOTE: Loading edu.cmu.cs.fluid.load.all.classes = false
+REMOTE: Loading edu.cmu.cs.fluid.timeoutFlag = true
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BCA = false
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ConstantExpr = false
+REMOTE: Loading edu.cmu.cs.fluid.physMemoryInMB = 20480
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.EqualityAssurance = true
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ThreadSafe = true
+REMOTE: Loading edu.cmu.cs.fluid.xml.diff.directory = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/promises-xml
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.IRConcurrencyDetector = true
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Singleton = true
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.CALLS = false
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BenchmarkingUniquenessSE = false
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ThreadEffectAssurance2 = true
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Binder = false
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.cliend.eclipse.TypeBasedAlias = false
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Nullable = true
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.TestIsFunctional = false
+REMOTE: Loading edu.cmu.cs.fluid.tool-memory-mb = 2048
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.DefinitelyAssigned = false
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.UniquenessAssuranceSE = true
+REMOTE: Loading edu.cmu.cs.fluid.analysis.thread.count = 8
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LockModelBuilder = true
+REMOTE: Loading edu.cmu.cs.fluid.timeoutSec = 11
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.NonNullRawTypes = false
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.EffectsAndLocks = false
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LayersAssurance = true
+REMOTE: Loading edu.cmu.cs.fluid.default.JRE = org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Loading edu.cmu.cs.fluid.timeoutWarningSec = 30
+REMOTE: Loading edu.cmu.cs.fluid.modeling.problem.filters = 00000012com\.apple.*00000013com\.oracle.*00000010com\.sun.*00000014.*\.internal.*00000023.*BakedArrayList\.class00000007apple.*00000008oracle.*00000011quicktime.*00000005sun.*
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Utility = true
+REMOTE: Loading edu.cmu.cs.fluid.scan.may.use.compression = true
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ParameterizedType = true
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Final = false
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LockAssurance4 = true
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LockAssurance3 = false
+REMOTE: Loading edu.cmu.cs.fluid.data.directory = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.NullablePreprocessor = true
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.EffectAssurance2 = true
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LV = false
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.StructureAssurance = true
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Types = false
+REMOTE: JSure data dir = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data
+REMOTE: XML diff dir   = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/promises-xml
+REMOTE: Looking for JRE in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: default JRE = org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Initialized job
+REMOTE: Created com.surelogic.analysis.concurrency.detector.ConcurrencyDetector
+REMOTE: Starting a new group for ConcurrencyDetector
+REMOTE: Created com.surelogic.analysis.threads.ThreadEffectsModule
+REMOTE: Created com.surelogic.analysis.structure.StructureAnalysis
+REMOTE: Created com.surelogic.analysis.annotationbounds.ParameterizedTypeAnalysis
+REMOTE: Created com.surelogic.analysis.equality.EqualityAnalysis
+REMOTE: Created com.surelogic.analysis.layers.LayersAnalysis
+REMOTE: Created com.surelogic.analysis.utility.UtilityAnalysis
+REMOTE: Starting a new group for UtilityAnalysis
+REMOTE: Group: EXTERNALLY
+REMOTE: 	ConcurrencyDetector
+REMOTE: 	ThreadEffectsModule
+REMOTE: 	StructureAnalysis
+REMOTE: 	ParameterizedTypeAnalysis
+REMOTE: 	EqualityAnalysis
+REMOTE: 	LayersAnalysis
+REMOTE: Created com.surelogic.analysis.singleton.SingletonAnalysis
+REMOTE: Created com.surelogic.analysis.concurrency.driver.LockModelBuilder
+REMOTE: Starting a new group for LockModelBuilder
+REMOTE: Group: com.surelogic.analysis.visitors.TopLevelAnalysisVisitor$1@4cdf35a9, EXTERNALLY
+REMOTE: 	UtilityAnalysis
+REMOTE: 	SingletonAnalysis
+REMOTE: Created com.surelogic.analysis.concurrency.driver.ThreadSafeAnalysis
+REMOTE: Starting a new group for ThreadSafeAnalysis
+REMOTE: Group: EXTERNALLY
+REMOTE: 	LockModelBuilder
+REMOTE: Created com.surelogic.analysis.concurrency.driver.NewLockAnalysis
+REMOTE: Starting a new group for NewLockAnalysis
+REMOTE: Group: com.surelogic.analysis.visitors.TopLevelAnalysisVisitor$1@4cdf35a9, EXTERNALLY
+REMOTE: 	ThreadSafeAnalysis
+REMOTE: Created com.surelogic.analysis.effects.EffectsAnalysis
+REMOTE: Starting a new group for EffectsAnalysis
+REMOTE: Group: class com.surelogic.analysis.bca.BindingContextAnalysis, EXTERNALLY
+REMOTE: 	NewLockAnalysis
+REMOTE: Created com.surelogic.analysis.uniqueness.classic.sideeffecting.UniquenessAnalysisModule
+REMOTE: Starting a new group for UniquenessAnalysisModule
+REMOTE: Group: com.surelogic.analysis.visitors.TopLevelAnalysisVisitor$1@4cdf35a9, class com.surelogic.analysis.bca.BindingContextAnalysis, EXTERNALLY
+REMOTE: 	EffectsAnalysis
+REMOTE: Created com.surelogic.analysis.nullable.NullablePreprocessorModule
+REMOTE: Starting a new group for NullablePreprocessorModule
+REMOTE: Group: com.surelogic.analysis.uniqueness.classic.sideeffecting.UniquenessAnalysisModule$1@4c98385c, class com.surelogic.analysis.bca.BindingContextAnalysis, INTERNALLY
+REMOTE: 	UniquenessAnalysisModule
+REMOTE: Created com.surelogic.analysis.nullable.NullableModule2
+REMOTE: Starting a new group for NullableModule2
+REMOTE: Group: EXTERNALLY
+REMOTE: 	NullablePreprocessorModule
+REMOTE: Group: com.surelogic.analysis.granules.FlowUnitGranulator@5fcfe4b2, EXTERNALLY
+REMOTE: 	NullableModule2
+REMOTE: ##TASK, Scan, 136
+REMOTE: Initializing ...
+REMOTE: ##SUBTASK, Initializing ...
+REMOTE: monitor = com.surelogic.common.jobs.remote.AbstractRemoteSLJob$Monitor@6bf2d08e
+REMOTE: process() using 8 threads
+REMOTE: [GC (Allocation Failure)  7024K->3060K(331264K), 0.0023460 secs]
+REMOTE: [GC (Allocation Failure)  7156K->3298K(330752K), 0.0010710 secs]
+REMOTE: [GC (Allocation Failure)  7394K->3378K(331264K), 0.0010570 secs]
+REMOTE: [GC (Allocation Failure)  7474K->3474K(332288K), 0.0007730 secs]
+REMOTE: [GC (Allocation Failure)  8496K->5295K(332288K), 0.0013430 secs]
+REMOTE: [GC (Allocation Failure)  10408K->10280K(332800K), 0.0032610 secs]
+REMOTE: [GC (Allocation Failure)  15374K->15348K(334848K), 0.0029790 secs]
+REMOTE: [GC (Allocation Failure)  20422K->20445K(336384K), 0.0035270 secs]
+REMOTE: [GC (Allocation Failure)  26497K->26515K(337408K), 0.0039850 secs]
+REMOTE: [GC (Allocation Failure)  32639K->32509K(339456K), 0.0042870 secs]
+REMOTE: [GC (Allocation Failure)  40068K->39907K(340480K), 0.0052830 secs]
+REMOTE: Done initializing org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: 0
+REMOTE: org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/resources.jar : 2465399
+REMOTE: [GC (Allocation Failure)  47587K->45258K(345088K), 0.0051100 secs]
+REMOTE: [GC (Allocation Failure)  56010K->47047K(345088K), 0.0046230 secs]
+REMOTE: [GC (Allocation Failure)  57799K->48863K(347648K), 0.0036120 secs]
+REMOTE: org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/rt.jar : 64311652
+REMOTE: org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jsse.jar : 582478
+REMOTE: org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jce.jar : 109504
+REMOTE: org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/charsets.jar : 3696271
+REMOTE: org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jfr.jar : 532548
+REMOTE: org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/dnsns.jar : 8923
+REMOTE: org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/localedata.jar : 550578
+REMOTE: org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunec.jar : 15941
+REMOTE: org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunjce_provider.jar : 198101
+REMOTE: org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunpkcs11.jar : 237244
+REMOTE: org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/zipfs.jar : 68751
+REMOTE: org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /System/Library/Java/Extensions/MRJToolkit.jar : 12849
+REMOTE: Done initializing TestReturnsLockOverride: 7
+REMOTE: Trying to find /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/TestReturnsLockOverr-2016.02.03-at-12.37.29.354/source/TestReturnsLockOverride.bin.zip
+REMOTE: TestReturnsLockOverride: TestReturnsLockOverride -> org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Done initializing org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: 0
+REMOTE: TestReturnsLockOverride: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/resources.jar : 2465399
+REMOTE: [GC (Allocation Failure)  63199K->51783K(348160K), 0.0045420 secs]
+REMOTE: [GC (Allocation Failure)  66119K->54415K(352256K), 0.0059520 secs]
+REMOTE: TestReturnsLockOverride: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/rt.jar : 64311652
+REMOTE: TestReturnsLockOverride: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jsse.jar : 582478
+REMOTE: TestReturnsLockOverride: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jce.jar : 109504
+REMOTE: TestReturnsLockOverride: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/charsets.jar : 3696271
+REMOTE: TestReturnsLockOverride: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jfr.jar : 532548
+REMOTE: TestReturnsLockOverride: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/dnsns.jar : 8923
+REMOTE: TestReturnsLockOverride: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/localedata.jar : 550578
+REMOTE: TestReturnsLockOverride: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunec.jar : 15941
+REMOTE: TestReturnsLockOverride: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunjce_provider.jar : 198101
+REMOTE: [GC (Allocation Failure)  73359K->58427K(352256K), 0.0061010 secs]
+REMOTE: TestReturnsLockOverride: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunpkcs11.jar : 237244
+REMOTE: TestReturnsLockOverride: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/zipfs.jar : 68751
+REMOTE: TestReturnsLockOverride: Done initializing with /System/Library/Java/Extensions/MRJToolkit.jar : 12849
+REMOTE: TestReturnsLockOverride: Done initializing with /Users/aarong/git/regression/regression/TestReturnsLockOverride/promises-5.6.0.jar : 133034
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: Assuming that the projects are run in dependency order
+REMOTE: Parsing ...
+REMOTE: ##SUBTASK, Parsing ...
+REMOTE: Done adapting 0 files for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: Parsing ...
+REMOTE: ##SUBTASK, Parsing ...
+REMOTE: [GC (Allocation Failure)  77371K->61638K(357376K), 0.0070180 secs]
+REMOTE: JCP: warning: [options] bootstrap class path not set in conjunction with -source 1.7
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: Adapting 7 CUTs
+REMOTE: Done adapting 7 files for TestReturnsLockOverride
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: Handling references for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##SUBTASK, Handling references for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Handling 21 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Setting project for Object from org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: [GC (Allocation Failure)  86726K->62683K(357888K), 0.0068980 secs]
+REMOTE: Handling 44 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Handling 55 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Handling 51 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: [GC (Allocation Failure)  87771K->66040K(365056K), 0.0101470 secs]
+REMOTE: Handling 32 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Handling 17 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Handling 8 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Handling 12 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Handling 15 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Handling 4 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Handling 2 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: Handling references for TestReturnsLockOverride
+REMOTE: ##SUBTASK, Handling references for TestReturnsLockOverride
+REMOTE: Handling 27 dangling refs for TestReturnsLockOverride
+REMOTE: Handling 5 dangling refs for TestReturnsLockOverride
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: Parsing ASTs  = 591 ms
+REMOTE: Handling refs = 464 ms
+REMOTE: [2016-02-03 12:37:35    INFO] partial bindings = 0 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+REMOTE: [2016-02-03 12:37:35    INFO] full bindings = 0 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+REMOTE: Canonicalizing ASTs
+REMOTE: ##SUBTASK, Canonicalizing ASTs
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: [2016-02-03 12:37:35    INFO] partial bindings = 1281 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+REMOTE: [2016-02-03 12:37:35    INFO] full bindings = 640 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+REMOTE: Canonicalizing TestReturnsLockOverride/src/test/formals/C.java
+REMOTE: [GC (Metadata GC Threshold)  89365K->69014K(365568K), 0.0085170 secs]
+REMOTE: [Full GC (Metadata GC Threshold)  69014K->66936K(115200K), 0.2296010 secs]
+REMOTE: ##WORK, 1
+REMOTE: Canonicalizing TestReturnsLockOverride/src/test/staticlocks/simple/C.java
+REMOTE: ##WORK, 1
+REMOTE: Canonicalizing TestReturnsLockOverride/src/test/receiver/qualified/C.java
+REMOTE: ##WORK, 1
+REMOTE: Canonicalizing TestReturnsLockOverride/src/test/receiver/implicit/C.java
+REMOTE: ##WORK, 1
+REMOTE: Canonicalizing TestReturnsLockOverride/src/test/staticlocks/qualified/C.java
+REMOTE: ##WORK, 1
+REMOTE: Canonicalizing TestReturnsLockOverride/src/test/qualified/Outer1.java
+REMOTE: ##WORK, 1
+REMOTE: Canonicalizing TestReturnsLockOverride/src/test/receiver/explicit/C.java
+REMOTE: ##WORK, 1
+REMOTE: Binding = 217 ms
+REMOTE: Cleaned 0 in 15 ms
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: [GC (System.gc())  72285K->67232K(117248K), 0.0026720 secs]
+REMOTE: [Full GC (System.gc())  67232K->55260K(117248K), 0.1119460 secs]
+REMOTE: Creating drops
+REMOTE: ##SUBTASK, Creating drops
+REMOTE: Created binary drop for java.security.cert.Certificate
+REMOTE: Created binary drop for java.lang.Void
+REMOTE: Created binary drop for java.security.AccessControlException
+REMOTE: Created binary drop for java.net.InetAddressImpl
+REMOTE: Created binary drop for java.nio.channels.ByteChannel
+REMOTE: Created binary drop for java.nio.ByteBuffer
+REMOTE: Created binary drop for java.lang.reflect.TypeVariable
+REMOTE: Created binary drop for java.nio.channels.spi.AbstractInterruptibleChannel
+REMOTE: Created binary drop for java.security.cert.CertificateEncodingException
+REMOTE: Created binary drop for java.util.AbstractList
+REMOTE: Created binary drop for java.nio.file.Watchable
+REMOTE: Created binary drop for sun.misc.JarIndex
+REMOTE: Created binary drop for java.nio.ByteOrder
+REMOTE: Created binary drop for java.nio.IntBuffer
+REMOTE: Created source drop for file:/Users/aarong/git/regression/regression/TestReturnsLockOverride/src/test/formals/C.java
+REMOTE: Created binary drop for java.lang.CharSequence
+REMOTE: Created binary drop for java.lang.AutoCloseable
+REMOTE: Created binary drop for java.nio.charset.CharacterCodingException
+REMOTE: Created binary drop for java.nio.MappedByteBuffer
+REMOTE: Created binary drop for java.lang.InterruptedException
+REMOTE: Created binary drop for java.util.AbstractCollection
+REMOTE: Created binary drop for java.nio.channels.WritableByteChannel
+REMOTE: Created binary drop for java.lang.reflect.Constructor
+REMOTE: Created binary drop for java.lang.Byte
+REMOTE: Created binary drop for java.lang.StackTraceElement
+REMOTE: Created binary drop for java.lang.Iterable
+REMOTE: Created binary drop for java.security.CodeSigner
+REMOTE: Created binary drop for java.io.OutputStream
+REMOTE: Created binary drop for java.nio.channels.ScatteringByteChannel
+REMOTE: Created binary drop for java.net.UnknownHostException
+REMOTE: Created binary drop for java.util.spi.LocaleServiceProvider
+REMOTE: Created binary drop for java.lang.Exception
+REMOTE: Created binary drop for java.io.ObjectStreamException
+REMOTE: Created binary drop for java.nio.charset.CoderResult
+REMOTE: Created binary drop for com.surelogic.ReturnsLock
+REMOTE: Created binary drop for java.security.AccessControlContext
+REMOTE: Created binary drop for java.lang.Character
+REMOTE: Created binary drop for java.lang.annotation.Documented
+REMOTE: Created binary drop for java.util.MissingResourceException
+REMOTE: Created binary drop for java.io.UnsupportedEncodingException
+REMOTE: Created binary drop for java.nio.file.AccessMode
+REMOTE: Created binary drop for java.util.concurrent.Future
+REMOTE: Created binary drop for java.nio.file.attribute.UserPrincipalLookupService
+REMOTE: Created binary drop for java.util.SortedMap
+REMOTE: Created binary drop for java.lang.Throwable
+REMOTE: Created binary drop for sun.reflect.ConstructorAccessor
+REMOTE: Created binary drop for java.util.Enumeration
+REMOTE: Created binary drop for java.lang.reflect.Member
+REMOTE: Created binary drop for java.lang.NoSuchFieldException
+REMOTE: Created binary drop for java.util.zip.Inflater
+REMOTE: Created binary drop for java.lang.Package
+REMOTE: Created binary drop for java.security.Principal
+REMOTE: Created binary drop for java.io.InputStream
+REMOTE: Created binary drop for java.nio.file.attribute.FileTime
+REMOTE: Created binary drop for java.io.FilterInputStream
+REMOTE: Created binary drop for java.lang.Short
+REMOTE: Created binary drop for java.util.Date
+REMOTE: Created binary drop for java.lang.annotation.Annotation
+REMOTE: Created binary drop for java.lang.reflect.InvocationTargetException
+REMOTE: Created binary drop for sun.util.locale.LanguageTag
+REMOTE: Created binary drop for java.lang.Float
+REMOTE: Created binary drop for java.nio.file.DirectoryStream
+REMOTE: Created binary drop for sun.util.locale.LocaleSyntaxException
+REMOTE: Created binary drop for java.util.jar.Attributes
+REMOTE: Created binary drop for sun.reflect.CallerSensitive
+REMOTE: Created binary drop for java.lang.reflect.Type
+REMOTE: Created binary drop for java.lang.reflect.GenericDeclaration
+REMOTE: Created binary drop for java.net.SocketAddress
+REMOTE: Created binary drop for java.nio.charset.CodingErrorAction
+REMOTE: Created binary drop for java.lang.Long
+REMOTE: Created binary drop for java.util.zip.ZipConstants
+REMOTE: Created binary drop for java.lang.Class
+REMOTE: Created binary drop for sun.util.locale.LocaleExtensions
+REMOTE: Created binary drop for java.util.AbstractSequentialList
+REMOTE: Created binary drop for java.lang.Deprecated
+REMOTE: Created binary drop for java.io.FilterOutputStream
+REMOTE: Created binary drop for java.net.MalformedURLException
+REMOTE: Created binary drop for java.lang.reflect.AccessibleObject
+REMOTE: Created binary drop for java.security.GeneralSecurityException
+REMOTE: Created binary drop for java.nio.file.WatchService
+REMOTE: Created binary drop for java.util.Comparator
+REMOTE: Created binary drop for java.security.Timestamp
+REMOTE: Created binary drop for java.lang.StringBuilder
+REMOTE: Created binary drop for java.util.concurrent.locks.Lock
+REMOTE: Created binary drop for java.util.Map
+REMOTE: Created binary drop for java.nio.file.attribute.GroupPrincipal
+REMOTE: Created binary drop for java.nio.file.FileSystem
+REMOTE: Created binary drop for java.security.NoSuchAlgorithmException
+REMOTE: Created binary drop for java.util.concurrent.Callable
+REMOTE: Created binary drop for java.lang.NumberFormatException
+REMOTE: Created binary drop for java.util.RandomAccess
+REMOTE: Created binary drop for java.security.cert.CertPath
+REMOTE: Created binary drop for java.lang.Object
+REMOTE: Created binary drop for java.io.Writer
+REMOTE: Created binary drop for java.lang.Override
+REMOTE: Created binary drop for java.security.Guard
+REMOTE: Created binary drop for java.nio.channels.InterruptibleChannel
+REMOTE: Created binary drop for java.nio.file.OpenOption
+REMOTE: Created binary drop for java.net.ContentHandlerFactory
+REMOTE: Created binary drop for sun.util.resources.OpenListResourceBundle
+REMOTE: Created binary drop for java.nio.file.WatchKey
+REMOTE: Created binary drop for java.nio.channels.GatheringByteChannel
+REMOTE: Created binary drop for java.util.concurrent.Executor
+REMOTE: Created binary drop for java.util.Vector
+REMOTE: Created binary drop for sun.util.locale.BaseLocale
+REMOTE: Created binary drop for java.io.FileDescriptor
+REMOTE: Created binary drop for java.io.FileNotFoundException
+REMOTE: Created source drop for file:/Users/aarong/git/regression/regression/TestReturnsLockOverride/src/test/staticlocks/simple/C.java
+REMOTE: Created binary drop for java.util.LinkedList
+REMOTE: Created binary drop for java.nio.channels.CompletionHandler
+REMOTE: Created binary drop for java.lang.annotation.Target
+REMOTE: Created binary drop for java.util.Set
+REMOTE: Created binary drop for java.util.Stack
+REMOTE: Created binary drop for java.nio.file.spi.FileSystemProvider
+REMOTE: Created binary drop for java.util.concurrent.ConcurrentMap
+REMOTE: Created binary drop for java.net.URLStreamHandlerFactory
+REMOTE: Created binary drop for java.security.Permission
+REMOTE: Created binary drop for java.net.URISyntaxException
+REMOTE: Created binary drop for java.lang.SecurityException
+REMOTE: Created binary drop for java.lang.annotation.Retention
+REMOTE: Created binary drop for java.nio.file.FileStore
+REMOTE: Created binary drop for java.lang.Integer
+REMOTE: Created binary drop for java.lang.IllegalArgumentException
+REMOTE: Created binary drop for sun.reflect.ConstantPool
+REMOTE: Created binary drop for sun.reflect.annotation.AnnotationType
+REMOTE: Created source drop for file:/Users/aarong/git/regression/regression/TestReturnsLockOverride/src/test/receiver/qualified/C.java
+REMOTE: Created binary drop for sun.nio.ch.Interruptible
+REMOTE: Created binary drop for java.net.URL
+REMOTE: Created binary drop for java.nio.charset.CharsetEncoder
+REMOTE: Created binary drop for java.nio.Buffer
+REMOTE: Created binary drop for java.util.Queue
+REMOTE: Created binary drop for java.io.DataOutputStream
+REMOTE: Created binary drop for java.lang.Enum
+REMOTE: Created binary drop for java.nio.file.LinkOption
+REMOTE: Created binary drop for java.util.AbstractMap
+REMOTE: Created binary drop for java.lang.Readable
+REMOTE: Created binary drop for java.lang.CloneNotSupportedException
+REMOTE: Created binary drop for java.lang.reflect.AnnotatedElement
+REMOTE: Created binary drop for java.net.UnknownServiceException
+REMOTE: Created binary drop for sun.reflect.FieldAccessor
+REMOTE: Created binary drop for sun.util.locale.LocaleObjectCache
+REMOTE: Created binary drop for java.nio.channels.Channel
+REMOTE: Created binary drop for java.security.NoSuchProviderException
+REMOTE: Created binary drop for java.util.Iterator
+REMOTE: Created binary drop for java.nio.DoubleBuffer
+REMOTE: Created binary drop for java.util.zip.ZipException
+REMOTE: Created binary drop for java.lang.RuntimeException
+REMOTE: Created binary drop for com.surelogic.RegionLock
+REMOTE: Created binary drop for java.security.SignatureException
+REMOTE: Created binary drop for java.nio.FloatBuffer
+REMOTE: Created binary drop for java.net.InterfaceAddress
+REMOTE: Created binary drop for java.util.Random
+REMOTE: Created binary drop for com.surelogic.Region
+REMOTE: Created binary drop for java.nio.channels.ReadableByteChannel
+REMOTE: Created binary drop for java.security.KeyException
+REMOTE: Created binary drop for java.lang.ClassValue
+REMOTE: Created binary drop for java.io.IOException
+REMOTE: Created binary drop for sun.util.locale.InternalLocaleBuilder
+REMOTE: Created binary drop for java.nio.channels.ClosedChannelException
+REMOTE: Created binary drop for java.security.PublicKey
+REMOTE: Created binary drop for java.util.ResourceBundle
+REMOTE: Created binary drop for java.nio.file.attribute.FileAttributeView
+REMOTE: Created binary drop for java.nio.channels.AsynchronousCloseException
+REMOTE: Created binary drop for java.net.ContentHandler
+REMOTE: Created binary drop for sun.reflect.ReflectionFactory
+REMOTE: Created binary drop for java.io.PrintWriter
+REMOTE: Created binary drop for java.io.DataOutput
+REMOTE: Created binary drop for java.lang.reflect.Field
+REMOTE: Created source drop for file:/Users/aarong/git/regression/regression/TestReturnsLockOverride/src/test/receiver/implicit/C.java
+REMOTE: Created binary drop for java.security.CodeSource
+REMOTE: Created binary drop for java.net.URLConnection
+REMOTE: Created binary drop for java.nio.file.PathMatcher
+REMOTE: Created binary drop for java.nio.channels.AsynchronousChannel
+REMOTE: Created binary drop for java.nio.channels.AsynchronousFileChannel
+REMOTE: Created binary drop for java.lang.ClassLoader
+REMOTE: Created binary drop for java.util.concurrent.locks.Condition
+REMOTE: Created binary drop for java.util.jar.JarEntry
+REMOTE: Created binary drop for sun.reflect.LangReflectAccess
+REMOTE: Created binary drop for java.lang.ref.Reference
+REMOTE: Created source drop for file:/Users/aarong/git/regression/regression/TestReturnsLockOverride/src/test/staticlocks/qualified/C.java
+REMOTE: Created binary drop for java.net.URLStreamHandler
+REMOTE: Created binary drop for java.nio.file.Path
+REMOTE: Created binary drop for java.math.BigInteger
+REMOTE: Created binary drop for java.util.AbstractSet
+REMOTE: Created binary drop for java.util.spi.LocaleNameProvider
+REMOTE: Created binary drop for java.io.Flushable
+REMOTE: Created binary drop for java.nio.CharBuffer
+REMOTE: Created binary drop for java.util.concurrent.TimeUnit
+REMOTE: Created binary drop for java.lang.Boolean
+REMOTE: Created binary drop for java.security.Key
+REMOTE: Created binary drop for java.io.PrintStream
+REMOTE: Created binary drop for java.lang.ref.WeakReference
+REMOTE: Created binary drop for java.nio.channels.FileLock
+REMOTE: Created binary drop for java.lang.annotation.ElementType
+REMOTE: Created binary drop for sun.misc.MetaIndex
+REMOTE: Created binary drop for java.net.Proxy
+REMOTE: Created binary drop for java.util.Locale
+REMOTE: Created binary drop for sun.util.locale.ParseStatus
+REMOTE: Created binary drop for java.lang.ref.SoftReference
+REMOTE: Created binary drop for java.lang.ref.ReferenceQueue
+REMOTE: Created binary drop for java.lang.Comparable
+REMOTE: Created binary drop for java.util.concurrent.locks.ReadWriteLock
+REMOTE: Created binary drop for java.nio.file.attribute.FileStoreAttributeView
+REMOTE: Created binary drop for java.lang.ReflectiveOperationException
+REMOTE: Created binary drop for java.lang.AbstractStringBuilder
+REMOTE: Created binary drop for java.nio.LongBuffer
+REMOTE: Created binary drop for sun.misc.Resource
+REMOTE: Created binary drop for java.util.Hashtable
+REMOTE: Created binary drop for com.surelogic.RegionLocks
+REMOTE: Created binary drop for java.io.FilenameFilter
+REMOTE: Created binary drop for java.nio.file.attribute.AttributeView
+REMOTE: Created source drop for file:/Users/aarong/git/regression/regression/TestReturnsLockOverride/src/test/qualified/Outer1.java
+REMOTE: Created binary drop for java.nio.charset.CharsetDecoder
+REMOTE: Created binary drop for sun.util.locale.Extension
+REMOTE: Created binary drop for java.security.PrivilegedAction
+REMOTE: Created binary drop for java.io.Closeable
+REMOTE: Created binary drop for java.security.PermissionCollection
+REMOTE: Created binary drop for java.nio.file.CopyOption
+REMOTE: Created binary drop for java.util.zip.ZipEntry
+REMOTE: Created binary drop for java.lang.Cloneable
+REMOTE: Created binary drop for java.security.DomainCombiner
+REMOTE: Created binary drop for sun.misc.URLClassPath
+REMOTE: Created binary drop for sun.util.LocaleServiceProviderPool
+REMOTE: Created source drop for file:/Users/aarong/git/regression/regression/TestReturnsLockOverride/src/test/receiver/explicit/C.java
+REMOTE: Created binary drop for java.util.jar.Manifest
+REMOTE: Created binary drop for java.nio.file.attribute.UserPrincipal
+REMOTE: Created binary drop for java.lang.reflect.Method
+REMOTE: Created binary drop for java.io.FileFilter
+REMOTE: Created binary drop for java.lang.Thread
+REMOTE: Created binary drop for java.util.ListIterator
+REMOTE: Created binary drop for java.nio.file.attribute.BasicFileAttributes
+REMOTE: Created binary drop for java.lang.Double
+REMOTE: Created binary drop for java.nio.channels.FileChannel
+REMOTE: Created binary drop for java.util.zip.DataFormatException
+REMOTE: Created binary drop for java.nio.channels.SeekableByteChannel
+REMOTE: Created binary drop for java.security.InvalidKeyException
+REMOTE: Created binary drop for java.lang.IllegalAccessException
+REMOTE: Created binary drop for java.lang.annotation.RetentionPolicy
+REMOTE: Created binary drop for java.lang.StringBuffer
+REMOTE: Created binary drop for java.util.Dictionary
+REMOTE: Created binary drop for java.nio.file.WatchEvent
+REMOTE: Created binary drop for java.security.ProtectionDomain
+REMOTE: Created binary drop for java.util.jar.JarFile
+REMOTE: Created binary drop for java.io.File
+REMOTE: Created binary drop for java.net.NetworkInterface
+REMOTE: Created binary drop for sun.reflect.MethodAccessor
+REMOTE: Created binary drop for sun.security.util.Debug
+REMOTE: Created binary drop for java.net.FileNameMap
+REMOTE: Created binary drop for java.nio.ShortBuffer
+REMOTE: Created binary drop for java.lang.Appendable
+REMOTE: Created binary drop for java.util.ArrayList
+REMOTE: Created binary drop for java.net.SocketException
+REMOTE: Created binary drop for java.net.URI
+REMOTE: Created binary drop for java.io.Serializable
+REMOTE: Created binary drop for java.net.InetAddress
+REMOTE: Created binary drop for java.util.List
+REMOTE: Created binary drop for java.util.WeakHashMap
+REMOTE: Created binary drop for java.lang.String
+REMOTE: Created binary drop for com.surelogic.Regions
+REMOTE: Created binary drop for java.util.Deque
+REMOTE: Created binary drop for java.nio.file.attribute.FileAttribute
+REMOTE: Created binary drop for java.util.zip.ZipFile
+REMOTE: Created binary drop for java.lang.Runnable
+REMOTE: Created binary drop for java.nio.charset.Charset
+REMOTE: Created binary drop for java.util.Collection
+REMOTE: Created binary drop for java.util.HashMap
+REMOTE: Created binary drop for java.lang.ThreadGroup
+REMOTE: Created binary drop for java.security.cert.CertificateException
+REMOTE: Created binary drop for java.lang.InstantiationException
+REMOTE: Created binary drop for java.util.concurrent.ExecutorService
+REMOTE: Created binary drop for java.lang.ThreadLocal
+REMOTE: Created binary drop for java.lang.Number
+REMOTE: Created binary drop for java.util.zip.InflaterInputStream
+REMOTE: Created binary drop for java.io.SyncFailedException
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: Parsing promises
+REMOTE: ##SUBTASK, Parsing promises
+REMOTE: Added 3 promises for java.lang.[] in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7e32c033
+REMOTE: Added 3 promises for java.lang.[] in TestReturnsLockOverride: com.surelogic.tree.SyntaxTreeNode@41b64020
+REMOTE: Added 12 promises for java.lang.CharSequence in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4ad081bb
+REMOTE: Added 3 promises for java.lang.Iterable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@65a39c32
+REMOTE: Added 18 promises for test.formals.C in TestReturnsLockOverride: com.surelogic.tree.SyntaxTreeNode@342e3ee5
+REMOTE: Added 6 promises for java.lang.InterruptedException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3387f76c
+REMOTE: Added 55 promises for java.util.AbstractCollection in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@1e050b0
+REMOTE: Added 60 promises for java.util.AbstractList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@208a0ae3
+REMOTE: Added 59 promises for java.lang.Byte in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@76b0ebe2
+REMOTE: Added 12 promises for java.lang.Exception in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@d22b57e
+REMOTE: Added 6 promises for java.lang.NoSuchFieldException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@551e84b
+REMOTE: Added 4 promises for java.util.Enumeration in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@730c429
+REMOTE: Added 31 promises for java.util.SortedMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7769f9bc
+REMOTE: Added 61 promises for java.lang.Short in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2504ccd8
+REMOTE: Added 47 promises for java.lang.Throwable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@593f952d
+REMOTE: Added 73 promises for java.lang.Float in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@1f68086b
+REMOTE: Added 3 promises for java.nio.file.DirectoryStream in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@65adc60e
+REMOTE: Added 12 promises for java.lang.reflect.InvocationTargetException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4d2bbf25
+REMOTE: Added 96 promises for java.lang.Long in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3826ef17
+REMOTE: Added 3 promises for java.util.Date in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@33e8094f
+REMOTE: Added 29 promises for java.util.AbstractSequentialList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@33e8cdee
+REMOTE: Added 88 promises for java.util.jar.Attributes in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@9caf948
+REMOTE: Added 20 promises for java.util.concurrent.locks.Lock in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4aa0f7ac
+REMOTE: Added 12 promises for java.lang.Class in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@29353357
+REMOTE: Added 6 promises for java.io.Writer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2f3bb5ae
+REMOTE: Added 6 promises for java.lang.NumberFormatException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7615e291
+REMOTE: Added 64 promises for java.util.Map in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6f11e72b
+REMOTE: [GC (Allocation Failure)  92636K->57780K(120320K), 0.0041290 secs]
+REMOTE: Added 18 promises for java.net.URISyntaxException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@63147a5a
+REMOTE: Added 109 promises for java.lang.StringBuilder in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7a76d908
+REMOTE: Added 31 promises for java.lang.Object in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@26c0a0d5
+REMOTE: Added 54 promises for java.util.Set in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6f122615
+REMOTE: Added 12 promises for java.lang.SecurityException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@10f92c2c
+REMOTE: Added 18 promises for test.staticlocks.simple.C in TestReturnsLockOverride: com.surelogic.tree.SyntaxTreeNode@56823a5a
+REMOTE: Added 139 promises for java.util.LinkedList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@5390c1ef
+REMOTE: Added 17 promises for java.util.concurrent.ConcurrentMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2e7cea15
+REMOTE: Added 12 promises for java.lang.IllegalArgumentException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@5bdc97a4
+REMOTE: Added 170 promises for java.util.Vector in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@16428e59
+REMOTE: Added 21 promises for java.util.Stack in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@24f149d3
+REMOTE: Added 18 promises for java.util.Queue in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@684b9307
+REMOTE: Added 6 promises for java.lang.CloneNotSupportedException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@20e9a2a5
+REMOTE: Added 17 promises for test.receiver.qualified.C in TestReturnsLockOverride: com.surelogic.tree.SyntaxTreeNode@16f603f6
+REMOTE: Added 96 promises for java.lang.Integer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@47b85413
+REMOTE: Added 13 promises for java.lang.Enum in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@5e840c55
+REMOTE: Added 6 promises for java.util.Iterator in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@573ea266
+REMOTE: Added 12 promises for java.lang.RuntimeException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@419bcb1f
+REMOTE: Added 6 promises for java.io.PrintWriter in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7641cdf8
+REMOTE: Added 45 promises for java.util.ResourceBundle in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4b490300
+REMOTE: Added 108 promises for java.util.AbstractMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@20fa1419
+REMOTE: Added 17 promises for test.receiver.implicit.C in TestReturnsLockOverride: com.surelogic.tree.SyntaxTreeNode@2f709ec7
+REMOTE: Added 22 promises for java.util.concurrent.locks.Condition in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6c7fb1a7
+REMOTE: Added 6 promises for java.io.PrintStream in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@620d9624
+REMOTE: Added 2 promises for java.lang.ref.SoftReference in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7cbafad2
+REMOTE: Added 18 promises for java.nio.CharBuffer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4518842b
+REMOTE: Added 18 promises for test.staticlocks.qualified.C in TestReturnsLockOverride: com.surelogic.tree.SyntaxTreeNode@5abb691e
+REMOTE: Added 138 promises for java.math.BigInteger in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2c753cf4
+REMOTE: [GC (Allocation Failure)  95156K->58969K(124416K), 0.0048490 secs]
+REMOTE: Added 37 promises for java.lang.Boolean in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@57778cd0
+REMOTE: Added 7 promises for java.util.concurrent.locks.ReadWriteLock in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6164c3e
+REMOTE: Added 29 promises for java.util.concurrent.TimeUnit in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7837fd2b
+REMOTE: Added 16 promises for java.util.AbstractSet in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6fcb5238
+REMOTE: Added 144 promises for java.lang.AbstractStringBuilder in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@61b07a32
+REMOTE: Added 3 promises for java.nio.file.Path in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@57a64b0c
+REMOTE: Added 3 promises for java.util.Locale in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3c04cd50
+REMOTE: Added 1 promises for java.lang.ref.ReferenceQueue in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6ab00b23
+REMOTE: Added 24 promises for test.qualified.Outer1 in TestReturnsLockOverride: com.surelogic.tree.SyntaxTreeNode@14b21a2d
+REMOTE: Added 3 promises for java.util.zip.ZipEntry in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2d9ce714
+REMOTE: Added 3 promises for java.util.jar.Manifest in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@966f679
+REMOTE: Added 83 promises for java.util.Hashtable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@44b3de5c
+REMOTE: Added 18 promises for java.util.ListIterator in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@58940e8b
+REMOTE: Added 17 promises for test.receiver.explicit.C in TestReturnsLockOverride: com.surelogic.tree.SyntaxTreeNode@30a34bd6
+REMOTE: Added 70 promises for java.lang.Double in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@5f659db0
+REMOTE: Added 158 promises for java.lang.StringBuffer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@48611ffc
+REMOTE: Added 6 promises for java.lang.IllegalAccessException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@51730a63
+REMOTE: WARNING: TreeAccessor couldn't find equals(java.lang.Object) in java.util.ArrayList
+REMOTE: WARNING: TreeAccessor couldn't find hashCode() in java.util.ArrayList
+REMOTE: Added 141 promises for java.lang.Thread in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@402e74fa
+REMOTE: Added 56 promises for java.util.WeakHashMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@5d8ac0
+REMOTE: Added 104 promises for java.util.ArrayList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@27720191
+REMOTE: Added 89 promises for java.util.List in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@1b383c5
+REMOTE: Added 29 promises for java.util.Dictionary in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@121f4403
+REMOTE: Added 6 promises for java.lang.Appendable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@70be703d
+REMOTE: Added 34 promises for java.util.concurrent.ExecutorService in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@549c466d
+REMOTE: [GC (Allocation Failure)  101465K->60113K(124928K), 0.0037020 secs]
+REMOTE: Added 22 promises for java.lang.Number in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@f22bf57
+REMOTE: Added 87 promises for java.util.Deque in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@68b33ee7
+REMOTE: Added 61 promises for java.util.HashMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@711b7c56
+REMOTE: Added 1 promises for java.lang.ThreadLocal in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@51a9b037
+REMOTE: Added 6 promises for java.lang.InstantiationException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4b5e586d
+REMOTE: Added 301 promises for java.lang.String in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@5693b28
+REMOTE: Added 54 promises for java.util.Collection in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7c672c35
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: Scrubbing promises
+REMOTE: ##SUBTASK, Scrubbing promises
+REMOTE: Creating RegionModel java.lang.Object.Instance for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: [GC (Allocation Failure)  102609K->62745K(129024K), 0.0056780 secs]
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: Starting analyses
+REMOTE: Using new analysis framework -- groups
+REMOTE: Starting group: ConcurrencyDetector, ThreadEffectsModule, StructureAnalysis, ParameterizedTypeAnalysis, EqualityAnalysis, LayersAnalysis
+REMOTE: ##SUBTASK, Starting parallel ConcurrencyDetector [0]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Starting parallel ConcurrencyDetector [0]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##SUBTASK, Starting parallel ThreadEffectsModule [1]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Starting parallel ThreadEffectsModule [1]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##SUBTASK, Starting parallel StructureAnalysis [2]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Starting parallel StructureAnalysis [2]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##SUBTASK, Starting parallel ParameterizedTypeAnalysis [3]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Starting parallel ParameterizedTypeAnalysis [3]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##SUBTASK, Starting parallel EqualityAnalysis [4]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Starting parallel EqualityAnalysis [4]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##SUBTASK, Starting parallel LayersAnalysis [5]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Starting parallel LayersAnalysis [5]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Starting parallel ConcurrencyDetector [0]: 7 for TestReturnsLockOverride
+REMOTE: Starting parallel ConcurrencyDetector [0]: 7 for TestReturnsLockOverride
+REMOTE: ##SUBTASK, Starting parallel ThreadEffectsModule [1]: 7 for TestReturnsLockOverride
+REMOTE: Starting parallel ThreadEffectsModule [1]: 7 for TestReturnsLockOverride
+REMOTE: ##SUBTASK, Starting parallel StructureAnalysis [2]: 7 for TestReturnsLockOverride
+REMOTE: Starting parallel StructureAnalysis [2]: 7 for TestReturnsLockOverride
+REMOTE: ##SUBTASK, Starting parallel ParameterizedTypeAnalysis [3]: 7 for TestReturnsLockOverride
+REMOTE: Starting parallel ParameterizedTypeAnalysis [3]: 7 for TestReturnsLockOverride
+REMOTE: ##SUBTASK, Starting parallel EqualityAnalysis [4]: 7 for TestReturnsLockOverride
+REMOTE: Starting parallel EqualityAnalysis [4]: 7 for TestReturnsLockOverride
+REMOTE: ##SUBTASK, Starting parallel LayersAnalysis [5]: 7 for TestReturnsLockOverride
+REMOTE: Starting parallel LayersAnalysis [5]: 7 for TestReturnsLockOverride
+REMOTE: ##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestReturnsLockOverride/src/test/staticlocks/qualified/C.java
+REMOTE: ##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestReturnsLockOverride/src/test/qualified/Outer1.java
+REMOTE: ##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestReturnsLockOverride/src/test/receiver/explicit/C.java
+REMOTE: ##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestReturnsLockOverride/src/test/receiver/qualified/C.java
+REMOTE: ##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestReturnsLockOverride/src/test/receiver/implicit/C.java
+REMOTE: ##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestReturnsLockOverride/src/test/staticlocks/simple/C.java
+REMOTE: ##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestReturnsLockOverride/src/test/formals/C.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestReturnsLockOverride/src/test/staticlocks/simple/C.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestReturnsLockOverride/src/test/formals/C.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestReturnsLockOverride/src/test/receiver/explicit/C.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestReturnsLockOverride/src/test/receiver/qualified/C.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestReturnsLockOverride/src/test/receiver/implicit/C.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestReturnsLockOverride/src/test/qualified/Outer1.java
+REMOTE: ##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestReturnsLockOverride/src/test/staticlocks/qualified/C.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestReturnsLockOverride/src/test/staticlocks/qualified/C.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestReturnsLockOverride/src/test/staticlocks/qualified/C.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestReturnsLockOverride/src/test/receiver/qualified/C.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestReturnsLockOverride/src/test/receiver/qualified/C.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestReturnsLockOverride/src/test/receiver/implicit/C.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestReturnsLockOverride/src/test/receiver/implicit/C.java
+REMOTE: ##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestReturnsLockOverride/src/test/formals/C.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestReturnsLockOverride/src/test/receiver/explicit/C.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestReturnsLockOverride/src/test/receiver/explicit/C.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestReturnsLockOverride/src/test/qualified/Outer1.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestReturnsLockOverride/src/test/qualified/Outer1.java
+REMOTE: ##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestReturnsLockOverride/src/test/formals/C.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestReturnsLockOverride/src/test/staticlocks/simple/C.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestReturnsLockOverride/src/test/staticlocks/simple/C.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestReturnsLockOverride/src/test/staticlocks/qualified/C.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestReturnsLockOverride/src/test/receiver/implicit/C.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestReturnsLockOverride/src/test/receiver/qualified/C.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestReturnsLockOverride/src/test/qualified/Outer1.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestReturnsLockOverride/src/test/formals/C.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestReturnsLockOverride/src/test/receiver/explicit/C.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestReturnsLockOverride/src/test/staticlocks/simple/C.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestReturnsLockOverride/src/test/receiver/explicit/C.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestReturnsLockOverride/src/test/staticlocks/qualified/C.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestReturnsLockOverride/src/test/receiver/qualified/C.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestReturnsLockOverride/src/test/receiver/implicit/C.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestReturnsLockOverride/src/test/formals/C.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestReturnsLockOverride/src/test/staticlocks/simple/C.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestReturnsLockOverride/src/test/qualified/Outer1.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: Starting group: UtilityAnalysis, SingletonAnalysis
+REMOTE: com.surelogic.analysis.uniqueness.classic.sideeffecting.UniquenessAnalysisModule$1@4c98385c: 0
+REMOTE: com.surelogic.analysis.visitors.TopLevelAnalysisVisitor$1@4cdf35a9: 97
+REMOTE: com.surelogic.analysis.granules.FlowUnitGranulator@5fcfe4b2: 296
+REMOTE: ##SUBTASK, Starting parallel UtilityAnalysis [6]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Starting parallel UtilityAnalysis [6]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##SUBTASK, Starting parallel SingletonAnalysis [7]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Starting parallel SingletonAnalysis [7]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Starting parallel UtilityAnalysis [6]: 97 for TestReturnsLockOverride
+REMOTE: Starting parallel UtilityAnalysis [6]: 97 for TestReturnsLockOverride
+REMOTE: ##SUBTASK, Starting parallel SingletonAnalysis [7]: 97 for TestReturnsLockOverride
+REMOTE: Starting parallel SingletonAnalysis [7]: 97 for TestReturnsLockOverride
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.formals.C
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.formals.Bad1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.formals.Good1
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.formals.Bad1
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.formals.Good2
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.formals.C
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.formals.Good2
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.formals.Good3a
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.formals.Good1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.formals.Bad2a
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.formals.Good3b
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.formals.Good3b
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.formals.Bad4b
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.formals.Bad2b
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.formals.Good3a
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.formals.Bad4a
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.formals.Bad3
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.formals.Bad2a
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.formals.Bad4c
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.formals.Bad5b
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.formals.Bad4b
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.formals.Bad5a
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.formals.Bad2b
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.formals.Bad4a
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.staticlocks.simple.C
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.staticlocks.simple.Bad1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.formals.Bad5b
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.staticlocks.simple.Good2
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.staticlocks.simple.Good3a
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.formals.Bad5a
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.staticlocks.simple.Good1
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.staticlocks.simple.C
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.staticlocks.simple.Good3b
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.formals.Bad3
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.staticlocks.simple.Bad1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.staticlocks.simple.Good3C
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.formals.Bad4c
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.staticlocks.simple.Good2
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.staticlocks.simple.Good3a
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.staticlocks.simple.Bad2a
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.staticlocks.simple.Good1
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.staticlocks.simple.Good3b
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.staticlocks.simple.Bad2c
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.staticlocks.simple.Good3C
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.staticlocks.simple.Bad4a
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.staticlocks.simple.Bad4c
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.staticlocks.simple.Bad4b
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.staticlocks.simple.Bad2a
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.receiver.qualified.C
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.staticlocks.simple.Bad3
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.staticlocks.simple.Bad2b
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.staticlocks.simple.Bad2c
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.receiver.qualified.Bad1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.staticlocks.simple.Bad4a
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.staticlocks.simple.Bad4c
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.staticlocks.simple.Bad4b
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.receiver.qualified.C
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.staticlocks.simple.Bad3
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.receiver.qualified.Good1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.receiver.qualified.Good2
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.receiver.qualified.Bad1
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.receiver.qualified.Good3b
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.receiver.qualified.Bad2a
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.receiver.qualified.Bad2b
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.receiver.qualified.Good3a
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.receiver.qualified.Good1
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.staticlocks.simple.Bad2b
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.receiver.qualified.Good2
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.receiver.qualified.Good3b
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.receiver.qualified.Good3c
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.receiver.qualified.Bad2a
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.receiver.qualified.Bad3
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.receiver.qualified.Bad2b
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.receiver.qualified.Bad2c
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.receiver.qualified.Good3a
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.receiver.qualified.Bad4b
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.receiver.qualified.Bad4a
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.receiver.implicit.Bad1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.receiver.qualified.Bad3
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.receiver.qualified.Bad4a
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.receiver.qualified.Bad2c
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.receiver.qualified.Bad4b
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.receiver.implicit.C
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.receiver.implicit.Bad1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.receiver.implicit.Good3b
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.receiver.implicit.Good1
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.receiver.qualified.Good3c
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.receiver.implicit.Bad2a
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.receiver.implicit.Good3c
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.receiver.implicit.Good3a
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.receiver.implicit.Bad2b
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.receiver.implicit.Good2
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.receiver.implicit.Good3b
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.receiver.implicit.Good1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.receiver.implicit.Bad2a
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.receiver.implicit.Bad2c
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.receiver.implicit.Good3c
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.receiver.implicit.Good3a
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.receiver.implicit.Bad2b
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.receiver.implicit.Good2
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.receiver.implicit.C
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.receiver.implicit.Bad4b
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.receiver.implicit.Bad4a
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.receiver.implicit.Bad3
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.receiver.implicit.Bad2c
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.staticlocks.qualified.Good1
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.staticlocks.qualified.Bad1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.staticlocks.qualified.C
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.receiver.implicit.Bad4b
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.receiver.implicit.Bad4a
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.receiver.implicit.Bad3
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.staticlocks.qualified.Good2
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.staticlocks.qualified.Good1
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.staticlocks.qualified.Bad1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.staticlocks.qualified.Good3a
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.staticlocks.qualified.Bad2a
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.staticlocks.qualified.C
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.staticlocks.qualified.Good3a
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.staticlocks.qualified.Good3C
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.staticlocks.qualified.Bad2c
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.staticlocks.qualified.Good3b
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.staticlocks.qualified.Good3b
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.staticlocks.qualified.Bad4a
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.staticlocks.qualified.Bad3
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.staticlocks.qualified.Good3C
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.staticlocks.qualified.Bad2b
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.staticlocks.qualified.Bad2a
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.staticlocks.qualified.Bad4c
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.staticlocks.qualified.Bad4b
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.staticlocks.qualified.Bad3
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.staticlocks.qualified.Bad2c
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.staticlocks.qualified.Good2
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.staticlocks.qualified.Bad4a
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.qualified.Outer1
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.qualified.Outer1.Bad1
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.staticlocks.qualified.Bad4b
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.staticlocks.qualified.Bad4c
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.staticlocks.qualified.Bad2b
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.qualified.Outer1
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.qualified.Outer1.C
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.qualified.Outer1.Good2
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.qualified.Outer1.Bad2b
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.qualified.Outer1.Bad1
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.qualified.Outer1.Good1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.qualified.Outer1.Bad3
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.qualified.Outer1.Bad2a
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.qualified.Outer1.C
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.qualified.Outer1.Good3
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.qualified.Outer1.Good2
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.qualified.Outer1.Bad2b
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.qualified.Outer1.Good1
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.qualified.Outer1.Bad2c
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.qualified.Outer1.Bad3
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.qualified.Outer1.Bad4
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.qualified.Outer1.Bad2a
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.qualified.Outer1.Outer2.Bad6
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.qualified.Outer1.Outer2.Good3
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.qualified.Outer1.Outer2
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.qualified.Outer1.Bad5
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.qualified.Outer1.Bad2c
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.qualified.Outer1.Bad4
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.qualified.Outer1.Outer2.Bad6
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.qualified.X
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.qualified.Outer1.Good3
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.receiver.explicit.C
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.qualified.X
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.qualified.Outer1.Outer2.Good3
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.qualified.Outer1.Outer2
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.qualified.Outer1.Bad5
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.receiver.explicit.Good2
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.receiver.explicit.Good3a
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.receiver.explicit.Good2
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.receiver.explicit.Good1
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.receiver.explicit.Bad1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.receiver.explicit.Good3c
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.receiver.explicit.C
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.receiver.explicit.Good1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.receiver.explicit.Bad2c
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.receiver.explicit.Good3b
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.receiver.explicit.Good3a
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.receiver.explicit.Bad1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.receiver.explicit.Bad2b
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.receiver.explicit.Bad2a
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.receiver.explicit.Good3c
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.receiver.explicit.Bad4a
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.receiver.explicit.Bad3
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.receiver.explicit.Good3b
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.receiver.explicit.Bad2c
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.receiver.explicit.Bad3
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.receiver.explicit.Bad2b
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.receiver.explicit.Bad2a
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.receiver.explicit.Bad4b
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.receiver.explicit.Bad4a
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.receiver.explicit.Bad4b
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: Starting group: LockModelBuilder
+REMOTE: ##SUBTASK, Starting parallel LockModelBuilder [8]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Starting parallel LockModelBuilder [8]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Starting parallel LockModelBuilder [8]: 7 for TestReturnsLockOverride
+REMOTE: Starting parallel LockModelBuilder [8]: 7 for TestReturnsLockOverride
+REMOTE: ##SUBTASK, Checking [ Lock Model Builder ] file:/Users/aarong/git/regression/regression/TestReturnsLockOverride/src/test/formals/C.java
+REMOTE: ##SUBTASK, Checking [ Lock Model Builder ] file:/Users/aarong/git/regression/regression/TestReturnsLockOverride/src/test/staticlocks/simple/C.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Lock Model Builder ] file:/Users/aarong/git/regression/regression/TestReturnsLockOverride/src/test/receiver/qualified/C.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Lock Model Builder ] file:/Users/aarong/git/regression/regression/TestReturnsLockOverride/src/test/receiver/implicit/C.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Lock Model Builder ] file:/Users/aarong/git/regression/regression/TestReturnsLockOverride/src/test/staticlocks/qualified/C.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Lock Model Builder ] file:/Users/aarong/git/regression/regression/TestReturnsLockOverride/src/test/qualified/Outer1.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Lock Model Builder ] file:/Users/aarong/git/regression/regression/TestReturnsLockOverride/src/test/receiver/explicit/C.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: Starting group: ThreadSafeAnalysis
+REMOTE: ##SUBTASK, Starting parallel ThreadSafeAnalysis [9]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Starting parallel ThreadSafeAnalysis [9]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Starting parallel ThreadSafeAnalysis [9]: 97 for TestReturnsLockOverride
+REMOTE: Starting parallel ThreadSafeAnalysis [9]: 97 for TestReturnsLockOverride
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.formals.C
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.formals.Bad1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.formals.Good1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.formals.Good2
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.formals.Good3a
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.formals.Good3b
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.formals.Bad2a
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.formals.Bad3
+REMOTE: [GC (Allocation Failure)  109849K->63887K(129536K), 0.0060590 secs]
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.formals.Bad4a
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.staticlocks.simple.C
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.formals.Bad5b
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.staticlocks.simple.Bad1
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.formals.Bad5a
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.formals.Bad2b
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.formals.Bad4b
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.formals.Bad4c
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.staticlocks.simple.Good1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.staticlocks.simple.Good3a
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.staticlocks.simple.Bad2a
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.staticlocks.simple.Good3C
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.staticlocks.simple.Bad2c
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.staticlocks.simple.Good3b
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.staticlocks.simple.Bad3
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.staticlocks.simple.Bad4a
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.staticlocks.simple.Good2
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.staticlocks.simple.Bad4c
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.receiver.qualified.C
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.receiver.qualified.Bad1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.staticlocks.simple.Bad4b
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.receiver.qualified.Good1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.receiver.qualified.Good2
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.receiver.qualified.Good3a
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.receiver.qualified.Good3b
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.staticlocks.simple.Bad2b
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.receiver.qualified.Bad2c
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.receiver.qualified.Bad2b
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.receiver.qualified.Bad2a
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.receiver.qualified.Good3c
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.receiver.qualified.Bad4b
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.receiver.implicit.C
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.receiver.implicit.Bad1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.receiver.qualified.Bad4a
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.receiver.implicit.Good2
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.receiver.qualified.Bad3
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.receiver.implicit.Good3a
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.receiver.implicit.Good3b
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.receiver.implicit.Bad2a
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.receiver.implicit.Good3c
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.receiver.implicit.Bad2c
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.receiver.implicit.Bad4a
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.receiver.implicit.Bad4b
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.receiver.implicit.Good1
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.staticlocks.qualified.Bad1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.staticlocks.qualified.C
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.staticlocks.qualified.Good1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.receiver.implicit.Bad3
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.staticlocks.qualified.Good2
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.staticlocks.qualified.Good3a
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.receiver.implicit.Bad2b
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.staticlocks.qualified.Good3b
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.staticlocks.qualified.Bad2a
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.staticlocks.qualified.Bad2b
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.staticlocks.qualified.Bad4a
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.staticlocks.qualified.Bad4c
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.staticlocks.qualified.Bad4b
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.staticlocks.qualified.Bad3
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.staticlocks.qualified.Bad2c
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.staticlocks.qualified.Good3C
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.qualified.Outer1.Bad1
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.qualified.Outer1.C
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.qualified.Outer1.Good3
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.qualified.Outer1
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.qualified.Outer1.Bad2a
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.qualified.Outer1.Good2
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.qualified.Outer1.Good1
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.qualified.Outer1.Bad3
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.qualified.Outer1.Bad2c
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.qualified.Outer1.Bad2b
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.qualified.Outer1.Outer2.Bad6
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.qualified.Outer1.Outer2.Good3
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.qualified.Outer1.Outer2
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.qualified.X
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.qualified.Outer1.Bad5
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.qualified.Outer1.Bad4
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.receiver.explicit.C
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.receiver.explicit.Good1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.receiver.explicit.Good3a
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.receiver.explicit.Good3c
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.receiver.explicit.Bad2b
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.receiver.explicit.Bad2c
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.receiver.explicit.Bad2a
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.receiver.explicit.Good3b
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.receiver.explicit.Good2
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.receiver.explicit.Bad3
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.receiver.explicit.Bad1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.receiver.explicit.Bad4b
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.receiver.explicit.Bad4a
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: Starting group: NewLockAnalysis
+REMOTE: ##SUBTASK, Starting parallel NewLockAnalysis [10]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Starting parallel NewLockAnalysis [10]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Starting parallel NewLockAnalysis [10]: 7 for TestReturnsLockOverride
+REMOTE: Starting parallel NewLockAnalysis [10]: 7 for TestReturnsLockOverride
+REMOTE: ##SUBTASK, Checking [ New Lock policy ] file:/Users/aarong/git/regression/regression/TestReturnsLockOverride/src/test/formals/C.java
+REMOTE: ##SUBTASK, Checking [ New Lock policy ] file:/Users/aarong/git/regression/regression/TestReturnsLockOverride/src/test/staticlocks/simple/C.java
+REMOTE: ##SUBTASK, Checking [ New Lock policy ] file:/Users/aarong/git/regression/regression/TestReturnsLockOverride/src/test/receiver/qualified/C.java
+REMOTE: ##SUBTASK, Checking [ New Lock policy ] file:/Users/aarong/git/regression/regression/TestReturnsLockOverride/src/test/receiver/implicit/C.java
+REMOTE: ##SUBTASK, Checking [ New Lock policy ] file:/Users/aarong/git/regression/regression/TestReturnsLockOverride/src/test/staticlocks/qualified/C.java
+REMOTE: ##SUBTASK, Checking [ New Lock policy ] file:/Users/aarong/git/regression/regression/TestReturnsLockOverride/src/test/qualified/Outer1.java
+REMOTE: ##SUBTASK, Checking [ New Lock policy ] file:/Users/aarong/git/regression/regression/TestReturnsLockOverride/src/test/receiver/explicit/C.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: Starting group: EffectsAnalysis
+REMOTE: ##SUBTASK, Starting parallel EffectsAnalysis [11]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Starting parallel EffectsAnalysis [11]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Starting parallel EffectsAnalysis [11]: 97 for TestReturnsLockOverride
+REMOTE: Starting parallel EffectsAnalysis [11]: 97 for TestReturnsLockOverride
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.formals.C
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.formals.Bad1
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.formals.Good1
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.formals.Good2
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.formals.Good3a
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.formals.Good3b
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.formals.Bad2a
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.formals.Bad3
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.formals.Bad2b
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.formals.Bad4a
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.formals.Bad4c
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.formals.Bad4b
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.formals.Bad5b
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.staticlocks.simple.C
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.formals.Bad5a
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.staticlocks.simple.Bad1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.staticlocks.simple.Good1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.staticlocks.simple.Good3a
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.staticlocks.simple.Good2
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.staticlocks.simple.Bad2a
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.staticlocks.simple.Bad2b
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.staticlocks.simple.Bad2c
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.staticlocks.simple.Bad3
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.staticlocks.simple.Bad4a
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.staticlocks.simple.Bad4b
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.staticlocks.simple.Bad4c
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.receiver.qualified.Good1
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.staticlocks.simple.Good3C
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.staticlocks.simple.Good3b
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.receiver.qualified.Good2
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.receiver.qualified.Good3a
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.receiver.qualified.Good3b
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.receiver.qualified.Bad1
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.receiver.qualified.C
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.receiver.qualified.Good3c
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.receiver.qualified.Bad2a
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.receiver.qualified.Bad2b
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.receiver.qualified.Bad3
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.receiver.qualified.Bad4b
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.receiver.implicit.C
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.receiver.implicit.Bad1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.receiver.implicit.Good1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.receiver.implicit.Good2
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.receiver.implicit.Good3a
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.receiver.implicit.Good3b
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.receiver.implicit.Good3c
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.receiver.implicit.Bad2a
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.receiver.implicit.Bad2b
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.receiver.implicit.Bad2c
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.receiver.implicit.Bad3
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.receiver.implicit.Bad4a
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.receiver.implicit.Bad4b
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.staticlocks.qualified.C
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.staticlocks.qualified.Bad1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.receiver.qualified.Bad4a
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.staticlocks.qualified.Good1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.staticlocks.qualified.Good3a
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.receiver.qualified.Bad2c
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.staticlocks.qualified.Good3b
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.staticlocks.qualified.Bad2a
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.staticlocks.qualified.Good2
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.staticlocks.qualified.Bad2b
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.staticlocks.qualified.Good3C
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.staticlocks.qualified.Bad4a
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.staticlocks.qualified.Bad3
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.staticlocks.qualified.Bad4c
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.staticlocks.qualified.Bad2c
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.qualified.Outer1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.qualified.Outer1.C
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.staticlocks.qualified.Bad4b
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.qualified.Outer1.Bad1
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.qualified.Outer1.Good1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.qualified.Outer1.Good2
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.qualified.Outer1.Bad2a
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.qualified.Outer1.Bad2c
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.qualified.Outer1.Bad3
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.qualified.Outer1.Bad2b
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.qualified.Outer1.Good3
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.qualified.Outer1.Bad4
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.qualified.Outer1.Outer2.Bad6
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.receiver.explicit.C
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.qualified.Outer1.Outer2.Good3
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.qualified.Outer1.Outer2
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.qualified.Outer1.Bad5
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.receiver.explicit.Bad1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.receiver.explicit.Good1
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.qualified.X
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.receiver.explicit.Good3a
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.receiver.explicit.Good3c
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.receiver.explicit.Bad2b
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.receiver.explicit.Good3b
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.receiver.explicit.Bad3
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.receiver.explicit.Good2
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.receiver.explicit.Bad2c
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.receiver.explicit.Bad2a
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.receiver.explicit.Bad4b
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.receiver.explicit.Bad4a
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: Starting group: UniquenessAnalysisModule
+REMOTE: ##SUBTASK, Starting parallel UniquenessAnalysisModule [12]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Starting parallel UniquenessAnalysisModule [12]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Starting parallel UniquenessAnalysisModule [12]: 0 for TestReturnsLockOverride
+REMOTE: Starting parallel UniquenessAnalysisModule [12]: 0 for TestReturnsLockOverride
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: Starting group: NullablePreprocessorModule
+REMOTE: ##SUBTASK, Starting parallel NullablePreprocessorModule [13]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Starting parallel NullablePreprocessorModule [13]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Starting parallel NullablePreprocessorModule [13]: 7 for TestReturnsLockOverride
+REMOTE: Starting parallel NullablePreprocessorModule [13]: 7 for TestReturnsLockOverride
+REMOTE: ##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestReturnsLockOverride/src/test/formals/C.java
+REMOTE: ##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestReturnsLockOverride/src/test/staticlocks/simple/C.java
+REMOTE: ##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestReturnsLockOverride/src/test/receiver/qualified/C.java
+REMOTE: ##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestReturnsLockOverride/src/test/receiver/implicit/C.java
+REMOTE: ##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestReturnsLockOverride/src/test/staticlocks/qualified/C.java
+REMOTE: ##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestReturnsLockOverride/src/test/qualified/Outer1.java
+REMOTE: ##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestReturnsLockOverride/src/test/receiver/explicit/C.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: Starting group: NullableModule2
+REMOTE: ##SUBTASK, Starting parallel NullableModule2 [14]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Starting parallel NullableModule2 [14]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Starting parallel NullableModule2 [14]: 296 for TestReturnsLockOverride
+REMOTE: Starting parallel NullableModule2 [14]: 296 for TestReturnsLockOverride
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.formals.C.C()
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.formals.C.get(test.formals.C,test.formals.C)
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.formals.C.get2(test.formals.C,test.formals.C)
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.formals.C.<clinit>
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.formals.Bad1.Bad1()
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.formals.Bad1.get(test.formals.C,test.formals.C)
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.formals.Bad1.<clinit>
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.formals.Good1.Good1()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.formals.Good1.<clinit>
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.formals.Good1.get2(test.formals.C,test.formals.C)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.formals.Good2.Good2()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.formals.Good2.<clinit>
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.formals.Good2.get2(test.formals.C,test.formals.C)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.formals.Good3a.get(test.formals.C,test.formals.C)
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.formals.Good3a.Good3a()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.formals.Good3a.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.formals.Good3b.Good3b()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.formals.Good3b.get(test.formals.C,test.formals.C)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.formals.Good3b.<clinit>
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.formals.Bad2a.Bad2a()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.formals.Bad2a.get(test.formals.C,test.formals.C)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.formals.Bad2a.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.formals.Bad2b.Bad2b()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.formals.Bad2b.get(test.formals.C,test.formals.C)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.formals.Bad2b.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.formals.Bad3.Bad3()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.formals.Bad3.get(test.formals.C,test.formals.C)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.formals.Bad3.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.formals.Bad4a.Bad4a()
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.formals.Bad4a.get(test.formals.C,test.formals.C)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.formals.Bad4b.Bad4b()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.formals.Bad4b.get(test.formals.C,test.formals.C)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.formals.Bad4b.<clinit>
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.formals.Bad4a.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.formals.Bad4c.Bad4c()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.formals.Bad4c.<clinit>
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.formals.Bad4c.get(test.formals.C,test.formals.C)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.formals.Bad5a.Bad5a()
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.formals.Bad5a.get(test.formals.C,test.formals.C)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.formals.Bad5a.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.formals.Bad5b.Bad5b()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.formals.Bad5b.get(test.formals.C,test.formals.C)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.formals.Bad5b.<clinit>
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.simple.C.C()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.simple.C.get(test.staticlocks.simple.C,test.staticlocks.simple.C)
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.simple.C.get2(test.staticlocks.simple.C,test.staticlocks.simple.C)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.simple.C.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.simple.Bad1.Bad1()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.simple.Bad1.get(test.staticlocks.simple.C,test.staticlocks.simple.C)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.simple.Bad1.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.simple.Good1.Good1()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.simple.Good1.get2(test.staticlocks.simple.C,test.staticlocks.simple.C)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.simple.Good1.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.simple.Good2.Good2()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.simple.Good2.get2(test.staticlocks.simple.C,test.staticlocks.simple.C)
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.simple.Good2.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.simple.Good3a.Good3a()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.simple.Good3a.<clinit>
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.simple.Good3b.Good3b()
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.simple.Good3b.get(test.staticlocks.simple.C,test.staticlocks.simple.C)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.simple.Good3b.<clinit>
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.simple.Good3a.get(test.staticlocks.simple.C,test.staticlocks.simple.C)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.simple.Good3C.Good3C()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.simple.Good3C.<clinit>
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.simple.Good3C.get(test.staticlocks.simple.C,test.staticlocks.simple.C)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.simple.Bad2a.Bad2a()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.simple.Bad2a.get(test.staticlocks.simple.C,test.staticlocks.simple.C)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.simple.Bad2a.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.simple.Bad2b.Bad2b()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.simple.Bad2b.get(test.staticlocks.simple.C,test.staticlocks.simple.C)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.simple.Bad2b.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.simple.Bad2c.Bad2c()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.simple.Bad2c.get(test.staticlocks.simple.C,test.staticlocks.simple.C)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.simple.Bad3.Bad3()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.simple.Bad3.get(test.staticlocks.simple.C,test.staticlocks.simple.C)
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.simple.Bad3.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.simple.Bad4a.Bad4a()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.simple.Bad2c.<clinit>
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.simple.Bad4a.get(test.staticlocks.simple.C,test.staticlocks.simple.C)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.simple.Bad4a.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.simple.Bad4b.Bad4b()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.simple.Bad4b.get(test.staticlocks.simple.C,test.staticlocks.simple.C)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.simple.Bad4c.Bad4c()
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.simple.Bad4b.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.simple.Bad4c.get(test.staticlocks.simple.C,test.staticlocks.simple.C)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.simple.Bad4c.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.qualified.C.C()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.qualified.C.get(test.receiver.qualified.C,test.receiver.qualified.C)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.qualified.C.get2(test.receiver.qualified.C,test.receiver.qualified.C)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.qualified.C.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.qualified.Bad1.Bad1()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.qualified.Bad1.get(test.receiver.qualified.C,test.receiver.qualified.C)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.qualified.Bad1.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.qualified.Good1.Good1()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.qualified.Good1.get2(test.receiver.qualified.C,test.receiver.qualified.C)
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.qualified.Good1.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.qualified.Good2.Good2()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.qualified.Good2.get2(test.receiver.qualified.C,test.receiver.qualified.C)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.qualified.Good2.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.qualified.Good3a.Good3a()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.qualified.Good3a.get(test.receiver.qualified.C,test.receiver.qualified.C)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.qualified.Good3a.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.qualified.Good3b.Good3b()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.qualified.Good3b.get(test.receiver.qualified.C,test.receiver.qualified.C)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.qualified.Good3b.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.qualified.Good3c.Good3c()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.qualified.Good3c.get(test.receiver.qualified.C,test.receiver.qualified.C)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.qualified.Good3c.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.qualified.Bad2a.Bad2a()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.qualified.Bad2a.get(test.receiver.qualified.C,test.receiver.qualified.C)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.qualified.Bad2a.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.qualified.Bad2b.Bad2b()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.qualified.Bad2b.get(test.receiver.qualified.C,test.receiver.qualified.C)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.qualified.Bad2b.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.qualified.Bad2c.Bad2c()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.qualified.Bad2c.get(test.receiver.qualified.C,test.receiver.qualified.C)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.qualified.Bad2c.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.qualified.Bad3.Bad3()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.qualified.Bad3.get(test.receiver.qualified.C,test.receiver.qualified.C)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.qualified.Bad3.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.qualified.Bad4a.Bad4a()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.qualified.Bad4a.get(test.receiver.qualified.C,test.receiver.qualified.C)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.qualified.Bad4a.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.qualified.Bad4b.Bad4b()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.qualified.Bad4b.get(test.receiver.qualified.C,test.receiver.qualified.C)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.qualified.Bad4b.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.implicit.C.C()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.implicit.C.get(test.receiver.implicit.C,test.receiver.implicit.C)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.implicit.C.get2(test.receiver.implicit.C,test.receiver.implicit.C)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.implicit.C.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.implicit.Bad1.Bad1()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.implicit.Bad1.get(test.receiver.implicit.C,test.receiver.implicit.C)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.implicit.Bad1.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.implicit.Good1.Good1()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.implicit.Good1.get2(test.receiver.implicit.C,test.receiver.implicit.C)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.implicit.Good1.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.implicit.Good2.Good2()
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.implicit.Good2.get2(test.receiver.implicit.C,test.receiver.implicit.C)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.implicit.Good2.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.implicit.Good3a.Good3a()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.implicit.Good3a.get(test.receiver.implicit.C,test.receiver.implicit.C)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.implicit.Good3a.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.implicit.Good3b.Good3b()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.implicit.Good3b.get(test.receiver.implicit.C,test.receiver.implicit.C)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.implicit.Good3b.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.implicit.Good3c.Good3c()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.implicit.Good3c.get(test.receiver.implicit.C,test.receiver.implicit.C)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.implicit.Good3c.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.implicit.Bad2a.Bad2a()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.implicit.Bad2a.get(test.receiver.implicit.C,test.receiver.implicit.C)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.implicit.Bad2a.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.implicit.Bad2b.Bad2b()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.implicit.Bad2b.get(test.receiver.implicit.C,test.receiver.implicit.C)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.implicit.Bad2b.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.implicit.Bad2c.Bad2c()
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.implicit.Bad2c.get(test.receiver.implicit.C,test.receiver.implicit.C)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.implicit.Bad2c.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.implicit.Bad3.Bad3()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.implicit.Bad3.get(test.receiver.implicit.C,test.receiver.implicit.C)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.implicit.Bad3.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.implicit.Bad4a.Bad4a()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.implicit.Bad4a.get(test.receiver.implicit.C,test.receiver.implicit.C)
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.implicit.Bad4a.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.implicit.Bad4b.Bad4b()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.implicit.Bad4b.get(test.receiver.implicit.C,test.receiver.implicit.C)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.implicit.Bad4b.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.qualified.C.C()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.qualified.C.get(test.staticlocks.qualified.C,test.staticlocks.qualified.C)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.qualified.C.get2(test.staticlocks.qualified.C,test.staticlocks.qualified.C)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.qualified.C.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.qualified.Bad1.Bad1()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.qualified.Bad1.get(test.staticlocks.qualified.C,test.staticlocks.qualified.C)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.qualified.Bad1.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.qualified.Good1.Good1()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.qualified.Good1.get2(test.staticlocks.qualified.C,test.staticlocks.qualified.C)
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.qualified.Good1.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.qualified.Good2.Good2()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.qualified.Good2.get2(test.staticlocks.qualified.C,test.staticlocks.qualified.C)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.qualified.Good2.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.qualified.Good3a.Good3a()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.qualified.Good3a.get(test.staticlocks.qualified.C,test.staticlocks.qualified.C)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.qualified.Good3a.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.qualified.Good3b.Good3b()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.qualified.Good3b.get(test.staticlocks.qualified.C,test.staticlocks.qualified.C)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.qualified.Good3b.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.qualified.Good3C.Good3C()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.qualified.Good3C.get(test.staticlocks.qualified.C,test.staticlocks.qualified.C)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.qualified.Good3C.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.qualified.Bad2a.Bad2a()
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.qualified.Bad2a.get(test.staticlocks.qualified.C,test.staticlocks.qualified.C)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.qualified.Bad2a.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.qualified.Bad2b.Bad2b()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.qualified.Bad2b.get(test.staticlocks.qualified.C,test.staticlocks.qualified.C)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.qualified.Bad2b.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.qualified.Bad2c.Bad2c()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.qualified.Bad2c.get(test.staticlocks.qualified.C,test.staticlocks.qualified.C)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.qualified.Bad2c.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.qualified.Bad3.<clinit>
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.qualified.Bad3.Bad3()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.qualified.Bad3.get(test.staticlocks.qualified.C,test.staticlocks.qualified.C)
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.qualified.Bad4a.Bad4a()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.qualified.Bad4a.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.qualified.Bad4b.Bad4b()
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.qualified.Bad4a.get(test.staticlocks.qualified.C,test.staticlocks.qualified.C)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.qualified.Bad4b.<clinit>
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.qualified.Bad4b.get(test.staticlocks.qualified.C,test.staticlocks.qualified.C)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.qualified.Bad4c.Bad4c()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.qualified.Bad4c.get(test.staticlocks.qualified.C,test.staticlocks.qualified.C)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.staticlocks.qualified.Bad4c.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.qualified.Outer1.Outer1()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.qualified.Outer1.C.C()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.qualified.Outer1.C.get(test.qualified.Outer1,test.qualified.Outer1)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.qualified.Outer1.C.<clinit>
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.qualified.Outer1.C.get2(test.qualified.Outer1,test.qualified.Outer1)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.qualified.Outer1.Bad1.Bad1()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.qualified.Outer1.Bad1.get(test.qualified.Outer1,test.qualified.Outer1)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.qualified.Outer1.Bad1.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.qualified.Outer1.Good1.Good1()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.qualified.Outer1.Good1.get2(test.qualified.Outer1,test.qualified.Outer1)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.qualified.Outer1.Good1.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.qualified.Outer1.Good2.Good2()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.qualified.Outer1.Good2.get2(test.qualified.Outer1,test.qualified.Outer1)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.qualified.Outer1.Good2.<clinit>
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.qualified.Outer1.Good3.Good3()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.qualified.Outer1.Bad2a.Bad2a()
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.qualified.Outer1.Good3.<clinit>
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.qualified.Outer1.Good3.get(test.qualified.Outer1,test.qualified.Outer1)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.qualified.Outer1.Bad2a.get(test.qualified.Outer1,test.qualified.Outer1)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.qualified.Outer1.Bad2a.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.qualified.Outer1.Bad2b.Bad2b()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.qualified.Outer1.Bad2b.get(test.qualified.Outer1,test.qualified.Outer1)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.qualified.Outer1.Bad2b.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.qualified.Outer1.Bad2c.Bad2c()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.qualified.Outer1.Bad2c.get(test.qualified.Outer1,test.qualified.Outer1)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.qualified.Outer1.Bad2c.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.qualified.Outer1.Bad3.Bad3()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.qualified.Outer1.Bad3.get(test.qualified.Outer1,test.qualified.Outer1)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.qualified.Outer1.Bad3.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.qualified.Outer1.Bad4.Bad4()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.qualified.Outer1.Bad4.get(test.qualified.Outer1,test.qualified.Outer1)
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.qualified.Outer1.Bad4.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.qualified.Outer1.Bad5.Bad5()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.qualified.Outer1.Bad5.get(test.qualified.Outer1,test.qualified.Outer1)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.qualified.Outer1.Outer2.Outer2()
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.qualified.Outer1.Bad5.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.qualified.Outer1.Outer2.Good3.Good3()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.qualified.Outer1.Outer2.Good3.get(test.qualified.Outer1,test.qualified.Outer1)
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.qualified.Outer1.Outer2.Good3.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.qualified.Outer1.Outer2.Bad6.Bad6()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.qualified.Outer1.Outer2.Bad6.get(test.qualified.Outer1,test.qualified.Outer1)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.qualified.Outer1.Outer2.Bad6.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.qualified.Outer1.Outer2.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.qualified.Outer1.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.qualified.X.X(test.qualified.Outer1)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.qualified.X.get(test.qualified.Outer1,test.qualified.Outer1)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.explicit.C.C()
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.qualified.X.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.explicit.C.get2(test.receiver.explicit.C,test.receiver.explicit.C)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.explicit.C.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.explicit.C.get(test.receiver.explicit.C,test.receiver.explicit.C)
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.explicit.Bad1.get(test.receiver.explicit.C,test.receiver.explicit.C)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.explicit.Bad1.<clinit>
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.explicit.Bad1.Bad1()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.explicit.Good1.Good1()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.explicit.Good1.get2(test.receiver.explicit.C,test.receiver.explicit.C)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.explicit.Good1.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.explicit.Good2.Good2()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.explicit.Good2.get2(test.receiver.explicit.C,test.receiver.explicit.C)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.explicit.Good2.<clinit>
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.explicit.Good3a.Good3a()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.explicit.Good3a.get(test.receiver.explicit.C,test.receiver.explicit.C)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.explicit.Good3a.<clinit>
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.explicit.Good3b.Good3b()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.explicit.Good3b.<clinit>
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.explicit.Good3b.get(test.receiver.explicit.C,test.receiver.explicit.C)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.explicit.Good3c.Good3c()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.explicit.Good3c.<clinit>
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.explicit.Good3c.get(test.receiver.explicit.C,test.receiver.explicit.C)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.explicit.Bad2a.Bad2a()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.explicit.Bad2b.Bad2b()
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.explicit.Bad2a.<clinit>
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.explicit.Bad2a.get(test.receiver.explicit.C,test.receiver.explicit.C)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.explicit.Bad2b.get(test.receiver.explicit.C,test.receiver.explicit.C)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.explicit.Bad2b.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.explicit.Bad2c.get(test.receiver.explicit.C,test.receiver.explicit.C)
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.explicit.Bad2c.Bad2c()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.explicit.Bad2c.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.explicit.Bad3.Bad3()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.explicit.Bad3.<clinit>
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.explicit.Bad3.get(test.receiver.explicit.C,test.receiver.explicit.C)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.explicit.Bad4a.Bad4a()
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.explicit.Bad4a.get(test.receiver.explicit.C,test.receiver.explicit.C)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.explicit.Bad4a.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.explicit.Bad4b.Bad4b()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.explicit.Bad4b.get(test.receiver.explicit.C,test.receiver.explicit.C)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.receiver.explicit.Bad4b.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Cleaning up after analysis
+REMOTE: Cleaning up after analysis
+REMOTE: [GC (System.gc())  85523K->65610K(134144K), 0.0072690 secs]
+REMOTE: [Full GC (System.gc())  65610K->39633K(134144K), 0.1505130 secs]
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: Updating consistency proof
+REMOTE: ##SUBTASK, Updating consistency proof
+REMOTE: Exporting results to TestReturnsLockOverr-2016.02.03-at-12.37.29.354
+REMOTE: ##SUBTASK, Exporting results to TestReturnsLockOverr-2016.02.03-at-12.37.29.354
+REMOTE: Creating snapshot: /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/TestReturnsLockOverr-2016.02.03-at-12.37.29.354/running_or_crashed_sea_snapshot.xml.gz
+REMOTE: [GC (Allocation Failure)  90321K->43852K(135168K), 0.0039530 secs]
+REMOTE: Done in 5998 ms.
+REMOTE: ConcurrencyDetector	: 40 ms
+REMOTE: ThreadEffectsModule	: 17 ms
+REMOTE: StructureAnalysis	: 2 ms
+REMOTE: ParameterizedTypeAnalysis	: 9 ms
+REMOTE: EqualityAnalysis	: 370 ms
+REMOTE: LayersAnalysis	: 179 ms
+REMOTE: UtilityAnalysis	: 1 ms
+REMOTE: SingletonAnalysis	: 1 ms
+REMOTE: LockModelBuilder	: 52 ms
+REMOTE: ThreadSafeAnalysis	: 7 ms
+REMOTE: NewLockAnalysis	: 1432 ms
+REMOTE: EffectsAnalysis	: 26 ms
+REMOTE: UniquenessAnalysisModule	: 3 ms
+REMOTE: NullablePreprocessorModule	: 110 ms
+REMOTE: NullableModule2	: 2988 ms
+REMOTE: [2016-02-03 12:37:39    INFO] partial bindings = 8795 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+REMOTE: [2016-02-03 12:37:39    INFO] full bindings = 1284 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+REMOTE: cached = 0
+REMOTE: totalT = 0
+REMOTE: #Performance data for TestReturnsLockOverride
+REMOTE: #Wed Feb 03 12:37:39 EST 2016
+REMOTE: jsure.Add.required=0
+REMOTE: jsure.All.analyses=1071
+REMOTE: jsure.Binding.before.canon=217
+REMOTE: jsure.Binding.full.time=795
+REMOTE: jsure.Binding.partial.time=408
+REMOTE: jsure.Bindings.full=1284
+REMOTE: jsure.Bindings.partial=8795
+REMOTE: jsure.Canonicalization=680
+REMOTE: jsure.Cleanup=117
+REMOTE: jsure.Destroy.time=11
+REMOTE: jsure.Drop.creation=20
+REMOTE: jsure.Find.canon.time=6
+REMOTE: jsure.Parsing=1061
+REMOTE: jsure.Promise.parsing=854
+REMOTE: jsure.Promise.scrubbing=1364
+REMOTE: jsure.Sea.export=746
+REMOTE: jsure.Sea.update=85
+REMOTE: jsure.Total.JSure.time=5998
+REMOTE: jsure.Total.blocks=199
+REMOTE: jsure.Total.canonical=3259
+REMOTE: jsure.Total.decls=524
+REMOTE: jsure.Total.destroyed=1156
+REMOTE: jsure.Total.gced=0
+REMOTE: jsure.Total.loc=1023
+REMOTE: jsure.Total.nodes=71340
+REMOTE: jsure.Total.stmts=398
+REMOTE: jsure.Total.try.destroyed=1156
+REMOTE: jsure.analysis.ConcurrencyDetector=40
+REMOTE: jsure.analysis.EffectsAnalysis=26
+REMOTE: jsure.analysis.EqualityAnalysis=370
+REMOTE: jsure.analysis.LayersAnalysis=179
+REMOTE: jsure.analysis.LockModelBuilder=52
+REMOTE: jsure.analysis.NewLockAnalysis=1432
+REMOTE: jsure.analysis.NullableModule2=2988
+REMOTE: jsure.analysis.NullablePreprocessorModule=110
+REMOTE: jsure.analysis.ParameterizedTypeAnalysis=9
+REMOTE: jsure.analysis.SingletonAnalysis=1
+REMOTE: jsure.analysis.StructureAnalysis=2
+REMOTE: jsure.analysis.ThreadEffectsModule=17
+REMOTE: jsure.analysis.ThreadSafeAnalysis=7
+REMOTE: jsure.analysis.UniquenessAnalysisModule=3
+REMOTE: jsure.analysis.UtilityAnalysis=1
+REMOTE: jsure.num.threads=8
+REMOTE: Javac making log: AnnotationRules
+REMOTE: ##DONE
+REMOTE: Renaming snapshot: /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/TestReturnsLockOverr-2016.02.03-at-12.37.29.354/sea_snapshot.xml.gz
+REMOTE: Done with JSure!
+REMOTE: Scanning complete in 9 seconds 909 ms (9,909 ms)
+REMOTE: No socket to close
+REMOTE: Closing std streams
+Process result after waiting = 0

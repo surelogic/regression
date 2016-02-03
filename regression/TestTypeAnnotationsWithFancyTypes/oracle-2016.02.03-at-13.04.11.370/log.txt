@@ -1,0 +1,2330 @@
+LOCAL vm : 1.8.0_05
+Path: /Users/aarong/git/common/common/lib/runtime/guava-18.0.jar
+Path: /Users/aarong/git/jsure/jsure-analysis/bin
+Path: /Users/aarong/git/common/common/lib/runtime/ant-1.9.6.jar
+Path: /Users/aarong/git/jsure/jsure-common
+Path: /Users/aarong/git/common/common
+Path: /Users/aarong/git/common/common/lib/runtime/javax.servlet-api-3.1.0.jar
+Path: /Users/aarong/git/jsure/jsure-analysis
+Path: /Users/aarong/git/common/common/lib/runtime/antlr-3.5.2-runtime.jar
+Path: /Users/aarong/git/jsure/jsure-common/lib/runtime/diffutils-1.2.1.jar
+Path: /Users/aarong/git/common/common/bin
+Path: /Users/aarong/git/common/common/lib/runtime/asm-commons-5.0.4.jar
+Path: /Users/aarong/git/jsure/jsure-analysis/lib/runtime/renamedJavac.jar
+Path: /Users/aarong/git/common/common/lib/runtime/promises-5.6.0.jar
+Path: /Users/aarong/git/common/common/lib/runtime/derby-10.11.1.1.jar
+Path: /Users/aarong/git/jsure/jsure-common/bin
+Path: /Users/aarong/git/common/common/lib/runtime/asm-5.0.4.jar
+Path: /Users/aarong/git/common/common/lib/runtime/asm-tree-5.0.4.jar
+Path: /Users/aarong/git/common/common/lib/runtime/hppc-0.7.1.jar
+Path: /Users/aarong/git/common/common/lib/runtime/commons-lang3-3.4.jar
+Starting process:
+	/Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/jre/bin/java
+	-Dsl.running.in.remote.vm=true
+	-Dsurelogic.test.code=NONE
+	-XX:MaxPermSize=512m
+	-verbosegc
+	-DSureLogicX=true
+	-Dsl.run.dir=/Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/TestTypeAnnotationsW-2016.02.03-at-13.04.11.370
+	-Dfluid.ir.versioning=Versioning.Off
+	-Djsure.analysis.directory.url=file:/Eclipses/eclipse-standard-luna-SR2-macosx-cocoa-x86_64/../../Users/aarong/git/jsure/jsure-analysis/
+	-Xmx2048m
+	-classpath
+	/Users/aarong/git/common/common/lib/runtime/guava-18.0.jar:/Users/aarong/git/jsure/jsure-analysis/bin:/Users/aarong/git/common/common/lib/runtime/ant-1.9.6.jar:/Users/aarong/git/jsure/jsure-common:/Users/aarong/git/common/common:/Users/aarong/git/common/common/lib/runtime/javax.servlet-api-3.1.0.jar:/Users/aarong/git/jsure/jsure-analysis:/Users/aarong/git/common/common/lib/runtime/antlr-3.5.2-runtime.jar:/Users/aarong/git/jsure/jsure-common/lib/runtime/diffutils-1.2.1.jar:/Users/aarong/git/common/common/bin:/Users/aarong/git/common/common/lib/runtime/asm-commons-5.0.4.jar:/Users/aarong/git/jsure/jsure-analysis/lib/runtime/renamedJavac.jar:/Users/aarong/git/common/common/lib/runtime/promises-5.6.0.jar:/Users/aarong/git/common/common/lib/runtime/derby-10.11.1.1.jar:/Users/aarong/git/jsure/jsure-common/bin:/Users/aarong/git/common/common/lib/runtime/asm-5.0.4.jar:/Users/aarong/git/common/common/lib/runtime/asm-tree-5.0.4.jar:/Users/aarong/git/common/common/lib/runtime/hppc-0.7.1.jar:/Users/aarong/git/common/common/lib/runtime/commons-lang3-3.4.jar
+	com.surelogic.javac.jobs.RemoteJSureRun
+
+First line in REMOTE vm = Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=512m; support was removed in 8.0
+REMOTE: [GC (Allocation Failure)  512K->496K(327168K), 0.0013130 secs]
+REMOTE: [GC (Allocation Failure)  993K->576K(327680K), 0.0007340 secs]
+REMOTE: [GC (Allocation Failure)  1600K->704K(327680K), 0.0012320 secs]
+REMOTE: [GC (Allocation Failure)  1728K->764K(328704K), 0.0008480 secs]
+REMOTE: [GC (Allocation Failure)  2812K->1015K(328704K), 0.0011120 secs]
+REMOTE: JVM started: 1.8.0_05
+REMOTE: Log level: INFO
+REMOTE: Created reader
+REMOTE: Created monitor
+REMOTE: Created log handler
+REMOTE: Running RemoteJSureRun
+REMOTE: [GC (Allocation Failure)  3063K->1263K(331264K), 0.0010810 secs]
+REMOTE: [GC (Allocation Failure)  5359K->1671K(331264K), 0.0020200 secs]
+REMOTE: [GC (Allocation Failure)  5767K->1759K(335360K), 0.0012050 secs]
+REMOTE: runPath = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/TestTypeAnnotationsW-2016.02.03-at-13.04.11.370
+REMOTE: Creating run: TestTypeAnnotationsW-2016.02.03-at-13.04.11.370
+REMOTE: Defaulting project org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7 to Java 0
+REMOTE: Created project org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7 from XML
+REMOTE: Setting project TestTypeAnnotationsWithFancyTypes to Java 7
+REMOTE: [GC (Allocation Failure)  9951K->2374K(335360K), 0.0024690 secs]
+REMOTE: Created project TestTypeAnnotationsWithFancyTypes from XML
+REMOTE: projects = TestTypeAnnotationsWithFancyTypes
+REMOTE: Loading edu.cmu.cs.fluid.make.nonabductive.proposals = false
+REMOTE: Loading edu.cmu.cs.fluid.load.all.classes = false
+REMOTE: Loading edu.cmu.cs.fluid.timeoutFlag = true
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BCA = false
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ConstantExpr = false
+REMOTE: Loading edu.cmu.cs.fluid.physMemoryInMB = 20480
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.EqualityAssurance = true
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ThreadSafe = true
+REMOTE: Loading edu.cmu.cs.fluid.xml.diff.directory = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/promises-xml
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.IRConcurrencyDetector = true
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Singleton = true
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.CALLS = false
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BenchmarkingUniquenessSE = false
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ThreadEffectAssurance2 = true
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Binder = false
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.cliend.eclipse.TypeBasedAlias = false
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Nullable = true
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.TestIsFunctional = false
+REMOTE: Loading edu.cmu.cs.fluid.tool-memory-mb = 2048
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.DefinitelyAssigned = false
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.UniquenessAssuranceSE = true
+REMOTE: Loading edu.cmu.cs.fluid.analysis.thread.count = 8
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LockModelBuilder = true
+REMOTE: Loading edu.cmu.cs.fluid.timeoutSec = 11
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.NonNullRawTypes = false
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.EffectsAndLocks = false
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LayersAssurance = true
+REMOTE: Loading edu.cmu.cs.fluid.default.JRE = org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Loading edu.cmu.cs.fluid.timeoutWarningSec = 30
+REMOTE: Loading edu.cmu.cs.fluid.modeling.problem.filters = 00000012com\.apple.*00000013com\.oracle.*00000010com\.sun.*00000014.*\.internal.*00000023.*BakedArrayList\.class00000007apple.*00000008oracle.*00000011quicktime.*00000005sun.*
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Utility = true
+REMOTE: Loading edu.cmu.cs.fluid.scan.may.use.compression = true
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ParameterizedType = true
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Final = false
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LockAssurance4 = true
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LockAssurance3 = false
+REMOTE: Loading edu.cmu.cs.fluid.data.directory = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.NullablePreprocessor = true
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.EffectAssurance2 = true
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LV = false
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.StructureAssurance = true
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Types = false
+REMOTE: JSure data dir = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data
+REMOTE: XML diff dir   = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/promises-xml
+REMOTE: Looking for JRE in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: default JRE = org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Initialized job
+REMOTE: Created com.surelogic.analysis.concurrency.detector.ConcurrencyDetector
+REMOTE: Starting a new group for ConcurrencyDetector
+REMOTE: Created com.surelogic.analysis.threads.ThreadEffectsModule
+REMOTE: Created com.surelogic.analysis.structure.StructureAnalysis
+REMOTE: Created com.surelogic.analysis.annotationbounds.ParameterizedTypeAnalysis
+REMOTE: Created com.surelogic.analysis.equality.EqualityAnalysis
+REMOTE: Created com.surelogic.analysis.layers.LayersAnalysis
+REMOTE: Created com.surelogic.analysis.utility.UtilityAnalysis
+REMOTE: Starting a new group for UtilityAnalysis
+REMOTE: Group: EXTERNALLY
+REMOTE: 	ConcurrencyDetector
+REMOTE: 	ThreadEffectsModule
+REMOTE: 	StructureAnalysis
+REMOTE: 	ParameterizedTypeAnalysis
+REMOTE: 	EqualityAnalysis
+REMOTE: 	LayersAnalysis
+REMOTE: Created com.surelogic.analysis.singleton.SingletonAnalysis
+REMOTE: Created com.surelogic.analysis.concurrency.driver.LockModelBuilder
+REMOTE: Starting a new group for LockModelBuilder
+REMOTE: Group: com.surelogic.analysis.visitors.TopLevelAnalysisVisitor$1@28ba21f3, EXTERNALLY
+REMOTE: 	UtilityAnalysis
+REMOTE: 	SingletonAnalysis
+REMOTE: Created com.surelogic.analysis.concurrency.driver.ThreadSafeAnalysis
+REMOTE: Starting a new group for ThreadSafeAnalysis
+REMOTE: Group: EXTERNALLY
+REMOTE: 	LockModelBuilder
+REMOTE: Created com.surelogic.analysis.concurrency.driver.NewLockAnalysis
+REMOTE: Starting a new group for NewLockAnalysis
+REMOTE: Group: com.surelogic.analysis.visitors.TopLevelAnalysisVisitor$1@28ba21f3, EXTERNALLY
+REMOTE: 	ThreadSafeAnalysis
+REMOTE: Created com.surelogic.analysis.effects.EffectsAnalysis
+REMOTE: Starting a new group for EffectsAnalysis
+REMOTE: Group: class com.surelogic.analysis.bca.BindingContextAnalysis, EXTERNALLY
+REMOTE: 	NewLockAnalysis
+REMOTE: Created com.surelogic.analysis.uniqueness.classic.sideeffecting.UniquenessAnalysisModule
+REMOTE: Starting a new group for UniquenessAnalysisModule
+REMOTE: Group: com.surelogic.analysis.visitors.TopLevelAnalysisVisitor$1@28ba21f3, class com.surelogic.analysis.bca.BindingContextAnalysis, EXTERNALLY
+REMOTE: 	EffectsAnalysis
+REMOTE: Created com.surelogic.analysis.nullable.NullablePreprocessorModule
+REMOTE: Starting a new group for NullablePreprocessorModule
+REMOTE: Group: com.surelogic.analysis.uniqueness.classic.sideeffecting.UniquenessAnalysisModule$1@694f9431, class com.surelogic.analysis.bca.BindingContextAnalysis, INTERNALLY
+REMOTE: 	UniquenessAnalysisModule
+REMOTE: Created com.surelogic.analysis.nullable.NullableModule2
+REMOTE: Starting a new group for NullableModule2
+REMOTE: Group: EXTERNALLY
+REMOTE: 	NullablePreprocessorModule
+REMOTE: Group: com.surelogic.analysis.granules.FlowUnitGranulator@f2a0b8e, EXTERNALLY
+REMOTE: 	NullableModule2
+REMOTE: ##TASK, Scan, 82
+REMOTE: Initializing ...
+REMOTE: ##SUBTASK, Initializing ...
+REMOTE: monitor = com.surelogic.common.jobs.remote.AbstractRemoteSLJob$Monitor@593634ad
+REMOTE: process() using 8 threads
+REMOTE: [GC (Allocation Failure)  10566K->3086K(340992K), 0.0020620 secs]
+REMOTE: [GC (Allocation Failure)  16398K->3183K(340992K), 0.0019010 secs]
+REMOTE: [GC (Allocation Failure)  16400K->16108K(344576K), 0.0081960 secs]
+REMOTE: [GC (Allocation Failure)  32889K->32530K(349184K), 0.0097950 secs]
+REMOTE: Done initializing org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: 0
+REMOTE: org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/resources.jar : 2465399
+REMOTE: [GC (Allocation Failure)  49426K->45223K(354816K), 0.0089830 secs]
+REMOTE: [GC (Allocation Failure)  66727K->49111K(360448K), 0.0070770 secs]
+REMOTE: org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/rt.jar : 64311652
+REMOTE: org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jsse.jar : 582478
+REMOTE: org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jce.jar : 109504
+REMOTE: org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/charsets.jar : 3696271
+REMOTE: org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jfr.jar : 532548
+REMOTE: org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/dnsns.jar : 8923
+REMOTE: org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/localedata.jar : 550578
+REMOTE: org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunec.jar : 15941
+REMOTE: org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunjce_provider.jar : 198101
+REMOTE: org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunpkcs11.jar : 237244
+REMOTE: org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/zipfs.jar : 68751
+REMOTE: org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /System/Library/Java/Extensions/MRJToolkit.jar : 12849
+REMOTE: Done initializing TestTypeAnnotationsWithFancyTypes: 4
+REMOTE: Trying to find /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/TestTypeAnnotationsW-2016.02.03-at-13.04.11.370/source/TestTypeAnnotationsWithFancyTypes.bin.zip
+REMOTE: TestTypeAnnotationsWithFancyTypes: TestTypeAnnotationsWithFancyTypes -> org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Done initializing org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: 0
+REMOTE: TestTypeAnnotationsWithFancyTypes: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/resources.jar : 2465399
+REMOTE: [GC (Allocation Failure)  70615K->53559K(371200K), 0.0092600 secs]
+REMOTE: TestTypeAnnotationsWithFancyTypes: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/rt.jar : 64311652
+REMOTE: TestTypeAnnotationsWithFancyTypes: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jsse.jar : 582478
+REMOTE: TestTypeAnnotationsWithFancyTypes: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jce.jar : 109504
+REMOTE: TestTypeAnnotationsWithFancyTypes: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/charsets.jar : 3696271
+REMOTE: TestTypeAnnotationsWithFancyTypes: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jfr.jar : 532548
+REMOTE: TestTypeAnnotationsWithFancyTypes: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/dnsns.jar : 8923
+REMOTE: TestTypeAnnotationsWithFancyTypes: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/localedata.jar : 550578
+REMOTE: TestTypeAnnotationsWithFancyTypes: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunec.jar : 15941
+REMOTE: TestTypeAnnotationsWithFancyTypes: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunjce_provider.jar : 198101
+REMOTE: TestTypeAnnotationsWithFancyTypes: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunpkcs11.jar : 237244
+REMOTE: TestTypeAnnotationsWithFancyTypes: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/zipfs.jar : 68751
+REMOTE: TestTypeAnnotationsWithFancyTypes: Done initializing with /System/Library/Java/Extensions/MRJToolkit.jar : 12849
+REMOTE: TestTypeAnnotationsWithFancyTypes: Done initializing with /Users/aarong/git/regression/regression/TestTypeAnnotationsWithFancyTypes/promises-5.6.0.jar : 133034
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: Assuming that the projects are run in dependency order
+REMOTE: Parsing ...
+REMOTE: ##SUBTASK, Parsing ...
+REMOTE: Done adapting 0 files for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: Parsing ...
+REMOTE: ##SUBTASK, Parsing ...
+REMOTE: [GC (Allocation Failure)  88375K->60278K(372224K), 0.0091220 secs]
+REMOTE: JCP: warning: [options] bootstrap class path not set in conjunction with -source 1.7
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: Adapting 4 CUTs
+REMOTE: Done adapting 4 files for TestTypeAnnotationsWithFancyTypes
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: Handling references for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##SUBTASK, Handling references for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Handling 21 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Setting project for Object from org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Handling 44 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: [GC (Allocation Failure)  95094K->63462K(386048K), 0.0110960 secs]
+REMOTE: Handling 55 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Handling 51 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Handling 32 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Handling 17 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Handling 8 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Handling 12 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Handling 15 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Handling 4 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Handling 2 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: Handling references for TestTypeAnnotationsWithFancyTypes
+REMOTE: ##SUBTASK, Handling references for TestTypeAnnotationsWithFancyTypes
+REMOTE: Handling 27 dangling refs for TestTypeAnnotationsWithFancyTypes
+REMOTE: Handling 6 dangling refs for TestTypeAnnotationsWithFancyTypes
+REMOTE: [GC (Allocation Failure)  112614K->67661K(386560K), 0.0095700 secs]
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: Parsing ASTs  = 453 ms
+REMOTE: Handling refs = 422 ms
+REMOTE: [2016-02-03 13:04:13    INFO] partial bindings = 0 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+REMOTE: [2016-02-03 13:04:13    INFO] full bindings = 0 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+REMOTE: Canonicalizing ASTs
+REMOTE: ##SUBTASK, Canonicalizing ASTs
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: [2016-02-03 13:04:14    INFO] partial bindings = 662 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+REMOTE: [2016-02-03 13:04:14    INFO] full bindings = 712 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+REMOTE: Canonicalizing TestTypeAnnotationsWithFancyTypes/src/test/TestThreadSafe2.java
+REMOTE: [GC (Metadata GC Threshold)  79634K->68207K(407040K), 0.0078580 secs]
+REMOTE: [Full GC (Metadata GC Threshold)  68207K->66620K(159232K), 0.2667020 secs]
+REMOTE: ##WORK, 1
+REMOTE: Canonicalizing TestTypeAnnotationsWithFancyTypes/src/test/TestImmutable.java
+REMOTE: ##WORK, 1
+REMOTE: Canonicalizing TestTypeAnnotationsWithFancyTypes/src/test/TestThreadSafe.java
+REMOTE: ##WORK, 1
+REMOTE: Canonicalizing TestTypeAnnotationsWithFancyTypes/src/test/TestContainable.java
+REMOTE: ##WORK, 1
+REMOTE: Binding = 127 ms
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: [GC (System.gc())  71482K->66884K(159232K), 0.0020580 secs]
+REMOTE: [Full GC (System.gc())  66884K->55169K(159232K), 0.1295130 secs]
+REMOTE: Creating drops
+REMOTE: ##SUBTASK, Creating drops
+REMOTE: Created binary drop for java.io.DataOutputStream
+REMOTE: Created binary drop for java.util.ResourceBundle
+REMOTE: Created binary drop for java.security.cert.CertificateException
+REMOTE: Created binary drop for java.io.File
+REMOTE: Created binary drop for java.lang.Boolean
+REMOTE: Created binary drop for java.util.AbstractMap
+REMOTE: Created binary drop for java.nio.CharBuffer
+REMOTE: Created binary drop for java.nio.charset.CodingErrorAction
+REMOTE: Created binary drop for java.nio.ByteOrder
+REMOTE: Created binary drop for java.lang.annotation.RetentionPolicy
+REMOTE: Created binary drop for java.security.PublicKey
+REMOTE: Created binary drop for java.security.NoSuchAlgorithmException
+REMOTE: Created binary drop for java.io.FilterInputStream
+REMOTE: Created binary drop for java.security.InvalidKeyException
+REMOTE: Created source drop for file:/Users/aarong/git/regression/regression/TestTypeAnnotationsWithFancyTypes/src/test/TestThreadSafe2.java
+REMOTE: Created binary drop for java.nio.ByteBuffer
+REMOTE: Created binary drop for java.util.zip.DataFormatException
+REMOTE: Created binary drop for java.nio.channels.ReadableByteChannel
+REMOTE: Created binary drop for java.lang.reflect.AccessibleObject
+REMOTE: Created binary drop for java.util.concurrent.ExecutorService
+REMOTE: Created binary drop for java.util.Random
+REMOTE: Created binary drop for java.util.jar.Manifest
+REMOTE: Created binary drop for java.util.concurrent.Future
+REMOTE: Created binary drop for java.nio.MappedByteBuffer
+REMOTE: Created binary drop for java.util.concurrent.Callable
+REMOTE: Created binary drop for java.util.List
+REMOTE: Created binary drop for java.lang.reflect.InvocationTargetException
+REMOTE: Created binary drop for java.lang.StringBuilder
+REMOTE: Created binary drop for sun.reflect.ConstructorAccessor
+REMOTE: Created binary drop for java.net.ContentHandlerFactory
+REMOTE: Created binary drop for sun.util.locale.LocaleSyntaxException
+REMOTE: Created binary drop for java.net.SocketException
+REMOTE: Created binary drop for java.util.Vector
+REMOTE: Created binary drop for sun.util.locale.LocaleExtensions
+REMOTE: Created binary drop for java.lang.Number
+REMOTE: Created binary drop for java.nio.file.FileSystem
+REMOTE: Created binary drop for java.net.MalformedURLException
+REMOTE: Created binary drop for sun.misc.URLClassPath
+REMOTE: Created binary drop for java.security.DomainCombiner
+REMOTE: Created binary drop for java.lang.reflect.Constructor
+REMOTE: Created binary drop for java.lang.InterruptedException
+REMOTE: Created binary drop for java.nio.file.PathMatcher
+REMOTE: Created binary drop for sun.reflect.CallerSensitive
+REMOTE: Created binary drop for java.lang.Deprecated
+REMOTE: Created binary drop for java.lang.Readable
+REMOTE: Created binary drop for java.lang.Runnable
+REMOTE: Created binary drop for sun.nio.ch.Interruptible
+REMOTE: Created binary drop for java.lang.Double
+REMOTE: Created binary drop for sun.reflect.ConstantPool
+REMOTE: Created binary drop for java.nio.ShortBuffer
+REMOTE: Created binary drop for java.lang.Throwable
+REMOTE: Created binary drop for java.nio.channels.SeekableByteChannel
+REMOTE: Created binary drop for java.lang.Enum
+REMOTE: Created binary drop for java.lang.AutoCloseable
+REMOTE: Created binary drop for java.nio.file.attribute.FileTime
+REMOTE: Created binary drop for java.nio.file.AccessMode
+REMOTE: Created binary drop for java.util.zip.ZipFile
+REMOTE: Created binary drop for java.lang.reflect.Member
+REMOTE: Created binary drop for java.security.AccessControlContext
+REMOTE: Created binary drop for java.security.cert.Certificate
+REMOTE: Created binary drop for java.nio.file.attribute.UserPrincipal
+REMOTE: Created binary drop for java.nio.channels.Channel
+REMOTE: Created binary drop for java.nio.channels.spi.AbstractInterruptibleChannel
+REMOTE: Created binary drop for java.security.AccessControlException
+REMOTE: Created binary drop for com.surelogic.Part
+REMOTE: Created binary drop for java.nio.Buffer
+REMOTE: Created binary drop for java.net.InetAddress
+REMOTE: Created binary drop for java.nio.file.FileStore
+REMOTE: Created binary drop for java.nio.charset.Charset
+REMOTE: Created binary drop for java.security.Permission
+REMOTE: Created binary drop for java.nio.channels.AsynchronousCloseException
+REMOTE: Created binary drop for com.surelogic.Vouch
+REMOTE: Created binary drop for sun.util.locale.LocaleObjectCache
+REMOTE: Created binary drop for java.util.jar.JarFile
+REMOTE: Created binary drop for java.util.Enumeration
+REMOTE: Created binary drop for java.lang.InstantiationException
+REMOTE: Created binary drop for java.nio.channels.ClosedChannelException
+REMOTE: Created binary drop for java.nio.file.WatchKey
+REMOTE: Created binary drop for java.util.AbstractSet
+REMOTE: Created binary drop for java.net.URLConnection
+REMOTE: Created binary drop for java.io.FileDescriptor
+REMOTE: Created binary drop for java.nio.channels.CompletionHandler
+REMOTE: Created binary drop for java.lang.annotation.ElementType
+REMOTE: Created binary drop for java.lang.NoSuchFieldException
+REMOTE: Created binary drop for sun.util.locale.InternalLocaleBuilder
+REMOTE: Created binary drop for java.lang.ThreadGroup
+REMOTE: Created binary drop for java.util.AbstractCollection
+REMOTE: Created binary drop for java.nio.channels.ByteChannel
+REMOTE: Created binary drop for java.security.CodeSigner
+REMOTE: Created binary drop for sun.reflect.ReflectionFactory
+REMOTE: Created binary drop for java.nio.charset.CoderResult
+REMOTE: Created binary drop for java.io.Flushable
+REMOTE: Created binary drop for java.lang.Thread
+REMOTE: Created binary drop for java.nio.file.attribute.AttributeView
+REMOTE: Created binary drop for java.io.FileNotFoundException
+REMOTE: Created binary drop for java.util.Stack
+REMOTE: Created binary drop for java.lang.ref.WeakReference
+REMOTE: Created binary drop for java.nio.channels.InterruptibleChannel
+REMOTE: Created binary drop for java.nio.channels.FileChannel
+REMOTE: Created binary drop for java.lang.reflect.Field
+REMOTE: Created binary drop for java.util.Set
+REMOTE: Created binary drop for java.security.CodeSource
+REMOTE: Created binary drop for java.io.FileFilter
+REMOTE: Created binary drop for java.nio.file.attribute.UserPrincipalLookupService
+REMOTE: Created binary drop for java.lang.Short
+REMOTE: Created binary drop for java.io.DataOutput
+REMOTE: Created binary drop for java.net.URI
+REMOTE: Created binary drop for java.util.Queue
+REMOTE: Created binary drop for sun.util.LocaleServiceProviderPool
+REMOTE: Created binary drop for java.lang.Appendable
+REMOTE: Created binary drop for sun.util.locale.LanguageTag
+REMOTE: Created binary drop for sun.reflect.MethodAccessor
+REMOTE: Created binary drop for java.net.URLStreamHandlerFactory
+REMOTE: Created binary drop for java.util.concurrent.locks.Condition
+REMOTE: Created binary drop for java.nio.file.WatchService
+REMOTE: Created binary drop for java.lang.Comparable
+REMOTE: Created binary drop for java.util.ListIterator
+REMOTE: Created binary drop for java.nio.charset.CharsetEncoder
+REMOTE: Created binary drop for java.io.UnsupportedEncodingException
+REMOTE: Created binary drop for java.util.Comparator
+REMOTE: Created binary drop for com.surelogic.Unique
+REMOTE: Created binary drop for java.nio.file.CopyOption
+REMOTE: Created binary drop for java.lang.Class
+REMOTE: Created binary drop for sun.reflect.FieldAccessor
+REMOTE: Created binary drop for java.security.KeyException
+REMOTE: Created binary drop for java.lang.reflect.GenericDeclaration
+REMOTE: Created binary drop for java.util.zip.ZipEntry
+REMOTE: Created binary drop for java.lang.annotation.Retention
+REMOTE: Created binary drop for java.io.SyncFailedException
+REMOTE: Created binary drop for java.io.FilterOutputStream
+REMOTE: Created binary drop for sun.reflect.LangReflectAccess
+REMOTE: Created source drop for file:/Users/aarong/git/regression/regression/TestTypeAnnotationsWithFancyTypes/src/test/TestImmutable.java
+REMOTE: Created binary drop for java.nio.LongBuffer
+REMOTE: Created binary drop for java.security.SignatureException
+REMOTE: Created binary drop for java.net.URISyntaxException
+REMOTE: Created binary drop for java.lang.Character
+REMOTE: Created binary drop for com.surelogic.Immutable
+REMOTE: Created binary drop for java.lang.Integer
+REMOTE: Created binary drop for java.lang.annotation.Target
+REMOTE: Created source drop for file:/Users/aarong/git/regression/regression/TestTypeAnnotationsWithFancyTypes/src/test/TestThreadSafe.java
+REMOTE: Created binary drop for java.lang.NumberFormatException
+REMOTE: Created binary drop for java.security.Principal
+REMOTE: Created binary drop for java.io.PrintStream
+REMOTE: Created binary drop for java.nio.file.attribute.FileAttributeView
+REMOTE: Created binary drop for java.security.Key
+REMOTE: Created binary drop for java.util.Iterator
+REMOTE: Created binary drop for com.surelogic.ThreadSafe
+REMOTE: Created binary drop for java.nio.file.WatchEvent
+REMOTE: Created binary drop for java.nio.channels.WritableByteChannel
+REMOTE: Created binary drop for sun.misc.JarIndex
+REMOTE: Created binary drop for sun.security.util.Debug
+REMOTE: Created binary drop for java.util.Collection
+REMOTE: Created binary drop for java.util.HashMap
+REMOTE: Created binary drop for java.net.Proxy
+REMOTE: Created binary drop for java.util.zip.InflaterInputStream
+REMOTE: Created binary drop for java.lang.ref.Reference
+REMOTE: Created binary drop for java.util.zip.Inflater
+REMOTE: Created binary drop for java.util.concurrent.Executor
+REMOTE: Created binary drop for sun.reflect.annotation.AnnotationType
+REMOTE: Created binary drop for java.net.InterfaceAddress
+REMOTE: Created binary drop for java.io.PrintWriter
+REMOTE: Created binary drop for java.lang.annotation.Documented
+REMOTE: Created binary drop for com.surelogic.Containable
+REMOTE: Created binary drop for java.lang.AbstractStringBuilder
+REMOTE: Created binary drop for java.lang.CharSequence
+REMOTE: Created binary drop for java.util.concurrent.locks.Lock
+REMOTE: Created binary drop for java.util.LinkedList
+REMOTE: Created binary drop for java.util.Date
+REMOTE: Created binary drop for java.lang.ThreadLocal
+REMOTE: Created binary drop for java.net.ContentHandler
+REMOTE: Created binary drop for sun.misc.Resource
+REMOTE: Created binary drop for java.util.concurrent.TimeUnit
+REMOTE: Created binary drop for java.nio.file.attribute.BasicFileAttributes
+REMOTE: Created binary drop for java.net.UnknownHostException
+REMOTE: Created binary drop for java.nio.channels.GatheringByteChannel
+REMOTE: Created binary drop for java.io.ObjectStreamException
+REMOTE: Created binary drop for java.lang.Byte
+REMOTE: Created binary drop for java.security.cert.CertPath
+REMOTE: Created binary drop for java.lang.String
+REMOTE: Created binary drop for java.util.Locale
+REMOTE: Created binary drop for java.security.NoSuchProviderException
+REMOTE: Created binary drop for java.security.ProtectionDomain
+REMOTE: Created binary drop for java.io.Serializable
+REMOTE: Created binary drop for java.security.Guard
+REMOTE: Created binary drop for java.security.PrivilegedAction
+REMOTE: Created binary drop for java.lang.reflect.Type
+REMOTE: Created binary drop for java.util.concurrent.locks.ReadWriteLock
+REMOTE: Created binary drop for java.nio.file.LinkOption
+REMOTE: Created binary drop for java.net.URL
+REMOTE: Created binary drop for java.nio.channels.AsynchronousChannel
+REMOTE: Created binary drop for java.util.jar.Attributes
+REMOTE: Created binary drop for java.net.NetworkInterface
+REMOTE: Created binary drop for java.util.RandomAccess
+REMOTE: Created binary drop for java.lang.ref.ReferenceQueue
+REMOTE: Created binary drop for java.nio.file.attribute.FileAttribute
+REMOTE: Created binary drop for java.lang.StringBuffer
+REMOTE: Created binary drop for java.nio.file.DirectoryStream
+REMOTE: Created binary drop for java.net.SocketAddress
+REMOTE: Created binary drop for java.net.URLStreamHandler
+REMOTE: Created binary drop for java.nio.file.attribute.GroupPrincipal
+REMOTE: Created binary drop for java.lang.annotation.Annotation
+REMOTE: Created binary drop for java.nio.channels.ScatteringByteChannel
+REMOTE: Created binary drop for java.nio.channels.AsynchronousFileChannel
+REMOTE: Created binary drop for java.io.Closeable
+REMOTE: Created binary drop for java.util.Deque
+REMOTE: Created binary drop for java.lang.Cloneable
+REMOTE: Created binary drop for java.lang.reflect.TypeVariable
+REMOTE: Created binary drop for java.lang.reflect.AnnotatedElement
+REMOTE: Created binary drop for java.util.zip.ZipConstants
+REMOTE: Created binary drop for java.net.UnknownServiceException
+REMOTE: Created binary drop for java.security.cert.CertificateEncodingException
+REMOTE: Created binary drop for java.util.ArrayList
+REMOTE: Created binary drop for java.util.spi.LocaleNameProvider
+REMOTE: Created binary drop for java.lang.ref.SoftReference
+REMOTE: Created binary drop for java.lang.Void
+REMOTE: Created source drop for file:/Users/aarong/git/regression/regression/TestTypeAnnotationsWithFancyTypes/src/test/TestContainable.java
+REMOTE: Created binary drop for java.lang.IllegalArgumentException
+REMOTE: Created binary drop for java.lang.CloneNotSupportedException
+REMOTE: Created binary drop for java.security.Timestamp
+REMOTE: Created binary drop for java.lang.Long
+REMOTE: Created binary drop for java.net.FileNameMap
+REMOTE: Created binary drop for java.net.InetAddressImpl
+REMOTE: Created binary drop for java.io.FilenameFilter
+REMOTE: Created binary drop for java.nio.channels.FileLock
+REMOTE: Created binary drop for java.util.Map
+REMOTE: Created binary drop for java.nio.file.spi.FileSystemProvider
+REMOTE: Created binary drop for java.util.AbstractSequentialList
+REMOTE: Created binary drop for java.lang.IllegalAccessException
+REMOTE: Created binary drop for sun.util.resources.OpenListResourceBundle
+REMOTE: Created binary drop for sun.util.locale.Extension
+REMOTE: Created binary drop for java.util.MissingResourceException
+REMOTE: Created binary drop for java.lang.RuntimeException
+REMOTE: Created binary drop for com.surelogic.RegionLock
+REMOTE: Created binary drop for java.util.AbstractList
+REMOTE: Created binary drop for java.io.InputStream
+REMOTE: Created binary drop for java.nio.file.attribute.FileStoreAttributeView
+REMOTE: Created binary drop for java.lang.SecurityException
+REMOTE: Created binary drop for java.math.BigInteger
+REMOTE: Created binary drop for java.nio.file.OpenOption
+REMOTE: Created binary drop for java.util.concurrent.ConcurrentMap
+REMOTE: Created binary drop for java.nio.IntBuffer
+REMOTE: Created binary drop for java.lang.ClassValue
+REMOTE: Created binary drop for java.io.OutputStream
+REMOTE: Created binary drop for java.nio.file.Watchable
+REMOTE: Created binary drop for sun.util.locale.BaseLocale
+REMOTE: Created binary drop for java.lang.Float
+REMOTE: Created binary drop for java.nio.file.Path
+REMOTE: Created binary drop for java.util.Dictionary
+REMOTE: Created binary drop for java.lang.Package
+REMOTE: Created binary drop for java.nio.charset.CharacterCodingException
+REMOTE: Created binary drop for java.lang.Iterable
+REMOTE: Created binary drop for java.util.jar.JarEntry
+REMOTE: Created binary drop for java.util.WeakHashMap
+REMOTE: Created binary drop for java.security.GeneralSecurityException
+REMOTE: Created binary drop for java.lang.ClassLoader
+REMOTE: Created binary drop for java.lang.ReflectiveOperationException
+REMOTE: Created binary drop for java.nio.DoubleBuffer
+REMOTE: Created binary drop for java.io.IOException
+REMOTE: Created binary drop for java.lang.Exception
+REMOTE: Created binary drop for java.util.SortedMap
+REMOTE: Created binary drop for java.util.zip.ZipException
+REMOTE: Created binary drop for java.util.Hashtable
+REMOTE: Created binary drop for java.nio.FloatBuffer
+REMOTE: Created binary drop for java.lang.reflect.Method
+REMOTE: Created binary drop for java.io.Writer
+REMOTE: Created binary drop for sun.util.locale.ParseStatus
+REMOTE: Created binary drop for java.lang.StackTraceElement
+REMOTE: Created binary drop for java.nio.charset.CharsetDecoder
+REMOTE: Created binary drop for sun.misc.MetaIndex
+REMOTE: Created binary drop for java.security.PermissionCollection
+REMOTE: Created binary drop for java.lang.Object
+REMOTE: Created binary drop for java.util.spi.LocaleServiceProvider
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: Parsing promises
+REMOTE: ##SUBTASK, Parsing promises
+REMOTE: Added 3 promises for java.lang.[] in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7e32c033
+REMOTE: Added 3 promises for java.lang.[] in TestTypeAnnotationsWithFancyTypes: com.surelogic.tree.SyntaxTreeNode@4aa31ffc
+REMOTE: Added 37 promises for java.lang.Boolean in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@45d08974
+REMOTE: Added 18 promises for java.nio.CharBuffer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@72d7809a
+REMOTE: Added 45 promises for java.util.ResourceBundle in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@698b3098
+REMOTE: Added 3 promises for java.util.jar.Manifest in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@117a18ab
+REMOTE: Added 34 promises for java.util.concurrent.ExecutorService in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6394bc07
+REMOTE: Added 12 promises for java.lang.reflect.InvocationTargetException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3b409c4a
+REMOTE: Added 88 promises for test.TestThreadSafe2 in TestTypeAnnotationsWithFancyTypes: com.surelogic.tree.SyntaxTreeNode@790b18b5
+REMOTE: Added 108 promises for java.util.AbstractMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6cf9f0d2
+REMOTE: Added 6 promises for java.lang.InterruptedException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2448a9bc
+REMOTE: Added 22 promises for java.lang.Number in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4c56becd
+REMOTE: Added 89 promises for java.util.List in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@34730737
+REMOTE: Added 109 promises for java.lang.StringBuilder in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@1263afca
+REMOTE: Added 13 promises for java.lang.Enum in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3d26c287
+REMOTE: Added 70 promises for java.lang.Double in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@13cda4b8
+REMOTE: Added 6 promises for java.lang.InstantiationException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@59087d0a
+REMOTE: Added 4 promises for java.util.Enumeration in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@1bd8ef7b
+REMOTE: Added 47 promises for java.lang.Throwable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@56b405ea
+REMOTE: Added 6 promises for java.lang.NoSuchFieldException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@135e6f65
+REMOTE: Added 16 promises for java.util.AbstractSet in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3df48ac6
+REMOTE: Added 21 promises for java.util.Stack in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@5ffea746
+REMOTE: Added 170 promises for java.util.Vector in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@172ab90e
+REMOTE: Added 55 promises for java.util.AbstractCollection in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@13fe6502
+REMOTE: Added 22 promises for java.util.concurrent.locks.Condition in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@542ccef3
+REMOTE: Added 54 promises for java.util.Set in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@5274177a
+REMOTE: Added 18 promises for java.util.Queue in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@5ac83e81
+REMOTE: Added 6 promises for java.lang.Appendable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@131fe933
+REMOTE: Added 3 promises for java.util.zip.ZipEntry in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6007af8f
+REMOTE: Added 18 promises for java.util.ListIterator in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6cd36edc
+REMOTE: Added 18 promises for java.net.URISyntaxException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@1244f0a5
+REMOTE: Added 61 promises for java.lang.Short in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@e639e86
+REMOTE: Added 141 promises for java.lang.Thread in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@260fbada
+REMOTE: Added 12 promises for java.lang.Class in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@22352beb
+REMOTE: Added 6 promises for java.util.Iterator in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@28f39b83
+REMOTE: Added 6 promises for java.lang.NumberFormatException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@17e1fe9b
+REMOTE: Added 27 promises for test.TestThreadSafe in TestTypeAnnotationsWithFancyTypes: com.surelogic.tree.SyntaxTreeNode@46d600cb
+REMOTE: Added 6 promises for java.io.PrintStream in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@70a30ffe
+REMOTE: Added 96 promises for java.lang.Integer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6254b579
+REMOTE: Added 20 promises for java.util.concurrent.locks.Lock in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@51265681
+REMOTE: Added 54 promises for java.util.Collection in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@20905a11
+REMOTE: Added 27 promises for test.TestImmutable in TestTypeAnnotationsWithFancyTypes: com.surelogic.tree.SyntaxTreeNode@5ee6cf28
+REMOTE: Added 6 promises for java.io.PrintWriter in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3ec3a713
+REMOTE: [GC (Allocation Failure)  124289K->59145K(164352K), 0.0061440 secs]
+REMOTE: Added 1 promises for java.lang.ThreadLocal in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@1a1d8c29
+REMOTE: Added 3 promises for java.util.Date in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@14d54c64
+REMOTE: Added 29 promises for java.util.concurrent.TimeUnit in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7730a075
+REMOTE: Added 12 promises for java.lang.CharSequence in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@591e04fb
+REMOTE: Added 3 promises for java.util.Locale in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@451205d6
+REMOTE: Added 59 promises for java.lang.Byte in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@eac27d6
+REMOTE: Added 61 promises for java.util.HashMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4908967b
+REMOTE: Added 7 promises for java.util.concurrent.locks.ReadWriteLock in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4960ba84
+REMOTE: Added 144 promises for java.lang.AbstractStringBuilder in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6c3f117
+REMOTE: Added 1 promises for java.lang.ref.ReferenceQueue in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@18fcac3c
+REMOTE: Added 3 promises for java.nio.file.DirectoryStream in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4c952bc7
+REMOTE: Added 2 promises for java.lang.ref.SoftReference in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6e98429d
+REMOTE: Added 139 promises for java.util.LinkedList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@293009e4
+REMOTE: Added 87 promises for java.util.Deque in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@d0c582d
+REMOTE: Added 6 promises for java.lang.CloneNotSupportedException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@cbbdd7
+REMOTE: Added 88 promises for java.util.jar.Attributes in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@55c5b113
+REMOTE: Added 12 promises for java.lang.IllegalArgumentException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@247b0c30
+REMOTE: Added 12 promises for java.lang.RuntimeException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@717a9cf6
+REMOTE: WARNING: TreeAccessor couldn't find equals(java.lang.Object) in java.util.ArrayList
+REMOTE: Added 96 promises for java.lang.Long in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@33c193c5
+REMOTE: WARNING: TreeAccessor couldn't find hashCode() in java.util.ArrayList
+REMOTE: Added 6 promises for java.lang.IllegalAccessException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@35e94328
+REMOTE: Added 12 promises for java.lang.SecurityException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6698e466
+REMOTE: Added 29 promises for java.util.AbstractSequentialList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2ed4be56
+REMOTE: Added 64 promises for java.util.Map in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6359ae00
+REMOTE: Added 158 promises for java.lang.StringBuffer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@47487317
+REMOTE: Added 90 promises for test.TestContainable in TestTypeAnnotationsWithFancyTypes: com.surelogic.tree.SyntaxTreeNode@254e5263
+REMOTE: Added 3 promises for java.lang.Iterable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@18fe334
+REMOTE: Added 73 promises for java.lang.Float in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7cd07ec
+REMOTE: Added 17 promises for java.util.concurrent.ConcurrentMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@869239a
+REMOTE: Added 3 promises for java.nio.file.Path in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@51b73646
+REMOTE: Added 104 promises for java.util.ArrayList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@439b7592
+REMOTE: Added 29 promises for java.util.Dictionary in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@470eb157
+REMOTE: Added 138 promises for java.math.BigInteger in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@720fd069
+REMOTE: Added 60 promises for java.util.AbstractList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@276b62cd
+REMOTE: Added 301 promises for java.lang.String in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4730b76e
+REMOTE: Added 12 promises for java.lang.Exception in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@1c8d52d7
+REMOTE: Added 6 promises for java.io.Writer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4e90d816
+REMOTE: Added 31 promises for java.lang.Object in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@17783ef7
+REMOTE: Added 31 promises for java.util.SortedMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@327cc52a
+REMOTE: Added 56 promises for java.util.WeakHashMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3c8593a6
+REMOTE: Added 83 promises for java.util.Hashtable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@df63d89
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: Scrubbing promises
+REMOTE: ##SUBTASK, Scrubbing promises
+REMOTE: [GC (Allocation Failure)  136969K->61057K(166912K), 0.0069750 secs]
+REMOTE: Creating RegionModel java.lang.Object.Instance for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: Starting analyses
+REMOTE: Using new analysis framework -- groups
+REMOTE: Starting group: ConcurrencyDetector, ThreadEffectsModule, StructureAnalysis, ParameterizedTypeAnalysis, EqualityAnalysis, LayersAnalysis
+REMOTE: ##SUBTASK, Starting parallel ConcurrencyDetector [0]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Starting parallel ConcurrencyDetector [0]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##SUBTASK, Starting parallel ThreadEffectsModule [1]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Starting parallel ThreadEffectsModule [1]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##SUBTASK, Starting parallel StructureAnalysis [2]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Starting parallel StructureAnalysis [2]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##SUBTASK, Starting parallel ParameterizedTypeAnalysis [3]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Starting parallel ParameterizedTypeAnalysis [3]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##SUBTASK, Starting parallel EqualityAnalysis [4]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Starting parallel EqualityAnalysis [4]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##SUBTASK, Starting parallel LayersAnalysis [5]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Starting parallel LayersAnalysis [5]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Starting parallel ConcurrencyDetector [0]: 4 for TestTypeAnnotationsWithFancyTypes
+REMOTE: Starting parallel ConcurrencyDetector [0]: 4 for TestTypeAnnotationsWithFancyTypes
+REMOTE: ##SUBTASK, Starting parallel ThreadEffectsModule [1]: 4 for TestTypeAnnotationsWithFancyTypes
+REMOTE: Starting parallel ThreadEffectsModule [1]: 4 for TestTypeAnnotationsWithFancyTypes
+REMOTE: ##SUBTASK, Starting parallel StructureAnalysis [2]: 4 for TestTypeAnnotationsWithFancyTypes
+REMOTE: Starting parallel StructureAnalysis [2]: 4 for TestTypeAnnotationsWithFancyTypes
+REMOTE: ##SUBTASK, Starting parallel ParameterizedTypeAnalysis [3]: 4 for TestTypeAnnotationsWithFancyTypes
+REMOTE: Starting parallel ParameterizedTypeAnalysis [3]: 4 for TestTypeAnnotationsWithFancyTypes
+REMOTE: ##SUBTASK, Starting parallel EqualityAnalysis [4]: 4 for TestTypeAnnotationsWithFancyTypes
+REMOTE: Starting parallel EqualityAnalysis [4]: 4 for TestTypeAnnotationsWithFancyTypes
+REMOTE: ##SUBTASK, Starting parallel LayersAnalysis [5]: 4 for TestTypeAnnotationsWithFancyTypes
+REMOTE: Starting parallel LayersAnalysis [5]: 4 for TestTypeAnnotationsWithFancyTypes
+REMOTE: ##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestTypeAnnotationsWithFancyTypes/src/test/TestImmutable.java
+REMOTE: ##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestTypeAnnotationsWithFancyTypes/src/test/TestThreadSafe2.java
+REMOTE: ##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestTypeAnnotationsWithFancyTypes/src/test/TestThreadSafe.java
+REMOTE: ##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestTypeAnnotationsWithFancyTypes/src/test/TestContainable.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestTypeAnnotationsWithFancyTypes/src/test/TestImmutable.java
+REMOTE: ##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestTypeAnnotationsWithFancyTypes/src/test/TestThreadSafe.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestTypeAnnotationsWithFancyTypes/src/test/TestThreadSafe2.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestTypeAnnotationsWithFancyTypes/src/test/TestContainable.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestTypeAnnotationsWithFancyTypes/src/test/TestThreadSafe.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestTypeAnnotationsWithFancyTypes/src/test/TestThreadSafe.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestTypeAnnotationsWithFancyTypes/src/test/TestContainable.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestTypeAnnotationsWithFancyTypes/src/test/TestThreadSafe2.java
+REMOTE: ##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestTypeAnnotationsWithFancyTypes/src/test/TestImmutable.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestTypeAnnotationsWithFancyTypes/src/test/TestThreadSafe2.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestTypeAnnotationsWithFancyTypes/src/test/TestContainable.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestTypeAnnotationsWithFancyTypes/src/test/TestImmutable.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestTypeAnnotationsWithFancyTypes/src/test/TestThreadSafe.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestTypeAnnotationsWithFancyTypes/src/test/TestThreadSafe2.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestTypeAnnotationsWithFancyTypes/src/test/TestImmutable.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestTypeAnnotationsWithFancyTypes/src/test/TestContainable.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestTypeAnnotationsWithFancyTypes/src/test/TestImmutable.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestTypeAnnotationsWithFancyTypes/src/test/TestContainable.java
+REMOTE: ##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestTypeAnnotationsWithFancyTypes/src/test/TestThreadSafe.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestTypeAnnotationsWithFancyTypes/src/test/TestThreadSafe2.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: Starting group: UtilityAnalysis, SingletonAnalysis
+REMOTE: com.surelogic.analysis.granules.FlowUnitGranulator@f2a0b8e: 202
+REMOTE: com.surelogic.analysis.visitors.TopLevelAnalysisVisitor$1@28ba21f3: 109
+REMOTE: com.surelogic.analysis.uniqueness.classic.sideeffecting.UniquenessAnalysisModule$1@694f9431: 43
+REMOTE: ##SUBTASK, Starting parallel UtilityAnalysis [6]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Starting parallel UtilityAnalysis [6]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##SUBTASK, Starting parallel SingletonAnalysis [7]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Starting parallel SingletonAnalysis [7]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Starting parallel UtilityAnalysis [6]: 109 for TestTypeAnnotationsWithFancyTypes
+REMOTE: Starting parallel UtilityAnalysis [6]: 109 for TestTypeAnnotationsWithFancyTypes
+REMOTE: ##SUBTASK, Starting parallel SingletonAnalysis [7]: 109 for TestTypeAnnotationsWithFancyTypes
+REMOTE: Starting parallel SingletonAnalysis [7]: 109 for TestTypeAnnotationsWithFancyTypes
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestThreadSafe2
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestThreadSafe2.CClass
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe2
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestThreadSafe2.CInterface1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe2.CClass
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestThreadSafe2.CInterface2
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe2.CInterface1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestThreadSafe2.Class
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe2.CInterface2
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestThreadSafe2.Test02b
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestThreadSafe2.Interface1
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestThreadSafe2.Test04
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestThreadSafe2.Test02a
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestThreadSafe2.Test03
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe2.Class
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestThreadSafe2.Interface2
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestThreadSafe2.Test05
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe2.Test02b
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe2.Interface1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe2.Test02a
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe2.Test03
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestThreadSafe2.Test06
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe2.Test05
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestThreadSafe2.Test08
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestThreadSafe2.Test09
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestThreadSafe2.Test07
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe2.Test04
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestThreadSafe2.Test10
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe2.Test06
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe2.Interface2
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestThreadSafe2.Test11
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe2.Test08
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe2.Test09
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe2.Test07
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe2.Test10
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestThreadSafe2.Test12
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestThreadSafe2.Test16
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe2.Test11
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestThreadSafe2.Test17
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe2.Test12
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestThreadSafe2.Test15
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestThreadSafe2.Test14
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestThreadSafe2.Test19
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestThreadSafe2.Test13
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe2.Test19
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe2.Test14
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestThreadSafe2.Test18
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe2.Test16
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe2.Test17
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestThreadSafe2.Test20
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestImmutable
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe2.Test15
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestImmutable.IClass
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestImmutable.IInterface1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe2.Test18
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe2.Test20
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestImmutable.Class
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestImmutable.Interface1
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestImmutable
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestImmutable.IInterface2
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestImmutable.IClass
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe2.Test13
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestImmutable.IInterface1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestImmutable.Interface2
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestImmutable.Interface1
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestImmutable.Test02
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestImmutable.IInterface2
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestImmutable.Test01
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestImmutable.Test04
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestImmutable.Interface2
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestImmutable.Class
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestImmutable.Test06
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestImmutable.Test05
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestImmutable.Test02
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestImmutable.Test01
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestImmutable.Test03
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestImmutable.Test04
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestImmutable.Test07
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestImmutable.Test06
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestImmutable.Test09
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestImmutable.Test05
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestImmutable.Test08
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestImmutable.Test07
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestImmutable.Test10
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestImmutable.Test13
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestImmutable.Test12
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestImmutable.Test11
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestImmutable.Test14
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestImmutable.Test09
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestImmutable.Test08
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestImmutable.Test03
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestImmutable.Test16
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestImmutable.Test13
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestImmutable.Test12
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestImmutable.Test11
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestImmutable.Test14
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestImmutable.Test15
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestImmutable.Test16
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestImmutable.Test18
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestImmutable.Test10
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestImmutable.Test18
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestImmutable.Test19
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestImmutable.Test20
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestImmutable.Test17
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestThreadSafe.TSInterface1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestImmutable.Test15
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestImmutable.Test17
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestImmutable.Test20
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestImmutable.Test19
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestThreadSafe.TSClass
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestThreadSafe
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe.TSClass
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestThreadSafe.TSInterface2
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe.TSInterface1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe.TSInterface2
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestThreadSafe.Test05
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestThreadSafe.Test03
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestThreadSafe.Interface2
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestThreadSafe.Class
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestThreadSafe.Test01
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestThreadSafe.Test02
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe.Test05
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe.Interface2
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestThreadSafe.Interface1
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe.Test03
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestThreadSafe.Test04
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe.Class
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe.Test01
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestThreadSafe.Test08
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestThreadSafe.Test07
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestThreadSafe.Test06
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe.Test04
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestThreadSafe.Test09
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe.Test02
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe.Test08
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe.Test06
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe.Test07
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestThreadSafe.Test11
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestThreadSafe.Test10
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe.Interface1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe.Test09
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestThreadSafe.Test15
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestThreadSafe.Test14
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestThreadSafe.Test17
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestThreadSafe.Test13
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe.Test11
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe.Test10
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestThreadSafe.Test12
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe.Test13
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestThreadSafe.Test18
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestThreadSafe.Test19
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestThreadSafe.Test16
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe.Test15
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe.Test14
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe.Test17
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestThreadSafe.Test20
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe.Test18
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe.Test19
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestContainable.CClass
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestContainable.CInterface1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestContainable.CClass
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestContainable.CInterface2
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestContainable
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe.Test12
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestContainable
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe.Test20
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestContainable.Class
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestThreadSafe.Test16
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestContainable.CInterface2
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestContainable.Interface2
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestContainable.Interface1
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestContainable.CInterface1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestContainable.Test02a
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestContainable.Test01
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestContainable.Class
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestContainable.Test02b
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestContainable.Interface2
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestContainable.Interface1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestContainable.Test03
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestContainable.Test04
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestContainable.Test05
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestContainable.Test06
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestContainable.Test02a
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestContainable.Test02b
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestContainable.Test01
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestContainable.Test04
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestContainable.Test09
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestContainable.Test07
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestContainable.Test03
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestContainable.Test05
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestContainable.Test09
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestContainable.Test06
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestContainable.Test10
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestContainable.Test08
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestContainable.Test11
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestContainable.Test14
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestContainable.Test07
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestContainable.Test13
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestContainable.Test10
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestContainable.Test12
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestContainable.Test08
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestContainable.Test16
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestContainable.Test13
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestContainable.Test16
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestContainable.Test11
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestContainable.Test15
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestContainable.Test18
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestContainable.Test17
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestContainable.Test19
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestContainable.Test12
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.TestContainable.Test20
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestContainable.Test17
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestContainable.Test20
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestContainable.Test15
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestContainable.Test18
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestContainable.Test14
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.TestContainable.Test19
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: Starting group: LockModelBuilder
+REMOTE: ##SUBTASK, Starting parallel LockModelBuilder [8]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Starting parallel LockModelBuilder [8]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Starting parallel LockModelBuilder [8]: 4 for TestTypeAnnotationsWithFancyTypes
+REMOTE: Starting parallel LockModelBuilder [8]: 4 for TestTypeAnnotationsWithFancyTypes
+REMOTE: ##SUBTASK, Checking [ Lock Model Builder ] file:/Users/aarong/git/regression/regression/TestTypeAnnotationsWithFancyTypes/src/test/TestThreadSafe2.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Lock Model Builder ] file:/Users/aarong/git/regression/regression/TestTypeAnnotationsWithFancyTypes/src/test/TestImmutable.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Lock Model Builder ] file:/Users/aarong/git/regression/regression/TestTypeAnnotationsWithFancyTypes/src/test/TestThreadSafe.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Lock Model Builder ] file:/Users/aarong/git/regression/regression/TestTypeAnnotationsWithFancyTypes/src/test/TestContainable.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: Starting group: ThreadSafeAnalysis
+REMOTE: ##SUBTASK, Starting parallel ThreadSafeAnalysis [9]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Starting parallel ThreadSafeAnalysis [9]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Starting parallel ThreadSafeAnalysis [9]: 109 for TestTypeAnnotationsWithFancyTypes
+REMOTE: Starting parallel ThreadSafeAnalysis [9]: 109 for TestTypeAnnotationsWithFancyTypes
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestThreadSafe2
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestThreadSafe2.CClass
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestThreadSafe2.CInterface1
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestThreadSafe2.CInterface2
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestThreadSafe2.Class
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestThreadSafe2.Interface1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestThreadSafe2.Interface2
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestThreadSafe2.Test02b
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestThreadSafe2.Test03
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestThreadSafe2.Test04
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestThreadSafe2.Test02a
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestThreadSafe2.Test05
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestThreadSafe2.Test06
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestThreadSafe2.Test07
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestThreadSafe2.Test08
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestThreadSafe2.Test09
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestThreadSafe2.Test10
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestThreadSafe2.Test11
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestThreadSafe2.Test13
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestThreadSafe2.Test17
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestThreadSafe2.Test18
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestThreadSafe2.Test19
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestThreadSafe2.Test16
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestThreadSafe2.Test15
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestThreadSafe2.Test14
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestThreadSafe2.Test12
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestThreadSafe2.Test20
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestImmutable
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestImmutable.IClass
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestImmutable.IInterface1
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestImmutable.IInterface2
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestImmutable.Class
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestImmutable.Interface1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestImmutable.Test01
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestImmutable.Interface2
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestImmutable.Test03
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestImmutable.Test04
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestImmutable.Test05
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestImmutable.Test02
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestImmutable.Test06
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestImmutable.Test07
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestImmutable.Test08
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestImmutable.Test09
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestImmutable.Test10
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestImmutable.Test11
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestImmutable.Test12
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestImmutable.Test13
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestImmutable.Test16
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestImmutable.Test17
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestImmutable.Test15
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestImmutable.Test14
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestImmutable.Test18
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestImmutable.Test19
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestImmutable.Test20
+REMOTE: [GC (Allocation Failure)  138881K->64679K(174080K), 0.0100440 secs]
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestThreadSafe
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestThreadSafe.TSClass
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestThreadSafe.TSInterface1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestThreadSafe.TSInterface2
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestThreadSafe.Class
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestThreadSafe.Interface1
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestThreadSafe.Interface2
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestThreadSafe.Test02
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestThreadSafe.Test03
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestThreadSafe.Test01
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestThreadSafe.Test05
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestThreadSafe.Test04
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestThreadSafe.Test07
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestThreadSafe.Test06
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestThreadSafe.Test08
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestThreadSafe.Test09
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestThreadSafe.Test10
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestThreadSafe.Test11
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestThreadSafe.Test12
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestThreadSafe.Test13
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestThreadSafe.Test14
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestThreadSafe.Test15
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestThreadSafe.Test16
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestThreadSafe.Test17
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestThreadSafe.Test18
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestThreadSafe.Test19
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestThreadSafe.Test20
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestContainable
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestContainable.CInterface1
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestContainable.CInterface2
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestContainable.CClass
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestContainable.Class
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestContainable.Interface2
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestContainable.Interface1
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestContainable.Test01
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestContainable.Test02a
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestContainable.Test03
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestContainable.Test04
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestContainable.Test02b
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestContainable.Test05
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestContainable.Test06
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestContainable.Test07
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestContainable.Test08
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestContainable.Test09
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestContainable.Test10
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestContainable.Test11
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestContainable.Test12
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestContainable.Test13
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestContainable.Test14
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestContainable.Test15
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestContainable.Test16
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestContainable.Test17
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestContainable.Test18
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestContainable.Test19
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.TestContainable.Test20
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: Starting group: NewLockAnalysis
+REMOTE: ##SUBTASK, Starting parallel NewLockAnalysis [10]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Starting parallel NewLockAnalysis [10]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Starting parallel NewLockAnalysis [10]: 4 for TestTypeAnnotationsWithFancyTypes
+REMOTE: Starting parallel NewLockAnalysis [10]: 4 for TestTypeAnnotationsWithFancyTypes
+REMOTE: ##SUBTASK, Checking [ New Lock policy ] file:/Users/aarong/git/regression/regression/TestTypeAnnotationsWithFancyTypes/src/test/TestThreadSafe2.java
+REMOTE: ##SUBTASK, Checking [ New Lock policy ] file:/Users/aarong/git/regression/regression/TestTypeAnnotationsWithFancyTypes/src/test/TestImmutable.java
+REMOTE: ##SUBTASK, Checking [ New Lock policy ] file:/Users/aarong/git/regression/regression/TestTypeAnnotationsWithFancyTypes/src/test/TestThreadSafe.java
+REMOTE: ##SUBTASK, Checking [ New Lock policy ] file:/Users/aarong/git/regression/regression/TestTypeAnnotationsWithFancyTypes/src/test/TestContainable.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: Starting group: EffectsAnalysis
+REMOTE: ##SUBTASK, Starting parallel EffectsAnalysis [11]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Starting parallel EffectsAnalysis [11]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Starting parallel EffectsAnalysis [11]: 109 for TestTypeAnnotationsWithFancyTypes
+REMOTE: Starting parallel EffectsAnalysis [11]: 109 for TestTypeAnnotationsWithFancyTypes
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestThreadSafe2
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestThreadSafe2.CClass
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestThreadSafe2.CInterface1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestThreadSafe2.CInterface2
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestThreadSafe2.Class
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestThreadSafe2.Interface1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestThreadSafe2.Interface2
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestThreadSafe2.Test02b
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestThreadSafe2.Test05
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestThreadSafe2.Test02a
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestThreadSafe2.Test06
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestThreadSafe2.Test03
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestThreadSafe2.Test08
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestThreadSafe2.Test07
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestThreadSafe2.Test04
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestThreadSafe2.Test09
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestThreadSafe2.Test11
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestThreadSafe2.Test10
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestThreadSafe2.Test14
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestThreadSafe2.Test13
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestThreadSafe2.Test12
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestThreadSafe2.Test16
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestThreadSafe2.Test15
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestThreadSafe2.Test18
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestThreadSafe2.Test20
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestImmutable
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestThreadSafe2.Test17
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestImmutable.IClass
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestThreadSafe2.Test19
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestImmutable.IInterface1
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestImmutable.Interface1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestImmutable.Test01
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestImmutable.Class
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestImmutable.Test03
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestImmutable.IInterface2
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestImmutable.Test02
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestImmutable.Interface2
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestImmutable.Test06
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestImmutable.Test05
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestImmutable.Test09
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestImmutable.Test04
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestImmutable.Test08
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestImmutable.Test11
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestImmutable.Test12
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestImmutable.Test13
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestImmutable.Test07
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestImmutable.Test15
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestImmutable.Test14
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestImmutable.Test16
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestImmutable.Test17
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestImmutable.Test18
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestImmutable.Test10
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestImmutable.Test19
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestImmutable.Test20
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestThreadSafe
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestThreadSafe.TSClass
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestThreadSafe.TSInterface1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestThreadSafe.TSInterface2
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestThreadSafe.Class
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestThreadSafe.Interface2
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestThreadSafe.Interface1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestThreadSafe.Test02
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestThreadSafe.Test03
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestThreadSafe.Test06
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestThreadSafe.Test01
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestThreadSafe.Test07
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestThreadSafe.Test05
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestThreadSafe.Test09
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestThreadSafe.Test04
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestThreadSafe.Test08
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestThreadSafe.Test10
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestThreadSafe.Test11
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestThreadSafe.Test13
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestThreadSafe.Test14
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestThreadSafe.Test15
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestThreadSafe.Test12
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestThreadSafe.Test16
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestThreadSafe.Test17
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestThreadSafe.Test18
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestThreadSafe.Test19
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestThreadSafe.Test20
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestContainable
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestContainable.CInterface1
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestContainable.Class
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestContainable.CClass
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestContainable.Test01
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestContainable.CInterface2
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestContainable.Test02b
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestContainable.Test02a
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestContainable.Interface2
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestContainable.Interface1
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestContainable.Test06
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestContainable.Test05
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestContainable.Test04
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestContainable.Test03
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestContainable.Test08
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestContainable.Test07
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestContainable.Test09
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestContainable.Test11
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestContainable.Test13
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestContainable.Test10
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestContainable.Test14
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestContainable.Test12
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestContainable.Test15
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestContainable.Test17
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestContainable.Test18
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestContainable.Test16
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestContainable.Test20
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.TestContainable.Test19
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: Starting group: UniquenessAnalysisModule
+REMOTE: ##SUBTASK, Starting parallel UniquenessAnalysisModule [12]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Starting parallel UniquenessAnalysisModule [12]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Starting parallel UniquenessAnalysisModule [12]: 43 for TestTypeAnnotationsWithFancyTypes
+REMOTE: Starting parallel UniquenessAnalysisModule [12]: 43 for TestTypeAnnotationsWithFancyTypes
+REMOTE: ##SUBTASK, Checking [ Uniqueness ] test.TestThreadSafe2.Test16.Test16(T)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Uniqueness ] test.TestThreadSafe2.Test13.Test13(T)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Uniqueness ] test.TestThreadSafe2.Test08.Test08(test.TestThreadSafe2 . CInterface1)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Uniqueness ] test.TestThreadSafe2.Test14.Test14(T)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Uniqueness ] test.TestThreadSafe2.Test03.Test03(test.TestThreadSafe2 . Class)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Uniqueness ] test.TestThreadSafe2.Test07.Test07(test.TestThreadSafe2 . Interface1)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Uniqueness ] test.TestThreadSafe2.Test06.Test06(test.TestThreadSafe2 . Interface1)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Uniqueness ] test.TestThreadSafe2.Test18.Test18(T)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Uniqueness ] test.TestThreadSafe2.CClass.CClass()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Uniqueness ] test.TestThreadSafe2.Test20.Test20(T)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Uniqueness ] test.TestThreadSafe2.Test12.Test12(T)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Uniqueness ] test.TestThreadSafe2.Test17.Test17(T)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Uniqueness ] test.TestThreadSafe2.Test19.Test19(T)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Uniqueness ] test.TestThreadSafe2.Test02a.Test02a(int [])
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Uniqueness ] test.TestThreadSafe2.Test09.Test09(T)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Uniqueness ] test.TestThreadSafe2.Test10.Test10(T)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Uniqueness ] test.TestThreadSafe2.Test02b.Test02b(java.lang.Object [])
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Uniqueness ] test.TestThreadSafe2.Test11.Test11(T)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Uniqueness ] test.TestThreadSafe2.Test04.Test04(test.TestThreadSafe2 . Class)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Uniqueness ] test.TestThreadSafe2.Test05.Test05(test.TestThreadSafe2 . CClass)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Uniqueness ] test.TestThreadSafe2.Test15.Test15(T)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Uniqueness ] test.TestContainable.Test11.Test11(T)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Uniqueness ] test.TestContainable.Test02a.Test02a(int [])
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Uniqueness ] test.TestContainable.Test08.Test08(test.TestContainable . CInterface1)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Uniqueness ] test.TestContainable.Test14.Test14(T)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Uniqueness ] test.TestContainable.Test06.Test06(test.TestContainable . Interface1)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Uniqueness ] test.TestContainable.Test15.Test15(T)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Uniqueness ] test.TestContainable.Test19.Test19(T)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Uniqueness ] test.TestContainable.Test04.Test04(test.TestContainable . Class)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Uniqueness ] test.TestContainable.Test13.Test13(T)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Uniqueness ] test.TestContainable.CClass.CClass()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Uniqueness ] test.TestContainable.Test12.Test12(T)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Uniqueness ] test.TestContainable.Test09.Test09(T)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Uniqueness ] test.TestContainable.Test20.Test20(T)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Uniqueness ] test.TestContainable.Test18.Test18(T)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Uniqueness ] test.TestContainable.Test05.Test05(test.TestContainable . CClass)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Uniqueness ] test.TestContainable.Test02b.Test02b(test.TestContainable . CClass [])
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Uniqueness ] test.TestContainable.Test16.Test16(T)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Uniqueness ] test.TestContainable.Test07.Test07(test.TestContainable . Interface1)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Uniqueness ] test.TestContainable.Test10.Test10(T)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Uniqueness ] test.TestContainable.Test17.Test17(T)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Uniqueness ] test.TestContainable.Test01.Test01(int)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Uniqueness ] test.TestContainable.Test03.Test03(test.TestContainable . Class)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: Starting group: NullablePreprocessorModule
+REMOTE: ##SUBTASK, Starting parallel NullablePreprocessorModule [13]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Starting parallel NullablePreprocessorModule [13]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Starting parallel NullablePreprocessorModule [13]: 4 for TestTypeAnnotationsWithFancyTypes
+REMOTE: Starting parallel NullablePreprocessorModule [13]: 4 for TestTypeAnnotationsWithFancyTypes
+REMOTE: ##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestTypeAnnotationsWithFancyTypes/src/test/TestThreadSafe2.java
+REMOTE: ##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestTypeAnnotationsWithFancyTypes/src/test/TestImmutable.java
+REMOTE: ##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestTypeAnnotationsWithFancyTypes/src/test/TestThreadSafe.java
+REMOTE: ##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestTypeAnnotationsWithFancyTypes/src/test/TestContainable.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: Starting group: NullableModule2
+REMOTE: ##SUBTASK, Starting parallel NullableModule2 [14]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Starting parallel NullableModule2 [14]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Starting parallel NullableModule2 [14]: 202 for TestTypeAnnotationsWithFancyTypes
+REMOTE: Starting parallel NullableModule2 [14]: 202 for TestTypeAnnotationsWithFancyTypes
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.TestThreadSafe2()
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.CClass.CClass()
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.CClass.<clinit>
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.CInterface1.<clinit>
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.CInterface2.<clinit>
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Class.Class()
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Class.<clinit>
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Interface1.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Test02a.<clinit>
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Test02b.Test02b(java.lang.Object [])
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Test02b.<clinit>
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Test02a.Test02a(int [])
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Interface2.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Test03.<clinit>
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Test04.Test04(test.TestThreadSafe2 . Class)
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Test03.Test03(test.TestThreadSafe2 . Class)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Test04.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Test05.Test05(test.TestThreadSafe2 . CClass)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Test06.Test06(test.TestThreadSafe2 . Interface1)
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Test05.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Test06.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Test07.Test07(test.TestThreadSafe2 . Interface1)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Test07.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Test08.Test08(test.TestThreadSafe2 . CInterface1)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Test08.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Test09.Test09(T)
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Test09.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Test10.Test10(T)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Test10.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Test11.Test11(T)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Test11.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Test12.<clinit>
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Test12.Test12(T)
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Test13.Test13(T)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Test13.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Test14.Test14(T)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Test14.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Test15.Test15(T)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Test16.Test16(T)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Test16.<clinit>
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Test17.Test17(T)
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Test15.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Test17.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Test18.Test18(T)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Test18.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Test19.Test19(T)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Test19.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Test20.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestImmutable.TestImmutable()
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe2.Test20.Test20(T)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestImmutable.IClass.IClass()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestImmutable.IClass.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestImmutable.IInterface1.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestImmutable.IInterface2.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestImmutable.Class.Class()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestImmutable.Interface1.<clinit>
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestImmutable.Interface2.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestImmutable.Test01.Test01(int)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestImmutable.Test01.<clinit>
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestImmutable.Class.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestImmutable.Test02.<clinit>
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestImmutable.Test03.Test03(test.TestImmutable . Class)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestImmutable.Test03.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestImmutable.Test04.Test04(test.TestImmutable . Class)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestImmutable.Test02.Test02(int [])
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestImmutable.Test05.Test05(test.TestImmutable . IClass)
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestImmutable.Test04.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestImmutable.Test05.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestImmutable.Test06.Test06(test.TestImmutable . Interface1)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestImmutable.Test06.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestImmutable.Test07.Test07(test.TestImmutable . Interface1)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestImmutable.Test07.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestImmutable.Test08.Test08(test.TestImmutable . IInterface1)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestImmutable.Test08.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestImmutable.Test09.Test09(T)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestImmutable.Test09.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestImmutable.Test10.Test10(T)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestImmutable.Test10.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestImmutable.Test11.Test11(T)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestImmutable.Test11.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestImmutable.Test12.Test12(T)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestImmutable.Test12.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestImmutable.Test13.Test13(T)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestImmutable.Test14.Test14(T)
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestImmutable.Test14.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestImmutable.Test15.Test15(T)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestImmutable.Test15.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestImmutable.Test16.Test16(T)
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestImmutable.Test13.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestImmutable.Test16.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestImmutable.Test17.Test17(T)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestImmutable.Test17.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestImmutable.Test18.Test18(T)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestImmutable.Test18.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestImmutable.Test19.Test19(T)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestImmutable.Test19.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestImmutable.Test20.Test20(T)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestImmutable.Test20.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestImmutable.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.TestThreadSafe()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.TSClass.TSClass()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.TSClass.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.TSInterface1.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.TSInterface2.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Class.Class()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Class.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Interface1.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Interface2.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Test01.<clinit>
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Test01.Test01(int)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Test02.Test02(int [])
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Test02.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Test03.Test03(test.TestThreadSafe . Class)
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Test03.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Test04.Test04(test.TestThreadSafe . Class)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Test04.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Test05.Test05(test.TestThreadSafe . TSClass)
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Test05.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Test06.Test06(test.TestThreadSafe . Interface1)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Test06.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Test07.Test07(test.TestThreadSafe . Interface1)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Test07.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Test08.Test08(test.TestThreadSafe . TSInterface1)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Test08.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Test09.Test09(T)
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Test09.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Test10.Test10(T)
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Test10.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Test11.Test11(T)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Test11.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Test12.Test12(T)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Test12.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Test13.Test13(T)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Test13.<clinit>
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Test14.Test14(T)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Test14.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Test15.Test15(T)
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Test15.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Test16.Test16(T)
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Test16.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Test17.Test17(T)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Test17.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Test18.Test18(T)
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Test18.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Test19.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Test20.Test20(T)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestContainable.TestContainable()
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Test20.<clinit>
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.Test19.Test19(T)
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestThreadSafe.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestContainable.CClass.CClass()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestContainable.CClass.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestContainable.CInterface1.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestContainable.CInterface2.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestContainable.Class.Class()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestContainable.Class.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestContainable.Interface1.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestContainable.Interface2.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestContainable.Test01.Test01(int)
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestContainable.Test01.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestContainable.Test02a.Test02a(int [])
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestContainable.Test02a.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestContainable.Test02b.Test02b(test.TestContainable . CClass [])
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestContainable.Test02b.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestContainable.Test03.Test03(test.TestContainable . Class)
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestContainable.Test03.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestContainable.Test04.Test04(test.TestContainable . Class)
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestContainable.Test04.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestContainable.Test05.Test05(test.TestContainable . CClass)
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestContainable.Test05.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestContainable.Test06.Test06(test.TestContainable . Interface1)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestContainable.Test06.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestContainable.Test07.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestContainable.Test08.Test08(test.TestContainable . CInterface1)
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestContainable.Test07.Test07(test.TestContainable . Interface1)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestContainable.Test08.<clinit>
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestContainable.Test09.Test09(T)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestContainable.Test09.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestContainable.Test10.Test10(T)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestContainable.Test10.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestContainable.Test11.Test11(T)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestContainable.Test11.<clinit>
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestContainable.Test12.Test12(T)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestContainable.Test12.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestContainable.Test13.Test13(T)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestContainable.Test13.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestContainable.Test14.<clinit>
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestContainable.Test14.Test14(T)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestContainable.Test15.Test15(T)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestContainable.Test15.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestContainable.Test16.Test16(T)
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestContainable.Test16.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestContainable.Test17.Test17(T)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestContainable.Test17.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestContainable.Test18.Test18(T)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestContainable.Test18.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestContainable.Test19.Test19(T)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestContainable.Test19.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestContainable.Test20.Test20(T)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestContainable.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.TestContainable.Test20.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Cleaning up after analysis
+REMOTE: Cleaning up after analysis
+REMOTE: [GC (System.gc())  97790K->67214K(175616K), 0.0125100 secs]
+REMOTE: [Full GC (System.gc())  67214K->41840K(175616K), 0.1439110 secs]
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: Updating consistency proof
+REMOTE: ##SUBTASK, Updating consistency proof
+REMOTE: Exporting results to TestTypeAnnotationsW-2016.02.03-at-13.04.11.370
+REMOTE: ##SUBTASK, Exporting results to TestTypeAnnotationsW-2016.02.03-at-13.04.11.370
+REMOTE: Creating snapshot: /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/TestTypeAnnotationsW-2016.02.03-at-13.04.11.370/running_or_crashed_sea_snapshot.xml.gz
+REMOTE: [GC (Allocation Failure)  126832K->48235K(178688K), 0.0046010 secs]
+REMOTE: Done in 5163 ms.
+REMOTE: ConcurrencyDetector	: 13 ms
+REMOTE: ThreadEffectsModule	: 10 ms
+REMOTE: StructureAnalysis	: 2 ms
+REMOTE: ParameterizedTypeAnalysis	: 18 ms
+REMOTE: EqualityAnalysis	: 27 ms
+REMOTE: LayersAnalysis	: 133 ms
+REMOTE: UtilityAnalysis	: 20 ms
+REMOTE: SingletonAnalysis	: 12 ms
+REMOTE: LockModelBuilder	: 15 ms
+REMOTE: ThreadSafeAnalysis	: 343 ms
+REMOTE: NewLockAnalysis	: 203 ms
+REMOTE: EffectsAnalysis	: 23 ms
+REMOTE: UniquenessAnalysisModule	: 296 ms
+REMOTE: NullablePreprocessorModule	: 9 ms
+REMOTE: NullableModule2	: 687 ms
+REMOTE: [2016-02-03 13:04:18    INFO] partial bindings = 8347 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+REMOTE: [2016-02-03 13:04:18    INFO] full bindings = 1346 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+REMOTE: cached = 0
+REMOTE: totalT = 0
+REMOTE: #Performance data for TestTypeAnnotationsWithFancyTypes
+REMOTE: #Wed Feb 03 13:04:18 EST 2016
+REMOTE: jsure.Add.required=0
+REMOTE: jsure.All.analyses=833
+REMOTE: jsure.Binding.before.canon=127
+REMOTE: jsure.Binding.full.time=379
+REMOTE: jsure.Binding.partial.time=464
+REMOTE: jsure.Bindings.full=1346
+REMOTE: jsure.Bindings.partial=8347
+REMOTE: jsure.Canonicalization=636
+REMOTE: jsure.Cleanup=134
+REMOTE: jsure.Destroy.time=14
+REMOTE: jsure.Drop.creation=19
+REMOTE: jsure.Find.canon.time=6
+REMOTE: jsure.Parsing=881
+REMOTE: jsure.Promise.parsing=520
+REMOTE: jsure.Promise.scrubbing=1210
+REMOTE: jsure.Sea.export=833
+REMOTE: jsure.Sea.update=97
+REMOTE: jsure.Total.JSure.time=5163
+REMOTE: jsure.Total.blocks=93
+REMOTE: jsure.Total.canonical=2834
+REMOTE: jsure.Total.decls=497
+REMOTE: jsure.Total.destroyed=0
+REMOTE: jsure.Total.gced=0
+REMOTE: jsure.Total.loc=1029
+REMOTE: jsure.Total.nodes=70538
+REMOTE: jsure.Total.stmts=267
+REMOTE: jsure.Total.try.destroyed=893
+REMOTE: jsure.analysis.ConcurrencyDetector=13
+REMOTE: jsure.analysis.EffectsAnalysis=23
+REMOTE: jsure.analysis.EqualityAnalysis=27
+REMOTE: jsure.analysis.LayersAnalysis=133
+REMOTE: jsure.analysis.LockModelBuilder=15
+REMOTE: jsure.analysis.NewLockAnalysis=203
+REMOTE: jsure.analysis.NullableModule2=687
+REMOTE: jsure.analysis.NullablePreprocessorModule=9
+REMOTE: jsure.analysis.ParameterizedTypeAnalysis=18
+REMOTE: jsure.analysis.SingletonAnalysis=12
+REMOTE: jsure.analysis.StructureAnalysis=2
+REMOTE: jsure.analysis.ThreadEffectsModule=10
+REMOTE: jsure.analysis.ThreadSafeAnalysis=343
+REMOTE: jsure.analysis.UniquenessAnalysisModule=296
+REMOTE: jsure.analysis.UtilityAnalysis=20
+REMOTE: jsure.num.threads=8
+REMOTE: Javac making log: AnnotationRules
+REMOTE: ##DONE
+REMOTE: Renaming snapshot: /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/TestTypeAnnotationsW-2016.02.03-at-13.04.11.370/sea_snapshot.xml.gz
+REMOTE: Done with JSure!
+REMOTE: Scanning complete in 6 seconds 558 ms (6,558 ms)
+REMOTE: No socket to close
+REMOTE: Closing std streams
+Process result after waiting = 0
