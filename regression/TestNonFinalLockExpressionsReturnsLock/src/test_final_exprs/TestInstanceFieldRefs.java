@@ -1,28 +1,22 @@
 package test_final_exprs;
 
 import com.surelogic.Borrowed;
-import com.surelogic.InRegion;
-import com.surelogic.Region;
 import com.surelogic.RegionLock;
-import com.surelogic.RegionLocks;
 import com.surelogic.ReturnsLock;
 
 
 /**
  * Tests the finalness or not of instance field references.
  */
-@Region("InstanceRegion")
-@RegionLocks({
-	@RegionLock("LOCK is lockField protects Instance"),
-	@RegionLock("InstanceLock is this protects InstanceRegion")
-})
+@RegionLock("LOCK is lockField protects protectedField")
 public class TestInstanceFieldRefs {
 	public final Object lockField = new Object();
 	
   private final Object finalField = new Object();
   private Object unprotectedField = new Object();
   
-  @InRegion("InstanceRegion")
+  // Just here so we can have a lock in the class to make the analysis think the class might be concurrent
+  @SuppressWarnings("unused")
   private Object protectedField = new Object();
   
   
