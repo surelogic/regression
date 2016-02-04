@@ -1,0 +1,1747 @@
+LOCAL vm : 1.8.0_05
+Path: /Users/aarong/git/common/common/lib/runtime/guava-18.0.jar
+Path: /Users/aarong/git/jsure/jsure-analysis/bin
+Path: /Users/aarong/git/common/common/lib/runtime/ant-1.9.6.jar
+Path: /Users/aarong/git/jsure/jsure-common
+Path: /Users/aarong/git/common/common
+Path: /Users/aarong/git/common/common/lib/runtime/javax.servlet-api-3.1.0.jar
+Path: /Users/aarong/git/jsure/jsure-analysis
+Path: /Users/aarong/git/common/common/lib/runtime/antlr-3.5.2-runtime.jar
+Path: /Users/aarong/git/jsure/jsure-common/lib/runtime/diffutils-1.2.1.jar
+Path: /Users/aarong/git/common/common/bin
+Path: /Users/aarong/git/common/common/lib/runtime/asm-commons-5.0.4.jar
+Path: /Users/aarong/git/jsure/jsure-analysis/lib/runtime/renamedJavac.jar
+Path: /Users/aarong/git/common/common/lib/runtime/promises-5.6.0.jar
+Path: /Users/aarong/git/common/common/lib/runtime/derby-10.11.1.1.jar
+Path: /Users/aarong/git/jsure/jsure-common/bin
+Path: /Users/aarong/git/common/common/lib/runtime/asm-5.0.4.jar
+Path: /Users/aarong/git/common/common/lib/runtime/asm-tree-5.0.4.jar
+Path: /Users/aarong/git/common/common/lib/runtime/hppc-0.7.1.jar
+Path: /Users/aarong/git/common/common/lib/runtime/commons-lang3-3.4.jar
+Starting process:
+	/Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/jre/bin/java
+	-Dsl.running.in.remote.vm=true
+	-Dsurelogic.test.code=NONE
+	-XX:MaxPermSize=512m
+	-verbosegc
+	-DSureLogicX=true
+	-Dsl.run.dir=/Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/TestInstanceParamete-2016.01.27-at-13.04.50.825
+	-Dfluid.ir.versioning=Versioning.Off
+	-Djsure.analysis.directory.url=file:/Eclipses/eclipse-standard-luna-SR2-macosx-cocoa-x86_64/../../Users/aarong/git/jsure/jsure-analysis/
+	-Xmx2048m
+	-classpath
+	/Users/aarong/git/common/common/lib/runtime/guava-18.0.jar:/Users/aarong/git/jsure/jsure-analysis/bin:/Users/aarong/git/common/common/lib/runtime/ant-1.9.6.jar:/Users/aarong/git/jsure/jsure-common:/Users/aarong/git/common/common:/Users/aarong/git/common/common/lib/runtime/javax.servlet-api-3.1.0.jar:/Users/aarong/git/jsure/jsure-analysis:/Users/aarong/git/common/common/lib/runtime/antlr-3.5.2-runtime.jar:/Users/aarong/git/jsure/jsure-common/lib/runtime/diffutils-1.2.1.jar:/Users/aarong/git/common/common/bin:/Users/aarong/git/common/common/lib/runtime/asm-commons-5.0.4.jar:/Users/aarong/git/jsure/jsure-analysis/lib/runtime/renamedJavac.jar:/Users/aarong/git/common/common/lib/runtime/promises-5.6.0.jar:/Users/aarong/git/common/common/lib/runtime/derby-10.11.1.1.jar:/Users/aarong/git/jsure/jsure-common/bin:/Users/aarong/git/common/common/lib/runtime/asm-5.0.4.jar:/Users/aarong/git/common/common/lib/runtime/asm-tree-5.0.4.jar:/Users/aarong/git/common/common/lib/runtime/hppc-0.7.1.jar:/Users/aarong/git/common/common/lib/runtime/commons-lang3-3.4.jar
+	com.surelogic.javac.jobs.RemoteJSureRun
+
+First line in REMOTE vm = Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=512m; support was removed in 8.0
+REMOTE: [GC (Allocation Failure)  512K->512K(327168K), 0.0015580 secs]
+REMOTE: [GC (Allocation Failure)  1010K->616K(327680K), 0.0013330 secs]
+REMOTE: [GC (Allocation Failure)  1640K->680K(327680K), 0.0017560 secs]
+REMOTE: [GC (Allocation Failure)  1704K->720K(328704K), 0.0022020 secs]
+REMOTE: [GC (Allocation Failure)  2768K->963K(328704K), 0.0021230 secs]
+REMOTE: JVM started: 1.8.0_05
+REMOTE: Log level: INFO
+REMOTE: Created reader
+REMOTE: Created monitor
+REMOTE: Created log handler
+REMOTE: Running RemoteJSureRun
+REMOTE: [GC (Allocation Failure)  3011K->1179K(331264K), 0.0015340 secs]
+REMOTE: [GC (Allocation Failure)  5275K->1559K(331264K), 0.0024670 secs]
+REMOTE: [GC (Allocation Failure)  5655K->1679K(335360K), 0.0021630 secs]
+REMOTE: runPath = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/TestInstanceParamete-2016.01.27-at-13.04.50.825
+REMOTE: Creating run: TestInstanceParamete-2016.01.27-at-13.04.50.825
+REMOTE: Defaulting project org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7 to Java 0
+REMOTE: Created project org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7 from XML
+REMOTE: Setting project TestInstanceParameterDeclLocks to Java 7
+REMOTE: [GC (Allocation Failure)  9871K->2334K(335360K), 0.0027530 secs]
+REMOTE: Created project TestInstanceParameterDeclLocks from XML
+REMOTE: projects = TestInstanceParameterDeclLocks
+REMOTE: Loading edu.cmu.cs.fluid.make.nonabductive.proposals = false
+REMOTE: Loading edu.cmu.cs.fluid.load.all.classes = false
+REMOTE: Loading edu.cmu.cs.fluid.timeoutFlag = true
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BCA = false
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ConstantExpr = false
+REMOTE: Loading edu.cmu.cs.fluid.physMemoryInMB = 20480
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.EqualityAssurance = true
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ThreadSafe = true
+REMOTE: Loading edu.cmu.cs.fluid.xml.diff.directory = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/promises-xml
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.IRConcurrencyDetector = true
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Singleton = true
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.CALLS = false
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BenchmarkingUniquenessSE = false
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ThreadEffectAssurance2 = true
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Binder = false
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.cliend.eclipse.TypeBasedAlias = false
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Nullable = true
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.TestIsFunctional = false
+REMOTE: Loading edu.cmu.cs.fluid.tool-memory-mb = 2048
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.DefinitelyAssigned = false
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.UniquenessAssuranceSE = true
+REMOTE: Loading edu.cmu.cs.fluid.analysis.thread.count = 8
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LockModelBuilder = true
+REMOTE: Loading edu.cmu.cs.fluid.timeoutSec = 11
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.NonNullRawTypes = false
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.EffectsAndLocks = false
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LayersAssurance = true
+REMOTE: Loading edu.cmu.cs.fluid.default.JRE = org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Loading edu.cmu.cs.fluid.timeoutWarningSec = 30
+REMOTE: Loading edu.cmu.cs.fluid.modeling.problem.filters = 00000012com\.apple.*00000013com\.oracle.*00000010com\.sun.*00000014.*\.internal.*00000023.*BakedArrayList\.class00000007apple.*00000008oracle.*00000011quicktime.*00000005sun.*
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Utility = true
+REMOTE: Loading edu.cmu.cs.fluid.scan.may.use.compression = true
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ParameterizedType = true
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Final = false
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LockAssurance4 = true
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LockAssurance3 = false
+REMOTE: Loading edu.cmu.cs.fluid.data.directory = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.NullablePreprocessor = true
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.EffectAssurance2 = true
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LV = false
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.StructureAssurance = true
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Types = false
+REMOTE: JSure data dir = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data
+REMOTE: XML diff dir   = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/promises-xml
+REMOTE: Looking for JRE in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: default JRE = org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Initialized job
+REMOTE: Created com.surelogic.analysis.concurrency.detector.ConcurrencyDetector
+REMOTE: Starting a new group for ConcurrencyDetector
+REMOTE: Created com.surelogic.analysis.threads.ThreadEffectsModule
+REMOTE: Created com.surelogic.analysis.structure.StructureAnalysis
+REMOTE: Created com.surelogic.analysis.annotationbounds.ParameterizedTypeAnalysis
+REMOTE: Created com.surelogic.analysis.equality.EqualityAnalysis
+REMOTE: Created com.surelogic.analysis.layers.LayersAnalysis
+REMOTE: Created com.surelogic.analysis.utility.UtilityAnalysis
+REMOTE: Starting a new group for UtilityAnalysis
+REMOTE: Group: EXTERNALLY
+REMOTE: 	ConcurrencyDetector
+REMOTE: 	ThreadEffectsModule
+REMOTE: 	StructureAnalysis
+REMOTE: 	ParameterizedTypeAnalysis
+REMOTE: 	EqualityAnalysis
+REMOTE: 	LayersAnalysis
+REMOTE: Created com.surelogic.analysis.singleton.SingletonAnalysis
+REMOTE: Created com.surelogic.analysis.concurrency.driver.LockModelBuilder
+REMOTE: Starting a new group for LockModelBuilder
+REMOTE: Group: com.surelogic.analysis.visitors.TopLevelAnalysisVisitor$1@28ba21f3, EXTERNALLY
+REMOTE: 	UtilityAnalysis
+REMOTE: 	SingletonAnalysis
+REMOTE: Created com.surelogic.analysis.concurrency.driver.ThreadSafeAnalysis
+REMOTE: Starting a new group for ThreadSafeAnalysis
+REMOTE: Group: EXTERNALLY
+REMOTE: 	LockModelBuilder
+REMOTE: Created com.surelogic.analysis.concurrency.driver.NewLockAnalysis
+REMOTE: Starting a new group for NewLockAnalysis
+REMOTE: Group: com.surelogic.analysis.visitors.TopLevelAnalysisVisitor$1@28ba21f3, EXTERNALLY
+REMOTE: 	ThreadSafeAnalysis
+REMOTE: Created com.surelogic.analysis.effects.EffectsAnalysis
+REMOTE: Starting a new group for EffectsAnalysis
+REMOTE: Group: class com.surelogic.analysis.bca.BindingContextAnalysis, EXTERNALLY
+REMOTE: 	NewLockAnalysis
+REMOTE: Created com.surelogic.analysis.uniqueness.classic.sideeffecting.UniquenessAnalysisModule
+REMOTE: Starting a new group for UniquenessAnalysisModule
+REMOTE: Group: com.surelogic.analysis.visitors.TopLevelAnalysisVisitor$1@28ba21f3, class com.surelogic.analysis.bca.BindingContextAnalysis, EXTERNALLY
+REMOTE: 	EffectsAnalysis
+REMOTE: Created com.surelogic.analysis.nullable.NullablePreprocessorModule
+REMOTE: Starting a new group for NullablePreprocessorModule
+REMOTE: Group: com.surelogic.analysis.uniqueness.classic.sideeffecting.UniquenessAnalysisModule$1@694f9431, class com.surelogic.analysis.bca.BindingContextAnalysis, INTERNALLY
+REMOTE: 	UniquenessAnalysisModule
+REMOTE: Created com.surelogic.analysis.nullable.NullableModule2
+REMOTE: Starting a new group for NullableModule2
+REMOTE: Group: EXTERNALLY
+REMOTE: 	NullablePreprocessorModule
+REMOTE: Group: com.surelogic.analysis.granules.FlowUnitGranulator@f2a0b8e, EXTERNALLY
+REMOTE: 	NullableModule2
+REMOTE: ##TASK, Scan, 28
+REMOTE: Initializing ...
+REMOTE: ##SUBTASK, Initializing ...
+REMOTE: monitor = com.surelogic.common.jobs.remote.AbstractRemoteSLJob$Monitor@593634ad
+REMOTE: process() using 8 threads
+REMOTE: [GC (Allocation Failure)  10526K->3062K(340992K), 0.0022630 secs]
+REMOTE: [GC (Allocation Failure)  16374K->3244K(340992K), 0.0025950 secs]
+REMOTE: [GC (Allocation Failure)  16457K->16190K(344576K), 0.0079190 secs]
+REMOTE: [GC (Allocation Failure)  32978K->32604K(349184K), 0.0104120 secs]
+REMOTE: Done initializing org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: 0
+REMOTE: org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/resources.jar : 2465399
+REMOTE: [GC (Allocation Failure)  49500K->45179K(354816K), 0.0095460 secs]
+REMOTE: [GC (Allocation Failure)  66683K->49160K(360448K), 0.0065160 secs]
+REMOTE: org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/rt.jar : 64311652
+REMOTE: org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jsse.jar : 582478
+REMOTE: org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jce.jar : 109504
+REMOTE: org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/charsets.jar : 3696271
+REMOTE: org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jfr.jar : 532548
+REMOTE: org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/dnsns.jar : 8923
+REMOTE: org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/localedata.jar : 550578
+REMOTE: org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunec.jar : 15941
+REMOTE: org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunjce_provider.jar : 198101
+REMOTE: org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunpkcs11.jar : 237244
+REMOTE: org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/zipfs.jar : 68751
+REMOTE: org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /System/Library/Java/Extensions/MRJToolkit.jar : 12849
+REMOTE: Done initializing TestInstanceParameterDeclLocks: 1
+REMOTE: Trying to find /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/TestInstanceParamete-2016.01.27-at-13.04.50.825/source/TestInstanceParameterDeclLocks.bin.zip
+REMOTE: TestInstanceParameterDeclLocks: TestInstanceParameterDeclLocks -> org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Done initializing org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: 0
+REMOTE: TestInstanceParameterDeclLocks: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/resources.jar : 2465399
+REMOTE: Replacing CUDrop: (default)
+REMOTE: Replacing CUDrop: apple.applescript
+REMOTE: Replacing CUDrop: apple.laf
+REMOTE: Replacing CUDrop: apple.launcher
+REMOTE: Replacing CUDrop: apple.security
+REMOTE: Replacing CUDrop: com.apple.concurrent
+REMOTE: Replacing CUDrop: com.apple.eawt
+REMOTE: Replacing CUDrop: com.apple.eawt.event
+REMOTE: Replacing CUDrop: com.apple.eio
+REMOTE: Replacing CUDrop: com.apple.laf
+REMOTE: Replacing CUDrop: com.apple.laf.resources
+REMOTE: Replacing CUDrop: com.oracle.net
+REMOTE: Replacing CUDrop: com.oracle.nio
+REMOTE: Replacing CUDrop: com.oracle.util
+REMOTE: Replacing CUDrop: com.sun.accessibility.internal.resources
+REMOTE: Replacing CUDrop: com.sun.activation.registries
+REMOTE: Replacing CUDrop: com.sun.awt
+REMOTE: Replacing CUDrop: com.sun.beans
+REMOTE: Replacing CUDrop: com.sun.beans.decoder
+REMOTE: Replacing CUDrop: com.sun.beans.editors
+REMOTE: Replacing CUDrop: com.sun.beans.finder
+REMOTE: Replacing CUDrop: com.sun.beans.infos
+REMOTE: Replacing CUDrop: com.sun.corba.se.impl.activation
+REMOTE: Replacing CUDrop: com.sun.corba.se.impl.copyobject
+REMOTE: Replacing CUDrop: com.sun.corba.se.impl.corba
+REMOTE: Replacing CUDrop: com.sun.corba.se.impl.dynamicany
+REMOTE: Replacing CUDrop: com.sun.corba.se.impl.encoding
+REMOTE: Replacing CUDrop: com.sun.corba.se.impl.interceptors
+REMOTE: Replacing CUDrop: com.sun.corba.se.impl.io
+REMOTE: Replacing CUDrop: com.sun.corba.se.impl.ior
+REMOTE: Replacing CUDrop: com.sun.corba.se.impl.ior.iiop
+REMOTE: Replacing CUDrop: com.sun.corba.se.impl.javax.rmi.CORBA
+REMOTE: Replacing CUDrop: com.sun.corba.se.impl.javax.rmi
+REMOTE: Replacing CUDrop: com.sun.corba.se.impl.legacy.connection
+REMOTE: Replacing CUDrop: com.sun.corba.se.impl.logging
+REMOTE: Replacing CUDrop: com.sun.corba.se.impl.monitoring
+REMOTE: Replacing CUDrop: com.sun.corba.se.impl.naming.cosnaming
+REMOTE: Replacing CUDrop: com.sun.corba.se.impl.naming.namingutil
+REMOTE: Replacing CUDrop: com.sun.corba.se.impl.naming.pcosnaming
+REMOTE: Replacing CUDrop: com.sun.corba.se.impl.oa
+REMOTE: Replacing CUDrop: com.sun.corba.se.impl.oa.poa
+REMOTE: Replacing CUDrop: com.sun.corba.se.impl.oa.toa
+REMOTE: Replacing CUDrop: com.sun.corba.se.impl.orb
+REMOTE: Replacing CUDrop: com.sun.corba.se.impl.orbutil
+REMOTE: Replacing CUDrop: com.sun.corba.se.impl.orbutil.closure
+REMOTE: Replacing CUDrop: com.sun.corba.se.impl.orbutil.concurrent
+REMOTE: Replacing CUDrop: com.sun.corba.se.impl.orbutil.fsm
+REMOTE: Replacing CUDrop: com.sun.corba.se.impl.orbutil.graph
+REMOTE: Replacing CUDrop: com.sun.corba.se.impl.orbutil.threadpool
+REMOTE: Replacing CUDrop: com.sun.corba.se.impl.presentation.rmi
+REMOTE: Replacing CUDrop: com.sun.corba.se.impl.protocol
+REMOTE: Replacing CUDrop: com.sun.corba.se.impl.protocol.giopmsgheaders
+REMOTE: Replacing CUDrop: com.sun.corba.se.impl.resolver
+REMOTE: Replacing CUDrop: com.sun.corba.se.impl.transport
+REMOTE: Replacing CUDrop: com.sun.corba.se.impl.util
+REMOTE: Replacing CUDrop: com.sun.corba.se.internal.CosNaming
+REMOTE: Replacing CUDrop: com.sun.corba.se.internal.Interceptors
+REMOTE: Replacing CUDrop: com.sun.corba.se.internal.POA
+REMOTE: Replacing CUDrop: com.sun.corba.se.internal.corba
+REMOTE: Replacing CUDrop: com.sun.corba.se.internal.iiop
+REMOTE: Replacing CUDrop: com.sun.corba.se.org.omg.CORBA
+REMOTE: Replacing CUDrop: com.sun.corba.se.pept.broker
+REMOTE: Replacing CUDrop: com.sun.corba.se.pept.encoding
+REMOTE: Replacing CUDrop: com.sun.corba.se.pept.protocol
+REMOTE: Replacing CUDrop: com.sun.corba.se.pept.transport
+REMOTE: Replacing CUDrop: com.sun.corba.se.spi.activation
+REMOTE: Replacing CUDrop: com.sun.corba.se.spi.activation.InitialNameServicePackage
+REMOTE: Replacing CUDrop: com.sun.corba.se.spi.activation.LocatorPackage
+REMOTE: Replacing CUDrop: com.sun.corba.se.spi.activation.RepositoryPackage
+REMOTE: Replacing CUDrop: com.sun.corba.se.spi.copyobject
+REMOTE: Replacing CUDrop: com.sun.corba.se.spi.encoding
+REMOTE: Replacing CUDrop: com.sun.corba.se.spi.extension
+REMOTE: Replacing CUDrop: com.sun.corba.se.spi.ior
+REMOTE: Replacing CUDrop: com.sun.corba.se.spi.ior.iiop
+REMOTE: Replacing CUDrop: com.sun.corba.se.spi.legacy.connection
+REMOTE: Replacing CUDrop: com.sun.corba.se.spi.legacy.interceptor
+REMOTE: Replacing CUDrop: com.sun.corba.se.spi.logging
+REMOTE: Replacing CUDrop: com.sun.corba.se.spi.monitoring
+REMOTE: Replacing CUDrop: com.sun.corba.se.spi.oa
+REMOTE: Replacing CUDrop: com.sun.corba.se.spi.orb
+REMOTE: Replacing CUDrop: com.sun.corba.se.spi.orbutil.closure
+REMOTE: Replacing CUDrop: com.sun.corba.se.spi.orbutil.fsm
+REMOTE: Replacing CUDrop: com.sun.corba.se.spi.orbutil.proxy
+REMOTE: Replacing CUDrop: com.sun.corba.se.spi.orbutil.threadpool
+REMOTE: Replacing CUDrop: com.sun.corba.se.spi.presentation.rmi
+REMOTE: Replacing CUDrop: com.sun.corba.se.spi.protocol
+REMOTE: Replacing CUDrop: com.sun.corba.se.spi.resolver
+REMOTE: Replacing CUDrop: com.sun.corba.se.spi.servicecontext
+REMOTE: Replacing CUDrop: com.sun.corba.se.spi.transport
+REMOTE: Replacing CUDrop: com.sun.demo.jvmti.hprof
+REMOTE: Replacing CUDrop: com.sun.image.codec.jpeg
+REMOTE: Replacing CUDrop: com.sun.imageio.plugins.bmp
+REMOTE: Replacing CUDrop: com.sun.imageio.plugins.common
+REMOTE: Replacing CUDrop: com.sun.imageio.plugins.gif
+REMOTE: Replacing CUDrop: com.sun.imageio.plugins.jpeg
+REMOTE: Replacing CUDrop: com.sun.imageio.plugins.png
+REMOTE: Replacing CUDrop: com.sun.imageio.plugins.wbmp
+REMOTE: Replacing CUDrop: com.sun.imageio.spi
+REMOTE: Replacing CUDrop: com.sun.imageio.stream
+REMOTE: Replacing CUDrop: com.sun.istack.internal
+REMOTE: Replacing CUDrop: com.sun.istack.internal.localization
+REMOTE: Replacing CUDrop: com.sun.istack.internal.logging
+REMOTE: Replacing CUDrop: com.sun.java.browser.dom
+REMOTE: Replacing CUDrop: com.sun.java.browser.net
+REMOTE: Replacing CUDrop: com.sun.java.swing
+REMOTE: Replacing CUDrop: com.sun.java.swing.plaf.gtk
+REMOTE: Replacing CUDrop: com.sun.java.swing.plaf.gtk.resources
+REMOTE: Replacing CUDrop: com.sun.java.swing.plaf.motif
+REMOTE: Replacing CUDrop: com.sun.java.swing.plaf.motif.resources
+REMOTE: Replacing CUDrop: com.sun.java.swing.plaf.nimbus
+REMOTE: Replacing CUDrop: com.sun.java.swing.plaf.windows
+REMOTE: Replacing CUDrop: com.sun.java.swing.plaf.windows.resources
+REMOTE: Replacing CUDrop: com.sun.java.util.jar.pack
+REMOTE: Replacing CUDrop: com.sun.java_cup.internal.runtime
+REMOTE: Replacing CUDrop: com.sun.jmx.defaults
+REMOTE: Replacing CUDrop: com.sun.jmx.interceptor
+REMOTE: Replacing CUDrop: com.sun.jmx.mbeanserver
+REMOTE: Replacing CUDrop: com.sun.jmx.remote.internal
+REMOTE: Replacing CUDrop: com.sun.jmx.remote.protocol.iiop
+REMOTE: Replacing CUDrop: com.sun.jmx.remote.protocol.rmi
+REMOTE: Replacing CUDrop: com.sun.jmx.remote.security
+REMOTE: Replacing CUDrop: com.sun.jmx.remote.util
+REMOTE: Replacing CUDrop: com.sun.jmx.snmp
+REMOTE: Replacing CUDrop: com.sun.jmx.snmp.IPAcl
+REMOTE: Replacing CUDrop: com.sun.jmx.snmp.agent
+REMOTE: Replacing CUDrop: com.sun.jmx.snmp.daemon
+REMOTE: Replacing CUDrop: com.sun.jmx.snmp.defaults
+REMOTE: Replacing CUDrop: com.sun.jmx.snmp.internal
+REMOTE: Replacing CUDrop: com.sun.jmx.snmp.mpm
+REMOTE: Replacing CUDrop: com.sun.jmx.snmp.tasks
+REMOTE: Replacing CUDrop: com.sun.jmx.trace
+REMOTE: Replacing CUDrop: com.sun.jndi.cosnaming
+REMOTE: Replacing CUDrop: com.sun.jndi.dns
+REMOTE: Replacing CUDrop: com.sun.jndi.ldap
+REMOTE: Replacing CUDrop: com.sun.jndi.ldap.ext
+REMOTE: Replacing CUDrop: com.sun.jndi.ldap.pool
+REMOTE: Replacing CUDrop: com.sun.jndi.ldap.sasl
+REMOTE: Replacing CUDrop: com.sun.jndi.rmi.registry
+REMOTE: Replacing CUDrop: com.sun.jndi.toolkit.corba
+REMOTE: Replacing CUDrop: com.sun.jndi.toolkit.ctx
+REMOTE: Replacing CUDrop: com.sun.jndi.toolkit.dir
+REMOTE: Replacing CUDrop: com.sun.jndi.toolkit.url
+REMOTE: Replacing CUDrop: com.sun.jndi.url.corbaname
+REMOTE: Replacing CUDrop: com.sun.jndi.url.dns
+REMOTE: Replacing CUDrop: com.sun.jndi.url.iiop
+REMOTE: Replacing CUDrop: com.sun.jndi.url.iiopname
+REMOTE: Replacing CUDrop: com.sun.jndi.url.ldap
+REMOTE: Replacing CUDrop: com.sun.jndi.url.ldaps
+REMOTE: Replacing CUDrop: com.sun.jndi.url.rmi
+REMOTE: Replacing CUDrop: com.sun.management
+REMOTE: Replacing CUDrop: com.sun.management.jmx
+REMOTE: Replacing CUDrop: com.sun.media.sound
+REMOTE: Replacing CUDrop: com.sun.naming.internal
+REMOTE: Replacing CUDrop: com.sun.net.httpserver
+REMOTE: Replacing CUDrop: com.sun.net.httpserver.spi
+REMOTE: Replacing CUDrop: com.sun.net.ssl
+REMOTE: Replacing CUDrop: com.sun.net.ssl.internal.www.protocol.https
+REMOTE: Replacing CUDrop: com.sun.nio.file
+REMOTE: Replacing CUDrop: com.sun.org.apache.bcel.internal
+REMOTE: Replacing CUDrop: com.sun.org.apache.bcel.internal.classfile
+REMOTE: Replacing CUDrop: com.sun.org.apache.bcel.internal.generic
+REMOTE: Replacing CUDrop: com.sun.org.apache.bcel.internal.util
+REMOTE: Replacing CUDrop: com.sun.org.apache.regexp.internal
+REMOTE: Replacing CUDrop: com.sun.org.apache.xalan.internal
+REMOTE: Replacing CUDrop: com.sun.org.apache.xalan.internal.extensions
+REMOTE: Replacing CUDrop: com.sun.org.apache.xalan.internal.lib
+REMOTE: Replacing CUDrop: com.sun.org.apache.xalan.internal.res
+REMOTE: Replacing CUDrop: com.sun.org.apache.xalan.internal.templates
+REMOTE: Replacing CUDrop: com.sun.org.apache.xalan.internal.utils
+REMOTE: Replacing CUDrop: com.sun.org.apache.xalan.internal.xslt
+REMOTE: Replacing CUDrop: com.sun.org.apache.xalan.internal.xsltc
+REMOTE: Replacing CUDrop: com.sun.org.apache.xalan.internal.xsltc.cmdline
+REMOTE: Replacing CUDrop: com.sun.org.apache.xalan.internal.xsltc.cmdline.getopt
+REMOTE: Replacing CUDrop: com.sun.org.apache.xalan.internal.xsltc.compiler
+REMOTE: Replacing CUDrop: com.sun.org.apache.xalan.internal.xsltc.compiler.util
+REMOTE: Replacing CUDrop: com.sun.org.apache.xalan.internal.xsltc.dom
+REMOTE: Replacing CUDrop: com.sun.org.apache.xalan.internal.xsltc.runtime
+REMOTE: Replacing CUDrop: com.sun.org.apache.xalan.internal.xsltc.runtime.output
+REMOTE: Replacing CUDrop: com.sun.org.apache.xalan.internal.xsltc.trax
+REMOTE: Replacing CUDrop: com.sun.org.apache.xalan.internal.xsltc.util
+REMOTE: Replacing CUDrop: com.sun.org.apache.xerces.internal.dom
+REMOTE: Replacing CUDrop: com.sun.org.apache.xerces.internal.dom.events
+REMOTE: Replacing CUDrop: com.sun.org.apache.xerces.internal.impl
+REMOTE: Replacing CUDrop: com.sun.org.apache.xerces.internal.impl.dtd
+REMOTE: Replacing CUDrop: com.sun.org.apache.xerces.internal.impl.dtd.models
+REMOTE: Replacing CUDrop: com.sun.org.apache.xerces.internal.impl.dv
+REMOTE: Replacing CUDrop: com.sun.org.apache.xerces.internal.impl.dv.dtd
+REMOTE: Replacing CUDrop: com.sun.org.apache.xerces.internal.impl.dv.util
+REMOTE: Replacing CUDrop: com.sun.org.apache.xerces.internal.impl.dv.xs
+REMOTE: Replacing CUDrop: com.sun.org.apache.xerces.internal.impl.io
+REMOTE: Replacing CUDrop: com.sun.org.apache.xerces.internal.impl.msg
+REMOTE: Replacing CUDrop: com.sun.org.apache.xerces.internal.impl.validation
+REMOTE: Replacing CUDrop: com.sun.org.apache.xerces.internal.impl.xpath
+REMOTE: Replacing CUDrop: com.sun.org.apache.xerces.internal.impl.xpath.regex
+REMOTE: Replacing CUDrop: com.sun.org.apache.xerces.internal.impl.xs
+REMOTE: Replacing CUDrop: com.sun.org.apache.xerces.internal.impl.xs.identity
+REMOTE: Replacing CUDrop: com.sun.org.apache.xerces.internal.impl.xs.models
+REMOTE: Replacing CUDrop: com.sun.org.apache.xerces.internal.impl.xs.opti
+REMOTE: Replacing CUDrop: com.sun.org.apache.xerces.internal.impl.xs.traversers
+REMOTE: Replacing CUDrop: com.sun.org.apache.xerces.internal.impl.xs.util
+REMOTE: Replacing CUDrop: com.sun.org.apache.xerces.internal.jaxp
+REMOTE: Replacing CUDrop: com.sun.org.apache.xerces.internal.jaxp.datatype
+REMOTE: Replacing CUDrop: com.sun.org.apache.xerces.internal.jaxp.validation
+REMOTE: Replacing CUDrop: com.sun.org.apache.xerces.internal.parsers
+REMOTE: Replacing CUDrop: com.sun.org.apache.xerces.internal.util
+REMOTE: Replacing CUDrop: com.sun.org.apache.xerces.internal.utils
+REMOTE: Replacing CUDrop: com.sun.org.apache.xerces.internal.xinclude
+REMOTE: Replacing CUDrop: com.sun.org.apache.xerces.internal.xni
+REMOTE: Replacing CUDrop: com.sun.org.apache.xerces.internal.xni.grammars
+REMOTE: Replacing CUDrop: com.sun.org.apache.xerces.internal.xni.parser
+REMOTE: Replacing CUDrop: com.sun.org.apache.xerces.internal.xpointer
+REMOTE: Replacing CUDrop: com.sun.org.apache.xerces.internal.xs
+REMOTE: Replacing CUDrop: com.sun.org.apache.xerces.internal.xs.datatypes
+REMOTE: Replacing CUDrop: com.sun.org.apache.xml.internal.dtm
+REMOTE: Replacing CUDrop: com.sun.org.apache.xml.internal.dtm.ref
+REMOTE: Replacing CUDrop: com.sun.org.apache.xml.internal.dtm.ref.dom2dtm
+REMOTE: Replacing CUDrop: com.sun.org.apache.xml.internal.dtm.ref.sax2dtm
+REMOTE: Replacing CUDrop: com.sun.org.apache.xml.internal.res
+REMOTE: Replacing CUDrop: com.sun.org.apache.xml.internal.resolver
+REMOTE: Replacing CUDrop: com.sun.org.apache.xml.internal.resolver.helpers
+REMOTE: Replacing CUDrop: com.sun.org.apache.xml.internal.resolver.readers
+REMOTE: Replacing CUDrop: com.sun.org.apache.xml.internal.resolver.tools
+REMOTE: Replacing CUDrop: com.sun.org.apache.xml.internal.security
+REMOTE: Replacing CUDrop: com.sun.org.apache.xml.internal.security.algorithms
+REMOTE: Replacing CUDrop: com.sun.org.apache.xml.internal.security.algorithms.implementations
+REMOTE: Replacing CUDrop: com.sun.org.apache.xml.internal.security.c14n
+REMOTE: Replacing CUDrop: com.sun.org.apache.xml.internal.security.c14n.helper
+REMOTE: Replacing CUDrop: com.sun.org.apache.xml.internal.security.c14n.implementations
+REMOTE: Replacing CUDrop: com.sun.org.apache.xml.internal.security.encryption
+REMOTE: Replacing CUDrop: com.sun.org.apache.xml.internal.security.exceptions
+REMOTE: Replacing CUDrop: com.sun.org.apache.xml.internal.security.keys
+REMOTE: Replacing CUDrop: com.sun.org.apache.xml.internal.security.keys.content
+REMOTE: Replacing CUDrop: com.sun.org.apache.xml.internal.security.keys.content.keyvalues
+REMOTE: Replacing CUDrop: com.sun.org.apache.xml.internal.security.keys.content.x509
+REMOTE: Replacing CUDrop: com.sun.org.apache.xml.internal.security.keys.keyresolver
+REMOTE: Replacing CUDrop: com.sun.org.apache.xml.internal.security.keys.keyresolver.implementations
+REMOTE: Replacing CUDrop: com.sun.org.apache.xml.internal.security.keys.storage
+REMOTE: Replacing CUDrop: com.sun.org.apache.xml.internal.security.keys.storage.implementations
+REMOTE: Replacing CUDrop: com.sun.org.apache.xml.internal.security.signature
+REMOTE: Replacing CUDrop: com.sun.org.apache.xml.internal.security.transforms
+REMOTE: Replacing CUDrop: com.sun.org.apache.xml.internal.security.transforms.implementations
+REMOTE: Replacing CUDrop: com.sun.org.apache.xml.internal.security.transforms.params
+REMOTE: Replacing CUDrop: com.sun.org.apache.xml.internal.security.utils
+REMOTE: Replacing CUDrop: com.sun.org.apache.xml.internal.security.utils.resolver
+REMOTE: Replacing CUDrop: com.sun.org.apache.xml.internal.security.utils.resolver.implementations
+REMOTE: Replacing CUDrop: com.sun.org.apache.xml.internal.serialize
+REMOTE: Replacing CUDrop: com.sun.org.apache.xml.internal.serializer
+REMOTE: Replacing CUDrop: com.sun.org.apache.xml.internal.serializer.utils
+REMOTE: Replacing CUDrop: com.sun.org.apache.xml.internal.utils
+REMOTE: Replacing CUDrop: com.sun.org.apache.xml.internal.utils.res
+REMOTE: Replacing CUDrop: com.sun.org.apache.xpath.internal
+REMOTE: Replacing CUDrop: com.sun.org.apache.xpath.internal.axes
+REMOTE: Replacing CUDrop: com.sun.org.apache.xpath.internal.compiler
+REMOTE: Replacing CUDrop: com.sun.org.apache.xpath.internal.domapi
+REMOTE: Replacing CUDrop: com.sun.org.apache.xpath.internal.functions
+REMOTE: Replacing CUDrop: com.sun.org.apache.xpath.internal.jaxp
+REMOTE: Replacing CUDrop: com.sun.org.apache.xpath.internal.objects
+REMOTE: Replacing CUDrop: com.sun.org.apache.xpath.internal.operations
+REMOTE: Replacing CUDrop: com.sun.org.apache.xpath.internal.patterns
+REMOTE: Replacing CUDrop: com.sun.org.apache.xpath.internal.res
+REMOTE: Replacing CUDrop: com.sun.org.glassfish.external.amx
+REMOTE: Replacing CUDrop: com.sun.org.glassfish.external.arc
+REMOTE: Replacing CUDrop: com.sun.org.glassfish.external.probe.provider
+REMOTE: Replacing CUDrop: com.sun.org.glassfish.external.probe.provider.annotations
+REMOTE: Replacing CUDrop: com.sun.org.glassfish.external.statistics
+REMOTE: Replacing CUDrop: com.sun.org.glassfish.external.statistics.annotations
+REMOTE: Replacing CUDrop: com.sun.org.glassfish.external.statistics.impl
+REMOTE: Replacing CUDrop: com.sun.org.glassfish.gmbal
+REMOTE: Replacing CUDrop: com.sun.org.glassfish.gmbal.util
+REMOTE: Replacing CUDrop: com.sun.org.omg.CORBA
+REMOTE: Replacing CUDrop: com.sun.org.omg.CORBA.ValueDefPackage
+REMOTE: Replacing CUDrop: com.sun.org.omg.CORBA.portable
+REMOTE: Replacing CUDrop: com.sun.org.omg.SendingContext
+REMOTE: Replacing CUDrop: com.sun.org.omg.SendingContext.CodeBasePackage
+REMOTE: Replacing CUDrop: com.sun.rmi.rmid
+REMOTE: Replacing CUDrop: com.sun.rowset
+REMOTE: Replacing CUDrop: com.sun.rowset.internal
+REMOTE: Replacing CUDrop: com.sun.rowset.providers
+REMOTE: Replacing CUDrop: com.sun.script.javascript
+REMOTE: Replacing CUDrop: com.sun.script.util
+REMOTE: Replacing CUDrop: com.sun.security.auth
+REMOTE: Replacing CUDrop: com.sun.security.auth.callback
+REMOTE: Replacing CUDrop: com.sun.security.auth.login
+REMOTE: Replacing CUDrop: com.sun.security.auth.module
+REMOTE: Replacing CUDrop: com.sun.security.cert.internal.x509
+REMOTE: Replacing CUDrop: com.sun.security.jgss
+REMOTE: Replacing CUDrop: com.sun.security.ntlm
+REMOTE: Replacing CUDrop: com.sun.security.sasl
+REMOTE: Replacing CUDrop: com.sun.security.sasl.digest
+REMOTE: Replacing CUDrop: com.sun.security.sasl.gsskerb
+REMOTE: Replacing CUDrop: com.sun.security.sasl.ntlm
+REMOTE: Replacing CUDrop: com.sun.security.sasl.util
+REMOTE: Replacing CUDrop: com.sun.swing.internal.plaf.basic.resources
+REMOTE: Replacing CUDrop: com.sun.swing.internal.plaf.metal.resources
+REMOTE: Replacing CUDrop: com.sun.swing.internal.plaf.synth.resources
+REMOTE: Replacing CUDrop: com.sun.tracing
+REMOTE: Replacing CUDrop: com.sun.tracing.dtrace
+REMOTE: Replacing CUDrop: com.sun.xml.internal.bind
+REMOTE: Replacing CUDrop: com.sun.xml.internal.bind.annotation
+REMOTE: Replacing CUDrop: com.sun.xml.internal.bind.api
+REMOTE: Replacing CUDrop: com.sun.xml.internal.bind.api.impl
+REMOTE: Replacing CUDrop: com.sun.xml.internal.bind.marshaller
+REMOTE: Replacing CUDrop: com.sun.xml.internal.bind.unmarshaller
+REMOTE: Replacing CUDrop: com.sun.xml.internal.bind.util
+REMOTE: Replacing CUDrop: com.sun.xml.internal.bind.v2
+REMOTE: Replacing CUDrop: com.sun.xml.internal.bind.v2.bytecode
+REMOTE: Replacing CUDrop: com.sun.xml.internal.bind.v2.model.annotation
+REMOTE: Replacing CUDrop: com.sun.xml.internal.bind.v2.model.core
+REMOTE: Replacing CUDrop: com.sun.xml.internal.bind.v2.model.impl
+REMOTE: Replacing CUDrop: com.sun.xml.internal.bind.v2.model.nav
+REMOTE: Replacing CUDrop: com.sun.xml.internal.bind.v2.model.runtime
+REMOTE: Replacing CUDrop: com.sun.xml.internal.bind.v2.runtime
+REMOTE: Replacing CUDrop: com.sun.xml.internal.bind.v2.runtime.output
+REMOTE: Replacing CUDrop: com.sun.xml.internal.bind.v2.runtime.property
+REMOTE: Replacing CUDrop: com.sun.xml.internal.bind.v2.runtime.reflect
+REMOTE: Replacing CUDrop: com.sun.xml.internal.bind.v2.runtime.reflect.opt
+REMOTE: Replacing CUDrop: com.sun.xml.internal.bind.v2.runtime.unmarshaller
+REMOTE: Replacing CUDrop: com.sun.xml.internal.bind.v2.schemagen
+REMOTE: Replacing CUDrop: com.sun.xml.internal.bind.v2.schemagen.episode
+REMOTE: Replacing CUDrop: com.sun.xml.internal.bind.v2.schemagen.xmlschema
+REMOTE: Replacing CUDrop: com.sun.xml.internal.bind.v2.util
+REMOTE: Replacing CUDrop: com.sun.xml.internal.fastinfoset
+REMOTE: Replacing CUDrop: com.sun.xml.internal.fastinfoset.algorithm
+REMOTE: Replacing CUDrop: com.sun.xml.internal.fastinfoset.alphabet
+REMOTE: Replacing CUDrop: com.sun.xml.internal.fastinfoset.dom
+REMOTE: [GC (Allocation Failure)  70664K->53432K(371200K), 0.0086180 secs]
+REMOTE: Replacing CUDrop: com.sun.xml.internal.fastinfoset.org.apache.xerces.util
+REMOTE: Replacing CUDrop: com.sun.xml.internal.fastinfoset.sax
+REMOTE: Replacing CUDrop: com.sun.xml.internal.fastinfoset.stax
+REMOTE: Replacing CUDrop: com.sun.xml.internal.fastinfoset.stax.events
+REMOTE: Replacing CUDrop: com.sun.xml.internal.fastinfoset.stax.factory
+REMOTE: Replacing CUDrop: com.sun.xml.internal.fastinfoset.stax.util
+REMOTE: Replacing CUDrop: com.sun.xml.internal.fastinfoset.tools
+REMOTE: Replacing CUDrop: com.sun.xml.internal.fastinfoset.util
+REMOTE: Replacing CUDrop: com.sun.xml.internal.fastinfoset.vocab
+REMOTE: Replacing CUDrop: com.sun.xml.internal.messaging.saaj
+REMOTE: Replacing CUDrop: com.sun.xml.internal.messaging.saaj.client.p2p
+REMOTE: Replacing CUDrop: com.sun.xml.internal.messaging.saaj.packaging.mime
+REMOTE: Replacing CUDrop: com.sun.xml.internal.messaging.saaj.packaging.mime.internet
+REMOTE: Replacing CUDrop: com.sun.xml.internal.messaging.saaj.packaging.mime.util
+REMOTE: Replacing CUDrop: com.sun.xml.internal.messaging.saaj.soap
+REMOTE: Replacing CUDrop: com.sun.xml.internal.messaging.saaj.soap.dynamic
+REMOTE: Replacing CUDrop: com.sun.xml.internal.messaging.saaj.soap.impl
+REMOTE: Replacing CUDrop: com.sun.xml.internal.messaging.saaj.soap.name
+REMOTE: Replacing CUDrop: com.sun.xml.internal.messaging.saaj.soap.ver1_1
+REMOTE: Replacing CUDrop: com.sun.xml.internal.messaging.saaj.soap.ver1_2
+REMOTE: Replacing CUDrop: com.sun.xml.internal.messaging.saaj.util
+REMOTE: Replacing CUDrop: com.sun.xml.internal.messaging.saaj.util.transform
+REMOTE: Replacing CUDrop: com.sun.xml.internal.org.jvnet.fastinfoset
+REMOTE: Replacing CUDrop: com.sun.xml.internal.org.jvnet.fastinfoset.sax
+REMOTE: Replacing CUDrop: com.sun.xml.internal.org.jvnet.fastinfoset.sax.helpers
+REMOTE: Replacing CUDrop: com.sun.xml.internal.org.jvnet.fastinfoset.stax
+REMOTE: Replacing CUDrop: com.sun.xml.internal.org.jvnet.mimepull
+REMOTE: Replacing CUDrop: com.sun.xml.internal.org.jvnet.staxex
+REMOTE: Replacing CUDrop: com.sun.xml.internal.stream
+REMOTE: Replacing CUDrop: com.sun.xml.internal.stream.buffer
+REMOTE: Replacing CUDrop: com.sun.xml.internal.stream.buffer.sax
+REMOTE: Replacing CUDrop: com.sun.xml.internal.stream.buffer.stax
+REMOTE: Replacing CUDrop: com.sun.xml.internal.stream.dtd
+REMOTE: Replacing CUDrop: com.sun.xml.internal.stream.dtd.nonvalidating
+REMOTE: Replacing CUDrop: com.sun.xml.internal.stream.events
+REMOTE: Replacing CUDrop: com.sun.xml.internal.stream.util
+REMOTE: Replacing CUDrop: com.sun.xml.internal.stream.writers
+REMOTE: Replacing CUDrop: com.sun.xml.internal.txw2
+REMOTE: Replacing CUDrop: com.sun.xml.internal.txw2.annotation
+REMOTE: Replacing CUDrop: com.sun.xml.internal.txw2.output
+REMOTE: Replacing CUDrop: com.sun.xml.internal.ws
+REMOTE: Replacing CUDrop: com.sun.xml.internal.ws.addressing
+REMOTE: Replacing CUDrop: com.sun.xml.internal.ws.addressing.model
+REMOTE: Replacing CUDrop: com.sun.xml.internal.ws.addressing.policy
+REMOTE: Replacing CUDrop: com.sun.xml.internal.ws.addressing.v200408
+REMOTE: Replacing CUDrop: com.sun.xml.internal.ws.api
+REMOTE: Replacing CUDrop: com.sun.xml.internal.ws.api.addressing
+REMOTE: Replacing CUDrop: com.sun.xml.internal.ws.api.client
+REMOTE: Replacing CUDrop: com.sun.xml.internal.ws.api.config.management
+REMOTE: Replacing CUDrop: com.sun.xml.internal.ws.api.config.management.policy
+REMOTE: Replacing CUDrop: com.sun.xml.internal.ws.api.fastinfoset
+REMOTE: Replacing CUDrop: com.sun.xml.internal.ws.api.ha
+REMOTE: Replacing CUDrop: com.sun.xml.internal.ws.api.handler
+REMOTE: Replacing CUDrop: com.sun.xml.internal.ws.api.message
+REMOTE: Replacing CUDrop: com.sun.xml.internal.ws.api.message.stream
+REMOTE: Replacing CUDrop: com.sun.xml.internal.ws.api.model
+REMOTE: Replacing CUDrop: com.sun.xml.internal.ws.api.model.soap
+REMOTE: Replacing CUDrop: com.sun.xml.internal.ws.api.model.wsdl
+REMOTE: Replacing CUDrop: com.sun.xml.internal.ws.api.pipe
+REMOTE: Replacing CUDrop: com.sun.xml.internal.ws.api.pipe.helper
+REMOTE: Replacing CUDrop: com.sun.xml.internal.ws.api.policy
+REMOTE: Replacing CUDrop: com.sun.xml.internal.ws.api.server
+REMOTE: Replacing CUDrop: com.sun.xml.internal.ws.api.streaming
+REMOTE: Replacing CUDrop: com.sun.xml.internal.ws.api.wsdl.parser
+REMOTE: Replacing CUDrop: com.sun.xml.internal.ws.api.wsdl.writer
+REMOTE: Replacing CUDrop: com.sun.xml.internal.ws.binding
+REMOTE: Replacing CUDrop: com.sun.xml.internal.ws.client
+REMOTE: Replacing CUDrop: com.sun.xml.internal.ws.client.dispatch
+REMOTE: Replacing CUDrop: com.sun.xml.internal.ws.client.sei
+REMOTE: Replacing CUDrop: com.sun.xml.internal.ws.config.management.policy
+REMOTE: Replacing CUDrop: com.sun.xml.internal.ws.developer
+REMOTE: Replacing CUDrop: com.sun.xml.internal.ws.encoding
+REMOTE: Replacing CUDrop: com.sun.xml.internal.ws.encoding.fastinfoset
+REMOTE: Replacing CUDrop: com.sun.xml.internal.ws.encoding.policy
+REMOTE: Replacing CUDrop: com.sun.xml.internal.ws.encoding.soap
+REMOTE: Replacing CUDrop: com.sun.xml.internal.ws.encoding.soap.streaming
+REMOTE: Replacing CUDrop: com.sun.xml.internal.ws.encoding.xml
+REMOTE: Replacing CUDrop: com.sun.xml.internal.ws.fault
+REMOTE: Replacing CUDrop: com.sun.xml.internal.ws.handler
+REMOTE: Replacing CUDrop: com.sun.xml.internal.ws.message
+REMOTE: Replacing CUDrop: com.sun.xml.internal.ws.message.jaxb
+REMOTE: Replacing CUDrop: com.sun.xml.internal.ws.message.saaj
+REMOTE: Replacing CUDrop: com.sun.xml.internal.ws.message.source
+REMOTE: Replacing CUDrop: com.sun.xml.internal.ws.message.stream
+REMOTE: Replacing CUDrop: com.sun.xml.internal.ws.model
+REMOTE: Replacing CUDrop: com.sun.xml.internal.ws.model.soap
+REMOTE: Replacing CUDrop: com.sun.xml.internal.ws.model.wsdl
+REMOTE: Replacing CUDrop: com.sun.xml.internal.ws.org.objectweb.asm
+REMOTE: Replacing CUDrop: com.sun.xml.internal.ws.policy
+REMOTE: Replacing CUDrop: com.sun.xml.internal.ws.policy.jaxws
+REMOTE: Replacing CUDrop: com.sun.xml.internal.ws.policy.jaxws.spi
+REMOTE: Replacing CUDrop: com.sun.xml.internal.ws.policy.privateutil
+REMOTE: Replacing CUDrop: com.sun.xml.internal.ws.policy.sourcemodel
+REMOTE: Replacing CUDrop: com.sun.xml.internal.ws.policy.sourcemodel.attach
+REMOTE: Replacing CUDrop: com.sun.xml.internal.ws.policy.sourcemodel.wspolicy
+REMOTE: Replacing CUDrop: com.sun.xml.internal.ws.policy.spi
+REMOTE: Replacing CUDrop: com.sun.xml.internal.ws.policy.subject
+REMOTE: Replacing CUDrop: com.sun.xml.internal.ws.protocol.soap
+REMOTE: Replacing CUDrop: com.sun.xml.internal.ws.protocol.xml
+REMOTE: Replacing CUDrop: com.sun.xml.internal.ws.resources
+REMOTE: Replacing CUDrop: com.sun.xml.internal.ws.server
+REMOTE: Replacing CUDrop: com.sun.xml.internal.ws.server.provider
+REMOTE: Replacing CUDrop: com.sun.xml.internal.ws.server.sei
+REMOTE: Replacing CUDrop: com.sun.xml.internal.ws.spi
+REMOTE: Replacing CUDrop: com.sun.xml.internal.ws.streaming
+REMOTE: Replacing CUDrop: com.sun.xml.internal.ws.transport
+REMOTE: Replacing CUDrop: com.sun.xml.internal.ws.transport.http
+REMOTE: Replacing CUDrop: com.sun.xml.internal.ws.transport.http.client
+REMOTE: Replacing CUDrop: com.sun.xml.internal.ws.transport.http.server
+REMOTE: Replacing CUDrop: com.sun.xml.internal.ws.util
+REMOTE: Replacing CUDrop: com.sun.xml.internal.ws.util.exception
+REMOTE: Replacing CUDrop: com.sun.xml.internal.ws.util.localization
+REMOTE: Replacing CUDrop: com.sun.xml.internal.ws.util.pipe
+REMOTE: Replacing CUDrop: com.sun.xml.internal.ws.util.xml
+REMOTE: Replacing CUDrop: com.sun.xml.internal.ws.wsdl
+REMOTE: Replacing CUDrop: com.sun.xml.internal.ws.wsdl.parser
+REMOTE: Replacing CUDrop: com.sun.xml.internal.ws.wsdl.writer
+REMOTE: Replacing CUDrop: com.sun.xml.internal.ws.wsdl.writer.document
+REMOTE: Replacing CUDrop: com.sun.xml.internal.ws.wsdl.writer.document.http
+REMOTE: Replacing CUDrop: com.sun.xml.internal.ws.wsdl.writer.document.soap
+REMOTE: Replacing CUDrop: com.sun.xml.internal.ws.wsdl.writer.document.soap12
+REMOTE: Replacing CUDrop: com.sun.xml.internal.ws.wsdl.writer.document.xsd
+REMOTE: Replacing CUDrop: java.applet
+REMOTE: Replacing CUDrop: java.awt
+REMOTE: Replacing CUDrop: java.awt.color
+REMOTE: Replacing CUDrop: java.awt.datatransfer
+REMOTE: Replacing CUDrop: java.awt.dnd
+REMOTE: Replacing CUDrop: java.awt.event
+REMOTE: Replacing CUDrop: java.awt.font
+REMOTE: Replacing CUDrop: java.awt.geom
+REMOTE: Replacing CUDrop: java.awt.im
+REMOTE: Replacing CUDrop: java.awt.im.spi
+REMOTE: Replacing CUDrop: java.awt.image
+REMOTE: Replacing CUDrop: java.awt.image.renderable
+REMOTE: Replacing CUDrop: java.awt.peer
+REMOTE: Replacing CUDrop: java.awt.print
+REMOTE: Replacing CUDrop: java.beans
+REMOTE: Replacing CUDrop: java.beans.beancontext
+REMOTE: Replacing CUDrop: java.io
+REMOTE: Replacing CUDrop: java.lang
+REMOTE: Replacing CUDrop: java.lang.annotation
+REMOTE: Replacing CUDrop: java.lang.instrument
+REMOTE: Replacing CUDrop: java.lang.invoke
+REMOTE: Replacing CUDrop: java.lang.management
+REMOTE: Replacing CUDrop: java.lang.reflect
+REMOTE: Replacing CUDrop: java.math
+REMOTE: Replacing CUDrop: java.net
+REMOTE: Replacing CUDrop: java.nio
+REMOTE: Replacing CUDrop: java.nio.channels
+REMOTE: Replacing CUDrop: java.nio.channels.spi
+REMOTE: Replacing CUDrop: java.nio.charset
+REMOTE: Replacing CUDrop: java.nio.file
+REMOTE: Replacing CUDrop: java.nio.file.attribute
+REMOTE: Replacing CUDrop: java.nio.file.spi
+REMOTE: Replacing CUDrop: java.rmi
+REMOTE: Replacing CUDrop: java.rmi.activation
+REMOTE: Replacing CUDrop: java.rmi.dgc
+REMOTE: Replacing CUDrop: java.rmi.registry
+REMOTE: Replacing CUDrop: java.rmi.server
+REMOTE: Replacing CUDrop: java.security
+REMOTE: Replacing CUDrop: java.security.acl
+REMOTE: Replacing CUDrop: java.security.cert
+REMOTE: Replacing CUDrop: java.security.interfaces
+REMOTE: Replacing CUDrop: java.security.spec
+REMOTE: Replacing CUDrop: java.sql
+REMOTE: Replacing CUDrop: java.text
+REMOTE: Replacing CUDrop: java.text.spi
+REMOTE: Replacing CUDrop: java.util
+REMOTE: Replacing CUDrop: java.util.concurrent
+REMOTE: Replacing CUDrop: java.util.concurrent.atomic
+REMOTE: Replacing CUDrop: java.util.concurrent.locks
+REMOTE: Replacing CUDrop: java.util.jar
+REMOTE: Replacing CUDrop: java.util.logging
+REMOTE: Replacing CUDrop: java.util.prefs
+REMOTE: Replacing CUDrop: java.util.regex
+REMOTE: Replacing CUDrop: java.util.spi
+REMOTE: Replacing CUDrop: java.util.zip
+REMOTE: Replacing CUDrop: javax.accessibility
+REMOTE: Replacing CUDrop: javax.activation
+REMOTE: Replacing CUDrop: javax.activity
+REMOTE: Replacing CUDrop: javax.annotation
+REMOTE: Replacing CUDrop: javax.annotation.processing
+REMOTE: Replacing CUDrop: javax.imageio
+REMOTE: Replacing CUDrop: javax.imageio.event
+REMOTE: Replacing CUDrop: javax.imageio.metadata
+REMOTE: Replacing CUDrop: javax.imageio.plugins.bmp
+REMOTE: Replacing CUDrop: javax.imageio.plugins.jpeg
+REMOTE: Replacing CUDrop: javax.imageio.spi
+REMOTE: Replacing CUDrop: javax.imageio.stream
+REMOTE: Replacing CUDrop: javax.jws
+REMOTE: Replacing CUDrop: javax.jws.soap
+REMOTE: Replacing CUDrop: javax.lang.model
+REMOTE: Replacing CUDrop: javax.lang.model.element
+REMOTE: Replacing CUDrop: javax.lang.model.type
+REMOTE: Replacing CUDrop: javax.lang.model.util
+REMOTE: Replacing CUDrop: javax.management
+REMOTE: Replacing CUDrop: javax.management.loading
+REMOTE: Replacing CUDrop: javax.management.modelmbean
+REMOTE: Replacing CUDrop: javax.management.monitor
+REMOTE: Replacing CUDrop: javax.management.openmbean
+REMOTE: Replacing CUDrop: javax.management.relation
+REMOTE: Replacing CUDrop: javax.management.remote
+REMOTE: Replacing CUDrop: javax.management.remote.rmi
+REMOTE: Replacing CUDrop: javax.management.timer
+REMOTE: Replacing CUDrop: javax.naming
+REMOTE: Replacing CUDrop: javax.naming.directory
+REMOTE: Replacing CUDrop: javax.naming.event
+REMOTE: Replacing CUDrop: javax.naming.ldap
+REMOTE: Replacing CUDrop: javax.naming.spi
+REMOTE: Replacing CUDrop: javax.net
+REMOTE: Replacing CUDrop: javax.net.ssl
+REMOTE: Replacing CUDrop: javax.print
+REMOTE: Replacing CUDrop: javax.print.attribute
+REMOTE: Replacing CUDrop: javax.print.attribute.standard
+REMOTE: Replacing CUDrop: javax.print.event
+REMOTE: Replacing CUDrop: javax.rmi.CORBA
+REMOTE: Replacing CUDrop: javax.rmi
+REMOTE: Replacing CUDrop: javax.rmi.ssl
+REMOTE: Replacing CUDrop: javax.script
+REMOTE: Replacing CUDrop: javax.security.auth
+REMOTE: Replacing CUDrop: javax.security.auth.callback
+REMOTE: Replacing CUDrop: javax.security.auth.kerberos
+REMOTE: Replacing CUDrop: javax.security.auth.login
+REMOTE: Replacing CUDrop: javax.security.auth.spi
+REMOTE: Replacing CUDrop: javax.security.auth.x500
+REMOTE: Replacing CUDrop: javax.security.cert
+REMOTE: Replacing CUDrop: javax.security.sasl
+REMOTE: Replacing CUDrop: javax.smartcardio
+REMOTE: Replacing CUDrop: javax.sound.midi
+REMOTE: Replacing CUDrop: javax.sound.midi.spi
+REMOTE: Replacing CUDrop: javax.sound.sampled
+REMOTE: Replacing CUDrop: javax.sound.sampled.spi
+REMOTE: Replacing CUDrop: javax.sql
+REMOTE: Replacing CUDrop: javax.sql.rowset
+REMOTE: Replacing CUDrop: javax.sql.rowset.serial
+REMOTE: Replacing CUDrop: javax.sql.rowset.spi
+REMOTE: Replacing CUDrop: javax.swing
+REMOTE: Replacing CUDrop: javax.swing.border
+REMOTE: Replacing CUDrop: javax.swing.colorchooser
+REMOTE: Replacing CUDrop: javax.swing.event
+REMOTE: Replacing CUDrop: javax.swing.filechooser
+REMOTE: Replacing CUDrop: javax.swing.plaf
+REMOTE: Replacing CUDrop: javax.swing.plaf.basic
+REMOTE: Replacing CUDrop: javax.swing.plaf.metal
+REMOTE: Replacing CUDrop: javax.swing.plaf.multi
+REMOTE: Replacing CUDrop: javax.swing.plaf.nimbus
+REMOTE: Replacing CUDrop: javax.swing.plaf.synth
+REMOTE: Replacing CUDrop: javax.swing.table
+REMOTE: Replacing CUDrop: javax.swing.text
+REMOTE: Replacing CUDrop: javax.swing.text.html
+REMOTE: Replacing CUDrop: javax.swing.text.html.parser
+REMOTE: Replacing CUDrop: javax.swing.text.rtf
+REMOTE: Replacing CUDrop: javax.swing.tree
+REMOTE: Replacing CUDrop: javax.swing.undo
+REMOTE: Replacing CUDrop: javax.tools
+REMOTE: Replacing CUDrop: javax.transaction
+REMOTE: Replacing CUDrop: javax.transaction.xa
+REMOTE: Replacing CUDrop: javax.xml
+REMOTE: Replacing CUDrop: javax.xml.bind
+REMOTE: Replacing CUDrop: javax.xml.bind.annotation
+REMOTE: Replacing CUDrop: javax.xml.bind.annotation.adapters
+REMOTE: Replacing CUDrop: javax.xml.bind.attachment
+REMOTE: Replacing CUDrop: javax.xml.bind.helpers
+REMOTE: Replacing CUDrop: javax.xml.bind.util
+REMOTE: Replacing CUDrop: javax.xml.crypto
+REMOTE: Replacing CUDrop: javax.xml.crypto.dom
+REMOTE: Replacing CUDrop: javax.xml.crypto.dsig
+REMOTE: Replacing CUDrop: javax.xml.crypto.dsig.dom
+REMOTE: Replacing CUDrop: javax.xml.crypto.dsig.keyinfo
+REMOTE: Replacing CUDrop: javax.xml.crypto.dsig.spec
+REMOTE: Replacing CUDrop: javax.xml.datatype
+REMOTE: Replacing CUDrop: javax.xml.namespace
+REMOTE: Replacing CUDrop: javax.xml.parsers
+REMOTE: Replacing CUDrop: javax.xml.soap
+REMOTE: Replacing CUDrop: javax.xml.stream
+REMOTE: Replacing CUDrop: javax.xml.stream.events
+REMOTE: Replacing CUDrop: javax.xml.stream.util
+REMOTE: Replacing CUDrop: javax.xml.transform
+REMOTE: Replacing CUDrop: javax.xml.transform.dom
+REMOTE: Replacing CUDrop: javax.xml.transform.sax
+REMOTE: Replacing CUDrop: javax.xml.transform.stax
+REMOTE: Replacing CUDrop: javax.xml.transform.stream
+REMOTE: Replacing CUDrop: javax.xml.validation
+REMOTE: Replacing CUDrop: javax.xml.ws
+REMOTE: Replacing CUDrop: javax.xml.ws.handler
+REMOTE: Replacing CUDrop: javax.xml.ws.handler.soap
+REMOTE: Replacing CUDrop: javax.xml.ws.http
+REMOTE: Replacing CUDrop: javax.xml.ws.soap
+REMOTE: Replacing CUDrop: javax.xml.ws.spi
+REMOTE: Replacing CUDrop: javax.xml.ws.spi.http
+REMOTE: Replacing CUDrop: javax.xml.ws.wsaddressing
+REMOTE: Replacing CUDrop: javax.xml.xpath
+REMOTE: Replacing CUDrop: org.ietf.jgss
+REMOTE: Replacing CUDrop: org.jcp.xml.dsig.internal
+REMOTE: Replacing CUDrop: org.jcp.xml.dsig.internal.dom
+REMOTE: Replacing CUDrop: org.omg.CORBA
+REMOTE: Replacing CUDrop: org.omg.CORBA.DynAnyPackage
+REMOTE: Replacing CUDrop: org.omg.CORBA.ORBPackage
+REMOTE: Replacing CUDrop: org.omg.CORBA.TypeCodePackage
+REMOTE: Replacing CUDrop: org.omg.CORBA.portable
+REMOTE: Replacing CUDrop: org.omg.CORBA_2_3
+REMOTE: Replacing CUDrop: org.omg.CORBA_2_3.portable
+REMOTE: Replacing CUDrop: org.omg.CosNaming
+REMOTE: Replacing CUDrop: org.omg.CosNaming.NamingContextExtPackage
+REMOTE: Replacing CUDrop: org.omg.CosNaming.NamingContextPackage
+REMOTE: Replacing CUDrop: org.omg.Dynamic
+REMOTE: Replacing CUDrop: org.omg.DynamicAny
+REMOTE: Replacing CUDrop: org.omg.DynamicAny.DynAnyFactoryPackage
+REMOTE: Replacing CUDrop: org.omg.DynamicAny.DynAnyPackage
+REMOTE: Replacing CUDrop: org.omg.IOP
+REMOTE: Replacing CUDrop: org.omg.IOP.CodecFactoryPackage
+REMOTE: Replacing CUDrop: org.omg.IOP.CodecPackage
+REMOTE: Replacing CUDrop: org.omg.Messaging
+REMOTE: Replacing CUDrop: org.omg.PortableInterceptor
+REMOTE: Replacing CUDrop: org.omg.PortableInterceptor.ORBInitInfoPackage
+REMOTE: Replacing CUDrop: org.omg.PortableServer
+REMOTE: Replacing CUDrop: org.omg.PortableServer.CurrentPackage
+REMOTE: Replacing CUDrop: org.omg.PortableServer.POAManagerPackage
+REMOTE: Replacing CUDrop: org.omg.PortableServer.POAPackage
+REMOTE: Replacing CUDrop: org.omg.PortableServer.ServantLocatorPackage
+REMOTE: Replacing CUDrop: org.omg.PortableServer.portable
+REMOTE: Replacing CUDrop: org.omg.SendingContext
+REMOTE: Replacing CUDrop: org.omg.stub.java.rmi
+REMOTE: Replacing CUDrop: org.omg.stub.javax.management.remote.rmi
+REMOTE: Replacing CUDrop: org.w3c.dom
+REMOTE: Replacing CUDrop: org.w3c.dom.bootstrap
+REMOTE: Replacing CUDrop: org.w3c.dom.css
+REMOTE: Replacing CUDrop: org.w3c.dom.events
+REMOTE: Replacing CUDrop: org.w3c.dom.html
+REMOTE: Replacing CUDrop: org.w3c.dom.ls
+REMOTE: Replacing CUDrop: org.w3c.dom.ranges
+REMOTE: Replacing CUDrop: org.w3c.dom.stylesheets
+REMOTE: Replacing CUDrop: org.w3c.dom.traversal
+REMOTE: Replacing CUDrop: org.w3c.dom.views
+REMOTE: Replacing CUDrop: org.w3c.dom.xpath
+REMOTE: Replacing CUDrop: org.xml.sax
+REMOTE: Replacing CUDrop: org.xml.sax.ext
+REMOTE: Replacing CUDrop: org.xml.sax.helpers
+REMOTE: Replacing CUDrop: sun.applet
+REMOTE: Replacing CUDrop: sun.applet.resources
+REMOTE: Replacing CUDrop: sun.audio
+REMOTE: Replacing CUDrop: sun.awt
+REMOTE: Replacing CUDrop: sun.awt.X11
+REMOTE: Replacing CUDrop: sun.awt.datatransfer
+REMOTE: Replacing CUDrop: sun.awt.geom
+REMOTE: Replacing CUDrop: sun.awt.im
+REMOTE: Replacing CUDrop: sun.awt.image
+REMOTE: Replacing CUDrop: sun.awt.image.codec
+REMOTE: Replacing CUDrop: sun.awt.motif
+REMOTE: Replacing CUDrop: sun.awt.resources
+REMOTE: Replacing CUDrop: sun.awt.shell
+REMOTE: Replacing CUDrop: sun.awt.util
+REMOTE: Replacing CUDrop: sun.awt.windows
+REMOTE: Replacing CUDrop: sun.beans.editors
+REMOTE: Replacing CUDrop: sun.corba
+REMOTE: Replacing CUDrop: sun.dc
+REMOTE: Replacing CUDrop: sun.dc.path
+REMOTE: Replacing CUDrop: sun.dc.pr
+REMOTE: Replacing CUDrop: sun.font
+REMOTE: Replacing CUDrop: sun.instrument
+REMOTE: Replacing CUDrop: sun.invoke
+REMOTE: Replacing CUDrop: sun.invoke.anon
+REMOTE: Replacing CUDrop: sun.invoke.empty
+REMOTE: Replacing CUDrop: sun.invoke.util
+REMOTE: Replacing CUDrop: sun.io
+REMOTE: Replacing CUDrop: sun.java2d
+REMOTE: Replacing CUDrop: sun.java2d.cmm
+REMOTE: Replacing CUDrop: sun.java2d.cmm.kcms
+REMOTE: Replacing CUDrop: sun.java2d.cmm.lcms
+REMOTE: Replacing CUDrop: sun.java2d.jules
+REMOTE: Replacing CUDrop: sun.java2d.loops
+REMOTE: Replacing CUDrop: sun.java2d.opengl
+REMOTE: Replacing CUDrop: sun.java2d.pipe
+REMOTE: Replacing CUDrop: sun.java2d.pipe.hw
+REMOTE: Replacing CUDrop: sun.java2d.pisces
+REMOTE: Replacing CUDrop: sun.java2d.x11
+REMOTE: Replacing CUDrop: sun.java2d.xr
+REMOTE: Replacing CUDrop: sun.launcher
+REMOTE: Replacing CUDrop: sun.launcher.resources
+REMOTE: Replacing CUDrop: sun.lwawt
+REMOTE: Replacing CUDrop: sun.lwawt.macosx
+REMOTE: Replacing CUDrop: sun.lwawt.macosx.event
+REMOTE: Replacing CUDrop: sun.management
+REMOTE: Replacing CUDrop: sun.management.counter
+REMOTE: Replacing CUDrop: sun.management.counter.perf
+REMOTE: Replacing CUDrop: sun.management.jdp
+REMOTE: Replacing CUDrop: sun.management.jmxremote
+REMOTE: Replacing CUDrop: sun.management.resources
+REMOTE: Replacing CUDrop: sun.management.snmp
+REMOTE: Replacing CUDrop: sun.management.snmp.jvminstr
+REMOTE: Replacing CUDrop: sun.management.snmp.jvmmib
+REMOTE: Replacing CUDrop: sun.management.snmp.util
+REMOTE: Replacing CUDrop: sun.misc
+REMOTE: Replacing CUDrop: sun.misc.resources
+REMOTE: Replacing CUDrop: sun.net
+REMOTE: Replacing CUDrop: sun.net.dns
+REMOTE: Replacing CUDrop: sun.net.ftp
+REMOTE: Replacing CUDrop: sun.net.ftp.impl
+REMOTE: Replacing CUDrop: sun.net.httpserver
+REMOTE: Replacing CUDrop: sun.net.idn
+REMOTE: Replacing CUDrop: sun.net.sdp
+REMOTE: Replacing CUDrop: sun.net.smtp
+REMOTE: Replacing CUDrop: sun.net.spi.nameservice
+REMOTE: Replacing CUDrop: sun.net.util
+REMOTE: Replacing CUDrop: sun.net.www
+REMOTE: Replacing CUDrop: sun.net.www.content.audio
+REMOTE: Replacing CUDrop: sun.net.www.content.image
+REMOTE: Replacing CUDrop: sun.net.www.content.text
+REMOTE: Replacing CUDrop: sun.net.www.http
+REMOTE: Replacing CUDrop: sun.net.www.protocol.ftp
+REMOTE: Replacing CUDrop: sun.net.www.protocol.gopher
+REMOTE: Replacing CUDrop: sun.net.www.protocol.http
+REMOTE: Replacing CUDrop: sun.net.www.protocol.http.logging
+REMOTE: Replacing CUDrop: sun.net.www.protocol.http.ntlm
+REMOTE: Replacing CUDrop: sun.net.www.protocol.http.spnego
+REMOTE: Replacing CUDrop: sun.net.www.protocol.https
+REMOTE: Replacing CUDrop: sun.net.www.protocol.jar
+REMOTE: Replacing CUDrop: sun.net.www.protocol.mailto
+REMOTE: Replacing CUDrop: sun.net.www.protocol.netdoc
+REMOTE: Replacing CUDrop: sun.nio.ch
+REMOTE: Replacing CUDrop: sun.nio.cs
+REMOTE: Replacing CUDrop: sun.nio.fs
+REMOTE: Replacing CUDrop: sun.org.mozilla.javascript.internal
+REMOTE: Replacing CUDrop: sun.org.mozilla.javascript.internal.annotations
+REMOTE: Replacing CUDrop: sun.org.mozilla.javascript.internal.ast
+REMOTE: Replacing CUDrop: sun.org.mozilla.javascript.internal.debug
+REMOTE: Replacing CUDrop: sun.org.mozilla.javascript.internal.jdk13
+REMOTE: Replacing CUDrop: sun.org.mozilla.javascript.internal.jdk15
+REMOTE: Replacing CUDrop: sun.org.mozilla.javascript.internal.json
+REMOTE: Replacing CUDrop: sun.org.mozilla.javascript.internal.regexp
+REMOTE: Replacing CUDrop: sun.org.mozilla.javascript.internal.xml
+REMOTE: Replacing CUDrop: sun.org.mozilla.javascript.internal.xmlimpl
+REMOTE: Replacing CUDrop: sun.print
+REMOTE: Replacing CUDrop: sun.print.resources
+REMOTE: Replacing CUDrop: sun.reflect
+REMOTE: Replacing CUDrop: sun.reflect.annotation
+REMOTE: Replacing CUDrop: sun.reflect.generics.factory
+REMOTE: Replacing CUDrop: sun.reflect.generics.parser
+REMOTE: Replacing CUDrop: sun.reflect.generics.reflectiveObjects
+REMOTE: Replacing CUDrop: sun.reflect.generics.repository
+REMOTE: Replacing CUDrop: sun.reflect.generics.scope
+REMOTE: Replacing CUDrop: sun.reflect.generics.tree
+REMOTE: Replacing CUDrop: sun.reflect.generics.visitor
+REMOTE: Replacing CUDrop: sun.reflect.misc
+REMOTE: Replacing CUDrop: sun.rmi.log
+REMOTE: Replacing CUDrop: sun.rmi.registry
+REMOTE: Replacing CUDrop: sun.rmi.runtime
+REMOTE: Replacing CUDrop: sun.rmi.server
+REMOTE: Replacing CUDrop: sun.rmi.transport
+REMOTE: Replacing CUDrop: sun.rmi.transport.proxy
+REMOTE: Replacing CUDrop: sun.rmi.transport.tcp
+REMOTE: Replacing CUDrop: sun.security.acl
+REMOTE: Replacing CUDrop: sun.security.action
+REMOTE: Replacing CUDrop: sun.security.ec
+REMOTE: Replacing CUDrop: sun.security.jca
+REMOTE: Replacing CUDrop: sun.security.jgss
+REMOTE: Replacing CUDrop: sun.security.jgss.krb5
+REMOTE: Replacing CUDrop: sun.security.jgss.spi
+REMOTE: Replacing CUDrop: sun.security.jgss.spnego
+REMOTE: Replacing CUDrop: sun.security.jgss.wrapper
+REMOTE: Replacing CUDrop: sun.security.krb5
+REMOTE: Replacing CUDrop: sun.security.krb5.internal
+REMOTE: Replacing CUDrop: sun.security.krb5.internal.ccache
+REMOTE: Replacing CUDrop: sun.security.krb5.internal.crypto
+REMOTE: Replacing CUDrop: sun.security.krb5.internal.crypto.dk
+REMOTE: Replacing CUDrop: sun.security.krb5.internal.ktab
+REMOTE: Replacing CUDrop: sun.security.krb5.internal.rcache
+REMOTE: Replacing CUDrop: sun.security.krb5.internal.util
+REMOTE: Replacing CUDrop: sun.security.pkcs
+REMOTE: Replacing CUDrop: sun.security.pkcs12
+REMOTE: Replacing CUDrop: sun.security.provider
+REMOTE: Replacing CUDrop: sun.security.provider.certpath
+REMOTE: Replacing CUDrop: sun.security.provider.certpath.ldap
+REMOTE: Replacing CUDrop: sun.security.rsa
+REMOTE: Replacing CUDrop: sun.security.smartcardio
+REMOTE: Replacing CUDrop: sun.security.timestamp
+REMOTE: Replacing CUDrop: sun.security.tools
+REMOTE: Replacing CUDrop: sun.security.tools.policytool
+REMOTE: Replacing CUDrop: sun.security.util
+REMOTE: Replacing CUDrop: sun.security.validator
+REMOTE: Replacing CUDrop: sun.security.x509
+REMOTE: Replacing CUDrop: sun.swing
+REMOTE: Replacing CUDrop: sun.swing.icon
+REMOTE: Replacing CUDrop: sun.swing.plaf
+REMOTE: Replacing CUDrop: sun.swing.plaf.synth
+REMOTE: Replacing CUDrop: sun.swing.plaf.windows
+REMOTE: Replacing CUDrop: sun.swing.text
+REMOTE: Replacing CUDrop: sun.swing.text.html
+REMOTE: Replacing CUDrop: sun.text
+REMOTE: Replacing CUDrop: sun.text.bidi
+REMOTE: Replacing CUDrop: sun.text.normalizer
+REMOTE: Replacing CUDrop: sun.text.resources
+REMOTE: Replacing CUDrop: sun.tools.jar
+REMOTE: Replacing CUDrop: sun.tools.jar.resources
+REMOTE: Replacing CUDrop: sun.tracing
+REMOTE: Replacing CUDrop: sun.tracing.dtrace
+REMOTE: Replacing CUDrop: sun.usagetracker
+REMOTE: Replacing CUDrop: sun.util
+REMOTE: Replacing CUDrop: sun.util.calendar
+REMOTE: Replacing CUDrop: sun.util.locale
+REMOTE: Replacing CUDrop: sun.util.logging
+REMOTE: Replacing CUDrop: sun.util.logging.resources
+REMOTE: Replacing CUDrop: sun.util.resources
+REMOTE: Replacing CUDrop: sunw.io
+REMOTE: Replacing CUDrop: sunw.util
+REMOTE: Replacing CUDrop: java.awt.dnd.peer
+REMOTE: Replacing CUDrop: sun.awt.dnd
+REMOTE: Replacing CUDrop: sun.swing.table
+REMOTE: Replacing CUDrop: sun.awt.event
+REMOTE: Replacing CUDrop: sun.net.spi
+REMOTE: Replacing CUDrop: sun.net.www.protocol.file
+REMOTE: Replacing CUDrop: sun.nio
+REMOTE: Replacing CUDrop: java.nio.charset.spi
+REMOTE: Replacing CUDrop: java.lang.ref
+REMOTE: TestInstanceParameterDeclLocks: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/rt.jar : 64311652
+REMOTE: Replacing CUDrop: sun.security.ssl
+REMOTE: Replacing CUDrop: sun.security.ssl.krb5
+REMOTE: Replacing CUDrop: com.sun.net.ssl.internal.ssl
+REMOTE: TestInstanceParameterDeclLocks: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jsse.jar : 582478
+REMOTE: Replacing CUDrop: javax.crypto
+REMOTE: Replacing CUDrop: javax.crypto.interfaces
+REMOTE: Replacing CUDrop: javax.crypto.spec
+REMOTE: Replacing CUDrop: sun.security.internal.interfaces
+REMOTE: Replacing CUDrop: sun.security.internal.spec
+REMOTE: TestInstanceParameterDeclLocks: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jce.jar : 109504
+REMOTE: Replacing CUDrop: sun.nio.cs.ext
+REMOTE: TestInstanceParameterDeclLocks: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/charsets.jar : 3696271
+REMOTE: Replacing CUDrop: com.oracle.jrockit.jfr.client
+REMOTE: Replacing CUDrop: com.oracle.jrockit.jfr
+REMOTE: Replacing CUDrop: com.oracle.jrockit.jfr.management
+REMOTE: Replacing CUDrop: oracle.jrockit.jfr
+REMOTE: Replacing CUDrop: oracle.jrockit.jfr.events
+REMOTE: Replacing CUDrop: oracle.jrockit.jfr.jdkevents
+REMOTE: Replacing CUDrop: oracle.jrockit.jfr.jdkevents.throwabletransform
+REMOTE: Replacing CUDrop: oracle.jrockit.jfr.openmbean
+REMOTE: Replacing CUDrop: oracle.jrockit.jfr.parser
+REMOTE: Replacing CUDrop: oracle.jrockit.jfr.settings
+REMOTE: Replacing CUDrop: oracle.jrockit.jfr.tools
+REMOTE: Replacing CUDrop: jdk.internal.jfr.events
+REMOTE: TestInstanceParameterDeclLocks: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jfr.jar : 532548
+REMOTE: Replacing CUDrop: sun.net.spi.nameservice.dns
+REMOTE: TestInstanceParameterDeclLocks: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/dnsns.jar : 8923
+REMOTE: TestInstanceParameterDeclLocks: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/localedata.jar : 550578
+REMOTE: TestInstanceParameterDeclLocks: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunec.jar : 15941
+REMOTE: Replacing CUDrop: com.sun.crypto.provider
+REMOTE: TestInstanceParameterDeclLocks: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunjce_provider.jar : 198101
+REMOTE: Replacing CUDrop: sun.security.pkcs11
+REMOTE: Replacing CUDrop: sun.security.pkcs11.wrapper
+REMOTE: TestInstanceParameterDeclLocks: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunpkcs11.jar : 237244
+REMOTE: Replacing CUDrop: com.sun.nio.zipfs
+REMOTE: TestInstanceParameterDeclLocks: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/zipfs.jar : 68751
+REMOTE: Replacing CUDrop: com.apple.mrj
+REMOTE: TestInstanceParameterDeclLocks: Done initializing with /System/Library/Java/Extensions/MRJToolkit.jar : 12849
+REMOTE: TestInstanceParameterDeclLocks: Done initializing with /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/TestInstanceParameterDeclLocks/promises-5.6.0.jar : 133034
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: Assuming that the projects are run in dependency order
+REMOTE: Parsing ...
+REMOTE: ##SUBTASK, Parsing ...
+REMOTE: Done adapting 0 files for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: Parsing ...
+REMOTE: ##SUBTASK, Parsing ...
+REMOTE: [GC (Allocation Failure)  88248K->60132K(372224K), 0.0094330 secs]
+REMOTE: JCP: warning: [options] bootstrap class path not set in conjunction with -source 1.7
+REMOTE: ##WORK, 1
+REMOTE: Adapting 1 CUTs
+REMOTE: Done adapting 1 files for TestInstanceParameterDeclLocks
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: Handling references for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##SUBTASK, Handling references for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Handling 21 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Setting project for Object from org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Handling 44 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: [GC (Allocation Failure)  94948K->63742K(387072K), 0.0201540 secs]
+REMOTE: Handling 55 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Handling 51 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Handling 32 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Handling 17 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Handling 8 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Handling 12 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Handling 15 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Handling 4 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Handling 2 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: Handling 26 dangling refs for TestInstanceParameterDeclLocks
+REMOTE: Handling 5 dangling refs for TestInstanceParameterDeclLocks
+REMOTE: Parsing ASTs  = 509 ms
+REMOTE: Handling refs = 465 ms
+REMOTE: [2016-01-27 13:04:54    INFO] partial bindings = 0 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+REMOTE: [2016-01-27 13:04:54    INFO] full bindings = 0 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+REMOTE: Canonicalizing ASTs
+REMOTE: ##SUBTASK, Canonicalizing ASTs
+REMOTE: ##WORK, 1
+REMOTE: [2016-01-27 13:04:54    INFO] partial bindings = 29 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+REMOTE: [2016-01-27 13:04:54    INFO] full bindings = 39 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+REMOTE: Canonicalizing TestInstanceParameterDeclLocks/src/test/Test.java
+REMOTE: [GC (Metadata GC Threshold)  109426K->67159K(387072K), 0.0110020 secs]
+REMOTE: [Full GC (Metadata GC Threshold)  67159K->65751K(137728K), 0.2477470 secs]
+REMOTE: ##WORK, 1
+REMOTE: Binding = 95 ms
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: [GC (System.gc())  67241K->65951K(134144K), 0.0016510 secs]
+REMOTE: [Full GC (System.gc())  65951K->54526K(134144K), 0.0968300 secs]
+REMOTE: Creating drops
+REMOTE: ##SUBTASK, Creating drops
+REMOTE: Created binary drop for java.lang.NoSuchFieldException
+REMOTE: Created binary drop for java.security.Permission
+REMOTE: Created binary drop for java.net.UnknownServiceException
+REMOTE: Created binary drop for java.nio.file.attribute.UserPrincipal
+REMOTE: Created binary drop for java.lang.Comparable
+REMOTE: Created binary drop for java.lang.Object
+REMOTE: Created binary drop for com.surelogic.RequiresLock
+REMOTE: Created binary drop for java.io.DataOutputStream
+REMOTE: Created binary drop for java.nio.IntBuffer
+REMOTE: Created binary drop for java.net.URISyntaxException
+REMOTE: Created binary drop for java.security.AccessControlContext
+REMOTE: Created binary drop for java.lang.InstantiationException
+REMOTE: Created binary drop for java.lang.ReflectiveOperationException
+REMOTE: Created binary drop for sun.security.util.Debug
+REMOTE: Created binary drop for java.nio.charset.CoderResult
+REMOTE: Created binary drop for java.nio.charset.CharsetEncoder
+REMOTE: Created binary drop for java.security.InvalidKeyException
+REMOTE: Created binary drop for java.io.ObjectStreamException
+REMOTE: Created binary drop for sun.util.locale.BaseLocale
+REMOTE: Created binary drop for java.lang.SecurityException
+REMOTE: Created binary drop for java.net.ContentHandlerFactory
+REMOTE: Created binary drop for java.io.UnsupportedEncodingException
+REMOTE: Created binary drop for java.util.zip.ZipException
+REMOTE: Created binary drop for sun.util.locale.Extension
+REMOTE: Created binary drop for java.nio.LongBuffer
+REMOTE: Created binary drop for java.net.Proxy
+REMOTE: Created binary drop for java.io.FileDescriptor
+REMOTE: Created binary drop for java.nio.file.attribute.UserPrincipalLookupService
+REMOTE: Created binary drop for java.lang.ref.WeakReference
+REMOTE: Created binary drop for java.util.Deque
+REMOTE: Created binary drop for java.net.SocketException
+REMOTE: Created binary drop for java.security.KeyException
+REMOTE: Created binary drop for java.util.zip.ZipConstants
+REMOTE: Created binary drop for java.nio.ShortBuffer
+REMOTE: Created binary drop for sun.util.locale.LanguageTag
+REMOTE: Created binary drop for java.lang.annotation.Retention
+REMOTE: Created binary drop for java.lang.CloneNotSupportedException
+REMOTE: Created binary drop for java.util.RandomAccess
+REMOTE: Created binary drop for java.lang.annotation.Target
+REMOTE: Created binary drop for java.util.concurrent.locks.Lock
+REMOTE: Created binary drop for java.nio.charset.Charset
+REMOTE: Created binary drop for sun.reflect.annotation.AnnotationType
+REMOTE: Created binary drop for java.security.AccessControlException
+REMOTE: Created binary drop for java.net.URLStreamHandler
+REMOTE: Created binary drop for java.net.InetAddress
+REMOTE: Created binary drop for java.util.Stack
+REMOTE: Created binary drop for java.lang.AbstractStringBuilder
+REMOTE: Created binary drop for java.lang.Character
+REMOTE: Created binary drop for java.io.OutputStream
+REMOTE: Created binary drop for java.nio.ByteBuffer
+REMOTE: Created binary drop for java.lang.IllegalAccessException
+REMOTE: Created binary drop for java.util.ArrayList
+REMOTE: Created binary drop for java.nio.channels.GatheringByteChannel
+REMOTE: Created binary drop for sun.misc.URLClassPath
+REMOTE: Created binary drop for java.security.Key
+REMOTE: Created binary drop for java.lang.annotation.Annotation
+REMOTE: Created binary drop for java.io.PrintWriter
+REMOTE: Created binary drop for java.nio.file.attribute.FileStoreAttributeView
+REMOTE: Created binary drop for java.security.Principal
+REMOTE: Created binary drop for java.lang.Integer
+REMOTE: Created binary drop for java.nio.file.AccessMode
+REMOTE: Created binary drop for java.nio.Buffer
+REMOTE: Created binary drop for java.util.concurrent.locks.ReadWriteLock
+REMOTE: Created binary drop for java.nio.file.attribute.FileAttribute
+REMOTE: Created binary drop for java.math.BigInteger
+REMOTE: Created binary drop for java.util.Date
+REMOTE: Created binary drop for java.util.WeakHashMap
+REMOTE: Created binary drop for java.lang.Long
+REMOTE: Created binary drop for java.nio.channels.ClosedChannelException
+REMOTE: Created binary drop for sun.reflect.LangReflectAccess
+REMOTE: Created binary drop for java.nio.file.DirectoryStream
+REMOTE: Created binary drop for java.util.zip.ZipFile
+REMOTE: Created binary drop for java.util.ResourceBundle
+REMOTE: Created binary drop for java.nio.file.attribute.FileTime
+REMOTE: Created binary drop for java.util.AbstractCollection
+REMOTE: Created binary drop for java.util.zip.DataFormatException
+REMOTE: Created binary drop for java.lang.ref.Reference
+REMOTE: Created binary drop for java.lang.Short
+REMOTE: Created binary drop for java.util.zip.Inflater
+REMOTE: Created binary drop for java.net.InetAddressImpl
+REMOTE: Created binary drop for java.lang.String
+REMOTE: Created binary drop for java.nio.file.WatchService
+REMOTE: Created binary drop for java.io.Writer
+REMOTE: Created binary drop for java.lang.Enum
+REMOTE: Created binary drop for java.util.HashMap
+REMOTE: Created binary drop for java.nio.file.Path
+REMOTE: Created binary drop for java.lang.annotation.ElementType
+REMOTE: Created binary drop for java.nio.CharBuffer
+REMOTE: Created binary drop for java.util.AbstractSequentialList
+REMOTE: Created binary drop for java.security.ProtectionDomain
+REMOTE: Created binary drop for java.net.InterfaceAddress
+REMOTE: Created binary drop for java.security.PrivilegedAction
+REMOTE: Created binary drop for java.nio.file.LinkOption
+REMOTE: Created binary drop for java.lang.CharSequence
+REMOTE: Created binary drop for java.lang.ref.ReferenceQueue
+REMOTE: Created binary drop for java.nio.channels.ReadableByteChannel
+REMOTE: Created binary drop for java.util.Enumeration
+REMOTE: Created binary drop for java.nio.file.PathMatcher
+REMOTE: Created binary drop for java.io.SyncFailedException
+REMOTE: Created binary drop for java.net.URL
+REMOTE: Created binary drop for java.lang.ThreadLocal
+REMOTE: Created binary drop for java.nio.file.OpenOption
+REMOTE: Created binary drop for java.security.CodeSigner
+REMOTE: Created binary drop for java.util.spi.LocaleServiceProvider
+REMOTE: Created binary drop for java.nio.charset.CodingErrorAction
+REMOTE: Created binary drop for java.lang.Float
+REMOTE: Created binary drop for sun.nio.ch.Interruptible
+REMOTE: Created binary drop for java.nio.file.spi.FileSystemProvider
+REMOTE: Created binary drop for sun.reflect.ConstantPool
+REMOTE: Created binary drop for java.security.PermissionCollection
+REMOTE: Created binary drop for java.net.SocketAddress
+REMOTE: Created binary drop for java.nio.channels.InterruptibleChannel
+REMOTE: Created binary drop for java.util.zip.ZipEntry
+REMOTE: Created binary drop for java.lang.reflect.Method
+REMOTE: Created binary drop for java.nio.channels.FileChannel
+REMOTE: Created binary drop for java.nio.DoubleBuffer
+REMOTE: Created binary drop for java.lang.Number
+REMOTE: Created binary drop for sun.util.resources.OpenListResourceBundle
+REMOTE: Created binary drop for com.surelogic.RegionLock
+REMOTE: Created binary drop for java.lang.Iterable
+REMOTE: Created binary drop for java.net.URLStreamHandlerFactory
+REMOTE: Created binary drop for java.security.DomainCombiner
+REMOTE: Created binary drop for java.io.FilenameFilter
+REMOTE: Created binary drop for java.util.MissingResourceException
+REMOTE: Created binary drop for java.lang.Cloneable
+REMOTE: Created binary drop for java.security.Guard
+REMOTE: Created binary drop for java.io.FileFilter
+REMOTE: Created binary drop for java.security.cert.Certificate
+REMOTE: Created binary drop for java.lang.StackTraceElement
+REMOTE: Created binary drop for sun.misc.MetaIndex
+REMOTE: Created binary drop for java.net.UnknownHostException
+REMOTE: Created binary drop for java.nio.channels.AsynchronousCloseException
+REMOTE: Created binary drop for java.util.spi.LocaleNameProvider
+REMOTE: Created binary drop for java.lang.Double
+REMOTE: Created binary drop for java.lang.ClassValue
+REMOTE: Created binary drop for java.lang.reflect.AnnotatedElement
+REMOTE: Created binary drop for java.lang.reflect.Field
+REMOTE: Created binary drop for java.util.List
+REMOTE: Created binary drop for java.nio.channels.AsynchronousFileChannel
+REMOTE: Created binary drop for java.util.ListIterator
+REMOTE: Created binary drop for java.util.Comparator
+REMOTE: Created binary drop for java.util.zip.InflaterInputStream
+REMOTE: Created binary drop for java.nio.file.WatchKey
+REMOTE: Created binary drop for java.nio.file.attribute.GroupPrincipal
+REMOTE: Created binary drop for java.lang.annotation.Documented
+REMOTE: Created binary drop for sun.util.LocaleServiceProviderPool
+REMOTE: Created binary drop for java.util.AbstractMap
+REMOTE: Created binary drop for java.nio.ByteOrder
+REMOTE: Created binary drop for java.util.Collection
+REMOTE: Created binary drop for java.nio.file.attribute.FileAttributeView
+REMOTE: Created binary drop for sun.util.locale.ParseStatus
+REMOTE: Created binary drop for java.security.cert.CertificateException
+REMOTE: Created binary drop for java.util.SortedMap
+REMOTE: Created binary drop for java.nio.file.attribute.AttributeView
+REMOTE: Created binary drop for java.util.concurrent.Callable
+REMOTE: Created binary drop for com.surelogic.InRegion
+REMOTE: Created binary drop for java.nio.channels.ByteChannel
+REMOTE: Created binary drop for java.nio.file.FileSystem
+REMOTE: Created binary drop for java.lang.StringBuilder
+REMOTE: Created binary drop for sun.reflect.ReflectionFactory
+REMOTE: Created binary drop for java.util.jar.JarFile
+REMOTE: Created binary drop for java.net.URLConnection
+REMOTE: Created binary drop for java.util.Locale
+REMOTE: Created binary drop for java.net.URI
+REMOTE: Created binary drop for java.io.DataOutput
+REMOTE: Created binary drop for java.nio.file.attribute.BasicFileAttributes
+REMOTE: Created binary drop for java.nio.file.WatchEvent
+REMOTE: Created binary drop for java.io.Flushable
+REMOTE: Created binary drop for com.surelogic.ReturnsLock
+REMOTE: Created binary drop for java.nio.MappedByteBuffer
+REMOTE: Created binary drop for java.io.IOException
+REMOTE: Created binary drop for java.util.Random
+REMOTE: Created binary drop for sun.util.locale.LocaleObjectCache
+REMOTE: Created binary drop for sun.reflect.CallerSensitive
+REMOTE: Created binary drop for java.util.jar.Manifest
+REMOTE: Created binary drop for java.lang.reflect.AccessibleObject
+REMOTE: Created binary drop for java.util.concurrent.ConcurrentMap
+REMOTE: Created binary drop for java.util.Iterator
+REMOTE: Created binary drop for java.util.Dictionary
+REMOTE: Created binary drop for java.security.NoSuchProviderException
+REMOTE: Created binary drop for java.security.NoSuchAlgorithmException
+REMOTE: Created binary drop for java.util.concurrent.locks.Condition
+REMOTE: Created binary drop for java.nio.file.CopyOption
+REMOTE: Created binary drop for java.lang.InterruptedException
+REMOTE: Created binary drop for java.lang.reflect.GenericDeclaration
+REMOTE: Created binary drop for java.lang.Class
+REMOTE: Created binary drop for java.lang.reflect.Member
+REMOTE: Created binary drop for java.lang.ThreadGroup
+REMOTE: Created binary drop for java.lang.StringBuffer
+REMOTE: Created binary drop for java.security.GeneralSecurityException
+REMOTE: Created binary drop for java.nio.channels.AsynchronousChannel
+REMOTE: Created binary drop for sun.misc.JarIndex
+REMOTE: Created binary drop for sun.reflect.ConstructorAccessor
+REMOTE: Created binary drop for java.security.CodeSource
+REMOTE: Created binary drop for java.nio.channels.SeekableByteChannel
+REMOTE: Created binary drop for java.lang.Byte
+REMOTE: Created binary drop for java.security.SignatureException
+REMOTE: Created binary drop for java.lang.Deprecated
+REMOTE: Created binary drop for java.io.FilterOutputStream
+REMOTE: Created binary drop for java.nio.channels.Channel
+REMOTE: Created binary drop for java.util.Set
+REMOTE: Created binary drop for sun.reflect.MethodAccessor
+REMOTE: Created binary drop for java.util.Queue
+REMOTE: Created binary drop for java.lang.ref.SoftReference
+REMOTE: Created binary drop for java.security.Timestamp
+REMOTE: Created binary drop for java.lang.Boolean
+REMOTE: Created binary drop for java.lang.Runnable
+REMOTE: Created binary drop for java.util.LinkedList
+REMOTE: Created binary drop for sun.reflect.FieldAccessor
+REMOTE: Created binary drop for java.util.concurrent.TimeUnit
+REMOTE: Created source drop for file:/Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid%20Regression/TestInstanceParameterDeclLocks/src/test/Test.java
+REMOTE: Created binary drop for java.lang.RuntimeException
+REMOTE: Created binary drop for java.security.cert.CertPath
+REMOTE: Created binary drop for com.surelogic.Region
+REMOTE: Created binary drop for java.io.FileNotFoundException
+REMOTE: Created binary drop for java.nio.FloatBuffer
+REMOTE: Created binary drop for java.util.concurrent.Future
+REMOTE: Created binary drop for java.io.File
+REMOTE: Created binary drop for java.nio.file.Watchable
+REMOTE: Created binary drop for java.lang.Package
+REMOTE: Created binary drop for java.io.Serializable
+REMOTE: Created binary drop for java.util.Hashtable
+REMOTE: Created binary drop for java.net.FileNameMap
+REMOTE: Created binary drop for java.util.concurrent.Executor
+REMOTE: Created binary drop for java.util.AbstractList
+REMOTE: Created binary drop for java.lang.IllegalArgumentException
+REMOTE: Created binary drop for java.nio.file.FileStore
+REMOTE: Created binary drop for java.lang.Thread
+REMOTE: Created binary drop for java.nio.charset.CharacterCodingException
+REMOTE: Created binary drop for java.net.NetworkInterface
+REMOTE: Created binary drop for java.lang.Throwable
+REMOTE: Created binary drop for java.util.jar.JarEntry
+REMOTE: Created binary drop for java.nio.channels.ScatteringByteChannel
+REMOTE: Created binary drop for java.nio.channels.spi.AbstractInterruptibleChannel
+REMOTE: Created binary drop for java.io.FilterInputStream
+REMOTE: Created binary drop for sun.util.locale.LocaleSyntaxException
+REMOTE: Created binary drop for java.nio.channels.FileLock
+REMOTE: Created binary drop for java.lang.Appendable
+REMOTE: Created binary drop for java.util.concurrent.ExecutorService
+REMOTE: Created binary drop for java.lang.annotation.RetentionPolicy
+REMOTE: Created binary drop for java.util.jar.Attributes
+REMOTE: Created binary drop for java.lang.ClassLoader
+REMOTE: Created binary drop for java.nio.channels.CompletionHandler
+REMOTE: Created binary drop for java.lang.reflect.Constructor
+REMOTE: Created binary drop for java.net.ContentHandler
+REMOTE: Created binary drop for sun.util.locale.InternalLocaleBuilder
+REMOTE: Created binary drop for java.util.Vector
+REMOTE: Created binary drop for java.security.cert.CertificateEncodingException
+REMOTE: Created binary drop for java.io.PrintStream
+REMOTE: Created binary drop for java.net.MalformedURLException
+REMOTE: Created binary drop for java.nio.charset.CharsetDecoder
+REMOTE: Created binary drop for java.io.Closeable
+REMOTE: Created binary drop for java.lang.Readable
+REMOTE: Created binary drop for java.lang.NumberFormatException
+REMOTE: Created binary drop for java.io.InputStream
+REMOTE: Created binary drop for java.lang.AutoCloseable
+REMOTE: Created binary drop for sun.util.locale.LocaleExtensions
+REMOTE: Created binary drop for java.util.Map
+REMOTE: Created binary drop for java.security.PublicKey
+REMOTE: Created binary drop for java.lang.Exception
+REMOTE: Created binary drop for java.lang.Void
+REMOTE: Created binary drop for java.lang.reflect.Type
+REMOTE: Created binary drop for java.nio.channels.WritableByteChannel
+REMOTE: Created binary drop for java.lang.reflect.InvocationTargetException
+REMOTE: Created binary drop for java.lang.reflect.TypeVariable
+REMOTE: Created binary drop for java.util.AbstractSet
+REMOTE: Created binary drop for sun.misc.Resource
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: Parsing promises
+REMOTE: ##SUBTASK, Parsing promises
+REMOTE: Added 3 promises for java.lang.[] in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7e32c033
+REMOTE: Added 3 promises for java.lang.[] in TestInstanceParameterDeclLocks: com.surelogic.tree.SyntaxTreeNode@44f24a20
+REMOTE: Added 6 promises for java.lang.NoSuchFieldException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@27f9be
+REMOTE: Added 6 promises for java.lang.InstantiationException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@26816df8
+REMOTE: Added 18 promises for java.net.URISyntaxException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4135bbd1
+REMOTE: Added 31 promises for java.lang.Object in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@311f1b9a
+REMOTE: Added 12 promises for java.lang.SecurityException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4e8708fa
+REMOTE: Added 6 promises for java.lang.IllegalAccessException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7551d477
+REMOTE: Added 20 promises for java.util.concurrent.locks.Lock in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@10c8d91c
+REMOTE: Added 6 promises for java.lang.CloneNotSupportedException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2007aa56
+REMOTE: Added 21 promises for java.util.Stack in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3a06ca0e
+REMOTE: Added 87 promises for java.util.Deque in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@308035a5
+REMOTE: Added 6 promises for java.io.PrintWriter in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@38727925
+REMOTE: Added 7 promises for java.util.concurrent.locks.ReadWriteLock in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@f528cd0
+REMOTE: WARNING: TreeAccessor couldn't find equals(java.lang.Object) in java.util.ArrayList
+REMOTE: WARNING: TreeAccessor couldn't find hashCode() in java.util.ArrayList
+REMOTE: Added 56 promises for java.util.WeakHashMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@398929d0
+REMOTE: Added 3 promises for java.util.Date in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@5abc3e58
+REMOTE: Added 96 promises for java.lang.Integer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@46ae3e2f
+REMOTE: Added 55 promises for java.util.AbstractCollection in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4f80fd0
+REMOTE: Added 104 promises for java.util.ArrayList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4a2384a
+REMOTE: Added 144 promises for java.lang.AbstractStringBuilder in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@5f73df28
+REMOTE: Added 6 promises for java.io.Writer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@75de5bb8
+REMOTE: Added 3 promises for java.nio.file.DirectoryStream in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@5bd36813
+REMOTE: Added 96 promises for java.lang.Long in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@82923c7
+REMOTE: Added 3 promises for java.nio.file.Path in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@32ffc1c5
+REMOTE: Added 13 promises for java.lang.Enum in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@34d158d
+REMOTE: Added 61 promises for java.lang.Short in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@417f434d
+REMOTE: Added 1 promises for java.lang.ThreadLocal in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3c05be05
+REMOTE: Added 4 promises for java.util.Enumeration in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@5ec3f03f
+REMOTE: Added 61 promises for java.util.HashMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6f295ba7
+REMOTE: Added 138 promises for java.math.BigInteger in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@29872930
+REMOTE: Added 29 promises for java.util.AbstractSequentialList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7b923377
+REMOTE: Added 18 promises for java.nio.CharBuffer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7b7b0b11
+REMOTE: Added 45 promises for java.util.ResourceBundle in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4f66402b
+REMOTE: Added 12 promises for java.lang.CharSequence in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@5fc10636
+REMOTE: Added 1 promises for java.lang.ref.ReferenceQueue in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@ef5ffb6
+REMOTE: Added 3 promises for java.lang.Iterable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@744ea8dd
+REMOTE: Added 3 promises for java.util.zip.ZipEntry in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7bfe8686
+REMOTE: Added 22 promises for java.lang.Number in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4396104a
+REMOTE: Added 18 promises for java.util.ListIterator in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6a31b0fb
+REMOTE: Added 73 promises for java.lang.Float in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3c4292fa
+REMOTE: [GC (Allocation Failure)  111358K->57910K(146432K), 0.0059480 secs]
+REMOTE: Added 70 promises for java.lang.Double in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@266135be
+REMOTE: Added 54 promises for java.util.Collection in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@262de12
+REMOTE: Added 89 promises for java.util.List in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@399277ed
+REMOTE: Added 3 promises for java.util.Locale in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@177605d5
+REMOTE: Added 31 promises for java.util.SortedMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@52d61a3e
+REMOTE: Added 3 promises for java.util.jar.Manifest in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@aad88af
+REMOTE: Added 6 promises for java.util.Iterator in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@44b593f8
+REMOTE: Added 17 promises for java.util.concurrent.ConcurrentMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@622557e
+REMOTE: Added 29 promises for java.util.Dictionary in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4f237606
+REMOTE: Added 22 promises for java.util.concurrent.locks.Condition in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4f038c4a
+REMOTE: Added 6 promises for java.lang.InterruptedException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@efdaa61
+REMOTE: Added 301 promises for java.lang.String in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@784c9099
+REMOTE: Added 2 promises for java.lang.ref.SoftReference in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4e0daf07
+REMOTE: Added 109 promises for java.lang.StringBuilder in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@22e3eee6
+REMOTE: Added 12 promises for java.lang.Class in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@e2b95a3
+REMOTE: Added 12 promises for java.lang.RuntimeException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3f1a97a0
+REMOTE: Added 54 promises for java.util.Set in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@77bcd5e8
+REMOTE: Added 59 promises for java.lang.Byte in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@116f484f
+REMOTE: Added 108 promises for java.util.AbstractMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3335b79e
+REMOTE: Added 18 promises for java.util.Queue in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@52aa2aaf
+REMOTE: Added 29 promises for java.util.concurrent.TimeUnit in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@111f4b7e
+REMOTE: Javac making log: AnnotationRules
+REMOTE: Added 6 promises for test.Test in TestInstanceParameterDeclLocks: com.surelogic.tree.SyntaxTreeNode@467160f4
+REMOTE: Added 12 promises for java.lang.IllegalArgumentException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7fa66a26
+REMOTE: Added 47 promises for java.lang.Throwable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4ef2def0
+REMOTE: Added 37 promises for java.lang.Boolean in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@69f0a0ff
+REMOTE: Added 83 promises for java.util.Hashtable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@5c7042d7
+REMOTE: Added 6 promises for java.lang.Appendable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3b5f85d1
+REMOTE: Added 158 promises for java.lang.StringBuffer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@64c58263
+REMOTE: Added 34 promises for java.util.concurrent.ExecutorService in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@5bd5c941
+REMOTE: Added 141 promises for java.lang.Thread in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@58ac5c
+REMOTE: Added 60 promises for java.util.AbstractList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3fc5d1b1
+REMOTE: Added 6 promises for java.lang.NumberFormatException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3d6a4554
+REMOTE: Added 6 promises for java.io.PrintStream in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@f75c53e
+REMOTE: Added 16 promises for java.util.AbstractSet in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7d2a9ce3
+REMOTE: Added 12 promises for java.lang.Exception in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4d00f3f0
+REMOTE: Added 12 promises for java.lang.reflect.InvocationTargetException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2a687467
+REMOTE: Added 64 promises for java.util.Map in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@31ca694f
+REMOTE: Added 88 promises for java.util.jar.Attributes in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6436e5fa
+REMOTE: Added 139 promises for java.util.LinkedList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4a12fcb9
+REMOTE: [GC (Allocation Failure)  115766K->58942K(153088K), 0.0061550 secs]
+REMOTE: Added 170 promises for java.util.Vector in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7ed83320
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: Scrubbing promises
+REMOTE: ##SUBTASK, Scrubbing promises
+REMOTE: Creating RegionModel java.lang.Object.Instance for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: [GC (Allocation Failure)  124478K->62756K(153088K), 0.0097340 secs]
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: Starting analyses
+REMOTE: Using new analysis framework -- groups
+REMOTE: Starting group: ConcurrencyDetector, ThreadEffectsModule, StructureAnalysis, ParameterizedTypeAnalysis, EqualityAnalysis, LayersAnalysis
+REMOTE: ##SUBTASK, Starting parallel ConcurrencyDetector [0]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Starting parallel ConcurrencyDetector [0]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##SUBTASK, Starting parallel ThreadEffectsModule [1]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Starting parallel ThreadEffectsModule [1]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##SUBTASK, Starting parallel StructureAnalysis [2]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Starting parallel StructureAnalysis [2]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##SUBTASK, Starting parallel ParameterizedTypeAnalysis [3]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Starting parallel ParameterizedTypeAnalysis [3]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##SUBTASK, Starting parallel EqualityAnalysis [4]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Starting parallel EqualityAnalysis [4]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##SUBTASK, Starting parallel LayersAnalysis [5]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Starting parallel LayersAnalysis [5]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Starting parallel ConcurrencyDetector [0]: 1 for TestInstanceParameterDeclLocks
+REMOTE: Starting parallel ConcurrencyDetector [0]: 1 for TestInstanceParameterDeclLocks
+REMOTE: ##SUBTASK, Starting parallel ThreadEffectsModule [1]: 1 for TestInstanceParameterDeclLocks
+REMOTE: Starting parallel ThreadEffectsModule [1]: 1 for TestInstanceParameterDeclLocks
+REMOTE: ##SUBTASK, Starting parallel StructureAnalysis [2]: 1 for TestInstanceParameterDeclLocks
+REMOTE: Starting parallel StructureAnalysis [2]: 1 for TestInstanceParameterDeclLocks
+REMOTE: ##SUBTASK, Starting parallel ParameterizedTypeAnalysis [3]: 1 for TestInstanceParameterDeclLocks
+REMOTE: Starting parallel ParameterizedTypeAnalysis [3]: 1 for TestInstanceParameterDeclLocks
+REMOTE: ##SUBTASK, Starting parallel EqualityAnalysis [4]: 1 for TestInstanceParameterDeclLocks
+REMOTE: Starting parallel EqualityAnalysis [4]: 1 for TestInstanceParameterDeclLocks
+REMOTE: ##SUBTASK, Starting parallel LayersAnalysis [5]: 1 for TestInstanceParameterDeclLocks
+REMOTE: Starting parallel LayersAnalysis [5]: 1 for TestInstanceParameterDeclLocks
+REMOTE: ##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid%20Regression/TestInstanceParameterDeclLocks/src/test/Test.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid%20Regression/TestInstanceParameterDeclLocks/src/test/Test.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid%20Regression/TestInstanceParameterDeclLocks/src/test/Test.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid%20Regression/TestInstanceParameterDeclLocks/src/test/Test.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid%20Regression/TestInstanceParameterDeclLocks/src/test/Test.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Static structure ] file:/Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid%20Regression/TestInstanceParameterDeclLocks/src/test/Test.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: Starting group: UtilityAnalysis, SingletonAnalysis
+REMOTE: com.surelogic.analysis.granules.FlowUnitGranulator@f2a0b8e: 6
+REMOTE: com.surelogic.analysis.visitors.TopLevelAnalysisVisitor$1@28ba21f3: 1
+REMOTE: com.surelogic.analysis.uniqueness.classic.sideeffecting.UniquenessAnalysisModule$1@694f9431: 0
+REMOTE: ##SUBTASK, Starting parallel UtilityAnalysis [6]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Starting parallel UtilityAnalysis [6]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##SUBTASK, Starting parallel SingletonAnalysis [7]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Starting parallel SingletonAnalysis [7]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Starting parallel UtilityAnalysis [6]: 1 for TestInstanceParameterDeclLocks
+REMOTE: Starting parallel UtilityAnalysis [6]: 1 for TestInstanceParameterDeclLocks
+REMOTE: ##SUBTASK, Starting parallel SingletonAnalysis [7]: 1 for TestInstanceParameterDeclLocks
+REMOTE: Starting parallel SingletonAnalysis [7]: 1 for TestInstanceParameterDeclLocks
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.Test
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.Test
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: Starting group: LockModelBuilder
+REMOTE: ##SUBTASK, Starting parallel LockModelBuilder [8]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Starting parallel LockModelBuilder [8]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Starting parallel LockModelBuilder [8]: 1 for TestInstanceParameterDeclLocks
+REMOTE: Starting parallel LockModelBuilder [8]: 1 for TestInstanceParameterDeclLocks
+REMOTE: ##SUBTASK, Checking [ Lock Model Builder ] file:/Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid%20Regression/TestInstanceParameterDeclLocks/src/test/Test.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: Starting group: ThreadSafeAnalysis
+REMOTE: ##SUBTASK, Starting parallel ThreadSafeAnalysis [9]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Starting parallel ThreadSafeAnalysis [9]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Starting parallel ThreadSafeAnalysis [9]: 1 for TestInstanceParameterDeclLocks
+REMOTE: Starting parallel ThreadSafeAnalysis [9]: 1 for TestInstanceParameterDeclLocks
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.Test
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: Starting group: NewLockAnalysis
+REMOTE: ##SUBTASK, Starting parallel NewLockAnalysis [10]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Starting parallel NewLockAnalysis [10]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Starting parallel NewLockAnalysis [10]: 1 for TestInstanceParameterDeclLocks
+REMOTE: Starting parallel NewLockAnalysis [10]: 1 for TestInstanceParameterDeclLocks
+REMOTE: ##SUBTASK, Checking [ New Lock policy ] file:/Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid%20Regression/TestInstanceParameterDeclLocks/src/test/Test.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: Starting group: EffectsAnalysis
+REMOTE: ##SUBTASK, Starting parallel EffectsAnalysis [11]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Starting parallel EffectsAnalysis [11]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Starting parallel EffectsAnalysis [11]: 1 for TestInstanceParameterDeclLocks
+REMOTE: Starting parallel EffectsAnalysis [11]: 1 for TestInstanceParameterDeclLocks
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.Test
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: Starting group: UniquenessAnalysisModule
+REMOTE: ##SUBTASK, Starting parallel UniquenessAnalysisModule [12]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Starting parallel UniquenessAnalysisModule [12]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Starting parallel UniquenessAnalysisModule [12]: 0 for TestInstanceParameterDeclLocks
+REMOTE: Starting parallel UniquenessAnalysisModule [12]: 0 for TestInstanceParameterDeclLocks
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: Starting group: NullablePreprocessorModule
+REMOTE: ##SUBTASK, Starting parallel NullablePreprocessorModule [13]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Starting parallel NullablePreprocessorModule [13]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Starting parallel NullablePreprocessorModule [13]: 1 for TestInstanceParameterDeclLocks
+REMOTE: Starting parallel NullablePreprocessorModule [13]: 1 for TestInstanceParameterDeclLocks
+REMOTE: ##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid%20Regression/TestInstanceParameterDeclLocks/src/test/Test.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: Starting group: NullableModule2
+REMOTE: ##SUBTASK, Starting parallel NullableModule2 [14]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Starting parallel NullableModule2 [14]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Starting parallel NullableModule2 [14]: 6 for TestInstanceParameterDeclLocks
+REMOTE: Starting parallel NullableModule2 [14]: 6 for TestInstanceParameterDeclLocks
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.Test.Test()
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.Test.getLock_param_good(test.Test)
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.Test.method(test.Test)
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.Test.doStuff(test.Test)
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.Test.doMore(test.Test)
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.Test.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Cleaning up after analysis
+REMOTE: Cleaning up after analysis
+REMOTE: [GC (System.gc())  83675K->63275K(159744K), 0.0130020 secs]
+REMOTE: [Full GC (System.gc())  63275K->37911K(159744K), 0.1730520 secs]
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: Updating consistency proof
+REMOTE: ##SUBTASK, Updating consistency proof
+REMOTE: Exporting results to TestInstanceParamete-2016.01.27-at-13.04.50.825
+REMOTE: ##SUBTASK, Exporting results to TestInstanceParamete-2016.01.27-at-13.04.50.825
+REMOTE: Creating snapshot: /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/TestInstanceParamete-2016.01.27-at-13.04.50.825/running_or_crashed_sea_snapshot.xml.gz
+REMOTE: Done in 5418 ms.
+REMOTE: ConcurrencyDetector	: 3 ms
+REMOTE: ThreadEffectsModule	: 1 ms
+REMOTE: StructureAnalysis	: 3 ms
+REMOTE: ParameterizedTypeAnalysis	: 2 ms
+REMOTE: EqualityAnalysis	: 5 ms
+REMOTE: LayersAnalysis	: 20 ms
+REMOTE: UtilityAnalysis	: 0 ms
+REMOTE: SingletonAnalysis	: 0 ms
+REMOTE: LockModelBuilder	: 17 ms
+REMOTE: ThreadSafeAnalysis	: 0 ms
+REMOTE: NewLockAnalysis	: 227 ms
+REMOTE: EffectsAnalysis	: 8 ms
+REMOTE: UniquenessAnalysisModule	: 2 ms
+REMOTE: NullablePreprocessorModule	: 1 ms
+REMOTE: NullableModule2	: 188 ms
+REMOTE: [2016-01-27 13:04:58    INFO] partial bindings = 6532 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+REMOTE: [2016-01-27 13:04:58    INFO] full bindings = 73 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+REMOTE: cached = 0
+REMOTE: totalT = 0
+REMOTE: #Performance data for TestInstanceParameterDeclLocks
+REMOTE: #Wed Jan 27 13:04:58 EST 2016
+REMOTE: jsure.Add.required=0
+REMOTE: jsure.All.analyses=554
+REMOTE: jsure.Binding.before.canon=95
+REMOTE: jsure.Binding.full.time=62
+REMOTE: jsure.Binding.partial.time=565
+REMOTE: jsure.Bindings.full=73
+REMOTE: jsure.Bindings.partial=6532
+REMOTE: jsure.Canonicalization=493
+REMOTE: jsure.Cleanup=102
+REMOTE: jsure.Destroy.time=15
+REMOTE: jsure.Drop.creation=11
+REMOTE: jsure.Find.canon.time=2
+REMOTE: jsure.Parsing=986
+REMOTE: jsure.Promise.parsing=674
+REMOTE: jsure.Promise.scrubbing=1867
+REMOTE: jsure.Sea.export=666
+REMOTE: jsure.Sea.update=65
+REMOTE: jsure.Total.JSure.time=5418
+REMOTE: jsure.Total.blocks=8
+REMOTE: jsure.Total.canonical=123
+REMOTE: jsure.Total.decls=14
+REMOTE: jsure.Total.destroyed=0
+REMOTE: jsure.Total.gced=0
+REMOTE: jsure.Total.loc=52
+REMOTE: jsure.Total.nodes=65560
+REMOTE: jsure.Total.stmts=19
+REMOTE: jsure.Total.try.destroyed=51
+REMOTE: jsure.analysis.ConcurrencyDetector=3
+REMOTE: jsure.analysis.EffectsAnalysis=8
+REMOTE: jsure.analysis.EqualityAnalysis=5
+REMOTE: jsure.analysis.LayersAnalysis=20
+REMOTE: jsure.analysis.LockModelBuilder=17
+REMOTE: jsure.analysis.NewLockAnalysis=227
+REMOTE: jsure.analysis.NullableModule2=188
+REMOTE: jsure.analysis.NullablePreprocessorModule=1
+REMOTE: jsure.analysis.ParameterizedTypeAnalysis=2
+REMOTE: jsure.analysis.SingletonAnalysis=0
+REMOTE: jsure.analysis.StructureAnalysis=3
+REMOTE: jsure.analysis.ThreadEffectsModule=1
+REMOTE: jsure.analysis.ThreadSafeAnalysis=0
+REMOTE: jsure.analysis.UniquenessAnalysisModule=2
+REMOTE: jsure.analysis.UtilityAnalysis=0
+REMOTE: jsure.num.threads=8
+REMOTE: ##DONE
+REMOTE: Renaming snapshot: /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/TestInstanceParamete-2016.01.27-at-13.04.50.825/sea_snapshot.xml.gz
+REMOTE: Done with JSure!
+REMOTE: Scanning complete in 7 seconds 394 ms (7,394 ms)
+REMOTE: No socket to close
+REMOTE: Closing std streams
+Process result after waiting = 0

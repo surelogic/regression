@@ -1,0 +1,1067 @@
+LOCAL vm : 1.8.0_05
+Path: /Users/aarong/git/common/common/lib/runtime/guava-18.0.jar
+Path: /Users/aarong/git/jsure/jsure-analysis/bin
+Path: /Users/aarong/git/common/common/lib/runtime/ant-1.9.6.jar
+Path: /Users/aarong/git/jsure/jsure-common
+Path: /Users/aarong/git/common/common
+Path: /Users/aarong/git/common/common/lib/runtime/javax.servlet-api-3.1.0.jar
+Path: /Users/aarong/git/jsure/jsure-analysis
+Path: /Users/aarong/git/common/common/lib/runtime/antlr-3.5.2-runtime.jar
+Path: /Users/aarong/git/jsure/jsure-common/lib/runtime/diffutils-1.2.1.jar
+Path: /Users/aarong/git/common/common/bin
+Path: /Users/aarong/git/common/common/lib/runtime/asm-commons-5.0.4.jar
+Path: /Users/aarong/git/jsure/jsure-analysis/lib/runtime/renamedJavac.jar
+Path: /Users/aarong/git/common/common/lib/runtime/promises-5.6.0.jar
+Path: /Users/aarong/git/common/common/lib/runtime/derby-10.11.1.1.jar
+Path: /Users/aarong/git/jsure/jsure-common/bin
+Path: /Users/aarong/git/common/common/lib/runtime/asm-5.0.4.jar
+Path: /Users/aarong/git/common/common/lib/runtime/asm-tree-5.0.4.jar
+Path: /Users/aarong/git/common/common/lib/runtime/hppc-0.7.1.jar
+Path: /Users/aarong/git/common/common/lib/runtime/commons-lang3-3.4.jar
+Starting process:
+	/Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/jre/bin/java
+	-Dsl.running.in.remote.vm=true
+	-Dsurelogic.test.code=NONE
+	-XX:MaxPermSize=512m
+	-verbosegc
+	-DSureLogicX=true
+	-Dsl.run.dir=/Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/TestReadWriteLockPro-2016.02.04-at-14.10.27.069
+	-Dfluid.ir.versioning=Versioning.Off
+	-Djsure.analysis.directory.url=file:/Eclipses/eclipse-standard-luna-SR2-macosx-cocoa-x86_64/../../Users/aarong/git/jsure/jsure-analysis/
+	-Xmx2048m
+	-classpath
+	/Users/aarong/git/common/common/lib/runtime/guava-18.0.jar:/Users/aarong/git/jsure/jsure-analysis/bin:/Users/aarong/git/common/common/lib/runtime/ant-1.9.6.jar:/Users/aarong/git/jsure/jsure-common:/Users/aarong/git/common/common:/Users/aarong/git/common/common/lib/runtime/javax.servlet-api-3.1.0.jar:/Users/aarong/git/jsure/jsure-analysis:/Users/aarong/git/common/common/lib/runtime/antlr-3.5.2-runtime.jar:/Users/aarong/git/jsure/jsure-common/lib/runtime/diffutils-1.2.1.jar:/Users/aarong/git/common/common/bin:/Users/aarong/git/common/common/lib/runtime/asm-commons-5.0.4.jar:/Users/aarong/git/jsure/jsure-analysis/lib/runtime/renamedJavac.jar:/Users/aarong/git/common/common/lib/runtime/promises-5.6.0.jar:/Users/aarong/git/common/common/lib/runtime/derby-10.11.1.1.jar:/Users/aarong/git/jsure/jsure-common/bin:/Users/aarong/git/common/common/lib/runtime/asm-5.0.4.jar:/Users/aarong/git/common/common/lib/runtime/asm-tree-5.0.4.jar:/Users/aarong/git/common/common/lib/runtime/hppc-0.7.1.jar:/Users/aarong/git/common/common/lib/runtime/commons-lang3-3.4.jar
+	com.surelogic.javac.jobs.RemoteJSureRun
+
+First line in REMOTE vm = Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=512m; support was removed in 8.0
+REMOTE: [GC (Allocation Failure)  512K->504K(327168K), 0.0013400 secs]
+REMOTE: [GC (Allocation Failure)  1001K->584K(327680K), 0.0008480 secs]
+REMOTE: [GC (Allocation Failure)  1608K->672K(327680K), 0.0010480 secs]
+REMOTE: [GC (Allocation Failure)  1696K->748K(328704K), 0.0009640 secs]
+REMOTE: [GC (Allocation Failure)  2796K->1007K(328704K), 0.0011250 secs]
+REMOTE: JVM started: 1.8.0_05
+REMOTE: Log level: INFO
+REMOTE: Created reader
+REMOTE: Created monitor
+REMOTE: Created log handler
+REMOTE: Running RemoteJSureRun
+REMOTE: [GC (Allocation Failure)  3055K->1303K(331264K), 0.0011810 secs]
+REMOTE: [GC (Allocation Failure)  5399K->1679K(331264K), 0.0014520 secs]
+REMOTE: [GC (Allocation Failure)  5775K->1775K(335360K), 0.0013340 secs]
+REMOTE: runPath = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/TestReadWriteLockPro-2016.02.04-at-14.10.27.069
+REMOTE: Creating run: TestReadWriteLockPro-2016.02.04-at-14.10.27.069
+REMOTE: Defaulting project org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8 to Java 0
+REMOTE: Created project org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8 from XML
+REMOTE: Setting project TestReadWriteLockPromotion to Java 8
+REMOTE: [GC (Allocation Failure)  9967K->2406K(335360K), 0.0022480 secs]
+REMOTE: Created project TestReadWriteLockPromotion from XML
+REMOTE: projects = TestReadWriteLockPromotion
+REMOTE: Loading edu.cmu.cs.fluid.make.nonabductive.proposals = false
+REMOTE: Loading edu.cmu.cs.fluid.load.all.classes = false
+REMOTE: Loading edu.cmu.cs.fluid.timeoutFlag = true
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BCA = false
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ConstantExpr = false
+REMOTE: Loading edu.cmu.cs.fluid.physMemoryInMB = 20480
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.EqualityAssurance = true
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ThreadSafe = true
+REMOTE: Loading edu.cmu.cs.fluid.xml.diff.directory = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/promises-xml
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.IRConcurrencyDetector = true
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Singleton = true
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.CALLS = false
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BenchmarkingUniquenessSE = false
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ThreadEffectAssurance2 = true
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Binder = false
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.cliend.eclipse.TypeBasedAlias = false
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Nullable = true
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.TestIsFunctional = false
+REMOTE: Loading edu.cmu.cs.fluid.tool-memory-mb = 2048
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.DefinitelyAssigned = false
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.UniquenessAssuranceSE = true
+REMOTE: Loading edu.cmu.cs.fluid.analysis.thread.count = 8
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LockModelBuilder = true
+REMOTE: Loading edu.cmu.cs.fluid.timeoutSec = 11
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.NonNullRawTypes = false
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.EffectsAndLocks = false
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LayersAssurance = true
+REMOTE: Loading edu.cmu.cs.fluid.default.JRE = org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8
+REMOTE: Loading edu.cmu.cs.fluid.timeoutWarningSec = 30
+REMOTE: Loading edu.cmu.cs.fluid.modeling.problem.filters = 00000012com\.apple.*00000013com\.oracle.*00000010com\.sun.*00000014.*\.internal.*00000023.*BakedArrayList\.class00000007apple.*00000008oracle.*00000011quicktime.*00000005sun.*
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Utility = true
+REMOTE: Loading edu.cmu.cs.fluid.scan.may.use.compression = true
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ParameterizedType = true
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Final = false
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LockAssurance4 = true
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LockAssurance3 = false
+REMOTE: Loading edu.cmu.cs.fluid.data.directory = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.NullablePreprocessor = true
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.EffectAssurance2 = true
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LV = false
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.StructureAssurance = true
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Types = false
+REMOTE: JSure data dir = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data
+REMOTE: XML diff dir   = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/promises-xml
+REMOTE: Looking for JRE in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8
+REMOTE: default JRE = org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8
+REMOTE: Initialized job
+REMOTE: Created com.surelogic.analysis.concurrency.detector.ConcurrencyDetector
+REMOTE: Starting a new group for ConcurrencyDetector
+REMOTE: Created com.surelogic.analysis.threads.ThreadEffectsModule
+REMOTE: Created com.surelogic.analysis.structure.StructureAnalysis
+REMOTE: Created com.surelogic.analysis.annotationbounds.ParameterizedTypeAnalysis
+REMOTE: Created com.surelogic.analysis.equality.EqualityAnalysis
+REMOTE: Created com.surelogic.analysis.layers.LayersAnalysis
+REMOTE: Created com.surelogic.analysis.utility.UtilityAnalysis
+REMOTE: Starting a new group for UtilityAnalysis
+REMOTE: Group: EXTERNALLY
+REMOTE: 	ConcurrencyDetector
+REMOTE: 	ThreadEffectsModule
+REMOTE: 	StructureAnalysis
+REMOTE: 	ParameterizedTypeAnalysis
+REMOTE: 	EqualityAnalysis
+REMOTE: 	LayersAnalysis
+REMOTE: Created com.surelogic.analysis.singleton.SingletonAnalysis
+REMOTE: Created com.surelogic.analysis.concurrency.driver.LockModelBuilder
+REMOTE: Starting a new group for LockModelBuilder
+REMOTE: Group: com.surelogic.analysis.visitors.TopLevelAnalysisVisitor$1@28ba21f3, EXTERNALLY
+REMOTE: 	UtilityAnalysis
+REMOTE: 	SingletonAnalysis
+REMOTE: Created com.surelogic.analysis.concurrency.driver.ThreadSafeAnalysis
+REMOTE: Starting a new group for ThreadSafeAnalysis
+REMOTE: Group: EXTERNALLY
+REMOTE: 	LockModelBuilder
+REMOTE: Created com.surelogic.analysis.concurrency.driver.NewLockAnalysis
+REMOTE: Starting a new group for NewLockAnalysis
+REMOTE: Group: com.surelogic.analysis.visitors.TopLevelAnalysisVisitor$1@28ba21f3, EXTERNALLY
+REMOTE: 	ThreadSafeAnalysis
+REMOTE: Created com.surelogic.analysis.effects.EffectsAnalysis
+REMOTE: Starting a new group for EffectsAnalysis
+REMOTE: Group: class com.surelogic.analysis.bca.BindingContextAnalysis, EXTERNALLY
+REMOTE: 	NewLockAnalysis
+REMOTE: Created com.surelogic.analysis.uniqueness.classic.sideeffecting.UniquenessAnalysisModule
+REMOTE: Starting a new group for UniquenessAnalysisModule
+REMOTE: Group: com.surelogic.analysis.visitors.TopLevelAnalysisVisitor$1@28ba21f3, class com.surelogic.analysis.bca.BindingContextAnalysis, EXTERNALLY
+REMOTE: 	EffectsAnalysis
+REMOTE: Created com.surelogic.analysis.nullable.NullablePreprocessorModule
+REMOTE: Starting a new group for NullablePreprocessorModule
+REMOTE: Group: com.surelogic.analysis.uniqueness.classic.sideeffecting.UniquenessAnalysisModule$1@694f9431, class com.surelogic.analysis.bca.BindingContextAnalysis, INTERNALLY
+REMOTE: 	UniquenessAnalysisModule
+REMOTE: Created com.surelogic.analysis.nullable.NullableModule2
+REMOTE: Starting a new group for NullableModule2
+REMOTE: Group: EXTERNALLY
+REMOTE: 	NullablePreprocessorModule
+REMOTE: Group: com.surelogic.analysis.granules.FlowUnitGranulator@f2a0b8e, EXTERNALLY
+REMOTE: 	NullableModule2
+REMOTE: ##TASK, Scan, 28
+REMOTE: Initializing ...
+REMOTE: ##SUBTASK, Initializing ...
+REMOTE: monitor = com.surelogic.common.jobs.remote.AbstractRemoteSLJob$Monitor@593634ad
+REMOTE: process() using 8 threads
+REMOTE: [GC (Allocation Failure)  10598K->3142K(340992K), 0.0019830 secs]
+REMOTE: [GC (Allocation Failure)  16407K->3829K(340992K), 0.0021640 secs]
+REMOTE: [GC (Allocation Failure)  17036K->16973K(348672K), 0.0085700 secs]
+REMOTE: [GC (Allocation Failure)  37851K->37516K(349184K), 0.0121670 secs]
+REMOTE: Done initializing org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: 0
+REMOTE: org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: Done initializing with /Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/jre/lib/resources.jar : 3504786
+REMOTE: [GC (Allocation Failure)  58508K->46775K(368128K), 0.0072880 secs]
+REMOTE: org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: Done initializing with /Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/jre/lib/rt.jar : 66012787
+REMOTE: org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: Done initializing with /Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/jre/lib/jsse.jar : 618021
+REMOTE: org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: Done initializing with /Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/jre/lib/jce.jar : 112397
+REMOTE: org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: Done initializing with /Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/jre/lib/charsets.jar : 3131343
+REMOTE: org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: Done initializing with /Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/jre/lib/jfr.jar : 508974
+REMOTE: org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: Done initializing with /Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/jre/lib/ext/cldrdata.jar : 3860522
+REMOTE: org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: Done initializing with /Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/jre/lib/ext/dnsns.jar : 8286
+REMOTE: [GC (Allocation Failure)  79031K->52220K(369664K), 0.0098930 secs]
+REMOTE: org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: Done initializing with /Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/jre/lib/ext/jfxrt.jar : 18225657
+REMOTE: org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: Done initializing with /Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/jre/lib/ext/localedata.jar : 1178786
+REMOTE: org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: Done initializing with /Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/jre/lib/ext/nashorn.jar : 1580374
+REMOTE: org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: Done initializing with /Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/jre/lib/ext/sunec.jar : 39793
+REMOTE: org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: Done initializing with /Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar : 277781
+REMOTE: org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: Done initializing with /Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar : 247688
+REMOTE: org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: Done initializing with /Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/jre/lib/ext/zipfs.jar : 68835
+REMOTE: org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: Done initializing with /System/Library/Java/Extensions/MRJToolkit.jar : 12849
+REMOTE: Done initializing TestReadWriteLockPromotion: 1
+REMOTE: Trying to find /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/TestReadWriteLockPro-2016.02.04-at-14.10.27.069/source/TestReadWriteLockPromotion.bin.zip
+REMOTE: TestReadWriteLockPromotion: TestReadWriteLockPromotion -> org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8
+REMOTE: Done initializing org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: 0
+REMOTE: TestReadWriteLockPromotion: Done initializing with /Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/jre/lib/resources.jar : 3504786
+REMOTE: [GC (Allocation Failure)  84476K->57892K(389120K), 0.0110030 secs]
+REMOTE: TestReadWriteLockPromotion: Done initializing with /Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/jre/lib/rt.jar : 66012787
+REMOTE: TestReadWriteLockPromotion: Done initializing with /Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/jre/lib/jsse.jar : 618021
+REMOTE: TestReadWriteLockPromotion: Done initializing with /Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/jre/lib/jce.jar : 112397
+REMOTE: TestReadWriteLockPromotion: Done initializing with /Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/jre/lib/charsets.jar : 3131343
+REMOTE: TestReadWriteLockPromotion: Done initializing with /Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/jre/lib/jfr.jar : 508974
+REMOTE: TestReadWriteLockPromotion: Done initializing with /Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/jre/lib/ext/cldrdata.jar : 3860522
+REMOTE: TestReadWriteLockPromotion: Done initializing with /Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/jre/lib/ext/dnsns.jar : 8286
+REMOTE: TestReadWriteLockPromotion: Done initializing with /Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/jre/lib/ext/jfxrt.jar : 18225657
+REMOTE: TestReadWriteLockPromotion: Done initializing with /Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/jre/lib/ext/localedata.jar : 1178786
+REMOTE: TestReadWriteLockPromotion: Done initializing with /Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/jre/lib/ext/nashorn.jar : 1580374
+REMOTE: TestReadWriteLockPromotion: Done initializing with /Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/jre/lib/ext/sunec.jar : 39793
+REMOTE: TestReadWriteLockPromotion: Done initializing with /Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar : 277781
+REMOTE: TestReadWriteLockPromotion: Done initializing with /Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar : 247688
+REMOTE: TestReadWriteLockPromotion: Done initializing with /Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/jre/lib/ext/zipfs.jar : 68835
+REMOTE: TestReadWriteLockPromotion: Done initializing with /System/Library/Java/Extensions/MRJToolkit.jar : 12849
+REMOTE: TestReadWriteLockPromotion: Done initializing with /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/TestReadWriteLockPromotion/promises-5.6.0.jar : 133034
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: Assuming that the projects are run in dependency order
+REMOTE: Parsing ...
+REMOTE: ##SUBTASK, Parsing ...
+REMOTE: Done adapting 0 files for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: Parsing ...
+REMOTE: ##SUBTASK, Parsing ...
+REMOTE: [GC (Allocation Failure)  109604K->66721K(389120K), 0.0117080 secs]
+REMOTE: ##WORK, 1
+REMOTE: Adapting 1 CUTs
+REMOTE: Done adapting 1 files for TestReadWriteLockPromotion
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: Handling references for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8
+REMOTE: ##SUBTASK, Handling references for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8
+REMOTE: Handling 21 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8
+REMOTE: Setting project for Object from org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8
+REMOTE: Handling 53 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8
+REMOTE: Handling 80 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8
+REMOTE: Handling 84 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8
+REMOTE: [GC (Allocation Failure)  118433K->72123K(410112K), 0.0172880 secs]
+REMOTE: Handling 59 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8
+REMOTE: Handling 43 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8
+REMOTE: Handling 45 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8
+REMOTE: Handling 25 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8
+REMOTE: Handling 16 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8
+REMOTE: Handling 4 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8
+REMOTE: Handling 2 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: Handling 24 dangling refs for TestReadWriteLockPromotion
+REMOTE: Handling 5 dangling refs for TestReadWriteLockPromotion
+REMOTE: Handling 1 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8
+REMOTE: Handling 2 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8
+REMOTE: Parsing ASTs  = 402 ms
+REMOTE: Handling refs = 710 ms
+REMOTE: [2016-02-04 14:10:29    INFO] partial bindings = 0 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+REMOTE: [2016-02-04 14:10:29    INFO] full bindings = 0 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+REMOTE: Canonicalizing ASTs
+REMOTE: ##SUBTASK, Canonicalizing ASTs
+REMOTE: ##WORK, 1
+REMOTE: [2016-02-04 14:10:30    INFO] partial bindings = 18 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+REMOTE: [2016-02-04 14:10:30    INFO] full bindings = 81 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+REMOTE: Canonicalizing TestReadWriteLockPromotion/src/test/Test.java
+REMOTE: [GC (Metadata GC Threshold)  128286K->78554K(411136K), 0.0160690 secs]
+REMOTE: [Full GC (Metadata GC Threshold)  78554K->76691K(175104K), 0.3396950 secs]
+REMOTE: ##WORK, 1
+REMOTE: Binding = 94 ms
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: [GC (System.gc())  82352K->76923K(173056K), 0.0014320 secs]
+REMOTE: [Full GC (System.gc())  76923K->62323K(173056K), 0.1517900 secs]
+REMOTE: Creating drops
+REMOTE: ##SUBTASK, Creating drops
+REMOTE: Created binary drop for java.time.format.DateTimeFormatter
+REMOTE: Created binary drop for java.io.InvalidClassException
+REMOTE: Created binary drop for java.lang.Byte
+REMOTE: Created binary drop for java.util.ListIterator
+REMOTE: Created binary drop for sun.reflect.generics.tree.BaseType
+REMOTE: Created binary drop for sun.reflect.generics.tree.LongSignature
+REMOTE: Created binary drop for java.util.function.DoubleFunction
+REMOTE: Created binary drop for java.util.function.LongToIntFunction
+REMOTE: Created binary drop for java.util.function.ObjDoubleConsumer
+REMOTE: Created binary drop for java.lang.Exception
+REMOTE: Created binary drop for java.util.LongSummaryStatistics
+REMOTE: Created binary drop for java.util.AbstractMap
+REMOTE: Created binary drop for java.security.AccessControlContext
+REMOTE: Created binary drop for java.time.format.DateTimeParseContext
+REMOTE: Created binary drop for java.util.concurrent.locks.AbstractOwnableSynchronizer
+REMOTE: Created binary drop for java.lang.Throwable
+REMOTE: Created binary drop for java.util.LinkedList
+REMOTE: Created binary drop for java.time.chrono.IsoChronology
+REMOTE: Created binary drop for java.time.format.TextStyle
+REMOTE: Created binary drop for sun.reflect.generics.tree.Wildcard
+REMOTE: Created binary drop for sun.misc.JarIndex
+REMOTE: Created binary drop for java.nio.FloatBuffer
+REMOTE: Created binary drop for java.lang.AutoCloseable
+REMOTE: Created binary drop for java.util.zip.Inflater
+REMOTE: Created source drop for file:/Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid%20Regression/TestReadWriteLockPromotion/src/test/Test.java
+REMOTE: Created binary drop for java.net.UnknownHostException
+REMOTE: Created binary drop for java.time.chrono.ChronoPeriod
+REMOTE: Created binary drop for java.io.SerializablePermission
+REMOTE: Created binary drop for java.lang.Number
+REMOTE: Created binary drop for java.security.GeneralSecurityException
+REMOTE: Created binary drop for java.util.AbstractCollection
+REMOTE: Created binary drop for java.security.Guard
+REMOTE: Created binary drop for java.io.ObjectInputValidation
+REMOTE: Created binary drop for java.time.temporal.TemporalField
+REMOTE: Created binary drop for java.util.function.IntToDoubleFunction
+REMOTE: Created binary drop for java.lang.StackTraceElement
+REMOTE: Created binary drop for java.util.AbstractSequentialList
+REMOTE: Created binary drop for java.time.zone.ZoneOffsetTransition
+REMOTE: Created binary drop for java.security.cert.Certificate
+REMOTE: Created binary drop for java.nio.file.OpenOption
+REMOTE: Created binary drop for sun.reflect.LangReflectAccess
+REMOTE: Created binary drop for java.util.concurrent.ConcurrentMap
+REMOTE: Created binary drop for java.lang.reflect.Member
+REMOTE: Created binary drop for java.time.LocalDate
+REMOTE: Created binary drop for java.nio.channels.FileLock
+REMOTE: Created binary drop for java.lang.Object
+REMOTE: Created binary drop for java.util.WeakHashMap
+REMOTE: Created binary drop for java.util.function.LongBinaryOperator
+REMOTE: Created binary drop for java.lang.Package
+REMOTE: Created binary drop for sun.util.locale.BaseLocale
+REMOTE: Created binary drop for java.util.function.Function
+REMOTE: Created binary drop for java.nio.channels.ReadableByteChannel
+REMOTE: Created binary drop for java.nio.ByteBuffer
+REMOTE: Created binary drop for java.net.SocketAddress
+REMOTE: Created binary drop for java.time.chrono.Chronology
+REMOTE: Created binary drop for java.lang.reflect.InvocationTargetException
+REMOTE: Created binary drop for java.util.function.LongToDoubleFunction
+REMOTE: Created binary drop for java.lang.FunctionalInterface
+REMOTE: Created binary drop for sun.reflect.generics.repository.MethodRepository
+REMOTE: Created binary drop for java.time.format.FormatStyle
+REMOTE: Created binary drop for java.lang.reflect.AnnotatedElement
+REMOTE: Created binary drop for java.util.Dictionary
+REMOTE: Created binary drop for java.nio.file.attribute.FileAttribute
+REMOTE: Created binary drop for java.security.PrivilegedAction
+REMOTE: Created binary drop for java.util.DoubleSummaryStatistics
+REMOTE: Created binary drop for sun.reflect.generics.repository.AbstractRepository
+REMOTE: Created binary drop for java.security.NoSuchProviderException
+REMOTE: Created binary drop for java.util.AbstractList
+REMOTE: Created binary drop for java.lang.reflect.WildcardType
+REMOTE: Created binary drop for java.time.temporal.TemporalQuery
+REMOTE: Created binary drop for sun.misc.Contended
+REMOTE: Created binary drop for java.util.PrimitiveIterator
+REMOTE: Created binary drop for java.net.NetworkInterface
+REMOTE: Created binary drop for java.util.function.LongFunction
+REMOTE: Created binary drop for java.nio.channels.spi.AbstractInterruptibleChannel
+REMOTE: Created binary drop for java.lang.reflect.Method
+REMOTE: Created binary drop for java.lang.RuntimeException
+REMOTE: Created binary drop for java.util.Stack
+REMOTE: Created binary drop for java.nio.charset.CodingErrorAction
+REMOTE: Created binary drop for java.nio.file.WatchEvent
+REMOTE: Created binary drop for java.time.OffsetDateTime
+REMOTE: Created binary drop for java.util.function.DoubleConsumer
+REMOTE: Created binary drop for sun.reflect.generics.tree.MethodTypeSignature
+REMOTE: Created binary drop for java.lang.reflect.ParameterizedType
+REMOTE: Created binary drop for java.io.StreamCorruptedException
+REMOTE: Created binary drop for java.net.FileNameMap
+REMOTE: Created binary drop for java.util.Locale
+REMOTE: Created binary drop for java.nio.IntBuffer
+REMOTE: Created binary drop for java.text.FieldPosition
+REMOTE: Created binary drop for sun.util.locale.LocaleObjectCache
+REMOTE: Created binary drop for java.util.function.DoubleToIntFunction
+REMOTE: Created binary drop for java.net.URI
+REMOTE: Created binary drop for java.time.Period
+REMOTE: Created binary drop for java.lang.ClassNotFoundException
+REMOTE: Created binary drop for java.lang.reflect.Field
+REMOTE: Created binary drop for java.lang.StringBuffer
+REMOTE: Created binary drop for sun.nio.ch.Interruptible
+REMOTE: Created binary drop for java.security.cert.CertificateException
+REMOTE: Created binary drop for java.io.Writer
+REMOTE: Created binary drop for java.nio.channels.AsynchronousFileChannel
+REMOTE: Created binary drop for java.io.ObjectOutput
+REMOTE: Created binary drop for java.lang.ref.WeakReference
+REMOTE: Created binary drop for sun.reflect.generics.tree.BottomSignature
+REMOTE: Created binary drop for java.util.function.ToLongFunction
+REMOTE: Created binary drop for java.io.InputStream
+REMOTE: Created binary drop for java.lang.ClassValue
+REMOTE: Created binary drop for java.util.Random
+REMOTE: Created binary drop for java.lang.reflect.Parameter
+REMOTE: Created binary drop for java.util.ArrayList
+REMOTE: Created binary drop for java.net.URLStreamHandlerFactory
+REMOTE: Created binary drop for java.util.function.LongUnaryOperator
+REMOTE: Created binary drop for java.nio.file.attribute.UserPrincipalLookupService
+REMOTE: Created binary drop for java.util.function.LongConsumer
+REMOTE: Created binary drop for java.io.FileFilter
+REMOTE: Created binary drop for java.io.FileNotFoundException
+REMOTE: Created binary drop for java.nio.channels.CompletionHandler
+REMOTE: Created binary drop for java.nio.file.WatchService
+REMOTE: Created binary drop for java.nio.file.Path
+REMOTE: Created binary drop for java.io.PrintStream
+REMOTE: Created binary drop for java.security.ProtectionDomain
+REMOTE: Created binary drop for java.net.Proxy
+REMOTE: Created binary drop for java.util.concurrent.locks.ReadWriteLock
+REMOTE: Created binary drop for sun.reflect.generics.repository.ConstructorRepository
+REMOTE: Created binary drop for java.time.OffsetTime
+REMOTE: Created binary drop for java.text.ParsePosition
+REMOTE: Created binary drop for java.lang.Iterable
+REMOTE: Created binary drop for sun.reflect.generics.tree.ClassTypeSignature
+REMOTE: Created binary drop for java.security.DomainCombiner
+REMOTE: Created binary drop for java.nio.file.WatchKey
+REMOTE: Created binary drop for java.util.Properties
+REMOTE: Created binary drop for java.nio.charset.Charset
+REMOTE: Created binary drop for java.util.Map
+REMOTE: Created binary drop for sun.reflect.FieldAccessor
+REMOTE: Created binary drop for java.text.CharacterIterator
+REMOTE: Created binary drop for java.lang.IllegalArgumentException
+REMOTE: Created binary drop for java.util.concurrent.locks.AbstractQueuedSynchronizer
+REMOTE: Created binary drop for java.lang.ref.Reference
+REMOTE: Created binary drop for java.nio.channels.Channel
+REMOTE: Created binary drop for java.util.Comparator
+REMOTE: Created binary drop for java.time.format.Parsed
+REMOTE: Created binary drop for java.lang.Float
+REMOTE: Created binary drop for java.nio.file.DirectoryStream
+REMOTE: Created binary drop for java.io.DataOutput
+REMOTE: Created binary drop for java.lang.Short
+REMOTE: Created binary drop for java.util.function.BiFunction
+REMOTE: Created binary drop for java.util.RandomAccess
+REMOTE: Created binary drop for java.net.SocketException
+REMOTE: Created binary drop for java.net.URISyntaxException
+REMOTE: Created binary drop for java.util.OptionalInt
+REMOTE: Created binary drop for java.io.Flushable
+REMOTE: Created binary drop for sun.util.locale.Extension
+REMOTE: Created binary drop for java.util.function.BinaryOperator
+REMOTE: Created binary drop for java.util.stream.LongStream
+REMOTE: Created binary drop for java.time.chrono.Era
+REMOTE: Created binary drop for java.util.function.UnaryOperator
+REMOTE: Created binary drop for java.io.Reader
+REMOTE: Created binary drop for java.lang.ReflectiveOperationException
+REMOTE: Created binary drop for sun.security.util.Debug
+REMOTE: Created binary drop for sun.reflect.generics.tree.SimpleClassTypeSignature
+REMOTE: Created binary drop for java.nio.CharBuffer
+REMOTE: Created binary drop for java.lang.InstantiationException
+REMOTE: Created binary drop for java.util.function.IntConsumer
+REMOTE: Created binary drop for java.io.ObjectInput
+REMOTE: Created binary drop for sun.reflect.generics.factory.GenericsFactory
+REMOTE: Created binary drop for java.security.Principal
+REMOTE: Created binary drop for java.security.Provider
+REMOTE: Created binary drop for sun.util.locale.LocaleExtensions
+REMOTE: Created binary drop for java.util.jar.JarFile
+REMOTE: Created binary drop for java.util.zip.InflaterInputStream
+REMOTE: Created binary drop for java.time.format.DateTimeTextProvider
+REMOTE: Created binary drop for java.nio.file.spi.FileSystemProvider
+REMOTE: Created binary drop for java.io.OutputStream
+REMOTE: Created binary drop for java.io.ObjectInputStream
+REMOTE: Created binary drop for sun.reflect.generics.tree.BooleanSignature
+REMOTE: Created binary drop for java.time.DayOfWeek
+REMOTE: Created binary drop for sun.reflect.generics.tree.TypeArgument
+REMOTE: Created binary drop for java.nio.file.CopyOption
+REMOTE: Created binary drop for java.lang.reflect.TypeVariable
+REMOTE: Created binary drop for java.lang.ref.ReferenceQueue
+REMOTE: Created binary drop for java.lang.reflect.AnnotatedType
+REMOTE: Created binary drop for java.util.function.ObjIntConsumer
+REMOTE: Created binary drop for java.util.Deque
+REMOTE: Created binary drop for sun.util.locale.InternalLocaleBuilder
+REMOTE: Created binary drop for sun.reflect.generics.tree.TypeVariableSignature
+REMOTE: Created binary drop for sun.reflect.annotation.AnnotationType
+REMOTE: Created binary drop for java.time.chrono.ChronoLocalDate
+REMOTE: Created binary drop for java.io.DataOutputStream
+REMOTE: Created binary drop for java.security.Key
+REMOTE: Created binary drop for java.nio.file.FileStore
+REMOTE: Created binary drop for java.text.Format
+REMOTE: Created binary drop for sun.reflect.CallerSensitive
+REMOTE: Created binary drop for java.util.MissingResourceException
+REMOTE: Created binary drop for java.lang.Readable
+REMOTE: Created binary drop for sun.reflect.generics.tree.ReturnType
+REMOTE: Created binary drop for java.io.ObjectStreamException
+REMOTE: Created binary drop for sun.reflect.generics.tree.ClassSignature
+REMOTE: Created binary drop for java.lang.annotation.Target
+REMOTE: Created binary drop for java.lang.reflect.Constructor
+REMOTE: Created binary drop for java.security.InvalidKeyException
+REMOTE: Created binary drop for java.util.OptionalLong
+REMOTE: Created binary drop for java.net.UnknownServiceException
+REMOTE: Created binary drop for java.io.Serializable
+REMOTE: Created binary drop for java.util.zip.ZipEntry
+REMOTE: Created binary drop for java.time.chrono.ChronoZonedDateTime
+REMOTE: Created binary drop for sun.reflect.generics.visitor.Reifier
+REMOTE: Created binary drop for java.nio.charset.CharsetDecoder
+REMOTE: Created binary drop for sun.misc.MetaIndex
+REMOTE: Created binary drop for java.nio.file.AccessMode
+REMOTE: Created binary drop for java.lang.Double
+REMOTE: Created binary drop for java.security.NoSuchAlgorithmException
+REMOTE: Created binary drop for sun.reflect.generics.tree.ShortSignature
+REMOTE: Created binary drop for java.nio.channels.InterruptibleChannel
+REMOTE: Created binary drop for java.util.Date
+REMOTE: Created binary drop for java.io.ObjectStreamClass
+REMOTE: Created binary drop for java.util.IntSummaryStatistics
+REMOTE: Created binary drop for sun.reflect.generics.tree.TypeSignature
+REMOTE: Created binary drop for java.util.concurrent.ExecutorService
+REMOTE: Created binary drop for java.nio.file.attribute.GroupPrincipal
+REMOTE: Created binary drop for java.lang.annotation.Retention
+REMOTE: Created binary drop for sun.misc.URLClassPath
+REMOTE: Created binary drop for sun.reflect.ConstructorAccessor
+REMOTE: Created binary drop for java.time.temporal.TemporalAccessor
+REMOTE: Created binary drop for java.nio.file.attribute.FileStoreAttributeView
+REMOTE: Created binary drop for sun.util.locale.provider.LocaleServiceProviderPool
+REMOTE: Created binary drop for java.util.jar.JarEntry
+REMOTE: Created binary drop for java.time.Instant
+REMOTE: Created binary drop for java.util.zip.ZipConstants
+REMOTE: Created binary drop for com.surelogic.RequiresLock
+REMOTE: Created binary drop for java.lang.ThreadGroup
+REMOTE: Created binary drop for java.lang.reflect.Type
+REMOTE: Created binary drop for java.net.URLStreamHandler
+REMOTE: Created binary drop for java.nio.file.PathMatcher
+REMOTE: Created binary drop for java.util.Spliterator
+REMOTE: Created binary drop for sun.misc.Resource
+REMOTE: Created binary drop for java.util.stream.Collector
+REMOTE: Created binary drop for java.util.Vector
+REMOTE: Created binary drop for java.util.concurrent.Callable
+REMOTE: Created binary drop for java.util.function.IntToLongFunction
+REMOTE: Created binary drop for java.util.function.IntBinaryOperator
+REMOTE: Created binary drop for java.time.format.DateTimeFormatterBuilder
+REMOTE: Created binary drop for java.time.format.SignStyle
+REMOTE: Created binary drop for java.io.ObjectStreamField
+REMOTE: Created binary drop for java.nio.channels.AsynchronousCloseException
+REMOTE: Created binary drop for java.lang.annotation.ElementType
+REMOTE: Created binary drop for java.lang.String
+REMOTE: Created binary drop for sun.util.locale.ParseStatus
+REMOTE: Created binary drop for java.util.function.ToIntFunction
+REMOTE: Created binary drop for java.io.PrintWriter
+REMOTE: Created binary drop for java.lang.IllegalAccessException
+REMOTE: Created binary drop for com.surelogic.RegionLock
+REMOTE: Created binary drop for java.util.jar.Manifest
+REMOTE: Created binary drop for java.nio.file.attribute.UserPrincipal
+REMOTE: Created binary drop for java.util.zip.ZipException
+REMOTE: Created binary drop for java.nio.channels.GatheringByteChannel
+REMOTE: Created binary drop for java.util.Set
+REMOTE: Created binary drop for java.time.temporal.TemporalAdjuster
+REMOTE: Created binary drop for sun.reflect.generics.tree.FormalTypeParameter
+REMOTE: Created binary drop for java.lang.Thread
+REMOTE: Created binary drop for sun.util.locale.LanguageTag
+REMOTE: Created binary drop for javax.security.auth.AuthPermission
+REMOTE: Created binary drop for java.lang.NoSuchFieldException
+REMOTE: Created binary drop for java.lang.Enum
+REMOTE: Created binary drop for java.util.function.ObjLongConsumer
+REMOTE: Created binary drop for java.lang.NumberFormatException
+REMOTE: Created binary drop for java.security.PublicKey
+REMOTE: Created binary drop for sun.reflect.generics.tree.FieldTypeSignature
+REMOTE: Created binary drop for java.util.function.LongPredicate
+REMOTE: Created binary drop for java.util.Iterator
+REMOTE: Created binary drop for java.util.function.IntFunction
+REMOTE: Created binary drop for java.util.jar.Attributes
+REMOTE: Created binary drop for java.time.temporal.TemporalAmount
+REMOTE: Created binary drop for java.nio.channels.WritableByteChannel
+REMOTE: Created binary drop for java.lang.Character
+REMOTE: Created binary drop for java.util.zip.DataFormatException
+REMOTE: Created binary drop for sun.reflect.generics.visitor.Visitor
+REMOTE: Created binary drop for sun.reflect.generics.tree.Signature
+REMOTE: Created binary drop for java.io.FileDescriptor
+REMOTE: Created binary drop for java.nio.LongBuffer
+REMOTE: Created binary drop for java.util.OptionalDouble
+REMOTE: Created binary drop for sun.reflect.generics.tree.TypeTree
+REMOTE: Created binary drop for java.io.SyncFailedException
+REMOTE: Created binary drop for java.time.Clock
+REMOTE: Created binary drop for java.nio.file.attribute.BasicFileAttributes
+REMOTE: Created binary drop for java.lang.Long
+REMOTE: Created binary drop for java.lang.reflect.AccessibleObject
+REMOTE: Created binary drop for java.nio.channels.SeekableByteChannel
+REMOTE: Created binary drop for java.lang.Boolean
+REMOTE: Created binary drop for java.util.AbstractSet
+REMOTE: Created binary drop for java.io.DataInput
+REMOTE: Created binary drop for java.util.Optional
+REMOTE: Created binary drop for java.lang.AbstractStringBuilder
+REMOTE: Created binary drop for java.util.concurrent.locks.Lock
+REMOTE: Created binary drop for java.util.Queue
+REMOTE: Created binary drop for sun.reflect.generics.tree.ByteSignature
+REMOTE: Created binary drop for java.io.IOException
+REMOTE: Created binary drop for java.io.FilterInputStream
+REMOTE: Created binary drop for java.net.MalformedURLException
+REMOTE: Created binary drop for sun.reflect.generics.tree.ArrayTypeSignature
+REMOTE: Created binary drop for java.time.Duration
+REMOTE: Created binary drop for sun.reflect.generics.repository.GenericDeclRepository
+REMOTE: Created binary drop for java.time.chrono.ChronoLocalDateTime
+REMOTE: Created binary drop for java.nio.file.FileSystem
+REMOTE: Created binary drop for java.math.BigInteger
+REMOTE: Created binary drop for java.lang.CloneNotSupportedException
+REMOTE: Created binary drop for java.net.ContentHandler
+REMOTE: Created binary drop for java.util.concurrent.Future
+REMOTE: Created binary drop for sun.reflect.ConstantPool
+REMOTE: Created binary drop for java.nio.charset.spi.CharsetProvider
+REMOTE: Created binary drop for java.util.stream.Stream
+REMOTE: Created binary drop for java.time.zone.ZoneOffsetTransitionRule
+REMOTE: Created binary drop for java.nio.channels.FileChannel
+REMOTE: Created binary drop for java.time.format.DateTimePrintContext
+REMOTE: Created binary drop for java.text.AttributedCharacterIterator
+REMOTE: Created binary drop for java.lang.Comparable
+REMOTE: Created binary drop for java.lang.UnsupportedOperationException
+REMOTE: Created binary drop for java.util.SortedMap
+REMOTE: Created binary drop for sun.reflect.generics.tree.CharSignature
+REMOTE: Created binary drop for java.time.Month
+REMOTE: Created binary drop for java.time.LocalTime
+REMOTE: Created binary drop for java.nio.DoubleBuffer
+REMOTE: Created binary drop for javax.security.auth.Subject
+REMOTE: Created binary drop for java.io.FilterOutputStream
+REMOTE: Created binary drop for sun.reflect.MethodAccessor
+REMOTE: Created binary drop for java.time.temporal.Temporal
+REMOTE: Created binary drop for java.time.ZoneId
+REMOTE: Created binary drop for java.util.stream.BaseStream
+REMOTE: Created binary drop for java.nio.ShortBuffer
+REMOTE: Created binary drop for sun.reflect.generics.tree.IntSignature
+REMOTE: Created binary drop for java.io.UnsupportedEncodingException
+REMOTE: Created binary drop for java.lang.annotation.Annotation
+REMOTE: Created binary drop for java.lang.CharSequence
+REMOTE: Created binary drop for java.nio.charset.CoderResult
+REMOTE: Created binary drop for java.net.InetAddressImpl
+REMOTE: Created binary drop for java.util.InvalidPropertiesFormatException
+REMOTE: Created binary drop for java.security.PrivilegedExceptionAction
+REMOTE: Created binary drop for java.nio.file.Watchable
+REMOTE: Created binary drop for java.time.chrono.IsoEra
+REMOTE: Created binary drop for java.util.stream.IntStream
+REMOTE: Created binary drop for java.util.function.ToDoubleFunction
+REMOTE: Created binary drop for java.util.function.DoublePredicate
+REMOTE: Created binary drop for java.nio.file.attribute.FileTime
+REMOTE: Created binary drop for java.nio.file.attribute.AttributeView
+REMOTE: Created binary drop for sun.reflect.generics.tree.VoidDescriptor
+REMOTE: Created binary drop for java.security.AccessControlException
+REMOTE: Created binary drop for java.time.temporal.ChronoField
+REMOTE: Created binary drop for java.util.Collection
+REMOTE: Created binary drop for java.security.Timestamp
+REMOTE: Created binary drop for sun.reflect.ReflectionFactory
+REMOTE: Created binary drop for java.lang.ref.SoftReference
+REMOTE: Created binary drop for java.security.cert.CertificateEncodingException
+REMOTE: Created binary drop for java.time.temporal.TemporalUnit
+REMOTE: Created binary drop for java.lang.reflect.GenericDeclaration
+REMOTE: Created binary drop for java.lang.InterruptedException
+REMOTE: Created binary drop for java.time.zone.ZoneRules
+REMOTE: Created binary drop for java.util.HashMap
+REMOTE: Created binary drop for java.lang.annotation.RetentionPolicy
+REMOTE: Created binary drop for java.lang.Integer
+REMOTE: Created binary drop for java.security.BasicPermission
+REMOTE: Created binary drop for java.util.concurrent.locks.ReentrantReadWriteLock
+REMOTE: Created binary drop for java.util.LinkedHashMap
+REMOTE: Created binary drop for java.time.chrono.AbstractChronology
+REMOTE: Created binary drop for java.util.Enumeration
+REMOTE: Created binary drop for java.lang.Cloneable
+REMOTE: Created binary drop for java.util.concurrent.TimeUnit
+REMOTE: Created binary drop for java.time.temporal.ValueRange
+REMOTE: Created binary drop for java.security.KeyException
+REMOTE: Created binary drop for java.io.InvalidObjectException
+REMOTE: Created binary drop for java.util.zip.ZipFile
+REMOTE: Created binary drop for sun.reflect.generics.tree.Tree
+REMOTE: Created binary drop for java.util.function.Predicate
+REMOTE: Created binary drop for java.nio.charset.CharacterCodingException
+REMOTE: Created binary drop for java.io.Closeable
+REMOTE: Created binary drop for sun.reflect.generics.tree.FloatSignature
+REMOTE: Created binary drop for java.time.ZonedDateTime
+REMOTE: Created binary drop for java.util.function.Supplier
+REMOTE: Created binary drop for java.net.InetAddress
+REMOTE: Created binary drop for java.util.List
+REMOTE: Created binary drop for sun.reflect.generics.tree.DoubleSignature
+REMOTE: Created binary drop for java.io.FilenameFilter
+REMOTE: Created binary drop for java.lang.Class
+REMOTE: Created binary drop for java.nio.file.attribute.FileAttributeView
+REMOTE: Created binary drop for java.util.function.Consumer
+REMOTE: Created binary drop for java.nio.channels.ScatteringByteChannel
+REMOTE: Created binary drop for java.lang.Runnable
+REMOTE: Created binary drop for java.time.LocalDateTime
+REMOTE: Created binary drop for java.nio.charset.CharsetEncoder
+REMOTE: Created binary drop for java.nio.file.LinkOption
+REMOTE: Created binary drop for java.nio.MappedByteBuffer
+REMOTE: Created binary drop for java.util.function.IntPredicate
+REMOTE: Created binary drop for java.lang.NullPointerException
+REMOTE: Created binary drop for java.lang.ThreadLocal
+REMOTE: Created binary drop for java.io.File
+REMOTE: Created binary drop for java.net.URLConnection
+REMOTE: Created binary drop for java.io.ObjectStreamConstants
+REMOTE: Created binary drop for java.util.spi.LocaleServiceProvider
+REMOTE: Created binary drop for sun.reflect.generics.visitor.TypeTreeVisitor
+REMOTE: Created binary drop for java.util.function.LongSupplier
+REMOTE: Created binary drop for java.util.Hashtable
+REMOTE: Created binary drop for java.lang.ClassLoader
+REMOTE: Created binary drop for java.lang.SafeVarargs
+REMOTE: Created binary drop for java.util.function.IntSupplier
+REMOTE: Created binary drop for java.security.SignatureException
+REMOTE: Created binary drop for java.nio.ByteOrder
+REMOTE: Created binary drop for java.text.ParseException
+REMOTE: Created binary drop for java.util.function.DoubleUnaryOperator
+REMOTE: Created binary drop for java.util.function.BiConsumer
+REMOTE: Created binary drop for java.time.ZoneOffset
+REMOTE: Created binary drop for java.nio.channels.ClosedChannelException
+REMOTE: Created binary drop for java.security.cert.CertPath
+REMOTE: Created binary drop for java.net.URL
+REMOTE: Created binary drop for java.lang.Void
+REMOTE: Created binary drop for java.util.function.DoubleBinaryOperator
+REMOTE: Created binary drop for java.security.PermissionCollection
+REMOTE: Created binary drop for java.io.NotActiveException
+REMOTE: Created binary drop for java.io.ObjectOutputStream
+REMOTE: Created binary drop for java.lang.Deprecated
+REMOTE: Created binary drop for java.lang.SecurityException
+REMOTE: Created binary drop for java.util.function.DoubleToLongFunction
+REMOTE: Created binary drop for java.nio.channels.AsynchronousChannel
+REMOTE: Created binary drop for java.util.stream.DoubleStream
+REMOTE: Created binary drop for java.time.format.DecimalStyle
+REMOTE: Created binary drop for java.time.format.ResolverStyle
+REMOTE: Created binary drop for java.util.function.IntUnaryOperator
+REMOTE: Created binary drop for sun.util.locale.LocaleSyntaxException
+REMOTE: Created binary drop for java.util.concurrent.Executor
+REMOTE: Created binary drop for java.lang.annotation.Documented
+REMOTE: Created binary drop for java.lang.Appendable
+REMOTE: Created binary drop for java.lang.StringBuilder
+REMOTE: Created binary drop for java.util.function.DoubleSupplier
+REMOTE: Created binary drop for java.security.CodeSource
+REMOTE: Created binary drop for java.lang.reflect.Executable
+REMOTE: Created binary drop for java.util.spi.LocaleNameProvider
+REMOTE: Created binary drop for java.security.CodeSigner
+REMOTE: Created binary drop for java.net.InterfaceAddress
+REMOTE: Created binary drop for java.security.Permission
+REMOTE: Created binary drop for java.nio.channels.ByteChannel
+REMOTE: Created binary drop for java.nio.Buffer
+REMOTE: Created binary drop for java.util.concurrent.locks.Condition
+REMOTE: Created binary drop for java.net.ContentHandlerFactory
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: Parsing promises
+REMOTE: ##SUBTASK, Parsing promises
+REMOTE: Added 3 promises for java.lang.[] in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@7e32c033
+REMOTE: Added 3 promises for java.lang.[] in TestReadWriteLockPromotion: com.surelogic.tree.SyntaxTreeNode@41bb1f09
+REMOTE: Added 6 promises for java.io.InvalidClassException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@192a13ac
+REMOTE: Added 18 promises for java.util.ListIterator in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@777cf3c8
+REMOTE: Added 12 promises for java.lang.Exception in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@3f0b22ad
+REMOTE: Added 31 promises for java.lang.Object in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@43314c45
+REMOTE: Added 59 promises for java.lang.Byte in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@3982166b
+REMOTE: Added 17 promises for java.util.concurrent.ConcurrentMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@53ccd5c5
+REMOTE: Added 47 promises for java.lang.Throwable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@519de7c3
+REMOTE: Added 2 promises for test.Test in TestReadWriteLockPromotion: com.surelogic.tree.SyntaxTreeNode@1bb7b223
+REMOTE: Added 22 promises for java.lang.Number in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@66f5bd5c
+REMOTE: Added 55 promises for java.util.AbstractCollection in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@580e853a
+REMOTE: Added 29 promises for java.util.AbstractSequentialList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@4ba0f8c5
+REMOTE: Added 108 promises for java.util.AbstractMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@70b4b70e
+REMOTE: Added 12 promises for java.lang.reflect.InvocationTargetException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@d2bc834
+REMOTE: Added 60 promises for java.util.AbstractList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@2c7b22f
+REMOTE: Added 29 promises for java.util.Dictionary in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@5a7350b9
+REMOTE: Added 12 promises for java.lang.RuntimeException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@61c1af7c
+REMOTE: Added 6 promises for java.util.PrimitiveIterator in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@2602b5e4
+REMOTE: Added 6 promises for java.io.Writer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@78d897d
+REMOTE: Added 21 promises for java.util.Stack in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@7028393
+REMOTE: Added 56 promises for java.util.WeakHashMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@24a8bef5
+REMOTE: Added 15 promises for java.lang.ClassNotFoundException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@7983ddc0
+REMOTE: Added 7 promises for java.util.concurrent.locks.ReadWriteLock in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@60422d34
+REMOTE: Added 3 promises for java.util.Locale in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@3d0d70ec
+REMOTE: Added 6 promises for java.io.PrintStream in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@129675a4
+REMOTE: Added 3 promises for java.lang.Iterable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@65d28e58
+REMOTE: Added 3 promises for java.text.CharacterIterator in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@3345703e
+REMOTE: Added 3 promises for java.nio.file.Path in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@2278ef8b
+REMOTE: Added 139 promises for java.util.LinkedList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@46e5467c
+REMOTE: Added 12 promises for java.lang.IllegalArgumentException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@313ee378
+REMOTE: Added 73 promises for java.util.Properties in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@20f73f71
+REMOTE: Added 22 promises for java.util.concurrent.locks.AbstractQueuedSynchronizer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@1431f83d
+REMOTE: Added 73 promises for java.lang.Float in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@7b2f404e
+REMOTE: Added 3 promises for java.nio.file.DirectoryStream in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@4a08e4e6
+REMOTE: WARNING: TreeAccessor couldn't find equals(java.lang.Object) in java.util.ArrayList
+REMOTE: WARNING: TreeAccessor couldn't find hashCode() in java.util.ArrayList
+REMOTE: Added 64 promises for java.util.Map in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@75d34c6d
+REMOTE: Added 18 promises for java.net.URISyntaxException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@1ba81d9f
+REMOTE: Added 6 promises for java.lang.InstantiationException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@613b92fb
+REMOTE: Added 61 promises for java.lang.Short in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@63254d0
+REMOTE: Added 1 promises for java.lang.ref.ReferenceQueue in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@5ab92d0f
+REMOTE: Added 18 promises for java.nio.CharBuffer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@518f353c
+REMOTE: Added 3 promises for java.text.Format in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@37b09dc2
+REMOTE: Added 3 promises for java.util.zip.ZipEntry in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@60cd19e0
+REMOTE: Added 104 promises for java.util.ArrayList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@6bd4677a
+REMOTE: Added 64 promises for java.security.Provider in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@35273cb4
+REMOTE: Added 158 promises for java.lang.StringBuffer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@3bae459f
+REMOTE: Added 3 promises for java.util.Date in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@1cb2aeab
+REMOTE: Added 34 promises for java.util.concurrent.ExecutorService in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@73de3194
+REMOTE: Added 6 promises for java.io.PrintWriter in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@48df8c83
+REMOTE: Added 70 promises for java.lang.Double in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@75f3c810
+REMOTE: Added 87 promises for java.util.Deque in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@d73723e
+REMOTE: Added 6 promises for java.util.Iterator in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@7c43f176
+REMOTE: Added 6 promises for java.lang.IllegalAccessException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@51019ea7
+REMOTE: Added 3 promises for java.util.jar.Manifest in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@4299a3b
+REMOTE: Added 6 promises for java.lang.NumberFormatException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@4b04d975
+REMOTE: Added 6 promises for java.lang.NoSuchFieldException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@6c9f2664
+REMOTE: [GC (Allocation Failure)  144755K->67003K(190976K), 0.0054330 secs]
+REMOTE: Added 54 promises for java.util.Set in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@322dac20
+REMOTE: Added 13 promises for java.lang.Enum in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@449e9098
+REMOTE: Added 16 promises for java.util.AbstractSet in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@189e826d
+REMOTE: Added 141 promises for java.lang.Thread in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@73e148dd
+REMOTE: Added 88 promises for java.util.jar.Attributes in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@3618c94e
+REMOTE: Added 37 promises for java.lang.Boolean in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@2d0e49be
+REMOTE: Added 18 promises for java.util.Queue in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@1b5e4382
+REMOTE: Added 96 promises for java.lang.Long in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@255e8f44
+REMOTE: Added 20 promises for java.util.concurrent.locks.Lock in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@39e719ad
+REMOTE: Added 6 promises for java.lang.CloneNotSupportedException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@7a9c1dcf
+REMOTE: Added 12 promises for java.lang.UnsupportedOperationException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@5ac5054c
+REMOTE: Added 31 promises for java.util.SortedMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@124a8f28
+REMOTE: Added 12 promises for java.lang.CharSequence in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@29f2a876
+REMOTE: Added 138 promises for java.math.BigInteger in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@6c8cf53e
+REMOTE: Added 2 promises for java.lang.ref.SoftReference in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@b627183
+REMOTE: Added 4 promises for java.util.Enumeration in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@65386c91
+REMOTE: Added 1 promises for java.time.temporal.ChronoField in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@c587551
+REMOTE: Added 54 promises for java.util.Collection in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@3e969be7
+REMOTE: Added 170 promises for java.util.Vector in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@1d3394cb
+REMOTE: Added 144 promises for java.lang.AbstractStringBuilder in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@4f77583f
+REMOTE: Added 103 promises for java.util.concurrent.locks.ReentrantReadWriteLock in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@1d3b07ae
+REMOTE: Added 6 promises for java.lang.InterruptedException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@5c62232d
+REMOTE: Added 29 promises for java.util.concurrent.TimeUnit in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@78e6c89c
+REMOTE: Added 96 promises for java.lang.Integer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@7864f43e
+REMOTE: Added 6 promises for java.lang.NullPointerException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@3dab93c5
+REMOTE: Added 12 promises for java.lang.Class in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@4499b72c
+REMOTE: Added 1 promises for java.lang.ThreadLocal in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@7b6d8ba7
+REMOTE: Added 89 promises for java.util.List in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@8aff73e
+REMOTE: Added 301 promises for java.lang.String in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@356ef035
+REMOTE: Added 12 promises for java.lang.SecurityException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@4025b8cb
+REMOTE: Added 6 promises for java.lang.Appendable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@2355ea4c
+REMOTE: Added 22 promises for java.util.concurrent.locks.Condition in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@ef64ac2
+REMOTE: Added 38 promises for java.util.LinkedHashMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@6a2a08b3
+REMOTE: Added 83 promises for java.util.Hashtable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@5829c668
+REMOTE: Added 61 promises for java.util.HashMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@21a1966b
+REMOTE: Added 109 promises for java.lang.StringBuilder in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8: com.surelogic.tree.SyntaxTreeNode@686b560c
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: Scrubbing promises
+REMOTE: ##SUBTASK, Scrubbing promises
+REMOTE: [GC (Allocation Failure)  154043K->69388K(195584K), 0.0112090 secs]
+REMOTE: Creating RegionModel java.lang.Object.Instance for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: Starting analyses
+REMOTE: Using new analysis framework -- groups
+REMOTE: Starting group: ConcurrencyDetector, ThreadEffectsModule, StructureAnalysis, ParameterizedTypeAnalysis, EqualityAnalysis, LayersAnalysis
+REMOTE: ##SUBTASK, Starting parallel ConcurrencyDetector [0]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8
+REMOTE: Starting parallel ConcurrencyDetector [0]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8
+REMOTE: ##SUBTASK, Starting parallel ThreadEffectsModule [1]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8
+REMOTE: Starting parallel ThreadEffectsModule [1]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8
+REMOTE: ##SUBTASK, Starting parallel StructureAnalysis [2]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8
+REMOTE: Starting parallel StructureAnalysis [2]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8
+REMOTE: ##SUBTASK, Starting parallel ParameterizedTypeAnalysis [3]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8
+REMOTE: Starting parallel ParameterizedTypeAnalysis [3]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8
+REMOTE: ##SUBTASK, Starting parallel EqualityAnalysis [4]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8
+REMOTE: Starting parallel EqualityAnalysis [4]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8
+REMOTE: ##SUBTASK, Starting parallel LayersAnalysis [5]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8
+REMOTE: Starting parallel LayersAnalysis [5]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Starting parallel ConcurrencyDetector [0]: 1 for TestReadWriteLockPromotion
+REMOTE: Starting parallel ConcurrencyDetector [0]: 1 for TestReadWriteLockPromotion
+REMOTE: ##SUBTASK, Starting parallel ThreadEffectsModule [1]: 1 for TestReadWriteLockPromotion
+REMOTE: Starting parallel ThreadEffectsModule [1]: 1 for TestReadWriteLockPromotion
+REMOTE: ##SUBTASK, Starting parallel StructureAnalysis [2]: 1 for TestReadWriteLockPromotion
+REMOTE: Starting parallel StructureAnalysis [2]: 1 for TestReadWriteLockPromotion
+REMOTE: ##SUBTASK, Starting parallel ParameterizedTypeAnalysis [3]: 1 for TestReadWriteLockPromotion
+REMOTE: Starting parallel ParameterizedTypeAnalysis [3]: 1 for TestReadWriteLockPromotion
+REMOTE: ##SUBTASK, Starting parallel EqualityAnalysis [4]: 1 for TestReadWriteLockPromotion
+REMOTE: Starting parallel EqualityAnalysis [4]: 1 for TestReadWriteLockPromotion
+REMOTE: ##SUBTASK, Starting parallel LayersAnalysis [5]: 1 for TestReadWriteLockPromotion
+REMOTE: Starting parallel LayersAnalysis [5]: 1 for TestReadWriteLockPromotion
+REMOTE: ##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid%20Regression/TestReadWriteLockPromotion/src/test/Test.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid%20Regression/TestReadWriteLockPromotion/src/test/Test.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid%20Regression/TestReadWriteLockPromotion/src/test/Test.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid%20Regression/TestReadWriteLockPromotion/src/test/Test.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid%20Regression/TestReadWriteLockPromotion/src/test/Test.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Static structure ] file:/Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid%20Regression/TestReadWriteLockPromotion/src/test/Test.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: Starting group: UtilityAnalysis, SingletonAnalysis
+REMOTE: com.surelogic.analysis.granules.FlowUnitGranulator@f2a0b8e: 4
+REMOTE: com.surelogic.analysis.visitors.TopLevelAnalysisVisitor$1@28ba21f3: 1
+REMOTE: com.surelogic.analysis.uniqueness.classic.sideeffecting.UniquenessAnalysisModule$1@694f9431: 0
+REMOTE: ##SUBTASK, Starting parallel UtilityAnalysis [6]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8
+REMOTE: Starting parallel UtilityAnalysis [6]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8
+REMOTE: ##SUBTASK, Starting parallel SingletonAnalysis [7]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8
+REMOTE: Starting parallel SingletonAnalysis [7]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Starting parallel UtilityAnalysis [6]: 1 for TestReadWriteLockPromotion
+REMOTE: Starting parallel UtilityAnalysis [6]: 1 for TestReadWriteLockPromotion
+REMOTE: ##SUBTASK, Starting parallel SingletonAnalysis [7]: 1 for TestReadWriteLockPromotion
+REMOTE: Starting parallel SingletonAnalysis [7]: 1 for TestReadWriteLockPromotion
+REMOTE: ##SUBTASK, Checking [ Utility class ] test.Test
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test.Test
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: Starting group: LockModelBuilder
+REMOTE: ##SUBTASK, Starting parallel LockModelBuilder [8]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8
+REMOTE: Starting parallel LockModelBuilder [8]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Starting parallel LockModelBuilder [8]: 1 for TestReadWriteLockPromotion
+REMOTE: Starting parallel LockModelBuilder [8]: 1 for TestReadWriteLockPromotion
+REMOTE: ##SUBTASK, Checking [ Lock Model Builder ] file:/Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid%20Regression/TestReadWriteLockPromotion/src/test/Test.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: Starting group: ThreadSafeAnalysis
+REMOTE: ##SUBTASK, Starting parallel ThreadSafeAnalysis [9]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8
+REMOTE: Starting parallel ThreadSafeAnalysis [9]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Starting parallel ThreadSafeAnalysis [9]: 1 for TestReadWriteLockPromotion
+REMOTE: Starting parallel ThreadSafeAnalysis [9]: 1 for TestReadWriteLockPromotion
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test.Test
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: Starting group: NewLockAnalysis
+REMOTE: ##SUBTASK, Starting parallel NewLockAnalysis [10]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8
+REMOTE: Starting parallel NewLockAnalysis [10]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Starting parallel NewLockAnalysis [10]: 1 for TestReadWriteLockPromotion
+REMOTE: Starting parallel NewLockAnalysis [10]: 1 for TestReadWriteLockPromotion
+REMOTE: ##SUBTASK, Checking [ New Lock policy ] file:/Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid%20Regression/TestReadWriteLockPromotion/src/test/Test.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: Starting group: EffectsAnalysis
+REMOTE: ##SUBTASK, Starting parallel EffectsAnalysis [11]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8
+REMOTE: Starting parallel EffectsAnalysis [11]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Starting parallel EffectsAnalysis [11]: 1 for TestReadWriteLockPromotion
+REMOTE: Starting parallel EffectsAnalysis [11]: 1 for TestReadWriteLockPromotion
+REMOTE: ##SUBTASK, Checking [ Region effects ] test.Test
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: Starting group: UniquenessAnalysisModule
+REMOTE: ##SUBTASK, Starting parallel UniquenessAnalysisModule [12]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8
+REMOTE: Starting parallel UniquenessAnalysisModule [12]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Starting parallel UniquenessAnalysisModule [12]: 0 for TestReadWriteLockPromotion
+REMOTE: Starting parallel UniquenessAnalysisModule [12]: 0 for TestReadWriteLockPromotion
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: Starting group: NullablePreprocessorModule
+REMOTE: ##SUBTASK, Starting parallel NullablePreprocessorModule [13]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8
+REMOTE: Starting parallel NullablePreprocessorModule [13]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Starting parallel NullablePreprocessorModule [13]: 1 for TestReadWriteLockPromotion
+REMOTE: Starting parallel NullablePreprocessorModule [13]: 1 for TestReadWriteLockPromotion
+REMOTE: ##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid%20Regression/TestReadWriteLockPromotion/src/test/Test.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: Starting group: NullableModule2
+REMOTE: ##SUBTASK, Starting parallel NullableModule2 [14]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8
+REMOTE: Starting parallel NullableModule2 [14]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Starting parallel NullableModule2 [14]: 4 for TestReadWriteLockPromotion
+REMOTE: Starting parallel NullableModule2 [14]: 4 for TestReadWriteLockPromotion
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.Test.Test()
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.Test.doStuff()
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.Test.doMoreStuff()
+REMOTE: ##SUBTASK, Checking [ Nullable ] test.Test.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Cleaning up after analysis
+REMOTE: Cleaning up after analysis
+REMOTE: [GC (System.gc())  147427K->73068K(195584K), 0.0135020 secs]
+REMOTE: [Full GC (System.gc())  73068K->47668K(195584K), 0.1694720 secs]
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: Updating consistency proof
+REMOTE: ##SUBTASK, Updating consistency proof
+REMOTE: Exporting results to TestReadWriteLockPro-2016.02.04-at-14.10.27.069
+REMOTE: ##SUBTASK, Exporting results to TestReadWriteLockPro-2016.02.04-at-14.10.27.069
+REMOTE: Creating snapshot: /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/TestReadWriteLockPro-2016.02.04-at-14.10.27.069/running_or_crashed_sea_snapshot.xml.gz
+REMOTE: Done in 5519 ms.
+REMOTE: ConcurrencyDetector	: 3 ms
+REMOTE: ThreadEffectsModule	: 1 ms
+REMOTE: StructureAnalysis	: 3 ms
+REMOTE: ParameterizedTypeAnalysis	: 2 ms
+REMOTE: EqualityAnalysis	: 6 ms
+REMOTE: LayersAnalysis	: 28 ms
+REMOTE: UtilityAnalysis	: 0 ms
+REMOTE: SingletonAnalysis	: 0 ms
+REMOTE: LockModelBuilder	: 19 ms
+REMOTE: ThreadSafeAnalysis	: 0 ms
+REMOTE: NewLockAnalysis	: 231 ms
+REMOTE: EffectsAnalysis	: 6 ms
+REMOTE: UniquenessAnalysisModule	: 2 ms
+REMOTE: NullablePreprocessorModule	: 1 ms
+REMOTE: NullableModule2	: 128 ms
+REMOTE: [2016-02-04 14:10:34    INFO] partial bindings = 9376 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+REMOTE: [2016-02-04 14:10:34    INFO] full bindings = 152 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+REMOTE: cached = 0
+REMOTE: totalT = 0
+REMOTE: #Performance data for TestReadWriteLockPromotion
+REMOTE: #Thu Feb 04 14:10:34 EST 2016
+REMOTE: jsure.Add.required=0
+REMOTE: jsure.All.analyses=562
+REMOTE: jsure.Binding.before.canon=94
+REMOTE: jsure.Binding.full.time=73
+REMOTE: jsure.Binding.partial.time=814
+REMOTE: jsure.Bindings.full=152
+REMOTE: jsure.Bindings.partial=9376
+REMOTE: jsure.Canonicalization=616
+REMOTE: jsure.Cleanup=161
+REMOTE: jsure.Destroy.time=10
+REMOTE: jsure.Drop.creation=24
+REMOTE: jsure.Find.canon.time=1
+REMOTE: jsure.Parsing=1119
+REMOTE: jsure.Promise.parsing=677
+REMOTE: jsure.Promise.scrubbing=1631
+REMOTE: jsure.Sea.export=639
+REMOTE: jsure.Sea.update=90
+REMOTE: jsure.Total.JSure.time=5519
+REMOTE: jsure.Total.blocks=9
+REMOTE: jsure.Total.canonical=159
+REMOTE: jsure.Total.decls=11
+REMOTE: jsure.Total.destroyed=0
+REMOTE: jsure.Total.gced=0
+REMOTE: jsure.Total.loc=64
+REMOTE: jsure.Total.nodes=117224
+REMOTE: jsure.Total.stmts=37
+REMOTE: jsure.Total.try.destroyed=77
+REMOTE: jsure.analysis.ConcurrencyDetector=3
+REMOTE: jsure.analysis.EffectsAnalysis=6
+REMOTE: jsure.analysis.EqualityAnalysis=6
+REMOTE: jsure.analysis.LayersAnalysis=28
+REMOTE: jsure.analysis.LockModelBuilder=19
+REMOTE: jsure.analysis.NewLockAnalysis=231
+REMOTE: jsure.analysis.NullableModule2=128
+REMOTE: jsure.analysis.NullablePreprocessorModule=1
+REMOTE: jsure.analysis.ParameterizedTypeAnalysis=2
+REMOTE: jsure.analysis.SingletonAnalysis=0
+REMOTE: jsure.analysis.StructureAnalysis=3
+REMOTE: jsure.analysis.ThreadEffectsModule=1
+REMOTE: jsure.analysis.ThreadSafeAnalysis=0
+REMOTE: jsure.analysis.UniquenessAnalysisModule=2
+REMOTE: jsure.analysis.UtilityAnalysis=0
+REMOTE: jsure.num.threads=8
+REMOTE: Javac making log: AnnotationRules
+REMOTE: ##DONE
+REMOTE: Renaming snapshot: /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/TestReadWriteLockPro-2016.02.04-at-14.10.27.069/sea_snapshot.xml.gz
+REMOTE: Done with JSure!
+REMOTE: Scanning complete in 7 seconds 95 ms (7,095 ms)
+REMOTE: No socket to close
+REMOTE: Closing std streams
+Process result after waiting = 0
