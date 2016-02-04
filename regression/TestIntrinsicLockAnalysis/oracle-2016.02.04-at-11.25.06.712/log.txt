@@ -1,0 +1,2259 @@
+LOCAL vm : 1.8.0_05
+Path: /Users/aarong/git/common/common/lib/runtime/guava-18.0.jar
+Path: /Users/aarong/git/jsure/jsure-analysis/bin
+Path: /Users/aarong/git/common/common/lib/runtime/ant-1.9.6.jar
+Path: /Users/aarong/git/jsure/jsure-common
+Path: /Users/aarong/git/common/common
+Path: /Users/aarong/git/common/common/lib/runtime/javax.servlet-api-3.1.0.jar
+Path: /Users/aarong/git/jsure/jsure-analysis
+Path: /Users/aarong/git/common/common/lib/runtime/antlr-3.5.2-runtime.jar
+Path: /Users/aarong/git/jsure/jsure-common/lib/runtime/diffutils-1.2.1.jar
+Path: /Users/aarong/git/common/common/bin
+Path: /Users/aarong/git/common/common/lib/runtime/asm-commons-5.0.4.jar
+Path: /Users/aarong/git/jsure/jsure-analysis/lib/runtime/renamedJavac.jar
+Path: /Users/aarong/git/common/common/lib/runtime/promises-5.6.0.jar
+Path: /Users/aarong/git/common/common/lib/runtime/derby-10.11.1.1.jar
+Path: /Users/aarong/git/jsure/jsure-common/bin
+Path: /Users/aarong/git/common/common/lib/runtime/asm-5.0.4.jar
+Path: /Users/aarong/git/common/common/lib/runtime/asm-tree-5.0.4.jar
+Path: /Users/aarong/git/common/common/lib/runtime/hppc-0.7.1.jar
+Path: /Users/aarong/git/common/common/lib/runtime/commons-lang3-3.4.jar
+Starting process:
+	/Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/jre/bin/java
+	-Dsl.running.in.remote.vm=true
+	-Dsurelogic.test.code=NONE
+	-XX:MaxPermSize=512m
+	-verbosegc
+	-DSureLogicX=true
+	-Dsl.run.dir=/Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/TestIntrinsicLockAna-2016.02.04-at-11.25.06.712
+	-Dfluid.ir.versioning=Versioning.Off
+	-Djsure.analysis.directory.url=file:/Eclipses/eclipse-standard-luna-SR2-macosx-cocoa-x86_64/../../Users/aarong/git/jsure/jsure-analysis/
+	-Xmx2048m
+	-classpath
+	/Users/aarong/git/common/common/lib/runtime/guava-18.0.jar:/Users/aarong/git/jsure/jsure-analysis/bin:/Users/aarong/git/common/common/lib/runtime/ant-1.9.6.jar:/Users/aarong/git/jsure/jsure-common:/Users/aarong/git/common/common:/Users/aarong/git/common/common/lib/runtime/javax.servlet-api-3.1.0.jar:/Users/aarong/git/jsure/jsure-analysis:/Users/aarong/git/common/common/lib/runtime/antlr-3.5.2-runtime.jar:/Users/aarong/git/jsure/jsure-common/lib/runtime/diffutils-1.2.1.jar:/Users/aarong/git/common/common/bin:/Users/aarong/git/common/common/lib/runtime/asm-commons-5.0.4.jar:/Users/aarong/git/jsure/jsure-analysis/lib/runtime/renamedJavac.jar:/Users/aarong/git/common/common/lib/runtime/promises-5.6.0.jar:/Users/aarong/git/common/common/lib/runtime/derby-10.11.1.1.jar:/Users/aarong/git/jsure/jsure-common/bin:/Users/aarong/git/common/common/lib/runtime/asm-5.0.4.jar:/Users/aarong/git/common/common/lib/runtime/asm-tree-5.0.4.jar:/Users/aarong/git/common/common/lib/runtime/hppc-0.7.1.jar:/Users/aarong/git/common/common/lib/runtime/commons-lang3-3.4.jar
+	com.surelogic.javac.jobs.RemoteJSureRun
+
+First line in REMOTE vm = Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=512m; support was removed in 8.0
+REMOTE: [GC (Allocation Failure)  512K->504K(327168K), 0.0014020 secs]
+REMOTE: [GC (Allocation Failure)  1002K->560K(327680K), 0.0009850 secs]
+REMOTE: [GC (Allocation Failure)  1584K->656K(327680K), 0.0012640 secs]
+REMOTE: [GC (Allocation Failure)  1680K->752K(328704K), 0.0012060 secs]
+REMOTE: [GC (Allocation Failure)  2800K->1003K(328704K), 0.0012320 secs]
+REMOTE: JVM started: 1.8.0_05
+REMOTE: Log level: INFO
+REMOTE: Created reader
+REMOTE: Created monitor
+REMOTE: Created log handler
+REMOTE: Running RemoteJSureRun
+REMOTE: [GC (Allocation Failure)  3051K->1283K(331264K), 0.0012200 secs]
+REMOTE: [GC (Allocation Failure)  5379K->1643K(331264K), 0.0016100 secs]
+REMOTE: [GC (Allocation Failure)  5739K->1771K(335360K), 0.0013400 secs]
+REMOTE: runPath = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/TestIntrinsicLockAna-2016.02.04-at-11.25.06.712
+REMOTE: Creating run: TestIntrinsicLockAna-2016.02.04-at-11.25.06.712
+REMOTE: Defaulting project org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7 to Java 0
+REMOTE: Created project org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7 from XML
+REMOTE: Setting project TestIntrinsicLockAnalysis to Java 7
+REMOTE: [GC (Allocation Failure)  9963K->2382K(335360K), 0.0021490 secs]
+REMOTE: Created project TestIntrinsicLockAnalysis from XML
+REMOTE: projects = TestIntrinsicLockAnalysis
+REMOTE: Loading edu.cmu.cs.fluid.make.nonabductive.proposals = false
+REMOTE: Loading edu.cmu.cs.fluid.load.all.classes = false
+REMOTE: Loading edu.cmu.cs.fluid.timeoutFlag = true
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BCA = false
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ConstantExpr = false
+REMOTE: Loading edu.cmu.cs.fluid.physMemoryInMB = 20480
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.EqualityAssurance = true
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ThreadSafe = true
+REMOTE: Loading edu.cmu.cs.fluid.xml.diff.directory = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/promises-xml
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.IRConcurrencyDetector = true
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Singleton = true
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.CALLS = false
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.BenchmarkingUniquenessSE = false
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ThreadEffectAssurance2 = true
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Binder = false
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.cliend.eclipse.TypeBasedAlias = false
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Nullable = true
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.TestIsFunctional = false
+REMOTE: Loading edu.cmu.cs.fluid.tool-memory-mb = 2048
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.DefinitelyAssigned = false
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.UniquenessAssuranceSE = true
+REMOTE: Loading edu.cmu.cs.fluid.analysis.thread.count = 8
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LockModelBuilder = true
+REMOTE: Loading edu.cmu.cs.fluid.timeoutSec = 11
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.NonNullRawTypes = false
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.EffectsAndLocks = false
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LayersAssurance = true
+REMOTE: Loading edu.cmu.cs.fluid.default.JRE = org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Loading edu.cmu.cs.fluid.timeoutWarningSec = 30
+REMOTE: Loading edu.cmu.cs.fluid.modeling.problem.filters = 00000012com\.apple.*00000013com\.oracle.*00000010com\.sun.*00000014.*\.internal.*00000023.*BakedArrayList\.class00000007apple.*00000008oracle.*00000011quicktime.*00000005sun.*
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Utility = true
+REMOTE: Loading edu.cmu.cs.fluid.scan.may.use.compression = true
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.ParameterizedType = true
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Final = false
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LockAssurance4 = true
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LockAssurance3 = false
+REMOTE: Loading edu.cmu.cs.fluid.data.directory = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.NullablePreprocessor = true
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.EffectAssurance2 = true
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.LV = false
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.StructureAssurance = true
+REMOTE: Loading com.surelogic.jsure.active.com.surelogic.jsure.client.eclipse.Types = false
+REMOTE: JSure data dir = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data
+REMOTE: XML diff dir   = /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/promises-xml
+REMOTE: Looking for JRE in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: default JRE = org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Initialized job
+REMOTE: Created com.surelogic.analysis.concurrency.detector.ConcurrencyDetector
+REMOTE: Starting a new group for ConcurrencyDetector
+REMOTE: Created com.surelogic.analysis.threads.ThreadEffectsModule
+REMOTE: Created com.surelogic.analysis.structure.StructureAnalysis
+REMOTE: Created com.surelogic.analysis.annotationbounds.ParameterizedTypeAnalysis
+REMOTE: Created com.surelogic.analysis.equality.EqualityAnalysis
+REMOTE: Created com.surelogic.analysis.layers.LayersAnalysis
+REMOTE: Created com.surelogic.analysis.utility.UtilityAnalysis
+REMOTE: Starting a new group for UtilityAnalysis
+REMOTE: Group: EXTERNALLY
+REMOTE: 	ConcurrencyDetector
+REMOTE: 	ThreadEffectsModule
+REMOTE: 	StructureAnalysis
+REMOTE: 	ParameterizedTypeAnalysis
+REMOTE: 	EqualityAnalysis
+REMOTE: 	LayersAnalysis
+REMOTE: Created com.surelogic.analysis.singleton.SingletonAnalysis
+REMOTE: Created com.surelogic.analysis.concurrency.driver.LockModelBuilder
+REMOTE: Starting a new group for LockModelBuilder
+REMOTE: Group: com.surelogic.analysis.visitors.TopLevelAnalysisVisitor$1@3d012ddd, EXTERNALLY
+REMOTE: 	UtilityAnalysis
+REMOTE: 	SingletonAnalysis
+REMOTE: Created com.surelogic.analysis.concurrency.driver.ThreadSafeAnalysis
+REMOTE: Starting a new group for ThreadSafeAnalysis
+REMOTE: Group: EXTERNALLY
+REMOTE: 	LockModelBuilder
+REMOTE: Created com.surelogic.analysis.concurrency.driver.NewLockAnalysis
+REMOTE: Starting a new group for NewLockAnalysis
+REMOTE: Group: com.surelogic.analysis.visitors.TopLevelAnalysisVisitor$1@3d012ddd, EXTERNALLY
+REMOTE: 	ThreadSafeAnalysis
+REMOTE: Created com.surelogic.analysis.effects.EffectsAnalysis
+REMOTE: Starting a new group for EffectsAnalysis
+REMOTE: Group: class com.surelogic.analysis.bca.BindingContextAnalysis, EXTERNALLY
+REMOTE: 	NewLockAnalysis
+REMOTE: Created com.surelogic.analysis.uniqueness.classic.sideeffecting.UniquenessAnalysisModule
+REMOTE: Starting a new group for UniquenessAnalysisModule
+REMOTE: Group: com.surelogic.analysis.visitors.TopLevelAnalysisVisitor$1@3d012ddd, class com.surelogic.analysis.bca.BindingContextAnalysis, EXTERNALLY
+REMOTE: 	EffectsAnalysis
+REMOTE: Created com.surelogic.analysis.nullable.NullablePreprocessorModule
+REMOTE: Starting a new group for NullablePreprocessorModule
+REMOTE: Group: com.surelogic.analysis.uniqueness.classic.sideeffecting.UniquenessAnalysisModule$1@6f2b958e, class com.surelogic.analysis.bca.BindingContextAnalysis, INTERNALLY
+REMOTE: 	UniquenessAnalysisModule
+REMOTE: Created com.surelogic.analysis.nullable.NullableModule2
+REMOTE: Starting a new group for NullableModule2
+REMOTE: Group: EXTERNALLY
+REMOTE: 	NullablePreprocessorModule
+REMOTE: Group: com.surelogic.analysis.granules.FlowUnitGranulator@1eb44e46, EXTERNALLY
+REMOTE: 	NullableModule2
+REMOTE: ##TASK, Scan, 460
+REMOTE: Initializing ...
+REMOTE: ##SUBTASK, Initializing ...
+REMOTE: monitor = com.surelogic.common.jobs.remote.AbstractRemoteSLJob$Monitor@6504e3b2
+REMOTE: process() using 8 threads
+REMOTE: [GC (Allocation Failure)  10574K->3161K(340992K), 0.0021380 secs]
+REMOTE: [GC (Allocation Failure)  16473K->3255K(340992K), 0.0018140 secs]
+REMOTE: [GC (Allocation Failure)  16563K->15998K(344576K), 0.0081380 secs]
+REMOTE: [GC (Allocation Failure)  32777K->32405K(349184K), 0.0108400 secs]
+REMOTE: Done initializing org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: 0
+REMOTE: org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/resources.jar : 2465399
+REMOTE: [GC (Allocation Failure)  49301K->45137K(354816K), 0.0093720 secs]
+REMOTE: [GC (Allocation Failure)  66641K->49265K(360448K), 0.0067720 secs]
+REMOTE: org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/rt.jar : 64311652
+REMOTE: org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jsse.jar : 582478
+REMOTE: org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jce.jar : 109504
+REMOTE: org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/charsets.jar : 3696271
+REMOTE: org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jfr.jar : 532548
+REMOTE: org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/dnsns.jar : 8923
+REMOTE: org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/localedata.jar : 550578
+REMOTE: org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunec.jar : 15941
+REMOTE: org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunjce_provider.jar : 198101
+REMOTE: org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunpkcs11.jar : 237244
+REMOTE: org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/zipfs.jar : 68751
+REMOTE: org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: Done initializing with /System/Library/Java/Extensions/MRJToolkit.jar : 12849
+REMOTE: Done initializing TestIntrinsicLockAnalysis: 25
+REMOTE: Trying to find /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/TestIntrinsicLockAna-2016.02.04-at-11.25.06.712/source/TestIntrinsicLockAnalysis.bin.zip
+REMOTE: TestIntrinsicLockAnalysis: TestIntrinsicLockAnalysis -> org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Done initializing org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: 0
+REMOTE: TestIntrinsicLockAnalysis: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/resources.jar : 2465399
+REMOTE: [GC (Allocation Failure)  70769K->53525K(371200K), 0.0073390 secs]
+REMOTE: TestIntrinsicLockAnalysis: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/rt.jar : 64311652
+REMOTE: TestIntrinsicLockAnalysis: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jsse.jar : 582478
+REMOTE: TestIntrinsicLockAnalysis: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jce.jar : 109504
+REMOTE: TestIntrinsicLockAnalysis: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/charsets.jar : 3696271
+REMOTE: TestIntrinsicLockAnalysis: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/jfr.jar : 532548
+REMOTE: TestIntrinsicLockAnalysis: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/dnsns.jar : 8923
+REMOTE: TestIntrinsicLockAnalysis: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/localedata.jar : 550578
+REMOTE: TestIntrinsicLockAnalysis: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunec.jar : 15941
+REMOTE: TestIntrinsicLockAnalysis: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunjce_provider.jar : 198101
+REMOTE: TestIntrinsicLockAnalysis: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/sunpkcs11.jar : 237244
+REMOTE: TestIntrinsicLockAnalysis: Done initializing with /jre1.7.0_55.jre/Contents/Home/lib/ext/zipfs.jar : 68751
+REMOTE: TestIntrinsicLockAnalysis: Done initializing with /System/Library/Java/Extensions/MRJToolkit.jar : 12849
+REMOTE: TestIntrinsicLockAnalysis: Done initializing with /Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/promises-5.6.0.jar : 133034
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: Assuming that the projects are run in dependency order
+REMOTE: Parsing ...
+REMOTE: ##SUBTASK, Parsing ...
+REMOTE: Done adapting 0 files for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: Parsing ...
+REMOTE: ##SUBTASK, Parsing ...
+REMOTE: [GC (Allocation Failure)  88341K->60262K(372224K), 0.0087340 secs]
+REMOTE: JCP: warning: [options] bootstrap class path not set in conjunction with -source 1.7
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: Adapting 25 CUTs
+REMOTE: Done adapting 25 files for TestIntrinsicLockAnalysis
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: Handling references for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##SUBTASK, Handling references for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Handling 21 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Setting project for Object from org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: [GC (Allocation Failure)  95078K->63528K(386048K), 0.0109760 secs]
+REMOTE: Handling 44 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Handling 55 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Handling 51 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Handling 32 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Handling 17 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Handling 8 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Handling 12 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Handling 15 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Handling 4 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Handling 2 dangling refs for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: Handling references for TestIntrinsicLockAnalysis
+REMOTE: ##SUBTASK, Handling references for TestIntrinsicLockAnalysis
+REMOTE: Handling 37 dangling refs for TestIntrinsicLockAnalysis
+REMOTE: [GC (Allocation Failure)  112680K->67650K(386560K), 0.0108220 secs]
+REMOTE: Handling 6 dangling refs for TestIntrinsicLockAnalysis
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: Parsing ASTs  = 420 ms
+REMOTE: Handling refs = 518 ms
+REMOTE: [2016-02-04 11:25:09    INFO] partial bindings = 0 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+REMOTE: [2016-02-04 11:25:09    INFO] full bindings = 0 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+REMOTE: Canonicalizing ASTs
+REMOTE: ##SUBTASK, Canonicalizing ASTs
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: [GC (Metadata GC Threshold)  75759K->68144K(407040K), 0.0098120 secs]
+REMOTE: [Full GC (Metadata GC Threshold)  68144K->66492K(158720K), 0.2632100 secs]
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: ##WORK, 1
+REMOTE: [2016-02-04 11:25:09    INFO] partial bindings = 769 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+REMOTE: [2016-02-04 11:25:09    INFO] full bindings = 632 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+REMOTE: Canonicalizing TestIntrinsicLockAnalysis/src/test_static_lock_semantics/parent_child/B.java
+REMOTE: ##WORK, 1
+REMOTE: Canonicalizing TestIntrinsicLockAnalysis/src/test_requiresLock_for_parameters/Test.java
+REMOTE: ##WORK, 1
+REMOTE: Canonicalizing TestIntrinsicLockAnalysis/src/test_empty_RequiresLock/C.java
+REMOTE: ##WORK, 1
+REMOTE: Canonicalizing TestIntrinsicLockAnalysis/src/test_singleThreaded_constructor/TestEffects.java
+REMOTE: ##WORK, 1
+REMOTE: Canonicalizing TestIntrinsicLockAnalysis/src/test_array_length/Test.java
+REMOTE: ##WORK, 1
+REMOTE: Canonicalizing TestIntrinsicLockAnalysis/src/test_static_lock_semantics/unrelated/C.java
+REMOTE: ##WORK, 1
+REMOTE: Canonicalizing TestIntrinsicLockAnalysis/src/test_selfProtected/Main.java
+REMOTE: ##WORK, 1
+REMOTE: Canonicalizing TestIntrinsicLockAnalysis/src/test_lockingPlusAggregationPlusEffects/siblingRegions/D2.java
+REMOTE: ##WORK, 1
+REMOTE: Canonicalizing TestIntrinsicLockAnalysis/src/test_static_lock_semantics/sibling/X.java
+REMOTE: ##WORK, 1
+REMOTE: Canonicalizing TestIntrinsicLockAnalysis/src/test_static_lock_semantics/unrelated/D.java
+REMOTE: ##WORK, 1
+REMOTE: Canonicalizing TestIntrinsicLockAnalysis/src/test_selfProtected/C.java
+REMOTE: ##WORK, 1
+REMOTE: Canonicalizing TestIntrinsicLockAnalysis/src/test_static_lock_semantics/sibling/Y.java
+REMOTE: ##WORK, 1
+REMOTE: Canonicalizing TestIntrinsicLockAnalysis/src/test_lockingPlusAggregationPlusEffects/nestedRegions/D.java
+REMOTE: ##WORK, 1
+REMOTE: Canonicalizing TestIntrinsicLockAnalysis/src/test_lockingPlusAggregationPlusEffects/siblingRegions/C2.java
+REMOTE: ##WORK, 1
+REMOTE: Canonicalizing TestIntrinsicLockAnalysis/src/test_aggregated_arrays/Test.java
+REMOTE: ##WORK, 1
+REMOTE: Canonicalizing TestIntrinsicLockAnalysis/src/test_selfProtected/I.java
+REMOTE: ##WORK, 1
+REMOTE: Canonicalizing TestIntrinsicLockAnalysis/src/test_static_lock_semantics/sibling/Z.java
+REMOTE: ##WORK, 1
+REMOTE: Canonicalizing TestIntrinsicLockAnalysis/src/test_synchronization_around_inner_classes/Outer.java
+REMOTE: ##WORK, 1
+REMOTE: Canonicalizing TestIntrinsicLockAnalysis/src/test_selfProtected/E.java
+REMOTE: ##WORK, 1
+REMOTE: Canonicalizing TestIntrinsicLockAnalysis/src/test_static_lock_semantics/parent_child/A.java
+REMOTE: ##WORK, 1
+REMOTE: Canonicalizing TestIntrinsicLockAnalysis/src/test_lockingPlusAggregationPlusEffects/nestedRegions/C.java
+REMOTE: ##WORK, 1
+REMOTE: Canonicalizing TestIntrinsicLockAnalysis/src/test_singleThreaded_constructor/TestBorrowed.java
+REMOTE: ##WORK, 1
+REMOTE: Canonicalizing TestIntrinsicLockAnalysis/src/test_requiresLock_for_parameters/C.java
+REMOTE: ##WORK, 1
+REMOTE: Canonicalizing TestIntrinsicLockAnalysis/src/test_policyLock_requiresLock/Test.java
+REMOTE: ##WORK, 1
+REMOTE: Canonicalizing TestIntrinsicLockAnalysis/src/test_selfProtected/D.java
+REMOTE: ##WORK, 1
+REMOTE: Binding = 407 ms
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: [GC (System.gc())  73962K->66916K(158720K), 0.0018810 secs]
+REMOTE: [Full GC (System.gc())  66916K->55292K(158720K), 0.0837790 secs]
+REMOTE: Creating drops
+REMOTE: ##SUBTASK, Creating drops
+REMOTE: Created source drop for file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_static_lock_semantics/parent_child/B.java
+REMOTE: Created binary drop for java.util.spi.LocaleServiceProvider
+REMOTE: Created binary drop for java.lang.ReflectiveOperationException
+REMOTE: Created source drop for file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_requiresLock_for_parameters/Test.java
+REMOTE: Created binary drop for java.nio.file.AccessMode
+REMOTE: Created binary drop for com.surelogic.Borrowed
+REMOTE: Created binary drop for java.nio.channels.InterruptibleChannel
+REMOTE: Created binary drop for java.util.Map
+REMOTE: Created binary drop for java.nio.MappedByteBuffer
+REMOTE: Created binary drop for java.lang.String
+REMOTE: Created binary drop for java.nio.file.spi.FileSystemProvider
+REMOTE: Created binary drop for java.lang.ref.WeakReference
+REMOTE: Created binary drop for java.nio.file.WatchKey
+REMOTE: Created binary drop for java.lang.InstantiationException
+REMOTE: Created binary drop for java.lang.ClassValue
+REMOTE: Created binary drop for java.lang.annotation.Retention
+REMOTE: Created binary drop for java.lang.Deprecated
+REMOTE: Created binary drop for java.security.cert.Certificate
+REMOTE: Created binary drop for java.lang.reflect.AnnotatedElement
+REMOTE: Created binary drop for java.lang.Void
+REMOTE: Created binary drop for java.nio.CharBuffer
+REMOTE: Created source drop for file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_empty_RequiresLock/C.java
+REMOTE: Created binary drop for java.net.URISyntaxException
+REMOTE: Created binary drop for java.util.concurrent.ConcurrentMap
+REMOTE: Created binary drop for java.security.GeneralSecurityException
+REMOTE: Created binary drop for java.lang.reflect.AccessibleObject
+REMOTE: Created binary drop for java.lang.IllegalArgumentException
+REMOTE: Created binary drop for com.surelogic.Part
+REMOTE: Created binary drop for java.nio.charset.CharacterCodingException
+REMOTE: Created binary drop for java.nio.file.attribute.GroupPrincipal
+REMOTE: Created binary drop for java.nio.channels.AsynchronousCloseException
+REMOTE: Created binary drop for sun.reflect.ConstructorAccessor
+REMOTE: Created binary drop for java.lang.Throwable
+REMOTE: Created binary drop for java.nio.channels.spi.AbstractInterruptibleChannel
+REMOTE: Created binary drop for java.security.Timestamp
+REMOTE: Created source drop for file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_singleThreaded_constructor/TestEffects.java
+REMOTE: Created binary drop for java.lang.Math
+REMOTE: Created binary drop for java.nio.file.WatchEvent
+REMOTE: Created binary drop for java.nio.channels.SeekableByteChannel
+REMOTE: Created binary drop for java.nio.FloatBuffer
+REMOTE: Created binary drop for java.util.jar.JarEntry
+REMOTE: Created binary drop for java.io.IOException
+REMOTE: Created binary drop for java.lang.ThreadLocal
+REMOTE: Created binary drop for java.lang.StackTraceElement
+REMOTE: Created binary drop for java.nio.file.FileStore
+REMOTE: Created binary drop for java.io.Flushable
+REMOTE: Created binary drop for java.nio.file.attribute.FileAttribute
+REMOTE: Created binary drop for sun.util.locale.ParseStatus
+REMOTE: Created binary drop for java.lang.Short
+REMOTE: Created source drop for file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_array_length/Test.java
+REMOTE: Created binary drop for java.io.InputStream
+REMOTE: Created binary drop for java.nio.file.DirectoryStream
+REMOTE: Created binary drop for sun.util.LocaleServiceProviderPool
+REMOTE: Created binary drop for java.lang.InterruptedException
+REMOTE: Created binary drop for sun.reflect.ConstantPool
+REMOTE: Created binary drop for java.io.Serializable
+REMOTE: Created binary drop for java.net.Proxy
+REMOTE: Created binary drop for java.nio.file.attribute.BasicFileAttributes
+REMOTE: Created binary drop for java.net.URL
+REMOTE: Created binary drop for java.lang.IllegalAccessException
+REMOTE: Created binary drop for java.util.Stack
+REMOTE: Created binary drop for sun.reflect.MethodAccessor
+REMOTE: Created binary drop for java.lang.Byte
+REMOTE: Created binary drop for java.net.ContentHandlerFactory
+REMOTE: Created binary drop for sun.misc.MetaIndex
+REMOTE: Created binary drop for java.util.concurrent.Future
+REMOTE: Created binary drop for java.security.DomainCombiner
+REMOTE: Created binary drop for java.lang.Appendable
+REMOTE: Created source drop for file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_static_lock_semantics/unrelated/C.java
+REMOTE: Created binary drop for java.lang.Exception
+REMOTE: Created binary drop for java.lang.reflect.Member
+REMOTE: Created binary drop for java.nio.file.Path
+REMOTE: Created binary drop for java.lang.Long
+REMOTE: Created binary drop for java.nio.charset.Charset
+REMOTE: Created binary drop for java.io.FilterOutputStream
+REMOTE: Created source drop for file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_selfProtected/Main.java
+REMOTE: Created source drop for file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_lockingPlusAggregationPlusEffects/siblingRegions/D2.java
+REMOTE: Created binary drop for java.nio.channels.ByteChannel
+REMOTE: Created binary drop for java.io.DataOutput
+REMOTE: Created binary drop for java.util.Set
+REMOTE: Created binary drop for java.io.FilterInputStream
+REMOTE: Created binary drop for sun.reflect.FieldAccessor
+REMOTE: Created binary drop for java.security.cert.CertificateEncodingException
+REMOTE: Created binary drop for java.util.ListIterator
+REMOTE: Created binary drop for java.security.NoSuchAlgorithmException
+REMOTE: Created binary drop for java.nio.file.WatchService
+REMOTE: Created binary drop for java.nio.file.CopyOption
+REMOTE: Created binary drop for java.net.SocketException
+REMOTE: Created binary drop for sun.reflect.LangReflectAccess
+REMOTE: Created binary drop for java.lang.Comparable
+REMOTE: Created binary drop for java.util.Locale
+REMOTE: Created binary drop for java.nio.channels.FileLock
+REMOTE: Created binary drop for com.surelogic.RegionLocks
+REMOTE: Created binary drop for sun.util.resources.OpenListResourceBundle
+REMOTE: Created binary drop for java.security.CodeSource
+REMOTE: Created binary drop for java.nio.file.OpenOption
+REMOTE: Created binary drop for com.surelogic.Region
+REMOTE: Created source drop for file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_static_lock_semantics/sibling/X.java
+REMOTE: Created binary drop for java.net.URLConnection
+REMOTE: Created binary drop for java.util.concurrent.TimeUnit
+REMOTE: Created binary drop for java.security.AccessControlException
+REMOTE: Created binary drop for java.security.cert.CertPath
+REMOTE: Created binary drop for java.util.jar.Manifest
+REMOTE: Created binary drop for java.io.UnsupportedEncodingException
+REMOTE: Created binary drop for com.surelogic.ReturnsLock
+REMOTE: Created binary drop for sun.reflect.annotation.AnnotationType
+REMOTE: Created binary drop for java.lang.RuntimeException
+REMOTE: Created binary drop for java.security.Key
+REMOTE: Created binary drop for java.net.SocketAddress
+REMOTE: Created binary drop for java.util.spi.LocaleNameProvider
+REMOTE: Created binary drop for java.nio.IntBuffer
+REMOTE: Created binary drop for java.lang.annotation.Annotation
+REMOTE: Created binary drop for java.io.File
+REMOTE: Created binary drop for java.lang.NoSuchFieldException
+REMOTE: Created source drop for file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_static_lock_semantics/unrelated/D.java
+REMOTE: Created binary drop for java.util.WeakHashMap
+REMOTE: Created binary drop for java.io.PrintStream
+REMOTE: Created binary drop for java.nio.ByteOrder
+REMOTE: Created binary drop for java.util.concurrent.locks.ReadWriteLock
+REMOTE: Created binary drop for java.util.Deque
+REMOTE: Created binary drop for java.nio.DoubleBuffer
+REMOTE: Created binary drop for java.nio.charset.CoderResult
+REMOTE: Created binary drop for java.lang.Cloneable
+REMOTE: Created source drop for file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_selfProtected/C.java
+REMOTE: Created binary drop for java.util.concurrent.Executor
+REMOTE: Created binary drop for java.util.zip.ZipEntry
+REMOTE: Created binary drop for com.surelogic.RegionLock
+REMOTE: Created binary drop for java.util.Comparator
+REMOTE: Created binary drop for java.util.jar.JarFile
+REMOTE: Created binary drop for java.util.zip.Inflater
+REMOTE: Created binary drop for java.security.cert.CertificateException
+REMOTE: Created binary drop for sun.reflect.CallerSensitive
+REMOTE: Created binary drop for java.lang.Integer
+REMOTE: Created binary drop for java.nio.file.PathMatcher
+REMOTE: Created binary drop for java.lang.CloneNotSupportedException
+REMOTE: Created binary drop for java.util.SortedMap
+REMOTE: Created binary drop for sun.misc.JarIndex
+REMOTE: Created binary drop for java.lang.Boolean
+REMOTE: Created binary drop for java.lang.Runnable
+REMOTE: Created binary drop for java.net.ContentHandler
+REMOTE: Created binary drop for java.nio.channels.AsynchronousChannel
+REMOTE: Created binary drop for sun.util.locale.LanguageTag
+REMOTE: Created binary drop for java.util.List
+REMOTE: Created binary drop for com.surelogic.Starts
+REMOTE: Created binary drop for java.net.UnknownHostException
+REMOTE: Created source drop for file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_static_lock_semantics/sibling/Y.java
+REMOTE: Created binary drop for java.util.concurrent.locks.Condition
+REMOTE: Created binary drop for sun.util.locale.BaseLocale
+REMOTE: Created binary drop for java.lang.reflect.Field
+REMOTE: Created source drop for file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_lockingPlusAggregationPlusEffects/nestedRegions/D.java
+REMOTE: Created binary drop for java.io.Writer
+REMOTE: Created binary drop for com.surelogic.ThreadSafe
+REMOTE: Created binary drop for java.lang.ThreadGroup
+REMOTE: Created binary drop for java.lang.Character
+REMOTE: Created binary drop for java.net.URI
+REMOTE: Created binary drop for java.nio.file.attribute.FileTime
+REMOTE: Created binary drop for java.io.PrintWriter
+REMOTE: Created binary drop for sun.util.locale.InternalLocaleBuilder
+REMOTE: Created binary drop for java.io.Closeable
+REMOTE: Created binary drop for java.net.MalformedURLException
+REMOTE: Created binary drop for sun.reflect.ReflectionFactory
+REMOTE: Created source drop for file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_lockingPlusAggregationPlusEffects/siblingRegions/C2.java
+REMOTE: Created binary drop for java.util.ArrayList
+REMOTE: Created binary drop for java.util.AbstractMap
+REMOTE: Created binary drop for java.security.ProtectionDomain
+REMOTE: Created binary drop for java.lang.annotation.ElementType
+REMOTE: Created binary drop for java.lang.Float
+REMOTE: Created binary drop for com.surelogic.Unique
+REMOTE: Created binary drop for java.util.AbstractSequentialList
+REMOTE: Created binary drop for java.lang.ref.Reference
+REMOTE: Created binary drop for java.util.zip.DataFormatException
+REMOTE: Created source drop for file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_aggregated_arrays/Test.java
+REMOTE: Created binary drop for java.util.jar.Attributes
+REMOTE: Created binary drop for java.net.URLStreamHandlerFactory
+REMOTE: Created binary drop for java.lang.Package
+REMOTE: Created binary drop for java.security.NoSuchProviderException
+REMOTE: Created binary drop for java.util.AbstractList
+REMOTE: Created binary drop for java.lang.Number
+REMOTE: Created binary drop for java.lang.Thread
+REMOTE: Created binary drop for java.security.Guard
+REMOTE: Created binary drop for java.nio.channels.FileChannel
+REMOTE: Created binary drop for java.lang.StringBuffer
+REMOTE: Created binary drop for java.io.DataOutputStream
+REMOTE: Created binary drop for java.lang.AutoCloseable
+REMOTE: Created binary drop for java.nio.channels.WritableByteChannel
+REMOTE: Created binary drop for java.nio.channels.AsynchronousFileChannel
+REMOTE: Created binary drop for java.lang.AbstractStringBuilder
+REMOTE: Created binary drop for java.util.concurrent.locks.Lock
+REMOTE: Created binary drop for java.nio.file.attribute.FileStoreAttributeView
+REMOTE: Created binary drop for java.lang.annotation.Documented
+REMOTE: Created binary drop for java.nio.ByteBuffer
+REMOTE: Created binary drop for java.lang.reflect.GenericDeclaration
+REMOTE: Created binary drop for java.lang.reflect.Method
+REMOTE: Created binary drop for java.util.Iterator
+REMOTE: Created binary drop for java.nio.channels.GatheringByteChannel
+REMOTE: Created binary drop for java.lang.Class
+REMOTE: Created binary drop for java.nio.file.FileSystem
+REMOTE: Created binary drop for java.io.FilenameFilter
+REMOTE: Created binary drop for java.util.RandomAccess
+REMOTE: Created binary drop for java.util.zip.ZipException
+REMOTE: Created binary drop for java.nio.ShortBuffer
+REMOTE: Created binary drop for java.lang.SecurityException
+REMOTE: Created binary drop for java.lang.Iterable
+REMOTE: Created binary drop for java.util.zip.ZipConstants
+REMOTE: Created binary drop for com.surelogic.RegionEffects
+REMOTE: Created binary drop for java.util.AbstractCollection
+REMOTE: Created binary drop for java.lang.NumberFormatException
+REMOTE: Created binary drop for java.util.Collection
+REMOTE: Created binary drop for java.security.CodeSigner
+REMOTE: Created binary drop for java.security.SignatureException
+REMOTE: Created binary drop for java.nio.file.attribute.FileAttributeView
+REMOTE: Created binary drop for java.io.OutputStream
+REMOTE: Created source drop for file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_selfProtected/I.java
+REMOTE: Created binary drop for java.util.zip.ZipFile
+REMOTE: Created binary drop for sun.misc.URLClassPath
+REMOTE: Created binary drop for java.net.InterfaceAddress
+REMOTE: Created binary drop for com.surelogic.InRegion
+REMOTE: Created binary drop for java.lang.reflect.TypeVariable
+REMOTE: Created binary drop for com.surelogic.PolicyLock
+REMOTE: Created binary drop for java.util.Dictionary
+REMOTE: Created source drop for file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_static_lock_semantics/sibling/Z.java
+REMOTE: Created binary drop for java.util.Queue
+REMOTE: Created binary drop for java.lang.Readable
+REMOTE: Created binary drop for java.nio.file.attribute.UserPrincipalLookupService
+REMOTE: Created binary drop for java.util.ResourceBundle
+REMOTE: Created binary drop for java.net.InetAddress
+REMOTE: Created binary drop for java.nio.channels.ReadableByteChannel
+REMOTE: Created binary drop for com.surelogic.UniqueInRegion
+REMOTE: Created binary drop for java.util.MissingResourceException
+REMOTE: Created binary drop for sun.util.locale.LocaleObjectCache
+REMOTE: Created binary drop for java.lang.reflect.Constructor
+REMOTE: Created binary drop for java.net.FileNameMap
+REMOTE: Created binary drop for java.nio.charset.CharsetEncoder
+REMOTE: Created binary drop for java.util.HashMap
+REMOTE: Created binary drop for java.lang.ref.ReferenceQueue
+REMOTE: Created binary drop for java.lang.StringBuilder
+REMOTE: Created binary drop for java.security.PrivilegedAction
+REMOTE: Created source drop for file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_synchronization_around_inner_classes/Outer.java
+REMOTE: Created binary drop for java.net.NetworkInterface
+REMOTE: Created binary drop for java.nio.file.Watchable
+REMOTE: Created binary drop for java.io.FileFilter
+REMOTE: Created binary drop for java.nio.channels.Channel
+REMOTE: Created binary drop for sun.util.locale.LocaleSyntaxException
+REMOTE: Created binary drop for com.surelogic.Regions
+REMOTE: Created binary drop for sun.nio.ch.Interruptible
+REMOTE: Created binary drop for java.util.Date
+REMOTE: Created binary drop for java.net.InetAddressImpl
+REMOTE: Created binary drop for java.util.concurrent.Callable
+REMOTE: Created binary drop for sun.security.util.Debug
+REMOTE: Created source drop for file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_selfProtected/E.java
+REMOTE: Created binary drop for java.util.Random
+REMOTE: Created binary drop for java.lang.Enum
+REMOTE: Created binary drop for java.net.URLStreamHandler
+REMOTE: Created binary drop for java.lang.ref.SoftReference
+REMOTE: Created binary drop for java.io.FileDescriptor
+REMOTE: Created binary drop for sun.util.locale.Extension
+REMOTE: Created binary drop for java.nio.channels.ScatteringByteChannel
+REMOTE: Created binary drop for java.security.InvalidKeyException
+REMOTE: Created binary drop for java.security.Permission
+REMOTE: Created binary drop for java.lang.annotation.Target
+REMOTE: Created binary drop for java.lang.reflect.Type
+REMOTE: Created binary drop for java.security.AccessControlContext
+REMOTE: Created binary drop for java.util.Hashtable
+REMOTE: Created binary drop for sun.misc.Resource
+REMOTE: Created binary drop for java.security.PermissionCollection
+REMOTE: Created binary drop for com.surelogic.RequiresLock
+REMOTE: Created binary drop for java.net.UnknownServiceException
+REMOTE: Created binary drop for java.nio.channels.CompletionHandler
+REMOTE: Created binary drop for java.lang.CharSequence
+REMOTE: Created binary drop for java.lang.reflect.InvocationTargetException
+REMOTE: Created binary drop for java.util.LinkedList
+REMOTE: Created binary drop for java.security.KeyException
+REMOTE: Created binary drop for java.security.Principal
+REMOTE: Created source drop for file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_static_lock_semantics/parent_child/A.java
+REMOTE: Created binary drop for java.nio.charset.CharsetDecoder
+REMOTE: Created binary drop for java.nio.Buffer
+REMOTE: Created source drop for file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_singleThreaded_constructor/TestBorrowed.java
+REMOTE: Created binary drop for java.lang.Double
+REMOTE: Created binary drop for java.lang.Object
+REMOTE: Created binary drop for java.nio.charset.CodingErrorAction
+REMOTE: Created source drop for file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_lockingPlusAggregationPlusEffects/nestedRegions/C.java
+REMOTE: Created binary drop for java.nio.file.attribute.UserPrincipal
+REMOTE: Created binary drop for java.security.PublicKey
+REMOTE: Created binary drop for java.nio.LongBuffer
+REMOTE: Created binary drop for java.nio.file.attribute.AttributeView
+REMOTE: Created binary drop for java.util.Vector
+REMOTE: Created binary drop for java.util.Enumeration
+REMOTE: Created binary drop for java.math.BigInteger
+REMOTE: Created source drop for file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_requiresLock_for_parameters/C.java
+REMOTE: Created binary drop for java.util.concurrent.ExecutorService
+REMOTE: Created binary drop for java.lang.annotation.RetentionPolicy
+REMOTE: Created binary drop for sun.util.locale.LocaleExtensions
+REMOTE: Created binary drop for java.nio.channels.ClosedChannelException
+REMOTE: Created binary drop for java.io.SyncFailedException
+REMOTE: Created source drop for file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_policyLock_requiresLock/Test.java
+REMOTE: Created binary drop for java.nio.file.LinkOption
+REMOTE: Created binary drop for java.io.FileNotFoundException
+REMOTE: Created binary drop for java.io.ObjectStreamException
+REMOTE: Created binary drop for java.util.zip.InflaterInputStream
+REMOTE: Created binary drop for java.util.AbstractSet
+REMOTE: Created source drop for file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_selfProtected/D.java
+REMOTE: Created binary drop for java.lang.ClassLoader
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: Parsing promises
+REMOTE: ##SUBTASK, Parsing promises
+REMOTE: Added 3 promises for java.lang.[] in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7e32c033
+REMOTE: Added 3 promises for java.lang.[] in TestIntrinsicLockAnalysis: com.surelogic.tree.SyntaxTreeNode@603400c5
+REMOTE: Added 3 promises for test_static_lock_semantics.parent_child.B in TestIntrinsicLockAnalysis: com.surelogic.tree.SyntaxTreeNode@fe4d5e3
+REMOTE: Added 6 promises for java.lang.InstantiationException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@5b99c786
+REMOTE: Javac making log: AnnotationRules
+REMOTE: Added 3 promises for test_requiresLock_for_parameters.Test in TestIntrinsicLockAnalysis: com.surelogic.tree.SyntaxTreeNode@187ec95c
+REMOTE: Added 7 promises for test_empty_RequiresLock.C in TestIntrinsicLockAnalysis: com.surelogic.tree.SyntaxTreeNode@11a255ff
+REMOTE: Added 18 promises for java.net.URISyntaxException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6deb06d6
+REMOTE: Added 12 promises for java.lang.IllegalArgumentException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@55e4b096
+REMOTE: Added 64 promises for java.util.Map in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6fe50933
+REMOTE: Added 18 promises for java.nio.CharBuffer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@727d0afb
+REMOTE: Added 17 promises for java.util.concurrent.ConcurrentMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@708b6394
+REMOTE: Added 47 promises for java.lang.Throwable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7a10b6f8
+REMOTE: Added 61 promises for java.lang.Short in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@74d32477
+REMOTE: Added 11 promises for test_singleThreaded_constructor.TestEffects in TestIntrinsicLockAnalysis: com.surelogic.tree.SyntaxTreeNode@64992268
+REMOTE: Added 1 promises for java.lang.ThreadLocal in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@697bfce0
+REMOTE: Added 6 promises for java.lang.InterruptedException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@103686f8
+REMOTE: Added 2 promises for test_array_length.Test in TestIntrinsicLockAnalysis: com.surelogic.tree.SyntaxTreeNode@befd24f
+REMOTE: Added 3 promises for java.nio.file.DirectoryStream in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@23625c00
+REMOTE: Added 6 promises for java.lang.IllegalAccessException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@1754d2bb
+REMOTE: Added 59 promises for java.lang.Byte in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@16e4e89b
+REMOTE: Added 109 promises for java.lang.Math in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@252734b4
+REMOTE: Added 6 promises for java.lang.Appendable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7001bb8c
+REMOTE: Added 21 promises for java.util.Stack in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2b8f6d7a
+REMOTE: Added 3 promises for java.nio.file.Path in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4b7a4c5d
+REMOTE: Added 301 promises for java.lang.String in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4203874a
+REMOTE: Added 1 promises for test_static_lock_semantics.unrelated.C in TestIntrinsicLockAnalysis: com.surelogic.tree.SyntaxTreeNode@47eafc5
+REMOTE: Added 10 promises for test_lockingPlusAggregationPlusEffects.siblingRegions.D2 in TestIntrinsicLockAnalysis: com.surelogic.tree.SyntaxTreeNode@4445afa4
+REMOTE: Added 2 promises for test_selfProtected.Main in TestIntrinsicLockAnalysis: com.surelogic.tree.SyntaxTreeNode@3dc911a6
+REMOTE: Added 12 promises for java.lang.Exception in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@5e687f1f
+REMOTE: Added 18 promises for java.util.ListIterator in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@34438d23
+REMOTE: Added 3 promises for java.util.Locale in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@53c32482
+REMOTE: Added 3 promises for test_static_lock_semantics.sibling.X in TestIntrinsicLockAnalysis: com.surelogic.tree.SyntaxTreeNode@1e7aae11
+REMOTE: Added 54 promises for java.util.Set in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3ecfca22
+REMOTE: Added 3 promises for java.util.jar.Manifest in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4bfd5d95
+REMOTE: Added 6 promises for java.lang.NoSuchFieldException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2357d0ac
+REMOTE: Added 96 promises for java.lang.Long in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@18afef40
+REMOTE: Added 12 promises for java.lang.RuntimeException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@5199e67
+REMOTE: Added 29 promises for java.util.concurrent.TimeUnit in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@5959e097
+REMOTE: Added 3 promises for test_static_lock_semantics.unrelated.D in TestIntrinsicLockAnalysis: com.surelogic.tree.SyntaxTreeNode@4d738090
+REMOTE: Added 6 promises for java.io.PrintStream in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@50f1964d
+REMOTE: Added 7 promises for java.util.concurrent.locks.ReadWriteLock in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@59a21ca5
+REMOTE: Added 3 promises for java.util.zip.ZipEntry in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3e279dce
+REMOTE: Added 6 promises for java.lang.CloneNotSupportedException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2ce0521a
+REMOTE: Added 1 promises for test_static_lock_semantics.sibling.Y in TestIntrinsicLockAnalysis: com.surelogic.tree.SyntaxTreeNode@4e8fbcef
+REMOTE: Added 87 promises for java.util.Deque in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@32bd40cb
+REMOTE: Added 96 promises for java.lang.Integer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@44f27f45
+REMOTE: Added 56 promises for java.util.WeakHashMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@178264e7
+REMOTE: Added 37 promises for java.lang.Boolean in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@62aabb28
+REMOTE: Added 22 promises for java.util.concurrent.locks.Condition in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@372f24c8
+REMOTE: Added 31 promises for java.util.SortedMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@683f2c85
+REMOTE: Added 10 promises for test_lockingPlusAggregationPlusEffects.nestedRegions.D in TestIntrinsicLockAnalysis: com.surelogic.tree.SyntaxTreeNode@10327a28
+REMOTE: Added 6 promises for java.io.Writer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@5411663f
+REMOTE: Added 89 promises for java.util.List in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@56020eac
+REMOTE: Added 29 promises for java.util.AbstractSequentialList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3a1e9e71
+REMOTE: Added 4 promises for test_lockingPlusAggregationPlusEffects.siblingRegions.C2 in TestIntrinsicLockAnalysis: com.surelogic.tree.SyntaxTreeNode@2ae82283
+REMOTE: Added 6 promises for java.io.PrintWriter in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6de0d7e8
+REMOTE: Added 73 promises for java.lang.Float in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@357b2284
+REMOTE: Added 2 promises for test_aggregated_arrays.Test in TestIntrinsicLockAnalysis: com.surelogic.tree.SyntaxTreeNode@5b8b976a
+REMOTE: Added 22 promises for java.lang.Number in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@7e56d9d4
+REMOTE: WARNING: TreeAccessor couldn't find equals(java.lang.Object) in java.util.ArrayList
+REMOTE: WARNING: TreeAccessor couldn't find hashCode() in java.util.ArrayList
+REMOTE: [GC (Allocation Failure)  124412K->59364K(164864K), 0.0066330 secs]
+REMOTE: Added 20 promises for java.util.concurrent.locks.Lock in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@61ea75f5
+REMOTE: Added 104 promises for java.util.ArrayList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@1c9581ff
+REMOTE: Added 6 promises for java.util.Iterator in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@68249a80
+REMOTE: Added 141 promises for java.lang.Thread in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2ebac3fd
+REMOTE: Added 12 promises for java.lang.Class in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3dfff8fa
+REMOTE: Added 108 promises for java.util.AbstractMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@43320828
+REMOTE: Added 3 promises for java.lang.Iterable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@385dfd6b
+REMOTE: Added 6 promises for java.lang.NumberFormatException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2fff9a18
+REMOTE: Added 12 promises for java.lang.SecurityException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@503ca621
+REMOTE: Added 1 promises for test_selfProtected.I in TestIntrinsicLockAnalysis: com.surelogic.tree.SyntaxTreeNode@7459c320
+REMOTE: Added 55 promises for java.util.AbstractCollection in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@53e048e5
+REMOTE: Added 54 promises for java.util.Collection in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@566298e1
+REMOTE: Added 29 promises for java.util.Dictionary in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6e947e23
+REMOTE: Added 60 promises for java.util.AbstractList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6057caec
+REMOTE: Added 18 promises for java.util.Queue in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@52a331b4
+REMOTE: Added 1 promises for test_static_lock_semantics.sibling.Z in TestIntrinsicLockAnalysis: com.surelogic.tree.SyntaxTreeNode@7d655d32
+REMOTE: Added 88 promises for java.util.jar.Attributes in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@20686369
+REMOTE: Added 1 promises for java.lang.ref.ReferenceQueue in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@653bbc72
+REMOTE: Added 6 promises for test_synchronization_around_inner_classes.Outer in TestIntrinsicLockAnalysis: com.surelogic.tree.SyntaxTreeNode@3116e251
+REMOTE: Added 1 promises for test_selfProtected.E in TestIntrinsicLockAnalysis: com.surelogic.tree.SyntaxTreeNode@33271a4d
+REMOTE: Added 45 promises for java.util.ResourceBundle in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@199a45a
+REMOTE: Added 3 promises for java.util.Date in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6fcf6bc7
+REMOTE: Added 2 promises for java.lang.ref.SoftReference in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3e985b54
+REMOTE: Added 12 promises for java.lang.reflect.InvocationTargetException in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@405d7cd1
+REMOTE: Added 13 promises for java.lang.Enum in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@3577cf16
+REMOTE: Added 144 promises for java.lang.AbstractStringBuilder in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4de40cdb
+REMOTE: Added 12 promises for java.lang.CharSequence in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4bb8505a
+REMOTE: Added 158 promises for java.lang.StringBuffer in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@57ecebd4
+REMOTE: Added 4 promises for test_lockingPlusAggregationPlusEffects.nestedRegions.C in TestIntrinsicLockAnalysis: com.surelogic.tree.SyntaxTreeNode@7a93bc7
+REMOTE: Added 3 promises for test_singleThreaded_constructor.TestBorrowed in TestIntrinsicLockAnalysis: com.surelogic.tree.SyntaxTreeNode@6b8fb41d
+REMOTE: Added 4 promises for java.util.Enumeration in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2dce0109
+REMOTE: Added 31 promises for java.lang.Object in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2ae93d7b
+REMOTE: Added 5 promises for test_requiresLock_for_parameters.C in TestIntrinsicLockAnalysis: com.surelogic.tree.SyntaxTreeNode@6c18fd54
+REMOTE: Added 3 promises for test_policyLock_requiresLock.Test in TestIntrinsicLockAnalysis: com.surelogic.tree.SyntaxTreeNode@3be9b728
+REMOTE: Added 83 promises for java.util.Hashtable in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6d14b884
+REMOTE: Added 70 promises for java.lang.Double in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@2ee91fb6
+REMOTE: Added 61 promises for java.util.HashMap in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@26d33089
+REMOTE: Added 1 promises for test_selfProtected.D in TestIntrinsicLockAnalysis: com.surelogic.tree.SyntaxTreeNode@29a95826
+REMOTE: Added 16 promises for java.util.AbstractSet in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@613614a8
+REMOTE: Added 109 promises for java.lang.StringBuilder in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@4fc28c0f
+REMOTE: Added 138 promises for java.math.BigInteger in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@526d512c
+REMOTE: Added 34 promises for java.util.concurrent.ExecutorService in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@465985de
+REMOTE: Added 139 promises for java.util.LinkedList in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@659a8bb7
+REMOTE: Added 170 promises for java.util.Vector in org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7: com.surelogic.tree.SyntaxTreeNode@6b82a627
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: Scrubbing promises
+REMOTE: ##SUBTASK, Scrubbing promises
+REMOTE: [GC (Allocation Failure)  138212K->61564K(167424K), 0.0083850 secs]
+REMOTE: Creating RegionModel java.lang.Object.Instance for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: Starting analyses
+REMOTE: Using new analysis framework -- groups
+REMOTE: Starting group: ConcurrencyDetector, ThreadEffectsModule, StructureAnalysis, ParameterizedTypeAnalysis, EqualityAnalysis, LayersAnalysis
+REMOTE: ##SUBTASK, Starting parallel ConcurrencyDetector [0]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Starting parallel ConcurrencyDetector [0]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##SUBTASK, Starting parallel ThreadEffectsModule [1]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Starting parallel ThreadEffectsModule [1]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##SUBTASK, Starting parallel StructureAnalysis [2]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Starting parallel StructureAnalysis [2]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##SUBTASK, Starting parallel ParameterizedTypeAnalysis [3]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Starting parallel ParameterizedTypeAnalysis [3]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##SUBTASK, Starting parallel EqualityAnalysis [4]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Starting parallel EqualityAnalysis [4]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##SUBTASK, Starting parallel LayersAnalysis [5]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Starting parallel LayersAnalysis [5]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Starting parallel ConcurrencyDetector [0]: 25 for TestIntrinsicLockAnalysis
+REMOTE: Starting parallel ConcurrencyDetector [0]: 25 for TestIntrinsicLockAnalysis
+REMOTE: ##SUBTASK, Starting parallel ThreadEffectsModule [1]: 25 for TestIntrinsicLockAnalysis
+REMOTE: Starting parallel ThreadEffectsModule [1]: 25 for TestIntrinsicLockAnalysis
+REMOTE: ##SUBTASK, Starting parallel StructureAnalysis [2]: 25 for TestIntrinsicLockAnalysis
+REMOTE: Starting parallel StructureAnalysis [2]: 25 for TestIntrinsicLockAnalysis
+REMOTE: ##SUBTASK, Starting parallel ParameterizedTypeAnalysis [3]: 25 for TestIntrinsicLockAnalysis
+REMOTE: Starting parallel ParameterizedTypeAnalysis [3]: 25 for TestIntrinsicLockAnalysis
+REMOTE: ##SUBTASK, Starting parallel EqualityAnalysis [4]: 25 for TestIntrinsicLockAnalysis
+REMOTE: Starting parallel EqualityAnalysis [4]: 25 for TestIntrinsicLockAnalysis
+REMOTE: ##SUBTASK, Starting parallel LayersAnalysis [5]: 25 for TestIntrinsicLockAnalysis
+REMOTE: Starting parallel LayersAnalysis [5]: 25 for TestIntrinsicLockAnalysis
+REMOTE: ##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_selfProtected/Main.java
+REMOTE: ##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_array_length/Test.java
+REMOTE: ##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_lockingPlusAggregationPlusEffects/siblingRegions/D2.java
+REMOTE: ##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_singleThreaded_constructor/TestEffects.java
+REMOTE: ##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_requiresLock_for_parameters/Test.java
+REMOTE: ##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_static_lock_semantics/unrelated/C.java
+REMOTE: ##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_static_lock_semantics/parent_child/B.java
+REMOTE: ##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_empty_RequiresLock/C.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_static_lock_semantics/parent_child/B.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_requiresLock_for_parameters/Test.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_empty_RequiresLock/C.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_selfProtected/Main.java
+REMOTE: ##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_lockingPlusAggregationPlusEffects/siblingRegions/D2.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_static_lock_semantics/unrelated/C.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_singleThreaded_constructor/TestEffects.java
+REMOTE: ##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_array_length/Test.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_static_lock_semantics/unrelated/C.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_static_lock_semantics/unrelated/C.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_static_lock_semantics/parent_child/B.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_static_lock_semantics/parent_child/B.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_requiresLock_for_parameters/Test.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_requiresLock_for_parameters/Test.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_static_lock_semantics/unrelated/C.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_static_lock_semantics/parent_child/B.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_selfProtected/Main.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_array_length/Test.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_requiresLock_for_parameters/Test.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_selfProtected/Main.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_empty_RequiresLock/C.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_empty_RequiresLock/C.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_lockingPlusAggregationPlusEffects/siblingRegions/D2.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_selfProtected/Main.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_empty_RequiresLock/C.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_array_length/Test.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_lockingPlusAggregationPlusEffects/siblingRegions/D2.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_lockingPlusAggregationPlusEffects/siblingRegions/D2.java
+REMOTE: ##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_array_length/Test.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_lockingPlusAggregationPlusEffects/siblingRegions/D2.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_static_lock_semantics/unrelated/C.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_static_lock_semantics/parent_child/B.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_array_length/Test.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_requiresLock_for_parameters/Test.java
+REMOTE: ##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_selfProtected/Main.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_empty_RequiresLock/C.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_static_lock_semantics/sibling/X.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_static_lock_semantics/sibling/X.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_static_lock_semantics/unrelated/D.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_static_lock_semantics/unrelated/D.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_static_lock_semantics/unrelated/D.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_static_lock_semantics/unrelated/D.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_static_lock_semantics/unrelated/D.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_static_lock_semantics/unrelated/D.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_selfProtected/C.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_selfProtected/C.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_static_lock_semantics/sibling/Y.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_selfProtected/C.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_selfProtected/C.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_lockingPlusAggregationPlusEffects/siblingRegions/C2.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_lockingPlusAggregationPlusEffects/siblingRegions/C2.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_lockingPlusAggregationPlusEffects/siblingRegions/C2.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_lockingPlusAggregationPlusEffects/siblingRegions/C2.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_lockingPlusAggregationPlusEffects/siblingRegions/C2.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_lockingPlusAggregationPlusEffects/siblingRegions/C2.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_selfProtected/I.java
+REMOTE: ##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_static_lock_semantics/sibling/Z.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_selfProtected/I.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_static_lock_semantics/sibling/Z.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_static_lock_semantics/sibling/Z.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_static_lock_semantics/sibling/Z.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_static_lock_semantics/sibling/Z.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_static_lock_semantics/sibling/Y.java
+REMOTE: ##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_lockingPlusAggregationPlusEffects/nestedRegions/D.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_static_lock_semantics/sibling/Z.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_selfProtected/I.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_selfProtected/I.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_lockingPlusAggregationPlusEffects/nestedRegions/D.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_selfProtected/I.java
+REMOTE: ##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_aggregated_arrays/Test.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_lockingPlusAggregationPlusEffects/nestedRegions/D.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_lockingPlusAggregationPlusEffects/nestedRegions/D.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_selfProtected/C.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_selfProtected/C.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_lockingPlusAggregationPlusEffects/nestedRegions/D.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_aggregated_arrays/Test.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_lockingPlusAggregationPlusEffects/nestedRegions/D.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_aggregated_arrays/Test.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_selfProtected/I.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_static_lock_semantics/sibling/Y.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_aggregated_arrays/Test.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_selfProtected/E.java
+REMOTE: ##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_synchronization_around_inner_classes/Outer.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_static_lock_semantics/sibling/Y.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_static_lock_semantics/sibling/Y.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_aggregated_arrays/Test.java
+REMOTE: ##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_static_lock_semantics/parent_child/A.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_aggregated_arrays/Test.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_static_lock_semantics/sibling/Y.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_synchronization_around_inner_classes/Outer.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_selfProtected/E.java
+REMOTE: ##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_singleThreaded_constructor/TestBorrowed.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_selfProtected/E.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_selfProtected/E.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_static_lock_semantics/parent_child/A.java
+REMOTE: ##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_lockingPlusAggregationPlusEffects/nestedRegions/C.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_static_lock_semantics/parent_child/A.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_lockingPlusAggregationPlusEffects/nestedRegions/C.java
+REMOTE: ##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_singleThreaded_constructor/TestBorrowed.java
+REMOTE: ##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_selfProtected/E.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_lockingPlusAggregationPlusEffects/nestedRegions/C.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_static_lock_semantics/parent_child/A.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_synchronization_around_inner_classes/Outer.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_static_lock_semantics/parent_child/A.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_singleThreaded_constructor/TestBorrowed.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_singleThreaded_constructor/TestBorrowed.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_lockingPlusAggregationPlusEffects/nestedRegions/C.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_selfProtected/E.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_lockingPlusAggregationPlusEffects/nestedRegions/C.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_singleThreaded_constructor/TestBorrowed.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_requiresLock_for_parameters/C.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_singleThreaded_constructor/TestBorrowed.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_synchronization_around_inner_classes/Outer.java
+REMOTE: ##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_requiresLock_for_parameters/C.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_requiresLock_for_parameters/C.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_requiresLock_for_parameters/C.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_policyLock_requiresLock/Test.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_synchronization_around_inner_classes/Outer.java
+REMOTE: ##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_static_lock_semantics/parent_child/A.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_lockingPlusAggregationPlusEffects/nestedRegions/C.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_policyLock_requiresLock/Test.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_requiresLock_for_parameters/C.java
+REMOTE: ##SUBTASK, Checking [ Concurrency detector ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_selfProtected/D.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_requiresLock_for_parameters/C.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Thread effects ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_selfProtected/D.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_synchronization_around_inner_classes/Outer.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_policyLock_requiresLock/Test.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_policyLock_requiresLock/Test.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_selfProtected/D.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_selfProtected/D.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_policyLock_requiresLock/Test.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_selfProtected/D.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_policyLock_requiresLock/Test.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_selfProtected/D.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_static_lock_semantics/sibling/X.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_static_lock_semantics/sibling/X.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_static_lock_semantics/sibling/X.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_static_lock_semantics/sibling/X.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: doesMethodSubsumeThreadStart() at java.lang.Thread.start()
+REMOTE: Found start() for t.start -- com.surelogic.tree.SyntaxTreeNode@63e0ef86
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Structure analysis ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_singleThreaded_constructor/TestEffects.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Annotation bounds ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_singleThreaded_constructor/TestEffects.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Reference equality ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_singleThreaded_constructor/TestEffects.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Static structure ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_singleThreaded_constructor/TestEffects.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: Starting group: UtilityAnalysis, SingletonAnalysis
+REMOTE: com.surelogic.analysis.granules.FlowUnitGranulator@1eb44e46: 129
+REMOTE: com.surelogic.analysis.uniqueness.classic.sideeffecting.UniquenessAnalysisModule$1@6f2b958e: 25
+REMOTE: com.surelogic.analysis.visitors.TopLevelAnalysisVisitor$1@3d012ddd: 35
+REMOTE: ##SUBTASK, Starting parallel UtilityAnalysis [6]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Starting parallel UtilityAnalysis [6]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##SUBTASK, Starting parallel SingletonAnalysis [7]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Starting parallel SingletonAnalysis [7]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Starting parallel UtilityAnalysis [6]: 35 for TestIntrinsicLockAnalysis
+REMOTE: Starting parallel UtilityAnalysis [6]: 35 for TestIntrinsicLockAnalysis
+REMOTE: ##SUBTASK, Starting parallel SingletonAnalysis [7]: 35 for TestIntrinsicLockAnalysis
+REMOTE: Starting parallel SingletonAnalysis [7]: 35 for TestIntrinsicLockAnalysis
+REMOTE: ##SUBTASK, Checking [ Utility class ] test_requiresLock_for_parameters.Test
+REMOTE: ##SUBTASK, Checking [ Utility class ] test_static_lock_semantics.unrelated.C
+REMOTE: ##SUBTASK, Checking [ Utility class ] test_singleThreaded_constructor.Dumb
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test_array_length.Test
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test_singleThreaded_constructor.MyInt
+REMOTE: ##SUBTASK, Checking [ Utility class ] test_singleThreaded_constructor.TestEffects
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test_empty_RequiresLock.C
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test_singleThreaded_constructor.Dumb
+REMOTE: ##SUBTASK, Checking [ Utility class ] test_static_lock_semantics.parent_child.B
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test_requiresLock_for_parameters.Test
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test_array_length.Test
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test_singleThreaded_constructor.MyInt
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test_singleThreaded_constructor.TestEffects
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test_static_lock_semantics.parent_child.B
+REMOTE: ##SUBTASK, Checking [ Utility class ] test_lockingPlusAggregationPlusEffects.siblingRegions.D2
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test_empty_RequiresLock.C
+REMOTE: ##SUBTASK, Checking [ Utility class ] test_selfProtected.C
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test_selfProtected.C
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test_static_lock_semantics.unrelated.C
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test_static_lock_semantics.sibling.Y
+REMOTE: ##SUBTASK, Checking [ Utility class ] test_lockingPlusAggregationPlusEffects.nestedRegions.D
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test_static_lock_semantics.unrelated.D
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test_lockingPlusAggregationPlusEffects.siblingRegions.D2
+REMOTE: ##SUBTASK, Checking [ Utility class ] test_static_lock_semantics.sibling.X
+REMOTE: ##SUBTASK, Checking [ Utility class ] test_selfProtected.Main
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test_lockingPlusAggregationPlusEffects.nestedRegions.D
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test_static_lock_semantics.sibling.Y
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test_static_lock_semantics.sibling.Z
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test_static_lock_semantics.unrelated.D
+REMOTE: ##SUBTASK, Checking [ Utility class ] test_aggregated_arrays.Test
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test_static_lock_semantics.sibling.X
+REMOTE: ##SUBTASK, Checking [ Utility class ] test_lockingPlusAggregationPlusEffects.siblingRegions.C2
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test_selfProtected.Main
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test_aggregated_arrays.Test
+REMOTE: ##SUBTASK, Checking [ Utility class ] test_synchronization_around_inner_classes.Outer.ACE #0
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test_static_lock_semantics.sibling.Z
+REMOTE: ##SUBTASK, Checking [ Utility class ] test_synchronization_around_inner_classes.Outer
+REMOTE: ##SUBTASK, Checking [ Utility class ] test_selfProtected.I
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test_synchronization_around_inner_classes.Outer.ACE #1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test_lockingPlusAggregationPlusEffects.siblingRegions.C2
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test_synchronization_around_inner_classes.Outer.ACE #3
+REMOTE: ##SUBTASK, Checking [ Utility class ] test_synchronization_around_inner_classes.Outer.ACE #5
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test_synchronization_around_inner_classes.Outer.ACE #0
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test_synchronization_around_inner_classes.Outer.ACE #2
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test_synchronization_around_inner_classes.Outer
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test_synchronization_around_inner_classes.Outer.ACE #1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test_synchronization_around_inner_classes.Outer.ACE #5
+REMOTE: ##SUBTASK, Checking [ Utility class ] test_selfProtected.E
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test_synchronization_around_inner_classes.Outer.ACE #3
+REMOTE: ##SUBTASK, Checking [ Utility class ] test_synchronization_around_inner_classes.Outer.ACE #4
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test_selfProtected.E
+REMOTE: ##SUBTASK, Checking [ Utility class ] test_static_lock_semantics.parent_child.A
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test_synchronization_around_inner_classes.Outer.ACE #2
+REMOTE: ##SUBTASK, Checking [ Utility class ] test_singleThreaded_constructor.Other
+REMOTE: ##SUBTASK, Checking [ Utility class ] test_synchronization_around_inner_classes.Outer.ACE #6
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test_selfProtected.I
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test_lockingPlusAggregationPlusEffects.nestedRegions.C
+REMOTE: ##SUBTASK, Checking [ Utility class ] test_singleThreaded_constructor.TestBorrowed
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test_requiresLock_for_parameters.C
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test_synchronization_around_inner_classes.Outer.ACE #4
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test_static_lock_semantics.parent_child.A
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test_singleThreaded_constructor.Other
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test_synchronization_around_inner_classes.Outer.ACE #6
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test_lockingPlusAggregationPlusEffects.nestedRegions.C
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test_singleThreaded_constructor.TestBorrowed
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Utility class ] test_selfProtected.D
+REMOTE: ##SUBTASK, Checking [ Utility class ] test_policyLock_requiresLock.Test
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test_requiresLock_for_parameters.C
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test_selfProtected.D
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Singleton class ] test_policyLock_requiresLock.Test
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: Starting group: LockModelBuilder
+REMOTE: ##SUBTASK, Starting parallel LockModelBuilder [8]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Starting parallel LockModelBuilder [8]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Starting parallel LockModelBuilder [8]: 25 for TestIntrinsicLockAnalysis
+REMOTE: Starting parallel LockModelBuilder [8]: 25 for TestIntrinsicLockAnalysis
+REMOTE: ##SUBTASK, Checking [ Lock Model Builder ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_static_lock_semantics/parent_child/B.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Lock Model Builder ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_requiresLock_for_parameters/Test.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Lock Model Builder ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_empty_RequiresLock/C.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Lock Model Builder ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_singleThreaded_constructor/TestEffects.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Lock Model Builder ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_array_length/Test.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Lock Model Builder ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_static_lock_semantics/unrelated/C.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Lock Model Builder ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_selfProtected/Main.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Lock Model Builder ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_lockingPlusAggregationPlusEffects/nestedRegions/D.java
+REMOTE: ##SUBTASK, Checking [ Lock Model Builder ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_static_lock_semantics/sibling/Y.java
+REMOTE: ##SUBTASK, Checking [ Lock Model Builder ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_selfProtected/C.java
+REMOTE: ##SUBTASK, Checking [ Lock Model Builder ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_static_lock_semantics/unrelated/D.java
+REMOTE: ##SUBTASK, Checking [ Lock Model Builder ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_lockingPlusAggregationPlusEffects/siblingRegions/D2.java
+REMOTE: ##SUBTASK, Checking [ Lock Model Builder ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_static_lock_semantics/sibling/X.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Lock Model Builder ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_selfProtected/I.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Lock Model Builder ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_aggregated_arrays/Test.java
+REMOTE: ##SUBTASK, Checking [ Lock Model Builder ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_lockingPlusAggregationPlusEffects/siblingRegions/C2.java
+REMOTE: ##SUBTASK, Checking [ Lock Model Builder ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_static_lock_semantics/parent_child/A.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Lock Model Builder ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_selfProtected/E.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Lock Model Builder ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_synchronization_around_inner_classes/Outer.java
+REMOTE: ##SUBTASK, Checking [ Lock Model Builder ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_static_lock_semantics/sibling/Z.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Lock Model Builder ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_policyLock_requiresLock/Test.java
+REMOTE: ##SUBTASK, Checking [ Lock Model Builder ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_selfProtected/D.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Lock Model Builder ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_requiresLock_for_parameters/C.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Lock Model Builder ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_lockingPlusAggregationPlusEffects/nestedRegions/C.java
+REMOTE: ##SUBTASK, Checking [ Lock Model Builder ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_singleThreaded_constructor/TestBorrowed.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: Starting group: ThreadSafeAnalysis
+REMOTE: ##SUBTASK, Starting parallel ThreadSafeAnalysis [9]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Starting parallel ThreadSafeAnalysis [9]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Starting parallel ThreadSafeAnalysis [9]: 35 for TestIntrinsicLockAnalysis
+REMOTE: Starting parallel ThreadSafeAnalysis [9]: 35 for TestIntrinsicLockAnalysis
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test_static_lock_semantics.parent_child.B
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test_requiresLock_for_parameters.Test
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test_empty_RequiresLock.C
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test_singleThreaded_constructor.TestEffects
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test_singleThreaded_constructor.MyInt
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test_singleThreaded_constructor.Dumb
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test_array_length.Test
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test_selfProtected.Main
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test_static_lock_semantics.unrelated.C
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test_static_lock_semantics.sibling.X
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test_static_lock_semantics.unrelated.D
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test_lockingPlusAggregationPlusEffects.siblingRegions.D2
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test_aggregated_arrays.Test
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test_selfProtected.I
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test_lockingPlusAggregationPlusEffects.siblingRegions.C2
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test_lockingPlusAggregationPlusEffects.nestedRegions.D
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test_static_lock_semantics.sibling.Y
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test_selfProtected.C
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test_synchronization_around_inner_classes.Outer
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test_synchronization_around_inner_classes.Outer.ACE #1
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test_synchronization_around_inner_classes.Outer.ACE #2
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test_synchronization_around_inner_classes.Outer.ACE #3
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test_static_lock_semantics.sibling.Z
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test_synchronization_around_inner_classes.Outer.ACE #5
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test_synchronization_around_inner_classes.Outer.ACE #6
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test_selfProtected.E
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test_static_lock_semantics.parent_child.A
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test_singleThreaded_constructor.TestBorrowed
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test_synchronization_around_inner_classes.Outer.ACE #4
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test_synchronization_around_inner_classes.Outer.ACE #0
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test_policyLock_requiresLock.Test
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test_lockingPlusAggregationPlusEffects.nestedRegions.C
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test_singleThreaded_constructor.Other
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test_selfProtected.D
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ ThreadSafe / Containable / Immutable ] test_requiresLock_for_parameters.C
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: Starting group: NewLockAnalysis
+REMOTE: ##SUBTASK, Starting parallel NewLockAnalysis [10]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Starting parallel NewLockAnalysis [10]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Starting parallel NewLockAnalysis [10]: 25 for TestIntrinsicLockAnalysis
+REMOTE: Starting parallel NewLockAnalysis [10]: 25 for TestIntrinsicLockAnalysis
+REMOTE: ##SUBTASK, Checking [ New Lock policy ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_static_lock_semantics/parent_child/B.java
+REMOTE: ##SUBTASK, Checking [ New Lock policy ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_requiresLock_for_parameters/Test.java
+REMOTE: ##SUBTASK, Checking [ New Lock policy ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_empty_RequiresLock/C.java
+REMOTE: ##SUBTASK, Checking [ New Lock policy ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_singleThreaded_constructor/TestEffects.java
+REMOTE: ##SUBTASK, Checking [ New Lock policy ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_array_length/Test.java
+REMOTE: ##SUBTASK, Checking [ New Lock policy ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_static_lock_semantics/unrelated/C.java
+REMOTE: ##SUBTASK, Checking [ New Lock policy ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_selfProtected/Main.java
+REMOTE: ##SUBTASK, Checking [ New Lock policy ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_lockingPlusAggregationPlusEffects/siblingRegions/D2.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ New Lock policy ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_static_lock_semantics/sibling/X.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ New Lock policy ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_static_lock_semantics/unrelated/D.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ New Lock policy ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_selfProtected/C.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ New Lock policy ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_static_lock_semantics/sibling/Y.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ New Lock policy ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_lockingPlusAggregationPlusEffects/nestedRegions/D.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ New Lock policy ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_lockingPlusAggregationPlusEffects/siblingRegions/C2.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ New Lock policy ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_aggregated_arrays/Test.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ New Lock policy ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_selfProtected/I.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ New Lock policy ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_static_lock_semantics/sibling/Z.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ New Lock policy ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_synchronization_around_inner_classes/Outer.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ New Lock policy ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_selfProtected/E.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ New Lock policy ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_static_lock_semantics/parent_child/A.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ New Lock policy ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_singleThreaded_constructor/TestBorrowed.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ New Lock policy ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_lockingPlusAggregationPlusEffects/nestedRegions/C.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ New Lock policy ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_requiresLock_for_parameters/C.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ New Lock policy ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_policyLock_requiresLock/Test.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ New Lock policy ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_selfProtected/D.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: [GC (Allocation Failure)  140412K->66213K(176128K), 0.0127350 secs]
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: Starting group: EffectsAnalysis
+REMOTE: ##SUBTASK, Starting parallel EffectsAnalysis [11]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Starting parallel EffectsAnalysis [11]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Starting parallel EffectsAnalysis [11]: 35 for TestIntrinsicLockAnalysis
+REMOTE: Starting parallel EffectsAnalysis [11]: 35 for TestIntrinsicLockAnalysis
+REMOTE: ##SUBTASK, Checking [ Region effects ] test_static_lock_semantics.parent_child.B
+REMOTE: ##SUBTASK, Checking [ Region effects ] test_requiresLock_for_parameters.Test
+REMOTE: ##SUBTASK, Checking [ Region effects ] test_empty_RequiresLock.C
+REMOTE: ##SUBTASK, Checking [ Region effects ] test_singleThreaded_constructor.TestEffects
+REMOTE: ##SUBTASK, Checking [ Region effects ] test_singleThreaded_constructor.MyInt
+REMOTE: ##SUBTASK, Checking [ Region effects ] test_singleThreaded_constructor.Dumb
+REMOTE: ##SUBTASK, Checking [ Region effects ] test_array_length.Test
+REMOTE: ##SUBTASK, Checking [ Region effects ] test_static_lock_semantics.unrelated.C
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test_selfProtected.Main
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test_lockingPlusAggregationPlusEffects.siblingRegions.D2
+REMOTE: ##SUBTASK, Checking [ Region effects ] test_static_lock_semantics.sibling.X
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test_static_lock_semantics.unrelated.D
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test_selfProtected.C
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test_static_lock_semantics.sibling.Y
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test_lockingPlusAggregationPlusEffects.nestedRegions.D
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test_lockingPlusAggregationPlusEffects.siblingRegions.C2
+REMOTE: ##SUBTASK, Checking [ Region effects ] test_aggregated_arrays.Test
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test_selfProtected.I
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test_static_lock_semantics.sibling.Z
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test_synchronization_around_inner_classes.Outer
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test_synchronization_around_inner_classes.Outer.ACE #0
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test_synchronization_around_inner_classes.Outer.ACE #1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test_synchronization_around_inner_classes.Outer.ACE #2
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test_synchronization_around_inner_classes.Outer.ACE #3
+REMOTE: ##SUBTASK, Checking [ Region effects ] test_synchronization_around_inner_classes.Outer.ACE #4
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test_synchronization_around_inner_classes.Outer.ACE #5
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test_synchronization_around_inner_classes.Outer.ACE #6
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test_selfProtected.E
+REMOTE: ##SUBTASK, Checking [ Region effects ] test_static_lock_semantics.parent_child.A
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test_singleThreaded_constructor.TestBorrowed
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test_singleThreaded_constructor.Other
+REMOTE: ##SUBTASK, Checking [ Region effects ] test_lockingPlusAggregationPlusEffects.nestedRegions.C
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test_requiresLock_for_parameters.C
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test_policyLock_requiresLock.Test
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Region effects ] test_selfProtected.D
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: Starting group: UniquenessAnalysisModule
+REMOTE: ##SUBTASK, Starting parallel UniquenessAnalysisModule [12]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Starting parallel UniquenessAnalysisModule [12]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Starting parallel UniquenessAnalysisModule [12]: 25 for TestIntrinsicLockAnalysis
+REMOTE: Starting parallel UniquenessAnalysisModule [12]: 25 for TestIntrinsicLockAnalysis
+REMOTE: ##SUBTASK, Checking [ Uniqueness ] test_requiresLock_for_parameters.Test.Test()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Uniqueness ] test_array_length.Test.test()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Uniqueness ] test_array_length.Test.getLength()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Uniqueness ] test_array_length.Test.Test()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Uniqueness ] test_selfProtected.Main.Main()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Uniqueness ] test_lockingPlusAggregationPlusEffects.siblingRegions.D2.writesR()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Uniqueness ] test_lockingPlusAggregationPlusEffects.siblingRegions.D2.D2()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Uniqueness ] test_lockingPlusAggregationPlusEffects.siblingRegions.D2.writesQ()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Uniqueness ] test_lockingPlusAggregationPlusEffects.nestedRegions.D.writesR()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Uniqueness ] test_lockingPlusAggregationPlusEffects.nestedRegions.D.D()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Uniqueness ] test_lockingPlusAggregationPlusEffects.nestedRegions.D.writesQ()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Uniqueness ] test_lockingPlusAggregationPlusEffects.siblingRegions.C2.bad1()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Uniqueness ] test_lockingPlusAggregationPlusEffects.siblingRegions.C2.C2()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Uniqueness ] test_lockingPlusAggregationPlusEffects.siblingRegions.C2.good1()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Uniqueness ] test_lockingPlusAggregationPlusEffects.siblingRegions.C2.good2()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Uniqueness ] test_aggregated_arrays.Test.badMethod1()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Uniqueness ] test_aggregated_arrays.Test.Test()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Uniqueness ] test_aggregated_arrays.Test.goodMethod(java.lang.Object)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Uniqueness ] test_singleThreaded_constructor.TestBorrowed.TestBorrowed(test_singleThreaded_constructor.Other)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Uniqueness ] test_singleThreaded_constructor.TestBorrowed.TestBorrowed()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Uniqueness ] test_lockingPlusAggregationPlusEffects.nestedRegions.C.good1()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Uniqueness ] test_lockingPlusAggregationPlusEffects.nestedRegions.C.bad1()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Uniqueness ] test_lockingPlusAggregationPlusEffects.nestedRegions.C.bad2()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Uniqueness ] test_lockingPlusAggregationPlusEffects.nestedRegions.C.C()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Uniqueness ] test_requiresLock_for_parameters.C.C()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: Starting group: NullablePreprocessorModule
+REMOTE: ##SUBTASK, Starting parallel NullablePreprocessorModule [13]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Starting parallel NullablePreprocessorModule [13]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Starting parallel NullablePreprocessorModule [13]: 25 for TestIntrinsicLockAnalysis
+REMOTE: Starting parallel NullablePreprocessorModule [13]: 25 for TestIntrinsicLockAnalysis
+REMOTE: ##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_static_lock_semantics/parent_child/B.java
+REMOTE: ##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_requiresLock_for_parameters/Test.java
+REMOTE: ##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_empty_RequiresLock/C.java
+REMOTE: ##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_singleThreaded_constructor/TestEffects.java
+REMOTE: ##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_array_length/Test.java
+REMOTE: ##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_static_lock_semantics/unrelated/C.java
+REMOTE: ##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_selfProtected/Main.java
+REMOTE: ##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_lockingPlusAggregationPlusEffects/siblingRegions/D2.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_static_lock_semantics/sibling/X.java
+REMOTE: ##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_static_lock_semantics/unrelated/D.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_lockingPlusAggregationPlusEffects/siblingRegions/C2.java
+REMOTE: ##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_lockingPlusAggregationPlusEffects/nestedRegions/D.java
+REMOTE: ##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_static_lock_semantics/sibling/Y.java
+REMOTE: ##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_selfProtected/C.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_aggregated_arrays/Test.java
+REMOTE: ##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_static_lock_semantics/sibling/Z.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_selfProtected/I.java
+REMOTE: ##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_static_lock_semantics/parent_child/A.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_selfProtected/E.java
+REMOTE: ##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_lockingPlusAggregationPlusEffects/nestedRegions/C.java
+REMOTE: ##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_synchronization_around_inner_classes/Outer.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_singleThreaded_constructor/TestBorrowed.java
+REMOTE: ##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_selfProtected/D.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_policyLock_requiresLock/Test.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable Preprocessor ] file:/Users/aarong/git/regression/regression/TestIntrinsicLockAnalysis/src/test_requiresLock_for_parameters/C.java
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: Starting group: NullableModule2
+REMOTE: ##SUBTASK, Starting parallel NullableModule2 [14]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: Starting parallel NullableModule2 [14]: 0 for org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Starting parallel NullableModule2 [14]: 129 for TestIntrinsicLockAnalysis
+REMOTE: Starting parallel NullableModule2 [14]: 129 for TestIntrinsicLockAnalysis
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_static_lock_semantics.parent_child.B.B()
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_static_lock_semantics.parent_child.B.good1()
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_static_lock_semantics.parent_child.B.good2()
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_static_lock_semantics.parent_child.B.good3()
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_static_lock_semantics.parent_child.B.<clinit>
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_requiresLock_for_parameters.Test.Test()
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_requiresLock_for_parameters.Test.doIt(test_requiresLock_for_parameters.C)
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_requiresLock_for_parameters.Test.main(java.lang.String [])
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_requiresLock_for_parameters.Test.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_empty_RequiresLock.C.C()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_empty_RequiresLock.C.touchR2(int)
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_empty_RequiresLock.C.touchR1(int)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_empty_RequiresLock.C.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_singleThreaded_constructor.TestEffects.TestEffects(int,int)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_empty_RequiresLock.C.stuff(int,int)
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_singleThreaded_constructor.TestEffects.TestEffects(test_singleThreaded_constructor.MyInt)
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_singleThreaded_constructor.TestEffects.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_singleThreaded_constructor.MyInt.MyInt()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_singleThreaded_constructor.MyInt.intValue()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_singleThreaded_constructor.MyInt.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_singleThreaded_constructor.Dumb.Dumb()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_singleThreaded_constructor.Dumb.run()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_singleThreaded_constructor.Dumb.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_array_length.Test.Test()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_array_length.Test.getLength()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_array_length.Test.test()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_array_length.Test.<clinit>
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_static_lock_semantics.unrelated.C.C()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_singleThreaded_constructor.TestEffects.TestEffects(test_singleThreaded_constructor.MyInt,test_singleThreaded_constructor.MyInt)
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_static_lock_semantics.unrelated.C.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_selfProtected.Main.Main()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_selfProtected.Main.doIt()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_selfProtected.Main.<clinit>
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_static_lock_semantics.unrelated.C.good()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_lockingPlusAggregationPlusEffects.siblingRegions.D2.D2()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_lockingPlusAggregationPlusEffects.siblingRegions.D2.writesQ()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_lockingPlusAggregationPlusEffects.siblingRegions.D2.writesR()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_lockingPlusAggregationPlusEffects.siblingRegions.D2.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_static_lock_semantics.sibling.X.X()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_static_lock_semantics.sibling.X.good()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_static_lock_semantics.sibling.X.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_static_lock_semantics.unrelated.D.D()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_static_lock_semantics.unrelated.D.good1()
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_static_lock_semantics.unrelated.D.good2()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_static_lock_semantics.unrelated.D.good3()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_static_lock_semantics.unrelated.D.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_selfProtected.C.C()
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_selfProtected.C.m()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_selfProtected.C.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_static_lock_semantics.sibling.Y.Y()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_static_lock_semantics.sibling.Y.good()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_static_lock_semantics.sibling.Y.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_lockingPlusAggregationPlusEffects.nestedRegions.D.D()
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_lockingPlusAggregationPlusEffects.nestedRegions.D.writesQ()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_lockingPlusAggregationPlusEffects.nestedRegions.D.writesR()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_lockingPlusAggregationPlusEffects.nestedRegions.D.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_lockingPlusAggregationPlusEffects.siblingRegions.C2.C2()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_lockingPlusAggregationPlusEffects.siblingRegions.C2.good1()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_lockingPlusAggregationPlusEffects.siblingRegions.C2.bad1()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_lockingPlusAggregationPlusEffects.siblingRegions.C2.good2()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_lockingPlusAggregationPlusEffects.siblingRegions.C2.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_aggregated_arrays.Test.Test()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_aggregated_arrays.Test.goodMethod(java.lang.Object)
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_aggregated_arrays.Test.badMethod1()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_aggregated_arrays.Test.badMethod2()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_aggregated_arrays.Test.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_selfProtected.I.m()
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_selfProtected.I.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_static_lock_semantics.sibling.Z.Z()
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_static_lock_semantics.sibling.Z.good()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_static_lock_semantics.sibling.Z.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_synchronization_around_inner_classes.Outer.Outer()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_synchronization_around_inner_classes.Outer.foo()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_synchronization_around_inner_classes.Outer.okayStatic_implicitClass()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_synchronization_around_inner_classes.Outer.ACE #0.run()
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_synchronization_around_inner_classes.Outer.ACE #0.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_synchronization_around_inner_classes.Outer.okayStatic2_explicitClass()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_synchronization_around_inner_classes.Outer.ACE #1.run()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_synchronization_around_inner_classes.Outer.ACE #1.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_synchronization_around_inner_classes.Outer.badStatic()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_synchronization_around_inner_classes.Outer.ACE #2.run()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_synchronization_around_inner_classes.Outer.ACE #2.<clinit>
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_synchronization_around_inner_classes.Outer.okayInstance()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_synchronization_around_inner_classes.Outer.ACE #3.run()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_synchronization_around_inner_classes.Outer.ACE #3.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_synchronization_around_inner_classes.Outer.okayInstance2()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_synchronization_around_inner_classes.Outer.ACE #4.run()
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_synchronization_around_inner_classes.Outer.ACE #4.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_synchronization_around_inner_classes.Outer.badInstance()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_synchronization_around_inner_classes.Outer.ACE #5.run()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_synchronization_around_inner_classes.Outer.ACE #5.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_synchronization_around_inner_classes.Outer.badInstance2()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_synchronization_around_inner_classes.Outer.ACE #6.run()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_synchronization_around_inner_classes.Outer.ACE #6.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_synchronization_around_inner_classes.Outer.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_selfProtected.E.E()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_selfProtected.E.m()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_selfProtected.E.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_static_lock_semantics.parent_child.A.A()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_static_lock_semantics.parent_child.A.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_singleThreaded_constructor.TestBorrowed.TestBorrowed()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_singleThreaded_constructor.TestBorrowed.TestBorrowed(test_singleThreaded_constructor.Other)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_singleThreaded_constructor.TestBorrowed.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_singleThreaded_constructor.Other.Other()
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_singleThreaded_constructor.Other.doStuff(test_singleThreaded_constructor.TestBorrowed)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_singleThreaded_constructor.Other.<clinit>
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_lockingPlusAggregationPlusEffects.nestedRegions.C.C()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_lockingPlusAggregationPlusEffects.nestedRegions.C.good1()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_lockingPlusAggregationPlusEffects.nestedRegions.C.bad1()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_lockingPlusAggregationPlusEffects.nestedRegions.C.bad2()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_lockingPlusAggregationPlusEffects.nestedRegions.C.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_requiresLock_for_parameters.C.C()
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_requiresLock_for_parameters.C.setX(int)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_requiresLock_for_parameters.C.setY(int)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_requiresLock_for_parameters.C.getMagnitude()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_requiresLock_for_parameters.C.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_policyLock_requiresLock.Test.Test()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_policyLock_requiresLock.Test.getPolicyLock()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_policyLock_requiresLock.Test.needsPolicyLock()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_policyLock_requiresLock.Test.bad_calls_needsPolicyLock()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_policyLock_requiresLock.Test.good_calls_needsPolicyLock()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_policyLock_requiresLock.Test.good_calls_needsPolicyLock_using_getter()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_policyLock_requiresLock.Test.bad_calls_needsPolicyLock2(test_policyLock_requiresLock.Test)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_policyLock_requiresLock.Test.good_calls_needsPolicyLock2_using_getter(test_policyLock_requiresLock.Test)
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_policyLock_requiresLock.Test.good_calls_needsPolicyLock2(test_policyLock_requiresLock.Test)
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_selfProtected.D.D()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_selfProtected.D.m()
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_selfProtected.D.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Checking [ Nullable ] test_policyLock_requiresLock.Test.<clinit>
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: ##SUBTASK, Cleaning up after analysis
+REMOTE: Cleaning up after analysis
+REMOTE: [GC (System.gc())  86825K->67386K(177664K), 0.0149810 secs]
+REMOTE: [Full GC (System.gc())  67386K->41958K(177664K), 0.1557650 secs]
+REMOTE: ##WORK, 1
+REMOTE: ##SUBTASK_DONE
+REMOTE: Updating consistency proof
+REMOTE: ##SUBTASK, Updating consistency proof
+REMOTE: Exporting results to TestIntrinsicLockAna-2016.02.04-at-11.25.06.712
+REMOTE: ##SUBTASK, Exporting results to TestIntrinsicLockAna-2016.02.04-at-11.25.06.712
+REMOTE: Creating snapshot: /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/TestIntrinsicLockAna-2016.02.04-at-11.25.06.712/running_or_crashed_sea_snapshot.xml.gz
+REMOTE: [GC (Allocation Failure)  128998K->50275K(179712K), 0.0074770 secs]
+REMOTE: Done in 5200 ms.
+REMOTE: ConcurrencyDetector	: 20 ms
+REMOTE: ThreadEffectsModule	: 94 ms
+REMOTE: StructureAnalysis	: 2 ms
+REMOTE: ParameterizedTypeAnalysis	: 7 ms
+REMOTE: EqualityAnalysis	: 68 ms
+REMOTE: LayersAnalysis	: 126 ms
+REMOTE: UtilityAnalysis	: 1 ms
+REMOTE: SingletonAnalysis	: 0 ms
+REMOTE: LockModelBuilder	: 33 ms
+REMOTE: ThreadSafeAnalysis	: 16 ms
+REMOTE: NewLockAnalysis	: 1694 ms
+REMOTE: EffectsAnalysis	: 107 ms
+REMOTE: UniquenessAnalysisModule	: 253 ms
+REMOTE: NullablePreprocessorModule	: 13 ms
+REMOTE: NullableModule2	: 448 ms
+REMOTE: [2016-02-04 11:25:13    INFO] partial bindings = 7979 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+REMOTE: [2016-02-04 11:25:13    INFO] full bindings = 1142 (in method edu.cmu.cs.fluid.java.bind.AbstractJavaBinder.printStats(-) thread "main")
+REMOTE: cached = 0
+REMOTE: totalT = 0
+REMOTE: #Performance data for TestIntrinsicLockAnalysis
+REMOTE: #Thu Feb 04 11:25:13 EST 2016
+REMOTE: jsure.Add.required=0
+REMOTE: jsure.All.analyses=968
+REMOTE: jsure.Binding.before.canon=407
+REMOTE: jsure.Binding.full.time=2215
+REMOTE: jsure.Binding.partial.time=1547
+REMOTE: jsure.Bindings.full=1142
+REMOTE: jsure.Bindings.partial=7979
+REMOTE: jsure.Canonicalization=605
+REMOTE: jsure.Cleanup=90
+REMOTE: jsure.Destroy.time=11
+REMOTE: jsure.Drop.creation=24
+REMOTE: jsure.Find.canon.time=5
+REMOTE: jsure.Parsing=943
+REMOTE: jsure.Promise.parsing=617
+REMOTE: jsure.Promise.scrubbing=1234
+REMOTE: jsure.Sea.export=646
+REMOTE: jsure.Sea.update=73
+REMOTE: jsure.Total.JSure.time=5200
+REMOTE: jsure.Total.blocks=129
+REMOTE: jsure.Total.canonical=2232
+REMOTE: jsure.Total.decls=273
+REMOTE: jsure.Total.destroyed=0
+REMOTE: jsure.Total.gced=0
+REMOTE: jsure.Total.loc=966
+REMOTE: jsure.Total.nodes=70031
+REMOTE: jsure.Total.stmts=295
+REMOTE: jsure.Total.try.destroyed=585
+REMOTE: jsure.analysis.ConcurrencyDetector=20
+REMOTE: jsure.analysis.EffectsAnalysis=107
+REMOTE: jsure.analysis.EqualityAnalysis=68
+REMOTE: jsure.analysis.LayersAnalysis=126
+REMOTE: jsure.analysis.LockModelBuilder=33
+REMOTE: jsure.analysis.NewLockAnalysis=1694
+REMOTE: jsure.analysis.NullableModule2=448
+REMOTE: jsure.analysis.NullablePreprocessorModule=13
+REMOTE: jsure.analysis.ParameterizedTypeAnalysis=7
+REMOTE: jsure.analysis.SingletonAnalysis=0
+REMOTE: jsure.analysis.StructureAnalysis=2
+REMOTE: jsure.analysis.ThreadEffectsModule=94
+REMOTE: jsure.analysis.ThreadSafeAnalysis=16
+REMOTE: jsure.analysis.UniquenessAnalysisModule=253
+REMOTE: jsure.analysis.UtilityAnalysis=1
+REMOTE: jsure.num.threads=8
+REMOTE: ##DONE
+REMOTE: Renaming snapshot: /Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Regression/.jsure-data/TestIntrinsicLockAna-2016.02.04-at-11.25.06.712/sea_snapshot.xml.gz
+REMOTE: Done with JSure!
+REMOTE: Scanning complete in 6 seconds 467 ms (6,467 ms)
+REMOTE: No socket to close
+REMOTE: Closing std streams
+Process result after waiting = 0
