@@ -13,7 +13,6 @@ public class Test {
   @ReturnsLock("other:Lock")
   public Object method2(Other other) {
     // Okay, other is read, but not modified
-    // Issue a warning to make the parameter final
     Object o = other;
     return other;
   }

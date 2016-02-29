@@ -12,7 +12,6 @@ public class Test {
   @RequiresLock("other:Lock")
   public void method2(Other other) {
     // Okay, other is read, but not modified
-    // Issue a warning to make the parameter final
     Object o = other;
   }
 
