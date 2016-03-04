@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
-<projects path="TestLambdasAndNull-2016.03.02-at-15.22.49.713"
+<projects path="TestLambdasAndNull-2016.03.04-at-13.48.06.809"
  location="/Users/aarong/Work/Eclipse-Workspaces/Eclipse-luna/Fluid Java 8 Regression"
 
- date="-2016.03.02-at-15.22.49.713">
+ date="-2016.03.04-at-13.48.06.809">
 
   <project id="0"
    name="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"
@@ -81,12 +81,6 @@
    location="/Users/aarong/git/regression/regression-java8/promises"
    sourceLevel="8">
 
-    <project name="promises"/>
-
-    <source path="src"
-     bin-path="bin"
-     is-exported="true"/>
-
     <project name="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
 
     <jar path="/Users/aarong/git/regression/regression-java8/promises/promises8-5.6.0.jar"
@@ -115,11 +109,17 @@
 
     <project name="promises"/>
 
+    <java-source-file path="TestLambdasAndNull/src/more/Test.java"
+     qname="more.Test"
+     location="/Users/aarong/git/regression/regression-java8/TestLambdasAndNull/src/more/Test.java"/>
+
     <java-source-file path="TestLambdasAndNull/src/test/Test.java"
      qname="test.Test"
      location="/Users/aarong/git/regression/regression-java8/TestLambdasAndNull/src/test/Test.java"/>
 
   <package name="test"/>
+
+  <package name="more"/>
 
   <option name="sourceLevel"
    value="8"/>
